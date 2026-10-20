@@ -1,4 +1,4 @@
-# Gepard 35 mm SPAA — early WIP
+# Gepard 35 mm SPAA â€” early WIP
 
 Release source and cooked assets for an experimental Gepard in Arma Reforger. This is an early WIP: several functions are unfinished and improvements are planned.
 
@@ -11,6 +11,10 @@ Release source and cooked assets for an experimental Gepard in Arma Reforger. Th
 - Ballistics, aiming correction and stabilization remain unfinished.
 - Multiplayer, join-in-progress, dedicated-server and console behavior are not fully qualified.
 - Sounds use stock game assets.
+
+## Basic controls
+
+Open the appropriate hatch and use Get in. Driver: hold R to start, W/A/S/D to drive/brake/steer, Space for the handbrake. Gunner: right-click for sights, mouse to aim and left-click to fire. Use the crew controls to change seats; X exits. Crew and optics bindings can be changed in the controls menu. Rearm each feed through its side action near a supply source.
 
 ## Contents and local use
 
