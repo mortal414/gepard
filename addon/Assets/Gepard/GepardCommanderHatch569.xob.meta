@@ -1,0 +1,132 @@
+MetaFileClass {
+ Name "{D561AD08932E96A9}Assets/Gepard/GepardCommanderHatch569.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardCommanderHatch569.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 0
+   MaterialAssigns {
+    MaterialAssignClass "{D62101929DDD6E40}" {
+     SourceMaterial "GEP_CrewRoof_Lids_ServiceB_20261017"
+     AssignedMaterial "{39CF4668FA6D4D71}Assets/Gepard/ServiceWear656/MAT_8bb6e0cb99_Service.emat"
+    }
+    MaterialAssignClass "{D62147CCD176AD60}" {
+     SourceMaterial "GEP_grille_paint"
+     AssignedMaterial "{D561AD08932E6004}Assets/Gepard/Surface/grille_paint.emat"
+    }
+    MaterialAssignClass "{D621B13E4FC6BE1E}" {
+     SourceMaterial "GEP_rubber"
+     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardCommanderHatch569 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_CommanderHatch569 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_03 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_04 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_05 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_06 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_07 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_08 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_09 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CommanderHatch569_Leaf621_10 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

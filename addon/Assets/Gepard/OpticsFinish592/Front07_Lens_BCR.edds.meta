@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{6F03B555A61B47DB}Assets/Gepard/OpticsFinish592/Front07_Lens_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   SourceFile "Front07_Lens_BCR.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

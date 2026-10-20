@@ -1,0 +1,100 @@
+Vehicle : "{0608D8FA71FD3433}Prefabs/Vehicles/Core/TrackedVehicle_Base.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" { Object "{D561AD08932E1202}Assets/Mobility/MobilityRig.xob" }
+  RigidBody "{51DAA09FECF52BBF}" { Mass 47500 CenterOfMass 0 1.08 0 }
+  VehicleTrackedSimulation "{6160DE6434513C4D}" {
+   Simulation Tracked "{6160DE65F2933990}" {
+    SolverSubsteps 4
+    Engine Engine Engine { Inertia 3 InertiaCoupled 35 Steepness 50 Friction 470 MaxPower 610 MaxTorque 3000 RpmMaxPower 2200 RpmMaxTorque 1800 RpmIdle 700 RpmRedline 2300 RpmMax 2500 Output "Clutch" }
+    Clutch Clutch Clutch { MaxClutchTorque 3800 Output "Gearbox" }
+    Gearbox Gearbox Gearbox { Forward { 4.8 3.2 2.1 1.4 0.95 0.68 } Reverse 4.8 Efficiency 0.9 Output "none" }
+    Differential TripleDifferential "{663757C64F4BFDDD}" { Ratio 6.7 SteeringRatio 4 NeutralSteeringRatio 4 }
+    FrictionCurveLongitudinal CurveCubicSplineFloat "{D561AD08932E5510}" { SplineType Linear EndCondition OpenFlat Knots { 0 1 } ParamMin 0 ParamMax 1 ValueMin 0 ValueMax 1 UnrestrictedFlags 0 Values { 1 1 } }
+    FrictionCurveLateral CurveCubicSplineFloat "{D561AD08932E5511}" { SplineType Linear EndCondition OpenFlat Knots { 0 1 } ParamMin 0 ParamMax 1 ValueMin 0 ValueMax 1 UnrestrictedFlags 0 Values { 1 1 } }
+    RoadWheel RoadWheel { Mass 120 Radius 0.35 BrakeTorque 14000 Suspension Suspension { SpringRate 450 CompressionDamper 30000 RelaxationDamper 40000 MaxTravelUp 0.18 MaxTravelDown 0.14 RayStartOffsetUp 0.1 } }
+    Sprocket Sprocket { Mass 180 Radius 0.43 BrakeTorque 18000 }
+    Idler Idler { Mass 150 Radius 0.43 BrakeTorque 4000 }
+    Roller Roller { Mass 20 Radius 0.15 }
+    NeutralSteering 1
+    Tracks {
+     Track Left { Wheels {
+      TrackPart P0 { Type 1 Pivot Pivot { Bone "GEP_Track_L_00" Position 0 0 0 } }
+      TrackPart P1 { Type 0 Pivot Pivot { Bone "GEP_Track_L_01" Position 0 0 0 } }
+      TrackPart P2 { Type 0 Pivot Pivot { Bone "GEP_Track_L_02" Position 0 0 0 } }
+      TrackPart P3 { Type 0 Pivot Pivot { Bone "GEP_Track_L_03" Position 0 0 0 } }
+      TrackPart P4 { Type 0 Pivot Pivot { Bone "GEP_Track_L_04" Position 0 0 0 } }
+      TrackPart P5 { Type 0 Pivot Pivot { Bone "GEP_Track_L_05" Position 0 0 0 } }
+      TrackPart P6 { Type 0 Pivot Pivot { Bone "GEP_Track_L_06" Position 0 0 0 } }
+      TrackPart P7 { Type 0 Pivot Pivot { Bone "GEP_Track_L_07" Position 0 0 0 } }
+      TrackPart P8 { Type 2 Pivot Pivot { Bone "GEP_Track_L_08" Position 0 0 0 } }
+      TrackPart P9 { Type 3 Pivot Pivot { Bone "GEP_Track_L_09" Position 0 0 0 } }
+      TrackPart P10 { Type 3 Pivot Pivot { Bone "GEP_Track_L_10" Position 0 0 0 } }
+      TrackPart P11 { Type 3 Pivot Pivot { Bone "GEP_Track_L_11" Position 0 0 0 } }
+     } }
+     Track Right { Wheels {
+      TrackPart P0 { Type 1 Pivot Pivot { Bone "GEP_Track_R_00" Position 0 0 0 } }
+      TrackPart P1 { Type 0 Pivot Pivot { Bone "GEP_Track_R_01" Position 0 0 0 } }
+      TrackPart P2 { Type 0 Pivot Pivot { Bone "GEP_Track_R_02" Position 0 0 0 } }
+      TrackPart P3 { Type 0 Pivot Pivot { Bone "GEP_Track_R_03" Position 0 0 0 } }
+      TrackPart P4 { Type 0 Pivot Pivot { Bone "GEP_Track_R_04" Position 0 0 0 } }
+      TrackPart P5 { Type 0 Pivot Pivot { Bone "GEP_Track_R_05" Position 0 0 0 } }
+      TrackPart P6 { Type 0 Pivot Pivot { Bone "GEP_Track_R_06" Position 0 0 0 } }
+      TrackPart P7 { Type 0 Pivot Pivot { Bone "GEP_Track_R_07" Position 0 0 0 } }
+      TrackPart P8 { Type 2 Pivot Pivot { Bone "GEP_Track_R_08" Position 0 0 0 } }
+      TrackPart P9 { Type 3 Pivot Pivot { Bone "GEP_Track_R_09" Position 0 0 0 } }
+      TrackPart P10 { Type 3 Pivot Pivot { Bone "GEP_Track_R_10" Position 0 0 0 } }
+      TrackPart P11 { Type 3 Pivot Pivot { Bone "GEP_Track_R_11" Position 0 0 0 } }
+     } }
+    }
+   }
+  }
+  BaseVehicleNodeComponent "{5D6501223785D0E7}" {
+   components { SCR_TrackedControllerComponent "{60F8D3F71B2F1D79}" { ThrottleReverseTarget 1 } }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{D561AD08932E2001}" {
+     ContextName "driver_entry"
+     AnimDoorIndex 0
+     GetInTeleport 1
+     GetOutTeleport 1
+     EntryPositionInfo PointInfo "{D561AD08932E2002}" { Offset 2 0.1 2.3 }
+     ExitPositionInfo PointInfo "{D561AD08932E2003}" { Offset 2 0.1 2.3 }
+     ExitTeleportPositionInfo PointInfo "{D561AD08932E2004}" { Offset 2 0.1 2.3 }
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     SeatType 0 ForcedFreeLook 1 CharacterHasCollision 0 SkipCharacterDoorAnimationsFromSeat 1
+     DoorInfoList { 0 }
+     CompartmentAction GEP_GetInDriver579 "{5086DB209BDE8253}" { ParentContextList { "driver_entry" } VisibilityRange 5 }
+     GetOutAction SCR_GetOutAction "{509D56667AFC4BD5}" { ParentContextList { "driver_hatch_inside" } VisibilityRange 5 UIInfo SCR_ActionUIInfo { Name "Exit driver hatch" } }
+     SwitchSeatAction GEP_SwitchSeatAction "{509D56667885A8DC}" { VisibilityRange 5 ParentContextList { "driver_seat" } UIInfo SCR_ActionUIInfo { Name "Move to driver" } }
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" { Offset 0.5 1.3 2.2 }
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   AllowCrossHierarchy 1
+   ActionContexts {
+    UserActionContext "{D561AD08932E2010}" { UIInfo SCR_ActionContextUIInfo { Name "Driver hatch" } ContextName "driver_entry" Position PointInfo "{D561AD08932E2011}" { Offset 0.5 1.50 2.43 } Radius 1.0 Height 0.7 }
+    UserActionContext "{D561AD08932E2012}" { UIInfo SCR_ActionContextUIInfo { Name "Driver controls" } ContextName "driver_controls" Position PointInfo { Offset 0.5 1.6 2.65 } Radius 0.45 Height 0.4 }
+   }
+  }
+  CompartmentAnimationComponent "{5242E42C7B4B2CEE}" { Enabled 0 }
+  VehicleAnimationComponent "{5D6501223785D004}" {
+   AnimGraph "{847F34F75C70A43A}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.agr"
+   AnimInstance "{7F0306C8DC7B6893}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_vehicle.asi"
+   StartNode "VehicleMasterControl"
+   AnimInjection AnimationAttachmentInfo "{5D6501223785D005}" {
+    AnimGraph "{847F34F75C70A43A}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.agr"
+    AnimInstance "{4D3CA2D353C4FB44}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_player.asi"
+    BindingName "Vehicle"
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" { m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" { Name "Native tracked mobility prototype" Description "Original temporary rig, not final Gepard art. Genuine native tracked simulation. Physical and multiplayer acceptance pending." } }
+ }
+}
+
+
+

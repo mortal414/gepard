@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{7C3171139EFF43D4}Assets/Gepard/GepardFullWidthApron606.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardFullWidthApron606.fbx"
+   ExportSkinning 1
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{AE7D368A221147DD}" {
+     SourceMaterial "GEP_FrontApron_FullWidth_Coating_Left"
+     AssignedMaterial "{A7C3CE061D77414E}Assets/Gepard/ServiceWear656/MAT_bacade8b87_Service.emat"
+    }
+    MaterialAssignClass "{B3D610C5F7104729}" {
+     SourceMaterial "GEP_FrontApron_FullWidth_Coating_Right"
+     AssignedMaterial "{CE477A321D90426C}Assets/Gepard/ServiceWear656/MAT_daf31de258_Service.emat"
+    }
+    MaterialAssignClass "{D641259BB7923970}" {
+     SourceMaterial "GEP_Service641_FrontApronLeft"
+     AssignedMaterial "{E504AC1BFFE34FE3}Assets/Gepard/ServiceWear656/MAT_d9647a990d_Service.emat"
+    }
+    MaterialAssignClass "{D641D4D511068794}" {
+     SourceMaterial "GEP_Service641_FrontApronRight"
+     AssignedMaterial "{E1F8BBED36294DC9}Assets/Gepard/ServiceWear656/MAT_8f02775532_Service.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GEP_FullWidthApron {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

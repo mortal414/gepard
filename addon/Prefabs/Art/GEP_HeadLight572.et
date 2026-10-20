@@ -1,0 +1,9 @@
+LightEntity : "{8E0D13E02E4229A2}Prefabs/Vehicles/Core/Lights/VehicleLight_Head_Base.et" {
+ LV 9
+ CastShadow 1
+ NearPlane 0.01
+ LensFlareType Automatic
+ LensFlareScale 0.15
+ LensFlareOffset 0.04
+}
+

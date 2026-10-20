@@ -1,0 +1,28 @@
+MetaFileClass {
+ Name "{1DBF941C6FA84042}Assets/Gepard/RemainingExterior669/RoofEyes669.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "RoofEyes669.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{328787E3D93A4F9B}" { SourceMaterial "GEP669_RoofPaint" AssignedMaterial "{9403E2C8F47A4CD3}Assets/Gepard/RemainingExterior669/GEP669_RoofPaint.emat" }
+   }
+   MeshParams { MeshParam GEP669_RoofEyes {} }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

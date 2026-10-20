@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{3439276ECA9B443B}Assets/Gepard/RearPaint666/Rear663_AllLODs_EngineTops_BCR.edds"
+ NMOMap "{1E7E343D34464440}Assets/Gepard/RearPaint666/Rear663_AllLODs_EngineTops_NMO_TARGET_TRIAL.edds"
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{A83C4721B62F1100}Assets/Gepard/Finish/CabinShell_BCR.edds"
+ NMOMap "{A83C4721B62F1101}Assets/Gepard/Finish/CabinShell_NMO.edds"
+}

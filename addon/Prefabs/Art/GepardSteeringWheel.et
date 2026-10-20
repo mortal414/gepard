@@ -1,0 +1,6 @@
+GenericEntity {
+ components {
+  Hierarchy {}
+  MeshObject { Object "{D561AD08932E7720}Assets/Gepard/GepardSteeringWheel.xob" }
+ }
+}

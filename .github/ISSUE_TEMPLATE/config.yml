@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Reforger Agent Harness feedback
+    url: https://github.com/MarcoBetti1/reforger-agent-harness/issues
+    about: Report problems with generic capture or automation tools in the separate harness repository.

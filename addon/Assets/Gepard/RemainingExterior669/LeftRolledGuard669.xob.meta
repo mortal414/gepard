@@ -1,0 +1,29 @@
+MetaFileClass {
+ Name "{BD6203B3C39B48AB}Assets/Gepard/RemainingExterior669/LeftRolledGuard669.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "LeftRolledGuard669.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{B1CEE82CB5144AA7}" { SourceMaterial "GEP669_GuardPaint" AssignedMaterial "{3AF45E76FBEC429B}Assets/Gepard/RemainingExterior669/GEP669_GuardPaint.emat" }
+    MaterialAssignClass "{68D7DBC065414195}" { SourceMaterial "GEP669_GuardRecess" AssignedMaterial "{FA912928576A4755}Assets/Gepard/RemainingExterior669/GEP669_GuardRecess.emat" }
+   }
+   MeshParams { MeshParam GEP669_RolledGuard {} }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

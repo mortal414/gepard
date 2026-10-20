@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{91B71DD4BFDF45E9}Assets/Gepard/OpticsFinish592/Front07_Seal_BCR.edds"
+ NMOMap "{7ED34DB90A51439E}Assets/Gepard/OpticsFinish592/Front07_Seal_NMO.edds"
+}

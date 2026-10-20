@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{EA3461F80E0B40A5}Assets/Gepard/GunConstruction581/GunRight_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+   SourceFile "GunRight_NMO.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

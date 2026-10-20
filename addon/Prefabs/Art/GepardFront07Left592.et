@@ -1,0 +1,1 @@
+GameEntity { components { Hierarchy {} MeshObject "{1158B52857B04885}" { Object "{8CB738F08DE945A2}Assets/Gepard/GepardFront07Left592.xob" } ParametricMaterialInstanceComponent "{A8FFCA4D441B49A9}" { EmissiveMultiplier 0 ApplyPropertiesWhenMeshChanged 1 } } }

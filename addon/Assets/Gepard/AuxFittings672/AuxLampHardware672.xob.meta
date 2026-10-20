@@ -1,0 +1,30 @@
+MetaFileClass {
+ Name "{7DE26BEA8A3045EE}Assets/Gepard/AuxFittings672/AuxLampHardware672.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "AuxLampHardware672.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{37788574C91146B1}" { SourceMaterial "GEP672_Paint" AssignedMaterial "{9465F886357A4973}Assets/Gepard/AuxFittings672/GEP672_Paint.emat" }
+    MaterialAssignClass "{5AD125244B6C4080}" { SourceMaterial "GEP672_DarkCap" AssignedMaterial "{655146F084DE4935}Assets/Gepard/AuxFittings672/GEP672_DarkCap.emat" }
+    MaterialAssignClass "{B6DE87279DBA4105}" { SourceMaterial "GEP672_UnlitLens" AssignedMaterial "{F8AA9739D2D84955}Assets/Gepard/AuxFittings672/GEP672_UnlitLens.emat" }
+   }
+   MeshParams { MeshParam GEP672_AuxLampHardware {} }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{D561AD08932E5101}Assets/Gepard/GepardCabin.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardCabin.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{D561AD08932E8500}" {
+     SourceMaterial "GEP_CabinExteriorPaint"
+     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
+    }
+    MaterialAssignClass "{6A9B044E6BAD5436}" {
+     SourceMaterial "GEP_Finish_CabinShell"
+     AssignedMaterial "{A83C4721B62F1000}Assets/Gepard/Finish/CabinShell.emat"
+    }
+    MaterialAssignClass "{6A9B044E6BAD544D}" {
+     SourceMaterial "GEP_Finish_CabinPanels"
+     AssignedMaterial "{A83C4721B62F1001}Assets/Gepard/Finish/CabinPanels.emat"
+    }
+    MaterialAssignClass "{6A9B044E6BAD5456}" {
+     SourceMaterial "GEP_ConsoleArtwork"
+     AssignedMaterial "{A83C4721B62F1002}Assets/Gepard/Finish/ConsoleArtwork.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardCabin {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{627F225E34E4B5F1}Prefabs/Weapons/Warheads/Warhead_HEIT_M792.et" {
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5D38C8F8C6A477C7}" {
+     ChargeWeight 65
+     TntEquivalent 1.6
+     ExplosionEffects { ExplosionFragmentationEffect "{567CBC1D7AB652C7}" { DamageFragmentCount 240 CaseWeight 430 } }
+    }
+   }
+  }
+ }
+}

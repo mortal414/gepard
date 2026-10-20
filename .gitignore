@@ -1,0 +1,8 @@
+.cache/
+profile/
+logs/
+downloads/
+*.pak
+*.zip
+*.bak
+*.log

@@ -1,0 +1,38 @@
+MetaFileClass {
+ Name "{D561AD08932E7720}Assets/Gepard/GepardSteeringWheel.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardSteeringWheel.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{D561AD08932E7722}" {
+     SourceMaterial "CabinRubber"
+     AssignedMaterial "{D561AD08932E7002}Assets/Gepard/Interior/CabinRubber.emat"
+    }
+    MaterialAssignClass "{D561AD08932E7723}" {
+     SourceMaterial "CabinEquipment"
+     AssignedMaterial "{D561AD08932E7001}Assets/Gepard/Interior/CabinEquipment.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardSteeringWheel {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

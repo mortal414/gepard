@@ -1,0 +1,10 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 0
+ BCRMap "{A83C4721B62F110A}Assets/Gepard/Finish/DriverArtwork_BCR.edds"
+ NMOMap "{A83C4721B62F110B}Assets/Gepard/Finish/DriverArtwork_NMO.edds"
+ Emissive 0.8 0.9 0.72 0
+ EmissiveLV 0
+ EmissiveMap "{D561AD08932E9001}Assets/Gepard/Finish/DriverArtwork_EM.edds"
+ ReceiveShadow 0
+}

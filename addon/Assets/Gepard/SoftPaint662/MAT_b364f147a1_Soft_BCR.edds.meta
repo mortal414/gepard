@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{BE2283BBAA874495}Assets/Gepard/SoftPaint662/MAT_b364f147a1_Soft_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   SourceFile "MAT_b364f147a1_Soft_BCR.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

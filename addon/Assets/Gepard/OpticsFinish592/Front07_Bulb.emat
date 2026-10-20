@@ -1,0 +1,12 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{24956957527D45AE}Assets/Gepard/OpticsFinish592/Front07_Bulb_BCR.edds"
+ NMOMap "{5434EE36A9A548DA}Assets/Gepard/OpticsFinish592/Front07_Bulb_NMO.edds"
+ EmissiveMap "{9221F4E42C7A4B6F}Assets/Gepard/OpticsFinish592/Front07_Bulb_Emissive.edds"
+ Emissive 1 0.92 0.78 1
+ EmissiveLV 1
+ EmissiveAbsoluteLV 0
+ SortBias -2
+}

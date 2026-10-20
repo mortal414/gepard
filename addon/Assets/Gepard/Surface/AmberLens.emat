@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{D561AD08932E6100}Assets/Gepard/Surface/AmberLens_BCR.edds"
+ NMOMap "{D561AD08932E6101}Assets/Gepard/Surface/AmberLens_NMO.edds"
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 0
+ BCRMap "{D561AD08932E9533}Assets/Gepard/Surface/Wreck526_BCR.edds"
+}

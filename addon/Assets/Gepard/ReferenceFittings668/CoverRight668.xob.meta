@@ -1,0 +1,28 @@
+MetaFileClass {
+ Name "{18B4F89BDDA048B6}Assets/Gepard/ReferenceFittings668/CoverRight668.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "CoverRight668.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{9588639AAC3240B9}" { SourceMaterial "GEP668_CoverRight" AssignedMaterial "{20AA71BA90054E04}Assets/Gepard/ReferenceFittings668/GEP668_CoverRight.emat" }
+   }
+   MeshParams { MeshParam GEP668_CoverRight {} }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,10 @@
+GameProject {
+ ID "Gepard"
+ GUID "D561AD08932E7B40"
+ TITLE "Gepard 35 mm SPAA (WIP)"
+ Dependencies { "58D0FB3206B6F859" }
+ Configurations {
+  GameProjectConfig PC {}
+  GameProjectConfig HEADLESS : PC {}
+ }
+}

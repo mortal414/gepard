@@ -1,0 +1,1 @@
+GenericEntity { components { Hierarchy {} MeshObject "{2CA6C2FACC2B441B}" { Object "{C510E9A66F7D471E}Assets/Gepard/GepardSearchYawSupport.xob" } SlotManagerComponent "{17FFEF5ECB1E4A26}" { Slots { EntitySlotInfo GepardSearchHead { Offset 0 0 0 Prefab "{D561AD08932E3005}Prefabs/Art/GepardSearchHead.et" } } } } }

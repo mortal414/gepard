@@ -1,0 +1,6 @@
+GenericEntity {
+ components {
+  Hierarchy {}
+  MeshObject { Object "{BAB7C485A7CD3B7C}Assets/Gepard/BearingBosses/GepardBearingBosses.xob" }
+ }
+}

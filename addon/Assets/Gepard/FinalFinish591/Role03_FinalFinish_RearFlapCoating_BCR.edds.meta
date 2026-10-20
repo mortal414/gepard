@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{FF740A6683FE46D9}Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   SourceFile "Role03_FinalFinish_RearFlapCoating_BCR.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

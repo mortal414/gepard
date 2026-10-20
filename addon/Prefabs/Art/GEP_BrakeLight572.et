@@ -1,0 +1,5 @@
+LightEntity : "{29C9409481D613E5}Prefabs/Vehicles/Core/Lights/VehicleLight_Brake_Base.et" {
+ LensFlareType Automatic
+ LensFlareScale 0.08
+ LensFlareOffset 0.035
+}

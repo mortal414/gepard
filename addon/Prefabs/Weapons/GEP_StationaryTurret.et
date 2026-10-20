@@ -1,0 +1,200 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ components {
+  BaseLightManagerComponent "{D561AD08932E8743}" {
+   LightSlots {
+    SCR_LightSlot "{D561AD08932E8741}" : "{50D459CD2CEC9DAD}Prefabs/Vehicles/Core/Lights/Light_Dashboard.conf" {
+     LightPositionInfo EntitySlotInfo "{51E2210D04212E5A}" { PivotID "GEP_TurretYaw" Offset 0 1.15 0.30 Angles 0 90 0 }
+     LightPrefab "{D561AD08932E8740}Prefabs/Art/GepardCabinLight.et"
+     LightRadiusOverride 1.2
+     LightConeAngleOverride 150
+     LightCastShadowsOverride 0
+    }
+   }
+  }
+  WeaponSoundComponent "{D561AD08932E8744}" {
+   Filenames {
+    "{3322930D81ABC69D}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Turret_LP.acp"
+    "{4EF324B675F87C72}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Turret.acp"
+   }
+   DistanceManagement 0
+   IncludeInactive 1
+  }
+
+  GEP_TurretHatches569 "{D561AD08932E9691}" {}
+  GEP_GunStatus "{D561AD08932E5350}" {}
+  GEP_GunInputContext579 "{D561AD08932E9810}" {}
+  GEP_Optical444 "{D561AD08932E8440}" {}
+  GEP_Range676 "{D561AD08932EF679}" {}
+  GEP_FireControl "{D561AD08932EF683}" {}
+  MeshObject "{51ACD09C4E0B7D16}" { Object "{D561AD08932E5100}Assets/Gepard/GepardTurretRig.xob" }
+  MultiFireWeaponManagerComponent "{51ACD09C55D6C1AD}" { DefaultWeaponIndex 0 }
+  SCR_UniversalInventoryStorageComponent "{58F8DC79D093C82D}" {}
+  InventoryStorageManagerComponent "{D561AD08932E5361}" {}
+  RigidBody "{51ACD09C423F175F}" { Static 0 Kinematic 1 ModelGeometry 1 }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters { ProcAnimParams "{D561AD08932E5300}" { ResourceName "{F41BA441BB78161D}anims/proc/turret.pap" BoneNames { "GEP_TurretYaw" "GEP_GunElevation" } AlwaysSimulateOwner 1 } }
+  }
+  GEP_FireModeManager579 "{D561AD08932E5301}" {
+   m_aWeaponGroups {
+    SCR_WeaponGroup Both { m_sWeaponGroupName "Twin 35 mm" m_aWeaponsGroupIds { 0 1 } m_eFireMode SALVO m_aRippleFireQuantities { 1 } }
+    SCR_WeaponGroup Left { m_sWeaponGroupName "Left 35 mm" m_aWeaponsGroupIds { 0 } m_eFireMode SALVO m_aRippleFireQuantities { 1 } }
+    SCR_WeaponGroup Right { m_sWeaponGroupName "Right 35 mm" m_aWeaponsGroupIds { 1 } m_eFireMode SALVO m_aRippleFireQuantities { 1 } }
+   }
+  }
+  TurretComponent "{D561AD08932E5302}" {
+   components {
+    GEP_RoofSights438 "{D561AD08932E5303}" : "{73632628E1428A0D}Prefabs/Vehicles/Wheeled/LAV25/Configs/Optics/MainOptic_LAV25.ct" {
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{64B2EBD96481BC82}" { m_fBaseZoom 2 m_fZoomMax 8 m_fStepZoomSize 2 }
+     m_bHasIllumination 0
+     SightsPosition PointInfo { PivotID "GEP_TurretYaw" Offset 0.43 1.44 0.78 }
+     SightsPointFront PointInfo { PivotID "GEP_GunElevation" Offset 0.43 0.61 0.58 }
+     SightsPointRear PointInfo { PivotID "GEP_GunElevation" Offset 0.43 0.61 0.48 }
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass { signalsSuffix "Turret" }
+   ProvideAimingType MainTurret
+   LimitsHoriz -180 180
+   LimitsVert -5 85
+   ikTargets {
+    AnimationIKTargetInfo "{D561AD08932E7500}" {
+     BindingName "RHandIKTargetTurret"
+     PositionInfo PointInfo "{D561AD08932E7501}" {
+      PivotID "GEP_TurretYaw"
+      Offset 0.61 0.709 0.185
+      Angles -16.4188 -117.951 -95.0816
+     }
+    }
+   }
+   AimingMaxSpeed 80 65
+   AimingSpeedControls 0.1 0.1
+   TurretSpeed 80 65
+   TurretPartSignals { "AimTurnTurret" "AimElevationTurret" }
+   TurretSignalsToVehicle 0
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   UniqueTurretName "Gepard35"
+   CanAimOnlyInADS 1
+   UseVehicleCamera 1
+   LimitsHoriz -180 180
+   LimitsVert -5 85
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   SharedShotSpanIndex -1
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" { PivotID "GEP_GunElevation" Offset -1.42 0 0 MergePhysics 0 DisablePhysicsInteraction 1 UpdateReplicationParent 1 }
+   WeaponTemplate "{D561AD08932E4030}Prefabs/Weapons/GEP_35_GunLeft.et"
+   WeaponSlotIndex 0
+  }
+  WeaponSlotComponent "{D561AD08932E5310}" {
+   SignalsSourceAccess SignalsSourceAccessClass { signalsSuffix "Turret" }
+   useAimingType MainTurret
+   SharedShotSpanIndex -1
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot { PivotID "GEP_GunElevation" Offset 1.42 0 0 MergePhysics 0 DisablePhysicsInteraction 1 UpdateReplicationParent 1 }
+   WeaponTemplate "{D561AD08932E4031}Prefabs/Weapons/GEP_35_GunRight.et"
+   WeaponSlotIndex 1
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{D561AD08932E5320}" {
+     ContextName "gunner_entry" AnimDoorIndex 5 GetInTeleport 1 GetOutTeleport 1
+     EntryPositionInfo PointInfo { PivotID "GEP_TurretYaw" Offset 2.016 -1.4 -0.29 }
+     ExitPositionInfo PointInfo { PivotID "GEP_TurretYaw" Offset 2.016 -1.4 -0.29 }
+     ExitTeleportPositionInfo PointInfo { PivotID "GEP_TurretYaw" Offset 2.016 -1.4 -0.29 }
+     PortalPositionInfo PointInfo { PivotID "GEP_TurretYaw" Offset 0.48 1.45 -0.29 }
+     OpenDoorAction GEP_OpenHatch569 { ParentContextList { "gunner_entry" "gunner_hatch_inside" } UIInfo SCR_ActionUIInfo { Name "Open gunner hatch" m_sIconName "veh_door" } }
+     CloseDoorAction GEP_CloseHatch569 { ParentContextList { "gunner_entry" "gunner_hatch_inside" } UIInfo SCR_ActionUIInfo { Name "Close gunner hatch" m_sIconName "veh_door" } }
+    }
+    CompartmentDoorInfo "{D561AD08932E9692}" {
+     ContextName "commander_entry" AnimDoorIndex 1 GetInTeleport 1 GetOutTeleport 1
+     EntryPositionInfo PointInfo { PivotID "GEP_TurretYaw" Offset -2.016 -1.4 -0.29 }
+     ExitPositionInfo PointInfo { PivotID "GEP_TurretYaw" Offset -2.016 -1.4 -0.29 }
+     ExitTeleportPositionInfo PointInfo { PivotID "GEP_TurretYaw" Offset -2.016 -1.4 -0.29 }
+     PortalPositionInfo PointInfo { PivotID "GEP_TurretYaw" Offset -0.48 1.45 -0.29 }
+     OpenDoorAction GEP_OpenHatch569 { ParentContextList { "commander_entry" "commander_hatch_inside" } UIInfo SCR_ActionUIInfo { Name "Open commander hatch" m_sIconName "veh_door" } }
+     CloseDoorAction GEP_CloseHatch569 { ParentContextList { "commander_entry" "commander_hatch_inside" } UIInfo SCR_ActionUIInfo { Name "Close commander hatch" m_sIconName "veh_door" } }
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     DoorInfoList { 0 }
+     SeatType 5
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" { ParentContextList { "gunner_hatch_inside" "gunner_entry" } UIInfo SCR_ActionUIInfo { Name "Exit gunner hatch" } }
+     CharacterHasCollision 0
+     SkipCharacterDoorAnimationsFromSeat 1
+     CompartmentAction GEP_GetInHatch569 "{5086CC2CFDD3A05A}" { ParentContextList { "gunner_entry" } }
+     SwitchSeatAction GEP_SwitchSeatAction "{509D566648F37562}" { Duration 0.5 VisibilityRange 5 ParentContextList { "gunner_seat" } UIInfo SCR_ActionUIInfo { Name "Move to gunner" } }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" { PivotID "GEP_GunnerSeat" Offset 0 0.4 0 }
+     UIInfo SCR_ActionUIInfo { Name "Gepard gunner" }
+    }
+    CargoCompartmentSlot Commander {
+     JumpOutAction SCR_JumpOutAction { UIInfo SCR_ActionUIInfo : "{66FA02022BE60AC7}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_Eject.conf" {} "Sort Priority" 12 }
+     SeatType 1 ForcedFreeLook 1 CharacterHasCollision 0 SkipCharacterDoorAnimationsFromSeat 1
+     DoorInfoList { 1 }
+     PassengerPositionInfo EntitySlotInfo { PivotID "GEP_CommanderSeat" Offset 0 0.4 0 }
+     UIInfo SCR_ActionUIInfo { Name "Gepard commander / observer" m_sIconName "veh_commander" }
+     CompartmentAction GEP_GetInHatch569 { ParentContextList { "commander_entry" } UIInfo SCR_ActionUIInfo { Name "Get in commander" m_sIconName "veh_commander" } }
+     GetOutAction SCR_GetOutAction { ParentContextList { "commander_hatch_inside" "commander_entry" } UIInfo SCR_ActionUIInfo { Name "Exit commander hatch" } }
+     SwitchSeatAction GEP_SwitchSeatAction { Duration 0.5 VisibilityRange 5 ParentContextList { "commander_seat" } UIInfo SCR_ActionUIInfo { Name "Get in commander" m_sIconName "veh_commander" } }
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   AllowCrossHierarchy 1
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" { UIInfo SCR_ActionContextUIInfo { Name "Gunner hatch" } ContextName "gunner_entry" Position PointInfo "{51ACFBB061993925}" { PivotID "GEP_TurretYaw" Offset 0.48 1.49 -0.29 } Radius 0.34 Height 0.3 }
+    UserActionContext "{D561AD08932E5330}" { UIInfo SCR_ActionContextUIInfo { Name "Gunner controls" } ContextName "gunner_controls" Position PointInfo { PivotID "GEP_TurretYaw" Offset 0.43 0.72 0.42 } Radius 0.4 Height 0.4 }
+    UserActionContext "{D561AD08932E9693}" { UIInfo SCR_ActionContextUIInfo { Name "Commander hatch" } ContextName "commander_entry" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.48 1.49 -0.29 } Radius 0.34 Height 0.3 }
+    UserActionContext "{D561AD08932E9694}" { UIInfo SCR_ActionContextUIInfo { Name "Commander controls" } ContextName "commander_controls" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.43 0.72 0.42 } Radius 0.4 Height 0.4 }
+    UserActionContext "{D561AD08932E9820}" { ContextName "gunner_hatch_inside" Position PointInfo { PivotID "GEP_TurretYaw" Offset 0.48 1.39 -0.29 } Radius 0.20 Height 0.15 }
+    UserActionContext "{D561AD08932E9821}" { UIInfo SCR_ActionContextUIInfo { Name "Gunner seat" } ContextName "gunner_seat" Position PointInfo { PivotID "GEP_GunnerSeat" Offset 0 0.84 0.30 } Radius 0.13 Height 0.20 }
+    UserActionContext "{D561AD08932E9822}" { ContextName "gunner_radar_switch" Position PointInfo { PivotID "GEP_TurretYaw" Offset 0.42 0.72 0.42 } Radius 0.055 Height 0.10 }
+    UserActionContext "{D561AD08932E9823}" { ContextName "gunner_cabin_switch" Position PointInfo { PivotID "GEP_TurretYaw" Offset 0.54 0.72 0.42 } Radius 0.055 Height 0.10 }
+    UserActionContext "{D561AD08932E9824}" { ContextName "commander_hatch_inside" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.48 1.39 -0.29 } Radius 0.20 Height 0.15 }
+    UserActionContext "{D561AD08932E9825}" { UIInfo SCR_ActionContextUIInfo { Name "Commander seat" } ContextName "commander_seat" Position PointInfo { PivotID "GEP_CommanderSeat" Offset 0 0.84 0.30 } Radius 0.13 Height 0.20 }
+    UserActionContext "{D561AD08932E9826}" { ContextName "commander_radar_switch" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.54 0.72 0.42 } Radius 0.055 Height 0.10 }
+    UserActionContext "{D561AD08932E9827}" { ContextName "commander_cabin_switch" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.42 0.72 0.42 } Radius 0.055 Height 0.10 }
+    UserActionContext "{D561AD08932E5370}" { UIInfo SCR_ActionContextUIInfo { Name "35 mm ammunition service" } ContextName "gun_service" Position PointInfo { Offset -0.75 -0.4 -3.8 } Radius 0.55 Height 0.8 }
+   }
+   additionalActions {
+    GEP_RadarAction "{D561AD08932E9695}" { ParentContextList { "commander_radar_switch" } UIInfo SCR_ActionUIInfo { Name "Deploy radar" } Command 0 Station 2 }
+    GEP_StationLight579 "{D561AD08932E9696}" { ParentContextList { "commander_cabin_switch" } UIInfo SCR_ActionUIInfo { Name "Cabin light" m_sIconName "light" } m_eLightType Dashboard m_bPilotOnly 0 m_bInteriorOnly 1 Station 2 }
+
+
+    GEP_StationLight579 "{D561AD08932E8745}" { ParentContextList { "gunner_cabin_switch" } UIInfo SCR_ActionUIInfo { Name "Gunner cabin light" m_sIconName "light" } m_eLightType Dashboard m_bPilotOnly 0 m_bInteriorOnly 1 Station 1 }
+
+
+    
+    
+   }
+  }
+  CompartmentAnimationComponent "{5242E42C7B4B2CEE}" { Enabled 0 }
+  VehicleAnimationComponent "{D561AD08932E5360}" {
+   AnimGraph "{847F34F75C70A43A}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.agr"
+   AnimInstance "{7F0306C8DC7B6893}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_vehicle.asi"
+   StartNode "VehicleMasterControl"
+   AnimVariables {
+    AnimationVariable { VariableName "Yaw" SignalName "AimTurnTurret" }
+    AnimationVariable { VariableName "Pitch" SignalName "AimElevationTurret" }
+   }
+   AnimInjection AnimationAttachmentInfo {
+    AnimGraph "{847F34F75C70A43A}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.agr"
+    AnimInstance "{4D3CA2D353C4FB44}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_player.asi"
+    BindingName "Vehicle"
+   }
+   AutoVariablesBind 1
+   DeactivationDelay 2
+  }
+  SlotManagerComponent "{D561AD08932E5340}" {
+   Slots {
+    EntitySlotInfo Hull { Offset 0 -1.6 -0.15 Prefab "{D561AD08932E5202}Prefabs/Art/GepardHullOnly.et" }
+    RegisteringComponentSlotInfo GunnerHatch569 { MergePhysics 0 DisablePhysicsInteraction 1 RegisterDamage 1 PivotID "GEP_TurretYaw" Offset 0.48 1.468 -0.57 Prefab "{D561AD08932E9697}Prefabs/Art/GepardGunnerHatch569.et" }
+    RegisteringComponentSlotInfo CommanderHatch569 { MergePhysics 0 DisablePhysicsInteraction 1 RegisterDamage 1 PivotID "GEP_TurretYaw" Offset -0.48 1.468 -0.57 Prefab "{D561AD08932E9698}Prefabs/Art/GepardCommanderHatch569.et" }
+    EntitySlotInfo Cabin { PivotID "GEP_TurretYaw" Prefab "{D561AD08932E5201}Prefabs/Art/GepardCabin.et" }
+    EntitySlotInfo SearchRadar { PivotID "GEP_TurretYaw" Offset 0 1.13 -1.75 Prefab "{D561AD08932E3004}Prefabs/Art/GepardSearchBase.et" }
+    EntitySlotInfo TrackingRadar { PivotID "GEP_TurretYaw" Offset 0 0.76 1.37 Prefab "{D561AD08932E3006}Prefabs/Art/GepardTrackingBase.et" }
+   }
+  }
+ }
+}
+

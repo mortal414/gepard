@@ -1,0 +1,15 @@
+TracerProjectile : "{A47C098284929418}Prefabs/Weapons/Ammo/Ammo_25x137/Ammo_25x137_HEIT_M792.et" {
+ components {
+  CollisionTriggerComponent "{62B0F25E05EF1700}" {
+   PROJECTILE_EFFECTS { ExplosionEffect "{62B0F25E29D33FE3}" { EffectPrefab "{D561AD08932E4011}Prefabs/Weapons/GEP_35_HEIT_Warhead.et" } }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 1050
+   Mass 0.55
+   TimeToLive 7
+   AirDrag 0.00011
+   BallisticTableConfig ""
+  }
+ }
+ CartridgeModel ""
+}

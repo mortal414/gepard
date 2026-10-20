@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{81FE914B396843B3}Assets/Gepard/FinalFinish591/Role05_FinalFinish_RearPanelC_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+   SourceFile "Role05_FinalFinish_RearPanelC_NMO.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

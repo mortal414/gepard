@@ -1,0 +1,50 @@
+MetaFileClass {
+ Name "{D561AD08932E3104}Assets/Gepard/GepardSearchBase.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardSearchBase.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A9A37F16E9768B8}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
+    }
+    MaterialAssignClass "{6A9A37F16E97684F}" {
+     SourceMaterial "GEP_rubber"
+     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
+    }
+    MaterialAssignClass "{6A9A37F16E97685D}" {
+     SourceMaterial "GEP_Skin_GepardSearchBase"
+     AssignedMaterial "{D561AD08932E6204}Assets/Gepard/Surface/Skin_GepardSearchBase.emat"
+    }
+    MaterialAssignClass "{D62415C02A39D8E6}" {
+     SourceMaterial "GEP_SearchBase_CastService_20261017"
+     AssignedMaterial "{D6240E6E78204C32}Assets/Gepard/SearchBase624/SearchBase_CastService.emat"
+    }
+    MaterialAssignClass "{D6411571A43ABE07}" {
+     SourceMaterial "GEP_Service641_SearchBase"
+     AssignedMaterial "{D64173F92321CB07}Assets/Gepard/ServiceCoat641/SearchBase_Heavier.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardSearchBase {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

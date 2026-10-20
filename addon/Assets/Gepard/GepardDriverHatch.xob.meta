@@ -1,0 +1,48 @@
+MetaFileClass {
+ Name "{D561AD08932E7700}Assets/Gepard/GepardDriverHatch.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardDriverHatch.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{D561AD08932E7600}" {
+     SourceMaterial "CabinPale"
+     AssignedMaterial "{D561AD08932E7000}Assets/Gepard/Interior/CabinPale.emat"
+    }
+    MaterialAssignClass "{6A9A7E226DCEA53E}" {
+     SourceMaterial "GEP_Skin_GepardHull"
+     AssignedMaterial "{D561AD08932E6200}Assets/Gepard/Surface/Skin_GepardHull.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardDriverHatch {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_DriverHatch {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.3 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

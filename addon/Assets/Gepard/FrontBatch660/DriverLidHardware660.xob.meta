@@ -1,0 +1,26 @@
+MetaFileClass {
+ Name "{917FD80F01414D53}Assets/Gepard/FrontBatch660/DriverLidHardware660.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "DriverLidHardware660.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns { MaterialAssignClass "{8812A886CEA94993}" { SourceMaterial "GEP_DriverLid_FittingPaint" AssignedMaterial "{504588345202446C}Assets/Gepard/FrontBatch660/GEP_DriverLid_FittingPaint.emat" } }
+   MeshParams { MeshParam GEP_DriverLidHardware {} }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

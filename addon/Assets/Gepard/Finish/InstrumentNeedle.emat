@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.95 0.96 0.85 1
+ RoughnessScale 1
+ MetalnessScale 0
+ BCRMap "{D561AD08932E9004}Assets/Gepard/Finish/InstrumentWhite_BCR.edds"
+ Emissive 0.95 0.96 0.85 0
+ EmissiveLV 0
+ EmissiveMap "{D561AD08932E9004}Assets/Gepard/Finish/InstrumentWhite_BCR.edds"
+ ReceiveShadow 0
+}

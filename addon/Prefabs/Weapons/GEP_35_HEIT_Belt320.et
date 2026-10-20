@@ -1,0 +1,11 @@
+GenericEntity : "{8E0429589CD8A49A}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_150rnd_HEIT.et" {
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWell_GEP35_HEIT "{D561AD08932E4021}" {}
+   MaxAmmo 320
+   AmmoConfig "{D561AD08932E4000}Configs/Weapons/GEP_35_HEIT.conf"
+   AmmoMapping { 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+   UIInfo MagazineUIInfo "{57126733AA401586}" { Name "35 mm HEI-T belt (320 rounds)" Description "320-round HEI-T belt for one Gepard 35 mm gun feed. Rearm each feed separately." m_sAmmoCaliber "35x228 mm" m_sAmmoType "HEI-T" }
+  }
+ }
+}

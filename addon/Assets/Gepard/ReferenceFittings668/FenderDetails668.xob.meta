@@ -1,0 +1,29 @@
+MetaFileClass {
+ Name "{F9EED50D522040E2}Assets/Gepard/ReferenceFittings668/FenderDetails668.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "FenderDetails668.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{BAC40DAFA61D4C65}" { SourceMaterial "GEP668_FenderLeft" AssignedMaterial "{C5F0A5152E5F48CA}Assets/Gepard/ReferenceFittings668/GEP668_FenderLeft.emat" }
+    MaterialAssignClass "{CC78E9FB88224606}" { SourceMaterial "GEP668_FenderRight" AssignedMaterial "{49AF2AD90B1B4576}Assets/Gepard/ReferenceFittings668/GEP668_FenderRight.emat" }
+   }
+   MeshParams { MeshParam GEP668_FenderDetails {} }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

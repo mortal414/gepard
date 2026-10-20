@@ -1,0 +1,4 @@
+MetaFileClass {
+ Name "{D561AD08932E8510}Configs/EntityCatalog/GEP_Vehicle.conf"
+ Configurations { CONFResourceClass PC {} CONFResourceClass HEADLESS : PC {} CONFResourceClass XBOX_SERIES : PC {} CONFResourceClass PS5 : PC {} }
+}

@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{A9B9370FC5A049A7}Assets/Gepard/ExteriorClosure658/SearchCharcoal_Lip_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   SourceFile "SearchCharcoal_Lip_BCR.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

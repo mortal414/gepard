@@ -1,0 +1,5 @@
+LightEntity : "{AD63C2256020C1DD}Prefabs/Vehicles/Core/Lights/VehicleLight_Reverse_Base.et" {
+ LensFlareType Automatic
+ LensFlareScale 0.08
+ LensFlareOffset 0.035
+}

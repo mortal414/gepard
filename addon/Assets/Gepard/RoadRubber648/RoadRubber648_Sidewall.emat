@@ -1,0 +1,1 @@
+MatPBRBasic { RoughnessScale 1 MetalnessScale 1 AOScale 1 BCRMap "{969348266213C222}Assets/Gepard/RoadRubber648/RoadRubber648_Sidewall_BCR.edds" NMOMap "{EB2BF8718EC66032}Assets/Gepard/RoadRubber648/RoadRubber648_Sidewall_NMO.edds" }

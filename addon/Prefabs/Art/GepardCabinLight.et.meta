@@ -1,0 +1,4 @@
+MetaFileClass {
+ Name "{D561AD08932E8740}Prefabs/Art/GepardCabinLight.et"
+ Configurations { EntityTemplateResourceClass PC {} EntityTemplateResourceClass HEADLESS : PC {} }
+}

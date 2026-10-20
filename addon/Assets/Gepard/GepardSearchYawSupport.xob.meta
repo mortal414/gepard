@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{C510E9A66F7D471E}Assets/Gepard/GepardSearchYawSupport.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardSearchYawSupport.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{BEC19886DB254EF1}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
+    }
+    MaterialAssignClass "{0D8D2B7775D74CDC}" {
+     SourceMaterial "GEP_track_steel"
+     AssignedMaterial "{D561AD08932E6009}Assets/Gepard/Surface/track_steel.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SearchYawSupport_LOD0_PROPOSED {
+    }
+    MeshParam SearchYokePiercedLeft651 {
+    }
+    MeshParam SearchYokePiercedRight651 {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,11 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{A83C4721B62F1104}Assets/Gepard/Finish/ConsoleArtwork_BCR.edds"
+ NMOMap "{A83C4721B62F1105}Assets/Gepard/Finish/ConsoleArtwork_NMO.edds"
+ Emissive 0.8 0.9 0.72 0
+ EmissiveLV 0
+ EmissiveMap "{D561AD08932E9031}Assets/Gepard/Finish/ConsoleArtwork_EM.edds"
+ ReceiveShadow 0
+}

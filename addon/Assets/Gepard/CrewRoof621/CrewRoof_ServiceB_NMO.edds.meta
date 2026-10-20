@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{D621372D26A14BE0}Assets/Gepard/CrewRoof621/CrewRoof_ServiceB_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+   SourceFile "CrewRoof_ServiceB_NMO.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,6 @@
+GenericEntity {
+ components { Hierarchy {}
+  MeshObject "{D561AD08932E3305}" { Object "{D561AD08932E3105}Assets/Gepard/GepardSearchHead.xob" }
+ }
+}
+

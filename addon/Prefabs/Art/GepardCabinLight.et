@@ -1,0 +1,6 @@
+LightEntity : "{4FCA594DEA0E741C}Prefabs/Vehicles/Core/Lights/VehicleLight_Dashboard_Base.et" {
+ Color 1 0.80 0.55 1
+ LV 2
+ Radius 1.5
+ SpotAngle 150
+}

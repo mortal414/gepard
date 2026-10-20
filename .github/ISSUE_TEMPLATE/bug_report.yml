@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible Gepard gameplay problem.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "This is an early WIP. Driving and crew protection are unfinished; reports with concrete reproduction steps are welcome."
+  - type: input
+    id: versions
+    attributes:
+      label: Game and mod versions
+      description: Include platform and whether this is solo, hosted multiplayer or a dedicated server.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: What did you do, what happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other enabled mods
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Attach relevant screenshots, video or logs. Remove private information and credentials first.

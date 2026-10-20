@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{D561AD08932E3106}Assets/Gepard/GepardTrackingBase.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardTrackingBase.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A9A37F16E9AB5AE}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
+    }
+    MaterialAssignClass "{6A9A37F16E9AB5BC}" {
+     SourceMaterial "GEP_rubber"
+     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
+    }
+    MaterialAssignClass "{6A9A37F16E9AB54B}" {
+     SourceMaterial "GEP_grille_paint"
+     AssignedMaterial "{D561AD08932E6004}Assets/Gepard/Surface/grille_paint.emat"
+    }
+    MaterialAssignClass "{6A9A37F16E9AB557}" {
+     SourceMaterial "GEP_Skin_GepardTrackingBase"
+     AssignedMaterial "{D561AD08932E6206}Assets/Gepard/Surface/Skin_GepardTrackingBase.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardTrackingBase {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

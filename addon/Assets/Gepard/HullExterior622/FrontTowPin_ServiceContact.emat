@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{729B4EE0F2F34259}Assets/Gepard/HullExterior622/FrontTowPin_ServiceContact_BCR.edds"
+ NMOMap "{B1E502A355E442D7}Assets/Gepard/HullExterior622/FrontTowPin_ServiceContact_NMO.edds"
+}

@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{D561AD08932E7701}Prefabs/Art/GepardDriverHatch.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

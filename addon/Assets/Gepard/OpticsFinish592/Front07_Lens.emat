@@ -1,0 +1,17 @@
+MatPBRBasicGlass {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{6F03B555A61B47DB}Assets/Gepard/OpticsFinish592/Front07_Lens_BCR.edds"
+ NMOMap "{2AD2A2C9F7D24810}Assets/Gepard/OpticsFinish592/Front07_Lens_NMO.edds"
+ OpacityMap "{4294872C07BC49DD}Assets/Gepard/OpticsFinish592/Front07_Lens_Opacity.edds"
+ AlphaMul 1
+ Color 1 1 1 1
+ FresnelPower 2
+ Backscatterig 0
+ RefractionIntensity 0.02
+ RefractionColor 1 1 1 1
+ AlbedoRefractionTint 1
+ SortBias 1
+ Emissive 0 0 0 0
+}

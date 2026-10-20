@@ -1,0 +1,50 @@
+MetaFileClass {
+ Name "{8CB738F08DE945A2}Assets/Gepard/GepardFront07Left592.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardFront07Left592.fbx"
+   ExportSkinning 1
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{2506D90627EC44F9}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
+    }
+    MaterialAssignClass "{1272AD9098A048DE}" {
+     SourceMaterial "GEP_Front07_Lens"
+     AssignedMaterial "{2568B19D693241EE}Assets/Gepard/OpticsFinish592/Front07_Lens.emat"
+    }
+    MaterialAssignClass "{E0BB6D3B96584FA6}" {
+     SourceMaterial "GEP_Front07_Reflector"
+     AssignedMaterial "{1C1ACCCEE94540A3}Assets/Gepard/OpticsFinish592/Front07_Reflector.emat"
+    }
+    MaterialAssignClass "{570FFD5A04F84A4B}" {
+     SourceMaterial "GEP_Front07_Seal"
+     AssignedMaterial "{5FEEED67BA734EBC}Assets/Gepard/OpticsFinish592/Front07_Seal.emat"
+    }
+    MaterialAssignClass "{123810BF51FE4A2C}" {
+     SourceMaterial "GEP_Front07_Bulb"
+     AssignedMaterial "{382064B0B0C9476D}Assets/Gepard/OpticsFinish592/Front07_Bulb.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GEP_Front07_Left {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,9 @@
+GenericEntity {
+ components { Hierarchy {}
+  MeshObject "{D561AD08932E3306}" { Object "{D561AD08932E3106}Assets/Gepard/GepardTrackingBase.xob" }
+  SlotManagerComponent "{D561AD08932E3406}" { Slots {
+   EntitySlotInfo GepardTrackingHead { Offset 0 0.07 0.41 Prefab "{D561AD08932E3007}Prefabs/Art/GepardTrackingHead.et" }
+  } }
+ }
+}
+

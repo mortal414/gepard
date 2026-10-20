@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{396342F89FA54994}Assets/Gepard/GunConstruction581/GunLeft_BCR.edds"
+ NMOMap "{4C99362D43B04276}Assets/Gepard/GunConstruction581/GunLeft_NMO.edds"
+}

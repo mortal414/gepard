@@ -1,0 +1,51 @@
+// Mounted variant: chassis supplies the hull; avoid duplicate hull geometry.
+Turret : "{D561AD08932E5000}Prefabs/Weapons/GEP_StationaryTurret.et" {
+ components {
+  GEP_TurretController410 "{51ACD09C61C183E4}" {}
+  SCR_DamageManagerComponent "{51ACD09C524A7924}" {
+   "Additional hit zones" {
+    GEP_WIPTurretHitZone692 Turret {
+     m_bIndependentTurretDamageEnabled692 0
+     MaxHealth 600 BaseDamageMultiplier 1 DamageReduction 2 DamageThreshold 0
+     "Kinetic multiplier" 0.15 "Fragmentation multiplier" 0.15 "Explosive multiplier" 0.5 IgnoreExplosions 0
+    }
+    SCR_DestructibleHitzone TurretDrive {
+     ColliderNames { "UCX_Component_TurretDrive" }
+     MaxHealth 250 BaseDamageMultiplier 1 "Kinetic multiplier" 0.3
+    }
+   }
+  }
+
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{D561AD08932EB850}" {
+     UIInfo SCR_ActionContextUIInfo { Name "Gunner station selector" }
+     ContextName "driver_gunner_selector584"
+     Position PointInfo { Offset 0.25 -0.17 2.482 }
+     Radius 0.045 Height 0.06
+    }
+   }
+   additionalActions {
+    GEP_RadarAction "{D561AD08932E7859}" { ParentContextList { "gunner_radar_switch" } UIInfo UIInfo { Name "Deploy radar" } Command 0 Station 1 }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     SwitchSeatAction GEP_SwitchSeatAction "{509D566648F37562}" {
+      VisibilityRange 5 ParentContextList { "gunner_seat" "driver_gunner_selector584" }
+     }
+    }
+   }
+  }
+  RigidBody "{51ACD09C423F175F}" { Static 0 Kinematic 1 ModelGeometry 1 }
+  SlotManagerComponent "{D561AD08932E5340}" {
+   Slots { EntitySlotInfo Hull { Prefab "" }
+    EntitySlotInfo GEPBearingBosses { PivotID "GEP_TurretYaw" Offset 0 0 0 Angles 0 0 0 Prefab "{FD77A7A158897F4B}Prefabs/Art/GepardBearingBosses.et" }
+    EntitySlotInfo GEP669RoofEyes { PivotID "GEP_TurretYaw" Offset 0 0 0 Prefab "{BB836DC8A4604CD7}Prefabs/Art/GepardRoofEyes669.et" }
+    EntitySlotInfo GEP668CoverLeft { PivotID "GEP_GunElevation" Offset -1.42 0 0 Prefab "{5777789A73A54A05}Prefabs/Art/GepardCoverLeft668.et" }
+    EntitySlotInfo GEP668CoverRight { PivotID "GEP_GunElevation" Offset 1.42 0 0 Prefab "{80C356289A494E6B}Prefabs/Art/GepardCoverRight668.et" }
+   }
+  }
+ }
+}

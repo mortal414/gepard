@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{D641C113DF1565B9}Assets/Gepard/ServiceCoat641/Engine21300_QualifiedTops_Heavier_BCR.edds"
+ NMOMap "{D561AD08932E610D}Assets/Gepard/Surface/nato_green_NMO.edds"
+}

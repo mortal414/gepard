@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{5E2ADC46AC474A8D}Assets/Gepard/OpticsFinish592/Front07_Reflector_Emissive.edds"
+ Configurations {
+  TIFFResourceClass PC : "{2231C67ACC4BB0AC}Configs/System/ResourceTypes/PC/TextureMask.conf" {
+   SourceFile "Front07_Reflector_Emissive.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

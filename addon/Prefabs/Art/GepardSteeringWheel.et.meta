@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{D561AD08932E7721}Prefabs/Art/GepardSteeringWheel.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{8DE90E1192F64A7B}Assets/Gepard/HullExterior622/RearHull_DoorSeam20300_BCR.edds"
+ NMOMap "{032907C462D1460E}Assets/Gepard/HullExterior622/RearHull_DoorSeam20300_NMO.edds"
+}
