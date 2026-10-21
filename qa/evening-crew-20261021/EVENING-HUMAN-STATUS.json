@@ -1,0 +1,27 @@
+{
+  "productionSource": "a12a193c006ccb8eb1336a24dec925632a982acc",
+  "preservedCandidate": "cc5d0989376ed1d20ada109ce7c1ada5d96aac7e",
+  "deliverableStatus": "Ready",
+  "gepStatuses": {
+    "GEP-006": "Needs user test",
+    "GEP-010": "Needs user test",
+    "GEP-020": "Needs user test",
+    "GEP-021": "Needs user test",
+    "GEP-022": "Needs user test",
+    "GEP-023": "Needs user test",
+    "GEP-024": "Needs user test",
+    "GEP-005": "Needs user test",
+    "GEP-008": "Needs user test",
+    "GEP-013": "Needs user test",
+    "GEP-018": "Needs user test"
+  },
+  "nativeFollowup": {
+    "status": "Blocked",
+    "reason": "Isfahan owns native; pending explicit integrator handoff",
+    "denied": false,
+    "uncertainOutcome": false
+  },
+  "completionCheckboxesChanged": false,
+  "productionWrites": false,
+  "nativeActions": false
+}
