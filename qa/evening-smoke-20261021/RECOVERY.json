@@ -1,0 +1,95 @@
+{
+  "baseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "status": "RECOVERED_UNCHANGED_OPTIONAL_SOURCE_NATIVE_REBASE_PENDING",
+  "sourceResources": [
+    {
+      "path": "addon/Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et",
+      "sha256": "267d045220ae187c26b66b9096657308f7a7abaa31b3318e87421b32edeaa714",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\compile-smoke-stock-fixed-20261020\\native-stage\\gepard\\Prefabs\\Vehicles\\GEP_MobileCarrier_StockSmoke015.et"
+    },
+    {
+      "path": "addon/Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et.meta",
+      "sha256": "4abbb9557ad7568c1c1e22334543c98e9d926b9fb26ed6027eba89cfb9e8a29c",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\compile-smoke-stock-fixed-20261020\\native-stage\\gepard\\Prefabs\\Vehicles\\GEP_MobileCarrier_StockSmoke015.et.meta"
+    },
+    {
+      "path": "addon/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et",
+      "sha256": "c33add64cf8d192b7844cd679a7f71b576305fe3c373b937a2ff1ba54a73e2ed",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\compile-smoke-stock-fixed-20261020\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_VehicleTurret_StockSmoke015.et"
+    },
+    {
+      "path": "addon/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et.meta",
+      "sha256": "90bf1dc0826ac445c23750389c0cca636a87937ebe50bdaedd49eb06eafef9bd",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\compile-smoke-stock-fixed-20261020\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_VehicleTurret_StockSmoke015.et.meta"
+    },
+    {
+      "path": "addon/scripts/Game/GEP015Stock/GEP_StockSmoke015.c",
+      "sha256": "369d10d6dd150c64a6d849661956de657232bfc5ffc4933fe36af44bab8924e6",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\compile-smoke-stock-fixed-20261020\\native-stage\\gepard\\scripts\\Game\\GEP015Stock\\GEP_StockSmoke015.c"
+    },
+    {
+      "path": "addon/scripts/Game/GEP015Stock/GEP_StockSmoke015.c.meta",
+      "sha256": "f884a45e346853da832d39fcca2c3c8d490d33e5127214f2eed8f0f7880e68fa",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\compile-smoke-stock-fixed-20261020\\native-stage\\gepard\\scripts\\Game\\GEP015Stock\\GEP_StockSmoke015.c.meta"
+    }
+  ],
+  "privateFixtureOverlay": [
+    {
+      "path": "qa/evening-smoke-20261021/native-overlay/scripts/Game/GEPDemo/GEP_DemoScene.c",
+      "sha256": "f2b4eeb05cb7d9c61d273fa86f4d3acbfe86625cf80f62adc307f21874aa9407",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\human-smoke-20261020\\native-stage\\gepard\\scripts\\Game\\GEPDemo\\GEP_DemoScene.c"
+    },
+    {
+      "path": "qa/evening-smoke-20261021/native-overlay/Worlds/GEP_Demo.ent",
+      "sha256": "cf00a73dfad190345def5899fa6ae7f258437423e5857967b1152ac0caea6bf5",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\human-smoke-20261020\\native-stage\\gepard\\Worlds\\GEP_Demo.ent"
+    },
+    {
+      "path": "qa/evening-smoke-20261021/native-overlay/Worlds/GEP_Demo.ent.meta",
+      "sha256": "964cab367261a03910a74da4e9d0759e39bf9fe8232d51eae949d708e6c19c7c",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\human-smoke-20261020\\native-stage\\gepard\\Worlds\\GEP_Demo.ent.meta"
+    },
+    {
+      "path": "qa/evening-smoke-20261021/native-overlay/Worlds/GEP_Demo_default.layer",
+      "sha256": "8ed5021ba3f6bcbc99d4b07bf35d0479a61795a5dc49dc29d89bb19d0c5e722b",
+      "recoveredFrom": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\updates\\human-smoke-20261020\\native-stage\\gepard\\Worlds\\GEP_Demo_default.layer"
+    }
+  ],
+  "historicalCompile": [
+    {
+      "case": "smoke-stock-compile-02",
+      "result": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\smoke-stock-compile-02\\RESULT.json",
+      "resultSha256": "2fd28c159a227401cebfbb6519581e47de0dae67a8c61db3f2b6e330160fd5c9",
+      "console": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\smoke-stock-compile-02\\logs\\validate\\console.log",
+      "consoleSha256": "35753d95833ef31643457e2bf7e2c6a2017354e52bf160a5bdbdcd6903da4cd3",
+      "reportedResult": {
+        "shutdownErrorsRetained": true,
+        "exitCode": 0,
+        "console": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\smoke-stock-compile-02\\logs\\validate\\console.log",
+        "nativeGameplay": "NOT_TESTED",
+        "scriptErrors": [],
+        "nativeAbsent": true,
+        "status": "SCRIPT_COMPILE_PASS",
+        "leaseReleased": true
+      }
+    },
+    {
+      "case": "smoke-human-compile-02",
+      "result": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\smoke-human-compile-02\\RESULT.json",
+      "resultSha256": "5a01f12d20d4e198d46a3d07f8b95aee2f8ccc5f98f43eb1cba1a438c6297033",
+      "console": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\smoke-human-compile-02\\logs\\validate\\console.log",
+      "consoleSha256": "167b9b0a0935a30fcf502f0d76105d3085885403d9376090f478ca465c2d6b07",
+      "reportedResult": {
+        "exitCode": 0,
+        "shutdownErrorsRetained": true,
+        "scriptErrors": [],
+        "status": "SCRIPT_COMPILE_PASS",
+        "nativeAbsent": true,
+        "console": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\smoke-human-compile-02\\logs\\validate\\console.log",
+        "nativeGameplay": "NOT_TESTED",
+        "leaseReleased": true
+      }
+    }
+  ],
+  "newNativeLaunches": 0
+}

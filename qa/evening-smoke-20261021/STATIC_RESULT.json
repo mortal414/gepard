@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "scope": "OFFLINE_SOURCE_RECOVERY_AND_PRESERVATION_ONLY",
+  "baseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "nativeCompileOfRebasedCandidate": "NOT_TESTED",
+  "gameplay": "NOT_TESTED",
+  "checks": [
+    {
+      "name": "recovered-exact:addon/Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:addon/Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et.meta",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:addon/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:addon/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et.meta",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:addon/scripts/Game/GEP015Stock/GEP_StockSmoke015.c",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:addon/scripts/Game/GEP015Stock/GEP_StockSmoke015.c.meta",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:qa/evening-smoke-20261021/native-overlay/scripts/Game/GEPDemo/GEP_DemoScene.c",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:qa/evening-smoke-20261021/native-overlay/Worlds/GEP_Demo.ent",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:qa/evening-smoke-20261021/native-overlay/Worlds/GEP_Demo.ent.meta",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "recovered-exact:qa/evening-smoke-20261021/native-overlay/Worlds/GEP_Demo_default.layer",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "existing-addon-preservation",
+      "pass_": true,
+      "details": {
+        "files": 1112,
+        "changed": [],
+        "explicitlyAllowed": []
+      }
+    },
+    {
+      "name": "only-six-optional-addon-resources",
+      "pass_": true,
+      "details": []
+    },
+    {
+      "name": "corrected-native-action-parameter-names",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "stock-grenade-direct-reference",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "inherits-current-released-carrier",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "inherits-current-released-turret",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "no-simulation-audio-or-geometry-overrides",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "base-game-dependency-only",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "no-custom-rpc-or-timer-override",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "unique-optional-resource-guids",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "manual-fixture-no-automated-smoke-dispatch",
+      "pass_": true,
+      "details": null
+    },
+    {
+      "name": "manual-fixture-single-player-only",
+      "pass_": true,
+      "details": null
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "gepId": "GEP-015",
+  "status": "Needs user test",
+  "newNativeCompile": "PENDING_SHARED_NATIVE_ADMISSION",
+  "scenarioOrder": "Serial; satisfy control/one-round gates before salvo",
+  "cases": [
+    {
+      "id": "S015-00",
+      "name": "compile-current-composition",
+      "expected": "Fresh staged source validates without GEP script errors; normal owned exit; no gameplay claim",
+      "stopGate": "Stop on compile/resource failure",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    },
+    {
+      "id": "S015-01",
+      "name": "ordinary-stock-control",
+      "expected": "Ordinary on-foot throw of AN-M8 visibly flies, fuses and emits native white smoke",
+      "stopGate": "Stop before candidate if control fails",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    },
+    {
+      "id": "S015-02",
+      "name": "one-round-first-gate",
+      "expected": "Settled gunner action dispatches exactly one native round, 8->7; actual departure/clearance, fuse and visible cloud observed",
+      "stopGate": "Stop; no salvo if any flight/fuse/cloud failure",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    },
+    {
+      "id": "S015-03",
+      "name": "cooldown-and-empty",
+      "expected": "Retry below2.5s dispatches0; after cooldown salvo dispatches7, 7->0; empty request dispatches0",
+      "stopGate": "Retain failure; no threshold relaxation",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    },
+    {
+      "id": "S015-04",
+      "name": "reload-transaction",
+      "expected": "On-foot stopped target; 3s action consumes1 stowed AN-M8 and credits1 tube on completion only; canceled/rejected/duplicate completion cannot add extras",
+      "stopGate": "Do not clear uncertain pending transaction",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    },
+    {
+      "id": "S015-05",
+      "name": "roles-and-rejection",
+      "expected": "Gunner and commander settled in this turret can fire; driver/on-foot/other vehicle/dead/transition rejects; moving/full/no-item reload rejects",
+      "stopGate": "Record action prompts/reach separately",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    },
+    {
+      "id": "S015-06",
+      "name": "heading-and-clearance",
+      "expected": "One-round flight clears vehicle at representative turret headings/elevations; shell/crew not hit",
+      "stopGate": "No collision workaround to disguise failure",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    },
+    {
+      "id": "S015-07",
+      "name": "released-regression",
+      "expected": "Accepted driving/reverse/braking, stock cannon audio, HUD, exit/reentry operate normally on optional child",
+      "stopGate": "Compare exact1.0.2 healthy control",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    },
+    {
+      "id": "S015-08",
+      "name": "remote-and-jip",
+      "expected": "Authority and remote see same projectile/fuse/cloud/count; late peer sees current remaining effect without replay",
+      "stopGate": "NOT_TESTED: single-player overlay intentionally cannot establish this",
+      "status": "NOT_TESTED",
+      "requiredEvidence": [
+        "native logs",
+        "visible behavior",
+        "normal owned closure"
+      ]
+    }
+  ]
+}

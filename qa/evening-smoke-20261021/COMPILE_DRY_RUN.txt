@@ -1,0 +1,2 @@
+validate: & 'D:\SteamLibrary\steamapps\common\Arma Reforger Tools\Workbench\ArmaReforgerWorkbenchSteamDiag.exe' '-gproj' 'D:\ArmaProjects\Gepard-EveningSprint-20261021\smoke\qa\evening-smoke-20261021\native-stage\gepard\Gepard.gproj' '-addonsDir' 'D:\SteamLibrary\steamapps\common\Arma Reforger\addons' '-logsDir' 'D:\ArmaProjects\Gepard-EveningSprint-20261021\smoke\qa\evening-smoke-20261021\native-stage\compile-logs\validate' '-wbSilent' '-wbModule=ScriptEditor' '-validate' 'PC'
+Dry run only. Add --execute to run these commands.
