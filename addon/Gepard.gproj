@@ -4,7 +4,21 @@ GameProject {
  TITLE "Gepard 35 mm SPAA (WIP)"
  Dependencies { "58D0FB3206B6F859" }
  Configurations {
-  GameProjectConfig PC {}
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{B8F8A0CEF5355107}" {
+    StringTables {
+     StringTableDefinition "{E9C18E092B31000F}" {
+      StringTableSource "{2F07D6CD2F5EC5FF}Language/GEP_GM102_localization.st"
+      Languages {
+       LanguageDefinition "{75F25BEFBB62D870}" {
+        Code "en_us"
+        StringTableRuntime "{ACCB3DA3B9247098}Language/GEP_GM102_localization.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
   GameProjectConfig HEADLESS : PC {}
  }
 }

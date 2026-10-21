@@ -328,9 +328,9 @@ Vehicle : "{AAA9681CD6A2546C}Prefabs/Vehicles/GEP_WheeledMobility101.et" {
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "Gepard 35 mm SPAA (WIP)"
+    Name "#GEP102-DefaultName"
     m_sFaction "US"
-    m_aAuthoredLabels + { FACTION_US TRAIT_ARMOR TRAIT_ARMED }
+    m_aAuthoredLabels + { FACTION_US TRAIT_ARMOR TRAIT_ARMED CONTENT_MODDED }
     m_EntityBudgetCost { SCR_EntityBudgetValue "{D561AD08932E8501}" { m_BudgetType CAMPAIGN m_Value 1800 } }
     Description "Twin 35 mm guns with optical follow, night view, sight ranging and native rearm, refuel and repair. Radar deployment is visual only. Ranging does not adjust elevation; stabilization is unavailable. Multiplayer and operation on slopes require further validation."
    }

@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{2F07D6CD2F5EC5FF}Language/GEP_GM102_localization.st"
+ Configurations {
+  StringTableResourceClass PC {}
+  StringTableResourceClass HEADLESS : PC {}
+ }
+}

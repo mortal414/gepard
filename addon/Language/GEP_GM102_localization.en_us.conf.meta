@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{ACCB3DA3B9247098}Language/GEP_GM102_localization.en_us.conf"
+ Configurations {
+  CONFResourceClass PC {}
+  CONFResourceClass HEADLESS : PC {}
+ }
+}

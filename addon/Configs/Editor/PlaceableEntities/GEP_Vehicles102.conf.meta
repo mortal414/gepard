@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{F4D632AABBA780C8}Configs/Editor/PlaceableEntities/GEP_Vehicles102.conf"
+ Configurations {
+  CONFResourceClass PC {}
+  CONFResourceClass HEADLESS : PC {}
+ }
+}

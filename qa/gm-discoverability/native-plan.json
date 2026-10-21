@@ -1,0 +1,75 @@
+{
+  "version": "1.0.2-candidate",
+  "engine": "1.8.0.13",
+  "item": "D561AD08932E7B40",
+  "status": "NOT_TESTED",
+  "minimumAcceptance": [
+    {
+      "id": "GM102.01",
+      "case": "Fresh supported script compile",
+      "requires": "exclusive native admission; current source manifest",
+      "pass": "validation successful; no script compile error"
+    },
+    {
+      "id": "GM102.02",
+      "case": "Ordinary Game Master Arland usable scene",
+      "requires": "mod enabled; normal local GM/admin editor permission; stock GM scenario",
+      "pass": "loading overlay dismissed; usable GM camera; stock M998 positive control found and placed"
+    },
+    {
+      "id": "GM102.03",
+      "case": "Actual editor inheritance and browser search",
+      "requires": "GM EDIT mode; normal content browser open; search Gepard; all relevant filters reset",
+      "pass": "stock registry retained; one default and one charcoal card with translated labels; no duplicate/missing card; screenshot"
+    },
+    {
+      "id": "GM102.04",
+      "case": "Filters and public placement",
+      "requires": "normal Vehicles/armored/modded and applicable faction filter; each selected from browser",
+      "pass": "each appears under relevant filters; both placed through native placing component public action; server acknowledgement and actual entities visible; screenshot; direct SpawnEntityPrefab does not qualify"
+    },
+    {
+      "id": "GM102.05",
+      "case": "Faction catalog present versus absent",
+      "requires": "ordinary US catalog present and controlled factionless GM fixture with same editor path",
+      "pass": "exactly one default and charcoal in both; catalog spawner path preserved"
+    },
+    {
+      "id": "GM102.06",
+      "case": "Packaged-only repeat",
+      "requires": "fresh1.0.2 package; source addon unmounted; separate QA addon only if needed",
+      "pass": "resource inclusion/localization and actual browser/placement repeated; PAK hash pinned; no source fallback"
+    },
+    {
+      "id": "GM102.07",
+      "case": "Existing-item update",
+      "requires": "all previous gates pass; preserve actual1.0.1 asset fields/media; existing authenticated publisher session",
+      "pass": "single update submission; upload and processing success; correct item/version; public/in-game latest evidence or explicit visibility blocker"
+    }
+  ],
+  "scriptedPublicApiNotes": {
+    "browser": [
+      "SCR_ContentBrowserEditorComponent.OpenBrowser",
+      "ResetAllLabels",
+      "SetCurrentSearch",
+      "FilterEntries",
+      "GetFilteredPrefabCount",
+      "GetFilteredPrefabID",
+      "GetResourceNamePrefabID"
+    ],
+    "placing": "SCR_PlacingEditorComponent.CreateEntity(ResourceName,SCR_EditorPreviewParams,...) invokes native permission/budget/registry/server path; a successful request is not by itself entity placement proof",
+    "distinction": "Programmatic public browser actions must be labelled programmatic. Physical card selection requires supported native UI or a human; screenshots and final placed objects remain required."
+  },
+  "baselineControl": "Record1.0.1 failure/absence using same normal-browser route where feasible; do not overwrite release1.0.1.",
+  "stopRules": [
+    "existing native session blocks admission",
+    "unsaved-work prompt must be preserved",
+    "stock positive control fails",
+    "stock registry replaced",
+    "duplicates or unlocalized label",
+    "placement denied or no server acknowledgement",
+    "packaged resources resolve from source",
+    "new terms/credentials/permissions",
+    "uncertain upload: never blind retry"
+  ]
+}
