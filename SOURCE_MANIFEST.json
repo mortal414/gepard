@@ -1,9 +1,9 @@
 {
-  "build": "candidate-gm-discoverability-1.0.2",
+  "build": "release-1.0.2",
   "proposedVersion": "1.0.2",
   "files": {
     "addon/Gepard.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
-    "addon/resourceDatabase.rdb": "2849112717c5ccc0a8ce183225b13289cf964d216d2176f3ee955d72ab37742c",
+    "addon/resourceDatabase.rdb": "7ee0c09284788b5f865a6cfd22ed2aa2a133b2da25508dc0c10142049ac7735c",
     "addon/Assets/Gepard/GepardCabin.xob": "4d4a8a290f7417f8eb42edd1fbed8c10ad763f9c08a8469d094b485fd6be5f50",
     "addon/Assets/Gepard/GepardCabin.xob.meta": "37a579e70b3e518074ffe60fff7a891adf0f5f2271702df4a005ffe894b9439b",
     "addon/Assets/Gepard/GepardCommanderHatch569.xob": "a705fb9776ad747cbfea84598997c01fc423203567c58c0bba1e88806a49af09",
@@ -1182,8 +1182,22 @@
     "Assets/Gepard/GEP018/NeutralBaseV2/fab2a0ea80c9_BCR.tif": "a6530edd2fda84fe719ede432243a6080da38baff570dbd26712e98360cd02b0",
     "Assets/Gepard/GEP018/NeutralBaseV2/fd7a85fa7567_BCR.tif": "c28a00ea7dddc25c88740bbe546ed86b84bc0e98a800bb6cc645625a38b09b6a"
   },
-  "packageSHA256": null,
+  "packageSHA256": "0f0289014bbc78d2eb0bc1bf0697150a7672b7fb599f415f49696b7c8fa052d6",
   "baseCommit": "62daa9ba7986289b6032b48761150ec12763ad03",
   "previousReleasePackageSHA256": "65f592e5120bf277b222a5464f627d1db14bc8c6cf10abf8568a52024079dc29",
-  "nativeValidation": "NOT_TESTED"
+  "nativeValidation": "PACKAGED_GM_BROWSER_PLACEMENT_PASS",
+  "uploadedPackage": {
+    "data.pak": {
+      "sha256": "0f0289014bbc78d2eb0bc1bf0697150a7672b7fb599f415f49696b7c8fa052d6",
+      "bytes": 227003270
+    },
+    "Gepard.gproj": {
+      "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+      "bytes": 666
+    },
+    "resourceDatabase.rdb": {
+      "sha256": "7f1413f0743164e5562a9d2540201c5343addf567c826db36f120c140846ccde",
+      "bytes": 47722
+    }
+  }
 }

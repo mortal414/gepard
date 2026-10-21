@@ -2,7 +2,7 @@
   "version": "1.0.2-candidate",
   "engine": "1.8.0.13",
   "item": "D561AD08932E7B40",
-  "status": "NOT_TESTED",
+  "status": "EXECUTED_SCOPED_PASS",
   "minimumAcceptance": [
     {
       "id": "GM102.01",
@@ -71,5 +71,6 @@
     "packaged resources resolve from source",
     "new terms/credentials/permissions",
     "uncertain upload: never blind retry"
-  ]
+  ],
+  "evidence": "validation-1.0.2.json"
 }

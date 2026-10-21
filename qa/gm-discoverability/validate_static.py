@@ -14,6 +14,7 @@ changed=sorted(k for k in old if now.get(k)!=old[k])
 added=sorted(set(now)-set(old))
 allowed={
  'addon/Gepard.gproj',
+ 'addon/resourceDatabase.rdb',
  'addon/Configs/EntityCatalog/GEP_Vehicle.conf',
  'addon/Configs/EntityCatalog/GEP_CharcoalVehicle018.conf',
  'addon/Prefabs/Vehicles/GEP_MobileCarrier.et',
@@ -23,7 +24,7 @@ checks=[]
 def check(name,value):
  checks.append({'name':name,'pass':bool(value)})
  if not value: raise AssertionError(name)
-check('only five existing metadata files changed; no deleted files',set(changed)==allowed and set(old)<=set(now))
+check('only five authored metadata files plus native generated resource database changed; no deleted files',set(changed)==allowed and set(old)<=set(now))
 check('eight resources added',len(added)==8 and len(now)==1112)
 check('all other release files exact, including gameplay scripts and artwork',all(now[k]==v for k,v in old.items() if k not in allowed))
 def text(path): return (repo/path).read_text()
@@ -84,5 +85,5 @@ for key in ['GEP102-DefaultName','GEP102-CharcoalName']:
 check('runtime display text contains searchable name',rt.count('Gepard 35 mm SPAA')==2)
 manifest=json.loads((repo/'SOURCE_MANIFEST.json').read_text())
 check('current source fingerprint exact',manifest['files']==now)
-check('candidate does not inherit old package success',manifest['proposedVersion']=='1.0.2' and manifest['packageSHA256'] is None and manifest['nativeValidation']=='NOT_TESTED')
-print(json.dumps({'status':'STATIC_CONTRACT_PASS','checkCount':len(checks),'baseline':baseline,'publicFiles':len(now),'added':added,'changed':changed,'unchangedExisting':len(old)-len(changed),'nativeCompile':'NOT_TESTED','ordinaryBrowserAndPlacement':'NOT_TESTED','package':'NOT_BUILT','publication':'NOT_ATTEMPTED'},indent=2))
+check('tested release metadata pins correct new package',manifest['proposedVersion']=='1.0.2' and manifest['packageSHA256']=='0f0289014bbc78d2eb0bc1bf0697150a7672b7fb599f415f49696b7c8fa052d6' and manifest['nativeValidation']=='PACKAGED_GM_BROWSER_PLACEMENT_PASS')
+print(json.dumps({'status':'STATIC_CONTRACT_PASS','checkCount':len(checks),'baseline':baseline,'publicFiles':len(now),'added':added,'changed':changed,'unchangedExisting':len(old)-len(changed),'nativeCompile':'see validation-1.0.2.json','ordinaryBrowserAndPlacement':'see validation-1.0.2.json','packageSHA256':manifest['packageSHA256']},indent=2))

@@ -1,0 +1,35 @@
+{
+  "game": "1.8.0.13",
+  "version": "1.0.2",
+  "workshopItem": "D561AD08932E7B40",
+  "baselineSource": "62daa9ba7986289b6032b48761150ec12763ad03",
+  "staticPreservation": "PASS; five authored metadata files, eight additions, native-generated resource database; all gameplay/artwork unchanged",
+  "ordinaryStockGM": "PASS; real native browser UI and card callbacks; exactly one default and one charcoal search result;3 server+owner placement acknowledgements including stock M998",
+  "filters": "PASS; modded, vehicle, armor and US filters retain both",
+  "baseline101": "REPRODUCED: Gepard search returns zero in same stock GM route",
+  "packedOnly": "PASS; production source unmounted, both variants and M998 placed",
+  "catalogIndependent": "PASS; private fixture overrides catalog-backed registry Init,403 fewer browser entries, exact two Gepards and both placed; fixture code excluded from production",
+  "actions": "Native UI callbacks invoked programmatically; physical keyboard/mouse test not newly performed",
+  "uploadedPackage": {
+    "data.pak": {
+      "sha256": "0f0289014bbc78d2eb0bc1bf0697150a7672b7fb599f415f49696b7c8fa052d6",
+      "bytes": 227003270
+    },
+    "Gepard.gproj": {
+      "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+      "bytes": 666
+    },
+    "resourceDatabase.rdb": {
+      "sha256": "7f1413f0743164e5562a9d2540201c5343addf567c826db36f120c140846ccde",
+      "bytes": 47722
+    }
+  },
+  "uploadSuccessfulUtc": "2026-10-21T04:24:19.253Z",
+  "processingSuccessfulUtc": "2026-10-21T04:24:27.373Z",
+  "submissionCount": 1,
+  "workshopMetadata": "Title/description/license/visibility/media unchanged; driving-only changelog content identical, CLI converted LF to CRLF",
+  "exactUploadedTrioGMRepeat": "PASS; exact final trio pinned, normal GM search/filter/card callbacks, both Gepards+M998 with3 server+3 owner acknowledgements and visible geometry; exit0",
+  "publicLatestVersion": "Not independently verified; public page access restricted",
+  "existingLimits": "Multiplayer/JIP/dedicated/console qualification unchanged; no ballistic, radar, damage, sound or driving changes in this hotfix",
+  "finalNativeExitUtc": "2026-10-21T04:27:33.7588935Z"
+}
