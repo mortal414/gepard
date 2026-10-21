@@ -1,0 +1,55 @@
+{
+  "status": "SOURCE_ONLY_NATIVE_PENDING",
+  "readOnlyAPIProvenance": {
+    "EnfusionScriptAPI/html/interfacePhysics.html": {
+      "sha256": "d8fc1af9733f5ad00050c6f2e1f893c7eae8a4c1c19d83195bc00997a3d8995f",
+      "methods": [
+        "ChangeSimulationState",
+        "GetWorldTransform",
+        "GetDirectWorldTransform",
+        "IsActive",
+        "IsDynamic",
+        "GetSimulationState"
+      ]
+    },
+    "EnfusionScriptAPI/html/group__Physics.html": {
+      "sha256": "dacbffc709b62e4fb255445c8c8b52033e6e4f977c3caf29dd30b1f55c3e2099",
+      "methods": [
+        "SimulationState.NONE",
+        "SimulationState.COLLISION",
+        "SimulationState.SIMULATION"
+      ]
+    },
+    "EnfusionScriptAPI/html/group__Entities.html": {
+      "sha256": "350e64c086c1d0a931a359357f6ac2b9872e44c9365e6024c62fb31780695b4d",
+      "methods": [
+        "EntityFlags.USER4",
+        "EntityFlags.UPDATE_LINK"
+      ]
+    },
+    "ArmaReforgerScriptAPIPublic/html/interfaceBaseWeaponManagerComponent.html": {
+      "sha256": "32c313d83f90808254a9e82ad67615afe0224fd3851e3c0314489f880260cbea",
+      "methods": [
+        "Throw",
+        "GetCurrentGrenade",
+        "GetCurrentGrenadeSlot"
+      ]
+    },
+    "ArmaReforgerScriptAPIPublic/html/interfaceCharacterControllerComponent.html": {
+      "sha256": "5340fef5d2370abacacac6498982e4064cbb81bd3dbd30ecbd62f280ae87935a",
+      "methods": [
+        "SetThrow",
+        "GetCanThrow"
+      ]
+    }
+  },
+  "numericEnumValues": "PENDING_NATIVE_READBACK; generated Enum source has names without explicit values; do not guess2048 mapping or clear it",
+  "physicsStateSemantics": "Installed docs define NONE as outside simulation/collision; IsDynamic is body type. Only next native constant dump establishes numeric mapping. Requested exact state is SIMULATION, not DYNAMIC.",
+  "narrowProbe": "One new engineering drop case changes only rigidbody simulation state after same EnableSimulation; same noLaunch, same1000ms deferred SetLive. No flagclear/SetActive/particles/SetTimer/SetVelocity or postspawn grenade pose setter.",
+  "ordinaryThrowResearch": {
+    "CharacterControllerComponent": "GetCanThrow plus SetThrow(wanted,cancel) expose native wanted-input route",
+    "BaseWeaponManagerComponent": "Throw(direction,speedScale) performs character weapon-manager throwing; GetCurrentGrenade/Slot expose readiness",
+    "notQualified": "ANM8 inventory spawn/equip callback/readiness and ordinary throw completion not yet implemented/qualified; do not claim stock ANM8 itself failed from custom world spawn control"
+  },
+  "inheritedRepair": "Observation overlay is based on integrator corrected no move.GetOwner source. moveLookupEntity=round remains lookup provenance, not component-owner readback."
+}

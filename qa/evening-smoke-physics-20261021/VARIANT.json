@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "caseId": "stock-physics-drop",
+  "applyAfter": "earlier lifecycle control-source-candidate + diagnostic-overlay",
+  "overrideFolder": "diagnostic-overrides",
+  "world": "{43B99401C815A015}Worlds/GEP015_PhysicsDrop.ent",
+  "nativeStatus": "NOT_TESTED",
+  "onlyNewMutation": "Physics.ChangeSimulationState(SimulationState.SIMULATION) once on verified dynamic stock-grenade rigid body",
+  "control": "smoke-stock-drop-01 retained exactly; noLaunch and deferredSetLive remain common",
+  "newReadbacks": [
+    "GEP015-native-enums.json",
+    "physicsWorldMatrixTranslation",
+    "physicsDirectWorldMatrixTranslation",
+    "all earlier entity/fuse/flags/physics snapshots"
+  ],
+  "successMustMeasure": [
+    "actual body and entity motion nearrequested603,41,2600",
+    "native fuse progression/trigger",
+    "native cloud pixels near actual location"
+  ],
+  "noClaim": [
+    "ordinary character throw",
+    "physical input",
+    "launcher acceptance",
+    "MP/JIP"
+  ]
+}
