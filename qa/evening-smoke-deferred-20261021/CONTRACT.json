@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "status": "SOURCE_ONLY_READY_TO_COMPILE_NATIVE_PENDING_AUTHORIZATION_DIALOG",
+  "applyAfter": "lifecycle control-source-candidate + corrected diagnostic-overlay, optionalphysicsreadbackoverlay; apply source-overrides LAST. Do NOT apply enable/upward/physics-mutation variants.",
+  "world": "{41B99401C815A015}Worlds/GEP015_Auto.ent",
+  "onlyExperiment": "Reserve one round now; native Launch+SetLive no earlier than later world timestamp/frame. Supported pattern exists in stock Airstrike EOnFrame ordering.",
+  "scope": "one-shot one-round QA only; salvos rejected; no second request ever accepted in same component",
+  "reservation": "8->7 at queue is RESERVED not DISPATCH. Abort before native calls requests ownedunarmedentity deletion but claims no deletion acknowledgement; reserved round remains spent with no refund or automatic retry. Not proposed production economics.",
+  "frozenInputs": [
+    "exact round/user/root handles",
+    "resolved world muzzle matrix and unchanged -30 pitch/coordinates",
+    "actual root parent velocity at reservation",
+    "tube index and queued worldtime"
+  ],
+  "laterFrameGuards": [
+    "worldtime strictly later",
+    "consume latch2 and clear FRAME before any native call",
+    "authority/owner/round/user/root live identities",
+    "same root and settled conscious currentcrew, hull/turret operational",
+    "exact stock prefab/components/nonproxy/untriggered fuse",
+    "actual round position within2m of captured requested pose; otherwise diagnostic abort, no SetOrigin",
+    "reserved tube stillspent"
+  ],
+  "oneShot": "one Launch then one SetLive; nativeIssued latch set before void calls; no retry/refund afterward",
+  "notChanged": [
+    "spawn implementation/MatrixCopy order",
+    "muzzle geometry/angle",
+    "native simulation flag changes",
+    "physics state/active flags",
+    "timer/effects",
+    "accepted driving/settings",
+    "production addon"
+  ],
+  "sourceProvenance": {
+    "Airstrike": "scripts/Game/Entities/SCR_AirstrikePrototype.c sha2562672ff01583f23a26577486f5c8fd0250e0ad462181fefae2533acbaa650a567 stores SpawnEntityPrefab result then Launch atbeginning nextEOnFrame",
+    "EffectsModule": "Modules/SCR_EffectModule.c sha25669f822cdcea58731508ff8dc027c7c83788398d5d179de852e219da07cd4087b uses LOCAL+Parent and postspawn SetTransform lookat thenLaunch",
+    "EffectsModuleCaller": "SCR_EffectModuleComponent.c sha256a59d8276f73871d222b5407fe5059001b5c2635bcc86745b3b94d85880e1ba43 calls PostEntitySpawned directly despite frame-delay comment; do not inferdelay fromcomment",
+    "GenericComponent": "Installed API qualifies SetEventMask(owner,mask) and ClearEventMask(owner,mask)"
+  },
+  "remaining": "Compilation and all behavior NOT_TESTED. If actualorigin already0 atnextframe guard, preserve failure and conclude deferred timing alone does not restore valid world spawn. Do not silently restore pose or add flags."
+}

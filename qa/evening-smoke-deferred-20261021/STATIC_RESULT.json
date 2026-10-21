@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "OFFLINE_SOURCE_CONTRACT_ONLY",
+  "nativeCompile": "NOT_TESTED",
+  "checks": {
+    "oneLaunch": true,
+    "oneLive": true,
+    "noNativeCallsInDispatch": true,
+    "timestampLaterGuard": true,
+    "latchBeforeLaunch": true,
+    "nativeIssuedBeforeLaunch": true,
+    "MuzzleUnchanged": true,
+    "nullWeapon": true,
+    "noNewSimulationFlagOrPoseTimerEffects": true,
+    "salvoRejected": true,
+    "originGuard": true
+  }
+}
