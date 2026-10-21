@@ -10,9 +10,18 @@ class GEP_TrackMovementSignals102 : ScriptComponent
  protected int m_Level = -1;
  protected int m_Pitch = -1;
  protected int m_Speed = -1;
+ protected int m_VolumeDb = -1;
  protected float m_LevelValue;
  protected float m_SpeedValue;
  protected float m_Elapsed;
+
+ bool HasBoundTrackSignals() { return m_Level >= 0 && m_Pitch >= 0 && m_Speed >= 0 && m_VolumeDb >= 0; }
+ float GetTrackVolumeDb()
+ {
+  // A diagnostic mapping for a documented dB input, not a verified native mute gate.
+  if (m_LevelValue <= 0.001) return -60;
+  return Math.Clamp(20 * Math.Log10(m_LevelValue), -60, 0);
+ }
 
  // Diagnostic-only readback for a future addon-owned native fixture.
  float GetTrackLevel() { return m_LevelValue; }
@@ -32,7 +41,8 @@ class GEP_TrackMovementSignals102 : ScriptComponent
   m_Level = m_Signals.AddOrFindSignal("GEPTrackLevel", 0);
   m_Pitch = m_Signals.AddOrFindSignal("GEPTrackPitch", -3);
   m_Speed = m_Signals.AddOrFindSignal("GEPTrackRollingSpeed", 0);
-  return m_Level >= 0 && m_Pitch >= 0 && m_Speed >= 0;
+  m_VolumeDb = m_Signals.AddOrFindSignal("GEPTrackVolumeDb", -60);
+  return HasBoundTrackSignals();
  }
 
  override void EOnFrame(IEntity owner, float timeSlice)
@@ -42,7 +52,7 @@ class GEP_TrackMovementSignals102 : ScriptComponent
   if (m_Elapsed < 0.033333) return;
   float dt = m_Elapsed;
   m_Elapsed = 0;
-  if (m_Level < 0 && !Bind(owner)) return;
+  if (!HasBoundTrackSignals() && !Bind(owner)) return;
 
   float rolling = 0;
   Physics body = owner.GetPhysics();
@@ -75,5 +85,6 @@ class GEP_TrackMovementSignals102 : ScriptComponent
   m_Signals.SetSignalValue(m_Level, Math.Clamp(m_LevelValue, 0, 0.45));
   m_Signals.SetSignalValue(m_Pitch, Math.Clamp(pitch, -3, 5));
   m_Signals.SetSignalValue(m_Speed, Math.Clamp(m_SpeedValue, 0, 22));
+  m_Signals.SetSignalValue(m_VolumeDb, GetTrackVolumeDb());
  }
 }

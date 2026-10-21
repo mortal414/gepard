@@ -59,9 +59,15 @@
   "blocker": "Pending supported native resource resolution and original Audio Editor graph authoring; qualified native slot held by Isfahan.",
   "sourceFiles": {
     "signal-probe/GEP033SignalProbe.gproj": "62eda34e37a1f7b54f622d397cb792ba1d5f064b202f29250c08cde599d22976",
+    "signal-probe/Prefabs/Vehicles/GEP033_LifecycleProbe102.et": "184d44e21ffbbb2eca98cf04fdc0218b700c9447f1930691d92f5e0f60894ac5",
+    "signal-probe/Prefabs/Vehicles/GEP033_LifecycleProbe102.et.meta": "907337495891f3cade1371d6e1ff76fab63d30f56233de1b8075a15109f153a4",
     "signal-probe/Prefabs/Vehicles/GEP033_SignalProbe102.et": "9a140fda5ea92c3cf28cd41b3568b1f46dc02686dda1378e11e1d551a29dbceb",
     "signal-probe/Prefabs/Vehicles/GEP033_SignalProbe102.et.meta": "71c95e8ee24a4f8ada07a630611bdec543e822deb1d00f5e9470d7220afe0e4f",
-    "signal-probe/scripts/Game/GEP033/GEP_TrackMovementSignals102.c": "8c4c714bc88b45779500b08cfe9eb4924d2483bdb96e23e4c4feb8c6c9940800",
-    "signal-probe/scripts/Game/GEP033/GEP_TrackMovementSignals102.c.meta": "2036dee3f9927dd30333bd918318f71b2804b091aaee1909803ad6e42aff6adf"
+    "signal-probe/scripts/Game/GEP033/GEP_TrackLoopLifecycleProbe102.c": "cd3b343c9ceb33cc16b814323fb9c48c1e58c6afe167a617f3fa355191d1c37d",
+    "signal-probe/scripts/Game/GEP033/GEP_TrackLoopLifecycleProbe102.c.meta": "1b7914116bff10eebe7bb852997276664d44ba61a561c34f1ad1a6edd9d5a8f3",
+    "signal-probe/scripts/Game/GEP033/GEP_TrackMovementSignals102.c": "747870096eda1104a79fefbe5b45c0bf972afdbfada73dd9c7f12bf48544ffa1",
+    "signal-probe/scripts/Game/GEP033/GEP_TrackMovementSignals102.c.meta": "2036dee3f9927dd30333bd918318f71b2804b091aaee1909803ad6e42aff6adf",
+    "signal-probe/scripts/WorkbenchGame/GEP033/GEP033_ResolveStockAudioPlugin.c": "c6e3da2275b44419a2fe20e2f507815db6b867470e0e484416d638c7c6f55a4e",
+    "signal-probe/scripts/WorkbenchGame/GEP033/GEP033_ResolveStockAudioPlugin.c.meta": "fd929d589478629fe102f25295abccc3a6884b024c19fc4693cb95917e376309"
   }
 }

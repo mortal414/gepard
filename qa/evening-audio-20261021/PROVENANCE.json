@@ -20,5 +20,16 @@
     "redistributed": false
   },
   "nativeAppsLaunched": false,
-  "publishOrPush": false
+  "publishOrPush": false,
+  "continuation": {
+    "graph": "NONLOADABLE .acp.in authoring template",
+    "sourceOnly": true,
+    "publicWikiFullFetch": "403; primary search snippets checked; installed API docs/source provide signatures",
+    "originalSignals": "preserved linear gain plus explicit diagnostic dB output; complete binding guard",
+    "nativeCompile": "NOT_TESTED",
+    "branch": "sprint/evening-audio-authoring-20261021",
+    "nativeResolver": "NOT_TESTED",
+    "mainCandidateModified": false,
+    "lifecycle": "default-disabled; not instantiated"
+  }
 }

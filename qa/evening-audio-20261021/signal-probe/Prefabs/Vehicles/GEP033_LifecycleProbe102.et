@@ -1,0 +1,5 @@
+// QA authoring only. Do not instantiate until graph and event gates pass.
+// Disabled; no missing graph is attached. Add the native-authored ACP only in a fresh QA successor.
+Vehicle : "{9B6E404D5C614848}Prefabs/Vehicles/GEP033_SignalProbe102.et" {
+ components { GEP_TrackLoopLifecycleProbe102 "{F30628081FD54A46}" { m_bEnableCandidate 0 } }
+}

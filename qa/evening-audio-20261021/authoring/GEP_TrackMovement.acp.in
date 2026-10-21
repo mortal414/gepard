@@ -1,0 +1,73 @@
+// NONLOADABLE AUTHORING TEMPLATE: keep extension .acp.in; no .meta; no runtime reference.
+// Original minimal topology from documented native node/edge schema in the official BI car sample.
+// This is not an audible implementation. Resolve @@...@@ in native Audio Editor, then save a new original ACP.
+// Bank remains at -60dB; custom live gain/mute/pitch connections are deliberately absent until units/ports are verified.
+AudioClass {
+ sounds {
+  SoundClass : "@@ORIGINAL_TRACK_SOUND_CONFIG_CANONICAL@@" {
+   id 3300
+   name "GEP_TRACK_MOVEMENT_LP"
+   version 5
+   tl 200 0
+   parent "@@ORIGINAL_TRACK_SOUND_CONFIG_CANONICAL@@"
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links { ConnectionClass connection { id 3200 port 65 } }
+    }
+   }
+   outState 3400
+   outStatePort @@NATIVE_VEH_TIRES_INPUT_PORT@@
+  }
+ }
+ mixers {
+  MixerClass {
+   id 3400
+   name "GEP033_OutputState"
+   version 4
+   tl 400 0
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs { "VEH_Tires" }
+   ins {
+    ConnectionsClass connections {
+     id @@NATIVE_VEH_TIRES_INPUT_PORT@@
+     links { ConnectionClass connection { id 3300 port 65 } }
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 3200
+   name "GEP033_TrackShader"
+   version 5
+   tl 0 0
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links { ConnectionClass connection { id 3100 port 65 } }
+    }
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 3100
+   name "GEP033_StockSlowLoop"
+   version 7
+   tl -200 0
+   Volume -60
+   Pitch -3
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 220
+   "Fade in time" 120
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "@@STOCK_SLOW_CANONICAL_FROM_RESOLVER@@"
+    }
+   }
+  }
+ }
+}

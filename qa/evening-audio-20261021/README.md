@@ -25,3 +25,8 @@ After A033-00 passes, Marco can choose a short two-minute cabin/exterior compari
 ## Integration choice
 
 Safe default for tonight: retain released audio and keep this QA pack as a follow-on. Optional signal-probe inclusion adds no audible benefit. Do not hold crew/smoke fixes on GEP-033 and do not reopen custom gun audio.
+
+
+## Source continuation
+
+The source-only continuation adds a read-only Workbench resolver with explicit fresh evidence output, a native-log parser, a NONLOADABLE original ACP authoring template, an explicit dB diagnostic signal, and a default-disabled one-attempt lifecycle probe. None is natively compiled or instantiated. See [the exact next native batch](authoring/NEXT-NATIVE-BATCH.md) before copying or running anything. The resolver-only copy root is separate from the Game/playback sources. Run check-authoring.py for source/synthetic checks; these do not provide native evidence. The current evening manual candidate remains untouched.

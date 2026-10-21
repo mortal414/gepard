@@ -1,0 +1,24 @@
+{
+  "status": "SOURCE_API_INSPECTION_ONLY",
+  "installedDocSha256": {
+    "EnfusionScriptAPI/interfaceWorkbench.html": "6da66bb00dd8cadb84463605e7272d93a01e179c8bd651dbdc614d3a68bbdf0f",
+    "EnfusionScriptAPI/interfaceResource.html": "fedd151770703c749deafc1920cb3386ecfe4604a015185a8bb3d045d69f36cb",
+    "EnfusionScriptAPI/interfaceResourceName.html": "ad6bacd660254a8f476338de963a59ae1f525cad9bd00680c6d7a7ba15764c9f",
+    "EnfusionScriptAPI/interfaceBaseResourceObject.html": "458840e35278a550985cae5e5392662df99b61215ac85c10d36f57dc6099bc7c",
+    "EnfusionScriptAPI/interfaceBaseContainer.html": "95be347844ef88ace63101ab84658692656b7fa9c848fbf331362a980a45f547",
+    "EnfusionScriptAPI/interfaceBaseContainerList.html": "8858a6e85511620464d009a0dfcd942e9e6a2d5665ece49d33528364f4ded426",
+    "EnfusionScriptAPI/interfaceResourceManager.html": "c9dc9088b5dbe1437e25b630e927a35a1f287900cc5b5b5692eb0a69cd653995",
+    "EnfusionScriptAPI/interfaceWBModuleDef.html": "ca3377a5fa8aea08913f782ed770fe9421e8adfe6abb40d40c594d6aa13d550d",
+    "EnfusionScriptAPI/interfaceJsonApiStruct.html": "b782962990345f446294015855ff410806bdf8b49ea246c4ec31a11b23d92ae5",
+    "EnfusionScriptAPI/interfaceFileIO.html": "8be2320b5236b9e2ec5a65fe4d8c82549d8f139daa2149277c5a35fcafb177fb",
+    "EnfusionScriptAPI/interfaceMath.html": "76cf907531aba36070c6331786c846d82838bfab0643f33f6fea4141da954f11",
+    "EnfusionScriptAPI/interfaceAudioSystem.html": "589781e652cdb921ffe92558a9852df8a13cd8d5634bc8b4e0dcfba6313b5b84",
+    "EnfusionScriptAPI/interfaceAudioHandle.html": "a3129ac1d34478d992afead442d459ec51e1d3495ad8160c5a341d46d73cadd5",
+    "ArmaReforgerScriptAPIPublic/interfaceSoundComponent.html": "5672c98948388776fbbf431e4554aef509fa6c23a691d70aafa23b6220f17458"
+  },
+  "corePackageIndexSha256": "8f53ad1b3e4acfe703477aa50792cef8cc82c981c9f0d8de043e25278f5b356f",
+  "generatedWorkbenchSourceSha256": "6f3290512069baff2791ecc57c053d1c0e1a9a549a9fe5f4d4edac84fc9ace88",
+  "officialCarSampleSha256": "4c1defdd20ab6f3d5b4bf792953930648090f9e6e39b6b7636573527e92a7acb",
+  "nativeCompile": "NOT_TESTED",
+  "graphSourceProduced": "NONLOADABLE .acp.in only; unresolved native authoring tokens"
+}

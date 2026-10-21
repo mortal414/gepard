@@ -12,7 +12,8 @@
     "randomStartOffset": false,
     "fadeInMs": 120,
     "terminationFadeOutMs": 220,
-    "loopSeam": "NOT_AUDITIONED; stock recording may require supported loop-point authoring; do not extract or repackage"
+    "loopSeam": "NOT_AUDITIONED; stock recording may require supported loop-point authoring; do not extract or repackage",
+    "volumeUnitsGate": "Bank Volume is documented in dB. GEPTrackLevel is linear amplitude. Never connect idle linear 0 to a dB input as silence. Verify native live-input units; use native linear gain or correctly mapped dB plus a verified exact mute gate. -60 dB is attenuation, not mathematical silence."
   },
   "signals": {
     "GEPTrackLevel": {
@@ -38,6 +39,15 @@
         22
       ],
       "default": 0
+    },
+    "GEPTrackVolumeDb": {
+      "units": "diagnostic dB conversion for a verified dB input only",
+      "range": [
+        -60,
+        0
+      ],
+      "default": -60,
+      "actualMaximumAtGain045": -6.935749724493126
     }
   },
   "position": "one hull-centre native sound point near track height; avoid two phase-coherent centre loops",
@@ -64,5 +74,7 @@
   "duplicateControl": "Retain existing single stock engine graph. Before audition, determine whether inherited APC wheel rolling layer overlaps the proposed track layer. Replace only that rolling branch/slot if required; retain impacts, skid and suspension. Never append a second engine graph.",
   "resourceAndGraphGate": "Integration owner must resolve exact stock GUID through supported Workbench APIs, author/save/compile original ACP with native Audio Editor, verify actual graph signal units and one event instance. This contract must not be renamed .acp or copied as a native graph.",
   "fallback": "Keep production addon byte-identical; optional QA signal probe adds no audio. GEP033 remains Blocked pending supported graph authoring and native qualification.",
-  "releaseBaseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7"
+  "releaseBaseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "dynamicInputGate": "Native volume and pitch input ports must have Update enabled and be proven changing on an already-running loop; connection alone does not establish live updates.",
+  "eventLifecycleGate": "Custom GEP_TRACK_MOVEMENT_LP is not assumed to auto-start. Default-disabled QA lifecycle source issues at most one SoundComponent.SoundEventOffset after signal readiness, never retries/restarts per frame, and terminates its owned handle on destruction/deletion. It remains uncompiled/uninstantiated and needs actual handle/culling/dynamic-simulation qualification."
 }
