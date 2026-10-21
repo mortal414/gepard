@@ -21,5 +21,5 @@ record={
  'repeatCommand':'python inspect-stock.py --harness <maintained-harness> --node <node.exe> --stock-root <stock-addons-data>',
  'resources':[{k:r[k] for k in ('resource','rawBytes','method','indexSha256')} for r in rows]
 }
-(Path(__file__).resolve().parent/'STOCK-INDEX-RESULT.json').write_text(json.dumps(record,indent=2)+'\n')
+(Path(__file__).resolve().parent/'STOCK-INDEX-RESULT.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps(record,indent=2))

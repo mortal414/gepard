@@ -75,5 +75,5 @@ result={
  'blocker':'Pending supported native resource resolution and original Audio Editor graph authoring; qualified native slot held by Isfahan.',
  'sourceFiles':{p.relative_to(QA).as_posix():sha(p) for p in sorted(PROBE.rglob('*')) if p.is_file()}
 }
-(QA/'STATIC-RESULT.json').write_text(json.dumps(result,indent=2)+'\n')
+(QA/'STATIC-RESULT.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps(result,indent=2))
