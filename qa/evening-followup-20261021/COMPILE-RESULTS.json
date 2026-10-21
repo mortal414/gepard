@@ -1,0 +1,197 @@
+{
+  "scope": "Script compilation only; no gameplay acceptance inferred",
+  "runs": [
+    {
+      "run": "followup-base-compile-01",
+      "result": {
+        "nativeAbsent": true,
+        "exitCode": -1,
+        "nativeGameplay": "NOT_TESTED",
+        "shutdownErrorsRetained": true,
+        "leaseReleased": true,
+        "scriptErrors": [
+          "12:16:47.984    SCRIPT    (E): @\"scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c,130\": Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:47.984    SCRIPT    (E): @\"scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c,135\": Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:48.015    SCRIPT    (E): @\"scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c,324\": Error in parameters",
+          "12:16:48.015    SCRIPT    (E): @\"scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c,333\": Can't find variable 'sortSlots'",
+          "12:16:48.015    SCRIPT    (E): @\"scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c,335\": Can't find variable 'sortSlots'",
+          "12:16:48.015    SCRIPT    (E): @\"scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c,337\": Can't find variable 'sortSlots'",
+          "12:16:48.015    SCRIPT    (E): @\"scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c,337\": Syntax error",
+          "12:16:48.046    SCRIPT    (E): @\"scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetCountEntitiesInTrigger.c,10\": Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:48.054    SCRIPT    (E): @\"scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetLastFinishedTaskLayer.c,11\": Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:48.069    SCRIPT    (E): @\"scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c,25\": Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:48.069    SCRIPT    (E): @\"scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c,27\": Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:48.119    SCRIPT    (E): @\"scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c,452\": Can't find class Tuple2",
+          "12:16:48.119    SCRIPT    (E): @\"scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c,517\": Can't find class Tuple2",
+          "12:16:48.125    SCRIPT    (E): Can't compile \"Game\" script module!",
+          "12:16:48.904  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(130): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:48.904  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(135): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:48.935  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(324): error: Error in parameters",
+          "12:16:48.935  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(333): error: Can't find variable 'sortSlots'",
+          "12:16:48.935  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(335): error: Can't find variable 'sortSlots'",
+          "12:16:48.935  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Can't find variable 'sortSlots'",
+          "12:16:48.935  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Syntax error",
+          "12:16:48.968  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetCountEntitiesInTrigger.c(10): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:48.975  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetLastFinishedTaskLayer.c(11): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:48.989  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(25): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:48.989  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(27): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:49.041  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(452): error: Can't find class Tuple2",
+          "12:16:49.041  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(517): error: Can't find class Tuple2",
+          "12:16:49.790  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(130): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:49.790  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(135): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:49.822  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(324): error: Error in parameters",
+          "12:16:49.822  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(333): error: Can't find variable 'sortSlots'",
+          "12:16:49.822  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(335): error: Can't find variable 'sortSlots'",
+          "12:16:49.822  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Can't find variable 'sortSlots'",
+          "12:16:49.822  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Syntax error",
+          "12:16:49.853  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetCountEntitiesInTrigger.c(10): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:49.861  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetLastFinishedTaskLayer.c(11): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:49.873  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(25): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:49.873  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(27): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:49.924  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(452): error: Can't find class Tuple2",
+          "12:16:49.924  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(517): error: Can't find class Tuple2",
+          "12:16:50.683  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(130): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:50.683  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(135): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:50.714  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(324): error: Error in parameters",
+          "12:16:50.714  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(333): error: Can't find variable 'sortSlots'",
+          "12:16:50.714  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(335): error: Can't find variable 'sortSlots'",
+          "12:16:50.714  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Can't find variable 'sortSlots'",
+          "12:16:50.714  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Syntax error",
+          "12:16:50.744  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetCountEntitiesInTrigger.c(10): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:50.751  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetLastFinishedTaskLayer.c(11): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:50.765  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(25): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:50.765  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(27): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:50.817  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(452): error: Can't find class Tuple2",
+          "12:16:50.817  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(517): error: Can't find class Tuple2",
+          "12:16:51.579  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(130): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:51.579  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(135): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:51.611  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(324): error: Error in parameters",
+          "12:16:51.611  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(333): error: Can't find variable 'sortSlots'",
+          "12:16:51.611  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(335): error: Can't find variable 'sortSlots'",
+          "12:16:51.611  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Can't find variable 'sortSlots'",
+          "12:16:51.611  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Syntax error",
+          "12:16:51.641  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetCountEntitiesInTrigger.c(10): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:51.648  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetLastFinishedTaskLayer.c(11): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:51.664  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(25): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:51.664  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(27): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:51.715  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(452): error: Can't find class Tuple2",
+          "12:16:51.715  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(517): error: Can't find class Tuple2",
+          "12:16:52.470  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(130): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:52.470  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(135): error: Undefined function 'GrenadeMoveComponent.GetOwner'",
+          "12:16:52.501  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(324): error: Error in parameters",
+          "12:16:52.501  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(333): error: Can't find variable 'sortSlots'",
+          "12:16:52.501  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(335): error: Can't find variable 'sortSlots'",
+          "12:16:52.501  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Can't find variable 'sortSlots'",
+          "12:16:52.501  SCRIPT    (E): scripts/Game/GameMode/Loadout/SCR_PlayerArsenalLoadout.c(337): error: Syntax error",
+          "12:16:52.532  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetCountEntitiesInTrigger.c(10): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:52.539  SCRIPT    (E): scripts/Game/ScenarioFramework/Actions/ActionGetters/SCR_ScenarioFrameworkGetLastFinishedTaskLayer.c(11): error: Can't find class SCR_ScenarioFrameworkParam",
+          "12:16:52.553  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(25): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:52.553  SCRIPT    (E): scripts/Game/UI/Components/SCR_SpinningWidgetComponent.c(27): error: Can't find class SCR_SpinningWidgetAnimation",
+          "12:16:52.603  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(452): error: Can't find class Tuple2",
+          "12:16:52.603  SCRIPT    (E): scripts/Game/UI/Menu/ContentBrowser/Common/SCR_ScenarioUICommon.c(517): error: Can't find class Tuple2"
+        ],
+        "status": "SCRIPT_COMPILE_FAIL",
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\followup-base-compile-01\\logs\\validate\\console.log"
+      },
+      "sha256": "e79509883dabb738ffe6d03ef307dcc05c0d760a8778a8cdb7bad0c5b4284d7b"
+    },
+    {
+      "run": "followup-base-compile-02",
+      "result": {
+        "status": "SCRIPT_COMPILE_PASS",
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\followup-base-compile-02\\logs\\validate\\console.log",
+        "exitCode": 0,
+        "nativeAbsent": true,
+        "scriptErrors": [],
+        "leaseReleased": true,
+        "shutdownErrorsRetained": true,
+        "nativeGameplay": "NOT_TESTED"
+      },
+      "sha256": "cb1cff6756413a0aaa0369ffc48a338d68fbeb9f1297386f92f5867f7884c9ef"
+    },
+    {
+      "run": "followup-enabled-compile-01",
+      "result": {
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\followup-enabled-compile-01\\logs\\validate\\console.log",
+        "status": "SCRIPT_COMPILE_PASS",
+        "shutdownErrorsRetained": true,
+        "nativeAbsent": true,
+        "exitCode": 0,
+        "leaseReleased": true,
+        "scriptErrors": [],
+        "nativeGameplay": "NOT_TESTED"
+      },
+      "sha256": "c5b1021c39b9cafbe146f98b17615d7586218274a823727ef2cc109e9b122736"
+    },
+    {
+      "run": "followup-upward-compile-02",
+      "result": {
+        "status": "SCRIPT_COMPILE_PASS",
+        "nativeGameplay": "NOT_TESTED",
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\followup-upward-compile-02\\logs\\validate\\console.log",
+        "scriptErrors": [],
+        "exitCode": 0,
+        "nativeAbsent": true,
+        "leaseReleased": true,
+        "shutdownErrorsRetained": true
+      },
+      "sha256": "b9919a765f7416b01e4c853b94c5e162ed6ab36c76c4a831ce5088d1230dc395"
+    },
+    {
+      "run": "followup-physics-drop-compile-02",
+      "result": {
+        "nativeGameplay": "NOT_TESTED",
+        "scriptErrors": [],
+        "status": "SCRIPT_COMPILE_PASS",
+        "leaseReleased": true,
+        "exitCode": 0,
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\followup-physics-drop-compile-02\\logs\\validate\\console.log",
+        "nativeAbsent": true,
+        "shutdownErrorsRetained": true
+      },
+      "sha256": "358c04519257d411ca7dd9afff4671f6a1c81251d7b0b2a79af44762100f282e"
+    },
+    {
+      "run": "followup-character-throw-compile-01",
+      "result": {
+        "nativeAbsent": true,
+        "scriptErrors": [],
+        "exitCode": 0,
+        "leaseReleased": true,
+        "status": "SCRIPT_COMPILE_PASS",
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\followup-character-throw-compile-01\\logs\\validate\\console.log",
+        "nativeGameplay": "NOT_TESTED",
+        "shutdownErrorsRetained": true
+      },
+      "sha256": "18792bf3d85f2b22b956f39f2fa21d8e9df4729e1c4b14731fbd30e8e0d868fe"
+    },
+    {
+      "run": "audio-resolver-compile-01",
+      "result": {
+        "status": "SCRIPT_COMPILE_PASS",
+        "scriptErrors": [],
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\audio-resolver-compile-01\\logs\\validate\\console.log",
+        "nativeAbsent": true,
+        "leaseReleased": true,
+        "nativeGameplay": "NOT_TESTED",
+        "shutdownErrorsRetained": true,
+        "exitCode": 0
+      },
+      "sha256": "0ac5f9631646b9e30a44088c40494018d8075d92391232fdba80810bcecd69c0"
+    },
+    {
+      "run": "audio-resolver-compile-02",
+      "result": {
+        "exitCode": 0,
+        "scriptErrors": [],
+        "shutdownErrorsRetained": true,
+        "nativeGameplay": "NOT_TESTED",
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\audio-resolver-compile-02\\logs\\validate\\console.log",
+        "status": "SCRIPT_COMPILE_PASS",
+        "nativeAbsent": true,
+        "leaseReleased": true
+      },
+      "sha256": "e3f4117c473e6e592ec21994e6980fac6380c2eb00ee5675c2899d3622416b08"
+    }
+  ]
+}

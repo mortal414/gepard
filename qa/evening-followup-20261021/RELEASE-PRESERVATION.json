@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "files": {
+    "data.pak": {
+      "expected": "0f0289014bbc78d2eb0bc1bf0697150a7672b7fb599f415f49696b7c8fa052d6",
+      "actual": "0f0289014bbc78d2eb0bc1bf0697150a7672b7fb599f415f49696b7c8fa052d6",
+      "pass": true
+    },
+    "Gepard.gproj": {
+      "expected": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+      "actual": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+      "pass": true
+    },
+    "resourceDatabase.rdb": {
+      "expected": "7f1413f0743164e5562a9d2540201c5343addf567c826db36f120c140846ccde",
+      "actual": "7f1413f0743164e5562a9d2540201c5343addf567c826db36f120c140846ccde",
+      "pass": true
+    }
+  },
+  "published": false
+}

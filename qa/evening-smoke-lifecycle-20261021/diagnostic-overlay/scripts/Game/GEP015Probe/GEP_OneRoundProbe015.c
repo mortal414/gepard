@@ -127,12 +127,12 @@ class GEP_OneRoundProbe015 : GenericEntity
     TimerTriggerComponent fuse=TimerTriggerComponent.Cast(round.FindComponent(TimerTriggerComponent));
     RplComponent rpl=RplComponent.Cast(round.FindComponent(RplComponent));Physics physics=round.GetPhysics();
     record.WriteValue("movePresent",move!=null);record.WriteValue("fusePresent",fuse!=null);record.WriteValue("physicsPresent",physics!=null);record.WriteValue("rplPresent",rpl!=null);
-    if(move){record.WriteValue("moveOwner",Identity015(move.GetOwner()));record.WriteValue("moveParentProjectile",Identity015(move.GetParentProjectile()));record.WriteValue("projectileVelocity",move.GetVelocity());}
+    if(move){record.WriteValue("moveLookupEntity",Identity015(round));record.WriteValue("moveParentProjectile",Identity015(move.GetParentProjectile()));record.WriteValue("projectileVelocity",move.GetVelocity());}
     if(fuse){Triggered=Triggered || fuse.WasTriggered();record.WriteValue("fuseOwner",Identity015(fuse.GetOwner()));record.WriteValue("fuseParentProjectile",Identity015(fuse.GetParentProjectile()));record.WriteValue("timerLocal",fuse.GetTimer());record.WriteValue("triggered",fuse.WasTriggered());}
     if(rpl)record.WriteValue("isProxy",rpl.IsProxy());
     if(physics){record.WriteValue("physicsActive",physics.IsActive());record.WriteValue("physicsDynamic",physics.IsDynamic());record.WriteValue("simulationState",physics.GetSimulationState());record.WriteValue("rigidBodyVelocity",physics.GetVelocity());}
     PrintFormat("GEP015_LIFE_ENTITY seq=%1 phase=%2 elapsed=%3 entity=%4 worldPosition=%5 parent=%6 physics=%7",m_iTrace015,phase,(now-DispatchMs)/1000.0,Identity015(round),matrix[3],Identity015(round.GetParent()),physics!=null);
-    if(move && fuse)PrintFormat("GEP015_LIFE_COMPONENT seq=%1 moveOwner=%2 projectile=%3 velocity=%4 fuse=%5 timer=%6 triggered=%7",m_iTrace015,Identity015(move.GetOwner()),Identity015(move.GetParentProjectile()),move.GetVelocity(),Identity015(fuse.GetOwner()),fuse.GetTimer(),fuse.WasTriggered());
+    if(move && fuse)PrintFormat("GEP015_LIFE_COMPONENT seq=%1 moveLookupEntity=%2 projectile=%3 velocity=%4 fuse=%5 timer=%6 triggered=%7",m_iTrace015,Identity015(round),Identity015(move.GetParentProjectile()),move.GetVelocity(),Identity015(fuse.GetOwner()),fuse.GetTimer(),fuse.WasTriggered());
    }
   }
   SampleCount=m_iTrace015;record.SaveToFile(string.Format("$profile:GEP015-life-%1.json",m_iTrace015));

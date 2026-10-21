@@ -1,0 +1,7 @@
+{
+  "reason": "Native compile rejected GrenadeMoveComponent.GetOwner; lookup entity recorded explicitly instead",
+  "oldSHA256": "4ed3a24daf74be3dc3927551e6a8ef1e128f615b3b11d3dd90be14a5169279d0",
+  "newSHA256": "89e3301f2d5819d1a33f82488337a3415e6234641b3bf772120ccfebe293d596",
+  "nativeFailedRun": "followup-base-compile-01",
+  "nativeRepairedRun": "followup-base-compile-02"
+}

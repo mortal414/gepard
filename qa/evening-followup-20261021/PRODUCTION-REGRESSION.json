@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "baseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "preservedManualCandidate": "cc5d0989376ed1d20ada109ce7c1ada5d96aac7e",
+  "baselineFiles": 1112,
+  "candidateFiles": 1112,
+  "changed": [
+    "scripts/Game/GEP/GEP_CrewActions579.c",
+    "scripts/Game/GEP/GEP_DriverStation.c",
+    "scripts/Game/GEP/GEP_RadarSystem.c"
+  ],
+  "bytePreserved": 1109,
+  "allOtherProductionBytesPreserved": true,
+  "commanderWording": "Get in commander restored for both exterior and internal actions",
+  "hiddenPeriscopeReturn": "unchanged; physical F exit remains needs user test"
+}

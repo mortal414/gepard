@@ -1,0 +1,17 @@
+{
+  "nativeSlotReleased": false,
+  "leaseRetained": true,
+  "census": [
+    {
+      "ProcessId": 56448,
+      "Name": "ArmaReforgerWorkbenchSteamDiag.exe",
+      "ExecutablePath": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\ArmaReforgerWorkbenchSteamDiag.exe",
+      "CreationUtc": "2026-10-21T17:36:32.6341700Z"
+    }
+  ],
+  "leaseStatus": "running_gepard_resource_probe",
+  "utc": "2026-10-21T17:43:45.6796226Z",
+  "pid": 56448,
+  "reason": "Owned Script Authorization Required dialog pending manual dismissal; no permission grant or forced termination",
+  "workRoot": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\audio-resource-resolver-02"
+}

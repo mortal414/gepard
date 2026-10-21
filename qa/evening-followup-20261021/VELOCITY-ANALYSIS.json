@@ -1,0 +1,33 @@
+{
+  "scope": "Retained native velocity/position/timer observations only; no simulated flight or contact conclusion",
+  "source": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\logs\\console.log",
+  "sourceSHA256": "c5bbb621933e57c8ba46e8f062a33819365ab125dd3abf10a0c0006b57c657b0",
+  "tube": 0,
+  "entity": 118,
+  "requestedMuzzle": [
+    598.88,
+    41.65,
+    2600.05
+  ],
+  "actualNativeInitialVelocity": [
+    -3.01334,
+    -10.0188,
+    17.0895
+  ],
+  "speedMetresPerSecond": 20.037654095367554,
+  "worldVelocityPitchDegrees": -29.999910695157194,
+  "downwardInitialVelocityProved": true,
+  "actualSpawnOriginBeforeLaunch": "NOT_MEASURED",
+  "firstObservedAfterSeconds": 5.00014,
+  "observedRecords": 137,
+  "allObservedOriginsZero": true,
+  "allObservedLocalTimersSame": true,
+  "triggeredEverObserved": false,
+  "selfCollision": "HYPOTHESIS_NOT_PROVED",
+  "simulationPreparationMissing": "SOURCE_COMPARISON_FACT; causal effect requires isolated next native probe",
+  "nextIndependentChanges": [
+    "Explicit EnableSimulation before Launch, otherwise old trajectory and immediate arming unchanged",
+    "Separate +30 degree elevation variant after simulation-enabled case, preserving coordinates",
+    "Record actual origin/world matrix before/after spawn/enable/Launch/live and first0/33/100/250ms; never count zero-origin distance as flight"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "scope": "OFFLINE_SOURCE_CONTRACT_AND_IDENTITY_ONLY",
+  "nativeCompile": "NOT_TESTED",
+  "gameplay": "NOT_TESTED",
+  "checks": [
+    {
+      "name": "sha256:control-source-candidate/Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et",
+      "pass": true
+    },
+    {
+      "name": "sha256:control-source-candidate/Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et.meta",
+      "pass": true
+    },
+    {
+      "name": "sha256:control-source-candidate/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et",
+      "pass": true
+    },
+    {
+      "name": "sha256:control-source-candidate/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et.meta",
+      "pass": true
+    },
+    {
+      "name": "sha256:control-source-candidate/scripts/Game/GEP015Stock/GEP_StockSmoke015.c",
+      "pass": true
+    },
+    {
+      "name": "sha256:control-source-candidate/scripts/Game/GEP015Stock/GEP_StockSmoke015.c.meta",
+      "pass": true
+    },
+    {
+      "name": "sha256:enable-overrides/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et",
+      "pass": true
+    },
+    {
+      "name": "sha256:upward-overrides/scripts/Game/GEP015Stock/GEP_StockSmoke015.c",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/scripts/Game/GEP015Probe/GEP_StockDropControl015.c",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/scripts/Game/GEPDemo/GEP_DemoScene.c",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP015_Auto.ent",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP015_Auto.ent.meta",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP015_Auto_default.layer",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP015_StockDrop.ent",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP015_StockDrop.ent.meta",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP015_StockDrop_default.layer",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP_Demo.ent",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP_Demo.ent.meta",
+      "pass": true
+    },
+    {
+      "name": "sha256:diagnostic-overlay/Worlds/GEP_Demo_default.layer",
+      "pass": true
+    },
+    {
+      "name": "only-enabled-prefab-flag-diff",
+      "pass": true
+    },
+    {
+      "name": "upward-only-pitch-diff",
+      "pass": true
+    },
+    {
+      "name": "null-weapon-repair-present",
+      "pass": true
+    },
+    {
+      "name": "EnableSimulation-gated-before-Launch",
+      "pass": true
+    },
+    {
+      "name": "arming-time-unchanged",
+      "pass": true
+    },
+    {
+      "name": "no-timer-velocity-effect-or-grenade-pose-setter",
+      "pass": true
+    },
+    {
+      "name": "one-action-callback",
+      "pass": true
+    },
+    {
+      "name": "terminal-frame-mask-cleared",
+      "pass": true
+    },
+    {
+      "name": "early-spawn-observation",
+      "pass": true
+    },
+    {
+      "name": "drop-control-no-launch",
+      "pass": true
+    },
+    {
+      "name": "probe-native-parameter-names",
+      "pass": true
+    },
+    {
+      "name": "diagnostic-position-invalidity-retained",
+      "pass": true
+    },
+    {
+      "name": "balanced-braces:component",
+      "pass": true
+    },
+    {
+      "name": "balanced-braces:probe",
+      "pass": true
+    },
+    {
+      "name": "balanced-braces:drop",
+      "pass": true
+    }
+  ]
+}

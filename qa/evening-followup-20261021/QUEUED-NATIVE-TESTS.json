@@ -1,0 +1,32 @@
+{
+  "status": "SOURCE_READY_NATIVE_BLOCKED",
+  "admission": "Only after manual recovery and parent handback: fresh exact census/atomic lease, successful own-stage compilation, frozen/adopted complete manifest; no concurrent session assumption",
+  "cases": [
+    {
+      "id": "SMK_CHARACTER_CLOUD",
+      "stage": "followup-character-cloud-01",
+      "world": "Worlds/GEP015_CharacterThrow.ent",
+      "nativeCompile": "NOT_TESTED",
+      "seconds": 50,
+      "expected": "Unique inventory/equip identity and CanThrow; one WM.Throw; valid motion/fuse, round-follow frames0.25/1/3/5/8/12/20/30s; inspect native cloud at round. No custom arming/physics/trajectory setters."
+    },
+    {
+      "id": "SMK_DEFERRED_LAUNCH",
+      "stage": "followup-deferred-launch-01",
+      "world": "Worlds/GEP015_Auto.ent",
+      "nativeCompile": "NOT_TESTED",
+      "expected": "Separate stock-Airstrike-style later-frame dispatch from immediate creation; reserve/dispatch distinguished, exact one callback, fail closed on invalid state/origin; actual motion/fuse/cloud required, no acceptance from ammo change."
+    },
+    {
+      "id": "AUD_PROFILE_RESOURCE_METADATA",
+      "stage": "audio-resolver-profile-01",
+      "nativeCompile": "NOT_TESTED",
+      "expected": "No permission prompt; durable nine-row report under fresh per-run profile, canonical stock identities and negative control; graph/mixer metadata if supported. No playback."
+    },
+    {
+      "id": "AUD_UNITS_MUTE_LIFECYCLE",
+      "nativeCompile": "NOT_TESTED",
+      "expected": "Only after graph resource/port gates: original scratch graph, verified dB/linear units, zero active event at idle, stable movement starts/stop cleanup, measured native updates and actual audition. Stock cannon audio unchanged."
+    }
+  ]
+}
