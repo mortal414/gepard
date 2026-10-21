@@ -1,0 +1,29 @@
+{
+  "utcObservation": "2026-10-21T17:50:25.9731308Z",
+  "readOnly": true,
+  "pid": 56448,
+  "processIdentityAndLeaseVerified": true,
+  "window": "Script Authorization Required",
+  "promptVerbatim": "Allow script 'scripts/WorkbenchGame/GEP033/GEP033_ResolveStockAudioPlugin.c:74'\nto access potentially dangerous\nmethod 'FileIO.FileExists'?",
+  "buttonsVerbatim": [
+    "Yes",
+    "Yes to All",
+    "No",
+    "No to All"
+  ],
+  "buttonsEnabled": true,
+  "controlsInvoked": false,
+  "authorization": "PENDING; neither granted nor denied",
+  "triggerChain": [
+    "audio-resolver-02/tools/ResolveAudio.ps1",
+    "ArmaReforgerWorkbenchSteamDiag.exe -wbModule=ResourceManager -plugin=GEP033_ResolveStockAudioPlugin",
+    "Run or RunCommandline -> RunConfigured",
+    "line69 System.GetCLIParam returned a nonempty output (inferred from reaching line74)",
+    "line74 FileIO.FileExists(output) requests authorization before Probe(output) atline79"
+  ],
+  "script": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\audio-resolver-02\\native-stage\\gepard\\scripts\\WorkbenchGame\\GEP033\\GEP033_ResolveStockAudioPlugin.c",
+  "scriptSHA256": "5fd4badea2738b19ac78ce6ea5394c61835e055a4a82061afca79bafae20c0a1",
+  "correction": "Earlier attribution to System.GetCLIParam was inference and is incorrect; visible native dialog identifies FileIO.FileExists. No resource observations were collected.",
+  "successorLimitation": "Fixed-profile successor still calls FileIO.FileExists for collision refusal. It is source-only and is not proven to eliminate this authorization requirement. Do not remove safeguard to bypass authorization.",
+  "scopeOfYesToAll": "Not independently verified; labels reported without assumptions about duration or permission scope."
+}

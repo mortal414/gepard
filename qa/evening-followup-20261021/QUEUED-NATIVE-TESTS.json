@@ -1,6 +1,6 @@
 {
   "status": "SOURCE_READY_NATIVE_BLOCKED",
-  "admission": "Only after manual recovery and parent handback: fresh exact census/atomic lease, successful own-stage compilation, frozen/adopted complete manifest; no concurrent session assumption",
+  "admission": "Only after manual recovery and parent handback: fresh exact census/atomic lease, successful own-stage compilation, frozen/adopted complete manifest; no concurrent session assumption; no permission control may be automated; FileIO.FileExists remains pending authorization in current probe",
   "cases": [
     {
       "id": "SMK_CHARACTER_CLOUD",
@@ -21,7 +21,7 @@
       "id": "AUD_PROFILE_RESOURCE_METADATA",
       "stage": "audio-resolver-profile-01",
       "nativeCompile": "NOT_TESTED",
-      "expected": "No permission prompt; durable nine-row report under fresh per-run profile, canonical stock identities and negative control; graph/mixer metadata if supported. No playback."
+      "expected": "After user resolves current prompt and fresh admission/compile: fixed per-run profile collision check, durable nine-row report, canonical stock identities and missing-resource control; stop on any new authorization prompt. FileIO.FileExists is retained and may require authorization. No playback."
     },
     {
       "id": "AUD_UNITS_MUTE_LIFECYCLE",

@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,hashlib,datetime
+raise SystemExit('Historical generator retired: use committed current ledger and READONLY-AUTHORIZATION-DETAILS; do not regenerate superseded blocker attribution')
 r=Path(r'D:\ArmaProjects\Gepard-EveningSprint-20261021');repo=r/'diagnosis';q=repo/'qa/evening-followup-20261021'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def save(p,o):p.write_bytes((json.dumps(o,indent=2)+'\n').encode())

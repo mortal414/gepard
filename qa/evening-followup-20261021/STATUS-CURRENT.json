@@ -47,10 +47,12 @@
     },
     {
       "id": "GEP-007",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "Released stabilization hard-disabled; no qualified actual-motion LOS/actuator calibration.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-008",
@@ -61,10 +63,12 @@
     },
     {
       "id": "GEP-009",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "Released ballistic correction hard-disabled; no physical elevation/impact qualification at multiple ranges/feeds.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-010",
@@ -75,17 +79,21 @@
     },
     {
       "id": "GEP-011",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "Armor/crew-protection tuning outside this sprint; one fragment case cannot qualify realism.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-012",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "Independent turret damage remains stubbed while hull alive; no speculative damage rewrite.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-013",
@@ -96,31 +104,39 @@
     },
     {
       "id": "GEP-014",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "Real radar sensing/tracking not implemented; existing deployment remains cosmetic.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-015",
       "status": "Blocked",
       "reason": "Blocked: original custom launcher, EnableSimulation, upward sign and explicit body simulation failed motion; native character inventory/equip/Throw control travelled41.19m and triggered fuse. Cloud inspection and actual launcher lifecycle fix still unqualified; no production integration.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "genuineBlocker": true,
+      "blocker": "Native continuation pending manual resolution of owned Workbench PID56448 FileIO.FileExists authorization dialog"
     },
     {
       "id": "GEP-016",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "Interior/cabin lighting redesign outside sprint.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-017",
-      "status": "Blocked",
-      "reason": "Exterior actively owned by separate Blender/art thread; no conditional geometry imported.",
+      "status": "Active elsewhere",
+      "reason": "Active in Blender/art thread01a15c8d-703e-74fd-9acb-5868d19cb0c1. This functional sprint does not own exterior and imports no conditional geometry.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Separate Blender art lane owns exterior",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-018",
@@ -131,10 +147,12 @@
     },
     {
       "id": "GEP-019",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "User-deferred custom cannon audio; released stock sounds retained, no renewed effort.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-020",
@@ -173,24 +191,30 @@
     },
     {
       "id": "GEP-025",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "Dedicated/MP/JIP qualification outside this single-player bounded batch.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-026",
-      "status": "Blocked",
+      "status": "Deferred",
       "reason": "Console device/control/performance qualification unavailable in this PC batch; compile configuration is not console gameplay.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-027",
-      "status": "Blocked",
-      "reason": "1.0.2 upload, server processing and exact packaged GM spawn tests verified in hotfix evidence. Public webpage visibility remains independently unverified; tracker text stale, no republish.",
+      "status": "Needs verification",
+      "reason": "Prior1.0.2 upload/server-processing and exact packaged GM spawn tests passed. Only public webpage visibility remains independently unverified; no republish requested.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "scopeDisposition": "Release already uploaded and packaged-tested; public page only outstanding",
+      "genuineBlocker": false
     },
     {
       "id": "GEP-028",
@@ -230,13 +254,23 @@
     {
       "id": "GEP-033",
       "status": "Blocked",
-      "reason": "Blocked: signal adapter is not audible implementation. Read-only resolver02 reached pending native Script Authorization Required at owned Workbench PID56448 before observations. Permission not granted, no playable graph. Fixed-profile successor is source-only until manual recovery and new admitted tests.",
+      "reason": "Signal adapter is not audible implementation. Resolver02 stopped before observations at FileIO.FileExists(output), line74, pending native authorization. Fixed-profile successor retains that collision check; source-only, not an authorization fix or audible graph.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "genuineBlocker": true,
+      "blocker": "Native continuation pending manual resolution of owned Workbench PID56448 FileIO.FileExists authorization dialog"
     }
   ],
   "nativeSlot": "BLOCKED_OWNED_AUTHORIZATION_DIALOG_PENDING_MANUAL_DISMISSAL",
   "nativePid": 56448,
   "earliestManualCandidate": "cc5d0989376ed1d20ada109ce7c1ada5d96aac7e",
-  "productionSuccessor": "Get in commander restored; exactly3 guard scripts differ from release; all other1109 production files preserved"
+  "productionSuccessor": "Get in commander restored; exactly3 guard scripts differ from release; all other1109 production files preserved",
+  "statusDefinitions": {
+    "Ready": "Previously accepted baseline preserved, no new whole-task acceptance",
+    "Needs user test": "Bounded candidate/evidence exists; Marco acceptance remains",
+    "Deferred": "Not pursued in this bounded functional slice; not a global blocker",
+    "Active elsewhere": "Owned and progressing in a separate lane",
+    "Needs verification": "Existing release evidence passes; one named verification remains",
+    "Blocked": "Concrete dependency prevents next planned work; current native authorization dialog for015/033"
+  }
 }

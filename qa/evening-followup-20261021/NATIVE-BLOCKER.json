@@ -1,6 +1,6 @@
 {
   "status": "BLOCKED_PENDING_MANUAL_DISMISSAL",
-  "exactAction": "Audio resource resolver02 read of System.GetCLIParam requested native script authorization before GEP033_PROBE_BEGIN",
+  "exactAction": "Audio resource resolver02 FileIO.FileExists(output), script line74, requested native authorization before Probe/output observations",
   "target": "ArmaReforgerWorkbenchSteamDiag.exe PID56448; owned Qt window Script Authorization Required",
   "project": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\audio-resolver-02\\native-stage\\gepard\\Gepard.gproj",
   "run": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\audio-resource-resolver-02",
@@ -13,8 +13,16 @@
   "unexpectedUserSessionTouched": false,
   "forceTermination": false,
   "nextRequired": "Manual dismissal of the authorization dialog and normal close of the owned project; fresh exact census/lease recovery before any queued native launch",
-  "restrictedOperationRetry": "Do not retry System.GetCLIParam or approve via automation; successor uses a scoped fixed profile output without CLI introspection",
+  "restrictedOperationRetry": "Do not retry or automate authorization for FileIO.FileExists. Fixed-profile successor retains collision guard and still requires native qualification after user resolution.",
   "skill": "C:\\Users\\marco\\.codex\\plugins\\cache\\openai-bundled\\computer-use\\26.1013.40934\\skills\\computer-use\\SKILL.md",
   "instructionSource": "C:\\Users\\marco\\.codex\\plugins\\cache\\openai-bundled\\computer-use\\26.1013.40934\\docs\\guidance.md",
-  "instruction": "Do not act on security or privacy permission requests."
+  "instruction": "Do not act on security or privacy permission requests.",
+  "triggerMethod": "FileIO.FileExists",
+  "promptOptions": [
+    "Yes",
+    "Yes to All",
+    "No",
+    "No to All"
+  ],
+  "readOnlyInspection": "READONLY-AUTHORIZATION-DETAILS.json"
 }
