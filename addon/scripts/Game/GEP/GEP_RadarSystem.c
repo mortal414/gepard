@@ -119,11 +119,11 @@ class GEP_RadarSystem : ScriptComponent
 
   CompartmentAccessComponent access=CompartmentAccessComponent.Cast(user.FindComponent(CompartmentAccessComponent));
 
-  if(!life || life.GetLifeState()!=ECharacterLifeState.ALIVE || !access || access.IsGettingIn() || access.IsGettingOut() || access.IsSwitchingSeatsAnim()) return false;
+  if(!life || life.IsUnconscious() || life.GetLifeState()!=ECharacterLifeState.ALIVE || !access || access.IsGettingIn() || access.IsGettingOut() || access.IsSwitchingSeatsAnim()) return false;
 
   BaseCompartmentSlot seat=access.GetCompartment();
 
-  return seat && seat.IsOccupied() && Find(seat.GetVehicle())==this;
+  return seat && seat.GetOccupant()==user && Find(seat.GetVehicle())==this;
 
  }
  bool Gunner(IEntity user)

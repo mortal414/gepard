@@ -22,7 +22,7 @@ class GEP_StationLight579 : LightUserAction
   if(!user || !StationManager())return false;
   CharacterControllerComponent life=CharacterControllerComponent.Cast(user.FindComponent(CharacterControllerComponent));
   CompartmentAccessComponent access=CompartmentAccessComponent.Cast(user.FindComponent(CompartmentAccessComponent));
-  if(!life || life.GetLifeState()!=ECharacterLifeState.ALIVE || !access || access.IsGettingIn() || access.IsGettingOut() || access.IsSwitchingSeatsAnim())return false;
+  if(!life || life.IsUnconscious() || life.GetLifeState()!=ECharacterLifeState.ALIVE || !access || access.IsGettingIn() || access.IsGettingOut() || access.IsSwitchingSeatsAnim())return false;
   BaseCompartmentSlot seat=access.GetCompartment();
   if(!seat || seat.GetOccupant()!=user || seat.GetOwner()!=GetOwner())return false;
   SCR_DamageManagerComponent damage=SCR_DamageManagerComponent.Cast(GetOwner().GetRootParent().FindComponent(SCR_DamageManagerComponent));

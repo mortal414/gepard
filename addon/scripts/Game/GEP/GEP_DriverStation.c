@@ -19,9 +19,9 @@ class GEP_DriverStation : ScriptComponent
   if(!user) return false;
   CharacterControllerComponent life=CharacterControllerComponent.Cast(user.FindComponent(CharacterControllerComponent));
   CompartmentAccessComponent access=CompartmentAccessComponent.Cast(user.FindComponent(CompartmentAccessComponent));
-  if(!life || life.GetLifeState()!=ECharacterLifeState.ALIVE || !access || access.IsGettingIn() || access.IsGettingOut() || access.IsSwitchingSeatsAnim()) return false;
+  if(!life || life.IsUnconscious() || life.GetLifeState()!=ECharacterLifeState.ALIVE || !access || access.IsGettingIn() || access.IsGettingOut() || access.IsSwitchingSeatsAnim()) return false;
   BaseCompartmentSlot seat=access.GetCompartment();
-  return seat && PilotCompartmentSlot.Cast(seat) && seat.GetVehicle()==GetOwner() && seat.IsPiloting();
+  return seat && seat.GetOccupant()==user && PilotCompartmentSlot.Cast(seat) && seat.GetVehicle()==GetOwner() && seat.IsPiloting();
  }
  void SelectView(IEntity user,int mode)
  {

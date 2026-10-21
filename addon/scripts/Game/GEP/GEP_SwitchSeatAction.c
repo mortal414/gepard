@@ -39,7 +39,7 @@ class GEP_SwitchSeatAction : SCR_SwitchSeatAction
 {
  override bool GetActionNameScript(out string outName)
  {
-  if(CargoCompartmentSlot.Cast(GetCompartmentSlot())){outName="Get in commander";return true;}
+  if(CargoCompartmentSlot.Cast(GetCompartmentSlot())){outName="Move to commander";return true;}
   return super.GetActionNameScript(outName);
  }
 

@@ -1,0 +1,104 @@
+{
+  "baseline": "699f245",
+  "nativeAdmission": "PENDING parent handoff; no launch authorized during Isfahan ownership",
+  "scenarios": [
+    {
+      "id": "CREW-01",
+      "gep": [
+        "006",
+        "010",
+        "020",
+        "021",
+        "024"
+      ],
+      "scenario": "Driver periscopes and intentionally hidden return action",
+      "steps": [
+        "Enter driver normally; use each forward/left/right periscope contextual action.",
+        "Confirm Leave periscope does not clutter the screen; press F once to return. Repeat with the rebound native interaction key if available; inspect hold-F alternatives for unrelated needed prompts.",
+        "Cycle the existing NUM5/NUM0 controls; exit and re-enter twice."
+      ],
+      "expected": [
+        "Return action remains hidden as requested; one native interaction leaves periscope without duplicate dispatch. Other applicable station prompts remain usable.",
+        "Return to seated free look; no stale gun HUD, hidden interaction display, stuck camera or hatch."
+      ],
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "CREW-02",
+      "gep": [
+        "006",
+        "010",
+        "020",
+        "021",
+        "022",
+        "024"
+      ],
+      "scenario": "Three stations, repeated switching and commander alignment",
+      "steps": [
+        "From driver switch gunner, commander, driver; allow each native transition to finish; repeat twice.",
+        "Inspect commander body/eye alignment, free look, own hatch open/close and station lamp/radar prompt reach.",
+        "From outside verify Get in commander; inside verify Move to commander."
+      ],
+      "expected": [
+        "One completed native transition per request; accurate station wording.",
+        "No controls stolen from another station, no HUD in commander/driver, no ceiling/body clipping. Alignment remains a human judgment gate."
+      ],
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "CREW-03",
+      "gep": [
+        "006",
+        "010",
+        "020",
+        "024"
+      ],
+      "scenario": "Gunner HUD lifecycle and restored native UI",
+      "steps": [
+        "Enter gunner, ADS, measure range, fire left/right/both with current bindings.",
+        "Open/close menu, leave ADS, switch seat, exit/re-enter; repeat on charcoal.",
+        "After a controlled nonfatal turret/hull damage fixture, repeat usable actions and surviving crew exit."
+      ],
+      "expected": [
+        "Correct ammo/range updates; custom sight appears only for exact local ADS gunner.",
+        "Immediate cleanup on menus, role changes, death/owner loss; ordinary HUD restored and no release-facing debug text.",
+        "Missing damage/functional acceptance remains recorded; do not infer from HUD telemetry."
+      ],
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "CREW-04",
+      "gep": [
+        "010",
+        "020"
+      ],
+      "scenario": "Incapacitation and recovery",
+      "steps": [
+        "In a qualified fixture incapacitate the seated driver/commander/gunner without destroying vehicle.",
+        "Attempt existing view/hatch/lamp/radar controls while unconscious; recover actor and repeat.",
+        "Confirm conscious surviving crew can still exit after hull/turret damage."
+      ],
+      "expected": [
+        "Unconscious actors do not activate custom station controls; recovered exact occupants regain them.",
+        "No new damage veto blocks surviving crew exit; native exit/door actions are unchanged."
+      ],
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "CREW-05",
+      "gep": [
+        "023"
+      ],
+      "scenario": "Both authored refuel points and ordinary logistics",
+      "steps": [
+        "With partial fuel and stock support source, approach left rear fuel point and refuel.",
+        "Reset partial fuel and repeat right side; test sensible near/far reach and cancellation."
+      ],
+      "expected": [
+        "Ordinary stock support action transfers actual fuel, respects supply and reach.",
+        "No duplicate action/through-hull or far-side interaction; intended physical side acceptance requires Marco."
+      ],
+      "status": "NOT_TESTED"
+    }
+  ]
+}
