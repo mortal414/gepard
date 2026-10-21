@@ -1,0 +1,759 @@
+{
+  "scope": "Native measured cases and complete source-closure checks; no whole-task/human acceptance implied",
+  "compiles": {
+    "qa-compile-01": {
+      "result": {
+        "shutdownErrorsRetained": true,
+        "scriptErrors": [],
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\qa-compile-01\\logs\\validate\\console.log",
+        "nativeGameplay": "NOT_TESTED",
+        "status": "SCRIPT_COMPILE_PASS",
+        "nativeAbsent": true,
+        "exitCode": 0,
+        "leaseReleased": true
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\qa-compile-01\\RESULT.json",
+      "sha256": "2fb3d3a7420dace2666be9fdb86df12c4e22c750e75c0ae21b617b13857aa860"
+    },
+    "diagnostic-compile-01": {
+      "result": {
+        "nativeGameplay": "NOT_TESTED",
+        "status": "SCRIPT_COMPILE_FAIL",
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\diagnostic-compile-01\\logs\\validate\\console.log",
+        "shutdownErrorsRetained": true,
+        "leaseReleased": true,
+        "exitCode": -1,
+        "scriptErrors": [
+          "11:43:55.289    SCRIPT    (E): @\"scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c,7\": Variable name 'Turret' is already used as type name",
+          "11:43:55.289    SCRIPT    (E): @\"scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c,86\": Overloaded method 'EOnFrame', argument name 'dt' differs from prototype 'timeSlice'",
+          "11:43:55.449    SCRIPT    (E): Can't compile \"Game\" script module!",
+          "11:43:55.869  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(7): error: Variable name 'Turret' is already used as type name",
+          "11:43:55.869  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(86): error: Overloaded method 'EOnFrame', argument name 'dt' differs from prototype 'timeSlice'",
+          "11:43:56.430  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(7): error: Variable name 'Turret' is already used as type name",
+          "11:43:56.431  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(86): error: Overloaded method 'EOnFrame', argument name 'dt' differs from prototype 'timeSlice'",
+          "11:43:56.983  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(7): error: Variable name 'Turret' is already used as type name",
+          "11:43:56.984  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(86): error: Overloaded method 'EOnFrame', argument name 'dt' differs from prototype 'timeSlice'",
+          "11:43:57.550  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(7): error: Variable name 'Turret' is already used as type name",
+          "11:43:57.550  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(86): error: Overloaded method 'EOnFrame', argument name 'dt' differs from prototype 'timeSlice'",
+          "11:43:58.102  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(7): error: Variable name 'Turret' is already used as type name",
+          "11:43:58.102  SCRIPT    (E): scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c(86): error: Overloaded method 'EOnFrame', argument name 'dt' differs from prototype 'timeSlice'"
+        ],
+        "nativeAbsent": true
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\diagnostic-compile-01\\RESULT.json",
+      "sha256": "0370bd0c178d1f0368114ced17fd998473e052c88cb4042707ed3cc31e339b7d"
+    },
+    "diagnostic-compile-02": {
+      "result": {
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\diagnostic-compile-02\\logs\\validate\\console.log",
+        "nativeGameplay": "NOT_TESTED",
+        "leaseReleased": true,
+        "exitCode": 0,
+        "scriptErrors": [],
+        "status": "SCRIPT_COMPILE_PASS",
+        "nativeAbsent": true,
+        "shutdownErrorsRetained": true
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\diagnostic-compile-02\\RESULT.json",
+      "sha256": "1c8c721286914e7734aade3f3a816a99576279ba2e27a3cc01832574a2b97370"
+    },
+    "smoke-repair-compile-01": {
+      "result": {
+        "nativeGameplay": "NOT_TESTED",
+        "scriptErrors": [],
+        "leaseReleased": true,
+        "status": "SCRIPT_COMPILE_PASS",
+        "nativeAbsent": true,
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-repair-compile-01\\logs\\validate\\console.log",
+        "shutdownErrorsRetained": true,
+        "exitCode": 0
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-repair-compile-01\\RESULT.json",
+      "sha256": "190fc4b922ccabce9de2616d8e8c86a3325f6890be902dca9ee1d493f5d418d5"
+    },
+    "evening-final-compile-01": {
+      "result": {
+        "shutdownErrorsRetained": true,
+        "leaseReleased": true,
+        "nativeGameplay": "NOT_TESTED",
+        "console": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\evening-final-compile-01\\logs\\validate\\console.log",
+        "exitCode": 0,
+        "scriptErrors": [],
+        "nativeAbsent": true,
+        "status": "SCRIPT_COMPILE_PASS"
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\evening-final-compile-01\\RESULT.json",
+      "sha256": "64d05839c01e681ca3a22e3f96ffa0df9dbb4ad9172f0814a2a6596c49fc220d"
+    }
+  },
+  "batches": {
+    "healthy-batch-01": {
+      "status": "PASS",
+      "cases": {
+        "healthy-gepard": {
+          "status": "PASS",
+          "assertions": {
+            "fixture.ready": {
+              "status": "PASS",
+              "reason": "Original collector requires GAME, nonce ready/done, frozen-source hashes and closure"
+            },
+            "world.loaded": {
+              "status": "PASS",
+              "reason": "Original native gameplay marker and enteredPlay result"
+            },
+            "stimulus.native": {
+              "status": "NOT_TESTED",
+              "reason": "Authored native pathway, issued count and callbacks required",
+              "actual": {
+                "stimulus": "none",
+                "issued": 0
+              }
+            },
+            "damage.observed": {
+              "status": "NOT_TESTED",
+              "reason": "Actual damage subscriptions, without health setters",
+              "actual": 0
+            },
+            "crew.exit": {
+              "status": "PASS",
+              "reason": "Actual scripted compartment completion; ordinary input acceptance separate",
+              "actual": true
+            },
+            "post-hit.traverse": {
+              "status": "PASS",
+              "reason": "Measured native sights direction after right/left action input; no post-hit angle setter",
+              "actual": {
+                "rightDegrees": 105.45349121,
+                "leftDegrees": 45.76438522
+              }
+            },
+            "post-hit.fire": {
+              "status": "PASS",
+              "reason": "Both native muzzle ammunition counts decrease after native TurretFire action",
+              "actual": [
+                4,
+                4
+              ]
+            },
+            "crew.reentry": {
+              "status": "PASS",
+              "reason": "Same original crew/seat; public get-in action and completed compartment state",
+              "actual": {
+                "requested": true,
+                "completed": true
+              }
+            },
+            "post-hit.drive": {
+              "status": "NOT_TESTED",
+              "reason": "Existing health/loaded-muzzle fixture does not measure this function"
+            },
+            "post-reentry.fire": {
+              "status": "PASS",
+              "reason": "Actual native ammunition use after completed reentry",
+              "actual": [
+                11,
+                11
+              ]
+            },
+            "input.positive-control": {
+              "status": "PASS",
+              "reason": "Healthy same-build native action calibration before attributing damaged-function failures",
+              "actual": {
+                "healthyControl": true,
+                "qualified": true
+              }
+            }
+          },
+          "lifecycle": {
+            "status": "PASS",
+            "reason": "Original verified process exit and lease receipt; not requested",
+            "verifiedExited": true,
+            "leaseReleased": true
+          },
+          "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evidence\\healthy-batch-01\\healthy-gepard\\result.json",
+          "sha256": "208261b8b238c2d33b0ab2b0299acefe22dc8101678da46fd5af79683f17640e"
+        },
+        "healthy-gepard-charcoal": {
+          "status": "PASS",
+          "assertions": {
+            "fixture.ready": {
+              "status": "PASS",
+              "reason": "Original collector requires GAME, nonce ready/done, frozen-source hashes and closure"
+            },
+            "world.loaded": {
+              "status": "PASS",
+              "reason": "Original native gameplay marker and enteredPlay result"
+            },
+            "stimulus.native": {
+              "status": "NOT_TESTED",
+              "reason": "Authored native pathway, issued count and callbacks required",
+              "actual": {
+                "stimulus": "none",
+                "issued": 0
+              }
+            },
+            "damage.observed": {
+              "status": "NOT_TESTED",
+              "reason": "Actual damage subscriptions, without health setters",
+              "actual": 0
+            },
+            "crew.exit": {
+              "status": "PASS",
+              "reason": "Actual scripted compartment completion; ordinary input acceptance separate",
+              "actual": true
+            },
+            "post-hit.traverse": {
+              "status": "PASS",
+              "reason": "Measured native sights direction after right/left action input; no post-hit angle setter",
+              "actual": {
+                "rightDegrees": 102.8526535,
+                "leftDegrees": 48.35889816
+              }
+            },
+            "post-hit.fire": {
+              "status": "PASS",
+              "reason": "Both native muzzle ammunition counts decrease after native TurretFire action",
+              "actual": [
+                4,
+                4
+              ]
+            },
+            "crew.reentry": {
+              "status": "PASS",
+              "reason": "Same original crew/seat; public get-in action and completed compartment state",
+              "actual": {
+                "requested": true,
+                "completed": true
+              }
+            },
+            "post-hit.drive": {
+              "status": "NOT_TESTED",
+              "reason": "Existing health/loaded-muzzle fixture does not measure this function"
+            },
+            "post-reentry.fire": {
+              "status": "PASS",
+              "reason": "Actual native ammunition use after completed reentry",
+              "actual": [
+                11,
+                11
+              ]
+            },
+            "input.positive-control": {
+              "status": "PASS",
+              "reason": "Healthy same-build native action calibration before attributing damaged-function failures",
+              "actual": {
+                "healthyControl": true,
+                "qualified": true
+              }
+            }
+          },
+          "lifecycle": {
+            "status": "PASS",
+            "reason": "Original verified process exit and lease receipt; not requested",
+            "verifiedExited": true,
+            "leaseReleased": true
+          },
+          "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evidence\\healthy-batch-01\\healthy-gepard-charcoal\\result.json",
+          "sha256": "8eacd272bd0608f77bd31951618e2e0a1c904cf41e50a41135380ec3f9ee6eb7"
+        }
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evidence\\healthy-batch-01\\summary.json",
+      "sha256": "e420041fdce0589b756f673b72a838dcc0b745eafea0a403ffd94380efa83136"
+    },
+    "fragment-batch-01": {
+      "status": "PASS",
+      "cases": {
+        "fragment-survivor-regression": {
+          "status": "PASS",
+          "assertions": {
+            "fixture.ready": {
+              "status": "PASS",
+              "reason": "Original collector requires GAME, nonce ready/done, frozen-source hashes and closure"
+            },
+            "world.loaded": {
+              "status": "PASS",
+              "reason": "Original native gameplay marker and enteredPlay result"
+            },
+            "stimulus.native": {
+              "status": "PASS",
+              "reason": "Authored native pathway, issued count and callbacks required",
+              "actual": {
+                "stimulus": "native-blast",
+                "issued": 1
+              }
+            },
+            "damage.observed": {
+              "status": "PASS",
+              "reason": "Actual damage subscriptions, without health setters",
+              "actual": 5
+            },
+            "crew.exit": {
+              "status": "PASS",
+              "reason": "Actual scripted compartment completion; ordinary input acceptance separate",
+              "actual": true
+            },
+            "post-hit.traverse": {
+              "status": "PASS",
+              "reason": "Measured native sights direction after right/left action input; no post-hit angle setter",
+              "actual": {
+                "rightDegrees": 102.83676147,
+                "leftDegrees": 48.4726448
+              }
+            },
+            "post-hit.fire": {
+              "status": "PASS",
+              "reason": "Both native muzzle ammunition counts decrease after native TurretFire action",
+              "actual": [
+                5,
+                5
+              ]
+            },
+            "crew.reentry": {
+              "status": "PASS",
+              "reason": "Same original crew/seat; public get-in action and completed compartment state",
+              "actual": {
+                "requested": true,
+                "completed": true
+              }
+            },
+            "post-hit.drive": {
+              "status": "NOT_TESTED",
+              "reason": "Existing health/loaded-muzzle fixture does not measure this function"
+            },
+            "post-reentry.fire": {
+              "status": "PASS",
+              "reason": "Actual native ammunition use after completed reentry",
+              "actual": [
+                11,
+                11
+              ]
+            }
+          },
+          "lifecycle": {
+            "status": "PASS",
+            "reason": "Original verified process exit and lease receipt; not requested",
+            "verifiedExited": true,
+            "leaseReleased": true
+          },
+          "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evidence\\fragment-batch-01\\fragment-survivor-regression\\result.json",
+          "sha256": "c3c3c65a3617670960290d3f2ac764de9694868515a7d8e44436ecfec74b7742"
+        }
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evidence\\fragment-batch-01\\summary.json",
+      "sha256": "e6152c005b2df77b8483db28952666774208af45f3b62f7040a59c84ecbb8065"
+    },
+    "healthy-final-01": {
+      "status": "PASS",
+      "cases": {
+        "healthy-gepard": {
+          "status": "PASS",
+          "assertions": {
+            "fixture.ready": {
+              "status": "PASS",
+              "reason": "Original collector requires GAME, nonce ready/done, frozen-source hashes and closure"
+            },
+            "world.loaded": {
+              "status": "PASS",
+              "reason": "Original native gameplay marker and enteredPlay result"
+            },
+            "stimulus.native": {
+              "status": "NOT_TESTED",
+              "reason": "Authored native pathway, issued count and callbacks required",
+              "actual": {
+                "stimulus": "none",
+                "issued": 0
+              }
+            },
+            "damage.observed": {
+              "status": "NOT_TESTED",
+              "reason": "Actual damage subscriptions, without health setters",
+              "actual": 0
+            },
+            "crew.exit": {
+              "status": "PASS",
+              "reason": "Actual scripted compartment completion; ordinary input acceptance separate",
+              "actual": true
+            },
+            "post-hit.traverse": {
+              "status": "PASS",
+              "reason": "Measured native sights direction after right/left action input; no post-hit angle setter",
+              "actual": {
+                "rightDegrees": 102.81197357,
+                "leftDegrees": 48.46773147
+              }
+            },
+            "post-hit.fire": {
+              "status": "PASS",
+              "reason": "Both native muzzle ammunition counts decrease after native TurretFire action",
+              "actual": [
+                4,
+                4
+              ]
+            },
+            "crew.reentry": {
+              "status": "PASS",
+              "reason": "Same original crew/seat; public get-in action and completed compartment state",
+              "actual": {
+                "requested": true,
+                "completed": true
+              }
+            },
+            "post-hit.drive": {
+              "status": "NOT_TESTED",
+              "reason": "Existing health/loaded-muzzle fixture does not measure this function"
+            },
+            "post-reentry.fire": {
+              "status": "PASS",
+              "reason": "Actual native ammunition use after completed reentry",
+              "actual": [
+                11,
+                11
+              ]
+            },
+            "input.positive-control": {
+              "status": "PASS",
+              "reason": "Healthy same-build native action calibration before attributing damaged-function failures",
+              "actual": {
+                "healthyControl": true,
+                "qualified": true
+              }
+            }
+          },
+          "lifecycle": {
+            "status": "PASS",
+            "reason": "Original verified process exit and lease receipt; not requested",
+            "verifiedExited": true,
+            "leaseReleased": true
+          },
+          "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evidence\\healthy-final-01\\healthy-gepard\\result.json",
+          "sha256": "a685580974ec12eca765f207f07c582cc6ae7129df6f54c0409f9eb118d32b4b"
+        },
+        "healthy-gepard-charcoal": {
+          "status": "PASS",
+          "assertions": {
+            "fixture.ready": {
+              "status": "PASS",
+              "reason": "Original collector requires GAME, nonce ready/done, frozen-source hashes and closure"
+            },
+            "world.loaded": {
+              "status": "PASS",
+              "reason": "Original native gameplay marker and enteredPlay result"
+            },
+            "stimulus.native": {
+              "status": "NOT_TESTED",
+              "reason": "Authored native pathway, issued count and callbacks required",
+              "actual": {
+                "stimulus": "none",
+                "issued": 0
+              }
+            },
+            "damage.observed": {
+              "status": "NOT_TESTED",
+              "reason": "Actual damage subscriptions, without health setters",
+              "actual": 0
+            },
+            "crew.exit": {
+              "status": "PASS",
+              "reason": "Actual scripted compartment completion; ordinary input acceptance separate",
+              "actual": true
+            },
+            "post-hit.traverse": {
+              "status": "PASS",
+              "reason": "Measured native sights direction after right/left action input; no post-hit angle setter",
+              "actual": {
+                "rightDegrees": 102.86534881,
+                "leftDegrees": 48.52028274
+              }
+            },
+            "post-hit.fire": {
+              "status": "PASS",
+              "reason": "Both native muzzle ammunition counts decrease after native TurretFire action",
+              "actual": [
+                4,
+                4
+              ]
+            },
+            "crew.reentry": {
+              "status": "PASS",
+              "reason": "Same original crew/seat; public get-in action and completed compartment state",
+              "actual": {
+                "requested": true,
+                "completed": true
+              }
+            },
+            "post-hit.drive": {
+              "status": "NOT_TESTED",
+              "reason": "Existing health/loaded-muzzle fixture does not measure this function"
+            },
+            "post-reentry.fire": {
+              "status": "PASS",
+              "reason": "Actual native ammunition use after completed reentry",
+              "actual": [
+                11,
+                11
+              ]
+            },
+            "input.positive-control": {
+              "status": "PASS",
+              "reason": "Healthy same-build native action calibration before attributing damaged-function failures",
+              "actual": {
+                "healthyControl": true,
+                "qualified": true
+              }
+            }
+          },
+          "lifecycle": {
+            "status": "PASS",
+            "reason": "Original verified process exit and lease receipt; not requested",
+            "verifiedExited": true,
+            "leaseReleased": true
+          },
+          "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evidence\\healthy-final-01\\healthy-gepard-charcoal\\result.json",
+          "sha256": "8d6d9f4c11ba0b117b6b3073b3a253e3085f127706c4e121125181f2efe85f94"
+        }
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evidence\\healthy-final-01\\summary.json",
+      "sha256": "a673867278a79e761818c8a898f301eed1024f74d296ecfaf3c44f217ecf3ddc"
+    }
+  },
+  "frozenStages": {
+    "batch-01": {
+      "status": "PASS",
+      "files": 1144,
+      "manifest": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-01\\checks\\SOURCE_MANIFEST.json",
+      "manifestSHA256": "69449731a20a7643ea4c0e386e5c0d5300237b8da0e3b497d6d152773544ffa6",
+      "changed": [],
+      "added": [],
+      "removed": []
+    },
+    "batch-02": {
+      "status": "PASS",
+      "files": 1149,
+      "manifest": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-02\\checks\\SOURCE_MANIFEST.json",
+      "manifestSHA256": "0939aa1231959b8ea2cf6244e2f277f22043eca8541e285d7c82b1a30b491dbc",
+      "changed": [],
+      "added": [],
+      "removed": []
+    },
+    "batch-03": {
+      "status": "PASS",
+      "files": 1149,
+      "manifest": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-03\\checks\\SOURCE_MANIFEST.json",
+      "manifestSHA256": "416968091f37350ecef31cdfd1603a1453b44722a7c678df9a7ec5a6510d22ea",
+      "changed": [],
+      "added": [],
+      "removed": []
+    },
+    "evening-final": {
+      "status": "PASS",
+      "files": 1135,
+      "manifest": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evening-final\\checks\\SOURCE_MANIFEST.json",
+      "manifestSHA256": "781fe32d047e87f7c279f6cbd8654623c8bc13be67c749bddb9830ae5d92bb64",
+      "changed": [],
+      "added": [],
+      "removed": []
+    }
+  },
+  "smoke": {
+    "lifecycle": {
+      "record": {
+        "exitCode": -1073741819,
+        "closeMethod": "native-or-user-exit",
+        "verifiedExited": true,
+        "utc": "2026-10-21T16:45:46.2070600Z",
+        "leaseReleased": true
+      },
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-01\\exit.json",
+      "sha256": "0d6f56e741c3dcc587c7d69d8bfcfee7c0225c94e66c3f22200020ea914cbc85"
+    },
+    "attempt1": {
+      "exit.json": {
+        "record": {
+          "exitCode": -1073741819,
+          "closeMethod": "native-or-user-exit",
+          "verifiedExited": true,
+          "utc": "2026-10-21T16:45:46.2070600Z",
+          "leaseReleased": true
+        },
+        "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-01\\exit.json",
+        "sha256": "0d6f56e741c3dcc587c7d69d8bfcfee7c0225c94e66c3f22200020ea914cbc85"
+      },
+      "crashLog": {
+        "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-01\\logs\\crash.log",
+        "sha256": "efaeffeda838a4ff9fd0487317b8ab7f3bbfbd445da5bf23a72e9a8d32c389e9"
+      }
+    },
+    "attempt2": {
+      "profile/profile/GEP015-auto-result.json": {
+        "record": {
+          "scope": "DIAGNOSTIC_ONE_ROUND_PUBLIC_ACTION_CALLBACK",
+          "phase": "terminal",
+          "reason": "diagnostic_complete_acceptance_pending",
+          "ageSeconds": 86.0504379272461,
+          "worldTimeMs": 86150.4375,
+          "scriptedBoardingRequested": true,
+          "settledCrew": true,
+          "actionCallbackIssued": true,
+          "ammoBefore": 8,
+          "ammoAfter": 7,
+          "samples": 137,
+          "firstObservedWorldMs": 15118.509765625,
+          "dispatchWorldMs": 10118.3681640625,
+          "muzzleWorld": [
+            598.8800048828125,
+            41.64999771118164,
+            2600.0498046875
+          ],
+          "latestRoundWorld": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "maxDistanceFromMuzzle": 2668.45458984375,
+          "triggeredObserved": false,
+          "screenshotsRequested": 6,
+          "ordinaryStockThrowControl": "NOT_TESTED",
+          "visibleCloud": "NEEDS_PIXEL_REVIEW",
+          "concealmentDurationRearmMP": "NOT_TESTED",
+          "physicalInput": "NOT_TESTED"
+        },
+        "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\profile\\profile\\GEP015-auto-result.json",
+        "sha256": "0e744b657e0dc0d72f9d187409cd9c30d5211f6f69350afecbc55844f6ed02ca"
+      },
+      "exit.json": {
+        "record": {
+          "utc": "2026-10-21T16:50:07.7882168Z",
+          "verifiedExited": true,
+          "exitCode": 0,
+          "leaseReleased": true,
+          "closeMethod": "owned-normal-window-close"
+        },
+        "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\exit.json",
+        "sha256": "ebc669caaa47bc99c33fc042bca6631e1c68c5fc0218377ed7d96fb921c2ebf8"
+      }
+    }
+  },
+  "images": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-01\\damage-runs\\baseline-egress-gepard-9ac41836-4b51-4045-a774-7c0e62d4c50d\\profile\\profile\\DamageHarness-after.bmp",
+      "sha256": "f9a2529dc80570fc564c392fdd3f3dcf2ee908917ee2d8351d706432756681ad",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-01\\damage-runs\\baseline-egress-gepard-9ac41836-4b51-4045-a774-7c0e62d4c50d\\profile\\profile\\DamageHarness-before.bmp",
+      "sha256": "5c2f1bc5c0c8fc72ac8305ce3334a8264060be76fbaf3260c599069abcf77b73",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-01\\damage-runs\\baseline-egress-gepard-charcoal-77687b29-6517-45b6-b852-444df8a2196f\\profile\\profile\\DamageHarness-after.bmp",
+      "sha256": "c0a0432f16e2ac294e5620dbd1a84e9233f52d8b697b137f3648c37d88203666",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-01\\damage-runs\\baseline-egress-gepard-charcoal-77687b29-6517-45b6-b852-444df8a2196f\\profile\\profile\\DamageHarness-before.bmp",
+      "sha256": "3fa4f76c69e3bbdebd82b0ffedd20f5d6a9f2ed82c740b0d35dfcdd9d2e832c3",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-01\\damage-runs\\own-frag-right-2m-r1-gepard-d5d5293f-487c-42bc-9f23-1511665883fb\\profile\\profile\\DamageHarness-after.bmp",
+      "sha256": "e854c70c9ecfbcada924916240ddff76c01a4c0d4d3f3929b62f316e92eee5f0",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\batch-01\\damage-runs\\own-frag-right-2m-r1-gepard-d5d5293f-487c-42bc-9f23-1511665883fb\\profile\\profile\\DamageHarness-before.bmp",
+      "sha256": "a421fe09de305e0e618227c642246ddc2296a8c4bc7f6f5838d7b9672fe1e1ee",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evening-final\\damage-runs\\baseline-egress-gepard-4526f310-51d8-402d-9f99-3a52af42dd08\\profile\\profile\\DamageHarness-after.bmp",
+      "sha256": "78d4ae635f6237f9e1f664d920372cc42096df55de5daf097bcd5c0b1510718e",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evening-final\\damage-runs\\baseline-egress-gepard-4526f310-51d8-402d-9f99-3a52af42dd08\\profile\\profile\\DamageHarness-before.bmp",
+      "sha256": "aaa5b3059d89ddb05e6f265e93d0ee1244b7650dce497e35443ed59668b822b0",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evening-final\\damage-runs\\baseline-egress-gepard-charcoal-32a57456-ecdb-4287-8ef8-5b41d990acd2\\profile\\profile\\DamageHarness-after.bmp",
+      "sha256": "efb238af2efcccd38a295c8685d7e136176102dacc2900d8a6c5857a2ca511b5",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\evening-final\\damage-runs\\baseline-egress-gepard-charcoal-32a57456-ecdb-4287-8ef8-5b41d990acd2\\profile\\profile\\DamageHarness-before.bmp",
+      "sha256": "0cbecfc6b5635e8e19e2ce2f79d423ed4158a063e0245deb3932ab314fe96d12",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\profile\\profile\\GEP015-auto-1.bmp",
+      "sha256": "45e9c0ad3b05d4fc609bc50a3a0bde7582990d80e16a7547f3574385b90be6ca",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\profile\\profile\\GEP015-auto-2.bmp",
+      "sha256": "80d827fbae393c584bd6f201f13df9a7ed780adc8b94a0e54194fbe4c5383020",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\profile\\profile\\GEP015-auto-3.bmp",
+      "sha256": "bd6d1731fb717fa13e8a497a747f9921289d1e38b4d892b8a6e25f0f123fcf3e",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\profile\\profile\\GEP015-auto-4.bmp",
+      "sha256": "f6f7610a59e06fbb9dd7469d2ec1601ac8356a54b4d56ad2a6090fc2b7785779",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\profile\\profile\\GEP015-auto-5.bmp",
+      "sha256": "abe3982ecd3456a4e37adce7d28cee9670cfa74ff9ff8f0475919e066c74c428",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\profile\\profile\\GEP015-auto-6.bmp",
+      "sha256": "a95a48908c2eedf60a38130869759d49be08938db2f0c60f11b347ec00a1fabe",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\evening-manual-ready-01\\profile\\profile\\update101-native-ready-01.bmp",
+      "sha256": "5d5662b6cb0942df9a7960609359f607a884785cc144a071e892d8b27c9b04d1",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\evening-manual-ready-01\\profile\\profile\\update101-native-ready-02.bmp",
+      "sha256": "4887a21489fb636eceacad3c2e8bafa3657c7be00c769020f0e7981e817a73d5",
+      "bytes": 2764854,
+      "interpretation": "Requires explicit visual inspection; not a gameplay pass by itself"
+    }
+  ],
+  "manualScene": {
+    "lifecycle": {
+      "exitCode": 0,
+      "verifiedExited": true,
+      "leaseReleased": true,
+      "utc": "2026-10-21T16:57:07.4783997Z",
+      "closeMethod": "owned-normal-window-close"
+    },
+    "readinessRows": [
+      "11:56:28.404   SCRIPT       : GEP_UPDATE101_SCENE_PLAYER ready=1 alive=1 canInteract=1 loading=0 menu=0 playerCamera=1 renderEnabled=1 physicalInput=NOT_TESTED"
+    ],
+    "scope": "On-foot scene startup only; no physical input acceptance or live persistent session promised"
+  }
+}

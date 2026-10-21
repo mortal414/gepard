@@ -167,7 +167,7 @@
     {
       "id": "GEP-024",
       "status": "Needs user test",
-      "reason": "Inspected three gunner post-reentry captures; complete all-seat/lifecycle debug-text inspection pending.",
+      "reason": "Inspected default/charcoal gunner post-reentry and on-foot readiness captures; complete all-seat/lifecycle debug-text inspection pending.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false
     },

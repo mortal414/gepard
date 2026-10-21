@@ -2,7 +2,8 @@
   "schema": 1,
   "status": "PASS",
   "baseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
-  "candidateCommit": "850e9d35c4c1190b802bec11735b410035b50566",
+  "captureHeadCommit": "991df50f4796eb3330b0958f3f06e330404b7c4b",
+  "productionManifestSHA256": "eece2cadc19685c787e27f4b9a8c64de6ba93896154f0423cb78b1de60d80ad8",
   "checks": {
     "baselineIdentity": true,
     "exactChangedFiles": true,

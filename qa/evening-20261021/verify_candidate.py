@@ -36,7 +36,7 @@ def main():
       'changedHashes':{p:{'before':old[p],'after':new[p]} for p in sorted(changed)},'addedHashes':{p:new[p] for p in sorted(added)},
       'nativeCompile':'Separate native evidence required','gameplay':'Separate native evidence required'}
     a.output.parent.mkdir(parents=True,exist_ok=True)
-    a.output.write_text(json.dumps(result,indent=2)+'\n')
+    a.output.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps(result,indent=2))
     raise SystemExit(0 if result['status']=='PASS' else 2)
 

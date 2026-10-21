@@ -24,7 +24,7 @@ def main():
       21:('Needs user test','Intentional hidden Leave-periscope prompt preserved with F behavior; hold-F/commander actions need current-build physical regression.'),
       22:('Needs user test','Commander position/view offsets preserved pending Marco alignment judgment.'),
       23:('Needs user test','Released fuel contexts already authored both sides; actual side/reach/transfer not newly verified.'),
-      24:('Needs user test','Inspected three gunner post-reentry captures; complete all-seat/lifecycle debug-text inspection pending.'),
+      24:('Needs user test','Inspected default/charcoal gunner post-reentry and on-foot readiness captures; complete all-seat/lifecycle debug-text inspection pending.'),
       25:('Blocked','Dedicated/MP/JIP qualification outside this single-player bounded batch.'),
       26:('Blocked','Console device/control/performance qualification unavailable in this PC batch; compile configuration is not console gameplay.'),
       27:('Blocked','1.0.2 upload, server processing and exact packaged GM spawn tests verified in hotfix evidence. Public webpage visibility remains independently unverified; tracker text stale, no republish.'),
@@ -35,6 +35,6 @@ def main():
         status,reason=('Ready','Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.') if n in accepted else descriptions[n]
         rows.append({'id':f'GEP-{n:03}','status':status,'reason':reason,'doneAcceptedBeforeSprint':n in accepted,'newlyCompleted':False})
     result={'scope':'Ready means preserved accepted baseline or prepared bounded slice, not new whole-task acceptance. All pending items remain unchecked.','trackerReadOnly':True,'newCheckboxesChecked':0,'rows':rows}
-    a.output.write_text(json.dumps(result,indent=2)+'\n')
+    a.output.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
 
 if __name__=='__main__':main()

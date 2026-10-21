@@ -25,6 +25,8 @@ Range helper compiled in diagnostic fixtures; it is passive and unbound. GEP-008
 
 The final reduced stage is `evening-final/`. See `NATIVE-EVIDENCE.json`, `SOURCE-REGRESSION.json`, `STATUS.json` and final native run receipts for exact current results and hashes. Historical native stages include experimental smoke; only `evening-final` is the recommended manual candidate.
 
+Final reduced-source native compilation PASS. `evidence/healthy-final-01` independently repeats default and charcoal with PASS for native traverse, both feeds, public exit/reentry and refire, complete source closure and normal exits. The bounded on-foot scene reports alive/CanInteract, loading=0, menu=0 and the ordinary player camera; both readiness images were inspected and show the two intended vehicles. This establishes scene startup, not physical controls acceptance or a live persistent user handoff.
+
 ## Repeatable automation
 
 Use the installed Python `C:/Users/marco/AppData/Local/Programs/Python/Python311/python.exe` and PowerShell 7 `C:/Users/marco/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell/pwsh.exe`.

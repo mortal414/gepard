@@ -42,7 +42,11 @@ def main():
         if base.exists():
             for p in sorted(base.rglob('*')):
                 if p.is_file() and p.suffix.lower() in ['.bmp','.png']:result['images'].append({'path':str(p),'sha256':digest(p),'bytes':p.stat().st_size,'interpretation':'Requires explicit visual inspection; not a gameplay pass by itself'})
-    a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(result,indent=2)+'\n')
-    print(json.dumps({'compiles':{k:v['result']['status'] for k,v in result['compiles'].items()},'batches':{k:v['status'] for k,v in result['batches'].items()},'sourceClosure':{k:v['status'] for k,v in result['frozenStages'].items()},'images':len(result['images']),'smokeRecordPresent':'diagnostic' in result['smoke']}))
+    manual=r/'native-runs/evening-manual-ready-01'
+    if (manual/'exit.json').exists():
+        console=(manual/'logs/console.log').read_text(encoding='utf-8',errors='replace')
+        result['manualScene']={'lifecycle':read(manual/'exit.json'),'readinessRows':[line for line in console.splitlines() if 'GEP_UPDATE101_SCENE_PLAYER ready=1' in line], 'scope':'On-foot scene startup only; no physical input acceptance or live persistent session promised'}
+    a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
+    print(json.dumps({'compiles':{k:v['result']['status'] for k,v in result['compiles'].items()},'batches':{k:v['status'] for k,v in result['batches'].items()},'sourceClosure':{k:v['status'] for k,v in result['frozenStages'].items()},'images':len(result['images']),'smokeSecondAttemptRecordPresent':'profile/profile/GEP015-auto-result.json' in result['smoke'].get('attempt2',{})}))
 
 if __name__=='__main__':main()
