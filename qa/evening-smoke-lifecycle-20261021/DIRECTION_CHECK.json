@@ -1,0 +1,19 @@
+{
+  "scope": "STATIC_DIRECTION_ANALYSIS_NOT_NATIVE_ACCEPTANCE",
+  "sourcePitchDegrees": -30,
+  "observedNativeVelocity": [
+    -3.01334,
+    -10.0188,
+    17.0895
+  ],
+  "observedVerticalVelocityIsDownward": true,
+  "observedVelocityPitchDegrees": -29.999910695157194,
+  "nominalUnitForwardYForMinus30": -0.49999999999999994,
+  "nominalUnitForwardYForPlus30": 0.49999999999999994,
+  "checks": {
+    "measuredWorldVerticalNegative": true,
+    "nominalDirectionsHaveOppositeVerticalSigns": true,
+    "upwardOverridesOnlyPitch": true
+  },
+  "limitations": "Native velocity includes actual parent velocity and actual world muzzle orientation. Pure nominal trig is not readback of a new native Math3D matrix. New +30 actual unit-forward worldY, self-clearance and flight remain pending."
+}

@@ -1,0 +1,25 @@
+{
+  "status": "RETAINED_NATIVE_FAILURE_NOT_ACCEPTANCE",
+  "evidence": {
+    "smoke-diagnostic-01/logs/crash.log": {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-01\\logs\\crash.log",
+      "sha256": "efaeffeda838a4ff9fd0487317b8ab7f3bbfbd445da5bf23a72e9a8d32c389e9"
+    },
+    "smoke-diagnostic-02/logs/console.log": {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\logs\\console.log",
+      "sha256": "c5bbb621933e57c8ba46e8f062a33819365ab125dd3abf10a0c0006b57c657b0"
+    },
+    "smoke-diagnostic-02/profile/profile/GEP015-auto-result.json": {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\smoke-diagnostic-02\\profile\\profile\\GEP015-auto-result.json",
+      "sha256": "0e744b657e0dc0d72f9d187409cd9c30d5211f6f69350afecbc55844f6ed02ca"
+    }
+  },
+  "oldProbeTerminalRows": 1892,
+  "oldProbeSampleRows": 137,
+  "firstActualSample": "11:48:55.662 SCRIPT       : GEP015_AUTO_ROUND id=118 elapsed=5.00014 position=<0,0,0> velocity=<-3.01334,-10.0188,17.0895> timer=0.966946 triggered=0 proxy=0 distanceFromMuzzle=2668.45",
+  "lastActualSample": "11:50:06.562   SCRIPT       : GEP015_AUTO_ROUND id=118 elapsed=75.8988 position=<0,0,0> velocity=<-3.01334,-10.0188,17.0895> timer=0.966946 triggered=0 proxy=0 distanceFromMuzzle=2668.45",
+  "firstTerminal": "11:49:03.663   SCRIPT       : GEP015_AUTO_TERMINAL reason=diagnostic_complete_acceptance_pending callback=1 countBefore=8 countAfter=7 samples=16 displacement=2668.45 triggered=0 stockThrow=NOT_TESTED visibleCloud=NEEDS_PIXEL_REVIEW",
+  "lastTerminal": "11:50:06.696   SCRIPT       : GEP015_AUTO_TERMINAL reason=diagnostic_complete_acceptance_pending callback=1 countBefore=8 countAfter=7 samples=137 displacement=2668.45 triggered=0 stockThrow=NOT_TESTED visibleCloud=NEEDS_PIXEL_REVIEW",
+  "visibleCloudEvidence": "Integrator reported no visible cloud in inspected0.25/5/12s frames; this source-only lane did not repeat pixel review",
+  "nativeByThisLane": false
+}

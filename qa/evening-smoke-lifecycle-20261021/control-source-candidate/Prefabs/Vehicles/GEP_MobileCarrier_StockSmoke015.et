@@ -1,0 +1,17 @@
+// Optional original stock-only experiment. No release files changed.
+Vehicle : "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunRig {
+     Prefab "{B3495C8E7A0D2002}Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Gepard GEP-015 stock smoke prototype"
+   }
+  }
+ }
+}

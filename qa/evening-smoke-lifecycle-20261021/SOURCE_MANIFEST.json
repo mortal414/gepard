@@ -1,0 +1,22 @@
+{
+  "control-source-candidate/Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et": "267d045220ae187c26b66b9096657308f7a7abaa31b3318e87421b32edeaa714",
+  "control-source-candidate/Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et.meta": "4abbb9557ad7568c1c1e22334543c98e9d926b9fb26ed6027eba89cfb9e8a29c",
+  "control-source-candidate/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et": "c33add64cf8d192b7844cd679a7f71b576305fe3c373b937a2ff1ba54a73e2ed",
+  "control-source-candidate/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et.meta": "90bf1dc0826ac445c23750389c0cca636a87937ebe50bdaedd49eb06eafef9bd",
+  "control-source-candidate/scripts/Game/GEP015Stock/GEP_StockSmoke015.c": "bd6cf54056d9f57830aa4c18a3b0eda4d4dd61805fd1656a806c4477a16b6913",
+  "control-source-candidate/scripts/Game/GEP015Stock/GEP_StockSmoke015.c.meta": "f884a45e346853da832d39fcca2c3c8d490d33e5127214f2eed8f0f7880e68fa",
+  "enable-overrides/Prefabs/Weapons/GEP_VehicleTurret_StockSmoke015.et": "8b875e681cf01f608aed680290aa3f6a2168b061fa7e231747b8f15254fa94ae",
+  "upward-overrides/scripts/Game/GEP015Stock/GEP_StockSmoke015.c": "568e8b95135fb9b642504a9619e0be1145e39733576e30afdfa127dd446db0d2",
+  "diagnostic-overlay/scripts/Game/GEP015Probe/GEP_OneRoundProbe015.c": "4ed3a24daf74be3dc3927551e6a8ef1e128f615b3b11d3dd90be14a5169279d0",
+  "diagnostic-overlay/scripts/Game/GEP015Probe/GEP_StockDropControl015.c": "42b3503e135d76884291a68b2934fe8caa5a04565dfb201031138ef20334c949",
+  "diagnostic-overlay/scripts/Game/GEPDemo/GEP_DemoScene.c": "f2b4eeb05cb7d9c61d273fa86f4d3acbfe86625cf80f62adc307f21874aa9407",
+  "diagnostic-overlay/Worlds/GEP015_Auto.ent": "075a4183ee3395f20e16130e61074d942ed7bb44d8810dc0f42ee2f151291530",
+  "diagnostic-overlay/Worlds/GEP015_Auto.ent.meta": "d00a32da01f7bc4bb660cff026dd0dbc072821a7903738d2adeb96c7711caeb6",
+  "diagnostic-overlay/Worlds/GEP015_Auto_default.layer": "7a70b7d3db528ec82f74501bc02f1e30f11d2cc6336718cd2e7708b36e41029f",
+  "diagnostic-overlay/Worlds/GEP015_StockDrop.ent": "075a4183ee3395f20e16130e61074d942ed7bb44d8810dc0f42ee2f151291530",
+  "diagnostic-overlay/Worlds/GEP015_StockDrop.ent.meta": "281f850dc4ca21daea69479451f0506bbcb8561e85fc690d95094c05bfc9ad3c",
+  "diagnostic-overlay/Worlds/GEP015_StockDrop_default.layer": "5eead95921b3ae9b82738b53f44a8b7d7cd754ead8ee8d5b4bc42892bcdfef93",
+  "diagnostic-overlay/Worlds/GEP_Demo.ent": "075a4183ee3395f20e16130e61074d942ed7bb44d8810dc0f42ee2f151291530",
+  "diagnostic-overlay/Worlds/GEP_Demo.ent.meta": "a7d3c9c0f8eb773f4f5468cfdb4d5199b5b92f2a66bca8c2520a590ddea19b81",
+  "diagnostic-overlay/Worlds/GEP_Demo_default.layer": "077a342d436cf38d0769e318df64e333fffd930febf725554a7ae90e7d585c48"
+}

@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "status": "SOURCE_ONLY_NATIVE_NOT_TESTED",
+  "productionAddonEdits": false,
+  "stageOrder": [
+    "copy exact integrator-selected addon into a fresh private stage",
+    "copy control-source-candidate over staged addon",
+    "copy diagnostic-overlay over staged addon",
+    "for launcher-enabled copy enable-overrides; for launcher-enabled-upward also copy upward-overrides afterward",
+    "freeze full manifest and compile using admitted coordinator; do not infer acceptance from compile"
+  ],
+  "variants": [
+    {
+      "id": "launcher-control",
+      "sourceOverlay": "control-source-candidate",
+      "fixtureOverlay": "diagnostic-overlay",
+      "additionalOverlay": null,
+      "world": "{41B99401C815A015}Worlds/GEP015_Auto.ent",
+      "difference": "EnableSimulation flag0; null weapon Launch argument; immediate SetLive unchanged",
+      "expected": "Measure actual spawn origin, every immediate phase, and first0/33/100/250ms readbacks. One public action callback only; no assertion of ordinary control/flight/cloud from ammo count."
+    },
+    {
+      "id": "launcher-enabled",
+      "sourceOverlay": "control-source-candidate",
+      "fixtureOverlay": "diagnostic-overlay",
+      "additionalOverlay": "enable-overrides",
+      "world": "{41B99401C815A015}Worlds/GEP015_Auto.ent",
+      "difference": "Exactly one prefab flag1 -> EnableSimulation(round) before Launch; same source/instrumentation/arming time",
+      "expected": "Compare creation identity, physics simulation state, parent projectile, evolving actual position/velocity/timer and native cloud frames against unchanged control. Abort on crash/resource failure; no retries/salvo."
+    },
+    {
+      "id": "stock-helper-drop",
+      "sourceOverlay": "control-source-candidate",
+      "fixtureOverlay": "diagnostic-overlay",
+      "additionalOverlay": null,
+      "world": "{42B99401C815A015}Worlds/GEP015_StockDrop.ent",
+      "difference": "Independent stock ANM8 at2m, no Launch; same supported stockhelper scheduleSetLive1000ms thenEnableSimulation semantics",
+      "expected": "A native gravity drop, timer progression, trigger transition and visible native cloud. Engineering positive control only, not ordinary character throw."
+    },
+    {
+      "id": "launcher-enabled-upward",
+      "sourceOverlay": "control-source-candidate",
+      "fixtureOverlay": "diagnostic-overlay",
+      "additionalOverlays": [
+        "enable-overrides",
+        "upward-overrides"
+      ],
+      "world": "{41B99401C815A015}Worlds/GEP015_Auto.ent",
+      "difference": "Separate fourth experiment: same enabled simulation, one source pitch constant-30 ->+30 only; no muzzle position or arming timing change",
+      "expected": "Original measured velocity has downward worldY. Proposed opposite pitch should produce upward unitforwardY at the same actual pose; verify newnative pose and immediate postLaunch velocity. No source calculation claims native flight, clearance or cloud."
+    }
+  ],
+  "observationContract": {
+    "immediatePhases": [
+      "post_spawn",
+      "components_validated",
+      "pre_enable",
+      "post_enable",
+      "pre_launch",
+      "post_launch",
+      "pre_live",
+      "post_live"
+    ],
+    "queuedSamplesMs": [
+      0,
+      33,
+      100,
+      250,
+      500,
+      1000,
+      1500,
+      2000,
+      3000
+    ],
+    "frameReadbackMs": 500,
+    "screenshotsSeconds": [
+      0.25,
+      1,
+      3,
+      5,
+      8,
+      12
+    ],
+    "terminal": "13s after single dispatch; clear FRAME mask, detach observer, cancel diagnostic queuedsamples; no process close",
+    "json": "$profile:GEP015-life-<sequence>.json plus GEP015-auto-result.json",
+    "logs": [
+      "GEP015_LIFE_ENTITY",
+      "GEP015_LIFE_COMPONENT",
+      "GEP015_LIFE_TERMINAL"
+    ],
+    "sampleCap": 80,
+    "fields": [
+      "scene/round/component/parentProjectile identity",
+      "actual GetOrigin/worldmatrix position",
+      "flags/sameworld/prefab/parents/deleted",
+      "physics presence/active/dynamic/simulationstate/rigidbodyvelocity",
+      "native projectile velocity/local fuse timer/triggered/Rpl proxy",
+      "actual worldtimestamp/elapsed/phase",
+      "entity eventmask; contact history explicitly NOT_INSTRUMENTED"
+    ]
+  },
+  "remainingAcceptance": [
+    "ordinary stock ANM8 throw positive control",
+    "visible cloud inspection and useful coverage",
+    "actual muzzle clearance",
+    "cooldown/salvo/rearm",
+    "MP/JIP",
+    "human controls and reach"
+  ]
+}

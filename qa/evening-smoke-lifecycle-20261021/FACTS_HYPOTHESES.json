@@ -1,0 +1,25 @@
+{
+  "status": "SOURCE_ONLY_NATIVE_NOT_TESTED",
+  "baselineManualCandidatePreserved": "cc5d098 (integrator-owned; not edited)",
+  "stockHelper": {
+    "resource": "scripts/Game/ScenarioFramework/Actions/SCR_ScenarioFrameworkActionSetGrenadeLive.c",
+    "sha256": "270e78b7ca68ea0a2f677f60b378b8fe0ed70a35a0861a94cee57617ab069e59",
+    "facts": [
+      "Schedules BaseTriggerComponent.SetLive after1000ms using stock pausable callqueue",
+      "When enable flag is set, obtains GrenadeMoveComponent and calls EnableSimulation(entity)",
+      "Its preparation comment supports deferred readiness, not launch order or launcher acceptance"
+    ]
+  },
+  "hypotheses": [
+    "Separate native simulation enabling may be required for custom spawned grenade",
+    "Immediate spawn origin/component ownership must be measured before any transform diagnosis",
+    "One-frame timer decrement then freeze could reflect disabled projectile lifecycle; not yet proven",
+    "Repeated terminal rows show old terminal guard failed in native run; cause of old bool behavior remains unproven"
+  ],
+  "controlledDifferences": {
+    "control": "same null-weapon launch and immediate SetLive; lifecycle observer only; EnableSimulation flag0",
+    "enabled": "same files except one serialized flag1 causing EnableSimulation(round) before Launch; immediate SetLive unchanged",
+    "stockDrop": "noLaunch; source-supported EnableSimulation plus deferred SetLive1000; engineering control, not ordinary throw"
+  },
+  "nativeLaunchesByThisLane": 0
+}

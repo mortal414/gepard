@@ -1,0 +1,32 @@
+Turret : "{D561AD08932E5450}Prefabs/Weapons/GEP_VehicleTurret.et" {
+ components {
+  GEP_StockSmoke015 "{B3495C8E7A0D2010}" { m_bEnableNativeSimulation015 1 }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{B3495C8E7A0D2011}" {
+     UIInfo SCR_ActionContextUIInfo { Name "Smoke loading point" }
+     ContextName "gep015_stock_service"
+     Position PointInfo { PivotID "GEP_TurretYaw" Offset -1.9 -0.8 -0.55 }
+     Radius 1 Height 1
+    }
+   }
+   additionalActions {
+    GEP_StockSmokeFire015 "{B3495C8E7A0D2012}" {
+     ParentContextList { "gunner_controls" "commander_controls" }
+     UIInfo SCR_ActionUIInfo { Name "Launch smoke salvo" }
+     Duration 0
+    }
+    GEP_StockSmokeFire015 "{B3495C8E7A0D2013}" {
+     ParentContextList { "gunner_controls" "commander_controls" }
+     UIInfo SCR_ActionUIInfo { Name "Launch one smoke round" }
+     Duration 0 m_bSingleRound 1
+    }
+    GEP_StockSmokeReload015 "{B3495C8E7A0D2014}" {
+     ParentContextList { "gep015_stock_service" }
+     UIInfo SCR_ActionUIInfo { Name "Load smoke round (uses AN-M8)" }
+     Duration 3 CanAggregate 0 PerformPerFrame 0
+    }
+   }
+  }
+ }
+}
