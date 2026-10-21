@@ -1,18 +1,23 @@
 {
   "status": "PASS",
-  "scope": "OFFLINE_SOURCE_CONTRACT_ONLY",
+  "scope": "OFFLINE_IDENTITY_AND_SOURCE_CONTRACT_ONLY",
   "nativeCompile": "NOT_TESTED",
+  "gameplay": "NOT_TESTED",
   "checks": {
+    "sha256:source-overrides/scripts/Game/GEP015Stock/GEP_StockSmoke015.c": true,
     "oneLaunch": true,
-    "oneLive": true,
-    "noNativeCallsInDispatch": true,
-    "timestampLaterGuard": true,
-    "latchBeforeLaunch": true,
-    "nativeIssuedBeforeLaunch": true,
-    "MuzzleUnchanged": true,
-    "nullWeapon": true,
-    "noNewSimulationFlagOrPoseTimerEffects": true,
+    "oneSetLive": true,
+    "noNativeCallInsideDispatch": true,
+    "laterWorldTimestamp": true,
+    "latchAndClearBeforeNative": true,
+    "issuedLatchBeforeVoidCall": true,
+    "nullWeaponAndCapturedRoot": true,
+    "noOtherNativeLifecycleMutation": true,
+    "positionGuardNoRepair": true,
+    "noMaskRefund": true,
     "salvoRejected": true,
-    "originGuard": true
+    "ownerBeforeClock": true,
+    "muzzlePitchUnchanged": true,
+    "bracesBalanced": true
   }
 }

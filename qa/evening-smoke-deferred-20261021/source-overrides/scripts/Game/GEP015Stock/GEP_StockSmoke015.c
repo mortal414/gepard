@@ -121,6 +121,7 @@ class GEP_StockSmoke015 : ScriptComponent
  override void EOnFrame(IEntity owner,float timeSlice)
  {
   if(m_iDeferredStage015!=1)return;
+  if(!owner || owner.IsDeleted()){m_iDeferredStage015=2;Print("GEP015_DEFERRED_ABORT reason=owner_missing_before_clock nativeCallsIssued=0 retry=0");return;}
   float now=owner.GetWorld().GetWorldTime();
   // A dynamic subscription may be visited in the current frame; reject that timestamp.
   if(now<=m_fDeferredQueuedMs015)return;
