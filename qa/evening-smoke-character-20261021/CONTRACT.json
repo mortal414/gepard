@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "status": "SOURCE_ONLY_NATIVE_COMPILE_AND_PIPELINE_NOT_TESTED",
+  "case": "character-weapon-manager-throw",
+  "world": "{44B99401C815A015}Worlds/GEP015_CharacterThrow.ent",
+  "applyAfter": "existing corrected lifecycle diagnostic-overlay (optionally newer physics observer override), then this diagnostic-overlay",
+  "sequence": [
+    "fresh stock US rifleman bound locally, alive/conscious/on-foot",
+    "TrySpawnPrefabToStorage exactANM8 once into PURPOSE_WEAPON_PROXY; require OnComplete, not just scheduling bool",
+    "enumerate one newly created exactANM8 identity against pre-operation list",
+    "TryEquipRightHandItem exactlyonce; require actual currentWeapon/currentGrenade/currentSlot identity and GetCanThrow",
+    "exactlyone BaseWeaponManager.Throw(normalized(0,0.5,1),1) callback; earlyreadbacks/screenshots"
+  ],
+  "mutationsNotPresent": [
+    "customSpawnOfGrenade",
+    "ProjectileMove.Launch",
+    "EnableSimulation",
+    "Physics setters",
+    "BaseTrigger.SetLive",
+    "SetTimer",
+    "effectspawns",
+    "flagclears"
+  ],
+  "limits": [
+    "Native inventory/equip/throw readiness may fail; preserve precise failure without retries",
+    "Public Throw guarantees throwing only; full animation/pin/fuse arming not qualified",
+    "Tracked held entity may differ from native emitted projectile; identity/deletion/parentProjectile telemetry must be interpreted carefully",
+    "This is a native character weapon-manager engineering control, not physical ordinary input acceptance",
+    "If emission works but fuse does not, qualify CC.SetThrow wanted input as a separate futurecase; do not manually arm fuse to fabricate positivecontrol"
+  ],
+  "API_SourceSHA256": {
+    "InventoryStorageManagerComponent": "7cc07d44ee75e10434e844f5c81044042255f2188963991b134a12a772feabbc",
+    "ScriptedInventoryOperationCallback": "d5de8fba8a6a3a3a3d3eb55b7b69f3835e845763b45f6131b248b6895454a9c1",
+    "BaseWeaponManagerComponent": "f01e2ffa1e869889b7651872e97da819be44911b0c31e8014b816f3c3b0b39da",
+    "stockCharacterInventoryEquipCallsite": "0df5169d5e3ea2dbbf78066ce77a0dc827a23ccf47a00693077ecab577042190"
+  }
+}
