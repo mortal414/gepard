@@ -23,5 +23,6 @@
   "officialCarSampleSha256": "4c1defdd20ab6f3d5b4bf792953930648090f9e6e39b6b7636573527e92a7acb",
   "nativeCompile": "NOT_TESTED",
   "graphSourceProduced": "NONLOADABLE .acp.in only; unresolved native authoring tokens",
-  "resolverV2Cli": "System.GetCLIParam(gep033Output, output): documented undashed key for -world something form; no wrapper syntax change"
+  "resolverV2Cli": "HISTORICAL: System.GetCLIParam form is documented but native execution requested authorization; not authorized and not retried.",
+  "currentOutput": "Fixed $profile:GEP033-RESOLVER.json via documented profile prefix; no CLI read; collision refusal; native permission/runtime qualification pending."
 }

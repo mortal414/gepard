@@ -69,13 +69,9 @@ class GEP033_ResolveStockAudioPlugin : WorkbenchPlugin
 
  protected void RunConfigured()
  {
-  string output;
-  // Installed System API explicitly documents key without '-' for `-world something`.
-  if (!System.GetCLIParam("gep033Output", output) || output.IsEmpty())
-  {
-   Print("GEP033_PROBE_CONFIG_ERROR missing -gep033Output; no observation run");
-   return;
-  }
+  // Fixed virtual profile output needs no command-line inspection or arbitrary path access.
+  // Parent must supply a fresh per-run -profile; preserve any collision instead of overwriting it.
+  string output = "$profile:GEP033-RESOLVER.json";
   if (FileIO.FileExists(output))
   {
    Print("GEP033_PROBE_CONFIG_ERROR output already exists; preserve earlier evidence");

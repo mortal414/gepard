@@ -7,10 +7,10 @@ plugin=(PROBE/'scripts/WorkbenchGame/GEP033/GEP033_ResolveStockAudioPlugin.c').r
 lifecycle=(PROBE/'scripts/Game/GEP033/GEP_TrackLoopLifecycleProbe102.c').read_text()
 signals=(PROBE/'scripts/Game/GEP033/GEP_TrackMovementSignals102.c').read_text()
 template=(QA/'authoring/GEP_TrackMovement.acp.in').read_text()
-for must in ('GEP033_ResolveStockAudioPlugin','-gep033Output','FileIO.FileExists(output)','m_Report.SaveToFile(output)','GEP033_PROBE_END observations=9 saved=1','override void RunCommandline()'):
+for must in ('GEP033_ResolveStockAudioPlugin','$profile:GEP033-RESOLVER.json','FileIO.FileExists(output)','m_Report.SaveToFile(output)','GEP033_PROBE_END observations=9 saved=1','override void RunCommandline()'):
     assert must in plugin,must
-assert 'System.GetCLIParam("gep033Output", output)' in plugin
-assert 'GetCmdLine("-gep033Output"' not in plugin
+assert 'System.GetCLIParam(' not in plugin and 'GetCmdLine(' not in plugin
+assert 'string output = "$profile:GEP033-RESOLVER.json";' in plugin
 for metadata in ('soundConfigs','soundPorts','soundPortEnumMetadata','mixerActiveInputIds','BaseContainerTools.LoadContainer(canonical)'):
     assert metadata in plugin,metadata
 for denied in ('Workbench.Exit(', 'Workbench.OpenModule(', 'Workbench.OpenResource(', 'RunProcess(', 'RegisterResourceFile(', 'RebuildResourceFile(', 'SoundEvent(', '.Save()'):

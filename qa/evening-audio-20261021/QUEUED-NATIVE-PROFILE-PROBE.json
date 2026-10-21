@@ -1,0 +1,33 @@
+{
+  "modulePins": "RESOLVER-SOURCE-MANIFEST.json",
+  "productionChanged": false,
+  "commandLineReadAPI": "NONE",
+  "status": "SOURCE_READY_NATIVE_COMPILE_QUEUED",
+  "requiredGates": [
+    "Parent reconciles actual current owned prompt/process/lease after human recovery",
+    "Fresh per-run profile and source SHA pins",
+    "Native compile of current source",
+    "No approval prompt bypass; any new prompt preserved pending authorization",
+    "Terminal GEP033_PROBE_END observations=9 saved=1 and actual profile report path retained",
+    "Native report and original console inspected; parser result retained",
+    "Resource metadata does not pass port/mute/event/lifecycle/listening gates"
+  ],
+  "branch": "sprint/evening-audio-profile-20261021",
+  "optionalAudioEditorClass": "GEP033_InspectAudioPortsPlugin",
+  "outputVirtualPath": "$profile:GEP033-RESOLVER.json",
+  "nativeCompileCurrentSource": "NOT_TESTED_QUEUED",
+  "resourceManagerClass": "GEP033_ResolveStockAudioPlugin",
+  "manualCandidateChanged": false,
+  "customOutputCLI": "NONE",
+  "freshUniqueProfileRequired": true,
+  "onExistingReport": "Abort with CONFIG_ERROR; preserve earlier evidence",
+  "currentNativeBlocker": {
+    "target": "Owned Workbench PID56448, earlier resolver v2 run",
+    "authorization": "PENDING; neither granted nor denied",
+    "sourceLaneActions": "No native/session/lease action; no retry or obscured invocation of System.GetCLIParam",
+    "action": "Recover root-owned Workbench with Script Authorization Required dialog",
+    "reason": "Permission dialog persists normal close; security-permission automation unavailable; root reports human manual dismissal required"
+  },
+  "audibleImplementation": false,
+  "moduleCopyRoot": "signal-probe/scripts/WorkbenchGame/GEP033"
+}

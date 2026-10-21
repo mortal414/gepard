@@ -30,3 +30,8 @@ Safe default for tonight: retain released audio and keep this QA pack as a follo
 ## Source continuation
 
 The source-only continuation adds a read-only Workbench resolver with explicit fresh evidence output, a native-log parser, a NONLOADABLE original ACP authoring template, an explicit dB diagnostic signal, and a default-disabled one-attempt lifecycle probe. None is natively compiled or instantiated. See [the exact next native batch](authoring/NEXT-NATIVE-BATCH.md) before copying or running anything. The resolver-only copy root is separate from the Game/playback sources. Run check-authoring.py for source/synthetic checks; these do not provide native evidence. The current evening manual candidate remains untouched.
+
+
+## Current queued protocol
+
+Current source uses a fixed report in the parent's unique fresh profile: $profile:GEP033-RESOLVER.json. It reads no command line and refuses an existing report. See QUEUED-NATIVE-PROFILE-PROBE.json for exact module pins, entrypoints and native gates. Compilation is queued: root reports its earlier v2 Workbench PID56448 is held at Script Authorization Required, authorization neither granted nor denied, with human manual dismissal needed. This source lane did not act on that session or retry the restricted System.GetCLIParam call. Any new authorization prompt must be handled normally. No playable graph or gameplay acceptance is claimed.
