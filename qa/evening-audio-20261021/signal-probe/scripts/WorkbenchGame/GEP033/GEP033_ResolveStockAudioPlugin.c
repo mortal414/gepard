@@ -34,12 +34,17 @@ class GEP033_GraphObservation : JsonApiStruct
  ref array<string> soundPorts = {};
  ref array<string> soundPortEnumMetadata = {};
  ref array<string> mixerActiveInputIds = {};
+ ref array<string> signalPortTables = {};
+ ref array<string> bankControlInputs = {};
+ ref array<string> bankInputFlags = {};
+ bool metadataTruncated;
 
  void GEP033_GraphObservation()
  {
   RegV("label"); RegV("containerAvailable"); RegV("containerClass"); RegV("bankCount");
   RegV("events"); RegV("mixerRoutes"); RegV("mixerResources"); RegV("containerLoadRoute");
   RegV("soundConfigs"); RegV("soundPorts"); RegV("soundPortEnumMetadata"); RegV("mixerActiveInputIds");
+  RegV("signalPortTables"); RegV("bankControlInputs"); RegV("bankInputFlags"); RegV("metadataTruncated");
  }
 }
 
@@ -103,6 +108,95 @@ class GEP033_ResolveStockAudioPlugin : WorkbenchPlugin
    row.containerLoadRoute = "BaseContainerTools.LoadContainer";
   }
   if (!graph) row.containerLoadRoute = "NOT_INSPECTABLE_BY_PUBLIC_CONTAINER_LOADERS";
+  DescribeGraph(row, graph);
+ }
+
+ protected string JoinPortIds(array<int> ids)
+ {
+  array<string> values = {};
+  foreach (int id : ids) values.Insert(string.Format("%1", id));
+  return string.Join(",", values, false);
+ }
+
+ protected void AddControlMetadata(GEP033_GraphObservation row, BaseContainer graph)
+ {
+  // Native resources and port tables only: never serialize SIG/ACP algorithms or audio payload.
+  if (graph.GetVarIndex("signals") >= 0)
+  {
+   BaseContainerList signals = graph.GetObjectArray("signals");
+   if (signals)
+   {
+    int count = signals.Count();
+    if (count > 64) { count = 64; row.metadataTruncated = true; }
+    for (int i = 0; i < count; i++)
+    {
+     BaseContainer signal = signals.Get(i);
+     if (!signal) continue;
+     int nodeId;
+     string reference;
+     array<int> inputPorts = {};
+     array<int> outputPorts = {};
+     if (signal.GetVarIndex("id") >= 0) signal.Get("id", nodeId);
+     if (signal.GetVarIndex("res") >= 0) signal.Get("res", reference);
+     if (signal.GetVarIndex("inputsport") >= 0) signal.Get("inputsport", inputPorts);
+     if (signal.GetVarIndex("outputsport") >= 0) signal.Get("outputsport", outputPorts);
+     if (!reference.IsEmpty()) reference = Workbench.GetResourceName(reference);
+     row.signalPortTables.Insert(string.Format("node=%1|res=%2|inputs=%3|outputs=%4", nodeId, reference, JoinPortIds(inputPorts), JoinPortIds(outputPorts)));
+    }
+   }
+  }
+  if (graph.GetVarIndex("banks_local") >= 0)
+  {
+   BaseContainerList banks = graph.GetObjectArray("banks_local");
+   if (!banks) return;
+   int bankCount = banks.Count();
+   if (bankCount > 64) { bankCount = 64; row.metadataTruncated = true; }
+   for (int j = 0; j < bankCount; j++)
+   {
+    BaseContainer bank = banks.Get(j);
+    if (!bank) continue;
+    int bankId;
+    string bankName;
+    array<int> presentFlags = {};
+    array<int> updateFlags = {};
+    if (bank.GetVarIndex("id") >= 0) bank.Get("id", bankId);
+    if (bank.GetVarIndex("name") >= 0) bank.Get("name", bankName);
+    if (bank.GetVarIndex("pi") >= 0) bank.Get("pi", presentFlags);
+    if (bank.GetVarIndex("pu") >= 0) bank.Get("pu", updateFlags);
+    row.bankInputFlags.Insert(string.Format("bank=%1|name=%2|pi=%3|pu=%4", bankId, bankName, JoinPortIds(presentFlags), JoinPortIds(updateFlags)));
+    if (bank.GetVarIndex("ins") < 0) continue;
+    BaseContainerList inputs = bank.GetObjectArray("ins");
+    if (!inputs) continue;
+    int countInputs = inputs.Count();
+    if (countInputs > 16) { countInputs = 16; row.metadataTruncated = true; }
+    for (int n = 0; n < countInputs; n++)
+    {
+     BaseContainer input = inputs.Get(n);
+     if (!input) continue;
+     int parameterPort;
+     if (input.GetVarIndex("id") >= 0) input.Get("id", parameterPort);
+     if (input.GetVarIndex("links") < 0) continue;
+     BaseContainerList links = input.GetObjectArray("links");
+     if (!links) continue;
+     int countLinks = links.Count();
+     if (countLinks > 16) { countLinks = 16; row.metadataTruncated = true; }
+     for (int k = 0; k < countLinks; k++)
+     {
+      BaseContainer link = links.Get(k);
+      if (!link) continue;
+      int sourceNode;
+      int sourcePort;
+      if (link.GetVarIndex("id") >= 0) link.Get("id", sourceNode);
+      if (link.GetVarIndex("port") >= 0) link.Get("port", sourcePort);
+      row.bankControlInputs.Insert(string.Format("bank=%1|parameterPort=%2|sourceNode=%3|sourcePort=%4", bankId, parameterPort, sourceNode, sourcePort));
+     }
+    }
+   }
+  }
+ }
+
+ protected void DescribeGraph(GEP033_GraphObservation row, BaseContainer graph)
+ {
   row.containerAvailable = graph != null;
   if (graph)
   {
@@ -185,6 +279,7 @@ class GEP033_ResolveStockAudioPlugin : WorkbenchPlugin
     }
    }
   }
+  if (graph) AddControlMetadata(row, graph);
   row.Pack();
   m_Report.graphs.Insert(row);
   Print("GEP033_GRAPH_JSON " + row.AsString());

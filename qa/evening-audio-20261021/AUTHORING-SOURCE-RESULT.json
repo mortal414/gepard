@@ -27,7 +27,9 @@
     "signal-probe/scripts/Game/GEP033/GEP_TrackLoopLifecycleProbe102.c.meta": "1b7914116bff10eebe7bb852997276664d44ba61a561c34f1ad1a6edd9d5a8f3",
     "signal-probe/scripts/Game/GEP033/GEP_TrackMovementSignals102.c": "747870096eda1104a79fefbe5b45c0bf972afdbfada73dd9c7f12bf48544ffa1",
     "signal-probe/scripts/Game/GEP033/GEP_TrackMovementSignals102.c.meta": "2036dee3f9927dd30333bd918318f71b2804b091aaee1909803ad6e42aff6adf",
-    "signal-probe/scripts/WorkbenchGame/GEP033/GEP033_ResolveStockAudioPlugin.c": "5fd4badea2738b19ac78ce6ea5394c61835e055a4a82061afca79bafae20c0a1",
+    "signal-probe/scripts/WorkbenchGame/GEP033/GEP033_InspectAudioPortsPlugin.c": "ec6f8b0088fd80b9a156c31517ae5c0b04f542aedf5ceb0f184ab39a6386dd43",
+    "signal-probe/scripts/WorkbenchGame/GEP033/GEP033_InspectAudioPortsPlugin.c.meta": "42fafbb1b4c9cebd756b107c16b88b387b2f750c84b03684c425ddf5a6a90231",
+    "signal-probe/scripts/WorkbenchGame/GEP033/GEP033_ResolveStockAudioPlugin.c": "0ef26bf65471c737fde38518a5038148dc3facc0fc80b33860e3c7c1514c7203",
     "signal-probe/scripts/WorkbenchGame/GEP033/GEP033_ResolveStockAudioPlugin.c.meta": "fd929d589478629fe102f25295abccc3a6884b024c19fc4693cb95917e376309"
   }
 }
