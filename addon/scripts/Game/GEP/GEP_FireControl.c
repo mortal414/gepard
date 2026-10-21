@@ -346,8 +346,9 @@ class GEP_FireControl : ScriptComponent
  }
  override void OnPostInit(IEntity owner)
  {
-  m_Enabled=FileIO.FileExists("$profile:GEP-FireControl-Development.flag");
-  m_DirectExperiment=FileIO.FileExists("$profile:GEP-FireControl-DirectProbe.flag");
+  // Release keeps experimental correction/stabilization disabled regardless of old profile flags.
+  m_Enabled=false;
+  m_DirectExperiment=false;
   if(!System.IsConsoleApp())SetEventMask(owner,EntityEvent.FRAME);
  }
  override void EOnFrame(IEntity owner,float timeSlice)

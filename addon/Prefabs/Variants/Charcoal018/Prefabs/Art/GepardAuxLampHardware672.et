@@ -1,0 +1,17 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{1C64209618CB4CC8}Prefabs/Art/GepardAuxLampHardware672.et" {
+ components {
+  MeshObject "{BB634C4CF81147C5}" {
+   Materials {
+    MaterialAssignClass "{04006A88FB8E4912}" {
+     SourceMaterial "GEP672_Paint"
+     AssignedMaterial "{03B1DD10D1984456}Assets/Gepard/GEP018/NeutralBaseV2/40dd79a14231.emat"
+    }
+    MaterialAssignClass "{0BCA97A66653C8FB}" {
+     SourceMaterial "GEP672_DarkCap"
+     AssignedMaterial "{1EF7019E5C7FE5A0}Assets/Gepard/GEP018/NeutralBaseV2/77077fa3f29a.emat"
+    }
+   }
+  }
+ }
+}

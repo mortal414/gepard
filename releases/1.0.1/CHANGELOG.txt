@@ -1,0 +1,2 @@
+Fixed acceleration, gear changes, reverse, steering and braking.
+Fixed driver engine stop and restart controls.

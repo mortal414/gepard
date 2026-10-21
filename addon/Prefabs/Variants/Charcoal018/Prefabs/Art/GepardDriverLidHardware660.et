@@ -1,0 +1,13 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{3ED25CAAAF6A43DE}Prefabs/Art/GepardDriverLidHardware660.et" {
+ components {
+  MeshObject "{BDE84E23FCC1C556}" {
+   Materials {
+    MaterialAssignClass "{932FDDD16173A678}" {
+     SourceMaterial "GEP_DriverLid_FittingPaint"
+     AssignedMaterial "{8BD5697BCC764112}Assets/Gepard/GEP018/NeutralBaseV2/102ca5cec226.emat"
+    }
+   }
+  }
+ }
+}

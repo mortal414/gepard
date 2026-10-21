@@ -1,0 +1,56 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+Turret : "{D561AD08932E5450}Prefabs/Weapons/GEP_VehicleTurret.et" {
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{158D910394140F5F}" {
+     SourceMaterial "GEP_TurretLowerChin_ServiceB_20261017"
+     AssignedMaterial "{04FCC6EF5A08F55E}Assets/Gepard/GEP018/NeutralBaseV2/1298fa5daad0.emat"
+    }
+    MaterialAssignClass "{E3D07532B126390B}" {
+     SourceMaterial "GEP_TurretShell_ServiceBRefined_20261017"
+     AssignedMaterial "{4E4AA24D2AF0F555}Assets/Gepard/GEP018/NeutralBaseV2/41c0b9c7153a.emat"
+    }
+    MaterialAssignClass "{A7CCC735522FC0FC}" {
+     SourceMaterial "GEP_TurretRearBand_20261017"
+     AssignedMaterial "{2B3860494E5C917E}Assets/Gepard/GEP018/NeutralBaseV2/18336e265596.emat"
+    }
+    MaterialAssignClass "{87B5161DF1C58D6A}" {
+     SourceMaterial "GEP_Finish_Turret"
+     AssignedMaterial "{E38A963C10FEE263}Assets/Gepard/GEP018/NeutralBaseV2/05e7fc30e945.emat"
+    }
+    MaterialAssignClass "{CD80E598805F6081}" {
+     SourceMaterial "GEP_CrewRoof_Coaming_ServiceB_20261017"
+     AssignedMaterial "{B8CF489351E9FED0}Assets/Gepard/GEP018/NeutralBaseV2/a676856f5df6.emat"
+    }
+    MaterialAssignClass "{57F5B9275DD43920}" {
+     SourceMaterial "GEP_StorageRearService_RearOriginalBoxes"
+     AssignedMaterial "{D5ED0CD3F07CEB6B}Assets/Gepard/GEP018/NeutralBaseV2/eb253b96725f.emat"
+    }
+    MaterialAssignClass "{E7C262780876ADA0}" {
+     SourceMaterial "GEP_Underpod225_ServicePaint"
+     AssignedMaterial "{008E1BE818C7C6A4}Assets/Gepard/GEP018/NeutralBaseV2/b0d6eed00c40.emat"
+    }
+    MaterialAssignClass "{EED8F8E15F3B669A}" {
+     SourceMaterial "GEP_Underpod225_DarkFastener"
+     AssignedMaterial "{B988428109582DD9}Assets/Gepard/GEP018/NeutralBaseV2/a651ea9fb268.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{D561AD08932E5340}" {
+   Slots {
+    EntitySlotInfo Cabin { Prefab "{A26A1CE8075CF866}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCabin.et" }
+    EntitySlotInfo SearchRadar { Prefab "{447002CAE0248096}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardSearchBase.et" }
+    EntitySlotInfo TrackingRadar { Prefab "{419E70B86714952F}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingBase.et" }
+    RegisteringComponentSlotInfo GunnerHatch569 { Prefab "{DC080A541024A61C}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardGunnerHatch569.et" }
+    RegisteringComponentSlotInfo CommanderHatch569 { Prefab "{4E91127106A96179}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCommanderHatch569.et" }
+    EntitySlotInfo GEPBearingBosses { Prefab "{1A79C2D40FC831FA}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardBearingBosses.et" }
+    EntitySlotInfo GEP669RoofEyes { Prefab "{77FE5144F50C0AE6}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardRoofEyes669.et" }
+    EntitySlotInfo GEP668CoverLeft { Prefab "{4511416E1C048BA8}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCoverLeft668.et" }
+    EntitySlotInfo GEP668CoverRight { Prefab "{D5D53F5F72BF4474}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCoverRight668.et" }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" { WeaponTemplate "{116623595C424D45}Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunLeft.et" }
+  WeaponSlotComponent "{D561AD08932E5310}" { WeaponTemplate "{C4F616D9F3947024}Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunRight.et" }
+ }
+}

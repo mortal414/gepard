@@ -64,6 +64,13 @@
   bool Active()
   {
    if(!Crew(User())||GetGame().GetMenuManager().IsAnyMenuOpen())return false;
+   // Keep the operational crew gate, then require the actual local turret role
+   // and rendered player camera. ADS can remain set while an observer camera is
+   // active; it must not acquire input listeners or inherit the low-light effect.
+   if(!GEP_GunnerSnapshot583.IsLocalGunner(GetOwner()))return false;
+   PlayerController player=GetGame().GetPlayerController();
+   CameraManager cameras=GetGame().GetCameraManager();
+   if(!player || !cameras || !player.GetPlayerCamera() || cameras.CurrentCamera()!=player.GetPlayerCamera())return false;
    TurretControllerComponent gun=TurretControllerComponent.Cast(GetOwner().FindComponent(TurretControllerComponent));
    BaseSightsComponent sight;
    if(gun)sight=gun.GetCurrentSights();

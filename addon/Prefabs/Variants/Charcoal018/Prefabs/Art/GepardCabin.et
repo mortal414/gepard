@@ -1,0 +1,13 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{D561AD08932E5201}Prefabs/Art/GepardCabin.et" {
+ components {
+  MeshObject "{AB4F5AA003FE968B}" {
+   Materials {
+    MaterialAssignClass "{833DFD1FC56815E1}" {
+     SourceMaterial "GEP_CabinExteriorPaint"
+     AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat"
+    }
+   }
+  }
+ }
+}

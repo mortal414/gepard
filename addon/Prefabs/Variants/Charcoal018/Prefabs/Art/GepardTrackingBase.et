@@ -1,0 +1,26 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{D561AD08932E3006}Prefabs/Art/GepardTrackingBase.et" {
+ components {
+  MeshObject "{D561AD08932E3306}" {
+   Materials {
+    MaterialAssignClass "{1794EBA8A1C86274}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat"
+    }
+    MaterialAssignClass "{0CE899A25431612C}" {
+     SourceMaterial "GEP_grille_paint"
+     AssignedMaterial "{2538429B396DB655}Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat"
+    }
+    MaterialAssignClass "{0B648EB53EF0BC53}" {
+     SourceMaterial "GEP_Skin_GepardTrackingBase"
+     AssignedMaterial "{05895C5A78FC2F96}Assets/Gepard/GEP018/NeutralBaseV2/66282ffb5bb1.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{D561AD08932E3406}" {
+   Slots {
+    EntitySlotInfo GepardTrackingHead { Prefab "{8F029F147ACF246A}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingHead.et" }
+   }
+  }
+ }
+}

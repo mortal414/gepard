@@ -1,31 +1,36 @@
-name: Bug report
-description: Report a reproducible Gepard gameplay problem.
-title: "[Bug] "
-labels: [bug]
+name: Report or feedback
+description: Report a gameplay problem or share visual/model feedback for Gepard.
+title: "[Feedback] "
 body:
   - type: markdown
     attributes:
-      value: "This is an early WIP. Driving and crew protection are unfinished; reports with concrete reproduction steps are welcome."
+      value: "Reports and visual feedback are welcome. Please remove private information and credentials from captures and logs. Upload only material you have permission to share."
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category (optional)
+      options:
+        - Gameplay bug
+        - Visual or model issue
+        - Suggestion or other feedback
   - type: input
     id: versions
     attributes:
-      label: Game and mod versions
-      description: Include platform and whether this is solo, hosted multiplayer or a dedicated server.
-    validations:
-      required: true
+      label: Game and mod versions (optional)
+      description: Platform and solo, hosted multiplayer or dedicated server are helpful if relevant.
   - type: textarea
-    id: reproduction
+    id: description
     attributes:
-      label: Reproduction steps
-      description: What did you do, what happened, and what did you expect?
+      label: What needs attention?
+      description: Describe the issue or feedback. For a bug, include steps, actual behavior and expected behavior if you can. For visuals, identify the part, viewing angle or lighting.
     validations:
       required: true
   - type: textarea
     id: mods
     attributes:
-      label: Other enabled mods
+      label: Other enabled mods (optional)
   - type: textarea
     id: evidence
     attributes:
-      label: Evidence
-      description: Attach relevant screenshots, video or logs. Remove private information and credentials first.
+      label: Screenshots, video, logs or reference links (optional)
+      description: Remove private information and credentials before sharing. Do not upload unlicensed assets.

@@ -1,0 +1,163 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+Vehicle : "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{01EF222B122A4451}" {
+     SourceMaterial "GEP_RR642_NEW_PaintedFace"
+     AssignedMaterial "{DE7EF9FEC949E259}Assets/Gepard/GEP018/NeutralBaseV2/8899ecf324d1.emat"
+    }
+    MaterialAssignClass "{F05F656F856B5D2D}" {
+     SourceMaterial "GEP_RR642_NEW_PaintedSupport"
+     AssignedMaterial "{6FC4EF5791EDD74F}Assets/Gepard/GEP018/NeutralBaseV2/dc373c830ff1.emat"
+    }
+    MaterialAssignClass "{BE9F42B474D790ED}" {
+     SourceMaterial "GEP_PrincipalHull_Coating"
+     AssignedMaterial "{6ED8C49AFA7C91FC}Assets/Gepard/GEP018/NeutralBaseV2/cb6ee142ef9f.emat"
+    }
+    MaterialAssignClass "{CBF8928C3C9114EA}" {
+     SourceMaterial "GEP_FinalFinish_FlankB"
+     AssignedMaterial "{8BF208B9E2C57BB3}Assets/Gepard/GEP018/NeutralBaseV2/975db2cf4f7d.emat"
+    }
+    MaterialAssignClass "{FD5DD663AE7CE0EF}" {
+     SourceMaterial "GEP_FinalFinish_Hub14B"
+     AssignedMaterial "{9A457F8F8CA892A8}Assets/Gepard/GEP018/NeutralBaseV2/e76d87db4957.emat"
+    }
+    MaterialAssignClass "{285B2C5E95AAF556}" {
+     SourceMaterial "GEP_FinalFinish_RearFlapCoating"
+     AssignedMaterial "{CCDE6A5BECAFB598}Assets/Gepard/GEP018/NeutralBaseV2/f6266e5e7d51.emat"
+    }
+    MaterialAssignClass "{5A32C1C9C31E1E06}" {
+     SourceMaterial "GEP_FinalFinish_RearHardwareSuccessor"
+     AssignedMaterial "{F8A459EF23C4138A}Assets/Gepard/GEP018/NeutralBaseV2/6155a1390dd0.emat"
+    }
+    MaterialAssignClass "{E8CB528BC8C60004}" {
+     SourceMaterial "GEP_FinalFinish_RearPanelC"
+     AssignedMaterial "{1EC0C527F5B0F44D}Assets/Gepard/GEP018/NeutralBaseV2/b27aa5819735.emat"
+    }
+    MaterialAssignClass "{DEAE31539D64CBE3}" {
+     SourceMaterial "GEP_FinalFinish_Wheel09Coating"
+     AssignedMaterial "{0B4ABF7FD2B643E5}Assets/Gepard/GEP018/NeutralBaseV2/f9dca3bda6c1.emat"
+    }
+    MaterialAssignClass "{5348AEFFCF021997}" {
+     SourceMaterial "GEP_grille_paint"
+     AssignedMaterial "{2538429B396DB655}Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat"
+    }
+    MaterialAssignClass "{13CD35B6B1C6A50A}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat"
+    }
+    MaterialAssignClass "{059BACAF401C2251}" {
+     SourceMaterial "GEP_Skin_GepardHull"
+     AssignedMaterial "{BFE3B10AAAE45177}Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat"
+    }
+    MaterialAssignClass "{34EBCF2B7D5CF56C}" {
+     SourceMaterial "GEP_Service641_Engine21300_QualifiedTops"
+     AssignedMaterial "{8AC8DDADE97129AD}Assets/Gepard/GEP018/NeutralBaseV2/088a56ab9cf5.emat"
+    }
+    MaterialAssignClass "{2455DD649242ADFB}" {
+     SourceMaterial "GEP_Service641_Flap1565_LOD0_Rear"
+     AssignedMaterial "{A26872594D923CC6}Assets/Gepard/GEP018/NeutralBaseV2/5053aafe90c4.emat"
+    }
+    MaterialAssignClass "{0989AF606F95DF51}" {
+     SourceMaterial "GEP_Service641_Flap1565_LOD1_Rear"
+     AssignedMaterial "{31772898E6467796}Assets/Gepard/GEP018/NeutralBaseV2/c8c68b02c92a.emat"
+    }
+    MaterialAssignClass "{51601D8BF108150C}" {
+     SourceMaterial "GEP_Service641_Flap1565_LOD2_Rear"
+     AssignedMaterial "{9183FE168F845B45}Assets/Gepard/GEP018/NeutralBaseV2/f3a2be60e196.emat"
+    }
+    MaterialAssignClass "{98C7B9121AD3AC1E}" {
+     SourceMaterial "GEP_Service641_Flap1565_LOD3_Rear"
+     AssignedMaterial "{40378A6218C34858}Assets/Gepard/GEP018/NeutralBaseV2/0986c298d2c7.emat"
+    }
+    MaterialAssignClass "{3744C34A299FCC25}" {
+     SourceMaterial "GEP_Service641_Flap771_LOD0_Rear"
+     AssignedMaterial "{5CB160F5B265B71F}Assets/Gepard/GEP018/NeutralBaseV2/75d55508b3fe.emat"
+    }
+    MaterialAssignClass "{F0FB81F84AE0FD8C}" {
+     SourceMaterial "GEP_Service641_Flap771_LOD1_Rear"
+     AssignedMaterial "{4C8F5B91F72739F9}Assets/Gepard/GEP018/NeutralBaseV2/e86abadff894.emat"
+    }
+    MaterialAssignClass "{9BC6327AB77ED536}" {
+     SourceMaterial "GEP_Service641_Flap771_LOD2_Rear"
+     AssignedMaterial "{A2FD22255B4BAF4B}Assets/Gepard/GEP018/NeutralBaseV2/61b40334a493.emat"
+    }
+    MaterialAssignClass "{52A75B8733724D71}" {
+     SourceMaterial "GEP_Service641_Flap771_LOD3_Rear"
+     AssignedMaterial "{BC7A9069EFD2BDFD}Assets/Gepard/GEP018/NeutralBaseV2/24ea9fa1a6ac.emat"
+    }
+    MaterialAssignClass "{13E7FA0AA5EFF012}" {
+     SourceMaterial "GEP_Service641_HoodSkin"
+     AssignedMaterial "{43992EEB2ADA3733}Assets/Gepard/GEP018/NeutralBaseV2/ae9695c48890.emat"
+    }
+    MaterialAssignClass "{16304EA599F16C80}" {
+     SourceMaterial "GEP_Service641_RearPanel"
+     AssignedMaterial "{E3D8CC08A6692741}Assets/Gepard/GEP018/NeutralBaseV2/020ab27cd01f.emat"
+    }
+    MaterialAssignClass "{7FEADC85E8F82D2E}" {
+     SourceMaterial "GEP_DriverCoaming_PaintedMetal"
+     AssignedMaterial "{32B6D11D2AD19385}Assets/Gepard/GEP018/NeutralBaseV2/57e7c826739a.emat"
+    }
+    MaterialAssignClass "{68D3B8339A9D217F}" {
+     SourceMaterial "GEP_FrontAssembly_CanopyPaint"
+     AssignedMaterial "{4D272D94D28ACC22}Assets/Gepard/GEP018/NeutralBaseV2/1c3df24cafd0.emat"
+    }
+    MaterialAssignClass "{B93E74754E40D42D}" {
+     SourceMaterial "GEP_FrontDeckDetail_JoinSupportPigment_FlatNormal"
+     AssignedMaterial "{B668CA8421696B3A}Assets/Gepard/GEP018/NeutralBaseV2/361672852acb.emat"
+    }
+    MaterialAssignClass "{4D6656423CC6B7EE}" {
+     SourceMaterial "GEP_FrontDeckDetail_Paint"
+     AssignedMaterial "{8ED00A828F33434A}Assets/Gepard/GEP018/NeutralBaseV2/59e80cb6daf7.emat"
+    }
+    MaterialAssignClass "{EB9E4CA21392BCF6}" {
+     SourceMaterial "GEP_FrontDeckDetail_SupportPigment_FlatNormal"
+     AssignedMaterial "{BA42B7502F32719B}Assets/Gepard/GEP018/NeutralBaseV2/656bd99b85a3.emat"
+    }
+    MaterialAssignClass "{2748BE544D6C02D1}" {
+     SourceMaterial "Rear663_AllLODs_BackingCaps_BasicTrial"
+     AssignedMaterial "{66CFCB1310FFB1CA}Assets/Gepard/GEP018/NeutralBaseV2/0b248cf1fd4d.emat"
+    }
+    MaterialAssignClass "{1A07DD4F37FC3A71}" {
+     SourceMaterial "Rear663_AllLODs_EngineTops_BasicTrial"
+     AssignedMaterial "{63D2CB398012894A}Assets/Gepard/GEP018/NeutralBaseV2/31d95ba7f9da.emat"
+    }
+    MaterialAssignClass "{DF771B5C9A6BEE73}" {
+     SourceMaterial "Rear663_AllLODs_VentOutward_BasicTrial"
+     AssignedMaterial "{3A930EB8193AE05E}Assets/Gepard/GEP018/NeutralBaseV2/ed8712e35f95.emat"
+    }
+    MaterialAssignClass "{1F4233A99877FAA2}" {
+     SourceMaterial "Rear663_AllLODs_NatoOutward_BasicTrial"
+     AssignedMaterial "{A572A4B42647A12E}Assets/Gepard/GEP018/NeutralBaseV2/8212ff982752.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo GEP672AuxLampHardware { Prefab "{9B6056BC9389DFE4}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardAuxLampHardware672.et" }
+    EntitySlotInfo GEP671RightRearCover { Prefab "{37A08EB9B18F18A9}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardRightRearShieldCover671.et" }
+    EntitySlotInfo GEP668FenderDetails { Prefab "{9B63D18405208D99}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFenderDetails668.et" }
+    EntitySlotInfo GEP_FullWidthApron606 { Prefab "{0D6CFC10AFAF54ED}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFullWidthApron606.et" }
+    EntitySlotInfo GEP_LeftServiceShield603 { Prefab "{1D6C3B94480DEB8D}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardLeftServiceShield603.et" }
+    EntitySlotInfo GEP_StowageSeated591 { Prefab "{C9816F89BBC2623A}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardStowageSeated591.et" }
+    RegisteringComponentSlotInfo DriverHatch { Prefab "{435F64448B58628E}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardDriverHatch.et" }
+    RegisteringComponentSlotInfo GunRig { Prefab "{F0F0BAF3855CF8D1}Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_VehicleTurret.et" }
+   }
+  }
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   EmissiveSurfaceSlots {
+    SCR_EmissiveLightSurfaceSlot GEP592HeadLeft { Prefab "{2D657F3B2F7A645B}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFront07Left592.et" }
+    SCR_EmissiveLightSurfaceSlot GEP592HeadRight { Prefab "{96D9808AEAA3FBF5}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFront07Right592.et" }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" { Name "Gepard 35 mm SPAA - Charcoal (WIP)" }
+  }
+  SCR_UniversalInventoryStorageComponent "{D561AD08932E8100}" {
+   Attributes SCR_ItemAttributeCollection "{D561AD08932E8101}" {
+    ItemDisplayName GEP_VehicleInventoryInfo533 "{D561AD08932E8102}" { Name "Gepard 35 mm SPAA - Charcoal (WIP)" }
+   }
+  }
+ }
+}

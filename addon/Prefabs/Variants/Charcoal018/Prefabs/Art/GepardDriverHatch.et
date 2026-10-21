@@ -1,0 +1,18 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{D561AD08932E7701}Prefabs/Art/GepardDriverHatch.et" {
+ components {
+  MeshObject "{F602B3A69A40AA29}" {
+   Materials {
+    MaterialAssignClass "{7AF2DF1274AE4ECE}" {
+     SourceMaterial "GEP_Skin_GepardHull"
+     AssignedMaterial "{BFE3B10AAAE45177}Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{527F9C34B76F46E3}" {
+   Slots {
+    EntitySlotInfo GEP_DriverLidHardware660 { Prefab "{C9E34F408D2622AF}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardDriverLidHardware660.et" }
+   }
+  }
+ }
+}

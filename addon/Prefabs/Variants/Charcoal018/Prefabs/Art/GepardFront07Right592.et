@@ -1,0 +1,13 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GameEntity : "{77D816C4854A4594}Prefabs/Art/GepardFront07Right592.et" {
+ components {
+  MeshObject "{2613956F44DD41A0}" {
+   Materials {
+    MaterialAssignClass "{C99ABF0AE62B27DE}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat"
+    }
+   }
+  }
+ }
+}

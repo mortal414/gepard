@@ -1,0 +1,25 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{045EBD2C8477424E}Prefabs/Art/GepardFullWidthApron606.et" {
+ components {
+  MeshObject "{40DFCA739369439B}" {
+   Materials {
+    MaterialAssignClass "{9AAB541A4C77345B}" {
+     SourceMaterial "GEP_FrontApron_FullWidth_Coating_Left"
+     AssignedMaterial "{AB5B67F62A344510}Assets/Gepard/GEP018/NeutralBaseV2/1bb2d6fcf803.emat"
+    }
+    MaterialAssignClass "{4E55A35108FB0490}" {
+     SourceMaterial "GEP_FrontApron_FullWidth_Coating_Right"
+     AssignedMaterial "{8D5D38E48DD86636}Assets/Gepard/GEP018/NeutralBaseV2/3dba6e0f7111.emat"
+    }
+    MaterialAssignClass "{F4ED77D52A083BC8}" {
+     SourceMaterial "GEP_Service641_FrontApronLeft"
+     AssignedMaterial "{D6CE32624B4CFF95}Assets/Gepard/GEP018/NeutralBaseV2/4699432e0efb.emat"
+    }
+    MaterialAssignClass "{FF11FD3AE745E7A0}" {
+     SourceMaterial "GEP_Service641_FrontApronRight"
+     AssignedMaterial "{06AAF119F5E4CA1F}Assets/Gepard/GEP018/NeutralBaseV2/c4c003557554.emat"
+    }
+   }
+  }
+ }
+}

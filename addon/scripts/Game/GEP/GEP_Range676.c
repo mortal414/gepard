@@ -46,7 +46,11 @@ class GEP_Range676 : ScriptComponent
   TurretControllerComponent gun=TurretControllerComponent.Cast(owner.FindComponent(TurretControllerComponent));
   if(!access || !gun)return false;
   seat=access.GetCompartment();sight=gun.GetCurrentSights();
-  return seat && sight;
+  IEntity renderedUser702;BaseCompartmentSlot renderedSeat702;SCR_2DSightsComponent renderedSight702;string reason702;
+  // The range sample belongs to the rendered local ADS view. A free camera,
+  // menu or changed occupant must not retain a previous range or input scope.
+  return GEP_Presentation680.Evaluate(owner,renderedUser702,renderedSeat702,renderedSight702,reason702)
+   && renderedUser702==user && renderedSeat702==seat && renderedSight702==sight;
  }
 
  protected bool ScopeMatches676()

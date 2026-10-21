@@ -1,0 +1,13 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{BB836DC8A4604CD7}Prefabs/Art/GepardRoofEyes669.et" {
+ components {
+  MeshObject "{B114A58DC97C453B}" {
+   Materials {
+    MaterialAssignClass "{FD0E989DAA0B41EE}" {
+     SourceMaterial "GEP669_RoofPaint"
+     AssignedMaterial "{0D75974F00570370}Assets/Gepard/GEP018/NeutralBaseV2/2ccdc0ca60aa.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{FD77A7A158897F4B}Prefabs/Art/GepardBearingBosses.et" {
+ components {
+  MeshObject "{FA7AC5981B75B6A3}" {
+   Materials {
+    MaterialAssignClass "{374472FA176A1B29}" {
+     SourceMaterial "GEP_Finish_Turret"
+     AssignedMaterial "{E38A963C10FEE263}Assets/Gepard/GEP018/NeutralBaseV2/05e7fc30e945.emat"
+    }
+   }
+  }
+ }
+}

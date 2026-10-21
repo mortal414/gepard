@@ -1,0 +1,30 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{D561AD08932E3004}Prefabs/Art/GepardSearchBase.et" {
+ components {
+  MeshObject "{D561AD08932E3304}" {
+   Materials {
+    MaterialAssignClass "{F1C5E312B956B526}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat"
+    }
+    MaterialAssignClass "{1A6030098BD14795}" {
+     SourceMaterial "GEP_Skin_GepardSearchBase"
+     AssignedMaterial "{CD10A4F75A49E44B}Assets/Gepard/GEP018/NeutralBaseV2/879d7e559a19.emat"
+    }
+    MaterialAssignClass "{42A30DD73F54E407}" {
+     SourceMaterial "GEP_SearchBase_CastService_20261017"
+     AssignedMaterial "{585E5321E177AD72}Assets/Gepard/GEP018/NeutralBaseV2/75f553f90903.emat"
+    }
+    MaterialAssignClass "{5AE7E6D9692F7344}" {
+     SourceMaterial "GEP_Service641_SearchBase"
+     AssignedMaterial "{4CEB31734A7D001E}Assets/Gepard/GEP018/NeutralBaseV2/49e9ab156d14.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{D561AD08932E3404}" {
+   Slots {
+    EntitySlotInfo GepardSearchYawSupport { Prefab "{A2B04E8E65195335}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardSearchYawSupport.et" }
+   }
+  }
+ }
+}

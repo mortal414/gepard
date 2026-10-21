@@ -1,0 +1,3 @@
+MetaFileClass { Name "{FE15D6471463FE8C}Configs/EntityCatalog/GEP_CharcoalVehicle018.conf"
+ Configurations { CONFResourceClass PC {} CONFResourceClass HEADLESS : PC {} CONFResourceClass XBOX_SERIES : PC {} CONFResourceClass PS5 : PC {} }
+}

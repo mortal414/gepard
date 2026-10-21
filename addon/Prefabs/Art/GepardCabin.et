@@ -1,2 +1,2 @@
-GenericEntity { components { Hierarchy {} MeshObject { Object "{D561AD08932E5101}Assets/Gepard/GepardCabin.xob" } } }
+GenericEntity { components { Hierarchy {} MeshObject "{AB4F5AA003FE968B}" { Object "{D561AD08932E5101}Assets/Gepard/GepardCabin.xob" } } }
 

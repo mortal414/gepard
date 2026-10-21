@@ -8,7 +8,7 @@ GenericEntity {
     SCR_DestructibleHitzone Hatch : "{20D6C595AE450F55}Prefabs/Vehicles/Core/Configs/HitZones/VehiclePart_HZ.conf" { ColliderNames { "UCX_DriverHatch" } }
    }
   }
-  MeshObject { Object "{D561AD08932E7700}Assets/Gepard/GepardDriverHatch.xob" }
+  MeshObject "{F602B3A69A40AA29}" { Object "{D561AD08932E7700}Assets/Gepard/GepardDriverHatch.xob" }
   SlotManagerComponent "{527F9C34B76F46E3}" { Slots { EntitySlotInfo GEP_DriverLidHardware660 { Offset 0 0 0 Prefab "{3ED25CAAAF6A43DE}Prefabs/Art/GepardDriverLidHardware660.et" } } }
 }
 }

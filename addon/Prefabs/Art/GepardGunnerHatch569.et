@@ -3,4 +3,4 @@ GenericEntity { components {
  RplComponent { "Rpl State Override" Runtime }
  RigidBody { Static 0 Kinematic 1 ModelGeometry 1 }
  SCR_DamageManagerComponent { "Additional hit zones" { SCR_DestructibleHitzone Hatch : "{20D6C595AE450F55}Prefabs/Vehicles/Core/Configs/HitZones/VehiclePart_HZ.conf" { ColliderNames { "UCX_GunnerHatch569" "UCX_GunnerHatch569_Leaf621_01" "UCX_GunnerHatch569_Leaf621_02" "UCX_GunnerHatch569_Leaf621_03" "UCX_GunnerHatch569_Leaf621_04" "UCX_GunnerHatch569_Leaf621_05" "UCX_GunnerHatch569_Leaf621_06" "UCX_GunnerHatch569_Leaf621_07" "UCX_GunnerHatch569_Leaf621_08" "UCX_GunnerHatch569_Leaf621_09" "UCX_GunnerHatch569_Leaf621_10" } } } }
- MeshObject { Object "{D561AD08932E96A8}Assets/Gepard/GepardGunnerHatch569.xob" } } }
+ MeshObject "{1C7FB508653F1A5F}" { Object "{D561AD08932E96A8}Assets/Gepard/GepardGunnerHatch569.xob" } } }

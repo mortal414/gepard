@@ -1,0 +1,17 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{D561AD08932E9698}Prefabs/Art/GepardCommanderHatch569.et" {
+ components {
+  MeshObject "{EF0D057004A0D738}" {
+   Materials {
+    MaterialAssignClass "{16A1E62DB619365F}" {
+     SourceMaterial "GEP_CrewRoof_Lids_ServiceB_20261017"
+     AssignedMaterial "{B97C8F7EB5AFB2C3}Assets/Gepard/GEP018/NeutralBaseV2/d6a3321b2692.emat"
+    }
+    MaterialAssignClass "{BE44DB2B4580BA73}" {
+     SourceMaterial "GEP_grille_paint"
+     AssignedMaterial "{2538429B396DB655}Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat"
+    }
+   }
+  }
+ }
+}

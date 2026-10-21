@@ -40,8 +40,12 @@ class GEP_Presentation680
 
  static bool MaskWeaponInfo(IEntity owner)
  {
-  IEntity user;BaseCompartmentSlot seat;TurretControllerComponent controller;string reason;
-  return ActualOccupant(owner,user,seat,controller,reason);
+  IEntity user;BaseCompartmentSlot seat;SCR_2DSightsComponent sight;string reason;
+  if(!Evaluate(owner,user,seat,sight,reason))return false;
+  GEP_GunStatus instruments=GEP_GunStatus.Cast(owner.FindComponent(GEP_GunStatus));
+  // Suppress native ammunition information only after a complete replacement
+  // was actually presented for this exact occupant, seat and sight.
+  return instruments && instruments.ReplacesWeaponInfo702(user,seat,sight);
  }
 
  static bool ExactSight(SCR_2DOpticsComponent comp)

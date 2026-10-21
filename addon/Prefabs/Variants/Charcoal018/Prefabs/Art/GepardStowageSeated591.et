@@ -1,0 +1,33 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{43B95086D5DF4000}Prefabs/Art/GepardStowageSeated591.et" {
+ components {
+  MeshObject "{9FDA06F22D7D4E84}" {
+   Materials {
+    MaterialAssignClass "{FECE34D5525260EF}" {
+     SourceMaterial "GEP_StowageSeated_SelectedAntiSlip"
+     AssignedMaterial "{738BB0A8F98D5B70}Assets/Gepard/GEP018/NeutralBaseV2/6c32f248f7b1.emat"
+    }
+    MaterialAssignClass "{2B76896622FDF95A}" {
+     SourceMaterial "GEP_StowageSeated_SelectedStowage"
+     AssignedMaterial "{F423E2BA53882842}Assets/Gepard/GEP018/NeutralBaseV2/898cfbc09ae6.emat"
+    }
+    MaterialAssignClass "{F114177F3356CB75}" {
+     SourceMaterial "GEP_StorageRearService_SideOriginal"
+     AssignedMaterial "{392323B90B8E4B05}Assets/Gepard/GEP018/NeutralBaseV2/5cbce2351fb3.emat"
+    }
+    MaterialAssignClass "{4BC9BB47EAC19532}" {
+     SourceMaterial "GEP_StorageRearService_ExtensionHardware"
+     AssignedMaterial "{6764AE8CAC0C52E8}Assets/Gepard/GEP018/NeutralBaseV2/7d5ddd1ddf3b.emat"
+    }
+    MaterialAssignClass "{B2C25841E34112A6}" {
+     SourceMaterial "GEP_StorageRearService_ExtensionOuterBody"
+     AssignedMaterial "{AC961FB27F8B0305}Assets/Gepard/GEP018/NeutralBaseV2/169b1cf35126.emat"
+    }
+    MaterialAssignClass "{86B953ADD497F3DC}" {
+     SourceMaterial "GEP_StorageRearService_ExtensionOuterLidLip"
+     AssignedMaterial "{196CBEE803C0EA85}Assets/Gepard/GEP018/NeutralBaseV2/2f45283c4f45.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{39C2475F75ED40B7}Prefabs/Art/GepardRightRearShieldCover671.et" {
+ components {
+  MeshObject "{AA74CE07C0024A28}" {
+   Materials {
+    MaterialAssignClass "{045BF98EE4A45CAE}" {
+     SourceMaterial "GEP671_ShieldPaint"
+     AssignedMaterial "{6746127489ECF902}Assets/Gepard/GEP018/NeutralBaseV2/dbd23d9d19d8.emat"
+    }
+    MaterialAssignClass "{8AB7E9F872BD930D}" {
+     SourceMaterial "GEP671_Seam"
+     AssignedMaterial "{E23A5094DEF9C8F3}Assets/Gepard/GEP018/NeutralBaseV2/ce6c45851113.emat"
+    }
+   }
+  }
+ }
+}

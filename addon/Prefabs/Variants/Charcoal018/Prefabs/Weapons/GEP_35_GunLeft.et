@@ -1,0 +1,21 @@
+// Appearance-only child. All non-skin behavior stays in the inherited integration prefab.
+GenericEntity : "{D561AD08932E4030}Prefabs/Weapons/GEP_35_GunLeft.et" {
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{D7B1D16EB9069DE5}" {
+     SourceMaterial "GEP_GunPodCasingLeft_Rebuilt"
+     AssignedMaterial "{66553C442FB118C7}Assets/Gepard/GEP018/NeutralBaseV2/0c00d2a1afb2.emat"
+    }
+    MaterialAssignClass "{5BEDADF307F79DD3}" {
+     SourceMaterial "GEP_Skin_GepardGunLeft_Registered579"
+     AssignedMaterial "{0D8206BF9FBCEB38}Assets/Gepard/GEP018/NeutralBaseV2/76b92e1dbf50.emat"
+    }
+    MaterialAssignClass "{9D88A03EF7B01FEE}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat"
+    }
+   }
+  }
+ }
+}

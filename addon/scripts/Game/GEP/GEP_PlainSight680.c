@@ -6,7 +6,8 @@ class GEP_PlainSight680
  protected TextWidget m_Fault;
  protected int m_LastAttempt=-1000;
  protected ref array<ref CanvasWidgetCommand> m_Draw={};
- bool Ready(){return m_Root && m_Canvas;}
+ bool Ready(){return m_Root && m_Canvas && m_Fault;}
+ bool Visible702(){return Ready() && m_Root.IsVisible();}
  bool Ensure()
  {
   if(Ready())return true;

@@ -21,7 +21,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
   }
 
   GEP_TurretHatches569 "{D561AD08932E9691}" {}
-  GEP_GunStatus "{D561AD08932E5350}" {}
+  GEP_GunStatus "{D561AD08932E5350}" { HudStyle702 4 }
   GEP_GunInputContext579 "{D561AD08932E9810}" {}
   GEP_Optical444 "{D561AD08932E8440}" {}
   GEP_Range676 "{D561AD08932EF679}" {}

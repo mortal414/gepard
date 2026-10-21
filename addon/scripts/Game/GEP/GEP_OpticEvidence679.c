@@ -12,6 +12,9 @@ modded class SCR_2DOpticsDisplay
   hud.EnsureVisual680();
   if(!hud.HasVisual680())return;
   if(!hud.Ready680() || !hud.Snapshot.Presentation680)hud.Minimal680();
+  // Allocation alone is insufficient: retain the native sight if neither our
+  // complete instruments nor the independent fault reticle is actually visible.
+  if(!hud.HasVisibleSight702())return;
   m_wRoot.SetVisible(false);
   // No forced SetVisible(true). The native Activate/Deactivate lifecycle owns
   // visibility for other sights and the real ADS-off path.

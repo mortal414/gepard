@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{A489CDD0099DFA6B}Assets/Gepard/GEP018/NeutralBaseV2/3d67122b08b8_BCR.edds"
+ NMOMap "{1745248565F54BE7}Assets/Gepard/PrincipalCoating/PrincipalHull_Coating_NMO.edds"
+}
