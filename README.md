@@ -25,9 +25,9 @@ The temporary turret gate is `m_bIndependentTurretDamageEnabled692 0` in the mou
 
 ## Feedback
 
-Report gameplay bugs or visual/model feedback through the [general report and feedback form](https://github.com/MarcoBetti1/gepard/issues/new?template=bug_report.yml). Describe what needs attention and optionally include versions, reproduction steps, other enabled mods, screenshots or logs. Avoid posting private information or credentials.
+Report gameplay bugs or visual/model feedback through the [general report and feedback form](https://github.com/mortal414/gepard/issues/new?template=bug_report.yml). Describe what needs attention and optionally include versions, reproduction steps, other enabled mods, screenshots or logs. Avoid posting private information or credentials.
 
-The separate [Reforger Agent Harness](https://github.com/MarcoBetti1/reforger-agent-harness) contains the generic development tools. [Tooling feedback belongs there](https://github.com/MarcoBetti1/reforger-agent-harness/issues).
+The separate [Reforger Agent Harness](https://github.com/mortal414/reforger-agent-harness) contains the generic development tools. [Tooling feedback belongs there](https://github.com/mortal414/reforger-agent-harness/issues).
 
 ## Notices and license status
 
