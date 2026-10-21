@@ -103,9 +103,11 @@ class GEP_OneRoundProbe015 : GenericEntity
  {
   JsonSaveContext enums=new JsonSaveContext();
   enums.WriteValue("VISIBLE",EntityFlags.VISIBLE);enums.WriteValue("TRACEABLE",EntityFlags.TRACEABLE);
+  enums.WriteValue("FEATURE",EntityFlags.FEATURE);enums.WriteValue("SET_RENDERED",EntityFlags.SET_RENDERED);enums.WriteValue("STREAMABLE",EntityFlags.STREAMABLE);enums.WriteValue("RELATIVE_Y",EntityFlags.RELATIVE_Y);enums.WriteValue("EDITOR_ONLY",EntityFlags.EDITOR_ONLY);
   enums.WriteValue("NO_LINK",EntityFlags.NO_LINK);enums.WriteValue("ACTIVE",EntityFlags.ACTIVE);enums.WriteValue("STATIC",EntityFlags.STATIC);
   enums.WriteValue("USER1",EntityFlags.USER1);enums.WriteValue("USER2",EntityFlags.USER2);enums.WriteValue("USER3",EntityFlags.USER3);enums.WriteValue("USER4",EntityFlags.USER4);enums.WriteValue("USER5",EntityFlags.USER5);
   enums.WriteValue("NO_TREE",EntityFlags.NO_TREE);enums.WriteValue("DISABLED",EntityFlags.DISABLED);enums.WriteValue("PROXY",EntityFlags.PROXY);enums.WriteValue("UPDATE_LINK",EntityFlags.UPDATE_LINK);
+  enums.WriteValue("EntityEventINIT",EntityEvent.INIT);enums.WriteValue("EntityEventFRAME",EntityEvent.FRAME);enums.WriteValue("EntityEventDISABLED",EntityEvent.DISABLED);
   enums.WriteValue("SimulationStateNONE",SimulationState.NONE);enums.WriteValue("SimulationStateCOLLISION",SimulationState.COLLISION);enums.WriteValue("SimulationStateSIMULATION",SimulationState.SIMULATION);
   enums.WriteValue("scope","READ_ONLY_NATIVE_CONSTANTS_NO_FLAG_MUTATION");enums.SaveToFile("$profile:GEP015-native-enums.json");
   PrintFormat("GEP015_NATIVE_ENUMS visible=%1 traceable=%2 noLink=%3 active=%4 static=%5 user4=%6 disabled=%7 updateLink=%8",EntityFlags.VISIBLE,EntityFlags.TRACEABLE,EntityFlags.NO_LINK,EntityFlags.ACTIVE,EntityFlags.STATIC,EntityFlags.USER4,EntityFlags.DISABLED,EntityFlags.UPDATE_LINK);

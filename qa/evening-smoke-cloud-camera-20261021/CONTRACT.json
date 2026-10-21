@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "world": "{44B99401C815A015}Worlds/GEP015_CharacterThrow.ent",
+  "nativeStatus": "NOT_TESTED",
+  "baselineCharacterSourceSHA256": "d714cc0806291fd841c524f2c2851de660288a3910fed81df0c19e63176851e9",
+  "cameraOnly": {
+    "folder": "camera-only-overrides",
+    "onlyViewDiffVerified": true,
+    "beforeThrow": "existing actor view unchanged",
+    "afterThrow": "actual live Round.GetOrigin + eye(12,8,-12), aim(0,1,0), FOV70",
+    "inventoryAndThrow": "exactly unchanged"
+  },
+  "optionalCaptureWindow": {
+    "folder": "extended-capture-overrides",
+    "applyInsteadOf": "camera-only-overrides",
+    "additionalChangesOnly": "capture frame schedule/window/terminal deadline; no inventory/equip/throw/arming/physics changes",
+    "framesAfterThrowSeconds": [
+      0.25,
+      1,
+      3,
+      5,
+      8,
+      12,
+      20,
+      30
+    ],
+    "terminalAfterThrowSeconds": 32,
+    "maximumFixtureAgeSeconds": 50
+  },
+  "pixelAcceptance": "Inspect actual images for native cloud around actual grenade location; require camera framing not merely triggered flag. No custom effect/arming/trajectory or world placement changes."
+}

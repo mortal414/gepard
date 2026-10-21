@@ -1,0 +1,515 @@
+{
+  "status": "ACTUAL_NATIVE_TRACE_COMPARISON_NO_NEW_NATIVE_LAUNCH",
+  "drop": {
+    "preExplicit": {
+      "case": "explicit_rigidbody_simulation_drop_no_launch",
+      "phase": "pre_explicit_rigidbody_simulation",
+      "sequence": 4,
+      "scene": "5:GEP_PhysicsDropControl015:<600,50,2600>",
+      "worldTimeMs": 5126.30859375,
+      "elapsedSinceDispatchSeconds": 0.0,
+      "requestedMuzzle": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "entityPresent": 1,
+      "enableSimulationRequested": true,
+      "entity": "69:GenericEntity:<603,41,2600>",
+      "deleted": false,
+      "origin": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "worldMatrixTranslation": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "distanceFromRequestedMuzzle": 0.0,
+      "nearRequestedMuzzle": 1,
+      "parent": "null",
+      "rootParent": "69:GenericEntity:<603,41,2600>",
+      "flags": 3,
+      "eventMask": 1026,
+      "contactHistory": "NOT_INSTRUMENTED",
+      "sameWorld": 1,
+      "prefab": "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et",
+      "movePresent": 1,
+      "fusePresent": 1,
+      "physicsPresent": 1,
+      "rplPresent": 1,
+      "moveLookupEntity": "69:GenericEntity:<603,41,2600>",
+      "moveParentProjectile": "null",
+      "projectileVelocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuseOwner": "69:GenericEntity:<603,41,2600>",
+      "fuseParentProjectile": "null",
+      "timerLocal": 1.0,
+      "triggered": false,
+      "isProxy": false,
+      "physicsWorldMatrixTranslation": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "physicsDirectWorldMatrixTranslation": [
+        602.9983520507812,
+        40.97616195678711,
+        2600.001708984375
+      ],
+      "physicsActive": false,
+      "physicsDynamic": true,
+      "simulationState": 0,
+      "rigidBodyVelocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "postExplicit": {
+      "case": "explicit_rigidbody_simulation_drop_no_launch",
+      "phase": "post_explicit_rigidbody_simulation",
+      "sequence": 5,
+      "scene": "5:GEP_PhysicsDropControl015:<600,50,2600>",
+      "worldTimeMs": 5126.30859375,
+      "elapsedSinceDispatchSeconds": 0.0,
+      "requestedMuzzle": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "entityPresent": 1,
+      "enableSimulationRequested": true,
+      "entity": "69:GenericEntity:<603,41,2600>",
+      "deleted": false,
+      "origin": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "worldMatrixTranslation": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "distanceFromRequestedMuzzle": 0.0,
+      "nearRequestedMuzzle": 1,
+      "parent": "null",
+      "rootParent": "69:GenericEntity:<603,41,2600>",
+      "flags": 3,
+      "eventMask": 1026,
+      "contactHistory": "NOT_INSTRUMENTED",
+      "sameWorld": 1,
+      "prefab": "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et",
+      "movePresent": 1,
+      "fusePresent": 1,
+      "physicsPresent": 1,
+      "rplPresent": 1,
+      "moveLookupEntity": "69:GenericEntity:<603,41,2600>",
+      "moveParentProjectile": "null",
+      "projectileVelocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuseOwner": "69:GenericEntity:<603,41,2600>",
+      "fuseParentProjectile": "null",
+      "timerLocal": 1.0,
+      "triggered": false,
+      "isProxy": false,
+      "physicsWorldMatrixTranslation": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "physicsDirectWorldMatrixTranslation": [
+        602.9983520507812,
+        40.97616195678711,
+        2600.001708984375
+      ],
+      "physicsActive": false,
+      "physicsDynamic": true,
+      "simulationState": 2,
+      "rigidBodyVelocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "firstTick": {
+      "case": "explicit_rigidbody_simulation_drop_no_launch",
+      "phase": "queued0ms",
+      "sequence": 6,
+      "scene": "5:GEP_PhysicsDropControl015:<600,50,2600>",
+      "worldTimeMs": 5161.69873046875,
+      "elapsedSinceDispatchSeconds": 0.035390134900808334,
+      "requestedMuzzle": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "entityPresent": 1,
+      "enableSimulationRequested": true,
+      "entity": "69:GenericEntity:<0,0,0>",
+      "deleted": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "worldMatrixTranslation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "distanceFromRequestedMuzzle": 2669.323974609375,
+      "nearRequestedMuzzle": 0,
+      "parent": "null",
+      "rootParent": "69:GenericEntity:<0,0,0>",
+      "flags": 2051,
+      "eventMask": 1026,
+      "contactHistory": "NOT_INSTRUMENTED",
+      "sameWorld": 1,
+      "prefab": "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et",
+      "movePresent": 1,
+      "fusePresent": 1,
+      "physicsPresent": 1,
+      "rplPresent": 1,
+      "moveLookupEntity": "69:GenericEntity:<0,0,0>",
+      "moveParentProjectile": "null",
+      "projectileVelocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuseOwner": "69:GenericEntity:<0,0,0>",
+      "fuseParentProjectile": "null",
+      "timerLocal": 1.0,
+      "triggered": false,
+      "isProxy": false,
+      "physicsWorldMatrixTranslation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physicsDirectWorldMatrixTranslation": [
+        -0.0016595997149124742,
+        -0.023838598281145096,
+        0.0016591998282819986
+      ],
+      "physicsActive": false,
+      "physicsDynamic": true,
+      "simulationState": 2,
+      "rigidBodyVelocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "terminal": {
+      "scope": "DIAGNOSTIC_NATIVE_LIFECYCLE",
+      "case": "explicit_rigidbody_simulation_drop_no_launch",
+      "phase": "terminal",
+      "reason": "stock_drop_diagnostic_complete_acceptance_pending",
+      "ageSeconds": 18.059675216674805,
+      "worldTimeMs": 18159.67578125,
+      "scriptedBoardingRequested": false,
+      "settledCrew": false,
+      "actionCallbackIssued": false,
+      "ammoBefore": -1,
+      "ammoAfter": -1,
+      "samples": 36,
+      "firstObservedWorldMs": 5126.30859375,
+      "dispatchWorldMs": 5126.30859375,
+      "muzzleWorld": [
+        603.0,
+        41.0,
+        2600.0
+      ],
+      "latestRoundWorld": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxDistanceFromRequestedMuzzleDiagnostic": 0.0,
+      "validPositionSamples": 5,
+      "observedValidPositionTravel": 0.0,
+      "triggeredObserved": true,
+      "screenshotsRequested": 6,
+      "ordinaryStockThrowControl": "NOT_TESTED",
+      "visibleCloud": "NEEDS_PIXEL_REVIEW",
+      "concealmentDurationRearmMP": "NOT_TESTED",
+      "physicalInput": "NOT_TESTED"
+    }
+  },
+  "character": {
+    "preThrow": {
+      "case": "character_weapon_manager_throw",
+      "phase": "character_pre_weapon_manager_throw",
+      "sequence": 2,
+      "scene": "5:GEP_CharacterThrowControl015:<600,50,2600>",
+      "worldTimeMs": 5928.7548828125,
+      "elapsedSinceDispatchSeconds": 0.0,
+      "requestedMuzzle": [
+        603.0,
+        40.599998474121094,
+        2595.0
+      ],
+      "entityPresent": 1,
+      "enableSimulationRequested": false,
+      "entity": "69:GenericEntity:<602.888,40.4346,2594.97>",
+      "deleted": false,
+      "origin": [
+        602.8883056640625,
+        40.43463134765625,
+        2594.9736328125
+      ],
+      "worldMatrixTranslation": [
+        602.8883056640625,
+        40.43463134765625,
+        2594.9736328125
+      ],
+      "distanceFromRequestedMuzzle": 0.20128868520259857,
+      "nearRequestedMuzzle": 1,
+      "parent": "11:SCR_ChimeraCharacter:<603,39,2595>",
+      "rootParent": "11:SCR_ChimeraCharacter:<603,39,2595>",
+      "flags": 4196386,
+      "eventMask": 1026,
+      "contactHistory": "NOT_INSTRUMENTED",
+      "sameWorld": 1,
+      "prefab": "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et",
+      "movePresent": 1,
+      "fusePresent": 1,
+      "physicsPresent": 1,
+      "rplPresent": 1,
+      "moveLookupEntity": "69:GenericEntity:<602.888,40.4346,2594.97>",
+      "moveParentProjectile": "null",
+      "projectileVelocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuseOwner": "69:GenericEntity:<602.888,40.4346,2594.97>",
+      "fuseParentProjectile": "null",
+      "timerLocal": 1.0,
+      "triggered": false,
+      "isProxy": false,
+      "physicsWorldMatrixTranslation": [
+        602.8883056640625,
+        40.43463134765625,
+        2594.9736328125
+      ],
+      "physicsDirectWorldMatrixTranslation": [
+        602.90625,
+        40.44955825805664,
+        2594.96826171875
+      ],
+      "physicsActive": false,
+      "physicsDynamic": true,
+      "simulationState": 0,
+      "rigidBodyVelocity": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "postThrow": {
+      "case": "character_weapon_manager_throw",
+      "phase": "character_post_weapon_manager_throw",
+      "sequence": 3,
+      "scene": "5:GEP_CharacterThrowControl015:<600,50,2600>",
+      "worldTimeMs": 5928.7548828125,
+      "elapsedSinceDispatchSeconds": 0.0,
+      "requestedMuzzle": [
+        603.0,
+        40.599998474121094,
+        2595.0
+      ],
+      "entityPresent": 1,
+      "enableSimulationRequested": false,
+      "entity": "69:GenericEntity:<602.888,40.4346,2594.97>",
+      "deleted": false,
+      "origin": [
+        602.8883056640625,
+        40.43463134765625,
+        2594.9736328125
+      ],
+      "worldMatrixTranslation": [
+        602.8883056640625,
+        40.43463134765625,
+        2594.9736328125
+      ],
+      "distanceFromRequestedMuzzle": 0.20128868520259857,
+      "nearRequestedMuzzle": 1,
+      "parent": "null",
+      "rootParent": "69:GenericEntity:<602.888,40.4346,2594.97>",
+      "flags": 12584963,
+      "eventMask": -2147482614,
+      "contactHistory": "NOT_INSTRUMENTED",
+      "sameWorld": 1,
+      "prefab": "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et",
+      "movePresent": 1,
+      "fusePresent": 1,
+      "physicsPresent": 1,
+      "rplPresent": 1,
+      "moveLookupEntity": "69:GenericEntity:<602.888,40.4346,2594.97>",
+      "moveParentProjectile": "null",
+      "projectileVelocity": [
+        0.18362770974636078,
+        13.550965309143066,
+        26.764484405517578
+      ],
+      "fuseOwner": "69:GenericEntity:<602.888,40.4346,2594.97>",
+      "fuseParentProjectile": "null",
+      "timerLocal": 1.0,
+      "triggered": false,
+      "isProxy": false,
+      "physicsWorldMatrixTranslation": [
+        602.8883056640625,
+        40.43463134765625,
+        2594.9736328125
+      ],
+      "physicsDirectWorldMatrixTranslation": [
+        602.9121704101562,
+        40.43389892578125,
+        2594.9755859375
+      ],
+      "physicsActive": false,
+      "physicsDynamic": true,
+      "simulationState": 0,
+      "rigidBodyVelocity": [
+        0.19246429204940796,
+        14.203068733215332,
+        28.052452087402344
+      ]
+    },
+    "firstTick": {
+      "case": "character_weapon_manager_throw",
+      "phase": "queued0ms",
+      "sequence": 4,
+      "scene": "5:GEP_CharacterThrowControl015:<600,50,2600>",
+      "worldTimeMs": 5932.74267578125,
+      "elapsedSinceDispatchSeconds": 0.003987792879343033,
+      "requestedMuzzle": [
+        603.0,
+        40.599998474121094,
+        2595.0
+      ],
+      "entityPresent": 1,
+      "enableSimulationRequested": false,
+      "entity": "69:GenericEntity:<602.927,43.0354,2600.59>",
+      "deleted": false,
+      "origin": [
+        602.9268188476562,
+        43.0353889465332,
+        2600.58642578125
+      ],
+      "worldMatrixTranslation": [
+        602.9268188476562,
+        43.0353889465332,
+        2600.58642578125
+      ],
+      "distanceFromRequestedMuzzle": 6.094639778137207,
+      "nearRequestedMuzzle": 1,
+      "parent": "null",
+      "rootParent": "69:GenericEntity:<602.927,43.0354,2600.59>",
+      "flags": 4196355,
+      "eventMask": -2147482614,
+      "contactHistory": "NOT_INSTRUMENTED",
+      "sameWorld": 1,
+      "prefab": "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et",
+      "movePresent": 1,
+      "fusePresent": 1,
+      "physicsPresent": 1,
+      "rplPresent": 1,
+      "moveLookupEntity": "69:GenericEntity:<602.927,43.0354,2600.59>",
+      "moveParentProjectile": "null",
+      "projectileVelocity": [
+        0.14852672815322876,
+        8.390032768249512,
+        21.64837646484375
+      ],
+      "fuseOwner": "69:GenericEntity:<602.927,43.0354,2600.59>",
+      "fuseParentProjectile": "null",
+      "timerLocal": 0.9030389785766602,
+      "triggered": false,
+      "isProxy": false,
+      "physicsWorldMatrixTranslation": [
+        602.9268188476562,
+        43.0353889465332,
+        2600.58642578125
+      ],
+      "physicsDirectWorldMatrixTranslation": [
+        602.9457397460938,
+        43.04616165161133,
+        2600.576416015625
+      ],
+      "physicsActive": false,
+      "physicsDynamic": true,
+      "simulationState": 0,
+      "rigidBodyVelocity": [
+        0.19246429204940796,
+        14.203068733215332,
+        28.052452087402344
+      ]
+    },
+    "terminal": {
+      "scope": "DIAGNOSTIC_NATIVE_LIFECYCLE",
+      "case": "character_weapon_manager_throw",
+      "phase": "terminal",
+      "reason": "character_throw_diagnostic_complete_acceptance_pending",
+      "ageSeconds": 18.83182144165039,
+      "worldTimeMs": 18931.822265625,
+      "scriptedBoardingRequested": false,
+      "settledCrew": false,
+      "actionCallbackIssued": false,
+      "ammoBefore": -1,
+      "ammoAfter": -1,
+      "samples": 32,
+      "firstObservedWorldMs": 5131.619140625,
+      "dispatchWorldMs": 5928.7548828125,
+      "muzzleWorld": [
+        603.0,
+        40.599998474121094,
+        2595.0
+      ],
+      "latestRoundWorld": [
+        603.1510009765625,
+        39.032161712646484,
+        2633.174560546875
+      ],
+      "maxDistanceFromRequestedMuzzleDiagnostic": 38.20778274536133,
+      "validPositionSamples": 32,
+      "observedValidPositionTravel": 41.19268798828125,
+      "triggeredObserved": true,
+      "screenshotsRequested": 6,
+      "ordinaryStockThrowControl": "NOT_TESTED",
+      "visibleCloud": "NEEDS_PIXEL_REVIEW",
+      "concealmentDurationRearmMP": "NOT_TESTED",
+      "physicalInput": "NOT_TESTED"
+    }
+  },
+  "facts": [
+    "Drop entity/bodyworld pose initially603,41,2600 and directbody has onlysmall COM offset",
+    "Explicit rigidbody state0->2 succeeds and persists firsttick; all worldpositions stillreset0 and bodyinactive",
+    "Character nativeThrow on same exact ANM8 entity69 detaches actorparent and produces evolving actual positions/nativevelocity/fuse; validtravel41.19m",
+    "Character projectile movement occurs while rigidbody simulationState0 and physicsActivefalse; those observations alone do not establish failed projectile motion",
+    "ParentProjectile remainsnull in successful characterthrow; null alone isnot failureproof",
+    "Character eventMask changes1026 -> -2147482614 atThrow, added unsignedbits0x80000008; nativeconstant naming pending",
+    "Entity PROXY flag4194304 coexists with Rpl.IsProxyfalse; entity sceneproxyflag isnot networkauthority",
+    "2048 bit observed in bothfailedworldspawn andsuccessfulthrown entity; not itself failureproof and notmapped by currentnativeenumsubset"
+  ],
+  "conclusions": [
+    "Initial spawn transform and body placement werecorrect; no basisforpostspawn pose repair",
+    "No basisforstockANM8 resource defect fromcustomspawncontrols; nativecharacterpipeline demonstratesactualtravel+trigger",
+    "Most valuable remainingpositivecontrol is camera followactualround to inspect nativecloud; triggeredtrue isnot visiblecloud acceptance",
+    "Do notcopy raw flags/eventmasks to fabricate lifecycle initialization. CharacterThrow changes severalnativeinternalstates; eventmaskcorrelation isnot causation",
+    "If furtherworldspawn isolation needed, inert ANM8 worldspawn withNO lifecyclecalls can distinguish initialitemstartup fromEnable/Launch/SetLive calls"
+  ],
+  "nativeByThisLane": false
+}
