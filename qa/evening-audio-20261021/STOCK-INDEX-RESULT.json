@@ -1,0 +1,35 @@
+{
+  "status": "PASS_INDEX_ONLY",
+  "scannedPacks": 14,
+  "stockTrackGraphsFound": 0,
+  "stockTrackRecordingsFound": 4,
+  "payloadRead": false,
+  "wavGuid": "NOT_EXPOSED_BY_PACKAGE_INDEX",
+  "repeatCommand": "python inspect-stock.py --harness <maintained-harness> --node <node.exe> --stock-root <stock-addons-data>",
+  "resources": [
+    {
+      "resource": "Sounds/Vehicles/_SharedData/Tracks/Rotate/Vehicles_Tracks_Rotate_Fast.wav",
+      "rawBytes": 633244,
+      "method": "00000000",
+      "indexSha256": "b0967e32512eae6224bd4b034b9b4f7b3251b8533a30b18a58493c17d7288b43"
+    },
+    {
+      "resource": "Sounds/Vehicles/_SharedData/Tracks/Rotate/Vehicles_Tracks_Rotate_Medium.wav",
+      "rawBytes": 837234,
+      "method": "00000000",
+      "indexSha256": "b0967e32512eae6224bd4b034b9b4f7b3251b8533a30b18a58493c17d7288b43"
+    },
+    {
+      "resource": "Sounds/Vehicles/_SharedData/Tracks/Rotate/Vehicles_Tracks_Rotate_Slow.wav",
+      "rawBytes": 967308,
+      "method": "00000000",
+      "indexSha256": "b0967e32512eae6224bd4b034b9b4f7b3251b8533a30b18a58493c17d7288b43"
+    },
+    {
+      "resource": "Sounds/Vehicles/_SharedData/Tracks/Rotate/Vehicles_Tracks_Rotate_VerySlow.wav",
+      "rawBytes": 635588,
+      "method": "00000000",
+      "indexSha256": "b0967e32512eae6224bd4b034b9b4f7b3251b8533a30b18a58493c17d7288b43"
+    }
+  ]
+}

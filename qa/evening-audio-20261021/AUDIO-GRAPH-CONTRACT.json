@@ -1,0 +1,68 @@
+{
+  "status": "INERT_AUTHORING_CONTRACT_NOT_A_COMPILED_GRAPH",
+  "event": "GEP_TRACK_MOVEMENT_LP",
+  "projectPath": "Sounds/Gepard/Tracks/GEP_TrackMovement.acp",
+  "playback": "One continuous native event owned by the vehicle sound component, not repeated SoundEvent calls per frame",
+  "bank": {
+    "stockPath": "Sounds/Vehicles/_SharedData/Tracks/Rotate/Vehicles_Tracks_Rotate_Slow.wav",
+    "stockGuid": null,
+    "loopCount": 255,
+    "infiniteLoop": true,
+    "randomPitch": 0,
+    "randomStartOffset": false,
+    "fadeInMs": 120,
+    "terminationFadeOutMs": 220,
+    "loopSeam": "NOT_AUDITIONED; stock recording may require supported loop-point authoring; do not extract or repackage"
+  },
+  "signals": {
+    "GEPTrackLevel": {
+      "units": "linear gain",
+      "range": [
+        0,
+        0.45
+      ],
+      "default": 0
+    },
+    "GEPTrackPitch": {
+      "units": "semitones",
+      "range": [
+        -3,
+        5
+      ],
+      "default": -3
+    },
+    "GEPTrackRollingSpeed": {
+      "units": "metres/second",
+      "range": [
+        0,
+        22
+      ],
+      "default": 0
+    }
+  },
+  "position": "one hull-centre native sound point near track height; avoid two phase-coherent centre loops",
+  "attenuationCandidate": [
+    [
+      0,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      30,
+      0.4
+    ],
+    [
+      200,
+      0
+    ]
+  ],
+  "mixer": "existing native VEH_Tires",
+  "perspective": "Use native vehicle interior/exterior and occlusion routing only after it is verified in the current sound component. No claimed cabin filter or hatch coupling yet.",
+  "duplicateControl": "Retain existing single stock engine graph. Before audition, determine whether inherited APC wheel rolling layer overlaps the proposed track layer. Replace only that rolling branch/slot if required; retain impacts, skid and suspension. Never append a second engine graph.",
+  "resourceAndGraphGate": "Integration owner must resolve exact stock GUID through supported Workbench APIs, author/save/compile original ACP with native Audio Editor, verify actual graph signal units and one event instance. This contract must not be renamed .acp or copied as a native graph.",
+  "fallback": "Keep production addon byte-identical; optional QA signal probe adds no audio. GEP033 remains Blocked pending supported graph authoring and native qualification.",
+  "releaseBaseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7"
+}

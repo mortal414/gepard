@@ -1,0 +1,24 @@
+{
+  "releaseBaseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "sourceCommit": "9a93a646b664a41bc3517c07e9ad659167fb3882",
+  "recoveredSourceSha256": "af7517eea0b2d35bc3fdb49bbe8b1231e584c088671506888d621e5ba690e3c4",
+  "changes": [
+    "Optional QA-only project now depends on released Gepard 1.0.2.",
+    "Child extends current GEP_MobileCarrier, replacing old experimental wheel-E parent.",
+    "Probe class renamed to avoid collision with prior optional candidate; three read-only diagnostic getters added."
+  ],
+  "stockIndex": {
+    "sha256": "b0967e32512eae6224bd4b034b9b4f7b3251b8533a30b18a58493c17d7288b43",
+    "trackRecordings": 4,
+    "stockTrackGraphs": 0,
+    "payloadExtracted": false,
+    "wavGuid": null
+  },
+  "officialSchemaReference": {
+    "url": "https://github.com/BohemiaInteractive/Arma-Reforger-Samples/blob/83f12390d3dd61ed834d379f621520ed9f1b891d/SampleMod_NewCar/Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Engine.acp",
+    "sha256": "4c1defdd20ab6f3d5b4bf792953930648090f9e6e39b6b7636573527e92a7acb",
+    "redistributed": false
+  },
+  "nativeAppsLaunched": false,
+  "publishOrPush": false
+}

@@ -1,0 +1,42 @@
+{
+  "gepId": "GEP-033",
+  "status": "Blocked",
+  "fixtureQualification": "UNQUALIFIED; source only, no adapter/job claimed",
+  "cases": [
+    {
+      "id": "A033-00",
+      "name": "native-resource-authoring",
+      "stimulus": "Resolve the stock Slow WAV with supported Workbench resource APIs; author/save/register/compile original ACP and verify actual gain/pitch units and a single persistent event.",
+      "expected": "Exact stock resource identity retained; no missing resource/unknown attribute; no third-party dependency; one LAV engine and one intended rolling layer.",
+      "status": "BLOCKED_PENDING_NATIVE_SLOT_AND_AUTHORING"
+    },
+    {
+      "id": "A033-01",
+      "name": "parked-idle-throttle",
+      "stimulus": "10 seconds parked, then throttle blip without motion.",
+      "expected": "Track level settles to exact zero; added movement loop inaudible at rest.",
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "A033-02",
+      "name": "slow-fast-reverse",
+      "stimulus": "10 seconds slow forward, 10 seconds safe fast forward, 5 seconds reverse at matched actual speed.",
+      "expected": "Measured gain/pitch rise with speed; reverse equivalent; continuous loop with no restart cadence.",
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "A033-03",
+      "name": "rolling-turns-coast-stop",
+      "stimulus": "Gentle turns each direction, throttle-release coast, safe engine-off coast, brake to 5 second stop.",
+      "expected": "Actual body yaw contributes, coast keeps rolling audio, stop fades to silence; no engine-state audio gate.",
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "A033-04",
+      "name": "perspective-distance-lifecycle",
+      "stimulus": "Compare cabin/exterior and stationary listener at 5/30/100m; exit/reenter; destroy/delete and respawn subject.",
+      "expected": "Natural balance/occlusion/distance; no duplicated loop, leaked event or restart click; unchanged stock cannon sound.",
+      "status": "NOT_TESTED"
+    }
+  ]
+}

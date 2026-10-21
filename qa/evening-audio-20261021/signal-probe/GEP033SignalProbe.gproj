@@ -1,0 +1,7 @@
+GameProject {
+ ID "GEP033SignalProbe"
+ GUID "5969A56B068E4840"
+ TITLE "GEP033 signal probe (no added sound)"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" }
+ Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} }
+}

@@ -1,0 +1,67 @@
+{
+  "status": "PASS_SOURCE_STATIC_ONLY",
+  "gepId": "GEP-033",
+  "gepStatus": "Blocked",
+  "baseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "productionFilesPreserved": 1112,
+  "productionChanges": 0,
+  "optionalProbe": "rebased onto released GEP_MobileCarrier; no playback/physics/input setters",
+  "mathCases": [
+    {
+      "name": "idle",
+      "gain": 0,
+      "rollingSpeed": 0.0,
+      "pitch": -3.0
+    },
+    {
+      "name": "creep",
+      "gain": 0,
+      "rollingSpeed": 0.09999997713133958,
+      "pitch": -2.942857155924949
+    },
+    {
+      "name": "slow",
+      "gain": 0.19928571423341493,
+      "rollingSpeed": 0.9999997713133959,
+      "pitch": -2.4285715592494883
+    },
+    {
+      "name": "fast",
+      "gain": 0.4499999998819047,
+      "rollingSpeed": 13.99999679838754,
+      "pitch": 4.999998170507166
+    },
+    {
+      "name": "reverse",
+      "gain": 0.2571428570753741,
+      "rollingSpeed": 3.9999990852535836,
+      "pitch": -0.7142862369979524
+    },
+    {
+      "name": "turn",
+      "gain": 0.19407857137763862,
+      "rollingSpeed": 0.729999833058779,
+      "pitch": -2.582857238252126
+    },
+    {
+      "name": "overspeed",
+      "gain": 0.4499999998819047,
+      "rollingSpeed": 21.99999496889471,
+      "pitch": 5
+    }
+  ],
+  "randomizedBoundChecks": 10000,
+  "nativeCompile": "NOT_TESTED",
+  "nativeGuidResolution": "PENDING",
+  "nativeAudition": "NOT_TESTED",
+  "audibleImplementation": false,
+  "nativeAppsLaunched": false,
+  "blocker": "Pending supported native resource resolution and original Audio Editor graph authoring; qualified native slot held by Isfahan.",
+  "sourceFiles": {
+    "signal-probe/GEP033SignalProbe.gproj": "62eda34e37a1f7b54f622d397cb792ba1d5f064b202f29250c08cde599d22976",
+    "signal-probe/Prefabs/Vehicles/GEP033_SignalProbe102.et": "9a140fda5ea92c3cf28cd41b3568b1f46dc02686dda1378e11e1d551a29dbceb",
+    "signal-probe/Prefabs/Vehicles/GEP033_SignalProbe102.et.meta": "71c95e8ee24a4f8ada07a630611bdec543e822deb1d00f5e9470d7220afe0e4f",
+    "signal-probe/scripts/Game/GEP033/GEP_TrackMovementSignals102.c": "8c4c714bc88b45779500b08cfe9eb4924d2483bdb96e23e4c4feb8c6c9940800",
+    "signal-probe/scripts/Game/GEP033/GEP_TrackMovementSignals102.c.meta": "2036dee3f9927dd30333bd918318f71b2804b091aaee1909803ad6e42aff6adf"
+  }
+}

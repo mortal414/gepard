@@ -1,0 +1,4 @@
+// Optional QA child of the released 1.0.2 vehicle. This adds no sound.
+Vehicle : "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et" {
+ components { GEP_TrackMovementSignals102 "{7E2FB1D409604012}" {} }
+}
