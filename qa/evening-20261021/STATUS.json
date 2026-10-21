@@ -1,0 +1,238 @@
+{
+  "scope": "Ready means preserved accepted baseline or prepared bounded slice, not new whole-task acceptance. All pending items remain unchecked.",
+  "trackerReadOnly": true,
+  "newCheckboxesChecked": 0,
+  "rows": [
+    {
+      "id": "GEP-001",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-002",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-003",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-004",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-005",
+      "status": "Needs user test",
+      "reason": "Shipped sight increment accepted; whole HUD unfinished. Bright/dark readability and wider lifecycle still open.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-006",
+      "status": "Needs user test",
+      "reason": "Both appearances passed native traverse/twin fire/exit/reentry/refire; repeated seat/view/damage lifecycle and physical input pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-007",
+      "status": "Blocked",
+      "reason": "Released stabilization hard-disabled; no qualified actual-motion LOS/actuator calibration.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-008",
+      "status": "Needs user test",
+      "reason": "Passive helper compiled; ground/different range/sky clear/reentry display matrix prepared, not executed with ordinary C input.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-009",
+      "status": "Blocked",
+      "reason": "Released ballistic correction hard-disabled; no physical elevation/impact qualification at multiple ranges/feeds.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-010",
+      "status": "Needs user test",
+      "reason": "Conscious/exact-occupant guards and clearer internal commander switch compiled; normal bindings/prompts need actual play.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-011",
+      "status": "Blocked",
+      "reason": "Armor/crew-protection tuning outside this sprint; one fragment case cannot qualify realism.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-012",
+      "status": "Blocked",
+      "reason": "Independent turret damage remains stubbed while hull alive; no speculative damage rewrite.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-013",
+      "status": "Needs user test",
+      "reason": "One exact same-build native2m fragment-survivor case passed damage callbacks, traverse/fire, exit/reentry/refire; broader hull/turret destruction states unqualified.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-014",
+      "status": "Blocked",
+      "reason": "Real radar sensing/tracking not implemented; existing deployment remains cosmetic.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-015",
+      "status": "Blocked",
+      "reason": "Recovered stock candidate compiles; first Launch crashed, null-weapon repair avoids crash but flight/fuse/cloud gate fails. Experimental source isolated under qa; absent from production candidate.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-016",
+      "status": "Blocked",
+      "reason": "Interior/cabin lighting redesign outside sprint.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-017",
+      "status": "Blocked",
+      "reason": "Exterior actively owned by separate Blender/art thread; no conditional geometry imported.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-018",
+      "status": "Needs user test",
+      "reason": "Quiet charcoal release increment accepted; whole skin/PBR/seam/LOD refinement remains unfinished. Preserved exactly.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-019",
+      "status": "Blocked",
+      "reason": "User-deferred custom cannon audio; released stock sounds retained, no renewed effort.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-020",
+      "status": "Needs user test",
+      "reason": "Native healthy exit/reentry and one fragment-survivor pass; repeated all-seat/hatch/periscope physical cycles still pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-021",
+      "status": "Needs user test",
+      "reason": "Intentional hidden Leave-periscope prompt preserved with F behavior; hold-F/commander actions need current-build physical regression.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-022",
+      "status": "Needs user test",
+      "reason": "Commander position/view offsets preserved pending Marco alignment judgment.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-023",
+      "status": "Needs user test",
+      "reason": "Released fuel contexts already authored both sides; actual side/reach/transfer not newly verified.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-024",
+      "status": "Needs user test",
+      "reason": "Inspected three gunner post-reentry captures; complete all-seat/lifecycle debug-text inspection pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-025",
+      "status": "Blocked",
+      "reason": "Dedicated/MP/JIP qualification outside this single-player bounded batch.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-026",
+      "status": "Blocked",
+      "reason": "Console device/control/performance qualification unavailable in this PC batch; compile configuration is not console gameplay.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-027",
+      "status": "Blocked",
+      "reason": "1.0.2 upload, server processing and exact packaged GM spawn tests verified in hotfix evidence. Public webpage visibility remains independently unverified; tracker text stale, no republish.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-028",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-029",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-030",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-031",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-032",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-033",
+      "status": "Blocked",
+      "reason": "Signal-only QA adapter has no qualified audible stock graph/WAV GUID/event lifecycle/listening. Released audio preserved.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    }
+  ]
+}

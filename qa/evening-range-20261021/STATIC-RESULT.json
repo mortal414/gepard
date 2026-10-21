@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "scope": "source contract only; helper native compile and all gameplay NOT_TESTED",
+  "checks": {
+    "releasedAssistanceHardDisabled": true,
+    "helperHasNoActuationCalls": true,
+    "helperUnboundNoCallbacks": true,
+    "tableOptInDefaultsFalse": true,
+    "tableResultCannotClaimSolution": true,
+    "usesExistingRangeReadAPI": true,
+    "usesExistingEligibilityAPI": true,
+    "usesPreviouslyAuthoredTableAPI": true,
+    "helperDelimitersBalanced": true,
+    "releaseScenariosAndDevelopmentGatesSeparate": true,
+    "pendingNativeLedgerEmpty": true
+  },
+  "sourceManifest": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\integration\\addon\\scripts\\Game\\GEP\\GEP_FireControl.c",
+      "sha256": "096af48745c5d35568867883bbdd11cc1eee98664be61071a957dd21cd1def52"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\integration\\addon\\scripts\\Game\\GEP\\GEP_FireControlGeometry.c",
+      "sha256": "04903420941333fb61f41b61ce0283fcec92c0f95bcddabb2e11b6f3a771ab8e"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\integration\\addon\\scripts\\Game\\GEP\\GEP_Range676.c",
+      "sha256": "f4f81ea1bbbb0b665bdc8d850042ac4f05a36b7eb712e25ed0ca7e1d0c3e6cb5"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\integration\\addon\\scripts\\Game\\GEP\\GEP_GunnerSnapshot583.c",
+      "sha256": "dc27281455549c6f0e85ac5b0fc17e62da4cf9874d0b05bd3dad72347ca9e27e"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\integration\\addon\\scripts\\Game\\GEP\\GEP_Presentation680.c",
+      "sha256": "e5eefef4e2789a38f30cd9f5700d7a5d7c694920d400cdc707b856fbe5566014"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\integration\\addon\\scripts\\Game\\GEP\\GEP_GunStatus.c",
+      "sha256": "5cdfc9c3407a036c026b6b24a1dcd8c5a287af320257998b293f8d24e605c476"
+    }
+  ],
+  "deliverableManifest": [
+    {
+      "path": "analyze_observations.py",
+      "sha256": "f536785c9a5be8a031f96f86e869c5a3de97f1beeec12e68ed414dc4ff6a1304"
+    },
+    {
+      "path": "fixture/GEP_EveningRangeProbe.c",
+      "sha256": "ed6c4212a7badf84083c9e8527555af0ca576cc20b9dbcf4e2d0fa59efdb91b5"
+    },
+    {
+      "path": "observations-pending.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "README.md",
+      "sha256": "812377a3a45c3b46212630a7e1ce5f34eb7a1b51c233e14e3de7878a9dd283ad"
+    },
+    {
+      "path": "scenarios.json",
+      "sha256": "8b94bff3cad774e6868aeebd42d268c52fe9bbbb3053bd24589cfa229c608c23"
+    },
+    {
+      "path": "static_contract.py",
+      "sha256": "2d80fee8b054fede0d7947080b604bcfdc472d386a2c437b6ec4740e35e6e3e7"
+    }
+  ]
+}

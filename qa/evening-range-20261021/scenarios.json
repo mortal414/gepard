@@ -1,0 +1,25 @@
+{
+  "baselineCommit": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "nativeAdmission": "PENDING parent handoff or qualified isolated session; no launch authorized by this file",
+  "nativeResults": "NOT_TESTED",
+  "variants": ["released current camouflage", "released charcoal"],
+  "releaseControl": [
+    {"id":"RNG-100-300-1000","gep":["008"],"steps":"Fresh healthy ordinary gunner; static target surfaces at surveyed approximately100,300,1000m; physical C/rebound once each; sample without moving aim.","expect":"Each new sample world surface, slant range and rounded displayed metres agree; age starts near0; camera self/crew not returned. Survey actual hit surface rather than entity centre.","evidence":["native source identity/compile/load log","original input video","range+camera sampler logs","native HUD captures","independent target surface positions"]},
+    {"id":"RNG-SKY-CLEAR","gep":["006","008"],"steps":"Acquire valid300m return, aim unobstructed sky and range again.","expect":"NO_RETURN state2; Read676 false; prior numeric value absent, KEIN MESSWERT shown. No5000m synthetic success or physical auto-elevation.","evidence":["continuous input/HUD video","before/after sampler"]},
+    {"id":"RNG-LIFECYCLE","gep":["006","008","020"],"steps":"Valid range; leave ADS, menu, switch commander/driver, exit/reenter; repeat three cycles. Range/fire each fresh eligible gunner entry. Repeat with a qualified damaged vehicle and surviving crew.","expect":"No gunner number in other seats; no stale previous sample on reentry; new C return and ordinary fire work; scope-loss read invalid. Crew can exit, no trap.","evidence":["state-transition ledger","continuous input/HUD video","fresh before/after range logs","actual shots/ammo deltas"]},
+    {"id":"RNG-SELF-EXCLUSION","gep":["008"],"steps":"Range near visible own roof/barrel/crew, then valid external ground/building surfaces; test both feeds selected, zoom states and rebound action.","expect":"No own hierarchy/crew return; external surface is measured if ray reaches it. No copied/bypassed camera guard. Binding label matches actual mapping.","evidence":["input capture","original HUD images","native sampled point and camera transforms","selected slot/ammo identity"]},
+    {"id":"FC-RELEASE-PASSIVE","gep":["007","009"],"steps":"Fresh released1.0.2 control, range twice on static target then move hull using accepted controls; inspect physical barrel and world LOS.","expect":"Range alone does not prove or promise physical correction/stabilization. Released hard-disabled source preserved. Record actual behavior without treating missing unimplemented actuation as a regression.","evidence":["source hashes","input+barrel video","actual barrel poses/world LOS"]}
+  ],
+  "developmentOnly": [
+    {"id":"FC-ACTUATOR-CALIBRATE","gep":["007","009"],"gate":"Separate explicitly enabled private development source; current release source unchanged; fresh native compile and ownership trace.","expect":"Actual player OnPrepareControls callbacks, known sign/rate from actual bone movement; no direct pose setter; manual override and exit restore controls. Failing calibration blocks impacts and stabilization interpretation."},
+    {"id":"FC-STAB-MOTION","gep":["007"],"gate":"Calibrated actuator; predetermined world LOS error bound recorded before run.","expect":"Native hull motion overlaps real assistance; measured world LOS error remains within declared bound at slow forward/reverse/turn; manual override, limit saturation, menus, seat changes and damage cancel safely. Human acceptance separate."},
+    {"id":"FC-IMPACT-300-1000-2000","gep":["009"],"gate":"Calibrated actuator, static level mount and surveyed targets; target dimensions, ammo/feed, trial counts and impact measure declared before firing.","expect":"Left/right/both feeds; exact loaded ammo/muzzle/table identified; repeated same-range C does not stack; measured physical elevation changes and real fired-projectile impacts fall inside declared targets across several ranges. Preserve misses. Slope/mount-limit, empty/incompatible feeds and manual/seat invalidation tested separately. No height-table-only success."}
+  ],
+  "minimumObservationFields": {
+    "common": ["case", "kind", "evidence: relative raw log/capture paths"],
+    "range_valid": ["cameraOrigin: xyz","cameraForward: xyz","samplePoint: xyz","sampleMetres","ageSeconds","state:1","valid:true","displayMatchesSample:boolean from pixels","targetSurfaceVerified:boolean from independent geometry"],
+    "range_clear": ["valid:false","state","expectedState","oldNumericDisplayAbsent:boolean from pixels"],
+    "physical_correction": ["beforePitchDegrees","afterPitchDegrees","impactFromFiredProjectile:boolean","impactInsideDeclaredTarget:boolean","manualControlRestored:boolean","directPoseSettersUsed:false"],
+    "stabilization": ["actualHullMotion:boolean","maxWorldLOSErrorDegrees","declaredLimitDegrees","manualOverrideAndExit:boolean","directPoseSettersUsed:false"]
+  }
+}
