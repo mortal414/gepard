@@ -4,7 +4,7 @@ class GEP_OneRoundProbe015Class : GenericEntityClass {}
 class GEP_OneRoundProbe015 : GenericEntity
 {
  static GEP_OneRoundProbe015 Active;
- IEntity Hull;IEntity Actor;IEntity Round;IEntity Turret;
+ IEntity Hull;IEntity Actor;IEntity Round;IEntity ProbeTurret;
  BaseCompartmentSlot Seat;GEP_StockSmoke015 Smoke;CameraBase Camera;
  float StartMs=-1;float Age;float DispatchMs=-1;float LastSample=-1;
  bool Staged;bool Bound;bool BoardRequested;bool Dispatched;bool Finished;bool RenderSetup;
@@ -37,14 +37,14 @@ class GEP_OneRoundProbe015 : GenericEntity
   Physics physics=Hull.GetPhysics();
   return life && life.GetLifeState()==ECharacterLifeState.ALIVE && !life.IsUnconscious() && access && access.GetCompartment()==Seat && Seat.GetOccupant()==Actor && !access.IsGettingIn() && !access.IsGettingOut() && !access.IsSwitchingSeatsAnim() && physics && physics.GetVelocity().Length()<=0.25 && physics.GetAngularVelocity().Length()<=0.05;
  }
- void View(float dt)
+ void View(float timeSlice)
  {
   if(!Hull)return;
   if(!Camera)Camera=CameraBase.Cast(GetGame().SpawnEntity(CameraBase,GetGame().GetWorld()));
   if(!Camera)return;
   vector eye=Hull.CoordToParent(Vector(17,15,36));vector aim=Hull.CoordToParent(Vector(0,1,11));vector pose[4];
   Math3D.DirectionAndUpMatrix((aim-eye).Normalized(),vector.Up,pose);pose[3]=eye;
-  Camera.SetWorldTransform(pose);Camera.SetFOVDegree(70);GetGame().GetCameraManager().SetCamera(Camera);Camera.ApplyTransform(dt);
+  Camera.SetWorldTransform(pose);Camera.SetFOVDegree(70);GetGame().GetCameraManager().SetCamera(Camera);Camera.ApplyTransform(timeSlice);
  }
  void Save(string phase)
  {
@@ -83,11 +83,11 @@ class GEP_OneRoundProbe015 : GenericEntity
   PrintFormat("GEP015_AUTO_ROUND id=%1 elapsed=%2 position=%3 velocity=%4 timer=%5 triggered=%6 proxy=%7 distanceFromMuzzle=%8",Round.GetID(),(now-DispatchMs)/1000.0,LatestPosition,move.GetVelocity(),fuse.GetTimer(),fuse.WasTriggered(),rpl.IsProxy(),distance);
   Save("observing");
  }
- override void EOnFrame(IEntity owner,float dt)
+ override void EOnFrame(IEntity owner,float timeSlice)
  {
   if(!GetGame().InPlayMode() || System.IsConsoleApp() || RplSession.Mode()!=RplMode.None)return;
   float now=GetWorld().GetWorldTime();if(StartMs<0)StartMs=now;Age=(now-StartMs)/1000.0;
-  if(Finished){View(dt);return;}
+  if(Finished){View(timeSlice);return;}
   if(!Staged && Age>1)
   {
    Staged=true;Hull=Spawn("{B3495C8E7A0D2001}Prefabs/Vehicles/GEP_MobileCarrier_StockSmoke015.et","600 0 2600",0.7);
@@ -106,25 +106,25 @@ class GEP_OneRoundProbe015 : GenericEntity
   if(Bound && !BoardRequested && Age>5)
   {
    Seat=FindSeat(Hull);if(!Seat){Stop("gunner_seat_missing");return;}
-   Turret=Seat.GetOwner();Smoke=GEP_StockSmoke015.Cast(Turret.FindComponent(GEP_StockSmoke015));
+   ProbeTurret=Seat.GetOwner();Smoke=GEP_StockSmoke015.Cast(ProbeTurret.FindComponent(GEP_StockSmoke015));
    CompartmentAccessComponent access=CompartmentAccessComponent.Cast(Actor.FindComponent(CompartmentAccessComponent));
    BoardRequested=true;
    if(!Smoke || !access || !access.GetInVehicle(Seat.GetOwner(),Seat,true,-1,ECloseDoorAfterActions.INVALID,true)){Stop("native_boarding_rejected");return;}
   }
-  View(dt);
+  View(timeSlice);
   if(BoardRequested && !Dispatched && Age>10 && Settled())
   {
    BeforeCount=Smoke.Count();bool authority=Smoke.Authority();bool operational=Smoke.Operational();bool crew=Smoke.Crew(Actor);bool canFire=Smoke.CanFire(Actor);
    PrintFormat("GEP015_AUTO_PREFLIGHT authority=%1 operational=%2 crew=%3 canFire=%4 count=%5",authority,operational,crew,canFire,BeforeCount);
    if(!authority || !operational || !crew || !canFire || BeforeCount!=8){Stop("smoke_preflight_failed");return;}
-   BaseActionsManagerComponent actions=BaseActionsManagerComponent.Cast(Turret.FindComponent(BaseActionsManagerComponent));
+   BaseActionsManagerComponent actions=BaseActionsManagerComponent.Cast(ProbeTurret.FindComponent(BaseActionsManagerComponent));
    if(!actions){Stop("actions_manager_missing");return;}
    array<BaseUserAction> choices={};actions.GetActionsList(choices);GEP_StockSmokeFire015 selected;
    foreach(BaseUserAction action:choices){GEP_StockSmokeFire015 fire=GEP_StockSmokeFire015.Cast(action);if(fire && fire.m_bSingleRound){selected=fire;break;}}
    if(!selected || !selected.CanBeShown(Actor) || !selected.CanBePerformed(Actor)){Stop("single_round_action_ineligible");return;}
    vector muzzle[4];if(!Smoke.Muzzle(0,muzzle)){Stop("muzzle_missing");return;}LaunchOrigin=muzzle[3];
    Dispatched=true;DispatchMs=now;Reason="one_callback_issued";
-   selected.OnActionStart(Actor);selected.PerformAction(Turret,Actor);AfterCount=Smoke.Count();
+   selected.OnActionStart(Actor);selected.PerformAction(ProbeTurret,Actor);AfterCount=Smoke.Count();
    PrintFormat("GEP015_AUTO_CALLBACK countBefore=%1 countAfter=%2 callback=public_action nativeFlight=NOT_YET_MEASURED",BeforeCount,AfterCount);
    Save("callback_issued");if(AfterCount!=7){Stop("one_round_count_failed_no_retry");return;}
   }

@@ -104,7 +104,7 @@ class GEP_StockSmoke015 : ScriptComponent
    // No SetTimer, client particle spawn, local fuse override or collision suppression.
    m_iLoadedMask = m_iLoadedMask & ~(1 << i);
    Replication.BumpMe();
-   move.Launch(pose[2], parentVelocity, 0.6666667, round, user, GetOwner().GetRootParent(), null, GetOwner());
+   move.Launch(pose[2], parentVelocity, 0.6666667, round, user, GetOwner().GetRootParent(), null, null);
    fuse.SetLive();
    dispatched++;
    PrintFormat("GEP015_STOCK_DISPATCH tube=%1 entity=%2 muzzle=%3 velocity=%4 timer=%5 remaining=%6", i, round.GetID(), pose[3], move.GetVelocity(), fuse.GetTimer(), Count());
