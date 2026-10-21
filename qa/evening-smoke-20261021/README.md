@@ -8,7 +8,7 @@ The optional carrier inherits the released GEP_MobileCarrier and changes only it
 
 ## Repeatable offline preparation
 
-Run `python qa/evening-smoke-20261021/static_check.py --output qa/evening-smoke-20261021/STATIC_RESULT.json` from this repository. It checks exact recovery, every pre-existing addon file against 699f245, inheritance, dependency and fixture boundaries. It cannot compile Enforce or execute smoke behavior. An integrator can explicitly allow reviewed crew-file differences with repeated `--allow-existing addon/path` arguments; never allow drivetrain, gun audio or geometry changes to hide regression.
+Run `python qa/evening-smoke-20261021/static_check.py --output qa/evening-smoke-20261021/STATIC_RESULT.json` from this repository. It checks exact recovery, every pre-existing addon file against 699f245 (hydrated LFS payloads by their committed SHA256 OIDs), inheritance, dependency and fixture boundaries. It cannot compile Enforce or execute smoke behavior. An integrator can explicitly allow reviewed crew-file differences with repeated `--allow-existing addon/path` arguments; never allow drivetrain, gun audio or geometry changes to hide regression.
 
 Run `python qa/evening-smoke-20261021/stage.py` once to create an exclusive private copy of the candidate addon and the previously compiled manual-scene overlay. It refuses overwriting an existing stage. Default project: `qa/evening-smoke-20261021/native-stage/gepard/Gepard.gproj`. World: `{B7E96C96A1D02024}Worlds/GEP_Demo.ent`. STAGE.json freezes all native-stage files. Re-stage under a fresh `--output` after any integrator change; old stages remain immutable evidence.
 
@@ -30,3 +30,5 @@ From the maintained harness, the corresponding editor dry-run is `npm run workbe
 4. **Regression:** normal stock gun audio, engine, reverse, braking and HUD remain usable; smoke must not disable exit/reentry. Check destruction blocks new launch/reload. MP/JIP/dedicated remain separate later tests and are not covered by this single-player fixture.
 
 DISPATCH logs mean only that void native Launch/SetLive were issued; OBSERVE timer/motion and AMMO convergence are diagnostic. Neither proves a cloud or concealment. Inventory OnComplete credits once; unknown native completion remains pending rather than guessed refund/retry. Keep native smoke activation, per-round clearance, reach, rearm, visible coverage, duration and human acceptance NOT_TESTED until measured.
+
+Verifier repair: the first offline attempt compared hydrated binary payloads to Git LFS pointer blobs and falsely reported them changed. The corrected checker validates each hydrated payload against its committed LFS SHA256 OID. The first result is retained as STATIC_RESULT_attempt1_LFS_verifier_error.json; no source or gameplay threshold changed. A preparation-only Python documentation read then needed explicit UTF-8 encoding; the native candidate, offline PASS result and stage were already written successfully.
