@@ -14,11 +14,14 @@
     "EnfusionScriptAPI/interfaceMath.html": "76cf907531aba36070c6331786c846d82838bfab0643f33f6fea4141da954f11",
     "EnfusionScriptAPI/interfaceAudioSystem.html": "589781e652cdb921ffe92558a9852df8a13cd8d5634bc8b4e0dcfba6313b5b84",
     "EnfusionScriptAPI/interfaceAudioHandle.html": "a3129ac1d34478d992afead442d459ec51e1d3495ad8160c5a341d46d73cadd5",
-    "ArmaReforgerScriptAPIPublic/interfaceSoundComponent.html": "5672c98948388776fbbf431e4554aef509fa6c23a691d70aafa23b6220f17458"
+    "ArmaReforgerScriptAPIPublic/interfaceSoundComponent.html": "5672c98948388776fbbf431e4554aef509fa6c23a691d70aafa23b6220f17458",
+    "EnfusionScriptAPI/interfaceSystem.html": "8dd89af37df55914a074d500300f2ac4e9f3fceae696b5a620c3e7a2175c3116",
+    "EnfusionScriptAPI/interfaceBaseContainerTools.html": "3f04b81ff7a5821321bdf0f873b9f0c7a0d4e5ebbd1b9a549c2c83dbae3add9f"
   },
   "corePackageIndexSha256": "8f53ad1b3e4acfe703477aa50792cef8cc82c981c9f0d8de043e25278f5b356f",
   "generatedWorkbenchSourceSha256": "6f3290512069baff2791ecc57c053d1c0e1a9a549a9fe5f4d4edac84fc9ace88",
   "officialCarSampleSha256": "4c1defdd20ab6f3d5b4bf792953930648090f9e6e39b6b7636573527e92a7acb",
   "nativeCompile": "NOT_TESTED",
-  "graphSourceProduced": "NONLOADABLE .acp.in only; unresolved native authoring tokens"
+  "graphSourceProduced": "NONLOADABLE .acp.in only; unresolved native authoring tokens",
+  "resolverV2Cli": "System.GetCLIParam(gep033Output, output): documented undashed key for -world something form; no wrapper syntax change"
 }

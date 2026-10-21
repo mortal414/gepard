@@ -25,15 +25,21 @@ class GEP033_GraphObservation : JsonApiStruct
  string label;
  bool containerAvailable;
  string containerClass;
+ string containerLoadRoute;
  int bankCount = -1;
  ref array<string> events = {};
  ref array<string> mixerRoutes = {};
  ref array<string> mixerResources = {};
+ ref array<string> soundConfigs = {};
+ ref array<string> soundPorts = {};
+ ref array<string> soundPortEnumMetadata = {};
+ ref array<string> mixerActiveInputIds = {};
 
  void GEP033_GraphObservation()
  {
   RegV("label"); RegV("containerAvailable"); RegV("containerClass"); RegV("bankCount");
-  RegV("events"); RegV("mixerRoutes"); RegV("mixerResources");
+  RegV("events"); RegV("mixerRoutes"); RegV("mixerResources"); RegV("containerLoadRoute");
+  RegV("soundConfigs"); RegV("soundPorts"); RegV("soundPortEnumMetadata"); RegV("mixerActiveInputIds");
  }
 }
 
@@ -58,9 +64,9 @@ class GEP033_ResolveStockAudioPlugin : WorkbenchPlugin
 
  protected void RunConfigured()
  {
-  ResourceManager manager = Workbench.GetModule(ResourceManager);
   string output;
-  if (!manager || !manager.GetCmdLine("-gep033Output", output) || output.IsEmpty())
+  // Installed System API explicitly documents key without '-' for `-world something`.
+  if (!System.GetCLIParam("gep033Output", output) || output.IsEmpty())
   {
    Print("GEP033_PROBE_CONFIG_ERROR missing -gep033Output; no observation run");
    return;
@@ -81,12 +87,22 @@ class GEP033_ResolveStockAudioPlugin : WorkbenchPlugin
   return object.GetResourceName();
  }
 
- protected void GraphSummary(string label, Resource loaded)
+ protected void GraphSummary(string label, ResourceName canonical, Resource loaded)
  {
   GEP033_GraphObservation row = new GEP033_GraphObservation();
   row.label = label;
   BaseContainer graph;
   if (loaded && loaded.IsValid() && loaded.GetResource()) graph = loaded.GetResource().ToBaseContainer();
+  row.containerLoadRoute = "Resource.Load";
+  Resource containerResource;
+  if (!graph)
+  {
+   // Supported generic container loader, reported as an attempt rather than assumed ACP support.
+   containerResource = BaseContainerTools.LoadContainer(canonical);
+   if (containerResource && containerResource.IsValid() && containerResource.GetResource()) graph = containerResource.GetResource().ToBaseContainer();
+   row.containerLoadRoute = "BaseContainerTools.LoadContainer";
+  }
+  if (!graph) row.containerLoadRoute = "NOT_INSPECTABLE_BY_PUBLIC_CONTAINER_LOADERS";
   row.containerAvailable = graph != null;
   if (graph)
   {
@@ -106,6 +122,28 @@ class GEP033_ResolveStockAudioPlugin : WorkbenchPlugin
       BaseContainer sound = sounds.Get(i);
       string eventName;
       if (sound && sound.Get("name", eventName)) row.events.Insert(eventName);
+      if (!sound) continue;
+      string parentConfig;
+      if (sound.GetVarIndex("parent") >= 0) sound.Get("parent", parentConfig);
+      if (parentConfig.IsEmpty() && sound.GetAncestor()) parentConfig = sound.GetAncestor().GetResourceName();
+      if (!parentConfig.IsEmpty()) row.soundConfigs.Insert(Workbench.GetResourceName(parentConfig));
+      int outputState;
+      int outputPort;
+      string volumeVariable;
+      if (sound.GetVarIndex("outState") >= 0) sound.Get("outState", outputState);
+      if (sound.GetVarIndex("outStatePort") >= 0) sound.Get("outStatePort", outputPort);
+      if (sound.GetVarIndex("varName") >= 0) sound.Get("varName", volumeVariable);
+      row.soundPorts.Insert(string.Format("%1|state=%2|port=%3|volumeVariable=%4", eventName, outputState, outputPort, volumeVariable));
+      int portVar = sound.GetVarIndex("outStatePort");
+      if (portVar >= 0)
+      {
+       array<string> enumNames = {};
+       array<int> enumValues = {};
+       sound.GetEnumValues(portVar, enumNames, enumValues);
+       row.soundPortEnumMetadata.Insert(string.Format("%1|widget=%2|enumCount=%3", eventName, sound.GetUIWidget(portVar), enumNames.Count()));
+       int enumCount = Math.Min(enumNames.Count(), enumValues.Count());
+       for (int k = 0; k < enumCount; k++) row.soundPortEnumMetadata.Insert(string.Format("%1|%2|%3", eventName, enumNames[k], enumValues[k]));
+      }
      }
     }
    }
@@ -118,6 +156,21 @@ class GEP033_ResolveStockAudioPlugin : WorkbenchPlugin
      {
       BaseContainer mixer = mixers.Get(j);
       if (!mixer) continue;
+      int mixerId;
+      if (mixer.GetVarIndex("id") >= 0) mixer.Get("id", mixerId);
+      if (mixer.GetVarIndex("ins") >= 0)
+      {
+       BaseContainerList activeInputs = mixer.GetObjectArray("ins");
+       if (activeInputs)
+       {
+        for (int n = 0; n < activeInputs.Count(); n++)
+        {
+         BaseContainer input = activeInputs.Get(n);
+         int inputPort;
+         if (input && input.Get("id", inputPort)) row.mixerActiveInputIds.Insert(string.Format("mixer=%1|input=%2", mixerId, inputPort));
+        }
+       }
+      }
       string resource;
       if (mixer.GetVarIndex("res") >= 0 && mixer.Get("res", resource)) row.mixerResources.Insert(resource);
       if (mixer.GetVarIndex("inputs") >= 0)
@@ -155,7 +208,7 @@ class GEP033_ResolveStockAudioPlugin : WorkbenchPlugin
    row.canonicalLoadValid = byCanonical && byCanonical.IsValid();
    row.pathLoadedIdentity = LoadedIdentity(byPath);
    row.canonicalLoadedIdentity = LoadedIdentity(byCanonical);
-   if (inspectGraph) GraphSummary(label, byCanonical);
+   if (inspectGraph) GraphSummary(label, canonical, byCanonical);
   }
   row.Pack();
   m_Report.resources.Insert(row);

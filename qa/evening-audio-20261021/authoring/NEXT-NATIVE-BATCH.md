@@ -49,3 +49,8 @@ Keep every acceptance box unchecked until observed. Choose the 2-minute cabin/ex
 - [ ] Full option: listen at 5/30/100m, move away/back, exit/reenter, destroy/delete/respawn: no doubled layer, orphan loop, lost distance-return playback or cleanup error.
 
 Retain synchronized loopback, actual body motion/signal/handle telemetry and visible evidence, with a same-condition stock baseline comparison. Marco owns sound-quality acceptance. MP/JIP/dedicated remain separately untested. Current safest evening option remains released stock audio.
+
+
+## Resolver v2 configuration repair and bounded port metadata
+
+Root reported v1 script compilation PASS but native invocation collected no observations because module.GetCmdLine did not find the custom argument. V2 reads System.GetCLIParam with the undashed key, the form explicitly documented by installed System API for '-world something'. Existing two-argument launcher syntax remains appropriate; preserve failed v1 evidence. V2 also records each Sound's canonical parent config, output state/port and volume variable, optional native enum names/IDs, and mixer active input IDs. An empty enum list or unavailable container is a limit, not a permission to guess a VEH_Tires port. Public BaseContainerTools.LoadContainer is a bounded fallback attempt when Resource.Load exposes no BaseContainer. These metadata do not establish dynamic volume units, mute, or actual playback. Current v2 remains source-only until root compiles/runs it.

@@ -1,0 +1,8 @@
+{
+  "status": "PASS_SYNTHETIC_SOURCE_AUDITOR_ONLY",
+  "acceptedShapeStillBlocksPlayback": true,
+  "rejectionCases": 5,
+  "nativeEvidence": false,
+  "nativeAppsLaunched": false,
+  "graphWritten": false
+}
