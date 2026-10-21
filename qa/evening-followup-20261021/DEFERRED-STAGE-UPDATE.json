@@ -1,0 +1,13 @@
+{
+  "status": "SOURCE_UPDATED_NATIVE_NOT_TESTED",
+  "reason": "Early owner-null/deleted guard and repeatable15-contract source checks integrated before any native compile/run of this stage",
+  "sourceCommit": "69f93e4",
+  "relative": "scripts/Game/GEP015Stock/GEP_StockSmoke015.c",
+  "oldSHA256": "b9c0281209fc4cb31f4966296cbec147971e7e092f92efd8202c6df482c2d3e6",
+  "newSHA256": "1e0529c85c6f01eb12d97fc84b1090a99bd62c6f65ec8e254c61a1e3255cc79a",
+  "priorManifestSHA256": "372d3b88cc4e3d4135c7b018cb82f0b98ea6eefc09a5890255b5885c0e7eae9e",
+  "currentManifestSHA256": "1230d2887ae0dd5ab9d0d42ee6a5c3c27571cbb7df5f2238300cdfb31f6e7b50",
+  "nativeCompile": "NOT_TESTED",
+  "nativeLaunched": false,
+  "leaseTouched": false
+}
