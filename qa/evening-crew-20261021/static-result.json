@@ -4,16 +4,15 @@
   "changedRuntimeFiles": [
     "addon/scripts/Game/GEP/GEP_CrewActions579.c",
     "addon/scripts/Game/GEP/GEP_DriverStation.c",
-    "addon/scripts/Game/GEP/GEP_RadarSystem.c",
-    "addon/scripts/Game/GEP/GEP_SwitchSeatAction.c"
+    "addon/scripts/Game/GEP/GEP_RadarSystem.c"
   ],
   "checks": {
-    "runtime_changes_within_four_script_allowlist": true,
+    "runtime_changes_within_three_script_allowlist": true,
     "intentional_hidden_periscope_prompt_exact": true,
     "driver_conscious_and_exact_occupant": true,
     "crew_conscious_and_exact_occupant": true,
     "station_lights_conscious": true,
-    "commander_switch_distinct_from_boarding": true,
+    "requested_commander_wording_preserved": true,
     "baseline_exact_GEP_CrewControls569.c": true,
     "baseline_exact_GEP_GunStatus.c": true,
     "baseline_exact_GEP_Presentation680.c": true,
@@ -52,8 +51,7 @@
   "sourceSha256": {
     "addon/scripts/Game/GEP/GEP_CrewActions579.c": "01c4ecf44cb537685fc8a93d32baa2c9e0d7598a5368e7fc59f2427d797fc4cf",
     "addon/scripts/Game/GEP/GEP_DriverStation.c": "8c85b7a7d32e53952659635dc723afa83887c35da440fedbf44bebbfa70a5468",
-    "addon/scripts/Game/GEP/GEP_RadarSystem.c": "24f447ee879c324c8e511ca9457e722cb56f2cef2289d6cc909900fca4322368",
-    "addon/scripts/Game/GEP/GEP_SwitchSeatAction.c": "73571e50d438ef4aad8777be9633b7c2c54ccb6beb0e78fdffddc8f610b86eab"
+    "addon/scripts/Game/GEP/GEP_RadarSystem.c": "24f447ee879c324c8e511ca9457e722cb56f2cef2289d6cc909900fca4322368"
   },
   "nativeCompile": "NOT_TESTED",
   "gameplay": "NOT_TESTED",

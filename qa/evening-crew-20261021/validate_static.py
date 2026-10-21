@@ -4,20 +4,20 @@ import argparse, hashlib, json, subprocess
 ROOT=Path(__file__).resolve().parents[2]
 BASE='699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7'
 S='addon/scripts/Game/GEP/'
-ALLOWED={S+'GEP_CrewActions579.c',S+'GEP_DriverStation.c',S+'GEP_RadarSystem.c',S+'GEP_SwitchSeatAction.c'}
+ALLOWED={S+'GEP_CrewActions579.c',S+'GEP_DriverStation.c',S+'GEP_RadarSystem.c'}
 def git(*args):
     return subprocess.check_output(['git','-C',str(ROOT),*args])
 def source(name):return (ROOT/S/name).read_text(encoding='utf-8')
 def base(name):return git('show',BASE+':'+S+name).decode().replace('\r\n','\n')
 checks={}
 changed=set(git('diff','--name-only',BASE,'--','addon').decode().splitlines())
-checks['runtime_changes_within_four_script_allowlist']=changed==ALLOWED
+checks['runtime_changes_within_three_script_allowlist']=changed==ALLOWED
 driver=source('GEP_DriverStation.c')
 checks['intentional_hidden_periscope_prompt_exact']=driver[driver.index('// Presentation only. The native interaction handler still owns and dispatches'):]==base('GEP_DriverStation.c')[base('GEP_DriverStation.c').index('// Presentation only. The native interaction handler still owns and dispatches'):]
 checks['driver_conscious_and_exact_occupant']='life.IsUnconscious()' in driver and 'seat.GetOccupant()==user' in driver
 checks['crew_conscious_and_exact_occupant']='life.IsUnconscious()' in source('GEP_RadarSystem.c') and 'seat.GetOccupant()==user' in source('GEP_RadarSystem.c')
 checks['station_lights_conscious']='life.IsUnconscious()' in source('GEP_CrewActions579.c')
-checks['commander_switch_distinct_from_boarding']='outName="Move to commander"' in source('GEP_SwitchSeatAction.c') and 'outName="Get in commander"' in source('GEP_CrewControls569.c')
+checks['requested_commander_wording_preserved']=source('GEP_SwitchSeatAction.c')==base('GEP_SwitchSeatAction.c') and 'outName="Get in commander"' in source('GEP_CrewControls569.c')
 for name in ['GEP_CrewControls569.c','GEP_GunStatus.c','GEP_Presentation680.c','GEP_OpticEvidence679.c','GEP_Range676.c','GEP_FireControl.c']:
     checks['baseline_exact_'+name]=source(name)==base(name)
 for name in ['GEP_CrewActions579.c','GEP_DriverStation.c','GEP_RadarSystem.c']:

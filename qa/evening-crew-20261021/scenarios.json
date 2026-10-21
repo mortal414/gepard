@@ -37,7 +37,7 @@
       "steps": [
         "From driver switch gunner, commander, driver; allow each native transition to finish; repeat twice.",
         "Inspect commander body/eye alignment, free look, own hatch open/close and station lamp/radar prompt reach.",
-        "From outside verify Get in commander; inside verify Move to commander."
+        "From outside and during an available internal commander switch verify the requested Get in commander wording. Confirm exterior boarding and internal switching still use their respective native paths."
       ],
       "expected": [
         "One completed native transition per request; accurate station wording.",

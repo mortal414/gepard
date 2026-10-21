@@ -1,0 +1,181 @@
+{
+  "baseline": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "preservedManualCandidate": "cc5d0989376ed1d20ada109ce7c1ada5d96aac7e",
+  "branch": "sprint/evening-crew-audit-20261021",
+  "nativeActions": "NONE; Isfahan retains native ownership",
+  "commanderBoarding": [
+    {
+      "line": 5,
+      "text": "class GEP_GetInHatch569 : SCR_GetInUserAction"
+    },
+    {
+      "line": 9,
+      "text": "if(CargoCompartmentSlot.Cast(GetCompartmentSlot())){outName=\"Get in commander\";return true;}"
+    }
+  ],
+  "commanderSwitching": [
+    {
+      "line": 38,
+      "text": "class GEP_SwitchSeatAction : SCR_SwitchSeatAction"
+    },
+    {
+      "line": 42,
+      "text": "if(CargoCompartmentSlot.Cast(GetCompartmentSlot())){outName=\"Get in commander\";return true;}"
+    }
+  ],
+  "serializedCommander": [
+    {
+      "line": 130,
+      "text": "CargoCompartmentSlot Commander {"
+    },
+    {
+      "line": 125,
+      "text": "CompartmentAction GEP_GetInHatch569 \"{5086CC2CFDD3A05A}\" { ParentContextList { \"gunner_entry\" } }"
+    },
+    {
+      "line": 136,
+      "text": "CompartmentAction GEP_GetInHatch569 { ParentContextList { \"commander_entry\" } UIInfo SCR_ActionUIInfo { Name \"Get in commander\" m_sIconName \"veh_commander\" } }"
+    },
+    {
+      "line": 126,
+      "text": "SwitchSeatAction GEP_SwitchSeatAction \"{509D566648F37562}\" { Duration 0.5 VisibilityRange 5 ParentContextList { \"gunner_seat\" } UIInfo SCR_ActionUIInfo { Name \"Move to gunner\" } }"
+    },
+    {
+      "line": 138,
+      "text": "SwitchSeatAction GEP_SwitchSeatAction { Duration 0.5 VisibilityRange 5 ParentContextList { \"commander_seat\" } UIInfo SCR_ActionUIInfo { Name \"Get in commander\" m_sIconName \"veh_commander\" } }"
+    },
+    {
+      "line": 122,
+      "text": "GetOutAction SCR_GetOutAction \"{509D56664FF79DDB}\" { ParentContextList { \"gunner_hatch_inside\" \"gunner_entry\" } UIInfo SCR_ActionUIInfo { Name \"Exit gunner hatch\" } }"
+    },
+    {
+      "line": 137,
+      "text": "GetOutAction SCR_GetOutAction { ParentContextList { \"commander_hatch_inside\" \"commander_entry\" } UIInfo SCR_ActionUIInfo { Name \"Exit commander hatch\" } }"
+    }
+  ],
+  "guardCallers": {
+    "addon/scripts/Game/GEP/GEP_CrewActions579.c": [
+      {
+        "line": 83,
+        "text": "return optic && optic.Crew(player.GetControlledEntity());"
+      }
+    ],
+    "addon/scripts/Game/GEP/GEP_CrewControls569.c": [
+      {
+        "line": 310,
+        "text": "if(station&&station.IsDriver(user))station.SelectView(user,(station.GetViewMode(user)+1)%4);"
+      },
+      {
+        "line": 316,
+        "text": "if(station&&station.IsDriver(user))station.SelectView(user,0);"
+      },
+      {
+        "line": 297,
+        "text": "if(!player||!Radar||!Radar.Alive(GetOwner())||!Radar.Crew(player.GetControlledEntity())||GetGame().GetMenuManager().IsAnyMenuOpen())return null;"
+      }
+    ],
+    "addon/scripts/Game/GEP/GEP_DriverStation.c": [
+      {
+        "line": 94,
+        "text": "if(!station || !station.IsDriver(user))return false;"
+      },
+      {
+        "line": 117,
+        "text": "if(!station || !station.IsDriver(m_OwnerCharacter) || station.GetViewMode(m_OwnerCharacter)!=0) return;"
+      },
+      {
+        "line": 154,
+        "text": "if(station && station.IsDriver(data.pUser) && station.GetViewMode(data.pUser)!=0)"
+      }
+    ],
+    "addon/scripts/Game/GEP/GEP_ExteriorLights572.c": [
+      {
+        "line": 18,
+        "text": "if(!station || !station.IsDriver(user))return;"
+      },
+      {
+        "line": 26,
+        "text": "bool driver=station && station.IsDriver(player.GetControlledEntity());"
+      },
+      {
+        "line": 58,
+        "text": "bool brake=alive && m_PedalActive && m_PedalAge<0.6 && station && station.IsDriver(m_ReportedDriver) && m_Simulation.GetBrake()>0.05;"
+      }
+    ],
+    "addon/scripts/Game/GEP/GEP_Optical444.c": [
+      {
+        "line": 343,
+        "text": "return optic&&optic.Crew(user);"
+      },
+      {
+        "line": 347,
+        "text": "if(!optic||!optic.Crew(user))return false;"
+      },
+      {
+        "line": 66,
+        "text": "if(!Crew(User())||GetGame().GetMenuManager().IsAnyMenuOpen())return false;"
+      },
+      {
+        "line": 115,
+        "text": "if(!Crew(user)||!Active())return false;"
+      },
+      {
+        "line": 194,
+        "text": "if(!Crew(user)||!Active())return false;"
+      }
+    ],
+    "addon/scripts/Game/GEP/GEP_RadarActions.c": [
+      {
+        "line": 10,
+        "text": "if(!radar || !radar.Crew(user)) return false;"
+      }
+    ],
+    "addon/scripts/Game/GEP/GEP_RadarSystem.c": [
+      {
+        "line": 131,
+        "text": "if(!Crew(user)) return false;"
+      },
+      {
+        "line": 664,
+        "text": "bool active=Crew(user) && !GetGame().GetMenuManager().IsAnyMenuOpen();"
+      },
+      {
+        "line": 437,
+        "text": "if(!Authority() || command<0 || command>7 || !Crew(user) || !Alive(GetOwner())) return false;"
+      },
+      {
+        "line": 614,
+        "text": "if(!player || !Crew(player.GetControlledEntity()) || GetGame().GetMenuManager().IsAnyMenuOpen()) return;"
+      }
+    ],
+    "addon/scripts/Game/GEP/GEP_Range676.c": [
+      {
+        "line": 42,
+        "text": "if(!user || !optical.Crew(user))return false;"
+      }
+    ],
+    "addon/scripts/Game/GEPWheelDrive/GEP_ExteriorLights572_Wheeled101.c": [
+      {
+        "line": 12,
+        "text": "bool driver=station && station.IsDriver(player.GetControlledEntity());"
+      },
+      {
+        "line": 43,
+        "text": "bool brake=alive && m_PedalActive && m_PedalAge<0.6 && station && station.IsDriver(m_ReportedDriver) && Wheeled.GetBrake()>0.05;"
+      }
+    ]
+  },
+  "risks": [
+    "IsDriver also gates pedal-intent reporting/brake lamp eligibility; it does not set brake, engine, gear or vehicle input.",
+    "Unconscious driver view returns to seated mode on the next component frame and does not restore the former periscope automatically on recovery.",
+    "Exact occupant changes may briefly suppress custom controls while native seat replication settles; no retry or forced occupancy was added.",
+    "Native physical F/hold-F/periscope and incapacitation/recovery remain untested by this source-only follow-up."
+  ],
+  "survivorExit": "No new hull/turret damage veto and no calls from SCR_GetOutAction or GEP_GetInHatch569 to the modified eligibility methods; serialized native GetOutAction/JumpOutAction and complete CrewControls file remain unchanged.",
+  "wounded": "New clauses only test IsUnconscious and exact GetOccupant identity; no health amount, injury, bleeding or damaged-vehicle threshold was added.",
+  "apiSources": [
+    "https://community.bistudio.com/wikidata/external-data/arma-reforger/ArmaReforgerScriptAPIPublic/interfaceSCR__SwitchSeatAction.html",
+    "https://community.bistudio.com/wikidata/external-data/arma-reforger/ArmaReforgerScriptAPIPublic/interfaceSCR__GetOutAction.html"
+  ],
+  "nativeImplementationLimit": "Installed API references establish separate native action callbacks/classes; native private queue/engine implementation was not inspected or inferred."
+}
