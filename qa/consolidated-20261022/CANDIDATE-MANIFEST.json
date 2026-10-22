@@ -649,10 +649,60 @@
       ],
       "stockProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
       "scope": "Separate fresh camo cases only. Narrow measured observations; no whole-service, human or GEP acceptance. Original strict cases and every previous failure are preserved."
+    },
+    "isolatedSmokeVisual04": {
+      "status": "ISOLATED_SINGLE_PAYLOAD_VISIBLE_CLOUD_OBSERVED_EXCLUDED_FROM_PACKAGE08",
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control",
+      "independentAudit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\INDEPENDENT-AUDIT.json",
+        "sha256": "b261fcd924d8fc8c8d52b0e1816aa015f2b620333cb5ab3cae4938b8637d1f57"
+      },
+      "pixelAcceptance": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\PIXEL-ACCEPTANCE.json",
+        "sha256": "b1097aedf7760c81096256db2e6dfe2fa5fae97bb841236553b4ab0d34c12dd0"
+      },
+      "rootReview": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\ROOT-DIRECT-REVIEW.json",
+        "sha256": "46821a119f6c1ae48776c352c8ffb3ca3a3733b42c1eb0a11dd934abacfb8f76"
+      },
+      "rawResult": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\result.json",
+        "sha256": "6f9db1cc6a79277ea9ba0aaeb9f37831b4a39cee46d90dc1739c8db7f60b9965"
+      },
+      "rawReview": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-review.json",
+        "sha256": "0cab580064f7993a9be66a208c7a2fb7291ab86dbae91b4ab5cf4ea43f7678a9"
+      },
+      "images": 25,
+      "directRootImagesReviewed": 11,
+      "independentImagesReviewed": 5,
+      "rootObservedPositiveIntervalSeconds": 35.0164,
+      "intervalLimit": "Difference between sampled positive observations only, not exact cloud onset or expiry.",
+      "strictNativeErrors": 58,
+      "strictErrorGroups": {
+        "RESOURCES": 50,
+        "GUI": 1,
+        "WORLD": 7
+      },
+      "strictOutcome": "FAIL_PRESERVED",
+      "mainPackageChanged": false,
+      "newAcceptedCheckboxes": 0,
+      "nextGates": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\NEXT-SUPPLIER-GATES.json",
+        "sha256": "7aef95fed8c1c00bcdf527e27141f8745fb92998b8133577838ef9cc8a20a785"
+      },
+      "remaining": [
+        "Full eight actual payloads/ammo8->0 and empty negative",
+        "Genuine finite WCS smoke rearm with actual supply accounting",
+        "Current cooked V11 camo/charcoal port world-fit and dependency-stack controls/HUD compatibility",
+        "Impact/fuse exact callback timing",
+        "Useful screening human judgment",
+        "Physical input/roles/MP/JIP"
+      ]
     }
   },
   "excluded": {
-    "smoke": "Excluded from stable08. Documentation-only provenance mismatch reconciled without source change. Actual smoke-angle-03: one payload/ammo8\u21927;49position samples show49.587m travel and42.271m horizontal displacement; normal exit0/released. Narrow launch/flight PASS; strict case FAIL57 preserved. Capture intentionally off: cloud/fuse/coverage/alignment/full-empty/rearm/roles/dependency compatibility remain unqualified. No active smoke permission denial.",
+    "smoke": "Excluded from stable08. Isolated Visual04 actual camera/program/flight/capture gates pass:25 complete native BMPs; root directly reviewed11 and independent reviewer5. A real exterior cloud is visible at sampled5/12/20/30/40s; root positive-sample interval35.0164s is not onset/expiry. Normal exit0/released. StrictFAIL58 retained separately from Angle03FAIL57. Full8/empty, genuine smoke rearm, currentV11 port-world-fit, dependency compatibility and useful coverage remain unqualified. No active smoke permission denial.",
     "newTrackAudio": "Excluded. Stock graph trace and authoring compile retained; bounded authoring approval remains pending. No audible implementation/playback acceptance; earlier protected-read/authoring declines retained separately.",
     "stabilization": "Released hard-disable retained; deferred actualmotionqualification",
     "ballisticCorrection": "Released hard-disable retained; no impactcorrectionacceptance",
@@ -843,6 +893,10 @@
     "focusedServicesV10": {
       "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\focused-services-v10\\RESULT.json",
       "sha256": "8d814a613905ee73da549fa0914fb7f02ccf8882ee991aefa754faac1c6178d1"
+    },
+    "smokeVisual04": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\RESULT.json",
+      "sha256": "6c9da3d93d6e6c617ad84d6fcca1d517f18f42d9d7fd12a6284ffcb928c3ff55"
     }
   },
   "serviceFinalReportProvided": true,
@@ -850,7 +904,7 @@
   "metadataFinalReady": true,
   "physicalAndWholeGepAcceptance": "PENDING; zero new trackercheckboxes",
   "historicalArtifacts": "Old ledgers/readmes preserved in C preview originals and D ledger-history at explicit root apply. Historical native receipts, manifests and raw failures are never rewritten.",
-  "updatedUtc": "2026-10-22T09:22:11.370723+00:00",
+  "updatedUtc": "2026-10-22T09:48:02.861316+00:00",
   "predecessor": {
     "checkpoint": "5a06259",
     "manifest": {
@@ -935,6 +989,6 @@
   },
   "fullCurrentManifest": {
     "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\CURRENT-CANDIDATE-MANIFEST.json",
-    "sha256": "8c076d7ec708c66fee8f89e8a867a0a0468dda81a22043f1438d0670e03fe0e9"
+    "sha256": "d58e85ac85bdb7920942cb12736ccbef11e4562ede7436a3a8983c0cfad11ab2"
   }
 }

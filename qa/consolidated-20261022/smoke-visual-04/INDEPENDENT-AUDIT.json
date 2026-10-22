@@ -1,0 +1,486 @@
+{
+  "status": "INDEPENDENT_SINGLE_NATIVE_CLOUD_CORROBORATED_STRICT_FAIL_PRESERVED",
+  "caseId": "smoke-cloud-visual-control",
+  "runId": "d97012bf-19c4-4753-ab02-aedad5281019",
+  "sourceSealSHA256": "d276db327bca54c7be15796dcdea96a5d2dfe709d73cc10001f08574f96c9c17",
+  "sealedSourceFilesVerified": 41,
+  "bindingSealSHA256": "6485353ef004edbad9f409704cd97d8c0217cf80639cf3a865ed584806cdbf92",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-visual-stage\\single\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\visual-binding-v1\\adopted\\GEPARD_SOURCE_MANIFEST.json",
+      "sha256": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+      "files": 1147,
+      "completeCurrentSourceMatches": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-visual-stage\\single\\wcsSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\visual-binding-v1\\adopted\\WCSSMOKE_SOURCE_MANIFEST.json",
+      "sha256": "e80773cd93ed12cae9a3706f60e41105f84a6bd9bb57b23451b46ccce09cd6f3",
+      "files": 20,
+      "completeCurrentSourceMatches": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-visual-stage\\single\\qaSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\visual-binding-v1\\adopted\\QA_SOURCE_MANIFEST.json",
+      "sha256": "1a421d2d76227aa8a9f2b2830dfcc3bc0fe4ce1f0987bfb065adde4e6af63db5",
+      "files": 30,
+      "completeCurrentSourceMatches": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-visual-stage\\dependencies\\WCS_Armaments",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\visual-binding-v1\\adopted\\WCS_ARMAMENTS_SOURCE_MANIFEST.json",
+      "sha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+      "files": 3,
+      "completeCurrentSourceMatches": true
+    }
+  ],
+  "completeStagedFiles": 1200,
+  "allCopyToAdoptedDeltas": [
+    {
+      "addon": "qaSmoke",
+      "relative": "Worlds/GEP215_WCSAuto_default.layer",
+      "before": "fafca6a11c5a80b1a889abedecf5e477ee59c5eb70260bd43dc696d581f46ef8",
+      "after": "9c599be13b212a8248fb681f3c4412cd5a32424e76e02aa25b4a9b248f593f3a"
+    }
+  ],
+  "onlyNonRdbBehavioralChange": {
+    "addon": "qaSmoke",
+    "relative": "Worlds/GEP215_WCSAuto_default.layer",
+    "before": "fafca6a11c5a80b1a889abedecf5e477ee59c5eb70260bd43dc696d581f46ef8",
+    "after": "9c599be13b212a8248fb681f3c4412cd5a32424e76e02aa25b4a9b248f593f3a"
+  },
+  "exactOneFieldReplacementVerified": {
+    "path": "qaSmoke/Worlds/GEP215_WCSAuto_default.layer",
+    "before": "GEP215_WCSProbe SmokeProbe { coords 600 50 2600 }",
+    "after": "GEP215_WCSProbe SmokeProbe { coords 600 50 2600 CaptureEnabled 1 }",
+    "beforeSHA256": "fafca6a11c5a80b1a889abedecf5e477ee59c5eb70260bd43dc696d581f46ef8",
+    "afterSHA256": "9c599be13b212a8248fb681f3c4412cd5a32424e76e02aa25b4a9b248f593f3a"
+  },
+  "compile": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-cloud-visual-06\\RESULT.json",
+    "sha256": "ce78ed016076bb1bbdab2e580abcc9b9f9c29f0605d9cd4a32a0ffb589b39737",
+    "status": "SCRIPT_COMPILE_PASS"
+  },
+  "owner": {
+    "pid": 2052,
+    "managedCreationUtc": "2026-10-22T09:23:36.5607185Z",
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-visual-stage\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+    "profile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile"
+  },
+  "lifecycle": {
+    "status": "PASS",
+    "reason": "Original wrapper exact owner/argv receipts, verified normal exit and same released lease",
+    "verifiedExited": true,
+    "leaseReleased": true
+  },
+  "exit": {
+    "utc": "2026-10-22T09:24:53.1759374Z",
+    "verifiedExited": true,
+    "exitCode": 0,
+    "cancelRequested": false,
+    "leaseReleased": true,
+    "closeMethod": "owned-normal-window-close"
+  },
+  "nativeNonceLimit": "No native-emitted nonce; fresh owner/profile/argv/runId plus complete source/compile receipts bind this case.",
+  "strictOverall": "FAIL_PRESERVED",
+  "allEFErrorCount": 58,
+  "allEFErrorGroups": {
+    "RESOURCES": 50,
+    "GUI": 1,
+    "WORLD": 7
+  },
+  "originalAssertionStates": {
+    "world.loaded": "PASS",
+    "fixture.ready": "PASS",
+    "smoke.program-payload": "PASS",
+    "smoke.flight-telemetry": "PASS",
+    "smoke.capture-files": "PASS",
+    "native.errors": "FAIL",
+    "smoke.camera-ready": "PASS",
+    "smoke.capture-timing": "PASS",
+    "scripts.compiled": "PASS",
+    "smoke.visible-cloud": "NOT_TESTED",
+    "smoke.impact": "NOT_TESTED",
+    "smoke.coverage": "NOT_TESTED",
+    "smoke.manual-input": "NOT_TESTED",
+    "smoke.rearm-cooldown-roles": "NOT_TESTED",
+    "smoke.mp-jip": "NOT_TESTED",
+    "art.v11-smoke-registration": "NOT_TESTED",
+    "package.trio": "NOT_TESTED",
+    "visual.approved": "NOT_TESTED"
+  },
+  "captureImages": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-baseline-far.bmp",
+      "sha256": "1bccd12354557c26c18f2f676ed01056a0b113d0a0bee21ecfd99fcb0160fe64",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-1.bmp",
+      "sha256": "dfa73eba7096a728200eb194727480d1ae58a2d16d77ad6736509b4ddd834425",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-2.bmp",
+      "sha256": "8a71b2d6a1908653034bf8ac08c0a72c4a6032a8933ed830ac083c19ea605cfe",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-3.bmp",
+      "sha256": "f7f375c85020bc03fd1c5981758ea7c3a9b8900f59a7176a82ad8d3f5cf68515",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-4.bmp",
+      "sha256": "77bb47737d22c2f0d4706495ad41907e1bf617e71891c6554276ee7d5e97b13b",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-5.bmp",
+      "sha256": "f7f9945f9ec01e9884092eac6f613f2a8b7a90aae6c63e18e998003bb1f9b055",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-6.bmp",
+      "sha256": "5ab4ee25c3f2560a1e177d729b4e7108e28d54c7775a1c4feb3e97d89d340fb4",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-7.bmp",
+      "sha256": "7ae09bd82032e0673b9e2c52081341219d0116258c30afdfc72eed362724889e",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-8.bmp",
+      "sha256": "53c18473ce71f08ae2c8318d2e1ee91fab84be09b05205ac91468819718a8f5d",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-1-far.bmp",
+      "sha256": "e96185733e7372ddc41044a666d970e72a7bdc348bed8018e4c900192d1da3a6",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-1-near.bmp",
+      "sha256": "dfa73eba7096a728200eb194727480d1ae58a2d16d77ad6736509b4ddd834425",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-2-far.bmp",
+      "sha256": "55b7a42e0ee9c7030307958224fe4a2de478f9f8993650143391318145c43965",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-2-near.bmp",
+      "sha256": "8a71b2d6a1908653034bf8ac08c0a72c4a6032a8933ed830ac083c19ea605cfe",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-3-far.bmp",
+      "sha256": "e61ee09306a86b7799a8f39f58f07ea5014d2a038d517a73a27ba53dafd96fff",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-3-near.bmp",
+      "sha256": "f7f375c85020bc03fd1c5981758ea7c3a9b8900f59a7176a82ad8d3f5cf68515",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-far.bmp",
+      "sha256": "b03140ef9e1d856bbd7d8d5d549c357509a813d53325bbd3f69704d2a78e52b3",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-near.bmp",
+      "sha256": "77bb47737d22c2f0d4706495ad41907e1bf617e71891c6554276ee7d5e97b13b",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-far.bmp",
+      "sha256": "dfdc92a2ad0e09fda949228a13409b9e5e2bc7ae93bd5428ed3482007673097b",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-near.bmp",
+      "sha256": "f7f9945f9ec01e9884092eac6f613f2a8b7a90aae6c63e18e998003bb1f9b055",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-far.bmp",
+      "sha256": "eddc307ff79df40ad4e21636c80c4c5626925881610b4b638476b400e1a4f53c",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-near.bmp",
+      "sha256": "5ab4ee25c3f2560a1e177d729b4e7108e28d54c7775a1c4feb3e97d89d340fb4",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-far.bmp",
+      "sha256": "f320b942ebe3337188940c72e70f1b5a5461c33c44e5f1c994e1fba573bd2465",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-near.bmp",
+      "sha256": "7ae09bd82032e0673b9e2c52081341219d0116258c30afdfc72eed362724889e",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-far.bmp",
+      "sha256": "4da9bd65c5d2acad597e33f429d6134d914ef392fab2ad57a5b68c83e4ccba87",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-near.bmp",
+      "sha256": "53c18473ce71f08ae2c8318d2e1ee91fab84be09b05205ac91468819718a8f5d",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "fullPixelPayload": true,
+      "freshAfterOwnedStart": true
+    }
+  ],
+  "directIndependentPixelInspectionCount": 5,
+  "directIndependentObservations": [
+    {
+      "stem": "GEP215-wcs-baseline-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-baseline-far.bmp",
+      "sha256": "1bccd12354557c26c18f2f676ed01056a0b113d0a0bee21ecfd99fcb0160fe64",
+      "observedExterior": null,
+      "cloudVisible": null,
+      "notes": "",
+      "directlyViewedByThisLane": true,
+      "exteriorConfirmed": true,
+      "visibleCloud": false,
+      "note": "Clear exterior runway/coast/sky; distant Gepard; no cloud before program."
+    },
+    {
+      "stem": "GEP215-wcs-pair-5-near",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-near.bmp",
+      "sha256": "f7f9945f9ec01e9884092eac6f613f2a8b7a90aae6c63e18e998003bb1f9b055",
+      "observedExterior": null,
+      "cloudVisible": null,
+      "notes": "",
+      "elapsedSeconds": 12.1001,
+      "requestedEye": [
+        596.518,
+        45.706,
+        2631.12
+      ],
+      "requestedAim": [
+        586.518,
+        40.706,
+        2641.12
+      ],
+      "directlyViewedByThisLane": true,
+      "exteriorConfirmed": true,
+      "visibleCloud": true,
+      "note": "Exterior close view, large billowy white-gray cloud obscures central road/shore; sea and terrain remain visible around edges."
+    },
+    {
+      "stem": "GEP215-wcs-pair-5-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-far.bmp",
+      "sha256": "dfdc92a2ad0e09fda949228a13409b9e5e2bc7ae93bd5428ed3482007673097b",
+      "observedExterior": null,
+      "cloudVisible": null,
+      "notes": "",
+      "elapsedSeconds": 12.2336,
+      "requestedEye": [
+        600.0,
+        43.7,
+        2660.0
+      ],
+      "requestedAim": [
+        600.0,
+        41.2,
+        2600.0
+      ],
+      "directlyViewedByThisLane": true,
+      "exteriorConfirmed": true,
+      "visibleCloud": true,
+      "note": "Exterior framing matches clear baseline; substantial white plume to right of distant Gepard over runway/shore."
+    },
+    {
+      "stem": "GEP215-wcs-pair-8-near",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-near.bmp",
+      "sha256": "53c18473ce71f08ae2c8318d2e1ee91fab84be09b05205ac91468819718a8f5d",
+      "observedExterior": null,
+      "cloudVisible": null,
+      "notes": "",
+      "elapsedSeconds": 40.1331,
+      "requestedEye": [
+        596.518,
+        45.706,
+        2631.12
+      ],
+      "requestedAim": [
+        586.518,
+        40.706,
+        2641.12
+      ],
+      "directlyViewedByThisLane": true,
+      "exteriorConfirmed": true,
+      "visibleCloud": true,
+      "note": "Exterior close view still shows broad semi-transparent white-gray ground cloud; road/grass partly obscured."
+    },
+    {
+      "stem": "GEP215-wcs-pair-8-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-far.bmp",
+      "sha256": "4da9bd65c5d2acad597e33f429d6134d914ef392fab2ad57a5b68c83e4ccba87",
+      "observedExterior": null,
+      "cloudVisible": null,
+      "notes": "",
+      "elapsedSeconds": 40.2661,
+      "requestedEye": [
+        600.0,
+        43.7,
+        2660.0
+      ],
+      "requestedAim": [
+        600.0,
+        41.2,
+        2600.0
+      ],
+      "directlyViewedByThisLane": true,
+      "exteriorConfirmed": true,
+      "visibleCloud": true,
+      "note": "Exterior baseline-like far view retains broad low white cloud on right runway; Gepard remains visible left."
+    }
+  ],
+  "independentlyObservedNearCloudTimesSeconds": [
+    12.1001,
+    40.1331
+  ],
+  "independentPositiveObservationIntervalSeconds": 28.033,
+  "rootSeparateReview": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\SMOKE-VISUAL-04-DIRECT-PIXEL-REVIEW.json",
+    "sha256": "46821a119f6c1ae48776c352c8ffb3ca3a3733b42c1eb0a11dd934abacfb8f76",
+    "directlyInspectedByRoot": 11,
+    "rootValidatorPositiveIntervalSeconds": 35.0164,
+    "limit": "Root35.0164s interval spans5.1167\u219240.1331; this lane viewed12/40andbaseline only. Neither interval proves exact onset/continuous coverage/expiry."
+  },
+  "pixelAcceptance": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\pixel-acceptance.json",
+    "sha256": "b1097aedf7760c81096256db2e6dfe2fa5fae97bb841236553b4ab0d34c12dd0",
+    "visibleNativeCloud": "PASS_SEPARATE_PIXEL_OBSERVATION",
+    "exteriorCamera": "PASS_SEPARATE_PIXEL_OBSERVATION"
+  },
+  "limits": [
+    "Visible one-round cloud and exterior framing corroborated; no overall strict native PASS",
+    "Requested eye/aim/current-camera checks are not independent measured camera or particle world matrices",
+    "Native impact/fuse timing, useful coverage/gaps and exact onset/expiry remain unqualified",
+    "No full8/emptynegative/supplyrearm/currentV11portfit/ordinarycontrols/MP acceptance"
+  ],
+  "evidencePins": {
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\result.json": "6f9db1cc6a79277ea9ba0aaeb9f37831b4a39cee46d90dc1739c8db7f60b9965",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\request.json": "5cf6b267502120b1649935a1b7132ad24954f258bec26d1d7d58ec9b77181f30",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\bridge-plan.json": "3935645a924b3f686f5de9394e55a73f56b628609a59a849499ea3f5a50c1ed8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-review.json": "0cab580064f7993a9be66a208c7a2fb7291ab86dbae91b4ab5cf4ea43f7678a9",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\exit.json": "0796e91318945bc9ed70038c547d59d2c5355023ff9d99a7debc79b9e77d946b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\owner.json": "54e4eac9a7499cbf63e77e82d59c98deef893c2848b2303826460870f98f90e8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\logs\\console.log": "450974fbfc3fdedf4542b868f502aadec900adc45d737b4020ef16956dcf3a2b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\pixel-acceptance.json": "b1097aedf7760c81096256db2e6dfe2fa5fae97bb841236553b4ab0d34c12dd0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\pixel-review-template.json": "43dcb9ad8c88872ea484874c8f298036b1dd62e198ed8e8ecde4577aeb9c257c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-visual-stage\\single\\qaSmoke\\Worlds\\GEP215_WCSAuto_default.layer": "9c599be13b212a8248fb681f3c4412cd5a32424e76e02aa25b4a9b248f593f3a"
+  },
+  "sourceStageSupplierGitPackageReleaseChanges": false,
+  "nativeActionByLane": false,
+  "dWrites": false
+}

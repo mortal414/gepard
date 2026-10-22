@@ -1,0 +1,71 @@
+{
+  "status": "NEXT_EXISTING_SUPPLIER_GATES_NOT_IMPLEMENTED_OR_RUN_BY_THIS_LANE",
+  "owner": "External task-4 supplier implements; root owns native admission/staging/compile/run; human judges useful screening",
+  "referencePins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\checks\\REARM_REFERENCE_CONTRACT.json": "9a90a692f60d3210c555cf0b38d86525cd2c88a161c419b8d5b3845e9608686d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\SUPPLIER-HANDOFF.md": "0d431d7b7ceeb0b57a774e1326453870672c2252f15ea2dc9d35f0591e048714",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\STAGING.json": "8e62f213ca75154384cfbe3b1334e7ad8861ad95c978c088a74b0c228576140e",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\visual-binding-v1\\README.md": "15913abb47236403f19d4cd7b7bed765062f89168f761354c1404bbdeb01737b"
+  },
+  "fullEightAndEmpty": {
+    "status": "NOT_TESTED",
+    "existingCase": "Existing separate full variant, ExpectedShots8 with actual full-ripple WCS program/firemode; do not merely change expected counter on single variant",
+    "sourceGate": "Retain proved angle order, repaired visual fixture and exact WCS8.4.0 dependency/source pins. Rebase corrections onto the full variant explicitly; old full source is not implicitly qualified by this single replay. Fresh immutable stage/compile/adoption/job. Single/full share addon GUIDs and must never enter the same addon-search closure.",
+    "positive": "One authorized program, capacity8, ammo8\u21920, exactly8distinct full native payload identities, actual positions/trajectory for every payload and genuine near/far cloud pixels. Query omissions are inconclusive, not proof no round existed.",
+    "negative": "The existing full fixture makes exactly one additional request after elapsed>6s only when ammo0. It must leave ammo0 and launch count8; no extra payload. Preserve ordinary launch/flight/errors/closure gates; no repeat fallback."
+  },
+  "genuineSupplyRearm": {
+    "status": "NOT_TESTED",
+    "station": {
+      "guid": "ECB8E313DFBD3415",
+      "path": "Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et",
+      "WCSComponent": "WCS_Armament_RearmSupportStationComponent",
+      "stationType": "WCS_REARM",
+      "rangeMetres": 9,
+      "builtInSupplyStorage": "{CA3B72D3341FEE40}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_01.et"
+    },
+    "alternate": {
+      "guid": "402274CE2FB0720D",
+      "path": "Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_ammo_box.et",
+      "WCSComponent": "WCS_Armament_RearmSupportStationComponent",
+      "isVehicle": true,
+      "priority": "MEDIUM",
+      "caveat": "Use in its proper M923A1 vehicle assembly;standalone ammo-box spawn is not qualified"
+    },
+    "dependency": {
+      "id": "629B2BA37EFFD577",
+      "version": "8.4.0",
+      "extraModule": "None indicated for these references"
+    },
+    "readbackPrerequisites": [
+      "Genuine WCS_REARM station exposed by installed dependency, actual enabled station/range9 and consumer nonnull",
+      "Supplies globally/station/resource enabled; reject free-service fallback/int.MAX as backing",
+      "Read actual finite native station aggregate and contributing containers, not assumed crate40/compositiontotal",
+      "Genuine on-foot naturally eligible/selected native rearm action and ordinary native hold; no direct ammo/resources setters or ExecuteServer/OnExecutedServer bypass"
+    ],
+    "positive": "Each completed iteration: actual smokeammo+1 and finite selected-station aggregate\u22121, same station/source/container identities and receipts; repeat up to8. Stock cannon-belt refill cost3 proved elsewhere is NOT this WCSsmoke+1/\u22121 gate.",
+    "negative": [
+      "Already full8 rejects without source debit",
+      "Genuinely depleted source rejects, not merely disabled supplies",
+      "Outside station9m and outside bank action reach reject",
+      "Invalid/dead/unconscious/wrongvehicle actor rejects"
+    ],
+    "cooldown": "Retain existing2500ms per-tube cooldown as separate gate; if legitimate rearm timing cannot reach it, keep NOT_TESTED instead of adding setters/time hacks."
+  },
+  "currentV11PortFitAndCompatibility": {
+    "status": "NOT_TESTED",
+    "sourceGate": "Integrate only in isolated copy of root current tested/cooked V11 camo and charcoal wrappers: {9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et and {231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et. Current visual smoke stage proves its own1147-file base closure, not compatibility with current core1152-file source. Root chooses exact current source pins.",
+    "fit": "Observe actual native tube/port world transforms, actual payload departure and pixels against current model while turret traverses front/side/rear and guns at\u22125/0/85; hullyaw90/180/\u221290 alone is not animated turret qualification. Old expected-port logs remain local-scale and cannot pass world registration. Check hatch/crew/gun clearance and stationary/moving launch.",
+    "compatibility": [
+      "Retain stock cannon audio and accepted wheeled driving/reverse/brake/R/control settings; actual regression on dependency stack",
+      "Seats/hatches/crewexit/reentry, gunner/commander smoke action versus driver/onfoot/wrongvehicle/transition/dead/unconscious denial",
+      "Ordinary active binding (installed reference LeftShift+G) must be verified; script callback is not physical input acceptance",
+      "Both cannon feeds/fire/recoil, ADS/HUD/optics lifecycle and no dependency-stack regression",
+      "Useful coverage/gaps/location/duration remains NEEDS_USER_TEST; MP/dedicated/JIP authority/visibility/rearm remains separate"
+    ]
+  },
+  "strictNativeErrors": "Visual04 original strictFAIL58 retained separately from Angle03 strictFAIL57; do not suppress errors to pass a future feature gate.",
+  "impactFuse": "Exact impact/fuse event/contact timing remainsNOT_TESTED although actual native cloud is visibly observed. Do not restart launcher/particle implementation solely to manufacture this receipt.",
+  "nativeActionByLane": false,
+  "sourceOrStageEdits": false
+}

@@ -1,0 +1,50 @@
+{
+  "status": "ISOLATED_SINGLE_PAYLOAD_VISIBLE_CLOUD_OBSERVED_EXCLUDED_FROM_PACKAGE08",
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control",
+  "independentAudit": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\INDEPENDENT-AUDIT.json",
+    "sha256": "b261fcd924d8fc8c8d52b0e1816aa015f2b620333cb5ab3cae4938b8637d1f57"
+  },
+  "pixelAcceptance": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\PIXEL-ACCEPTANCE.json",
+    "sha256": "b1097aedf7760c81096256db2e6dfe2fa5fae97bb841236553b4ab0d34c12dd0"
+  },
+  "rootReview": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\ROOT-DIRECT-REVIEW.json",
+    "sha256": "46821a119f6c1ae48776c352c8ffb3ca3a3733b42c1eb0a11dd934abacfb8f76"
+  },
+  "rawResult": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\result.json",
+    "sha256": "6f9db1cc6a79277ea9ba0aaeb9f37831b4a39cee46d90dc1739c8db7f60b9965"
+  },
+  "rawReview": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-review.json",
+    "sha256": "0cab580064f7993a9be66a208c7a2fb7291ab86dbae91b4ab5cf4ea43f7678a9"
+  },
+  "images": 25,
+  "directRootImagesReviewed": 11,
+  "independentImagesReviewed": 5,
+  "rootObservedPositiveIntervalSeconds": 35.0164,
+  "intervalLimit": "Difference between sampled positive observations only, not exact cloud onset or expiry.",
+  "strictNativeErrors": 58,
+  "strictErrorGroups": {
+    "RESOURCES": 50,
+    "GUI": 1,
+    "WORLD": 7
+  },
+  "strictOutcome": "FAIL_PRESERVED",
+  "mainPackageChanged": false,
+  "newAcceptedCheckboxes": 0,
+  "nextGates": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\NEXT-SUPPLIER-GATES.json",
+    "sha256": "7aef95fed8c1c00bcdf527e27141f8745fb92998b8133577838ef9cc8a20a785"
+  },
+  "remaining": [
+    "Full eight actual payloads/ammo8->0 and empty negative",
+    "Genuine finite WCS smoke rearm with actual supply accounting",
+    "Current cooked V11 camo/charcoal port world-fit and dependency-stack controls/HUD compatibility",
+    "Impact/fuse exact callback timing",
+    "Useful screening human judgment",
+    "Physical input/roles/MP/JIP"
+  ]
+}

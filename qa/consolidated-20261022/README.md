@@ -13,3 +13,5 @@ Current source/evidence audit: [59 startup and100 packing diagnostics classified
 
 
 [Focused service checkpoint](focused-services-v10/RESULT.json): separate left/right315-to320 native refills and right-cap30-to32.083L finite fuel transfer are observed. Whole service and human acceptance remain pending; original strict failures are unchanged. Package08 source, packages, launcher and installed guide are unchanged.
+
+[Isolated native smoke Visual04](smoke-visual-04/RESULT.json): actual exterior cloud observed;25 native BMPs retained,11 root/5 independent images directly viewed. StrictFAIL58 stays raw. Full-eight/empty, real smoke rearm and currentV11 fit/compatibility remain separate next gates; stable08 unchanged.

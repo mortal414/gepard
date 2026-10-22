@@ -35,3 +35,7 @@ downloads/
 /private-demo-packed-stage*/
 /private-package-probe*/
 /private-installed-demo*/
+
+/native-gpg-service-fuel-v*/
+
+/native-gpg-service-repair-v*/
