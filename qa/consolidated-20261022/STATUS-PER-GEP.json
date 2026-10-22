@@ -263,19 +263,24 @@
     },
     {
       "id": "GEP-033",
-      "status": "Blocked",
-      "reason": "Human listening FAILED: no audible tracks and clips sounded the same. Effective candidate graph binding, valid pivots, contact/material and parent Speed verified against actual installed WCS reference. PointInfo type mismatch refuted. Private rolling activation unresolved; optional new five-stock-SIG read declined pending specific script permission. Candidate remains excluded from unchanged Demo09.",
+      "status": "Needs user test",
+      "reason": "Original tire-sample candidate remains human FAIL. New isolated normal SpaceCore dependency candidate uses two proven track graph references; native source/compile/effective bindings/drive/brake/rest/engine-off/recording gates observed, strict60 errors retained. Human track character, speed/stop behavior and balance are pending; unchanged Demo09 excludes track audio.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
-      "genuineBlocker": true,
-      "blocker": "New pinned stock-signal inspection script LoadContainer permission declined; native operation known not executed. Independent runtime diagnostics complete; no sound fix yet.",
-      "blockingState": "USER_AUDIBLE_FAIL_PRIVATE_ROLLING_GATE_READ_DECLINED",
-      "separateCandidateEvidence": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\audio033-audible-fail-diagnosis-20261022\\RESULT.json",
+      "genuineBlocker": false,
+      "blocker": null,
+      "blockingState": "SPECIFIC_SIG_PERMISSION_RESOLVED_DEPENDENCY_CANDIDATE_AUDIBLE_JUDGMENT_PENDING",
+      "separateCandidateEvidence": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\audio033-spacecore-candidate02-20261022\\RESULT.json",
       "remainingInclusionGates": [
-        "Resolve exact bounded stock-SIG read permission and inspect native gate inputs/trigger/surface/gain math",
-        "Implement only a causally supported correction and verify private rolling activation",
-        "Human confirmation of actual audible track texture and speed/stop behavior",
-        "Distance/lifecycle/weapon balance and current-source integration after mechanism qualifies"
+        "Use the new DEPENDENCY_CANDIDATE recording, not FAILED01",
+        "At approximately32seconds, identify actual track clatter/rumble during motion versus wheeled baseline",
+        "At rest around42seconds and engine-off around45seconds, track loops should settle rather than continue",
+        "Keep playback volume fixed and judge engine balance; no per-file normalization applied",
+        "Reverse and cabin",
+        "30/100m attenuation and surfaces",
+        "Exit/reentry/deletion lifecycle",
+        "Stock cannon/engine sound balance",
+        "Current V11/smoke packaged demo integration"
       ]
     }
   ],

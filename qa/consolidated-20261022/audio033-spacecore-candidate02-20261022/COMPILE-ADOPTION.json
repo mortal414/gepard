@@ -1,0 +1,59 @@
+{
+  "status": "SOURCE_MATCHED_NATIVE_COMPILE_ADOPTED",
+  "receipt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-audio-dependency-v5-01\\RESULT.json",
+  "receiptSha256": "52f4d8035bdc0bb433e7da60050547aa30968d78efa4f142f6aaa65c8fa6a96b",
+  "closures": [
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\native-stage\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\COMMON-MANIFEST.json",
+      "manifestSha256": "773a0c290b7dfdab9aa85ae1cec90deb4ee401bb5646cc984ac71378908d246f",
+      "changed": [],
+      "added": [],
+      "files": 1158
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\native-stage\\audioQA",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\QA-MANIFEST.json",
+      "manifestSha256": "1bdb41fcecc5bddd35675b4e91f06bde5cd90120fe47bf752a57d02501f5f83c",
+      "changed": [],
+      "added": [],
+      "files": 19
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependencies\\M2BradleyFightingVehicle_63120AE07E6C0966",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\63120AE07E6C0966-MANIFEST.json",
+      "manifestSha256": "77da22ffeea3a6af4ca2ef20b9b41ba6cc4565b840fa392b14479be7654838fc",
+      "changed": [],
+      "added": [],
+      "files": 3
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\5E389BB9F58B79A6-MANIFEST.json",
+      "manifestSha256": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8",
+      "changed": [],
+      "added": [],
+      "files": 3
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\629B2BA37EFFD577-MANIFEST.json",
+      "manifestSha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+      "changed": [],
+      "added": [],
+      "files": 3
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\native-stage\\trackDependency033",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\TRACK-DEPENDENCY-MANIFEST.json",
+      "manifestSha256": "97da2e7d0a935e784eca6da8d43a2f392b558c991f34bd458bf0bc221efc26ae",
+      "changed": [],
+      "added": [
+        "resourceDatabase.rdb"
+      ],
+      "files": 4
+    }
+  ],
+  "nativeAudio": "NOT_TESTED",
+  "supplierOriginalThreeFilesExact": true
+}

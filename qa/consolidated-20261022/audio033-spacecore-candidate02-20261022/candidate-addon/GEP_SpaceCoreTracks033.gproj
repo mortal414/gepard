@@ -1,0 +1,10 @@
+GameProject {
+ ID "GEP_SpaceCoreTracks033"
+ GUID "5E51C5D8F04FDB80"
+ TITLE "Gepard SpaceCore track dependency audition"
+ Dependencies { "D561AD08932E7B40" "58D0FB3206B6F859" "5E389BB9F58B79A6" "629B2BA37EFFD577" }
+ Configurations {
+  GameProjectConfig PC {}
+  GameProjectConfig HEADLESS : PC {}
+ }
+}

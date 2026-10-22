@@ -1,0 +1,125 @@
+{
+  "status": "NATIVE_STOCK_GAIN_CHAIN_CONFIRMED_DEPENDENCY_CANDIDATE_SOURCE_READY",
+  "sources": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-stock-signals-02\\logs\\console.log",
+      "sha256": "2db02c62b5a56c1f0174ccd04f2d3df29d01518abe17702703bb08466e4f8554"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-stock-signals-02\\AUTHORIZATION-APPROVAL.json",
+      "sha256": "ce5c0345b076cc3fe06a4338105a416971c70471336c43a31be2cd1727e37a86"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-stock-signals-02\\exit.json",
+      "sha256": "26e873855cd01e034dd08a6cc1e08041a19316f58a0e3b3d52f5a05a3c48b802"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\evidence\\coordinator-stock-roll-trace02\\logs\\console.log",
+      "sha256": "1581b21882535e8c93bec3101e7dfac6d987873fdc787f5d8e673a603b437687"
+    }
+  ],
+  "nativeRead": {
+    "fixedStockResources": [
+      "{A8670D1D8D7F2696}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Roll_Front_Left.sig",
+      "{6A39A5B6E0FF6039}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Trigger.sig",
+      "{CCCD8159D3EACCF4}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Surface.sig",
+      "{D7B7F91D5FD261AF}Sounds/Vehicles/_SharedData/Wheels/Vehicles_Wheel_APC_DynamicRange.sig",
+      "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+    ],
+    "nodes": 207,
+    "functionalUnread": [],
+    "closure": {
+      "exitCode": null,
+      "protectedOperationRepeated": false,
+      "closeMethod": "exact-owned-normal-window-close-after-completed-SIG-read-and-wrapper-sharing-error",
+      "wrapperFailureRetained": "FAILURE.json",
+      "verifiedExited": true,
+      "approvalGranted": true,
+      "utc": "2026-10-22T16:34:43.1731874Z",
+      "leaseReleased": true,
+      "audibleAcceptance": "NOT_TESTED",
+      "stockMetadataComplete": true
+    },
+    "approval": {
+      "dialogText": "Allow script 'scripts/WorkbenchGame/GEP033/GEP033_InspectStockRollSignals.c:65'\nto access potentially dangerous\nmethod 'BaseContainerTools.LoadContainer'?",
+      "status": "APPROVING_EXACT_PINNED_FIVE_STOCK_SIGNAL_INSPECTION",
+      "selected": "Yes to All",
+      "scope": "Only this pinned read-only script and its five fixed stock SIG resources; permission duration unspecified",
+      "priorKnownNonexecution": true,
+      "utc": "2026-10-22T16:33:56.0940396Z",
+      "scriptSHA256": "abcf496a590ce00076e4b48ed6868b20c4ccddf8d8fb8edf33fffdd8793f7346",
+      "approvalGranted": true
+    },
+    "limitation": "Recovered owned WM_CLOSE/absence/released; process exitCode null. Wrapper FAILURE retained. Read completed once; do not rerun."
+  },
+  "confirmedLeftStockRollingGain": {
+    "input": "suspensionFrontLeft",
+    "inputDefault": 0,
+    "curveInputToDb": [
+      {
+        "X": 0.0,
+        "Y": -60.0
+      },
+      {
+        "X": 0.1,
+        "Y": -6.0
+      },
+      {
+        "X": 0.5,
+        "Y": 0.0
+      },
+      {
+        "X": 0.8,
+        "Y": 4.0
+      },
+      {
+        "X": 1.0,
+        "Y": 8.0
+      }
+    ],
+    "chain": [
+      "input1 suspensionFrontLeft",
+      "op3 suspensionToVolume",
+      "op4 Db2Gain",
+      "output2 Roll_V",
+      "ACP SignalRoll183309:2 -> BusRoll204807:0",
+      "BusRoll204807:65 -> ShaderRoll223250:64",
+      "ShaderRoll223250:65 -> SOUND_TIRE_ROLL_LP206857:64"
+    ],
+    "zeroInputGain": 0.001,
+    "scope": "Main Bus Roll containing the dry-surface bank replacements. Separate debris/rattle feed Shader Roll too.",
+    "deltaFilterCorrection": "Delta11/Filter12 feeds cabin rattle and impacts. Roll_V is direct suspension amplitude, not suspension velocity/roughness."
+  },
+  "otherStockInputs": {
+    "trigger": "Speed and WaterDepth conditions multiplied; no invented interpretation of native numeric condition enum",
+    "Tires_Surface_SIG": "Speed interpolation 0..35 followed by power/crossfade produces Roll_Slow_V/Roll_Fast_V; this SIG does not read categorical surface material",
+    "APCDynamicRange": "Speed custom dB curve and Surface condition Is Not Above Ground multiply into Roll_V; native private wheel values not yet observed",
+    "outsideOcclusion": "Interior/control/coverage/room/water related stock mix; no candidate gain or camera settings altered"
+  },
+  "supportedExplanation": "FAILED01 preserved the suspension-dependent tire gain chain when replacing samples. That swap does not provide a continuous tracked-vehicle mechanism. At zero suspensionFrontLeft that bus is attenuated by 60dB before its other gains.",
+  "notProven": [
+    "Runtime suspensionFrontLeft equals zero",
+    "Which private wheel Surface bank was selected",
+    "This single gate fully explains human silence",
+    "SpaceCore cross-vehicle graph activation or audible success"
+  ],
+  "hypothesesRefutedByPriorRuntime": [
+    "Incorrect candidate Filename override",
+    "Missing pivot bone",
+    "SoundPointInfo incompatible with PointInfo",
+    "Sound-slot name must equal WheelPositions name"
+  ],
+  "chosenNextProbe": {
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\spacecore-dependency-candidate-02\\MANIFEST.json",
+    "prefab": "{A1C23195F6CA57F7}Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et",
+    "projectGuid": "5E51C5D8F04FDB80",
+    "reason": "Original child references the already user-recognized installed maintained track graphs through normal dependencies. No more tire-bank substitutions or coefficient guesses.",
+    "nativeOwner": "01a15f4d-277b-76d9-b72f-4dde42bec0f4"
+  },
+  "audibleAcceptance": "NEW_CANDIDATE_NOT_TESTED_OLD_FAILED01_REMAINS_FAILED",
+  "supplierNativeStarted": false,
+  "WcsPayloadDecodedCopiedAdapted": false,
+  "drivetrainChanged": false,
+  "cannonChanged": false,
+  "Demo09Changed": false
+}

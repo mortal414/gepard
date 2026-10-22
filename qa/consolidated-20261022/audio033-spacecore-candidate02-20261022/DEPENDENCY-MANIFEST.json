@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "status": "SOURCE_READY_NATIVE_COMPILATION_AND_AUDITION_NOT_TESTED",
+  "projectFile": "GEP_SpaceCoreTracks033.gproj",
+  "projectGuid": "5E51C5D8F04FDB80",
+  "prefab": "{A1C23195F6CA57F7}Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et",
+  "basePrefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+  "dependencyIds": [
+    "D561AD08932E7B40",
+    "58D0FB3206B6F859",
+    "5E389BB9F58B79A6",
+    "629B2BA37EFFD577"
+  ],
+  "graphs": {
+    "L_01": "{309FB429B1BB6ACC}Sounds/Vehicles/_SharedData/Tracks/Vehicles_Tracks_Left.acp",
+    "R_01": "{C1948C7DC2E45F20}Sounds/Vehicles/_SharedData/Tracks/Vehicles_Tracks_Right.acp"
+  },
+  "files": [
+    {
+      "path": "GEP_SpaceCoreTracks033.gproj",
+      "sha256": "e91f32f5be70043a6b948dac1993f1abbcf62b907de66d775e9943674ea4450e",
+      "bytes": 300
+    },
+    {
+      "path": "Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et",
+      "sha256": "785712c8f932788af0198286d0a6f8d2611cf12d054174b2aa2ce2d867573220",
+      "bytes": 485
+    },
+    {
+      "path": "Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et.meta",
+      "sha256": "0647cc101efc22fdb8c30eea8f63eb93f4b847ec905ed99e634833616769b42a",
+      "bytes": 100
+    }
+  ],
+  "archive": "GEP033-SPACECORE-DEPENDENCY-CANDIDATE02.zip",
+  "archiveSha256": "3ae4ce3bfb94fe442fa80247194d2513015b0698e83898ddde8eabf7ae04c4d0",
+  "changeScope": "Only two existing VehicleWheelSound Filename overrides in a new child; no other prefab fields",
+  "externalPayloadFilesIncluded": 0,
+  "wcsGraphPayloadRead": false,
+  "nativeStarted": false,
+  "commonBaseChanged": false,
+  "Demo09Changed": false,
+  "drivetrainChanged": false,
+  "cannonChanged": false,
+  "permission": "Owner explicitly permits normal WCS dependency use; no copying/adaptation of WCS implementation/assets",
+  "compatibility": "Both actual vehicles use native VehicleWheelSound under SCR_VehicleSoundComponent and VehicleWheeledSimulation. Gepard PointInfo subclass/pivots validated. Cross-vehicle private graph signal compatibility remains a runtime gate.",
+  "failed01Preserved": true
+}

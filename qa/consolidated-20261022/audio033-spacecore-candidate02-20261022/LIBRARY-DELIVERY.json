@@ -1,0 +1,70 @@
+{
+  "status": "ALL_THREE_DEPENDENCY_DELIVERABLES_SAVED",
+  "files": [
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\Gepard-Audio-04-SPACECORE-DEPENDENCY-CANDIDATE-CONTINUOUS.wav",
+      "status": "succeeded",
+      "fileName": "Gepard-Audio-04-SPACECORE-DEPENDENCY-CANDIDATE-CONTINUOUS.wav",
+      "libraryFileId": "libfile_635b2a3e61e08191a5564b2ec45b25fc",
+      "fileId": "file_000000006b3c81fd8daf5f133a36dbf1",
+      "version": 0,
+      "libraryPath": "/Gepard-Audio-04-SPACECORE-DEPENDENCY-CANDIDATE-CONTINUOUS.wav",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "sha256": "4f13e51b3becea17ed6ee78e9870bb55639e8589ab37d700898b7c6509470a99",
+      "localMetadataHelper": {
+        "exitCode": 1,
+        "stdout": "",
+        "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 403, in <module>\n    raise SystemExit(main(sys.argv[1:]))\n                     ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 390, in main\n    materializer.apply_xattrs(\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 319, in apply_xattrs\n    xattr.apply(path)\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 137, in apply\n    os.setxattr(path, self.name, encoded_value)\n    ^^^^^^^^^^^\nAttributeError: module 'os' has no attribute 'setxattr'\n"
+      }
+    },
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\Gepard-DEPENDENCY-v5-listening-guide.txt",
+      "status": "succeeded",
+      "fileName": "Gepard-DEPENDENCY-v5-listening-guide.txt",
+      "libraryFileId": "libfile_dde937150abc81918d8875f49fb10720",
+      "fileId": "file_00000000801481fd958ab9161fa680cd",
+      "version": 0,
+      "libraryPath": "/Gepard-DEPENDENCY-v5-listening-guide.txt",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "sha256": "a36d879525d4b634b0eef33bd6c338ba8907dac095134bcbd1d361406b419ead",
+      "localMetadataHelper": {
+        "exitCode": 1,
+        "stdout": "",
+        "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 403, in <module>\n    raise SystemExit(main(sys.argv[1:]))\n                     ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 390, in main\n    materializer.apply_xattrs(\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 319, in apply_xattrs\n    xattr.apply(path)\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 137, in apply\n    os.setxattr(path, self.name, encoded_value)\n    ^^^^^^^^^^^\nAttributeError: module 'os' has no attribute 'setxattr'\n"
+      }
+    },
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\Gepard-DEPENDENCY-v5-exact-mapping.json",
+      "status": "succeeded",
+      "fileName": "Gepard-DEPENDENCY-v5-exact-mapping.json",
+      "libraryFileId": "libfile_d57c7dd9e2c081918b52c8e1b3b110bb",
+      "fileId": "file_00000000178081fdb9263b7cb9e8a1d9",
+      "version": 0,
+      "libraryPath": "/Gepard-DEPENDENCY-v5-exact-mapping.json",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "sha256": "88c3e4f4aa0262da807b7b3c5898546ddb18f2a13a0e8b55648d20dae02d5536",
+      "localMetadataHelper": {
+        "exitCode": 1,
+        "stdout": "",
+        "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 403, in <module>\n    raise SystemExit(main(sys.argv[1:]))\n                     ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 390, in main\n    materializer.apply_xattrs(\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 319, in apply_xattrs\n    xattr.apply(path)\n  File \"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v5\\library-helpers\\library_file_transfer.py\", line 137, in apply\n    os.setxattr(path, self.name, encoded_value)\n    ^^^^^^^^^^^\nAttributeError: module 'os' has no attribute 'setxattr'\n"
+      }
+    }
+  ],
+  "preparedRoute": "Unavailable before writes; preserved DNS/preflight stderr; direct batch fallback",
+  "identityPersistence": "Returned identities/xattrs preserved in this sidecar. Helper result retained; Windows xattr failure is not Library upload failure."
+}

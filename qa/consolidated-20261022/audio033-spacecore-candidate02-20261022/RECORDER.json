@@ -1,0 +1,77 @@
+{
+  "status": "NATIVE_RETURNED_AUDIO_FINALIZED",
+  "createdUtc": "2026-10-22T16:41:53.894652+00:00",
+  "command": [
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+    "-NoProfile",
+    "-File",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\tools\\Scene.ps1",
+    "-Project",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\native-stage\\audioQA\\GEP_TrackRollingQA033.gproj",
+    "-World",
+    "Worlds/GEP_TrackRollingAudition033.ent",
+    "-Manifest",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\QA-MANIFEST.json",
+    "-RunRoot",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-dependency-v5-exterior-01",
+    "-Seconds",
+    "120",
+    "-AddonId",
+    "7E0330C026102210",
+    "-ScreenWidth",
+    "1280",
+    "-ScreenHeight",
+    "720",
+    "-NativeJob",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\jobs\\SPACECORE_TRACK_DEPENDENCY.json",
+    "-NativeJobSHA256",
+    "88baa6db8ef103f94e5c13c2965393d9c40ff5eb4be2e60f0837bc0760264112",
+    "-Interactive",
+    "-Execute"
+  ],
+  "commandFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\binding\\commands\\SPACECORE_TRACK_DEPENDENCY.json",
+  "commandSHA256": "b8927779ff897e7129ba2ce6d20cf8fa545c13a843b4c9c5a3a2af5304568325",
+  "wrapperSHA256": "35bd9e680b1a45368204dabd20e0b71e3ac86a8cc37b0a2f82979ab4c8f09e39",
+  "nativeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-dependency-v5-exterior-01",
+  "recorderCommand": [
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\tools\\record_loopback_audio.py",
+    "--speaker",
+    "{0.0.0.00000000}.{86f3f2b1-3033-4e11-afac-c6b952f00fd8}",
+    "--output",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\continuous\\SPACECORE_TRACK_DEPENDENCY\\system-output.wav",
+    "--duration-seconds",
+    "300",
+    "--stop-file",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\continuous\\SPACECORE_TRACK_DEPENDENCY\\STOP-RECORDER"
+  ],
+  "audioGain": "No OS/game/playback gain or normalization changes; fresh ordinary profile",
+  "nativeStarted": true,
+  "recorderStartUtc": "2026-10-22T16:41:54.121+00:00",
+  "nativeCommandStartUtc": "2026-10-22T16:41:54.121301+00:00",
+  "ownedWindowCaptures": [
+    {
+      "phase": "forward_default",
+      "exitCode": 0,
+      "utc": "2026-10-22T16:42:26.489068+00:00",
+      "stdout": "{\r\n  \"pid\": 1184,\r\n  \"output\": \"C:\\\\Users\\\\marco\\\\Documents\\\\Codex\\\\2026-10-21\\\\task\\\\GEP033-WCS-Reference-Diagnosis-20261022\\\\dependency-track-v5\\\\continuous\\\\SPACECORE_TRACK_DEPENDENCY\\\\forward_default.png\",\r\n  \"utc\": \"2026-10-22T16:42:26.4004255Z\",\r\n  \"status\": \"EXACT_OWNED_WINDOW_PRINTED_WITHOUT_FOCUS_OR_INPUT_RENDER_SUPPORT_UNVERIFIED\",\r\n  \"width\": 1296,\r\n  \"height\": 759\r\n}\r\n",
+      "stderr": ""
+    },
+    {
+      "phase": "public_stop_observe",
+      "exitCode": 0,
+      "utc": "2026-10-22T16:42:39.490733+00:00",
+      "stdout": "{\r\n  \"height\": 759,\r\n  \"status\": \"EXACT_OWNED_WINDOW_PRINTED_WITHOUT_FOCUS_OR_INPUT_RENDER_SUPPORT_UNVERIFIED\",\r\n  \"utc\": \"2026-10-22T16:42:39.3996376Z\",\r\n  \"pid\": 1184,\r\n  \"output\": \"C:\\\\Users\\\\marco\\\\Documents\\\\Codex\\\\2026-10-21\\\\task\\\\GEP033-WCS-Reference-Diagnosis-20261022\\\\dependency-track-v5\\\\continuous\\\\SPACECORE_TRACK_DEPENDENCY\\\\public_stop_observe.png\",\r\n  \"width\": 1296\r\n}\r\n",
+      "stderr": ""
+    }
+  ],
+  "nativeWrapperExitCode": 0,
+  "nativeCommandEndUtc": "2026-10-22T16:42:47.039811+00:00",
+  "recorderExitCode": 0,
+  "completedUtc": "2026-10-22T16:42:47.119220+00:00",
+  "wav": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\continuous\\SPACECORE_TRACK_DEPENDENCY\\system-output.wav",
+    "bytes": 10156844,
+    "sha256": "4f13e51b3becea17ed6ee78e9870bb55639e8589ab37d700898b7c6509470a99"
+  }
+}

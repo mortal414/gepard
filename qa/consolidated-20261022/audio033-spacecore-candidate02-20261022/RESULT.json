@@ -1,0 +1,111 @@
+{
+  "status": "NATIVE_DEPENDENCY_CANDIDATE_READY_FOR_HUMAN_LISTENING_NOT_ACCEPTED",
+  "utc": "2026-10-22T16:48:35.871042+00:00",
+  "candidate": "{A1C23195F6CA57F7}Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et",
+  "addonGUID": "5E51C5D8F04FDB80",
+  "runtimeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-dependency-v5-exterior-01",
+  "consoleSHA256": "a55357fe2fcd3f5bef85e0ed1738ab2ea9c62f5435efd22d0059da13f9cb7074",
+  "sourceManifestSHA256": "827f79eca9a41012ada6f0f64cf03103ed80d7d0baf85c7d2fe786aca6f50ad0",
+  "sourceScope": "Original three-file addon overrides only two existing graph Filename fields; no external payload",
+  "requiredInstalledMods": [
+    {
+      "name": "SpaceCore",
+      "id": "5E389BB9F58B79A6",
+      "testedVersion": "8.4.0"
+    },
+    {
+      "name": "WCS Armaments",
+      "id": "629B2BA37EFFD577",
+      "testedVersion": "8.4.0"
+    }
+  ],
+  "BradleyDependency": "Reference QA only; candidate addon does not require M2 Bradley",
+  "nativeObserved": {
+    "compile": "SCRIPT_COMPILE_PASS",
+    "supplierThreeFilesExact": true,
+    "shared1158FilesUnchanged": true,
+    "effectiveExternalGraphs": {
+      "L_01": "{309FB429B1BB6ACC}Sounds/Vehicles/_SharedData/Tracks/Vehicles_Tracks_Left.acp",
+      "R_01": "{C1948C7DC2E45F20}Sounds/Vehicles/_SharedData/Tracks/Vehicles_Tracks_Right.acp"
+    },
+    "completedSamples": 106,
+    "readbackRows": 27,
+    "poweredMotion": true,
+    "coastSamples": 11,
+    "coastSpeedMax": 0.0,
+    "engineOffRestSamples": 26,
+    "engineOffRestSpeedMax": 0.0,
+    "selectedNativeCamera": "Same V3 native third-person source; actual distance is vehicle-dependent",
+    "normalExitCode": 0,
+    "leaseReleased": true,
+    "strictErrors": 60,
+    "strictVerdict": "FAIL",
+    "audioSpecificErrorMatches": 0
+  },
+  "audibleAcceptance": "NEEDS_USER_TEST_NEW_DEPENDENCY_CANDIDATE; ORIGINAL_FAILED01_REMAINS_FAIL",
+  "privateRollingActivation": "Not directly exposed by parent pool APIs; actual sound must be confirmed by human listening",
+  "recording": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\continuous\\SPACECORE_TRACK_DEPENDENCY\\system-output.wav",
+    "bytes": 10156844,
+    "sha256": "4f13e51b3becea17ed6ee78e9870bb55639e8589ab37d700898b7c6509470a99"
+  },
+  "libraryReceipt": "LIBRARY-DELIVERY.json",
+  "repeatLauncher": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\Launch-Track-Dependency-Test.cmd",
+  "repeatPlan": "Dry-run verified; wrapper enforces fresh nonce/profile/run and source pins; no extra native repeat launched",
+  "demo09Protected": true,
+  "protectedPins": {
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\DEMO09-MANIFEST.json": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd": "44ef2e80b836be44ad1e027426957f33031fe0c27a516fc9ec2e1988e2155c52",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\PLAYTEST-NEW-FEATURES.md": "562b0db93ec95cd8d76d234e50b5bf6047cef16f93a850be8993ca688a2fc962",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\addon.gproj": "ac6136b5ef4e4153ec38a078c9bc6a8e5e34b609c99fa526931c1f411599ba34",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\data.pak": "516e16efdea95990fd95cddd31392ff9744e8805fdce50683a89acfe285a2cc3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\resourceDatabase.rdb": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+  },
+  "noPublication": true,
+  "nextHumanChecks": [
+    "Use the new DEPENDENCY_CANDIDATE recording, not FAILED01",
+    "At approximately32seconds, identify actual track clatter/rumble during motion versus wheeled baseline",
+    "At rest around42seconds and engine-off around45seconds, track loops should settle rather than continue",
+    "Keep playback volume fixed and judge engine balance; no per-file normalization applied"
+  ],
+  "remainingAfterPositiveListening": [
+    "Reverse and cabin",
+    "30/100m attenuation and surfaces",
+    "Exit/reentry/deletion lifecycle",
+    "Stock cannon/engine sound balance",
+    "Current V11/smoke packaged demo integration"
+  ],
+  "nativeSlot": {
+    "activeRuntime": null,
+    "ownerKeyHash": "094d975e9ed8220f08719d1c6b3891d419c8e3240c34ef9e59f2f1966920e8ee",
+    "owner": "Gepard serial scene coordinator",
+    "pid": null,
+    "workRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-dependency-v5-exterior-01",
+    "userRuntimeHold": {
+      "active": false,
+      "requestedBy": "User via trusted parent delegation",
+      "requestUtc": "2026-10-22T00:47:00Z",
+      "recordedUtc": "2026-10-22T00:49:02.1028179Z",
+      "reason": "User using machine; no game/Workbench launches,GUI/focus or window-close operations",
+      "allowed": "Non-focus-stealing source/file research,staging,test planning",
+      "resumeGate": "Explicit user resume required",
+      "priorStatus": "released_art_user_absence_verified",
+      "functionalAutomatedNativeStartedSinceArtHandback": false,
+      "resumeAuthorizedUtc": "2026-10-22T01:52:00Z",
+      "resumeSourceThread": "01a15259-930d-7752-b93e-02d417fdf0fc",
+      "resumeEvidence": "User: Alright I am done; wants overnight integrated demo. Parent explicitly lifted hold and assigned sole native coordination."
+    },
+    "status": "released_gepard_serial_scene",
+    "profile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-dependency-v5-exterior-01\\profile",
+    "project": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependency-track-v5\\native-stage\\audioQA\\GEP_TrackRollingQA033.gproj",
+    "reservedUtc": "2026-10-22T16:41:56.9336734Z",
+    "leaseId": "f5695cba-166b-43a7-adf8-0f550ad8a02b",
+    "releasedUtc": "2026-10-22T16:42:46.9132504Z"
+  }
+}
