@@ -1,0 +1,59 @@
+{
+  "status": "ONE_GENUINE_FINITE_NATIVE_SMOKE_REFILL_OBSERVED_MECHANISM_FIXTURE",
+  "rawResult": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\result.json",
+    "sha256": "b47f173085d1e80ed77510c650ecf73a4b5a091aeb7f16c3b705d4ba1758eefe"
+  },
+  "normalExit": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\exit.json",
+    "sha256": "1627f376eff4bfe162cd7e9a344a1bd78f96a87d299a1a2bf8da5b17a8ab25bd"
+  },
+  "lastDurablePacket": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-63.json",
+    "sha256": "cfb1c1373c1b84978d22678077f55a59fe72d8728db5ccd277e4a63f81ca6f85"
+  },
+  "independentReview": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-native-rearm-05\\INDEPENDENT-REVIEW.json",
+    "sha256": "fc30ad4828821a29efffd015282f1ba3e0e08fb962afb1fedaed5508b0313351"
+  },
+  "actualCompile": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-native-rearm-14\\RESULT.json",
+    "sha256": "b03292edde4db8758a4bf21fa9397efa669c9c1f164439e7cf5cd9b858caae2c"
+  },
+  "observedNativeActionView": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\smoke-rearm05-owned-native-action.png",
+    "sha256": "5358e4124efa4351108a18e04658715862dc33dd908fb4f81e742bdf65dbfbb5"
+  },
+  "packets": 63,
+  "bankTubeLocalId": 0,
+  "bankTubeAmmoBeforeAfter": [
+    0,
+    1
+  ],
+  "selectedBankAmmoBeforeAfter": [
+    0,
+    1
+  ],
+  "totalSmokeAmmoBeforeAfter": [
+    0,
+    1
+  ],
+  "exactFiniteCrateBeforeAfter": [
+    8,
+    7
+  ],
+  "otherObservedContributorBeforeAfter": [
+    0,
+    0
+  ],
+  "nativeControlsReleased": true,
+  "strictNativeOverall": "FAIL",
+  "strictNativeErrors": 58,
+  "geometryOrContextEdits": false,
+  "fullEightRefillAndNegativeCases": "NOT_TESTED",
+  "currentV11AndFinalWorldService": "NOT_TESTED",
+  "humanPhysicalInput": "NOT_TESTED",
+  "mainPackage08Modified": false,
+  "publication": false,
+  "newAcceptedCheckboxes": 0
+}

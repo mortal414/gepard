@@ -1,0 +1,1784 @@
+{
+  "schema": 1,
+  "status": "INDEPENDENT_ONE_NATIVE_FINITE_REARM_PAIR_OBSERVED_STRICT_FAIL58_PRESERVED",
+  "source": {
+    "bindingSHA256": "ed66a8370a29c86d023a0ba6ab00c3236b6a164a4ad9aad191638282e03ebf77",
+    "crewSealSHA256": "1b075a13d4c350367fa4e170deb38d009596afb18c9298fedd5f97659acfbd76",
+    "helperSHA256": "f3416464cfe8f5d4315700f25c00dd3c362cd747e68af7e424a49e063129196f",
+    "verification": {
+      "status": "SEALED_NATIVE_REARM_BINDING_SOURCE_ONLY",
+      "sourceFiles": 1207,
+      "expectedFiles": 1207,
+      "actualCompile": "REQUIRES_FRESH14",
+      "nativeStarted": false
+    },
+    "compile": {
+      "schema": 1,
+      "status": "SCRIPT_COMPILE_PASS_ADOPTED",
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+      "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-native-rearm-14",
+      "compilerResultSHA256": "b03292edde4db8758a4bf21fa9397efa669c9c1f164439e7cf5cd9b858caae2c",
+      "compilerConsoleSHA256": "83d3d1af43efddce9a5045836230b3a08134fee307a10fe06f95d9aaa19b7640",
+      "compilerIdentitySHA256": "f92ab8b14de58793c9e567caba56ec40eef68d801178f9e2825e63f4ce1104bd",
+      "launcherExitSHA256": "b6f047850b652024f8e152c595bd2ccac9aa1f5fff8f32610a151095372cdeec",
+      "compilerOwnerProjectVerified": true,
+      "nativeRuntime": "NOT_TESTED",
+      "nativeGameplay": "NOT_TESTED"
+    },
+    "closures": [
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\single\\gepard",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\GEPARD_SOURCE_MANIFEST.json",
+        "sha256": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+        "files": 1147
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\single\\wcsSmoke",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\WCSSMOKE_SOURCE_MANIFEST.json",
+        "sha256": "c11da2a21288f609198dd92e497cecead0ecac688fadb4691efc21381c86419d",
+        "files": 20
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\single\\qaSmoke",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\QA_SOURCE_MANIFEST.json",
+        "sha256": "576700235a214f21d868b2fa6d4d5f56165561ad95ea15a3481d40bdffbd9243",
+        "files": 37
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\dependencies\\WCS_Armaments",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\WCS_ARMAMENTS_SOURCE_MANIFEST.json",
+        "sha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+        "files": 3
+      }
+    ],
+    "totalFiles": 1207,
+    "scope": "MechanismControl1147 + smoke20 + QA37 + dependency3. This case is not currentV11/current1152 service qualification."
+  },
+  "caseId": "smoke-native-rearm-one",
+  "runId": "3539a3bf-af90-4249-afe0-c8ce75eb710a",
+  "nonce": "07dcc7d2784846d0b0b5d54ed9ae64aa9a64e29bda8c42f69d5dcfd016dcd30e",
+  "packetCount": 63,
+  "sequence": {
+    "first": 1,
+    "last": 63,
+    "stopOnlyLast": true
+  },
+  "nativeIdentities": {
+    "actorId": "0x400000000000003E {}",
+    "hullId": "0x400000000000000B {}",
+    "bankId": "0x400000000000002F {}",
+    "stationRootId": "0x4000000000000077 {}",
+    "crateId": "0x40000000000000BD {}",
+    "stationOwnerId": "0x4000000000000077 {}",
+    "consumerOwnerId": "0x4000000000000077 {}"
+  },
+  "before": {
+    "schema": 1,
+    "scope": "WCS_NATIVE_REARM",
+    "caseId": "smoke-native-rearm-one",
+    "nonce": "07dcc7d2784846d0b0b5d54ed9ae64aa9a64e29bda8c42f69d5dcfd016dcd30e",
+    "sequence": 11,
+    "phase": "before",
+    "stage": 6,
+    "reason": "NOT_STARTED",
+    "worldMs": 12285.03125,
+    "fixtureEpoch": 0,
+    "epochScope": "original_fresh_fixture_no_reset",
+    "actorId": "0x400000000000003E {}",
+    "hullId": "0x400000000000000B {}",
+    "bankId": "0x400000000000002F {}",
+    "stationRootId": "0x4000000000000077 {}",
+    "crateId": "0x40000000000000BD {}",
+    "stationOwnerId": "0x4000000000000077 {}",
+    "consumerOwnerId": "0x4000000000000077 {}",
+    "seatOwnerId": "0x4000000000000020 {}",
+    "seatName": "gep015_gunner",
+    "seatOccupantId": "NULL",
+    "boardRequested": true,
+    "programCount": 1,
+    "programRequested": true,
+    "exitRequested": true,
+    "censusIssue": "OK",
+    "seedComplete": true,
+    "actorOrigin": [
+      602.8992309570312,
+      39.0,
+      2600.91748046875
+    ],
+    "bankOrigin": [
+      601.139404296875,
+      41.83543395996094,
+      2601.23779296875
+    ],
+    "contextOrigin": [
+      601.139404296875,
+      41.83543395996094,
+      2601.412841796875
+    ],
+    "consumerPresent": true,
+    "queuePresent": true,
+    "sameOriginalConsumer": true,
+    "sameOriginalQueue": true,
+    "stationEnabled": true,
+    "stationRange": 9.0,
+    "stationSuppliesEnabled": true,
+    "consumerContainerCount": 2,
+    "consumerAggregate": 8.0,
+    "queueContributorCount": 2,
+    "sameOriginalReferences": true,
+    "controlledAliveEngineOff": true,
+    "actionId": 0,
+    "selectedSame": true,
+    "selectedStationSame": true,
+    "nativeCost": 1,
+    "nativeActionUserSame": false,
+    "nativeLoopProgress": 0.0,
+    "handlerPerforming": false,
+    "handlerPerformInput": false,
+    "handlerLastInput": false,
+    "handlerLastActionSame": true,
+    "canInteract": true,
+    "bankAmmo": 0,
+    "totalAmmo": 0,
+    "tubeOwnerIds": [
+      "0x400000000000002F {}",
+      "0x400000000000002F {}",
+      "0x400000000000002F {}",
+      "0x400000000000002F {}"
+    ],
+    "tubeIds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tubeAmmo": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "tubeCapacity": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "finiteCensusValid": true,
+    "stationAggregate": 8.0,
+    "contributorSum": 8.0,
+    "contributorOwnerIds": [
+      "0x40000000000000BD {}",
+      "0x40000000000000AE {}"
+    ],
+    "contributorParentIds": [
+      "NULL",
+      "0x4000000000000077 {}"
+    ],
+    "contributorRootIds": [
+      "0x40000000000000BD {}",
+      "0x4000000000000077 {}"
+    ],
+    "contributorValues": [
+      8.0,
+      0.0
+    ],
+    "contributorCapacities": [
+      8.0,
+      600.0
+    ],
+    "contributorIdentitySame": true,
+    "beforeAggregate": 8.0,
+    "beforeBankAmmo": 0,
+    "beforeTotalAmmo": 0,
+    "downSent": false,
+    "upSent": false,
+    "nativeStartObserved": false,
+    "observedPair": false,
+    "strictHelperSuccess": false,
+    "physicalKeyboard": false,
+    "acceptance": "NOT_TESTED",
+    "bankSide": "RIGHT_MAX_WORLD_X_FIXED_AT_START",
+    "approachWorldMin": [
+      598.1390380859375,
+      39.736087799072266,
+      2596.242919921875
+    ],
+    "approachWorldMax": [
+      602.4312744140625,
+      43.78099822998047,
+      2604.156005859375
+    ],
+    "approachStand": [
+      603.2312622070312,
+      39.0,
+      2601.412841796875
+    ],
+    "approachFlatDistance": 0.5963451862335205,
+    "actorTerrainY": 39.0,
+    "actorHeightAboveTerrain": 0.0,
+    "cameraOrigin": [
+      602.7964477539062,
+      40.63295364379883,
+      2600.952392578125
+    ],
+    "contextDistanceFeet": 3.3737306594848633,
+    "contextDistanceCamera": 2.098515033721924,
+    "contextRadius": 0.800000011920929,
+    "contextHeight": 0.6000000238418579,
+    "contextCapsule": true,
+    "handlerVisibilityRange": 2.5,
+    "contextVisibilityRange": 2.5,
+    "contextLOS": false,
+    "contextOmnidirectional": true,
+    "contextSelectedSame": true,
+    "walkPrepareCalls": 54,
+    "walkForwardAfterSuper": 0.0,
+    "walkMovementAfterSuper": "<0,0,0>"
+  },
+  "afterUpPair": {
+    "schema": 1,
+    "scope": "WCS_NATIVE_REARM",
+    "caseId": "smoke-native-rearm-one",
+    "nonce": "07dcc7d2784846d0b0b5d54ed9ae64aa9a64e29bda8c42f69d5dcfd016dcd30e",
+    "sequence": 47,
+    "phase": "after_up_pair",
+    "stage": 8,
+    "reason": "NOT_STARTED",
+    "worldMs": 12851.171875,
+    "fixtureEpoch": 0,
+    "epochScope": "original_fresh_fixture_no_reset",
+    "actorId": "0x400000000000003E {}",
+    "hullId": "0x400000000000000B {}",
+    "bankId": "0x400000000000002F {}",
+    "stationRootId": "0x4000000000000077 {}",
+    "crateId": "0x40000000000000BD {}",
+    "stationOwnerId": "0x4000000000000077 {}",
+    "consumerOwnerId": "0x4000000000000077 {}",
+    "seatOwnerId": "0x4000000000000020 {}",
+    "seatName": "gep015_gunner",
+    "seatOccupantId": "NULL",
+    "boardRequested": true,
+    "programCount": 1,
+    "programRequested": true,
+    "exitRequested": true,
+    "censusIssue": "OK",
+    "seedComplete": true,
+    "actorOrigin": [
+      602.7457275390625,
+      39.0,
+      2600.959716796875
+    ],
+    "bankOrigin": [
+      601.139404296875,
+      41.83543395996094,
+      2601.23779296875
+    ],
+    "contextOrigin": [
+      601.139404296875,
+      41.83543395996094,
+      2601.412841796875
+    ],
+    "consumerPresent": true,
+    "queuePresent": true,
+    "sameOriginalConsumer": true,
+    "sameOriginalQueue": true,
+    "stationEnabled": true,
+    "stationRange": 9.0,
+    "stationSuppliesEnabled": true,
+    "consumerContainerCount": 2,
+    "consumerAggregate": 7.0,
+    "queueContributorCount": 2,
+    "sameOriginalReferences": true,
+    "controlledAliveEngineOff": true,
+    "actionId": 0,
+    "selectedSame": true,
+    "selectedStationSame": true,
+    "nativeCost": 1,
+    "nativeActionUserSame": true,
+    "nativeLoopProgress": -0.03333331272006035,
+    "handlerPerforming": true,
+    "handlerPerformInput": false,
+    "handlerLastInput": true,
+    "handlerLastActionSame": true,
+    "canInteract": true,
+    "bankAmmo": 1,
+    "totalAmmo": 1,
+    "tubeOwnerIds": [
+      "0x400000000000002F {}",
+      "0x400000000000002F {}",
+      "0x400000000000002F {}",
+      "0x400000000000002F {}"
+    ],
+    "tubeIds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tubeAmmo": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "tubeCapacity": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "finiteCensusValid": true,
+    "stationAggregate": 7.0,
+    "contributorSum": 7.0,
+    "contributorOwnerIds": [
+      "0x40000000000000BD {}",
+      "0x40000000000000AE {}"
+    ],
+    "contributorParentIds": [
+      "NULL",
+      "0x4000000000000077 {}"
+    ],
+    "contributorRootIds": [
+      "0x40000000000000BD {}",
+      "0x4000000000000077 {}"
+    ],
+    "contributorValues": [
+      7.0,
+      0.0
+    ],
+    "contributorCapacities": [
+      8.0,
+      600.0
+    ],
+    "contributorIdentitySame": true,
+    "beforeAggregate": 8.0,
+    "beforeBankAmmo": 0,
+    "beforeTotalAmmo": 0,
+    "downSent": true,
+    "upSent": true,
+    "nativeStartObserved": true,
+    "observedPair": true,
+    "strictHelperSuccess": false,
+    "physicalKeyboard": false,
+    "acceptance": "NOT_TESTED",
+    "bankSide": "RIGHT_MAX_WORLD_X_FIXED_AT_START",
+    "approachWorldMin": [
+      598.1390380859375,
+      39.736087799072266,
+      2596.242919921875
+    ],
+    "approachWorldMax": [
+      601.8609619140625,
+      43.78099822998047,
+      2604.156005859375
+    ],
+    "approachStand": [
+      602.6609497070312,
+      39.0,
+      2601.412841796875
+    ],
+    "approachFlatDistance": 0.4609875977039337,
+    "actorTerrainY": 39.0,
+    "actorHeightAboveTerrain": 0.0,
+    "cameraOrigin": [
+      602.7418823242188,
+      40.656219482421875,
+      2601.034912109375
+    ],
+    "contextDistanceFeet": 3.29017972946167,
+    "contextDistanceCamera": 2.025169849395752,
+    "contextRadius": 0.800000011920929,
+    "contextHeight": 0.6000000238418579,
+    "contextCapsule": true,
+    "handlerVisibilityRange": 2.5,
+    "contextVisibilityRange": 2.5,
+    "contextLOS": false,
+    "contextOmnidirectional": true,
+    "contextSelectedSame": true,
+    "walkPrepareCalls": 54,
+    "walkForwardAfterSuper": 0.0,
+    "walkMovementAfterSuper": "<0,0,0>"
+  },
+  "stop": {
+    "schema": 1,
+    "scope": "WCS_NATIVE_REARM",
+    "caseId": "smoke-native-rearm-one",
+    "nonce": "07dcc7d2784846d0b0b5d54ed9ae64aa9a64e29bda8c42f69d5dcfd016dcd30e",
+    "sequence": 63,
+    "phase": "stop",
+    "stage": 8,
+    "reason": "one_native_pair_observed_REVIEW_REQUIRED",
+    "worldMs": 13101.2763671875,
+    "fixtureEpoch": 0,
+    "epochScope": "original_fresh_fixture_no_reset",
+    "actorId": "0x400000000000003E {}",
+    "hullId": "0x400000000000000B {}",
+    "bankId": "0x400000000000002F {}",
+    "stationRootId": "0x4000000000000077 {}",
+    "crateId": "0x40000000000000BD {}",
+    "stationOwnerId": "0x4000000000000077 {}",
+    "consumerOwnerId": "0x4000000000000077 {}",
+    "seatOwnerId": "0x4000000000000020 {}",
+    "seatName": "gep015_gunner",
+    "seatOccupantId": "NULL",
+    "boardRequested": true,
+    "programCount": 1,
+    "programRequested": true,
+    "exitRequested": true,
+    "censusIssue": "OK",
+    "seedComplete": true,
+    "actorOrigin": [
+      602.7457275390625,
+      39.0,
+      2600.959716796875
+    ],
+    "bankOrigin": [
+      601.139404296875,
+      41.83543395996094,
+      2601.23779296875
+    ],
+    "contextOrigin": [
+      601.139404296875,
+      41.83543395996094,
+      2601.412841796875
+    ],
+    "consumerPresent": true,
+    "queuePresent": true,
+    "sameOriginalConsumer": true,
+    "sameOriginalQueue": true,
+    "stationEnabled": true,
+    "stationRange": 9.0,
+    "stationSuppliesEnabled": true,
+    "consumerContainerCount": 2,
+    "consumerAggregate": 7.0,
+    "queueContributorCount": 2,
+    "sameOriginalReferences": true,
+    "controlledAliveEngineOff": true,
+    "actionId": 0,
+    "selectedSame": true,
+    "selectedStationSame": true,
+    "nativeCost": 1,
+    "nativeActionUserSame": false,
+    "nativeLoopProgress": -0.03333331272006035,
+    "handlerPerforming": false,
+    "handlerPerformInput": false,
+    "handlerLastInput": false,
+    "handlerLastActionSame": true,
+    "canInteract": true,
+    "bankAmmo": 1,
+    "totalAmmo": 1,
+    "tubeOwnerIds": [
+      "0x400000000000002F {}",
+      "0x400000000000002F {}",
+      "0x400000000000002F {}",
+      "0x400000000000002F {}"
+    ],
+    "tubeIds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tubeAmmo": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "tubeCapacity": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "finiteCensusValid": true,
+    "stationAggregate": 7.0,
+    "contributorSum": 7.0,
+    "contributorOwnerIds": [
+      "0x40000000000000BD {}",
+      "0x40000000000000AE {}"
+    ],
+    "contributorParentIds": [
+      "NULL",
+      "0x4000000000000077 {}"
+    ],
+    "contributorRootIds": [
+      "0x40000000000000BD {}",
+      "0x4000000000000077 {}"
+    ],
+    "contributorValues": [
+      7.0,
+      0.0
+    ],
+    "contributorCapacities": [
+      8.0,
+      600.0
+    ],
+    "contributorIdentitySame": true,
+    "beforeAggregate": 8.0,
+    "beforeBankAmmo": 0,
+    "beforeTotalAmmo": 0,
+    "downSent": true,
+    "upSent": true,
+    "nativeStartObserved": true,
+    "observedPair": true,
+    "strictHelperSuccess": true,
+    "physicalKeyboard": false,
+    "acceptance": "NOT_TESTED",
+    "bankSide": "RIGHT_MAX_WORLD_X_FIXED_AT_START",
+    "approachWorldMin": [
+      598.1390380859375,
+      39.736087799072266,
+      2596.242919921875
+    ],
+    "approachWorldMax": [
+      601.8609619140625,
+      43.78099822998047,
+      2604.156005859375
+    ],
+    "approachStand": [
+      602.6609497070312,
+      39.0,
+      2601.412841796875
+    ],
+    "approachFlatDistance": 0.4609875977039337,
+    "actorTerrainY": 39.0,
+    "actorHeightAboveTerrain": 0.0,
+    "cameraOrigin": [
+      602.7608642578125,
+      40.65556335449219,
+      2601.0380859375
+    ],
+    "contextDistanceFeet": 3.29017972946167,
+    "contextDistanceCamera": 2.0400168895721436,
+    "contextRadius": 0.800000011920929,
+    "contextHeight": 0.6000000238418579,
+    "contextCapsule": true,
+    "handlerVisibilityRange": 2.5,
+    "contextVisibilityRange": 2.5,
+    "contextLOS": false,
+    "contextOmnidirectional": true,
+    "contextSelectedSame": true,
+    "walkPrepareCalls": 54,
+    "walkForwardAfterSuper": 0.0,
+    "walkMovementAfterSuper": "<0,0,0>"
+  },
+  "tubeDeltas": {
+    "('0x400000000000002F {}', 0)": 1,
+    "('0x400000000000002F {}', 1)": 0,
+    "('0x400000000000002F {}', 2)": 0,
+    "('0x400000000000002F {}', 3)": 0
+  },
+  "finiteContributorDebits": {
+    "0x40000000000000BD {}": 1.0,
+    "0x40000000000000AE {}": 0.0
+  },
+  "sourceContainerBefore": {
+    "0x40000000000000BD {}": [
+      8.0,
+      8.0,
+      "NULL",
+      "0x40000000000000BD {}"
+    ],
+    "0x40000000000000AE {}": [
+      0.0,
+      600.0,
+      "0x4000000000000077 {}",
+      "0x4000000000000077 {}"
+    ]
+  },
+  "sourceContainerAfter": {
+    "0x40000000000000BD {}": [
+      7.0,
+      8.0,
+      "NULL",
+      "0x40000000000000BD {}"
+    ],
+    "0x40000000000000AE {}": [
+      0.0,
+      600.0,
+      "0x4000000000000077 {}",
+      "0x4000000000000077 {}"
+    ]
+  },
+  "selectedBankTubeBefore": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "selectedBankTubeAfter": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "allOtherSelectedTubesUnchanged": true,
+  "otherBankAggregateAtEveryHeldOrReleasedSample": 0,
+  "otherBankIdentityLimit": "Other bank individual IDs/ammo are not explicitly packetized; totalAmmo minus selected bankAmmo remains zero, supporting unchanged empty aggregate without inventing individual-ID readbacks.",
+  "nativeControl": {
+    "naturalContext": {
+      "schema": 1,
+      "scope": "WCS_NATIVE_REARM",
+      "caseId": "smoke-native-rearm-one",
+      "nonce": "07dcc7d2784846d0b0b5d54ed9ae64aa9a64e29bda8c42f69d5dcfd016dcd30e",
+      "sequence": 9,
+      "phase": "phase_natural_context",
+      "stage": 6,
+      "reason": "NOT_STARTED",
+      "worldMs": 12268.4013671875,
+      "fixtureEpoch": 0,
+      "epochScope": "original_fresh_fixture_no_reset",
+      "actorId": "0x400000000000003E {}",
+      "hullId": "0x400000000000000B {}",
+      "bankId": "0x400000000000002F {}",
+      "stationRootId": "0x4000000000000077 {}",
+      "crateId": "0x40000000000000BD {}",
+      "stationOwnerId": "0x4000000000000077 {}",
+      "consumerOwnerId": "0x4000000000000077 {}",
+      "seatOwnerId": "0x4000000000000020 {}",
+      "seatName": "gep015_gunner",
+      "seatOccupantId": "NULL",
+      "boardRequested": true,
+      "programCount": 1,
+      "programRequested": true,
+      "exitRequested": true,
+      "censusIssue": "OK",
+      "seedComplete": true,
+      "actorOrigin": [
+        602.8992309570312,
+        39.0,
+        2600.91748046875
+      ],
+      "bankOrigin": [
+        601.139404296875,
+        41.83543395996094,
+        2601.23779296875
+      ],
+      "contextOrigin": [
+        601.139404296875,
+        41.83543395996094,
+        2601.412841796875
+      ],
+      "consumerPresent": true,
+      "queuePresent": true,
+      "sameOriginalConsumer": true,
+      "sameOriginalQueue": true,
+      "stationEnabled": true,
+      "stationRange": 9.0,
+      "stationSuppliesEnabled": true,
+      "consumerContainerCount": 2,
+      "consumerAggregate": 8.0,
+      "queueContributorCount": 2,
+      "sameOriginalReferences": true,
+      "controlledAliveEngineOff": true,
+      "actionId": -1,
+      "selectedSame": false,
+      "selectedStationSame": false,
+      "nativeCost": -1,
+      "nativeActionUserSame": false,
+      "nativeLoopProgress": -1.0,
+      "handlerPerforming": false,
+      "handlerPerformInput": false,
+      "handlerLastInput": false,
+      "handlerLastActionSame": false,
+      "canInteract": true,
+      "bankAmmo": 0,
+      "totalAmmo": 0,
+      "tubeOwnerIds": [
+        "0x400000000000002F {}",
+        "0x400000000000002F {}",
+        "0x400000000000002F {}",
+        "0x400000000000002F {}"
+      ],
+      "tubeIds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tubeAmmo": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tubeCapacity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "finiteCensusValid": true,
+      "stationAggregate": 8.0,
+      "contributorSum": 8.0,
+      "contributorOwnerIds": [
+        "0x40000000000000BD {}",
+        "0x40000000000000AE {}"
+      ],
+      "contributorParentIds": [
+        "NULL",
+        "0x4000000000000077 {}"
+      ],
+      "contributorRootIds": [
+        "0x40000000000000BD {}",
+        "0x4000000000000077 {}"
+      ],
+      "contributorValues": [
+        8.0,
+        0.0
+      ],
+      "contributorCapacities": [
+        8.0,
+        600.0
+      ],
+      "contributorIdentitySame": false,
+      "beforeAggregate": -1.0,
+      "beforeBankAmmo": -1,
+      "beforeTotalAmmo": -1,
+      "downSent": false,
+      "upSent": false,
+      "nativeStartObserved": false,
+      "observedPair": false,
+      "strictHelperSuccess": false,
+      "physicalKeyboard": false,
+      "acceptance": "NOT_TESTED",
+      "bankSide": "RIGHT_MAX_WORLD_X_FIXED_AT_START",
+      "approachWorldMin": [
+        598.1390380859375,
+        39.736087799072266,
+        2596.242919921875
+      ],
+      "approachWorldMax": [
+        602.4312744140625,
+        43.78099822998047,
+        2604.156005859375
+      ],
+      "approachStand": [
+        603.2312622070312,
+        39.0,
+        2601.412841796875
+      ],
+      "approachFlatDistance": 0.5963451862335205,
+      "actorTerrainY": 39.0,
+      "actorHeightAboveTerrain": 0.0,
+      "cameraOrigin": [
+        602.8192749023438,
+        40.631587982177734,
+        2600.9482421875
+      ],
+      "contextDistanceFeet": 3.3737306594848633,
+      "contextDistanceCamera": 2.1182687282562256,
+      "contextRadius": 0.800000011920929,
+      "contextHeight": 0.6000000238418579,
+      "contextCapsule": true,
+      "handlerVisibilityRange": 2.5,
+      "contextVisibilityRange": 2.5,
+      "contextLOS": false,
+      "contextOmnidirectional": true,
+      "contextSelectedSame": true,
+      "walkPrepareCalls": 54,
+      "walkForwardAfterSuper": 0.0,
+      "walkMovementAfterSuper": "<0,0,0>"
+    },
+    "admission": {
+      "schema": 1,
+      "scope": "WCS_NATIVE_REARM",
+      "caseId": "smoke-native-rearm-one",
+      "nonce": "07dcc7d2784846d0b0b5d54ed9ae64aa9a64e29bda8c42f69d5dcfd016dcd30e",
+      "sequence": 10,
+      "phase": "admission",
+      "stage": 6,
+      "reason": "NOT_STARTED",
+      "worldMs": 12285.03125,
+      "fixtureEpoch": 0,
+      "epochScope": "original_fresh_fixture_no_reset",
+      "actorId": "0x400000000000003E {}",
+      "hullId": "0x400000000000000B {}",
+      "bankId": "0x400000000000002F {}",
+      "stationRootId": "0x4000000000000077 {}",
+      "crateId": "0x40000000000000BD {}",
+      "stationOwnerId": "0x4000000000000077 {}",
+      "consumerOwnerId": "0x4000000000000077 {}",
+      "seatOwnerId": "0x4000000000000020 {}",
+      "seatName": "gep015_gunner",
+      "seatOccupantId": "NULL",
+      "boardRequested": true,
+      "programCount": 1,
+      "programRequested": true,
+      "exitRequested": true,
+      "censusIssue": "OK",
+      "seedComplete": true,
+      "actorOrigin": [
+        602.8992309570312,
+        39.0,
+        2600.91748046875
+      ],
+      "bankOrigin": [
+        601.139404296875,
+        41.83543395996094,
+        2601.23779296875
+      ],
+      "contextOrigin": [
+        601.139404296875,
+        41.83543395996094,
+        2601.412841796875
+      ],
+      "consumerPresent": true,
+      "queuePresent": true,
+      "sameOriginalConsumer": true,
+      "sameOriginalQueue": true,
+      "stationEnabled": true,
+      "stationRange": 9.0,
+      "stationSuppliesEnabled": true,
+      "consumerContainerCount": 2,
+      "consumerAggregate": 8.0,
+      "queueContributorCount": 2,
+      "sameOriginalReferences": true,
+      "controlledAliveEngineOff": true,
+      "actionId": 0,
+      "selectedSame": true,
+      "selectedStationSame": true,
+      "nativeCost": 1,
+      "nativeActionUserSame": false,
+      "nativeLoopProgress": 0.0,
+      "handlerPerforming": false,
+      "handlerPerformInput": false,
+      "handlerLastInput": false,
+      "handlerLastActionSame": true,
+      "canInteract": true,
+      "bankAmmo": 0,
+      "totalAmmo": 0,
+      "tubeOwnerIds": [
+        "0x400000000000002F {}",
+        "0x400000000000002F {}",
+        "0x400000000000002F {}",
+        "0x400000000000002F {}"
+      ],
+      "tubeIds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tubeAmmo": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tubeCapacity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "finiteCensusValid": true,
+      "stationAggregate": 8.0,
+      "contributorSum": 8.0,
+      "contributorOwnerIds": [
+        "0x40000000000000BD {}",
+        "0x40000000000000AE {}"
+      ],
+      "contributorParentIds": [
+        "NULL",
+        "0x4000000000000077 {}"
+      ],
+      "contributorRootIds": [
+        "0x40000000000000BD {}",
+        "0x4000000000000077 {}"
+      ],
+      "contributorValues": [
+        8.0,
+        0.0
+      ],
+      "contributorCapacities": [
+        8.0,
+        600.0
+      ],
+      "contributorIdentitySame": true,
+      "beforeAggregate": 8.0,
+      "beforeBankAmmo": 0,
+      "beforeTotalAmmo": 0,
+      "downSent": false,
+      "upSent": false,
+      "nativeStartObserved": false,
+      "observedPair": false,
+      "strictHelperSuccess": false,
+      "physicalKeyboard": false,
+      "acceptance": "NOT_TESTED",
+      "bankSide": "RIGHT_MAX_WORLD_X_FIXED_AT_START",
+      "approachWorldMin": [
+        598.1390380859375,
+        39.736087799072266,
+        2596.242919921875
+      ],
+      "approachWorldMax": [
+        602.4312744140625,
+        43.78099822998047,
+        2604.156005859375
+      ],
+      "approachStand": [
+        603.2312622070312,
+        39.0,
+        2601.412841796875
+      ],
+      "approachFlatDistance": 0.5963451862335205,
+      "actorTerrainY": 39.0,
+      "actorHeightAboveTerrain": 0.0,
+      "cameraOrigin": [
+        602.7964477539062,
+        40.63295364379883,
+        2600.952392578125
+      ],
+      "contextDistanceFeet": 3.3737306594848633,
+      "contextDistanceCamera": 2.098515033721924,
+      "contextRadius": 0.800000011920929,
+      "contextHeight": 0.6000000238418579,
+      "contextCapsule": true,
+      "handlerVisibilityRange": 2.5,
+      "contextVisibilityRange": 2.5,
+      "contextLOS": false,
+      "contextOmnidirectional": true,
+      "contextSelectedSame": true,
+      "walkPrepareCalls": 54,
+      "walkForwardAfterSuper": 0.0,
+      "walkMovementAfterSuper": "<0,0,0>"
+    },
+    "down": {
+      "schema": 1,
+      "scope": "WCS_NATIVE_REARM",
+      "caseId": "smoke-native-rearm-one",
+      "nonce": "07dcc7d2784846d0b0b5d54ed9ae64aa9a64e29bda8c42f69d5dcfd016dcd30e",
+      "sequence": 12,
+      "phase": "hold_down",
+      "stage": 7,
+      "reason": "NOT_STARTED",
+      "worldMs": 12285.03125,
+      "fixtureEpoch": 0,
+      "epochScope": "original_fresh_fixture_no_reset",
+      "actorId": "0x400000000000003E {}",
+      "hullId": "0x400000000000000B {}",
+      "bankId": "0x400000000000002F {}",
+      "stationRootId": "0x4000000000000077 {}",
+      "crateId": "0x40000000000000BD {}",
+      "stationOwnerId": "0x4000000000000077 {}",
+      "consumerOwnerId": "0x4000000000000077 {}",
+      "seatOwnerId": "0x4000000000000020 {}",
+      "seatName": "gep015_gunner",
+      "seatOccupantId": "NULL",
+      "boardRequested": true,
+      "programCount": 1,
+      "programRequested": true,
+      "exitRequested": true,
+      "censusIssue": "OK",
+      "seedComplete": true,
+      "actorOrigin": [
+        602.8992309570312,
+        39.0,
+        2600.91748046875
+      ],
+      "bankOrigin": [
+        601.139404296875,
+        41.83543395996094,
+        2601.23779296875
+      ],
+      "contextOrigin": [
+        601.139404296875,
+        41.83543395996094,
+        2601.412841796875
+      ],
+      "consumerPresent": true,
+      "queuePresent": true,
+      "sameOriginalConsumer": true,
+      "sameOriginalQueue": true,
+      "stationEnabled": true,
+      "stationRange": 9.0,
+      "stationSuppliesEnabled": true,
+      "consumerContainerCount": 2,
+      "consumerAggregate": 8.0,
+      "queueContributorCount": 2,
+      "sameOriginalReferences": true,
+      "controlledAliveEngineOff": true,
+      "actionId": 0,
+      "selectedSame": true,
+      "selectedStationSame": true,
+      "nativeCost": 1,
+      "nativeActionUserSame": false,
+      "nativeLoopProgress": 0.0,
+      "handlerPerforming": false,
+      "handlerPerformInput": true,
+      "handlerLastInput": false,
+      "handlerLastActionSame": true,
+      "canInteract": true,
+      "bankAmmo": 0,
+      "totalAmmo": 0,
+      "tubeOwnerIds": [
+        "0x400000000000002F {}",
+        "0x400000000000002F {}",
+        "0x400000000000002F {}",
+        "0x400000000000002F {}"
+      ],
+      "tubeIds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tubeAmmo": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tubeCapacity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "finiteCensusValid": true,
+      "stationAggregate": 8.0,
+      "contributorSum": 8.0,
+      "contributorOwnerIds": [
+        "0x40000000000000BD {}",
+        "0x40000000000000AE {}"
+      ],
+      "contributorParentIds": [
+        "NULL",
+        "0x4000000000000077 {}"
+      ],
+      "contributorRootIds": [
+        "0x40000000000000BD {}",
+        "0x4000000000000077 {}"
+      ],
+      "contributorValues": [
+        8.0,
+        0.0
+      ],
+      "contributorCapacities": [
+        8.0,
+        600.0
+      ],
+      "contributorIdentitySame": true,
+      "beforeAggregate": 8.0,
+      "beforeBankAmmo": 0,
+      "beforeTotalAmmo": 0,
+      "downSent": true,
+      "upSent": false,
+      "nativeStartObserved": false,
+      "observedPair": false,
+      "strictHelperSuccess": false,
+      "physicalKeyboard": false,
+      "acceptance": "NOT_TESTED",
+      "bankSide": "RIGHT_MAX_WORLD_X_FIXED_AT_START",
+      "approachWorldMin": [
+        598.1390380859375,
+        39.736087799072266,
+        2596.242919921875
+      ],
+      "approachWorldMax": [
+        602.4312744140625,
+        43.78099822998047,
+        2604.156005859375
+      ],
+      "approachStand": [
+        603.2312622070312,
+        39.0,
+        2601.412841796875
+      ],
+      "approachFlatDistance": 0.5963451862335205,
+      "actorTerrainY": 39.0,
+      "actorHeightAboveTerrain": 0.0,
+      "cameraOrigin": [
+        602.7964477539062,
+        40.63295364379883,
+        2600.952392578125
+      ],
+      "contextDistanceFeet": 3.3737306594848633,
+      "contextDistanceCamera": 2.098515033721924,
+      "contextRadius": 0.800000011920929,
+      "contextHeight": 0.6000000238418579,
+      "contextCapsule": true,
+      "handlerVisibilityRange": 2.5,
+      "contextVisibilityRange": 2.5,
+      "contextLOS": false,
+      "contextOmnidirectional": true,
+      "contextSelectedSame": true,
+      "walkPrepareCalls": 54,
+      "walkForwardAfterSuper": 0.0,
+      "walkMovementAfterSuper": "<0,0,0>"
+    },
+    "up": {
+      "schema": 1,
+      "scope": "WCS_NATIVE_REARM",
+      "caseId": "smoke-native-rearm-one",
+      "nonce": "07dcc7d2784846d0b0b5d54ed9ae64aa9a64e29bda8c42f69d5dcfd016dcd30e",
+      "sequence": 47,
+      "phase": "after_up_pair",
+      "stage": 8,
+      "reason": "NOT_STARTED",
+      "worldMs": 12851.171875,
+      "fixtureEpoch": 0,
+      "epochScope": "original_fresh_fixture_no_reset",
+      "actorId": "0x400000000000003E {}",
+      "hullId": "0x400000000000000B {}",
+      "bankId": "0x400000000000002F {}",
+      "stationRootId": "0x4000000000000077 {}",
+      "crateId": "0x40000000000000BD {}",
+      "stationOwnerId": "0x4000000000000077 {}",
+      "consumerOwnerId": "0x4000000000000077 {}",
+      "seatOwnerId": "0x4000000000000020 {}",
+      "seatName": "gep015_gunner",
+      "seatOccupantId": "NULL",
+      "boardRequested": true,
+      "programCount": 1,
+      "programRequested": true,
+      "exitRequested": true,
+      "censusIssue": "OK",
+      "seedComplete": true,
+      "actorOrigin": [
+        602.7457275390625,
+        39.0,
+        2600.959716796875
+      ],
+      "bankOrigin": [
+        601.139404296875,
+        41.83543395996094,
+        2601.23779296875
+      ],
+      "contextOrigin": [
+        601.139404296875,
+        41.83543395996094,
+        2601.412841796875
+      ],
+      "consumerPresent": true,
+      "queuePresent": true,
+      "sameOriginalConsumer": true,
+      "sameOriginalQueue": true,
+      "stationEnabled": true,
+      "stationRange": 9.0,
+      "stationSuppliesEnabled": true,
+      "consumerContainerCount": 2,
+      "consumerAggregate": 7.0,
+      "queueContributorCount": 2,
+      "sameOriginalReferences": true,
+      "controlledAliveEngineOff": true,
+      "actionId": 0,
+      "selectedSame": true,
+      "selectedStationSame": true,
+      "nativeCost": 1,
+      "nativeActionUserSame": true,
+      "nativeLoopProgress": -0.03333331272006035,
+      "handlerPerforming": true,
+      "handlerPerformInput": false,
+      "handlerLastInput": true,
+      "handlerLastActionSame": true,
+      "canInteract": true,
+      "bankAmmo": 1,
+      "totalAmmo": 1,
+      "tubeOwnerIds": [
+        "0x400000000000002F {}",
+        "0x400000000000002F {}",
+        "0x400000000000002F {}",
+        "0x400000000000002F {}"
+      ],
+      "tubeIds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tubeAmmo": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "tubeCapacity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "finiteCensusValid": true,
+      "stationAggregate": 7.0,
+      "contributorSum": 7.0,
+      "contributorOwnerIds": [
+        "0x40000000000000BD {}",
+        "0x40000000000000AE {}"
+      ],
+      "contributorParentIds": [
+        "NULL",
+        "0x4000000000000077 {}"
+      ],
+      "contributorRootIds": [
+        "0x40000000000000BD {}",
+        "0x4000000000000077 {}"
+      ],
+      "contributorValues": [
+        7.0,
+        0.0
+      ],
+      "contributorCapacities": [
+        8.0,
+        600.0
+      ],
+      "contributorIdentitySame": true,
+      "beforeAggregate": 8.0,
+      "beforeBankAmmo": 0,
+      "beforeTotalAmmo": 0,
+      "downSent": true,
+      "upSent": true,
+      "nativeStartObserved": true,
+      "observedPair": true,
+      "strictHelperSuccess": false,
+      "physicalKeyboard": false,
+      "acceptance": "NOT_TESTED",
+      "bankSide": "RIGHT_MAX_WORLD_X_FIXED_AT_START",
+      "approachWorldMin": [
+        598.1390380859375,
+        39.736087799072266,
+        2596.242919921875
+      ],
+      "approachWorldMax": [
+        601.8609619140625,
+        43.78099822998047,
+        2604.156005859375
+      ],
+      "approachStand": [
+        602.6609497070312,
+        39.0,
+        2601.412841796875
+      ],
+      "approachFlatDistance": 0.4609875977039337,
+      "actorTerrainY": 39.0,
+      "actorHeightAboveTerrain": 0.0,
+      "cameraOrigin": [
+        602.7418823242188,
+        40.656219482421875,
+        2601.034912109375
+      ],
+      "contextDistanceFeet": 3.29017972946167,
+      "contextDistanceCamera": 2.025169849395752,
+      "contextRadius": 0.800000011920929,
+      "contextHeight": 0.6000000238418579,
+      "contextCapsule": true,
+      "handlerVisibilityRange": 2.5,
+      "contextVisibilityRange": 2.5,
+      "contextLOS": false,
+      "contextOmnidirectional": true,
+      "contextSelectedSame": true,
+      "walkPrepareCalls": 54,
+      "walkForwardAfterSuper": 0.0,
+      "walkMovementAfterSuper": "<0,0,0>"
+    },
+    "released": true,
+    "performingNativeSamples": 35,
+    "downToUpMs": 566.140625,
+    "physicalKeyboard": false,
+    "scriptScope": "Native user-action input hold, not a physical keyboard test; no direct transfer callback or target/provider setter is used in the held transfer path."
+  },
+  "sourceConservation": {
+    "tubeGain": 1,
+    "finiteCrateDebit": 1,
+    "stationConsumerContributorDebit": 1,
+    "otherContributorDebit": 0,
+    "exactOriginalQueueAndConsumer": true
+  },
+  "lifecycle": {
+    "infrastructure": {
+      "status": "PASS",
+      "reason": "Actual compile/source pins, fresh mechanism telemetry/capture availability and exact normal owned closure; cloud/manual acceptance separate"
+    },
+    "lifecycle": {
+      "status": "PASS",
+      "reason": "Original wrapper exact owner/argv receipts, verified normal exit and same released lease",
+      "verifiedExited": true,
+      "leaseReleased": true
+    },
+    "owner": {
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+      "managedCreationUtc": "2026-10-22T12:05:54.3476332Z",
+      "creationUtc": "2026-10-22T12:05:54.3476330Z",
+      "pid": 2624,
+      "exe": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe",
+      "profile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile",
+      "leaseId": "c455724a-d4aa-42a0-a13e-a1277aacc17a",
+      "args": [
+        "-profile",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile",
+        "-logsDir",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\logs",
+        "-addonDownloadDir",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\downloads",
+        "-window",
+        "-screenWidth",
+        "1280",
+        "-screenHeight",
+        "720",
+        "-maxFPS",
+        "60",
+        "-noSplash",
+        "-forceUpdate",
+        "-addonsDir",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\single,D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "-addons",
+        "7E0150C026102500",
+        "-world",
+        "Worlds/GEP215_WCSService.ent",
+        "-worldSystemsConfig",
+        "{C50579A2EC48E8EF}Configs/Systems/MissionSystems.conf",
+        "-noBackend",
+        "-noFocus"
+      ]
+    },
+    "privateOwner": {
+      "leaseId": "c455724a-d4aa-42a0-a13e-a1277aacc17a",
+      "owner": "Gepard serial scene coordinator",
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-native-rearm-stage-v5\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+      "workRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run",
+      "runId": "84153d2f-87ed-4116-9af2-302aac18331b",
+      "ownerKey": "a4fe2f2596fd4fbc9a7375374e03bdcbf7e00c0205044870b4f2c6b1c4e63f05"
+    },
+    "exit": {
+      "exitCode": 0,
+      "leaseReleased": true,
+      "verifiedExited": true,
+      "cancelRequested": false,
+      "closeMethod": "owned-normal-window-close",
+      "utc": "2026-10-22T12:07:55.8824890Z"
+    }
+  },
+  "strictNativeResult": "FAIL",
+  "allChannelEF": [
+    {
+      "line": 53,
+      "text": "07:05:54.769   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\""
+    },
+    {
+      "line": 121,
+      "text": "07:05:55.659   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+    },
+    {
+      "line": 177,
+      "text": "07:05:57.606             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+    },
+    {
+      "line": 188,
+      "text": "07:05:57.703               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+    },
+    {
+      "line": 189,
+      "text": "07:05:57.703               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+    },
+    {
+      "line": 190,
+      "text": "07:05:57.703               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+    },
+    {
+      "line": 191,
+      "text": "07:05:57.703               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+    },
+    {
+      "line": 200,
+      "text": "07:05:57.708             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+    },
+    {
+      "line": 201,
+      "text": "07:05:57.708             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+    },
+    {
+      "line": 710,
+      "text": "07:07:55.529 RESOURCES (E): ==== Resource leaks ===="
+    },
+    {
+      "line": 711,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+    },
+    {
+      "line": 712,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+    },
+    {
+      "line": 713,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+    },
+    {
+      "line": 714,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+    },
+    {
+      "line": 715,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+    },
+    {
+      "line": 716,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+    },
+    {
+      "line": 717,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+    },
+    {
+      "line": 718,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+    },
+    {
+      "line": 719,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+    },
+    {
+      "line": 720,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+    },
+    {
+      "line": 721,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 722,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+    },
+    {
+      "line": 723,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 724,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+    },
+    {
+      "line": 725,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+    },
+    {
+      "line": 726,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+    },
+    {
+      "line": 727,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+    },
+    {
+      "line": 728,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+    },
+    {
+      "line": 729,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+    },
+    {
+      "line": 730,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+    },
+    {
+      "line": 731,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+    },
+    {
+      "line": 732,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 733,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 734,
+      "text": "07:07:55.529 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+    },
+    {
+      "line": 735,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+    },
+    {
+      "line": 736,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 737,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 738,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+    },
+    {
+      "line": 739,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+    },
+    {
+      "line": 740,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+    },
+    {
+      "line": 741,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+    },
+    {
+      "line": 742,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 743,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+    },
+    {
+      "line": 744,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+    },
+    {
+      "line": 745,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+    },
+    {
+      "line": 746,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 747,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+    },
+    {
+      "line": 748,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+    },
+    {
+      "line": 749,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+    },
+    {
+      "line": 750,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+    },
+    {
+      "line": 751,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+    },
+    {
+      "line": 752,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+    },
+    {
+      "line": 753,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+    },
+    {
+      "line": 754,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+    },
+    {
+      "line": 755,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+    },
+    {
+      "line": 756,
+      "text": "07:07:55.529 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+    },
+    {
+      "line": 757,
+      "text": "07:07:55.529 RESOURCES (E): UI/Imagesets/default.edds   1"
+    },
+    {
+      "line": 758,
+      "text": "07:07:55.529 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+    }
+  ],
+  "omittedErrors": 0,
+  "screenshot": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\smoke-rearm05-owned-native-action.png",
+    "sha256": "5358e4124efa4351108a18e04658715862dc33dd908fb4f81e742bdf65dbfbb5",
+    "independentlyViewed": true,
+    "observedText": "Rearm Dispenser: Smoke (1/4) [1/7]",
+    "association": "Root-associated owned screenshot; UI corroborates durable packet values but does not replace exact nonce/job/source proof."
+  },
+  "remainingGates": [
+    "Full8 refill/repeat/cooldown and genuine empty/insufficient-supply/range/selection/role controls",
+    "Current V11/current1152 service integration for both skins",
+    "Ordinary physical controls/menu and human usability",
+    "MP/JIP/dedicated",
+    "Whole smoke/service acceptance, package/dependency integration and publication if separately requested"
+  ],
+  "inputPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\SOURCE-MANIFEST.json": "ed66a8370a29c86d023a0ba6ab00c3236b6a164a4ad9aad191638282e03ebf77",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\MANIFEST.json": "1b075a13d4c350367fa4e170deb38d009596afb18c9298fedd5f97659acfbd76",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\GEP215_WCSNativeRearmOne.c": "f3416464cfe8f5d4315700f25c00dd3c362cd747e68af7e424a49e063129196f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\smoke-native-rearm-one-job.json": "fef9d8b1023e2ec4d514669fd14d114583c22a27895989e997604519fa47d320",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\ACTUAL04-EVIDENCE.json": "539ef7e37fff22b9a65802434f060408c02ad56138832286255f2b77cdb39e55",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adapter.py": "8e4b5606cd2a385eb7fdd6048c91282b0217005726082dc364c200bd184a41cc",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adoption.py": "bf18e91baf75f403ce8d5e00b07500b26b491d5e86696af60ed59f0a1bfceb8a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\build_v5.py": "3c77e39502756933b8b0b6490fd2d4c8126dc64a36f181f9b23ef62703f13061",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\CheckSyntax.ps1": "34ae7587e44bbe92b20eee6e0ad661d5ed6d9ed7c145752fc3ffa84a7f640eb0",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\CREW-OVERLAY-PINS.json": "a1ea83f4851db1462886325c50c305a0832753b13eee26b0a7b3231680f89841",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\evidence.py": "faa6d005f18780b404c3603dfef67fd2da1b6e91ebe3029398339a262f8130ce",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\expected\\GEPARD_SOURCE_MANIFEST.json": "6d55a859bc93c580a1a37450628988767ada2e65d9624467e01138624bf4f7ba",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\expected\\QA_SOURCE_MANIFEST.json": "549636e9d0e8b017a4406794364e1e4d61b91e65a7b9d9a666d23f35b45f7046",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\expected\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\expected\\WCSSMOKE_SOURCE_MANIFEST.json": "440aef4a6560598387ef11bc995c0f25e1063549b45368eb0b58d8579d92fe42",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\EXPECTED-STAGE-CLOSURES.json": "98dc4c48501baada4ecf3fc5a84fea58f7cae388b9b54595131e98f77a3d062b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\finalize_v5.py": "a13b1100a7ee06b049e6933daa5b226db430b601ad923b9191bfc1fa43837405",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\HELPER-ONLY-OVERLAY.patch": "a935f6e1abfdc8976907b66b4027f9797bd68eb09672c57a68ae0350d185cb75",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\lease_read.py": "a56e0307d68ccbde1417da89086c65ed671cac888b886116652ebc2ae03baedf",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\LIFECYCLE-REUSE-PROOF.json": "df3fb3a9ee0571dac363088efb82b23e8fd82a5d1321d19de90fa07de1cf8cf1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\OLD_RUNTIME_RDB_DELTAS.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\overlay\\single\\qaSmoke\\scripts\\Game\\GEP215WCSQA\\GEP215_WCSNativeRearmOne.c": "f3416464cfe8f5d4315700f25c00dd3c362cd747e68af7e424a49e063129196f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\OVERLAY-MANIFEST.json": "0422eef02a14b8356939f7ff41f7d5faec1c50462c6354c684c8d4de72aafacb",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\plan_native.py": "e8b8f6ad3c6ce421eb3bb88595d0b0cbc2aaf6523b442410f8d376762cca4a8f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\POWERSHELL-SYNTAX.json": "1aa45cd2c6b2412e5d6307cc5a5f7ae67960bf38904b3e868b5c3c28bca66b1c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\prepare_native.py": "035b6e9c6f729b625c172c184517bc3524787ab5157e31625c6f658dede3b815",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\readiness_evidence.py": "cc138b94305aa0dd3e4120d8519eca636ff938370211bb5d8facf462ad506786",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\README.md": "bfd3a732f31018efec8d1b86ae51a4e5bb9824de1ad38428e04d55ac100b8d42",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\rearm_evidence.py": "63344e06d8faaf79549e6df2a7dc052f01815a0e109d995ee5abdbf4d06280bc",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\SOURCE-COPY-CLOSURES.json": "a8b043ed01115c99c5c0f8c5a1ef32bb25d0dac8a4d15ec9fc2472d708d7a592",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\source-pins\\GEPARD_SOURCE_MANIFEST.json": "6d55a859bc93c580a1a37450628988767ada2e65d9624467e01138624bf4f7ba",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\source-pins\\QA_SOURCE_MANIFEST.json": "fe539668d230cd7a46a2e78ce3ea9fc6714c4481abed63ca1745353198fbffdc",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\source-pins\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\source-pins\\WCSSMOKE_SOURCE_MANIFEST.json": "440aef4a6560598387ef11bc995c0f25e1063549b45368eb0b58d8579d92fe42",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\STAGE-INVERSE-PROOF.json": "8898b486d207727d47edc9265e83e1de8be459af295b605a175f8d4acb4735c5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\StageSmokeRearm.ps1": "759df878c94a0ac54e9a3b808e51f7793cec6f7645e3bd5d0c5a2d3fb5e27988",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\tools\\CompileSmokeRearm.ps1": "8d4d46a43ccd3a7cf06db0b00ab29edf88a683d93c88d6362526ba056df026c7",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\tools\\Scene.ps1": "e0c50a4cf8d88eb7bb314e0a29de9e5546a6b4455fa915daec1b696426ce9518",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\V5-SOURCE-CHECKS.json": "3a6b2faf08a92bb3b115589b2560b57556c1ab7e5d6fd25d9b6eb5cb8b7e2890",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\verify_source.py": "9b0552eceb5223d7f35e090bb94367b2ac84565abc40b1174e1bc52038ee0efb",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\SOURCE-CLOSURES.json": "e7a65adba9497e114cfc648c0e68c5bad470cb63ebe30f482a8d633aeb161fae",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\COMPILE-ADOPTION.json": "2582d879a23e6ba80370845d823ae7cf795eee430471745e2ca879477c194948",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\state\\STAGING-RESULT.json": "89eb54c3f2783f0dd6366a3e1dd3b12a55d5ee2ca6c21b24f11857daa440de36",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\GEPARD_SOURCE_MANIFEST.json": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\WCSSMOKE_SOURCE_MANIFEST.json": "c11da2a21288f609198dd92e497cecead0ecac688fadb4691efc21381c86419d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\QA_SOURCE_MANIFEST.json": "576700235a214f21d868b2fa6d4d5f56165561ad95ea15a3481d40bdffbd9243",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-NativeRearm-Bindings-v5-20261022\\adopted\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\APPROACH-REPAIR.json": "564e89290df83989ca6151bb8e1be4526f2a4eb312e663fde72b548d6abd69b4",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\APPROACH-TESTS-FIRST.json": "c25363d42ffde3183bc1aea2b9bb4a6a0fa763b9c8ed82287c6fcb4f339744d6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\APPROACH-TESTS.json": "628b728b914065d51be91f473b3b20c5f46c986164fa2d7d1167ca204111fcc9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\build_source.py": "f8a056d9057508f802ffc1942ff9fd7c0ecafec2ea47c8edd8ae0ab11155794f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\CURRENT-DIAGNOSIS.md": "55c7eabef17023c1cb091ef2ca83d762cfe8a526207353d16996c3461f371461",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\describe_and_freeze.py": "a1561c4641bab52f2dc6c9f1eeb5b2f5b48ad234bfc1d420209a26e73014b434",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\GUARD-REPAIR.json": "9b1094135291f87f9b229423922bfc843471a00ccca5380969f3cc9894b654bf",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\GUARD-REPAIR.patch": "b69a2bdbc1c129a9403e7f96a77cdef0343c80ae3fe1143b79aa13016bbc9cbd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\HELPER-READINESS-DIFF.patch": "f381520cb67b4cef738f308e113757607294bf722fbe94bfea581dff4582e2b1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\inspect_stock_api.mjs": "9d2f8316c9111396bda410927edc3450b86336299e637ce03c1d632620a50442",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\JOB-TEMPLATE.json": "e981a1eef6107ac9bd8d31d3465e46189afe90cceb19dbce0732c05a0387a7b9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\LEXICAL-REPAIR.json": "1e2d2fe285ff26b099cbf4f4095f04719f0fff2d8bf184422f69c027dac04e28",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\LEXICAL-REPAIR.patch": "017b559eba14a42e6f9144cb5f5141f0c03d867bdd13cbe1fe621ca3da6661a6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\overlay\\single\\qaSmoke\\scripts\\Game\\GEP215WCSQA\\GEP215_WCSNativeRearmOne.c": "f3416464cfe8f5d4315700f25c00dd3c362cd747e68af7e424a49e063129196f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\overlay\\single\\qaSmoke\\scripts\\Game\\GEP215WCSQA\\GEP215_WCSNativeRearmOne.c.meta": "473e212ff38ddc189cf0bef04cd680197d27df0072ef9fade0dcce4ca26ce7af",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\overlay\\single\\qaSmoke\\scripts\\Game\\GEP215WCSQA\\GEP215_WCSServiceProbe.c": "5b52f6073e58f6b4de7ee438b3dc6641dbaa6681499bb141233d567d23363205",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\PACKET-CONTRACT.json": "bbb789fc9f62407741724da2655c4d50e3dfd335cf4bab320d9da45ea2a03989",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\prepare_v2.py": "aa191c6b88ace77a975af61499e53f601ac7df7fcd8aebeaaeb7ecc9be469f0b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\prepare_v3.py": "3ed9c451fa48655fd2eea2eb08d4fe4dfecb3260c6e59d2bb0a7321746cb0dcb",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\prepare_v4.py": "2ec5dfedb7fc72f4c966e5484dccb768a07dfd3fd5b1528aa992945ff6296a93",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\prepare_v5.py": "b7befea7330eb82c163e3d8acc91ce22426a4440e13ce1f83a5c3ebed3ca3900",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\READINESS-PACKET-CONTRACT.json": "85ba0e1502a829f3745a9290ffd61245c3f95b20b870aa0df4168bd80ba8f954",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\READINESS-REPAIR.json": "49acfa5da2145f4986dfa4f96efe10788dbcf863b2e674f632f6a980e4a5b691",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\READINESS-TESTS.json": "cb2ba3dc89873ad8fa65c6c53f90f5b46e0eae26c4d3e17c6ce7ad8f49d9be0c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\readiness.fragment": "900d43b6110b44120f2732e7e8e9ddaf60792053a4d241af7a0c926e416f85d1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\README.md": "3f9e62f7a6ef2caa15a66470c2ee592edd15e7112b076a61100d490dcd36c7ab",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\SERVICE-PROBE-DIFF.patch": "ceafcadf18a870b69917c6d391ffb559a0dbd4afb6bbd0ebe6bc9f3088fc485b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\SOURCE-PLAN.json": "3d3385ab5598551f753d67f773074782d38d8bfa9e5406e75b2be3c0d911fa32",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\SOURCE-TESTS.json": "7b13511ff31ba94041421d2e0c309d987a3a43136a48627c7e28b3919caea2d8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\STOCK-API-PINS.json": "c23da034e845206b5015b56e93afaeb9fb5c266c1a438075bcb176d066a5964e",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\stock-SCR_ResourceConsumer.c.txt": "e8f6adb73c4709a38860567b8de17599e8b4f49b77d5b24521f02e83b0bd7e96",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\stock-SCR_ResourceConsumerContainerQueue.c.txt": "d1deff330090694652af210da01cec536beaa073661e7b3457fedeb695823b7d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\stock-SCR_ResourceConsumerServicePoint.c.txt": "5993266a05b1ce1a60830ded3e7e4c699a88a99c87f1d6821f4eb25c6701ea38",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\stock-SCR_ResourceContainer.c.txt": "93aef83faf2ec6f9dc03604f69b23d50178d29f4be861c30ac6c2d73459cd6a3",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\stock-SCR_ResourceContainerQueue.c.txt": "ed292420214c510d8b6f4ea4df2e85245c7fd417dcbb0419d40b6299a76da740",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\stock-SCR_ResourceContainerStorageQueue.c.txt": "feee3489363669093d327a2fd04e758d7492b506176b2b0a615f278798baed6f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\test_approach.py": "a25c04b38254a51eff52af861b6f682612f9cdd8c493142cd07d43b27385c3ff",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\test_readiness.py": "100e80bc0dd40b291af40909639fd631477760d7b31860397feb8d22f1f78949",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\test_source.py": "e748651e5689ba9b49b240430ab805996e9268df678c6e10c031452cc0ed92f3",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\V3-TO-V4-SERVICE-DIFF.patch": "c77f35b178366054686bdd1671d255bfeeb4906ff62d8657946b06ca0e67a48c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-WCS-Smoke-Rearm-QA-v5-20261022\\V4-TO-V5-APPROACH.patch": "48fbf262c5908a2ec69e3ae43f049ee56adcb8dd1cf2ebeb89d14e6fcd131a18",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-native-rearm-14\\RESULT.json": "b03292edde4db8758a4bf21fa9397efa669c9c1f164439e7cf5cd9b858caae2c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-native-rearm-14\\compiler-identity.json": "f92ab8b14de58793c9e567caba56ec40eef68d801178f9e2825e63f4ce1104bd",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-native-rearm-14\\launcher-exit.json": "b6f047850b652024f8e152c595bd2ccac9aa1f5fff8f32610a151095372cdeec",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-native-rearm-14\\owner-private.json": "480a67e01df6700e154ac22aabc53f6af0255dd6b668a54ded86f1a8bb08461f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-native-rearm-14\\logs\\validate\\console.log": "83d3d1af43efddce9a5045836230b3a08134fee307a10fe06f95d9aaa19b7640",
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe": "51f941dee28bda7865e2428d7fc92fcbe7c5c7ff666caf642c0ff23c2aced457",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\request.json": "fba3b5ea4ed53fbf89fcc6888aedc8b1d2c624ef1502a661985f2ea54419c34a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\result.json": "b47f173085d1e80ed77510c650ecf73a4b5a091aeb7f16c3b705d4ba1758eefe",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-review.json": "18dda628e8ca8cb034f38c860aeb38af75afcc77865715cd4a4a9732bb2fcf0b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\smoke-private-job.json": "4091c2f480cb304333a0da80c5c2d0df6e07ab36a6aa1f93783bdd429588c367",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\owner.json": "561d8b8c7583bdd38351812ace8827e9ff9840587d7f1119c00968dd380fd227",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\owner-private.json": "9cf6575d33880dd25881df53129989bb687437dd963457f8533117c87c9371ff",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\exit.json": "1627f376eff4bfe162cd7e9a344a1bd78f96a87d299a1a2bf8da5b17a8ab25bd",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-1.json": "4f6c0cc6ddd5eda9c31f8cb54554de9a67d075c14173b6ce6d5d4641cf6e90a7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-2.json": "68175655c928794087def2f3c357264cd22cc7ec612b77945f3fc8aac02bf29b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-3.json": "8ba9505afc3f701af1a824093a29fbb2128c4f331f5c44612ec3b78c2113fa4e",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-4.json": "1d28c66baa2dd250a53d6b37d82829bd23dbf0f29c01cff24a1d51517b5990f1",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-5.json": "5df28e72ac1dd04354b34aea7a829934d319d1f7ecdbc0077ee72796a026d021",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-6.json": "14a49f1a14833b1a53c85ca6dbd6eec2ccf244917129d115bc906f290475dc78",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-7.json": "8046dc012036568814f2bbd215fe895caabcbca21abbaff617b7f9bff459ace0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-8.json": "9cf3827159c98f11179b5e7716b0a43f94553e0e02cdb47da7efe350c86e3901",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-9.json": "ec47110a805af15517b6711dce4690f0502fa44b41df6e24bb7eb57f02f8cfd5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-10.json": "9c48ca20f372e98fab5ea178863f4a27d692561c369249a1003acd66c163c487",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-11.json": "f8b7943e7d72b78ac694b9f1e3aa7057597678575739e7b321dbe776dd35675e",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-12.json": "cee59d99e34289e425b02025201f83918e1fef8a81c89f23883fb94adae7146d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-13.json": "8e56b5daf093e37d6873b6143a7302d79ddd58b19039f6c87545a3d5d4d32b6a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-14.json": "f6400a8e2c53e57dc022af791c61897cc955ce7304f39bdf5a7ab797ff1ba5d4",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-15.json": "d4e9f072f0a0ea29e09b915dfca1657ecfc05aa98dcb1c54dee4dfdb018832ac",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-16.json": "35cab41d7bcf572ce73823c86fa0fb155d4f5e632b2767bbb7580fa082289805",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-17.json": "28fb1a3d01a016926b78befea6afe9c40273fef4070f31083779353df5e29413",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-18.json": "f24adce543840e0bfb1aefc161dc411eae49a9ee4ce580d39297de919d63dc5a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-19.json": "43fb4eeadacb1504e602c582753fe083d2d668acbc51b19c0a034a37576f9a6a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-20.json": "ce8bc45bc4084b8a856649dc312dec451d48d008752408e46b8cd01c0380451b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-21.json": "767e8a728b0dd3350432263f81e3ba7f3d3c9661af49a3201c9ba4e93f3a82f6",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-22.json": "779e975796f78b2741e84fde7a970e0b7fa5cb1a5e1159acc14922afdaeda06f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-23.json": "e5c6755c8cbcf7878fd10f7ce599e37199f7873d824c02d9a6f2d047d82ea286",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-24.json": "a3f804f4db4b3ede1c2328a7679e9d1ba61b6549fd32595f005d92af3bd84251",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-25.json": "4c6b0db4250050eaf83252ca4a3da6a8285a2692705afdfb5a5190aaab579976",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-26.json": "462e3e918a581eb28f04eee0680b7ff01db8fd315bc85e360551b97ec38eb0da",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-27.json": "37358ec4b13c0de80ac41cd9f7e53b9343fc8728292171ca1a94deaad0f60904",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-28.json": "6e012552cdbad0f07e2e59fa6b061faeb0705e2c5fb9968bad728d357eced264",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-29.json": "a8a0ff9f081bc0dbe94db57a69b0f8b325a94519e73ca10fd2a70a8fc1e37008",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-30.json": "4ddb64bbc41a73bcadaa1387fd72de1d2402a974bbfdc04ad7294c34c3b7fe07",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-31.json": "d596046c0e40caf2b7fc0686b1a13f8e5c5a3902c94db50a120c0ada6719ddda",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-32.json": "1ccdbe5050fa72ded8523c17866fc6ef5e577be5fc854b22c95b3167ab7d7f68",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-33.json": "ce5df31b1fbe226748b51790d8a36a7ac8aef9e074b963181be4d03633002805",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-34.json": "2a70097912a96ee62a0e126511e558d32b48003bf2bf8247660671730533d5da",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-35.json": "849321eaf7a9b41da51c0ced66b4d5a5cfa15b06ded933e4751255c96cbe604c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-36.json": "bc471725ec7477e90619f5da33088f14ad571dfd21ad40a57aad1805bfdab14d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-37.json": "698497f2c2ef19df0def2c3c6c7aec0ee25dafaf320ec4a0b1aa45e56f5a7fd0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-38.json": "8d8b5685469ce7d27f44fd48f0fbee3396d668911a5b37679171802ecf67a451",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-39.json": "465eb73858b9fae21c0f5837c0e76f38e7a9de5e1eac97907dc1f31a046fe22a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-40.json": "fa0c84f30316cb77a24aed297c30bc6b8145e780a06b7914d20eb83f65f9022d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-41.json": "d252fc6730b6f910d2bcdd566c113bd37b25c610749c3e24c6f4103d04f58c7d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-42.json": "27a7591a4e548f4fad396f2dcf28e85c20d0300c29b4afd5519bc2cc87e417bd",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-43.json": "62226e9cb6a03b26b484119d5e70268e8faeef5be5806cc39eaf1b2c1e838e95",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-44.json": "998c5574b74ff2fbf90a34ce77e888a8d3be6dbfc22cfe0de5a3a8c13c579d2a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-45.json": "d4065ce849d8e681eeeb83cafa2ef21207bd49bc159be690e6611c927a76e2d8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-46.json": "5531a7d556a5b942bd84ed9901e2316bb817a456bfd7f580f043275616324aac",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-47.json": "1c2d12ca4e70514f54e0df9533bb723230b1ab83aaadf36f907a11b48fceecc0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-48.json": "cf5d00a332ef7ca6ac9e47ac90a31cda241402488475b76d19022b2c9d916b4c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-49.json": "73ced8d17a055494344f4d0dda4e730ac456955da6c1bf28bd0980ac3daae63d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-50.json": "a3c65fc0ef9a0ec8faf60bd937683acb3524f1fbb935929d0459a41312ff1df8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-51.json": "8a294ca5cd15f147dbc2ab7b79cafada3eaab8493228b3fa922553871862ba06",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-52.json": "036f5f7d98f8868a42e37e0747ec437ee821bfb0ec690d2db0eb10cafd21ccb2",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-53.json": "3084c4af72907ee15b262f78ea26829000d11d971ef07621c2024cc605ec35e2",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-54.json": "31238a5e7297739fa4164e089e4725a8fb98673d273dd4605d4dd4911a13054b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-55.json": "72245c2317cf1bfa23108eb94232f79e0ebe0f27402b0420247825989248d31f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-56.json": "86b2a3f93c9d5c0ca9b2236a54bf126e2932e29fed538434160cf6e6562cc153",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-57.json": "acb1b8a0ec38d8f60d5f7923f2f2a07571b02d0592cc6e54a0a08c19716f7f1c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-58.json": "79ac76c1fc55c54c05886e2975ccfbcec95e8a4ab2f881f99cffd2629352a812",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-59.json": "a8b789add8290e053e20f11bb4fc78e4b2d0e9366da86e180e6b4f3077e0db21",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-60.json": "78be7e189300da59a1073f70c9b7602405f6979da32ae5749937c3bdcd34fd61",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-61.json": "6d3287eec58a62eab083ff9fd15e932b1da33dc133263a966d78dbcca4d3d7fe",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-62.json": "641541ac3108dadaa7d068688709e98bd3c8cb869fd4def0fc62fe1cea4ac07d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-63.json": "cfb1c1373c1b84978d22678077f55a59fe72d8728db5ccd277e4a63f81ca6f85",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-WCSNativeRearm-job.json": "4091c2f480cb304333a0da80c5c2d0df6e07ab36a6aa1f93783bdd429588c367",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-WCSNativeRearm.enable": "a27c018b7ee721bd59e8f91fdce1c9fb4d9500476597d83ec1fb0e7f1a68485b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-ready-1.json": "d94d6f0881ddbe8ea577cf6289f00bdb27b4b020a816e1f7221ace46a0d45ea9",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-ready-2.json": "312883e4b8501c69a64e7ec94f40412c8a09db6cfc55f9aadeb6bb7d26531355",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-ready-3.json": "384f22cecdfe9d6874dabe8c66de77deccd52c93227089f795bb9d07ebd8d0ac",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-05\\smoke-native-rearm-one\\native-run\\logs\\console.log": "764683053628dde3c333fcf1e08f4cdb404e8458363bae4aabd40de78e88655b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\smoke-rearm05-owned-native-action.png": "5358e4124efa4351108a18e04658715862dc33dd908fb4f81e742bdf65dbfbb5"
+  },
+  "DWritten": false,
+  "nativeStarted": false,
+  "GUIUsed": false,
+  "GitChanged": false,
+  "sourceOrCollectorChanged": false,
+  "mainPackage08Touched": false
+}
