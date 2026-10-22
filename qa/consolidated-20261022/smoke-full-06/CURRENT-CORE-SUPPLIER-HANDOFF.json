@@ -1,0 +1,43 @@
+{
+  "status": "CURRENT_CORE_READ_ONLY_SUPPLIER_CONTRACT_SOURCE_WORK_ONLY",
+  "coreRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon",
+  "sourceFiles": 1152,
+  "completeCurrentClosure": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\SMOKE-SUPPLIER-CURRENT-CORE-20261022\\CORE-SOURCE-MANIFEST.json",
+    "sha256": "4b4ad6ae433db8996dad977e62687ef85ee6b7798f765bce8c4212dde6ab53fa"
+  },
+  "runtimeSHA256": "71dc97f41ed852952ac883396de1a064c9bdfcae6efb5d8ae7fa5fc2c07ee1fb",
+  "currentProtectedManualBaseline": "Package08/ordinarySourcev6 unchanged; never stage edits into this root",
+  "variants": {
+    "camo": "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+    "charcoal": "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et"
+  },
+  "sameGUIDWarning": "Use one exact isolated Gepard core and one intended single/full smoke closure per job; never combine duplicates in addonSearchPath.",
+  "smokeVisual": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\RESULT.json",
+    "sha256": "6c9da3d93d6e6c617ad84d6fcca1d517f18f42d9d7fd12a6284ffcb928c3ff55"
+  },
+  "nextGates": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\SMOKE-SUPPLIER-CURRENT-CORE-20261022\\NEXT-SUPPLIER-GATES.json",
+    "sha256": "7aef95fed8c1c00bcdf527e27141f8745fb92998b8133577838ef9cc8a20a785"
+  },
+  "localizationInventory": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\SMOKE-SUPPLIER-CURRENT-CORE-20261022\\LOCALIZATION-INVENTORY.json",
+    "sha256": "32aa2e73673ef2d9ffbd3d1251b12a1c0ec7b15927f895761e86b025fd58a052"
+  },
+  "station": {
+    "alreadyIntegratedWCS_REARM": false,
+    "note": "Root proving ground contains stock US ammo/repair/tanker. Their stock belt/repair transfers do not qualify WCS_REARM. Reuse your REARM_REFERENCE_CONTRACT for genuine MaintenanceUS WCS_REARM/finite supplies in a separate fixture."
+  },
+  "screenshots": {
+    "savedLibraryIDs": "No new Library upload in these native runs; use original hashed BMPs in Visual04 for the smoke gate. Root HUD/art evidence remains separate; no claimed image identity without reading its manifest."
+  },
+  "nativeSlot": "No supplier launch authorized. Root owns serialized native admission. Request bounded fresh job after source ready.",
+  "publication": false,
+  "supersedesDescriptiveReferenceHandling": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\SMOKE-SUPPLIER-CURRENT-CORE-HANDOFF-20261022.json",
+  "descriptiveCandidateSnapshot": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\SMOKE-SUPPLIER-CURRENT-CORE-20261022\\DESCRIPTIVE-CANDIDATE-SNAPSHOT.json",
+    "sha256": "d58e85ac85bdb7920942cb12736ccbef11e4562ede7436a3a8983c0cfad11ab2"
+  },
+  "pinRule": "Only complete CORE-SOURCE-MANIFEST is the1152file source closure. Descriptive mutable QA ledgers must not be repinned as native source dependencies. Snapshot preserved here for provenance."
+}

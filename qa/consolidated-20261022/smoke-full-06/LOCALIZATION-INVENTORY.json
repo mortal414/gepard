@@ -1,0 +1,56 @@
+{
+  "status": "READ_ONLY_PACKAGE_LOCALIZATION_INVENTORY_NOT_RUNTIME_UI_ACCEPTANCE",
+  "addonId": "629B2BA37EFFD577",
+  "version": "8.4.0",
+  "installed": "C:/Users/marco/Documents/My Games/ArmaReforger/addons/WCS_Armaments_629B2BA37EFFD577",
+  "stage": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-visual-stage/dependencies/WCS_Armaments",
+  "installedGprojSHA256": "e6ffcf559a2e7898848349c090300ea8eca8cb2e13ecef456a108bcc82efc8b1",
+  "stageGprojIdentical": true,
+  "sourceSTEntries": [],
+  "runtimeConfigurations": [
+    {
+      "pack": "C:\\Users\\marco\\Documents\\My Games\\ArmaReforger\\addons\\WCS_Armaments_629B2BA37EFFD577\\data.pak",
+      "packBytes": 441631740,
+      "packModifiedUtc": "2026-10-17T18:21:43.961Z",
+      "headerHex": "030001005e511dcb212b621040555c0a525b015d0701045700000000",
+      "indexBytes": 105945,
+      "indexSha256": "196255ea12ba4cca9cc81b37fe71fca1a4577d8116c0cc5d41ae061016a9a9f8",
+      "resource": "Language/wcs_armament_localization.de_de.conf",
+      "offset": 361339117,
+      "storedBytes": 6704,
+      "rawBytes": 29658,
+      "method": "00000106",
+      "sourceSha256": "cb1cf0d7d48d1070ed0cb20813a4c4d1670b18a00a1d8ad110089880b9b17bbf"
+    },
+    {
+      "pack": "C:\\Users\\marco\\Documents\\My Games\\ArmaReforger\\addons\\WCS_Armaments_629B2BA37EFFD577\\data.pak",
+      "packBytes": 441631740,
+      "packModifiedUtc": "2026-10-17T18:21:43.961Z",
+      "headerHex": "030001005e511dcb212b621040555c0a525b015d0701045700000000",
+      "indexBytes": 105945,
+      "indexSha256": "196255ea12ba4cca9cc81b37fe71fca1a4577d8116c0cc5d41ae061016a9a9f8",
+      "resource": "Language/wcs_armament_localization.en_us.conf",
+      "offset": 361345821,
+      "storedBytes": 6493,
+      "rawBytes": 29613,
+      "method": "00000106",
+      "sourceSha256": "5962b99954307ba797bf72655570dfc053e5e1bef5de8082758cd764a6253b7a"
+    }
+  ],
+  "localizationResources": [
+    "Language/wcs_armament_localization.cs_cz.conf",
+    "Language/wcs_armament_localization.de_de.conf",
+    "Language/wcs_armament_localization.en_us.conf",
+    "Language/wcs_armament_localization.es_es.conf",
+    "Language/wcs_armament_localization.fr_fr.conf",
+    "Language/wcs_armament_localization.it_it.conf",
+    "Language/wcs_armament_localization.ja_jp.conf",
+    "Language/wcs_armament_localization.ko_kr.conf",
+    "Language/wcs_armament_localization.pl_pl.conf",
+    "Language/wcs_armament_localization.pt_br.conf",
+    "Language/wcs_armament_localization.ru_ru.conf",
+    "Language/wcs_armament_localization.uk_ua.conf",
+    "Language/wcs_armament_localization.zh_cn.conf"
+  ],
+  "limits": "A missing editor source .st can explain a project source-reference error only as an inference. Runtime German rendering, all strings and dependency compatibility remain native/manual gates. No WCS payload is copied or edited."
+}

@@ -1,0 +1,63 @@
+{
+  "status": "ISOLATED_FULL_EIGHT_FLIGHTS_AND_EMPTY_NEGATIVE_OBSERVED_EXCLUDED_FROM_PACKAGE08",
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty",
+  "rawResult": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\result.json",
+    "sha256": "333ba74f7cc90de3c0ee88d814ded46cc8aa710960b9558d31c30c84d925d606"
+  },
+  "rawReview": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-review.json",
+    "sha256": "6c6477d0ca521adca008cbfd28638ebf6c3db5cf7eb3a5e623c6d078d3acf82c"
+  },
+  "independentAudit": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-06\\INDEPENDENT-AUDIT.json",
+    "sha256": "21a2e8926c578fb2a80bc42241829698c59a52f1134d78a34531248784dea94c"
+  },
+  "compile": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-service-08\\RESULT.json",
+    "sha256": "fe86ce67b3a14257535c3dda2e44f6e594da17b64313c3810f8f7883a03c3800"
+  },
+  "nativeExpectedShots": 8,
+  "ammoBefore": 8,
+  "ammoAfter": 0,
+  "uniqueNativePayloads": 8,
+  "travelRangeMetres": [
+    48.196231841305845,
+    54.77229024052192
+  ],
+  "horizontalRangeMetres": [
+    41.13615559833718,
+    46.96280807405365
+  ],
+  "samplesPerPayload": [
+    49,
+    51,
+    49,
+    49,
+    54,
+    50,
+    49,
+    50
+  ],
+  "emptyRequestAfterProgramSeconds": 6,
+  "emptyAdditionalObservedPayloads": 0,
+  "captureEnabled": false,
+  "cloudInThisCase": "NOT_TESTED_SEPARATE_SINGLE_VISUAL04_ONLY",
+  "strictNativeErrors": 58,
+  "strictOverall": "FAIL_PRESERVED",
+  "normalExitAndReleased": true,
+  "currentCoreOrPackage08Changed": false,
+  "fixtureFix": "Private explicit ExpectedShots=1 initializer removed, Attribute1/full serialized8 retained; full-only preprogram actual8 guard. Full05failure retained; no WCS gameplay or ammo-state change.",
+  "currentCoreSupplierHandoff": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-06\\CURRENT-CORE-SUPPLIER-HANDOFF.json",
+    "sha256": "c34f88f67e3207f8bea83cab7d0ae23c6a72fb342f4ca08ed8cbfd8cc267e101"
+  },
+  "remaining": [
+    "Genuine finite WCS smoke rearm with exact supplies accounting",
+    "Current cooked V11 camo/charcoal eight-port world-fit and dependency-stack HUD/crew/cannon/driving compatibility",
+    "Ordinary player input/roles/cooldown negative controls",
+    "Full-program pixels and human useful screening judgment",
+    "MP/JIP/dedicated"
+  ],
+  "newAcceptedCheckboxes": 0
+}

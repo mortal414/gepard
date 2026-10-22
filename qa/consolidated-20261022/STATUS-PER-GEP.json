@@ -116,11 +116,11 @@
     {
       "id": "GEP-015",
       "status": "Blocked",
-      "reason": "Excluded from stable08. Isolated Visual04 actual camera/program/flight/capture gates pass:25 complete native BMPs; root directly reviewed11 and independent reviewer5. A real exterior cloud is visible at sampled5/12/20/30/40s; root positive-sample interval35.0164s is not onset/expiry. Normal exit0/released. StrictFAIL58 retained separately from Angle03FAIL57. Full8/empty, genuine smoke rearm, currentV11 port-world-fit, dependency compatibility and useful coverage remain unqualified. No active smoke permission denial.",
+      "reason": "Excluded from stable08. Separate Visual04 native pixels show a real single cloud; full06 now passes exact8->0/eight moving native payloads and one empty request/no ninth observed. Fresh actual expected8 readback, compile08 and normal0/released verified; full05 observer-scope failure retained. Strict full06FAIL58 remains. Genuine WCS smoke rearm, currentV11 eight-port fit/compatibility, ordinary input/roles and human coverage remain unqualified. No active smoke permission denial.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": true,
-      "blocker": "Main-build inclusion qualification incomplete: full-eight/empty, genuine rearm, currentV11 alignment/compatibility and human coverage still pending.",
+      "blocker": "Main-build inclusion qualification incomplete: genuine smoke rearm, currentV11 alignment/compatibility, ordinary roles/input and human screening pending.",
       "blockingState": "FEATURE_EXCLUDED_PENDING_QUALIFICATION_NOT_ACCESS_DENIED"
     },
     {
@@ -278,7 +278,7 @@
     "Needs verification": "Existing release evidence passes; one named verification remains",
     "Blocked": "A named inclusion gate remains unsatisfied: feature runtime qualification for015, separate bounded authoring permission for033. Deferred work is not globally blocked."
   },
-  "updatedUtc": "2026-10-22T09:48:02.861316+00:00",
+  "updatedUtc": "2026-10-22T10:38:02.443555+00:00",
   "candidate": "ordinary source v6 / compile06 / pack08 / installed08; one left refill observed, whole services pending",
   "nativeCompile": "Actual ordinary-v6 compile06 PASS; historical board V3 compile/native observation retained separately. Compilation alone is not gameplay acceptance.",
   "nativeGameplay": "Package08 ordinary start and US provider observed; strict probe FAIL retained. Separate narrow left-refill observation does not mark services accepted.",

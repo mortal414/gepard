@@ -1,0 +1,86 @@
+{
+  "status": "PRESERVED_FIXTURE_SCOPE_MISMATCH_NO_FULL_FLIGHT_EMPTY_PASS",
+  "sourcePins": {
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-05\\smoke-full-eight-empty\\native-run\\logs\\console.log": "fbbece65f278b0398dd72ec00d9cfa92a77607ff2182ad50c880b59cb21411b8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-05\\smoke-full-eight-empty\\adapter-result.json": "0fbe6c87bee4e1b39dffa26de6376a288e81ad86a8c66bff4493ede018d17cfd",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-05\\smoke-full-eight-empty\\native-run\\exit.json": "f10c7eabc1553c0372cb17e2767c13ac1a478e93147950a17d9c4ff8df080d76",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-05\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-result.json": "e5358c2d3e5d6db0f2cac50c239efe48514c3ee4f5af706ed4c60615939323eb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v1\\single\\qaSmoke\\scripts\\Game\\GEP215WCSQA\\GEP215_WCSProbe.c": "63eece16ff2003d1db9507e491cb72d87882a7ea9c380f702aa154ffa4c6e8c8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v1\\single\\qaSmoke\\Worlds\\GEP215_WCSFullRipple_default.layer": "7b443c34b0cccd6b3f26bc7c05ffef2a89d6284447b9ced51509750ab6e8c55c"
+  },
+  "exit": {
+    "leaseReleased": true,
+    "closeMethod": "owned-normal-window-close",
+    "utc": "2026-10-22T10:18:47.8939434Z",
+    "verifiedExited": true,
+    "exitCode": 0,
+    "cancelRequested": false
+  },
+  "adapterInfrastructure": {
+    "status": "NOT_TESTED",
+    "reason": "Missing/excessive lifecycle samples"
+  },
+  "program": [
+    {
+      "line": 292,
+      "text": "05:17:45.946   SCRIPT       : GEP215_WCS_PROGRAM callback=RunProgramFromController_S requested=1 shotsExpected=1 physicalInput=NOT_TESTED"
+    }
+  ],
+  "nativeDiscoveries": [
+    {
+      "line": 294,
+      "text": "05:17:45.950   SCRIPT       : GEP215_WCS_ENTITY discovered=1 id=0x4000000000000078 {} actualOrigin=<598.861,41.8354,2601> launched=1 launchAge=0"
+    },
+    {
+      "line": 296,
+      "text": "05:17:45.950   SCRIPT       : GEP215_WCS_ENTITY discovered=2 id=0x4000000000000079 {} actualOrigin=<598.861,41.8354,2601.16> launched=1 launchAge=0"
+    },
+    {
+      "line": 298,
+      "text": "05:17:45.950   SCRIPT       : GEP215_WCS_ENTITY discovered=3 id=0x400000000000007A {} actualOrigin=<598.861,41.8354,2601.32> launched=1 launchAge=0"
+    },
+    {
+      "line": 300,
+      "text": "05:17:45.950   SCRIPT       : GEP215_WCS_ENTITY discovered=4 id=0x400000000000007B {} actualOrigin=<598.861,41.8354,2601.48> launched=1 launchAge=0"
+    },
+    {
+      "line": 302,
+      "text": "05:17:45.950   SCRIPT       : GEP215_WCS_ENTITY discovered=5 id=0x400000000000007C {} actualOrigin=<601.139,41.8354,2601> launched=1 launchAge=0"
+    },
+    {
+      "line": 304,
+      "text": "05:17:45.950   SCRIPT       : GEP215_WCS_ENTITY discovered=6 id=0x400000000000007D {} actualOrigin=<601.139,41.8354,2601.16> launched=1 launchAge=0"
+    },
+    {
+      "line": 306,
+      "text": "05:17:45.950   SCRIPT       : GEP215_WCS_ENTITY discovered=7 id=0x400000000000007E {} actualOrigin=<601.139,41.8354,2601.32> launched=1 launchAge=0"
+    },
+    {
+      "line": 308,
+      "text": "05:17:45.950   SCRIPT       : GEP215_WCS_ENTITY discovered=8 id=0x400000000000007F {} actualOrigin=<601.139,41.8354,2601.48> launched=1 launchAge=0"
+    }
+  ],
+  "terminal": {
+    "scope": "WCS_DEPENDENCY_ENGINEERING_DIAGNOSTIC",
+    "reason": "more_payload_entities_than_expected_no_retry",
+    "programRequested": true,
+    "emptyProgramRequested": false,
+    "settledCrew": true,
+    "ammo": 0,
+    "knownPayloadEntities": 8,
+    "screenshotsRequested": 0,
+    "pairedViewRequests": 0,
+    "captureEnabled": false,
+    "captureUnavailable": false,
+    "captureFailureReason": "",
+    "vehiclePrefab": "{7E0150C026101501}Prefabs/Vehicles/GEP_MobileCarrier_WCSSmoke215.et",
+    "fixtureYaw": 0.0,
+    "visibleCloud": "NEEDS_PIXEL_REVIEW",
+    "rearmCooldownRolesMPPhysicalInput": "NOT_TESTED"
+  },
+  "lifecycleJSONCount": 0,
+  "sourceFacts": "Serialized full layerExpectedShots8 and classAttribute default1 are present, but explicit runtime fieldinitializer=1 exists and nativeProgram read1. CaptureEnabled has no initializer and its serialized1 was observed in prior visual case.",
+  "causeHypothesis": "Explicit instance initializer overrides/desynchronizes serialized Attribute value in this native lifecycle; actual engine precedence is not proved until source-only minimal repair receives fresh compile/runtime8 readback.",
+  "minimalNext": "Remove only=1, retainAttribute default1/fullserialized8, add full-only ExpectedShots8 readback/admission guard before genuine program. No ExpectedShots setter, WCS config/physics/launch/particle change.",
+  "qualification": "Eight native launched IDs/ammo0 observed at initial query only; no actual flight samples, empty request or cloud evidence. Full05 collectorNT/strictnative evidence is not promoted."
+}

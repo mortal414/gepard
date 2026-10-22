@@ -1,0 +1,21 @@
+--- a/frozen-full05-probe
++++ b/full06-probe
+@@ -9,7 +9,7 @@
+ class GEP215_WCSProbeClass : GenericEntityClass {}
+ class GEP215_WCSProbe : GenericEntity
+ {
+- [Attribute("1")] int ExpectedShots=1;
++ [Attribute("1")] int ExpectedShots;
+  [Attribute("{7E0150C026101501}Prefabs/Vehicles/GEP_MobileCarrier_WCSSmoke215.et", UIWidgets.ResourceNamePicker, "Exact original test vehicle", "et")] ResourceName VehiclePrefab;
+  [Attribute("0")] float FixtureYaw;
+  [Attribute("0")] bool CaptureEnabled;
+@@ -239,6 +239,9 @@
+   {
+    int capacity=Manager.GetMaxProjectileAmount(WCS_Armament_SmokeDispenserComponent);
+    PrintFormat("GEP215_WCS_PREFLIGHT crew=settled seatName=%1 ammo=%2 capacity=%3",Seat.GetCompartmentUniqueName(),Ammo(),capacity);
++   // Full-only private QA admission: read serialized value before any program.
++   PrintFormat("GEP215_WCS_FULL_SCOPE expectedShots=%1 captureEnabled=%2 programRequested=%3",ExpectedShots,CaptureEnabled,ProgramRequested);
++   if(ExpectedShots!=8){Stop("full_fixture_expected_shots_not_eight_no_program");return;}
+    if(Ammo()!=8 || capacity!=8){Stop("initial_ammo_or_registration_not_eight");return;}
+    if(!LogExpectedPorts()){Stop("measured_port_pivot_missing");return;}
+    ProgramRequested=true;ProgramMs=now;PrintFormat("GEP215_WCS_PROGRAM callback=RunProgramFromController_S requested=1 shotsExpected=%1 physicalInput=NOT_TESTED",ExpectedShots);

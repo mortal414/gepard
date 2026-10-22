@@ -1,0 +1,1105 @@
+{
+  "status": "INDEPENDENT_FULL_EIGHT_MOTION_EMPTY_OBSERVATION_PASS_ORIGINAL_NATIVE_ERRORS_FAIL_PRESERVED",
+  "independentObservation": "PASS_NARROW_PROGRAM_EIGHT_MOTION_EMPTY_ONLY",
+  "originalAggregate": "FAIL",
+  "originalNativeErrors": "FAIL",
+  "source": {
+    "sealSHA256": "97f6072e7231fb20e266e4607dbb45895863cb332146baa120d3749056de4919",
+    "frozenVerification": {
+      "status": "FROZEN_BINDING_SOURCE_PASS_NATIVE_COMPILE_ADOPTION_REQUIRED",
+      "files": 44,
+      "supplierCommit": "3219910",
+      "completeExpectedStageFiles": 1205,
+      "nativeInvoked": false
+    },
+    "completeClosures": [
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\gepard",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\GEPARD_SOURCE_MANIFEST.json",
+        "sha256": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+        "files": 1147
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\wcsSmoke",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\WCSSMOKE_SOURCE_MANIFEST.json",
+        "sha256": "c11da2a21288f609198dd92e497cecead0ecac688fadb4691efc21381c86419d",
+        "files": 20
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\qaSmoke",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\QA_SOURCE_MANIFEST.json",
+        "sha256": "1c7ec811abea0247f832e29448a6e3f8632876bfda6814493bead2bb7a95a648",
+        "files": 35
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\dependencies\\WCS_Armaments",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\WCS_ARMAMENTS_SOURCE_MANIFEST.json",
+        "sha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+        "files": 3
+      }
+    ],
+    "actualCompile08": {
+      "schema": 1,
+      "status": "SCRIPT_COMPILE_PASS_ADOPTED",
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+      "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-service-08",
+      "compilerResultSHA256": "fe86ce67b3a14257535c3dda2e44f6e594da17b64313c3810f8f7883a03c3800",
+      "compilerConsoleSHA256": "932d11535548a84517639b983497ba0ca814e4621da763eb3e572a68617c29af",
+      "compilerIdentitySHA256": "e94be2dc93308f0ba6ff0e8d9619c0458b87e5fa7d6f14a0ac3334775f17a68d",
+      "launcherExitSHA256": "bf0c7d3cd3d204c35a5a24b9f562daaed91def2fb550cc09df15c7b35e80c3a3",
+      "compilerOwnerProjectVerified": true,
+      "nativeRuntime": "NOT_TESTED",
+      "nativeGameplay": "NOT_TESTED"
+    },
+    "sourceDiffsAgainstFull05": [
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\qaSmoke",
+        "relative": "scripts/Game/GEP215WCSQA/GEP215_WCSProbe.c",
+        "before": "63eece16ff2003d1db9507e491cb72d87882a7ea9c380f702aa154ffa4c6e8c8",
+        "after": "d51fe49cd445931227cd6a17ce78b1eb67a4a4c210432d21d2e90e7965b72922"
+      }
+    ],
+    "unchangedWCSAndProductionLogic": true,
+    "counterfactualLimit": "Runtime expected8 now observed after sole private QA init removal/guard. Broader engine initializer precedence is not generalized.",
+    "isolation": "Uses isolated1147-file core,20WCS,35QA,3dependency files. Does not qualify current1152 core/V11 or mainPackage08; neither modified by this audit."
+  },
+  "owner": {
+    "leaseId": "beaf5f1c-1059-4a0f-8db7-ca669902c1d9",
+    "managedCreationUtc": "2026-10-22T10:29:22.2608056Z",
+    "pid": 5388,
+    "args": [
+      "-profile",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile",
+      "-logsDir",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\logs",
+      "-addonDownloadDir",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\downloads",
+      "-window",
+      "-screenWidth",
+      "1920",
+      "-screenHeight",
+      "1080",
+      "-maxFPS",
+      "60",
+      "-noSplash",
+      "-forceUpdate",
+      "-addonsDir",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single,D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+      "-addons",
+      "7E0150C026102500",
+      "-world",
+      "Worlds/GEP215_WCSFullRipple.ent",
+      "-worldSystemsConfig",
+      "{C50579A2EC48E8EF}Configs/Systems/MissionSystems.conf",
+      "-noBackend",
+      "-noFocus"
+    ],
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+    "profile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile",
+    "creationUtc": "2026-10-22T10:29:22.2608050Z",
+    "exe": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe"
+  },
+  "ownerPrivate": {
+    "leaseId": "beaf5f1c-1059-4a0f-8db7-ca669902c1d9",
+    "workRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run",
+    "ownerKey": "f146e4ddb7054b1eae3ba89319c990ebd9dba5368e0d48a7957cc9b9fbb8f883",
+    "runId": "e3e08b1d-7cf0-4ea8-b53c-6afaba25a805",
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+    "owner": "Gepard serial scene coordinator"
+  },
+  "lifecycle": {
+    "status": "PASS",
+    "reason": "Original wrapper exact owner/argv receipts, verified normal exit and same released lease",
+    "verifiedExited": true,
+    "leaseReleased": true
+  },
+  "exit": {
+    "leaseReleased": true,
+    "closeMethod": "owned-normal-window-close",
+    "verifiedExited": true,
+    "exitCode": 0,
+    "utc": "2026-10-22T10:30:38.8958114Z",
+    "cancelRequested": false
+  },
+  "nativeAssociation": "Probe emits no nonce. Evidence uses exact fresh closed owner/profile/argv/source association; no nonce invented.",
+  "program": {
+    "preflight": {
+      "line": 283,
+      "text": "05:29:36.556   SCRIPT       : GEP215_WCS_PREFLIGHT crew=settled seatName=gep015_gunner ammo=8 capacity=8",
+      "fields": {
+        "crew": "settled",
+        "seatName": "gep015_gunner",
+        "ammo": "8",
+        "capacity": "8"
+      }
+    },
+    "fullScopeBeforeProgram": {
+      "line": 284,
+      "text": "05:29:36.556   SCRIPT       : GEP215_WCS_FULL_SCOPE expectedShots=8 captureEnabled=0 programRequested=0",
+      "fields": {
+        "expectedShots": "8",
+        "captureEnabled": "0",
+        "programRequested": "0"
+      }
+    },
+    "program": {
+      "line": 293,
+      "text": "05:29:36.556   SCRIPT       : GEP215_WCS_PROGRAM callback=RunProgramFromController_S requested=1 shotsExpected=8 physicalInput=NOT_TESTED",
+      "fields": {
+        "callback": "RunProgramFromController_S",
+        "requested": "1",
+        "shotsExpected": "8",
+        "physicalInput": "NOT_TESTED"
+      }
+    },
+    "eightDiscoveries": [
+      {
+        "line": 295,
+        "text": "05:29:36.556   SCRIPT       : GEP215_WCS_ENTITY discovered=1 id=0x4000000000000078 {} actualOrigin=<598.861,41.8354,2601> launched=1 launchAge=0",
+        "fields": {
+          "discovered": "1",
+          "id": "0x4000000000000078 {}",
+          "actualOrigin": "<598.861,41.8354,2601>",
+          "launched": "1",
+          "launchAge": "0"
+        }
+      },
+      {
+        "line": 297,
+        "text": "05:29:36.556   SCRIPT       : GEP215_WCS_ENTITY discovered=2 id=0x4000000000000079 {} actualOrigin=<598.861,41.8354,2601.16> launched=1 launchAge=0",
+        "fields": {
+          "discovered": "2",
+          "id": "0x4000000000000079 {}",
+          "actualOrigin": "<598.861,41.8354,2601.16>",
+          "launched": "1",
+          "launchAge": "0"
+        }
+      },
+      {
+        "line": 299,
+        "text": "05:29:36.556   SCRIPT       : GEP215_WCS_ENTITY discovered=3 id=0x400000000000007A {} actualOrigin=<598.861,41.8354,2601.32> launched=1 launchAge=0",
+        "fields": {
+          "discovered": "3",
+          "id": "0x400000000000007A {}",
+          "actualOrigin": "<598.861,41.8354,2601.32>",
+          "launched": "1",
+          "launchAge": "0"
+        }
+      },
+      {
+        "line": 301,
+        "text": "05:29:36.556   SCRIPT       : GEP215_WCS_ENTITY discovered=4 id=0x400000000000007B {} actualOrigin=<598.861,41.8354,2601.48> launched=1 launchAge=0",
+        "fields": {
+          "discovered": "4",
+          "id": "0x400000000000007B {}",
+          "actualOrigin": "<598.861,41.8354,2601.48>",
+          "launched": "1",
+          "launchAge": "0"
+        }
+      },
+      {
+        "line": 303,
+        "text": "05:29:36.560   SCRIPT       : GEP215_WCS_ENTITY discovered=5 id=0x400000000000007C {} actualOrigin=<601.139,41.8354,2601> launched=1 launchAge=0",
+        "fields": {
+          "discovered": "5",
+          "id": "0x400000000000007C {}",
+          "actualOrigin": "<601.139,41.8354,2601>",
+          "launched": "1",
+          "launchAge": "0"
+        }
+      },
+      {
+        "line": 305,
+        "text": "05:29:36.560   SCRIPT       : GEP215_WCS_ENTITY discovered=6 id=0x400000000000007D {} actualOrigin=<601.139,41.8354,2601.16> launched=1 launchAge=0",
+        "fields": {
+          "discovered": "6",
+          "id": "0x400000000000007D {}",
+          "actualOrigin": "<601.139,41.8354,2601.16>",
+          "launched": "1",
+          "launchAge": "0"
+        }
+      },
+      {
+        "line": 307,
+        "text": "05:29:36.560   SCRIPT       : GEP215_WCS_ENTITY discovered=7 id=0x400000000000007E {} actualOrigin=<601.139,41.8354,2601.32> launched=1 launchAge=0",
+        "fields": {
+          "discovered": "7",
+          "id": "0x400000000000007E {}",
+          "actualOrigin": "<601.139,41.8354,2601.32>",
+          "launched": "1",
+          "launchAge": "0"
+        }
+      },
+      {
+        "line": 309,
+        "text": "05:29:36.560   SCRIPT       : GEP215_WCS_ENTITY discovered=8 id=0x400000000000007F {} actualOrigin=<601.139,41.8354,2601.48> launched=1 launchAge=0",
+        "fields": {
+          "discovered": "8",
+          "id": "0x400000000000007F {}",
+          "actualOrigin": "<601.139,41.8354,2601.48>",
+          "launched": "1",
+          "launchAge": "0"
+        }
+      }
+    ],
+    "empty": {
+      "line": 548,
+      "text": "05:29:42.556   SCRIPT       : GEP215_WCS_EMPTY requested=1 expectedNoAdditionalPayload=1",
+      "fields": {
+        "requested": "1",
+        "expectedNoAdditionalPayload": "1"
+      }
+    },
+    "terminalConsole": {
+      "line": 761,
+      "text": "05:30:18.573   SCRIPT       : GEP215_WCS_TERMINAL reason=diagnostic_complete_acceptance_pending ammo=0 rounds=8",
+      "fields": {
+        "reason": "diagnostic_complete_acceptance_pending",
+        "ammo": "0",
+        "rounds": "8"
+      }
+    },
+    "nativeTerminal": {
+      "scope": "WCS_DEPENDENCY_ENGINEERING_DIAGNOSTIC",
+      "reason": "diagnostic_complete_acceptance_pending",
+      "programRequested": true,
+      "emptyProgramRequested": true,
+      "settledCrew": true,
+      "ammo": 0,
+      "knownPayloadEntities": 8,
+      "screenshotsRequested": 0,
+      "pairedViewRequests": 0,
+      "captureEnabled": false,
+      "captureUnavailable": false,
+      "captureFailureReason": "",
+      "vehiclePrefab": "{7E0150C026101501}Prefabs/Vehicles/GEP_MobileCarrier_WCSSmoke215.et",
+      "fixtureYaw": 0.0,
+      "visibleCloud": "NEEDS_PIXEL_REVIEW",
+      "rearmCooldownRolesMPPhysicalInput": "NOT_TESTED"
+    },
+    "samples": 146,
+    "firstSampleElapsed": 0.0,
+    "lastSampleElapsed": 41.59961700439453,
+    "terminalElapsedByConsole": 42.016999999999825,
+    "emptyElapsedByConsole": 6.0,
+    "postEmptySamples": 70,
+    "noNinthObserved": true,
+    "tracks": [
+      {
+        "opaqueFullNativeId": "0x4000000000000078 {}",
+        "positionSamples": 49,
+        "computedPathMetres": 48.59415206037499,
+        "maxHorizontalFromFirstMetres": 41.61320148294041,
+        "first": {
+          "sequence": 1,
+          "elapsed": 0.0,
+          "position": [
+            598.860595703125,
+            41.83543395996094,
+            2600.997802734375
+          ]
+        },
+        "last": {
+          "sequence": 49,
+          "elapsed": 3.0336289405822754,
+          "position": [
+            586.6240844726562,
+            40.113250732421875,
+            2640.771240234375
+          ]
+        },
+        "motionThreshold1mEach": "PASS"
+      },
+      {
+        "opaqueFullNativeId": "0x4000000000000079 {}",
+        "positionSamples": 51,
+        "computedPathMetres": 50.24104737471396,
+        "maxHorizontalFromFirstMetres": 42.76903150553767,
+        "first": {
+          "sequence": 1,
+          "elapsed": 0.0,
+          "position": [
+            598.860595703125,
+            41.83543395996094,
+            2601.15771484375
+          ]
+        },
+        "last": {
+          "sequence": 51,
+          "elapsed": 3.2502617835998535,
+          "position": [
+            586.2161865234375,
+            39.018733978271484,
+            2642.014892578125
+          ]
+        },
+        "motionThreshold1mEach": "PASS"
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007A {}",
+        "positionSamples": 49,
+        "computedPathMetres": 48.196231841305845,
+        "maxHorizontalFromFirstMetres": 41.13615559833718,
+        "first": {
+          "sequence": 1,
+          "elapsed": 0.0,
+          "position": [
+            598.860595703125,
+            41.83543395996094,
+            2601.31787109375
+          ]
+        },
+        "last": {
+          "sequence": 49,
+          "elapsed": 3.0336289405822754,
+          "position": [
+            586.7640380859375,
+            39.62273025512695,
+            2640.63525390625
+          ]
+        },
+        "motionThreshold1mEach": "PASS"
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007B {}",
+        "positionSamples": 49,
+        "computedPathMetres": 48.68399496285241,
+        "maxHorizontalFromFirstMetres": 41.720037351213996,
+        "first": {
+          "sequence": 1,
+          "elapsed": 0.0,
+          "position": [
+            598.860595703125,
+            41.83543395996094,
+            2601.477783203125
+          ]
+        },
+        "last": {
+          "sequence": 49,
+          "elapsed": 3.0336289405822754,
+          "position": [
+            586.5924682617188,
+            40.223594665527344,
+            2641.353271484375
+          ]
+        },
+        "motionThreshold1mEach": "PASS"
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007C {}",
+        "positionSamples": 54,
+        "computedPathMetres": 54.77229024052192,
+        "maxHorizontalFromFirstMetres": 46.96280807405365,
+        "first": {
+          "sequence": 1,
+          "elapsed": 0.0,
+          "position": [
+            601.139404296875,
+            41.83543395996094,
+            2600.997802734375
+          ]
+        },
+        "last": {
+          "sequence": 54,
+          "elapsed": 3.5672695636749268,
+          "position": [
+            615.6456298828125,
+            39.106971740722656,
+            2645.6640625
+          ]
+        },
+        "motionThreshold1mEach": "PASS"
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007D {}",
+        "positionSamples": 50,
+        "computedPathMetres": 51.566308151630935,
+        "maxHorizontalFromFirstMetres": 44.05360835042864,
+        "first": {
+          "sequence": 1,
+          "elapsed": 0.0,
+          "position": [
+            601.139404296875,
+            41.83543395996094,
+            2601.15771484375
+          ]
+        },
+        "last": {
+          "sequence": 50,
+          "elapsed": 3.13499116897583,
+          "position": [
+            614.1014404296875,
+            39.61778259277344,
+            2643.26123046875
+          ]
+        },
+        "motionThreshold1mEach": "PASS"
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007E {}",
+        "positionSamples": 49,
+        "computedPathMetres": 48.74092888970688,
+        "maxHorizontalFromFirstMetres": 41.78742048696449,
+        "first": {
+          "sequence": 1,
+          "elapsed": 0.0,
+          "position": [
+            601.139404296875,
+            41.83543395996094,
+            2601.31787109375
+          ]
+        },
+        "last": {
+          "sequence": 49,
+          "elapsed": 3.0336289405822754,
+          "position": [
+            613.434326171875,
+            40.289546966552734,
+            2641.255615234375
+          ]
+        },
+        "motionThreshold1mEach": "PASS"
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007F {}",
+        "positionSamples": 50,
+        "computedPathMetres": 51.52150301862334,
+        "maxHorizontalFromFirstMetres": 43.99968781385055,
+        "first": {
+          "sequence": 1,
+          "elapsed": 0.0,
+          "position": [
+            601.139404296875,
+            41.83543395996094,
+            2601.477783203125
+          ]
+        },
+        "last": {
+          "sequence": 50,
+          "elapsed": 3.13499116897583,
+          "position": [
+            614.0855102539062,
+            39.56233215332031,
+            2643.52978515625
+          ]
+        },
+        "motionThreshold1mEach": "PASS"
+      }
+    ],
+    "flightIdentityPolicy": "Unmodified full native EntityID strings from console and JSON; collector native: normalization is not used in this independent computation."
+  },
+  "full05Preserved": {
+    "status": "NOT_TESTED",
+    "infrastructure": {
+      "status": "NOT_TESTED",
+      "reason": "Missing/excessive lifecycle samples"
+    },
+    "scopeMismatch": "Serialized8 but runtime shotsExpected1; discovered8/ammo0 then stopped before lifecycle/empty.",
+    "rawSourcePins": {
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-05\\smoke-full-eight-empty\\native-run\\logs\\console.log": "fbbece65f278b0398dd72ec00d9cfa92a77607ff2182ad50c880b59cb21411b8",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-05\\smoke-full-eight-empty\\adapter-result.json": "0fbe6c87bee4e1b39dffa26de6376a288e81ad86a8c66bff4493ede018d17cfd",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-05\\smoke-full-eight-empty\\native-run\\exit.json": "f10c7eabc1553c0372cb17e2767c13ac1a478e93147950a17d9c4ff8df080d76",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-05\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-result.json": "e5358c2d3e5d6db0f2cac50c239efe48514c3ee4f5af706ed4c60615939323eb",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v1\\single\\qaSmoke\\scripts\\Game\\GEP215WCSQA\\GEP215_WCSProbe.c": "63eece16ff2003d1db9507e491cb72d87882a7ea9c380f702aa154ffa4c6e8c8",
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v1\\single\\qaSmoke\\Worlds\\GEP215_WCSFullRipple_default.layer": "7b443c34b0cccd6b3f26bc7c05ffef2a89d6284447b9ced51509750ab6e8c55c"
+    }
+  },
+  "allChannelEF": [
+    {
+      "line": 53,
+      "text": "05:29:22.733   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 121,
+      "text": "05:29:23.593   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "channel": "GUI",
+      "severity": "E"
+    },
+    {
+      "line": 177,
+      "text": "05:29:25.629             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 188,
+      "text": "05:29:25.724               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 189,
+      "text": "05:29:25.724               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 190,
+      "text": "05:29:25.724               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 191,
+      "text": "05:29:25.724               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 200,
+      "text": "05:29:25.728             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 201,
+      "text": "05:29:25.728             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 773,
+      "text": "05:30:38.356 RESOURCES (E): ==== Resource leaks ====",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 774,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 775,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 776,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 777,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 778,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 779,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 780,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 781,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 782,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 783,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 784,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 785,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 786,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 787,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 788,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 789,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 790,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 791,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 792,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 793,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 794,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 795,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 796,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 797,
+      "text": "05:30:38.356 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 798,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 799,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 800,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 801,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 802,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 803,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 804,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 805,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 806,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 807,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 808,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 809,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 810,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 811,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 812,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 813,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 814,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 815,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 816,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 817,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 818,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 819,
+      "text": "05:30:38.356 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 820,
+      "text": "05:30:38.356 RESOURCES (E): UI/Imagesets/default.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 821,
+      "text": "05:30:38.356 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    }
+  ],
+  "originalCollectorErrorCount": 58,
+  "omittedErrors": [],
+  "samplingLimits": [
+    "146JSON samples0..41.599617s, terminal42.017s; no invented42s JSON sample. No ninth observed across retained queries/console, not an absolute assertion about unsampled instants.",
+    "Each payload has49..54 positions, ending3.03..3.57s. Lists empty from3.6675s while known count remains8; disappearance is not impact/cloud proof.",
+    "Path is sum of native sampled Euclidean steps; horizontal distance is maximum XZ displacement from first readback. No native travelObserved scalar used as substitute.",
+    "Capture0 produced no screenshots; no visible cloud/coverage/fuse/impact acceptance.",
+    "Only engineering MechanismControl; no currentV11 integration, ordinary/manual key roles, finite smoke rearm/cooldown, repeat/full/negative variants or MP/JIP/dedicated acceptance."
+  ],
+  "nextGates": [
+    "Separately qualified full-program visual capture/impact/cloud coverage and user screening judgment",
+    "CurrentV11/currentcore integration and ordinary controls/roles compatibility",
+    "Finite smoke rearm/cooldown and relevant negative cases",
+    "Dependency/package integration review before optional candidate inclusion",
+    "MP/JIP/dedicated if pursued"
+  ],
+  "inputs": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\SOURCE-MANIFEST.json": "97f6072e7231fb20e266e4607dbb45895863cb332146baa120d3749056de4919",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adapter.py": "dec4fbb7017f372b95080629e68e079ba458a1114937a5101aab9041192c2621",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adoption.py": "bf18e91baf75f403ce8d5e00b07500b26b491d5e86696af60ed59f0a1bfceb8a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\analyze_wcs_smoke_supplier.py": "4d1c3ca6a4399cef1e7019ed5869025983c0070db5ee24f3ea166bd6d546892a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\BINDING-CONTRACT.json": "86550f39714da672b778a1f5123f8106da628a58c87d04abf5d1c59714696c9d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\BINDING-REUSE-PROOF.json": "ce99d217844f491ab2178bbb3c6d449c76311c3063c2d670c78a65aaad1690dc",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\build_v2.py": "d662ca19af702137329af3123053a27efe55a8d6db30fad495452b0b7debcaa5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\evidence.py": "faa6d005f18780b404c3603dfef67fd2da1b6e91ebe3029398339a262f8130ce",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\expected\\GEPARD_SOURCE_MANIFEST.json": "6d55a859bc93c580a1a37450628988767ada2e65d9624467e01138624bf4f7ba",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\expected\\QA_SOURCE_MANIFEST.json": "fda6af62b226c774d7f8a74893ea472096c88532fee6e7c35a5ae8ad52ea251e",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\expected\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\expected\\WCSSMOKE_SOURCE_MANIFEST.json": "440aef4a6560598387ef11bc995c0f25e1063549b45368eb0b58d8579d92fe42",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\EXPECTED-STAGE-CLOSURES.json": "f2b696f6e568a0e3cb8f7a155ea3459166aacbdece639a03855b3ce987ee1250",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\FAILURE-05-AUDIT.json": "b38d12b183cdad0f0321478be2ed994b8fb6e834e8222ec3cf6e997b7bd500f1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\finalize_proofs.py": "061b002a4ca1b4b5494430325ab29c5bbc0b3b515bf8b8406e87316b183a1964",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\finish_source_v2.py": "5118a2820e9c9b54b98ed6212d00597920b3e39006768b00fe8290b140abba9b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\lease_read.py": "a56e0307d68ccbde1417da89086c65ed671cac888b886116652ebc2ae03baedf",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\overlay\\single\\qaSmoke\\scripts\\Game\\GEP215WCSQA\\GEP215_WCSProbe.c": "d51fe49cd445931227cd6a17ce78b1eb67a4a4c210432d21d2e90e7965b72922",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\OVERLAY-MANIFEST.json": "f5acde173bbb0f00187fe1bd1b1cb3bddba364f929aee22c0abfff49b7b3089c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\plan_full.py": "1493b127ae25c89d859860fb4ffe47fb6d8a39d00036cd47ab9f7004dcfc0a63",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\PLANNED-ARGV.json": "bfaf0ec8523a2dcca1996c80612dbfb088318f98ec3366632509de2d83f7ce59",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\preflight_v2.py": "e1bd741a26dc0d49b2e0f55aecaed6c6627de87d08e6ac49b2fb0dc3c2a8cc75",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\prepare_full.py": "337032c435811eeedbfe7c6e339af1df0d252bbbbceb36ac635a99009aae569c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\QA-EXPECTEDSHOTS.patch": "0447e2165dbf00b615bd77f1982382a2c0429d0bfb34788262af8f2e13ca4ab7",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\README.md": "6a2e04bb8cf22f290d236871589297475637970b5f159cac3d5ec822c6711e02",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\record_argv.py": "9fc100f1e45063489392b84375f2f83b68a914f01c74a72ac338750d19aa6fee",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\seal_source.py": "91d4fb1ab381ee699a0f24e2f007f7c304174c6884ceeada8b2cfb60375c845b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\SELFTEST-RESULT.json": "470a9c2e4f5fb3f95117bbcefb85a4e1ff954770b8653b9d0f6e81a046dc4a86",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\selftest.py": "9617728a3aae2c76a808f1bd92203e75cd90cada34c23934ce6be0772fe3f872",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\smoke_evidence.py": "56d17f0ab516fe3826fd51508e1ef65801ebbbd5b3fbc99f1e4e42cadf28c195",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\SOURCE-COPY-CLOSURES.json": "2b1fc18e40cbb855a02bd13c9ea7d8cb54618132beaaa5776a04ef1d5a0c801a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\source-pins\\GEPARD_SOURCE_MANIFEST.json": "6d55a859bc93c580a1a37450628988767ada2e65d9624467e01138624bf4f7ba",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\source-pins\\QA_SOURCE_MANIFEST.json": "f3ff1b436d3ae065db1496d6baadedc45bff22b0b0362354bffe106044d4a7c1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\source-pins\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\source-pins\\WCSSMOKE_SOURCE_MANIFEST.json": "440aef4a6560598387ef11bc995c0f25e1063549b45368eb0b58d8579d92fe42",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\STAGE-GUARD-INVERSE.json": "59d88845818016d4adcb53bf01596c240211baa7c445c3c56534bebe9ee438e0",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\STAGE-GUARD-INVERSE.patch": "36e2a1e8899c07b30d692704958ef166ed1f55cde4716a5221a08abdedf9ddc5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\StageFullV2.ps1": "c95af171362dc72c4fc9c76185625e62921a725997cc86bc387ea284f3a8df43",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\SUPPLIER-INPUT-PINS.json": "7a551e00d5c48daa08993c921e36d286fd20da050b09e2c23fa8c0cb365221b9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\tools\\CompileSmokeFull.ps1": "1415c600f1a34a2fe41a7a906a977e46c34aa17caed286ec14233724d0b86aef",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\tools\\Scene.ps1": "6e4b54e65b525006d52c6d149fbaf5e4574426156c47e34ed8861c2954b3f068",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\V2-PREFLIGHT-RESULT.json": "f8eb13c0d0efc0fe0766fff3a0f361233147f313b9c8beb7a5fdc0537523ea97",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\verify_source.py": "4372b5c83585fca25e1b9cee508a6b0a121b1bf13a637eda9b8fc2978bd64694",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\WRAPPER-REUSE-PROOF.json": "558c3c4d168ea99778d370e45544f31d71fbad83560fafda4be8723db2521b18",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\WRAPPER-SYNTAX.json": "91fb788a555bb6f8246dbaddc4dcb0dd4f195a103aea5a548eb01b61295e5248",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\SOURCE-CLOSURES.json": "5ace47bbcabc7dc94b788967960a9eb52423d7bccce3380fa66529dc616699c4",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\COMPILE-ADOPTION.json": "9bb8b8108f55d9d42e61d78cbede9c8d1362d426c2407079d9c090ccd5f56dfe",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\state\\STAGING-RESULT.json": "48f63565cc33deaf8ee5031d28d602b189a2fe1c05b1611350c91201a1d090ee",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\GEPARD_SOURCE_MANIFEST.json": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\WCSSMOKE_SOURCE_MANIFEST.json": "c11da2a21288f609198dd92e497cecead0ecac688fadb4691efc21381c86419d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\QA_SOURCE_MANIFEST.json": "1c7ec811abea0247f832e29448a6e3f8632876bfda6814493bead2bb7a95a648",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\next-gates-v1\\SOURCE-MANIFEST.json": "fe49c1e14c2b1e77ec32fc464f8a6ac007e38ff24a6ec181596f3bea693d1695",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\next-gates-v1\\NATIVE-REQUEST.json": "68e573f24e84ac6590cd80d40f6f04aa6b2f7b8f9af6a771a06899c9ba3574cd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\next-gates-v1\\verify_source.py": "6de0f4d9b57991107f4d71e7b80d733345e2e48b354e4de60d4ab832ad820f37",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\next-gates-v1\\StageNext.ps1": "8fed7a102da5471db11e36a2a9bff0b03e0bd180afbb5b76f2076e181c85f059",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\next-gates-v1\\OVERLAY-MANIFEST.json": "7499c202d428cb97f930502edf88c41a11a41d01b07de0b247f8d4a81adf5d34",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\next-gates-v1\\full-service.patch": "d7c82fd9682a57a665003e58d7c2910889203b24a340b68b2214e853242e2cab",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-service-08\\RESULT.json": "fe86ce67b3a14257535c3dda2e44f6e594da17b64313c3810f8f7883a03c3800",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-service-08\\compiler-identity.json": "e94be2dc93308f0ba6ff0e8d9619c0458b87e5fa7d6f14a0ac3334775f17a68d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-service-08\\launcher-exit.json": "bf0c7d3cd3d204c35a5a24b9f562daaed91def2fb550cc09df15c7b35e80c3a3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-service-08\\owner-private.json": "64b2cb7fd3e3ceed05182de8fb15217cac61abe283f8edb85e4eeda1307fb4cc",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-service-08\\logs\\validate\\console.log": "932d11535548a84517639b983497ba0ca814e4621da763eb3e572a68617c29af",
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe": "51f941dee28bda7865e2428d7fc92fcbe7c5c7ff666caf642c0ff23c2aced457",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-1.json": "6bfa75943c47a0b358873946aadce7906b1b4c4b57119e5dd4e6f5b61ada9edf",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-2.json": "bf374676bdf0f0c880a894f4fab132febcad9fc12b4dc5147048fc7a71da8206",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-3.json": "d6b50a8763467e69cc20717db4f5c8d6b3d32658635054966668cfb9d08f37a9",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-4.json": "754db26468fd2f54704296e9da9ba09f2cf94baca1e0ea6968a7685cf6d7482c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-5.json": "e9d77590eecb0e6747770581603b50ba09022d000918936f2a30962bec4c48dc",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-6.json": "5f9bb3e7b7d641e3418870674be1e6618192f6bd6c60d8f752ddc28562426cac",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-7.json": "a67381384879792cdcc0e7098c29e8bc1c862e6c1be255b67a376444a71af6e6",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-8.json": "53fc630560e48c6d790829611714270c1d63c69153904b783fd2d880d8aeaad3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-9.json": "dc5979c6906a35e90e67530b426a5e9bda938aa1a189c8908ce27aa4f2a7d6f3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-10.json": "a81ca5e8023619bb380cde6aed7bd3e26ca29ad11b3c257c8a81bf9b81d1facb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-11.json": "0523e3a502fe36da4e0e6fb46a21989d48ec5df31bf77d5b887154de767db8fa",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-12.json": "5322d5788bcaa316f4252c0624c88af018b56403de46d35ecd8aef065edd0930",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-13.json": "8ee486d216556685b5c24437bdb9e365ef89fea5883d09393ffe8e80c9301de7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-14.json": "eacbf00df469debfcb16b112db96a609bdb1baa7a41b48334ecdde3cce983150",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-15.json": "75e271e64dd641ca7c386f5bf4ac239abdbffb7d9395bfff667b6400c4ddba20",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-16.json": "6458c7b6a4d0aaa2f49650e7d0a8057be032a463574d77d11e9493ec45ea6c04",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-17.json": "80707cef62de6497f1d055ba3ee46444c4ca7fea1c6f44e167f4399fcc60e7d1",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-18.json": "b3bd8da96cff10f66336ed4d74553441abc2afd50f5fe1bb1f379dfbdebfe8d6",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-19.json": "6d659baeac54ffa9f52fa836bb93478ef4e1b1e0dd992976af650652cf07f576",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-20.json": "d0e040e6157ffb199f4299654a0bd02c8ab11dac217385b6c52c48777300f240",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-21.json": "37016173e43615301fc0863395b5a8b9644a8066ced7195c03da0b3eca0e1b99",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-22.json": "db48c9cdf7f3cb2ded49611fd4ed8705947bc0989c801e39c7581b60b180faee",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-23.json": "2b4ebaddd2b38fa9c7cc0500d6316548e401653dad48cd97fd5a1441a94b16cd",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-24.json": "ecc61f3c5cdfd348fd4d12296a05029d35e4a0b2da98c7310f7d9a365f8ab38e",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-25.json": "c25bbd1ecb25672652dc1872a83a4d25d178bad3cb2b523314d6198da6de7334",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-26.json": "a9a7663786dfb398561b7bbd22a69c0bb152482810e6404fccd10d5a83c81cf3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-27.json": "4e670292d2b5f2cc0de714b1cb737ceafe4287eb5729ad9b74a20aebb90d827d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-28.json": "71834061c69805df660b426f61954c06267bf2ebccb2bb6ef2653639b7deed66",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-29.json": "5af1e8d125b147143a622a89aff26f64ad4d5d2df1ee16b210d0c7d7966b38ec",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-30.json": "d09c0137dc32e6b6ae94e756ae6906f2dd708f917baae2d9dac7230147b0b002",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-31.json": "b4da85c79cbe3e4c54c773b3f9273bfc03f2bb303b612b3d9b4fd82e58f1218b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-32.json": "bc626694e44ad0e67393fd62d24719bb4c8ab0f4b1a2a361aaefde21e1b62f6b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-33.json": "4ddc51adda9ec7f3b5aba1018f498fe729af489dcff79ce7c276a5dcdbca2eb7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-34.json": "f1e306c470a9abd174a7f8b06affec113f3dcca7adee7b0afc47ccaff160cc8b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-35.json": "86746f90a8b8057535223525a197350382c24784697a985742a3dbeff9bc11e5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-36.json": "f01d64fd408736d9c898ca3fb8f56f2eab03873a0e9c32aec98817f762407cce",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-37.json": "e3e114155cdf2e0792da1b9ceeabb981753f36bdfe73cb21fe861f44212baa4d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-38.json": "2071a634f43a0858c1f99905cb71761e29b6119fec854af699295d5770b6794a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-39.json": "13964078a25e9a7c5c95adfe52b4412fc1fcd6cc1e848fd78a316a356257f35a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-40.json": "eed2e44dff1eb4607f8894ae6c5ae01c243347ea9311c04ca293eeaac654f760",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-41.json": "1144502339fbe8deee1bf03707d6404e4f0d707973c9623530f3d91b687fbf84",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-42.json": "1ddc9ce2f9cb09cf4e68ded606113f68726ec9a7061bd9b321e66a69334a4989",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-43.json": "da8f0f72c95efb9400544e9d1d9549f4f67def6329677911f485be6f5cea2f38",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-44.json": "4125ac30ccfd2453bc151aef466f732211aa448931039891f82c9721e4dca155",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-45.json": "55bda7257d35fd83915fcd0dcc20f8736cfe92ae3112a4f00a3eba7d2a94d8ee",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-46.json": "326aa3b95f3a294f5a98c0e7d2a9e83a6e44b39589fe54cc200565e0b91b5752",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-47.json": "aeb2bf4455d30ebde3d236f65b1a0e86902101721c18e60597616c2349b60f04",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-48.json": "1a5b2b92ec932a0aaa2065f7ffdddb8aec17191b25d99e96932655e2d09200fb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-49.json": "650c3bec7913bf82dd2c990687798be46a6e96e61c2df2fa849c5374bc98e96e",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-50.json": "e6255979c80e1cb95cb14289dde607fdd07759c1750da814b05dc40aa0a6ea9b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-51.json": "45297be31eaf842b1ce8ab5c07dd49f8d8e8835052987ed5beaf431f25c62730",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-52.json": "a80bd8521dc267c25299704cc29c32a88814adcd969e5c480260b6d7511ea91e",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-53.json": "ca54c2f57efd91f4c77826c09dd314b17534d9ae1223b5bf3767344891e9208a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-54.json": "bdaf3786e9cd4fc6aa498e359dde1168c064909f00e89769c33a883b0f8bd160",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-55.json": "8ea07a34300a7f493273ab78f38f505aa6f06bec7e96481d07a71431a5900cef",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-56.json": "7af8110fc89b6e0fa16263301844ece6911c89693f8a68cdfa25c57a0767f032",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-57.json": "80eb0ef6fae17c5b94cc1fa6cf480491caf08663c6d9ecf647328e391514da45",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-58.json": "afab5fd7e9f6f18d6b070ddd72df7d6d86b52ef067cbbddbd0613203a5e5c665",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-59.json": "d98d43748456cc6d92d2f692b0b8b3e6593b7b8eb27751b994c403f905931249",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-60.json": "03fc46506cffa32bb6d0c41a532557ee2f06e556fb5586c927403098ea07887d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-61.json": "236b4c6f539daf097af8ddbe25f17575f02f83a8f83bfc2d9d03dd0b8807a59e",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-62.json": "2f6c35fd1d6d584d13f5e450a3674d33992205583996367786112570d8c98020",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-63.json": "ce89096d50a49c2e9e807c61ec54e696e3d7b2697ef354a2c2a60e350e98abe5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-64.json": "047dac491380f102cd519b23d17c04b38e0e1a47c46f92dd4fe99f2d2dbf5a64",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-65.json": "2ec6d3d5a6cb33efb68533dbf6c942928ee003c4f37271effe7b4fef239e24f4",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-66.json": "1c61272aca8e46cbd778fda76857475bbff9c09c59daa777802d9bdc7cd52d9c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-67.json": "f4114602a666f80676b9dda37edb25cf2d4802693c5248d8660845490244e842",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-68.json": "e28d16d17b7d8edd7a9bf445395c6753530a2e4e782baed5784e8ad8a1d2de58",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-69.json": "0a96275b21e7de0d6c9a09212a61b7830c5498d6f6e419b03f63dd31282266e9",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-70.json": "ae84ba21685abc966a3eddae0a29ccf2a25ae115b01bf515217690cb4f1a2957",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-71.json": "e10ef6bb1c4a5e529e7a736772439fa4367ac46ad4ce22605c40ad2c64a1095c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-72.json": "f62cb207f446aa9fb29950b169add294b3f60dcf70d648eecd2f23e725a866d6",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-73.json": "02743b66004201615e979a065d099d680e4ed948593a30322ed2430d3a3cbc89",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-74.json": "8f7f851b3e1fe37770f34f6f190b5791b1106af2be8ae4672ebb20ac411fb9be",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-75.json": "dbc93803878d7bba0dd4b15a58adf01794b38611f1ba66774fb0bab983adf04b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-76.json": "32aec4d8776105caba5133baf6809b2563b347d7d3484015b1ab604a044dacb1",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-77.json": "262cbed6c028fcec535e48a50600ce76daaff607c43fad3aa1ed3d95e565b3be",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-78.json": "30fe484aab74d048662caa3f9b364d7a0bb06b472e1f52f268f07ce4ca219335",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-79.json": "724af96c2e42b396d605f0fcaae08fbacab7411379a3600a6e333e546dd6e249",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-80.json": "9beb5fc2414125c4e5f6af7eec61c3a3b3b8b59d12d20bd976e8695a6093fe61",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-81.json": "5add972bb5ede1984eac08b9f9d593f856598a00e11c59f51b2ac90b2031f230",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-82.json": "81d6b93259ec39334e5389a797dafb56285de2e21bab0937e9fdb53f2094da11",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-83.json": "70b41e6843a96e5be6e34cc0eb993f49dadbfed9a61e4ed01755d65de11c083b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-84.json": "b8c6e10f7a3cd1032b33c47f47e3b130bc4426c2ee6d664750de663e0ad55051",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-85.json": "70f3b1952cce5a24e82cc59f6c5407219c8da7047a2441ca59380cb776ce40c1",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-86.json": "0d3c4d8a3ab3a276d9e72a7980a0d5b13ba24d3a5d0ffc3e42ccde0596785767",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-87.json": "5a11f206c707a5bc077bdbe7aff42fcc31366633406b4d6decdc4aa7c9eee32d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-88.json": "ea699bf09d115fb905e642aeb51a8a549ba6d840f1693b732fcf30853b83f13b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-89.json": "a9a6bb8aaec8a87886c667e78343e934f6c3d2589c5f764e8c915abc06eabc1e",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-90.json": "99ec682b105cb5b08c24beb1d0fa72a0ea51f3ec099f41b6e0153b5f90a2469f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-91.json": "a5dfab0002e0e5d937a8edd960582b0a3230f097b091afc7dbb1f8f950f31090",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-92.json": "3ac870ed39ac23600583cfca40a96e758557533026c641edc9f8208875f1bcf9",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-93.json": "3f826e508fba68fb16aae8dba4dcaa6085bf0fc893b540e40a7e55c1925c7961",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-94.json": "e1b7d3f3cc3b687ca668327f3397c49df7f4ff6b2379480ddef056078aeb7066",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-95.json": "a7aa6831f11f9b0fec784baa2e7aa6fb8474701e8cf9a84241b809ae4a12f125",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-96.json": "b7946be475f238f7bf48b65c253cee76bcbd0da6f00d7095574e0394ea904d4f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-97.json": "b17ecd90396f34f73b6d1e904d2616641d6e19c1175070456fd47f26cf8196a0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-98.json": "49da8c5b76dce10f0907482716d1987adce3963634cb3d26297da6298be58d66",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-99.json": "8bb709b7711b2f8052d4f3ae289d48045e4ca27fc6867f05524b4e0b639213a8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-100.json": "6699865a3bc2afec4d842dc955f35851d6b6b3efa807a52d0fdcfc1fcf8c1dcb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-101.json": "4f738fa1e13d78e2838bc99b6fc2732dc85dad0bf378955a82d0177871083386",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-102.json": "b41462c560d6f241bf80845359fc30bf655827711be4f74080bcc765efe96ab0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-103.json": "b28444733e90785c23a3e22a9ee0a921e626f2ad593def9d79a78e120ed1e94b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-104.json": "92a38d58cdf06cc82f0cb2876a35458f5e1d8ca5971e818555c379f766774627",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-105.json": "1f62ac77807e5bcd6f0171a725d1a0566211e619a34cd23068e3a84aca647213",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-106.json": "dd0c1db50a9a57a57a05a55a7ba41228437d56e092a0f51ad1709a4f6abe0099",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-107.json": "c85475877077a7e53fdd11809d22fc17034921fe98b1964bb4f586c714b0d11a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-108.json": "e7e87598731cb41552ce76dd66bc60ac42d63be0f719e1654d68eb7d8f691197",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-109.json": "7d919b45fbba266ff2d551e66522e6cdc83320686e9001cee1b12b2cf50bbdb3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-110.json": "9af2965cf32f72a03b18fcb4a9a3049b783aa89be5819159cfad603d3c122d59",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-111.json": "4046fb19c3c79029d1496c7e672ca93caa5534209b9b1f59e4fd1f2d1e58facf",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-112.json": "3e56506276dfecc5732ba6453d1261d28287ba8fb7b4c7df2d9cf8099c624fae",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-113.json": "bf4ecf05c9f0b810def8969c39b7332fd5b684bb659f6366a8068e2d7bc02f7a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-114.json": "8e5ab6c7c94554b7bab323d2e427c287611ff7184c7de5bf061b3bc9a085e6bb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-115.json": "682585f4630fd1a39f4351f3f7616501e962ae7bd77c2ce9a8d699cf74e81883",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-116.json": "79187657b5cfce7f121da77e65ac86c16654e13e882951b093bba8e8cec41e35",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-117.json": "5483e4551ea167bc7487abbd929948e0adea554f6ff9f251f9b36d158a6c50c8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-118.json": "5d031b5e324106f4ec229e2b0b3e733c08a96700230ae147b2503bbd3e2b57ea",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-119.json": "a1af3b889e79762084609d9420f0f58aedb04dec52c7ef93127a0ec8dfc6dbd1",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-120.json": "1e6b0b80f0885285372c80a6de34c4733dd06f7481bec6bbca80359afde19dde",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-121.json": "9dc383ba3c93c1d2a420fcd0ba3a5a7f3559e73ba55d73a15bb3e892a0699801",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-122.json": "d3fbe43de236bd17801fb02a7211e48bd69127884baffa9e13e6d2c7abf397bf",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-123.json": "7c9df3b8022bf1c35acc318b8541304e22a0d914f2fdcea3aa709b97c79b85b0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-124.json": "bd249a033f357236b96c9f93911ac81ae2f422eba976d60d41e2de3539c68015",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-125.json": "af8896a5e9b8fa6573dcbe402619df4b55058dd0d5cdae28c02a95d1fcaf2f78",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-126.json": "11c09c8f020c981dbf9636df65ba747e71b711abf6f32bcecf2067cbbe261959",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-127.json": "695d46d15009b707d2422411419a08b4c0ffb70f591eda8096327389089ee895",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-128.json": "186d8601ad0b5306349b44e556b6bf00211a815e32757831a75263162129938d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-129.json": "ad73ac1b9647442fe33ca32ee3393a7c7b1b1fa83a146997d34878e5e6f5cfaa",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-130.json": "0b14274296cc949400f72bc60bce0d5b536912ddf7b45fa7659288307fe3db16",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-131.json": "a6ced5a9476d932e10477590952e78e0c376685627eaa465cc8122ae7c1c3488",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-132.json": "db27df6a8c9a7110e49fb49482202e3059997e608964481968e42516130b0c37",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-133.json": "5a2a1bbffa30ab61e8a313e671ede6478b23cef895570764cb41a2101de3ba76",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-134.json": "510f6bd2af9b0d1b85b8dda36047d587c21e4f768e2be7e21d09758a6ab38a9d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-135.json": "cf3e287b6bbc53cc2e9bd8d7b42bb2545a28d36e1577634213bb9de265ab1d09",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-136.json": "adf4d2c1ff8494f0573b37c5bd5d29db650f3430fc16f52853977bd88a83a2f1",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-137.json": "347faa99d4b1830c2f215484cbdd2b44b9b43a0169397bb56464069091462f29",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-138.json": "d7a050236a544c3e33ee60d46e3c6f0472678e4dc7cd6cf1b4bf4c21c3afee18",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-139.json": "a864b20a9c5d2c1bac2d17e9635381828b35de7830e66cb8fd2408ea66364aa3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-140.json": "9bd5f334122ad77f9ea1ee2eedb3d94305c19aa1d082f5a728974220b11d9346",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-141.json": "e71da5831276b915140149e772ac032d9c1555bbfea9334364e36c50bee4f441",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-142.json": "fdd5c89e44895283466365bfa536a65fe4caae3c4cae70ddbaedf8b8bac22f58",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-143.json": "280383a401e4bd7262d0dbc71305bf64ad4a18507f37ecbd74e81878c18990d3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-144.json": "069e6764be37652d5c7bb5a9ce688100d393831962d52e6026161ee9a842890d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-145.json": "8d3d57795eba0865fc80ea54b9f1362bab673983da399687ed734c93cb6a0c26",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-life-146.json": "5ddb0ccaa6dd423e0bfc905262b2b2c14571b0a776ffcf9d45cab16774680e69",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\request.json": "18768c6f8a4132185834229be3fec7d787e6de6a01904093d63f62e26296304a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\result.json": "333ba74f7cc90de3c0ee88d814ded46cc8aa710960b9558d31c30c84d925d606",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\adapter-result.json": "b46a6321693f33128988c63c4372e8dc1512a05b133a119ea2cbe86bc24d9955",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-review.json": "6c6477d0ca521adca008cbfd28638ebf6c3db5cf7eb3a5e623c6d078d3acf82c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\owner.json": "07baeb31d6b3fb0d9d3a09b85abeb4eb3bbbceaaa97d8444e94b25c1f55f41ef",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\owner-private.json": "09426275801ac52a1aaabc4f2f2bb1ac6fcfabefce43e77fe4262d00e09075c9",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\plan.json": "dd15759f67f011703ff31e632ca1692bc9abd2a54cbb4c5bc96da54059f5778a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\exit.json": "d63bb239697fcb120143ca1caa15779c7fe7c1e4471f09b8d63a56e22ddaa87b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\logs\\console.log": "0850dd4799cac07c44ff9cb8613bf49d380f580f093117d42e96516a86c76d51",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\profile\\profile\\GEP215-wcs-result.json": "280d0a60ade1878635df32cee1e56fc8b2df2965db14b7bb933bf2305d2cab58",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\smoke-full-eight-empty-job.json": "457243fbf3d84bef1dc9360474838ac24714cd43e4488e2cce33d3e04202b67a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\BINDING-SEAL.json": "879c49f19a963240fb6bdbcb6800b3793b74e74d0ce2c0629d2fb9a785bd93ad",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adopted\\PREPARATION-RECEIPT.json": "2c8af37a75509a8900c634634652fd2c1e210c8df580eb50bd8e4a79326c8094",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\summary.json": "31ff76fa22f93aefa9ad935cf22d8df40a0ac4a4228f25708a4b048586f859a3"
+  },
+  "DWritten": false,
+  "nativeStarted": false,
+  "GitChanged": false,
+  "sourceOrCollectorChanged": false,
+  "mainPackage08Touched": false
+}
