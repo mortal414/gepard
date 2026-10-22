@@ -1,0 +1,55 @@
+{
+  "status": "ISOLATED_FULL_PROGRAM_NATIVE_CLOUD_OBSERVED_CENTRAL_FORWARD_GAP_MAIN_BUILD_EXCLUDED",
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control",
+  "rawResult": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\result.json",
+    "sha256": "87f3d0871a27236477d2893f273d8146b53d5ed98b34545c5d2be9bde4cb7f9f"
+  },
+  "rawNativeReview": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-review.json",
+    "sha256": "d1df9bb44f70d46fc9e6e84fa3329d031c9fc3ea3dc3f353c47ca992d74dbd36"
+  },
+  "actualCompile": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-cloud-visual-10\\RESULT.json",
+    "sha256": "38e1c2c657f478414b786b33340013dbc0af4faffd68230f0d300ae2b88009cd"
+  },
+  "pixelAcceptance": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-visual-07\\PIXEL-ACCEPTANCE.json",
+    "sha256": "07569f144e2380e6cc3143b6eb0c8e312527a438ba6966b647e478a11b6b7bbd"
+  },
+  "independentReview": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-visual-07\\INDEPENDENT-REVIEW.json",
+    "sha256": "57b2f2687b0cfb2eb025cec39df41f0c01420a265f77a087bf07af676545bfd8"
+  },
+  "actualNativeImages": 25,
+  "rootDirectlyViewedOriginals": 11,
+  "independentDirectlyViewedOriginals": 5,
+  "narrowNativeAssertionsPassed": [
+    "world.loaded",
+    "fixture.ready",
+    "smoke.program-payload",
+    "smoke.flight-telemetry",
+    "smoke.empty-negative",
+    "smoke.camera-ready",
+    "smoke.capture-timing",
+    "smoke.capture-legacy",
+    "smoke.capture-files",
+    "scripts.compiled"
+  ],
+  "strictNativeOverall": "FAIL",
+  "strictNativeErrors": 58,
+  "normalExit0AndReleased": true,
+  "visibleCloud": "PASS_SEPARATE_DIRECT_PIXEL_OBSERVATION",
+  "observedNearPersistenceLowerBoundSeconds": 35.013830000000006,
+  "forwardAxisCloudGapObserved": true,
+  "forwardAxisAssessment": "Two dense lateral cloud groups leave the actual Gepard visible through a central gap in every reviewed far5/12/20/30/40s frame. Forward concealment is not demonstrated on this fixed camera axis. No general tactical/AI/thermal conclusion.",
+  "usefulCoverage": "NEEDS_USER_TEST_NOT_ACCEPTED",
+  "individualEightVisibleCloudCount": "NOT_TESTED",
+  "exactImpactFuseCallback": "NOT_TESTED",
+  "genuineSmokeRearm": "NOT_TESTED",
+  "currentV11FitAndStack": "NOT_TESTED",
+  "ordinaryInputRolesCooldown": "NOT_TESTED",
+  "mpJipDedicated": "NOT_TESTED",
+  "package08Changed": false,
+  "newAcceptedCheckboxes": 0
+}

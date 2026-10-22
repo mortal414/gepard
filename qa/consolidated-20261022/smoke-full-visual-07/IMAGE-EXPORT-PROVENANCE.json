@@ -1,0 +1,30 @@
+{
+  "operation": "LOSSLESS_FORMAT_CONVERSION_NO_PIXEL_EDIT_OR_RETOUCH",
+  "scope": "Actual full-program smoke07 evidence, not a design image; gap remains visible and no screening pass claimed",
+  "images": [
+    {
+      "source": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-far.bmp",
+      "sourceSHA256": "e17a608e8297d5f739cd95936bc9aad8bcc848cc8772f0bfc8a1287b3c2866a0",
+      "png": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\smoke-full-salvo-evidence-20261022\\GEP015-FullSalvo-20s-FrontAxis-Gap-20261022.png",
+      "pngSHA256": "48d309c18456ac243d3e89e2dcbd58b32969d8005b3cdd57cdd636b82d51d552",
+      "pixelsIdentical": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1335417
+    },
+    {
+      "source": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-near.bmp",
+      "sourceSHA256": "5cad7f6a7d00701fad02932dbfa219c14e8cb4053f7c083d212489a7cbf14bfb",
+      "png": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\smoke-full-salvo-evidence-20261022\\GEP015-FullSalvo-20s-NearCloud-20261022.png",
+      "pngSHA256": "d002cd2437a260d86f2f3fabf4cb68675a4171a78418a4044b62e7b1b9bc7942",
+      "pixelsIdentical": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1072559
+    }
+  ]
+}

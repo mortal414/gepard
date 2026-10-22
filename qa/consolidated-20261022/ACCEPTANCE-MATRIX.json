@@ -178,16 +178,16 @@
       "criterion": "Conditionalonly:actualalignedlaunch/flight/fuse/visiblecloud/ammo/full/empty/genuinerearm/dependencycompatibility;coveragehumanjudgmentseparate.",
       "outcome": "not tested",
       "evidence": [
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-06\\RESULT.json",
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\RESULT.json"
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-visual-07\\RESULT.json",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-06\\RESULT.json"
       ],
       "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
-      "observedSubcriteria": "Excluded from stable08. Separate Visual04 native pixels show a real single cloud; full06 now passes exact8->0/eight moving native payloads and one empty request/no ninth observed. Fresh actual expected8 readback, compile08 and normal0/released verified; full05 observer-scope failure retained. Strict full06FAIL58 remains. Genuine WCS smoke rearm, currentV11 eight-port fit/compatibility, ordinary input/roles and human coverage remain unqualified. No active smoke permission denial.",
+      "observedSubcriteria": "Excluded from stable08. Visual07 now pairs exact full8/flight/empty telemetry with25 actual native captures; root11/independent5 original views confirm exterior white smoke. Two lateral groups leave the Gepard visibly exposed through a central gap on the fixed far-axis5/12/20/30/40s views; useful screening is not accepted. StrictFAIL58 and all earlier failures remain. Genuine finite WCS rearm, currentV11 eight-port/stack compatibility and ordinary roles/input remain pending. No active smoke access denial.",
       "remainingGates": [
-        "Genuine finite WCS smoke rearm with exact supplies accounting",
-        "Current cooked V11 camo/charcoal eight-port world-fit and dependency-stack HUD/crew/cannon/driving compatibility",
-        "Ordinary player input/roles/cooldown negative controls",
-        "Full-program pixels and human useful screening judgment",
+        "Genuine finite WCS smoke rearm with same-tube/bank ammo and actual contributor debit",
+        "Current cooked V11 both skins all-eight port fit and HUD/crew/driving/cannon dependency-stack compatibility",
+        "Ordinary player controls/roles/cooldown and service negative controls",
+        "Useful smoke screening: fixed forward-axis central gap is observed, not accepted",
         "MP/JIP/dedicated"
       ]
     },
@@ -312,7 +312,7 @@
       }
     }
   },
-  "updatedUtc": "2026-10-22T10:38:02.443555+00:00",
+  "updatedUtc": "2026-10-22T11:09:24.558721+00:00",
   "nativeCheckpoints": {
     "ordinarySource": "private-demo-source-v6; actual compile06 PASS",
     "packages": "pack08 operational PASS; strict100 errors retained; installed08 two verified trios",
@@ -552,6 +552,61 @@
         "Full-program pixels and human useful screening judgment",
         "MP/JIP/dedicated"
       ],
+      "newAcceptedCheckboxes": 0
+    },
+    "smokeFullVisual07": {
+      "status": "ISOLATED_FULL_PROGRAM_NATIVE_CLOUD_OBSERVED_CENTRAL_FORWARD_GAP_MAIN_BUILD_EXCLUDED",
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control",
+      "rawResult": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\result.json",
+        "sha256": "87f3d0871a27236477d2893f273d8146b53d5ed98b34545c5d2be9bde4cb7f9f"
+      },
+      "rawNativeReview": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-review.json",
+        "sha256": "d1df9bb44f70d46fc9e6e84fa3329d031c9fc3ea3dc3f353c47ca992d74dbd36"
+      },
+      "actualCompile": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-cloud-visual-10\\RESULT.json",
+        "sha256": "38e1c2c657f478414b786b33340013dbc0af4faffd68230f0d300ae2b88009cd"
+      },
+      "pixelAcceptance": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-visual-07\\PIXEL-ACCEPTANCE.json",
+        "sha256": "07569f144e2380e6cc3143b6eb0c8e312527a438ba6966b647e478a11b6b7bbd"
+      },
+      "independentReview": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-visual-07\\INDEPENDENT-REVIEW.json",
+        "sha256": "57b2f2687b0cfb2eb025cec39df41f0c01420a265f77a087bf07af676545bfd8"
+      },
+      "actualNativeImages": 25,
+      "rootDirectlyViewedOriginals": 11,
+      "independentDirectlyViewedOriginals": 5,
+      "narrowNativeAssertionsPassed": [
+        "world.loaded",
+        "fixture.ready",
+        "smoke.program-payload",
+        "smoke.flight-telemetry",
+        "smoke.empty-negative",
+        "smoke.camera-ready",
+        "smoke.capture-timing",
+        "smoke.capture-legacy",
+        "smoke.capture-files",
+        "scripts.compiled"
+      ],
+      "strictNativeOverall": "FAIL",
+      "strictNativeErrors": 58,
+      "normalExit0AndReleased": true,
+      "visibleCloud": "PASS_SEPARATE_DIRECT_PIXEL_OBSERVATION",
+      "observedNearPersistenceLowerBoundSeconds": 35.013830000000006,
+      "forwardAxisCloudGapObserved": true,
+      "forwardAxisAssessment": "Two dense lateral cloud groups leave the actual Gepard visible through a central gap in every reviewed far5/12/20/30/40s frame. Forward concealment is not demonstrated on this fixed camera axis. No general tactical/AI/thermal conclusion.",
+      "usefulCoverage": "NEEDS_USER_TEST_NOT_ACCEPTED",
+      "individualEightVisibleCloudCount": "NOT_TESTED",
+      "exactImpactFuseCallback": "NOT_TESTED",
+      "genuineSmokeRearm": "NOT_TESTED",
+      "currentV11FitAndStack": "NOT_TESTED",
+      "ordinaryInputRolesCooldown": "NOT_TESTED",
+      "mpJipDedicated": "NOT_TESTED",
+      "package08Changed": false,
       "newAcceptedCheckboxes": 0
     }
   },

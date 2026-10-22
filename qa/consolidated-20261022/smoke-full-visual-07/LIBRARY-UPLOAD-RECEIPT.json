@@ -1,0 +1,40 @@
+{
+  "status": "TWO_REAL_NATIVE_IMAGE_EXPORTS_PERSISTED_IN_LIBRARY",
+  "images": [
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\smoke-full-salvo-evidence-20261022\\GEP015-FullSalvo-20s-FrontAxis-Gap-20261022.png",
+      "sha256": "48d309c18456ac243d3e89e2dcbd58b32969d8005b3cdd57cdd636b82d51d552",
+      "library_file_id": "libfile_c9e9fb6c8c808191a9d4215e19263e03",
+      "file_id": "file_00000000930081f580d5b49062e8a11e",
+      "version": 0,
+      "mime_type": "image/png",
+      "status": "succeeded",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0",
+          "nativeNtfsExtendedAttributeVerified": true
+        }
+      ]
+    },
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\smoke-full-salvo-evidence-20261022\\GEP015-FullSalvo-20s-NearCloud-20261022.png",
+      "sha256": "d002cd2437a260d86f2f3fabf4cb68675a4171a78418a4044b62e7b1b9bc7942",
+      "library_file_id": "libfile_716c639dc4f48191958c319fb3900342",
+      "file_id": "file_0000000023b081f5b9b1e7ee5ed31ea5",
+      "version": 0,
+      "mime_type": "image/png",
+      "status": "succeeded",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0",
+          "nativeNtfsExtendedAttributeVerified": true
+        }
+      ]
+    }
+  ],
+  "provenance": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\smoke-full-salvo-evidence-20261022\\PROVENANCE.json",
+  "pixelEdits": false,
+  "publication": false
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PRIMARY_PUBLIC_LISTING_MATCHES_INSTALLED_PIN_NO_RUNTIME_QUALIFICATION",
+  "checkedUtc": "2026-10-22T10:47:39.914339+00:00",
+  "sources": [
+    {
+      "url": "https://reforger.armaplatform.com/workshop/629B2BA37EFFD577",
+      "title": "WCS_Armaments official Workshop listing",
+      "observed": {
+        "id": "629B2BA37EFFD577",
+        "version": "8.4.0",
+        "gameVersion": "1.8.0.13",
+        "sizeMB": 422.02,
+        "lastModified": "2026-10-13",
+        "documentation": "Public page says documentation coming soon; developer support Discord is linked. No contact made."
+      }
+    },
+    {
+      "url": "https://reforger.armaplatform.com/news/workshop-licenses-and-ip-faq",
+      "title": "Bohemia Workshop Licenses and Intellectual Property FAQ",
+      "observed": "Official discussion distinguishes exposed API/dependency identifiers and limited config references from copying protected source/assets. It is platform guidance, not explicit WCS permission for this exact integration."
+    }
+  ],
+  "integrationDecision": "Original additive Gepard config/API integration via declared separately installed WCS dependency. Do not distribute the installed WCS package or copy protected implementation/asset bodies into original addon. Package08 remains WCS-free.",
+  "restrictions": "WCS public custom terms restrict monetization and unauthorized sharing/redistribution/modification/adaptation. Current proposed payload contains original glue plus technical exposed references only; final package audit remains a required gate. No author contacted.",
+  "consequences": [
+    "Separate dependency download/install for clients and servers if optional smoke is included; public version size422.02MB.",
+    "Compatibility pinned to installed8.4.0/game1.8.0.13; future versions need fresh tests.",
+    "Existing development dependency staging is private input evidence, not redistributable final payload.",
+    "Public maintained availability checked for this date; future availability is not guaranteed."
+  ],
+  "newAcceptedCheckboxes": 0,
+  "nativeStarted": false,
+  "published": false
+}

@@ -43,3 +43,5 @@ Current source/evidence audit: [59 startup and100 packing diagnostics classified
 [Native Hull repair observation](qa/consolidated-20261022/repair-observation-v4/RESULT.json): real original-zone gain6.48755, exact selected supply debit1 after native fire handling. Raw helperFAIL/strict57 remain; no gameplay-source change or whole-service acceptance.
 
 [Isolated full-eight and empty smoke06](qa/consolidated-20261022/smoke-full-06/RESULT.json): actual expected8, ammo8->0/eight native flights/one empty negative observed; all strict58 retained. Full05 private scope failure preserved. Genuine smoke rearm and final currentV11 integration remain pending; stable08 unchanged.
+
+[Full-program native cloud review07](qa/consolidated-20261022/smoke-full-visual-07/RESULT.json): eight-flight/empty/capture gates observed,25 native images; two lateral clouds leave a visible central gap on the fixed forward axis. Useful screening, finite smoke rearm and currentV11 compatibility remain unaccepted; rawFAIL58 and stable08 preserved.

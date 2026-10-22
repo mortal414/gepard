@@ -1,0 +1,488 @@
+{
+  "scope": "SEPARATE_EXPLICIT_PIXEL_REVIEW_DOES_NOT_REPLACE_NATIVE_COLLECTOR",
+  "visibleNativeCloud": {
+    "status": "PASS",
+    "basis": "Reviewer inspected exact native image hashes, exterior framing, initially clear baseline and cloud near last native payload location. No flags/TTL/file-header inference."
+  },
+  "exteriorCamera": {
+    "status": "PASS"
+  },
+  "observedPositiveNearTimesSeconds": [
+    5.11727,
+    12.1161,
+    20.1163,
+    30.1321,
+    40.1311
+  ],
+  "observedPersistenceLowerBoundSeconds": 35.013830000000006,
+  "usefulCoverage": {
+    "status": "NEEDS_USER_TEST",
+    "reviewerJudgment": "NOT_USEFUL",
+    "reason": "Full-program visual gate; useful coverage/gaps and human acceptance remain separate."
+  },
+  "impactFuse": {
+    "status": "NOT_TESTED",
+    "reason": "Visible native smoke can support deployment observation; exact impact/fuse callback/contact was not measured by this fixture."
+  },
+  "fullProgramAndEmptyTelemetry": "QUALIFIED_SEPARATELY_BY_REQUIRED_NATIVE_ASSERTIONS",
+  "eightDistinctClouds": "NOT_TESTED_REQUIRES_DIRECT_NATIVE_COUNT_REVIEW",
+  "rearmRolesMP": "NOT_TESTED",
+  "strictNativeCollectorPreserved": true,
+  "originalStrictNativeErrors": [
+    {
+      "line": 53,
+      "text": "05:59:38.452   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\""
+    },
+    {
+      "line": 121,
+      "text": "05:59:39.354   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+    },
+    {
+      "line": 177,
+      "text": "05:59:41.385             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+    },
+    {
+      "line": 188,
+      "text": "05:59:41.479               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+    },
+    {
+      "line": 189,
+      "text": "05:59:41.479               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+    },
+    {
+      "line": 190,
+      "text": "05:59:41.479               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+    },
+    {
+      "line": 191,
+      "text": "05:59:41.479               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+    },
+    {
+      "line": 200,
+      "text": "05:59:41.484             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+    },
+    {
+      "line": 201,
+      "text": "05:59:41.484             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+    },
+    {
+      "line": 855,
+      "text": "06:00:53.911 RESOURCES (E): ==== Resource leaks ===="
+    },
+    {
+      "line": 856,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+    },
+    {
+      "line": 857,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+    },
+    {
+      "line": 858,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+    },
+    {
+      "line": 859,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+    },
+    {
+      "line": 860,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+    },
+    {
+      "line": 861,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+    },
+    {
+      "line": 862,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+    },
+    {
+      "line": 863,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+    },
+    {
+      "line": 864,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+    },
+    {
+      "line": 865,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 866,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+    },
+    {
+      "line": 867,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 868,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+    },
+    {
+      "line": 869,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+    },
+    {
+      "line": 870,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+    },
+    {
+      "line": 871,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+    },
+    {
+      "line": 872,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+    },
+    {
+      "line": 873,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+    },
+    {
+      "line": 874,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+    },
+    {
+      "line": 875,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+    },
+    {
+      "line": 876,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 877,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+    },
+    {
+      "line": 878,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 879,
+      "text": "06:00:53.911 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+    },
+    {
+      "line": 880,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+    },
+    {
+      "line": 881,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 882,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 883,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+    },
+    {
+      "line": 884,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+    },
+    {
+      "line": 885,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+    },
+    {
+      "line": 886,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+    },
+    {
+      "line": 887,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 888,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+    },
+    {
+      "line": 889,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+    },
+    {
+      "line": 890,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+    },
+    {
+      "line": 891,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 892,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+    },
+    {
+      "line": 893,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+    },
+    {
+      "line": 894,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+    },
+    {
+      "line": 895,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+    },
+    {
+      "line": 896,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+    },
+    {
+      "line": 897,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+    },
+    {
+      "line": 898,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+    },
+    {
+      "line": 899,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+    },
+    {
+      "line": 900,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+    },
+    {
+      "line": 901,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+    },
+    {
+      "line": 902,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/default.edds   1"
+    },
+    {
+      "line": 903,
+      "text": "06:00:53.911 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+    }
+  ],
+  "review": {
+    "status": "COMPLETED_DIRECT_NATIVE_PIXEL_OBSERVATION_NO_HUMAN_ACCEPTANCE",
+    "reviewKind": "DIRECT_NATIVE_IMAGE_INSPECTION",
+    "reviewer": "Gepard root coordinator",
+    "nativeExteriorCameraConfirmed": true,
+    "baselineInitiallyClear": true,
+    "cloudNearLastObservedPayload": true,
+    "coverageJudgment": "NOT_USEFUL",
+    "notes": "Directly inspected all eleven exact native originals. Baseline is clear exterior airfield/vehicle/coast. At5/12/20/30/40s, near views show dense ground-level white/gray native smoke at the final payload area. Far views show two large lateral cloud groups, while the Gepard remains visible through a persistent central gap on this straight-on camera axis. Therefore this set demonstrates native cloud deployment, but does not demonstrate useful forward screening; no eight-individual-cloud count, impact/fuse, AI concealment, all-angle coverage, onset or expiry is claimed. Strict raw nativeFAIL58, capture mechanics and eight-flight telemetry remain independent.",
+    "frames": [
+      {
+        "stem": "GEP215-wcs-baseline-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-baseline-far.bmp",
+        "sha256": "3a979979df000f327e13da7fea16fb54f9ed34298f7a1d32efcfa9b513001322",
+        "observedExterior": true,
+        "cloudVisible": false,
+        "notes": "Clear exterior airfield and distant Gepard; blue sky/coast and no smoke cloud."
+      },
+      {
+        "stem": "GEP215-wcs-pair-4-near",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-near.bmp",
+        "sha256": "d6321c89d89abfbccb81a740a57b0f434cc9087fb05ebaafcc2805fb6b3c7c96",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Close exterior view of substantial gray/white cloud buildup, launch/deployment particles and coastal ground.",
+        "elapsedSeconds": 5.11727,
+        "requestedEye": [
+          596.566,
+          45.8916,
+          2630.96
+        ],
+        "requestedAim": [
+          586.566,
+          40.8916,
+          2640.96
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-4-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-far.bmp",
+        "sha256": "a4ea8f6f1e0001b6b7d3c93e806fff7278f062f6fd367253b2bc9acda33ab64c",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+        "elapsedSeconds": 5.25002,
+        "requestedEye": [
+          600.0,
+          43.7,
+          2660.0
+        ],
+        "requestedAim": [
+          600.0,
+          41.2,
+          2600.0
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-5-near",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-near.bmp",
+        "sha256": "c4160079e5924cf899c29c558b64c8d260c6373c6d186f55ae4fcd9f0f8726fa",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Close exterior white smoke mass obscures much of the local ground; coastline/sky still visible around edges.",
+        "elapsedSeconds": 12.1161,
+        "requestedEye": [
+          596.566,
+          45.8916,
+          2630.96
+        ],
+        "requestedAim": [
+          586.566,
+          40.8916,
+          2640.96
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-5-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-far.bmp",
+        "sha256": "c722463dd14f5d3a7f0fd8136051b43c2c06e23cb2f7c79f9235101a02c18cc1",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+        "elapsedSeconds": 12.2499,
+        "requestedEye": [
+          600.0,
+          43.7,
+          2660.0
+        ],
+        "requestedAim": [
+          600.0,
+          41.2,
+          2600.0
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-6-near",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-near.bmp",
+        "sha256": "5cad7f6a7d00701fad02932dbfa219c14e8cb4053f7c083d212489a7cbf14bfb",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Close exterior white smoke mass obscures much of the local ground; coastline/sky still visible around edges.",
+        "elapsedSeconds": 20.1163,
+        "requestedEye": [
+          596.566,
+          45.8916,
+          2630.96
+        ],
+        "requestedAim": [
+          586.566,
+          40.8916,
+          2640.96
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-6-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-far.bmp",
+        "sha256": "e17a608e8297d5f739cd95936bc9aad8bcc848cc8772f0bfc8a1287b3c2866a0",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+        "elapsedSeconds": 20.2494,
+        "requestedEye": [
+          600.0,
+          43.7,
+          2660.0
+        ],
+        "requestedAim": [
+          600.0,
+          41.2,
+          2600.0
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-7-near",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-near.bmp",
+        "sha256": "26d607fd91d1289492b48857ef340dd0394ad70819a448f76edfb358163c5ee7",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Close exterior white smoke mass obscures much of the local ground; coastline/sky still visible around edges.",
+        "elapsedSeconds": 30.1321,
+        "requestedEye": [
+          596.566,
+          45.8916,
+          2630.96
+        ],
+        "requestedAim": [
+          586.566,
+          40.8916,
+          2640.96
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-7-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-far.bmp",
+        "sha256": "d8ea28113d9201c490be75380ccd356a2c7309e55525b09be73bdd5e04c01075",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+        "elapsedSeconds": 30.2654,
+        "requestedEye": [
+          600.0,
+          43.7,
+          2660.0
+        ],
+        "requestedAim": [
+          600.0,
+          41.2,
+          2600.0
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-8-near",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-near.bmp",
+        "sha256": "c189445f21a18971f98fe83f537223df2e8d1245db408b5691d9481515e126f0",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Close exterior white smoke mass obscures much of the local ground; coastline/sky still visible around edges.",
+        "elapsedSeconds": 40.1311,
+        "requestedEye": [
+          596.566,
+          45.8916,
+          2630.96
+        ],
+        "requestedAim": [
+          586.566,
+          40.8916,
+          2640.96
+        ]
+      },
+      {
+        "stem": "GEP215-wcs-pair-8-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-far.bmp",
+        "sha256": "9ac615a3e05181272216d4cf31ab613bf843654b04114af1d0f4f9ddb2ab46df",
+        "observedExterior": true,
+        "cloudVisible": true,
+        "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+        "elapsedSeconds": 40.2641,
+        "requestedEye": [
+          600.0,
+          43.7,
+          2660.0
+        ],
+        "requestedAim": [
+          600.0,
+          41.2,
+          2600.0
+        ]
+      }
+    ],
+    "reviewScope": "FULL_EIGHT_PROGRAM_VISUAL_ONLY",
+    "eightCloudsIndividuallyResolved": null,
+    "observedDistinctCloudCount": null,
+    "fullProgramCoverageJudgment": "NEEDS_USER_TEST",
+    "coverageAssessmentScope": "Only direct forward concealment from the one fixed far-camera axis; no general tactical/AI/thermal or all-angle conclusion."
+  },
+  "nativeReview": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-review.json",
+    "sha256": "d1df9bb44f70d46fc9e6e84fa3329d031c9fc3ea3dc3f353c47ca992d74dbd36"
+  },
+  "nativeCaseResult": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\result.json",
+    "sha256": "87f3d0871a27236477d2893f273d8146b53d5ed98b34545c5d2be9bde4cb7f9f"
+  }
+}

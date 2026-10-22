@@ -1,0 +1,215 @@
+{
+  "status": "COMPLETED_DIRECT_NATIVE_PIXEL_OBSERVATION_NO_HUMAN_ACCEPTANCE",
+  "reviewKind": "DIRECT_NATIVE_IMAGE_INSPECTION",
+  "reviewer": "Gepard root coordinator",
+  "nativeExteriorCameraConfirmed": true,
+  "baselineInitiallyClear": true,
+  "cloudNearLastObservedPayload": true,
+  "coverageJudgment": "NOT_USEFUL",
+  "notes": "Directly inspected all eleven exact native originals. Baseline is clear exterior airfield/vehicle/coast. At5/12/20/30/40s, near views show dense ground-level white/gray native smoke at the final payload area. Far views show two large lateral cloud groups, while the Gepard remains visible through a persistent central gap on this straight-on camera axis. Therefore this set demonstrates native cloud deployment, but does not demonstrate useful forward screening; no eight-individual-cloud count, impact/fuse, AI concealment, all-angle coverage, onset or expiry is claimed. Strict raw nativeFAIL58, capture mechanics and eight-flight telemetry remain independent.",
+  "frames": [
+    {
+      "stem": "GEP215-wcs-baseline-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-baseline-far.bmp",
+      "sha256": "3a979979df000f327e13da7fea16fb54f9ed34298f7a1d32efcfa9b513001322",
+      "observedExterior": true,
+      "cloudVisible": false,
+      "notes": "Clear exterior airfield and distant Gepard; blue sky/coast and no smoke cloud."
+    },
+    {
+      "stem": "GEP215-wcs-pair-4-near",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-near.bmp",
+      "sha256": "d6321c89d89abfbccb81a740a57b0f434cc9087fb05ebaafcc2805fb6b3c7c96",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Close exterior view of substantial gray/white cloud buildup, launch/deployment particles and coastal ground.",
+      "elapsedSeconds": 5.11727,
+      "requestedEye": [
+        596.566,
+        45.8916,
+        2630.96
+      ],
+      "requestedAim": [
+        586.566,
+        40.8916,
+        2640.96
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-4-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-far.bmp",
+      "sha256": "a4ea8f6f1e0001b6b7d3c93e806fff7278f062f6fd367253b2bc9acda33ab64c",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+      "elapsedSeconds": 5.25002,
+      "requestedEye": [
+        600.0,
+        43.7,
+        2660.0
+      ],
+      "requestedAim": [
+        600.0,
+        41.2,
+        2600.0
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-5-near",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-near.bmp",
+      "sha256": "c4160079e5924cf899c29c558b64c8d260c6373c6d186f55ae4fcd9f0f8726fa",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Close exterior white smoke mass obscures much of the local ground; coastline/sky still visible around edges.",
+      "elapsedSeconds": 12.1161,
+      "requestedEye": [
+        596.566,
+        45.8916,
+        2630.96
+      ],
+      "requestedAim": [
+        586.566,
+        40.8916,
+        2640.96
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-5-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-far.bmp",
+      "sha256": "c722463dd14f5d3a7f0fd8136051b43c2c06e23cb2f7c79f9235101a02c18cc1",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+      "elapsedSeconds": 12.2499,
+      "requestedEye": [
+        600.0,
+        43.7,
+        2660.0
+      ],
+      "requestedAim": [
+        600.0,
+        41.2,
+        2600.0
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-6-near",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-near.bmp",
+      "sha256": "5cad7f6a7d00701fad02932dbfa219c14e8cb4053f7c083d212489a7cbf14bfb",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Close exterior white smoke mass obscures much of the local ground; coastline/sky still visible around edges.",
+      "elapsedSeconds": 20.1163,
+      "requestedEye": [
+        596.566,
+        45.8916,
+        2630.96
+      ],
+      "requestedAim": [
+        586.566,
+        40.8916,
+        2640.96
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-6-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-far.bmp",
+      "sha256": "e17a608e8297d5f739cd95936bc9aad8bcc848cc8772f0bfc8a1287b3c2866a0",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+      "elapsedSeconds": 20.2494,
+      "requestedEye": [
+        600.0,
+        43.7,
+        2660.0
+      ],
+      "requestedAim": [
+        600.0,
+        41.2,
+        2600.0
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-7-near",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-near.bmp",
+      "sha256": "26d607fd91d1289492b48857ef340dd0394ad70819a448f76edfb358163c5ee7",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Close exterior white smoke mass obscures much of the local ground; coastline/sky still visible around edges.",
+      "elapsedSeconds": 30.1321,
+      "requestedEye": [
+        596.566,
+        45.8916,
+        2630.96
+      ],
+      "requestedAim": [
+        586.566,
+        40.8916,
+        2640.96
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-7-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-far.bmp",
+      "sha256": "d8ea28113d9201c490be75380ccd356a2c7309e55525b09be73bdd5e04c01075",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+      "elapsedSeconds": 30.2654,
+      "requestedEye": [
+        600.0,
+        43.7,
+        2660.0
+      ],
+      "requestedAim": [
+        600.0,
+        41.2,
+        2600.0
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-8-near",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-near.bmp",
+      "sha256": "c189445f21a18971f98fe83f537223df2e8d1245db408b5691d9481515e126f0",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Close exterior white smoke mass obscures much of the local ground; coastline/sky still visible around edges.",
+      "elapsedSeconds": 40.1311,
+      "requestedEye": [
+        596.566,
+        45.8916,
+        2630.96
+      ],
+      "requestedAim": [
+        586.566,
+        40.8916,
+        2640.96
+      ]
+    },
+    {
+      "stem": "GEP215-wcs-pair-8-far",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-far.bmp",
+      "sha256": "9ac615a3e05181272216d4cf31ab613bf843654b04114af1d0f4f9ddb2ab46df",
+      "observedExterior": true,
+      "cloudVisible": true,
+      "notes": "Two dense lateral white cloud groups over airfield; central line to the Gepard stays visibly open from this fixed view.",
+      "elapsedSeconds": 40.2641,
+      "requestedEye": [
+        600.0,
+        43.7,
+        2660.0
+      ],
+      "requestedAim": [
+        600.0,
+        41.2,
+        2600.0
+      ]
+    }
+  ],
+  "reviewScope": "FULL_EIGHT_PROGRAM_VISUAL_ONLY",
+  "eightCloudsIndividuallyResolved": null,
+  "observedDistinctCloudCount": null,
+  "fullProgramCoverageJudgment": "NEEDS_USER_TEST",
+  "coverageAssessmentScope": "Only direct forward concealment from the one fixed far-camera axis; no general tactical/AI/thermal or all-angle conclusion."
+}

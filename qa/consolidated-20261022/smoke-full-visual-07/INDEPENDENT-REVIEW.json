@@ -1,0 +1,868 @@
+{
+  "schema": 1,
+  "status": "INDEPENDENT_NARROW_NATIVE_AND_VISIBLE_CLOUD_OBSERVATION_PASS_STRICT_FAIL_PRESERVED",
+  "createdUtc": "2026-10-22T11:05:59.866134+00:00",
+  "caseId": "smoke-full-cloud-visual-control",
+  "runId": "44319ff8-abde-425f-a7c7-c93ad074f5a3",
+  "strictNativeResult": "FAIL",
+  "strictNativeErrors": 58,
+  "omittedErrors": 0,
+  "source": {
+    "frozenBindingSHA256": "0d09166c45c84d7cb1ecf8c20b5232d3eab512c6f0bcd80def9533dff36246a4",
+    "verification": {
+      "status": "FROZEN_FULL_VISUAL_SOURCE_PASS_ACTUAL_STAGE_COMPILE_REQUIRED",
+      "files": 44,
+      "completeStageFiles": 1205,
+      "nativeInvoked": false
+    },
+    "compile": {
+      "schema": 1,
+      "status": "SCRIPT_COMPILE_PASS_ADOPTED",
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+      "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-cloud-visual-10",
+      "compilerResultSHA256": "38e1c2c657f478414b786b33340013dbc0af4faffd68230f0d300ae2b88009cd",
+      "compilerConsoleSHA256": "4f30a6aef1be0a0c7de170791a586ff0651e45ac4fcbff88e67ca146fdc411b7",
+      "compilerIdentitySHA256": "aed26d8e97f8c922cf459b7f1e6a38f15b0da1d373e0d76efdbd8a19d200c51d",
+      "launcherExitSHA256": "b9b2155d68833dbc1358413bac11b1fcc3d433f6a6531a954972310206748a1f",
+      "compilerOwnerProjectVerified": true,
+      "nativeRuntime": "NOT_TESTED",
+      "nativeGameplay": "NOT_TESTED"
+    },
+    "completeClosures": [
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\single\\gepard",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\GEPARD_SOURCE_MANIFEST.json",
+        "sha256": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+        "files": 1147
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\single\\wcsSmoke",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\WCSSMOKE_SOURCE_MANIFEST.json",
+        "sha256": "c11da2a21288f609198dd92e497cecead0ecac688fadb4691efc21381c86419d",
+        "files": 20
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\single\\qaSmoke",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\QA_SOURCE_MANIFEST.json",
+        "sha256": "49c4c200dd07d9e428ceddc8ff821e15d92f7daedef017bbcfc81cac243bebc0",
+        "files": 35
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\dependencies\\WCS_Armaments",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\WCS_ARMAMENTS_SOURCE_MANIFEST.json",
+        "sha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+        "files": 3
+      }
+    ],
+    "totalFiles": 1205,
+    "scope": "1147-file MechanismControl/dependency stage; current1152/V11 integration not qualified"
+  },
+  "lifecycle": {
+    "status": "PASS",
+    "owner": {
+      "creationUtc": "2026-10-22T10:59:38.0445010Z",
+      "args": [
+        "-profile",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile",
+        "-logsDir",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\logs",
+        "-addonDownloadDir",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\downloads",
+        "-window",
+        "-screenWidth",
+        "1920",
+        "-screenHeight",
+        "1080",
+        "-maxFPS",
+        "60",
+        "-noSplash",
+        "-forceUpdate",
+        "-addonsDir",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\single,D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "-addons",
+        "7E0150C026102500",
+        "-world",
+        "Worlds/GEP215_WCSFullRipple.ent",
+        "-worldSystemsConfig",
+        "{C50579A2EC48E8EF}Configs/Systems/MissionSystems.conf",
+        "-noBackend",
+        "-noFocus"
+      ],
+      "profile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile",
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+      "leaseId": "b1a70bd6-ad4b-4cd3-aea2-c318dd3230a9",
+      "managedCreationUtc": "2026-10-22T10:59:38.0445011Z",
+      "exe": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe",
+      "pid": 31768
+    },
+    "privateOwner": {
+      "workRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run",
+      "runId": "d9b8a5c4-20a7-4467-81ba-4a8d3c02f263",
+      "owner": "Gepard serial scene coordinator",
+      "leaseId": "b1a70bd6-ad4b-4cd3-aea2-c318dd3230a9",
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-visual-stage-v1\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+      "ownerKey": "13de110d82f948099b20e2c23dee0220b1e5914296c34b4bb94c785fc2eed5ad"
+    },
+    "exit": {
+      "closeMethod": "owned-normal-window-close",
+      "cancelRequested": false,
+      "leaseReleased": true,
+      "verifiedExited": true,
+      "exitCode": 0,
+      "utc": "2026-10-22T11:00:54.4710711Z"
+    },
+    "nativeNonce": "Probe has no native nonce; exact fresh owner/profile/argv/job/source association is the evidence."
+  },
+  "requiredAssertions": {
+    "world.loaded": "PASS",
+    "fixture.ready": "PASS",
+    "smoke.program-payload": "PASS",
+    "smoke.flight-telemetry": "PASS",
+    "smoke.empty-negative": "PASS",
+    "smoke.camera-ready": "PASS",
+    "smoke.capture-timing": "PASS",
+    "smoke.capture-legacy": "PASS",
+    "smoke.capture-files": "PASS"
+  },
+  "independentTelemetry": {
+    "preflight": {
+      "line": 293,
+      "text": "05:59:52.330   SCRIPT       : GEP215_WCS_PREFLIGHT crew=settled seatName=gep015_gunner ammo=8 capacity=8",
+      "fields": {
+        "crew": "settled",
+        "seatName": "gep015_gunner",
+        "ammo": "8",
+        "capacity": "8"
+      }
+    },
+    "fullScope": {
+      "line": 294,
+      "text": "05:59:52.330   SCRIPT       : GEP215_WCS_FULL_SCOPE expectedShots=8 captureEnabled=1 programRequested=0",
+      "fields": {
+        "expectedShots": "8",
+        "captureEnabled": "1",
+        "programRequested": "0"
+      }
+    },
+    "program": {
+      "line": 303,
+      "text": "05:59:52.330   SCRIPT       : GEP215_WCS_PROGRAM callback=RunProgramFromController_S requested=1 shotsExpected=8 physicalInput=NOT_TESTED",
+      "fields": {
+        "callback": "RunProgramFromController_S",
+        "requested": "1",
+        "shotsExpected": "8",
+        "physicalInput": "NOT_TESTED"
+      }
+    },
+    "empty": {
+      "line": 592,
+      "text": "05:59:58.330   SCRIPT       : GEP215_WCS_EMPTY requested=1 expectedNoAdditionalPayload=1",
+      "fields": {
+        "requested": "1",
+        "expectedNoAdditionalPayload": "1"
+      }
+    },
+    "emptyDelaySeconds": 6.0,
+    "nativeFullIds": [
+      "0x4000000000000078 {}",
+      "0x4000000000000079 {}",
+      "0x400000000000007A {}",
+      "0x400000000000007B {}",
+      "0x400000000000007C {}",
+      "0x400000000000007D {}",
+      "0x400000000000007E {}",
+      "0x400000000000007F {}"
+    ],
+    "samples": 146,
+    "lastSampleSeconds": 41.748016357421875,
+    "terminalElapsedSeconds": 42.01599999999962,
+    "ammoZeroAndKnownEightThroughoutRetainedSamples": true,
+    "noNinthObserved": true,
+    "tracks": [
+      {
+        "opaqueFullNativeId": "0x4000000000000078 {}",
+        "positionSamples": 49,
+        "pathMetres": 48.89209084320348,
+        "maxHorizontalFromFirstMetres": 41.811939184466695,
+        "lastPositionSeconds": 3.033069372177124
+      },
+      {
+        "opaqueFullNativeId": "0x4000000000000079 {}",
+        "positionSamples": 51,
+        "pathMetres": 50.262038182512434,
+        "maxHorizontalFromFirstMetres": 42.78661664050526,
+        "lastPositionSeconds": 3.250411033630371
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007A {}",
+        "positionSamples": 49,
+        "pathMetres": 48.4944065887358,
+        "maxHorizontalFromFirstMetres": 41.33257780623123,
+        "lastPositionSeconds": 3.033069372177124
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007B {}",
+        "positionSamples": 49,
+        "pathMetres": 48.98187842357238,
+        "maxHorizontalFromFirstMetres": 41.91927764178753,
+        "lastPositionSeconds": 3.033069372177124
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007C {}",
+        "positionSamples": 54,
+        "pathMetres": 54.73483748047651,
+        "maxHorizontalFromFirstMetres": 46.95447179735976,
+        "lastPositionSeconds": 3.5505194664001465
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007D {}",
+        "positionSamples": 50,
+        "pathMetres": 51.534364675324674,
+        "maxHorizontalFromFirstMetres": 44.03237398610179,
+        "lastPositionSeconds": 3.134110450744629
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007E {}",
+        "positionSamples": 49,
+        "pathMetres": 49.03875241154538,
+        "maxHorizontalFromFirstMetres": 41.98693002568471,
+        "lastPositionSeconds": 3.033069372177124
+      },
+      {
+        "opaqueFullNativeId": "0x400000000000007F {}",
+        "positionSamples": 50,
+        "pathMetres": 51.48940557918478,
+        "maxHorizontalFromFirstMetres": 43.97823807453063,
+        "lastPositionSeconds": 3.134110450744629
+      }
+    ]
+  },
+  "all25Captures": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-baseline-far.bmp",
+      "sha256": "3a979979df000f327e13da7fea16fb54f9ed34298f7a1d32efcfa9b513001322",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-1.bmp",
+      "sha256": "a4f07816117160caed8586642ec79cb630f3d196851ef4386a387d76a03ab929",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-2.bmp",
+      "sha256": "1bbfe047685fe9a259fd9a12b6c61c2dc3e3534daf2f08811a972db457a02d1c",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-3.bmp",
+      "sha256": "abf24676991efd38d280941ea2fe3e6e08731c007a04ed7792168f3cb3ebc6d0",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-4.bmp",
+      "sha256": "d6321c89d89abfbccb81a740a57b0f434cc9087fb05ebaafcc2805fb6b3c7c96",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-5.bmp",
+      "sha256": "c4160079e5924cf899c29c558b64c8d260c6373c6d186f55ae4fcd9f0f8726fa",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-6.bmp",
+      "sha256": "5cad7f6a7d00701fad02932dbfa219c14e8cb4053f7c083d212489a7cbf14bfb",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-7.bmp",
+      "sha256": "26d607fd91d1289492b48857ef340dd0394ad70819a448f76edfb358163c5ee7",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-8.bmp",
+      "sha256": "c189445f21a18971f98fe83f537223df2e8d1245db408b5691d9481515e126f0",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-1-near.bmp",
+      "sha256": "a4f07816117160caed8586642ec79cb630f3d196851ef4386a387d76a03ab929",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-1-far.bmp",
+      "sha256": "cbcc80bee78f24354d4b5e4532f95bbb748a3f7b49dd01d9f75165113b799c73",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-2-near.bmp",
+      "sha256": "1bbfe047685fe9a259fd9a12b6c61c2dc3e3534daf2f08811a972db457a02d1c",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-2-far.bmp",
+      "sha256": "af085426dfb326ba2b2f8f78a1de1bab1584dbcaa9f4fcc33fb27b48e5b0a3c3",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-3-near.bmp",
+      "sha256": "abf24676991efd38d280941ea2fe3e6e08731c007a04ed7792168f3cb3ebc6d0",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-3-far.bmp",
+      "sha256": "afb7f46196041b292b1f8057747517e3ded97d5c993267b065e668a1a900eef7",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-near.bmp",
+      "sha256": "d6321c89d89abfbccb81a740a57b0f434cc9087fb05ebaafcc2805fb6b3c7c96",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-far.bmp",
+      "sha256": "a4ea8f6f1e0001b6b7d3c93e806fff7278f062f6fd367253b2bc9acda33ab64c",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-near.bmp",
+      "sha256": "c4160079e5924cf899c29c558b64c8d260c6373c6d186f55ae4fcd9f0f8726fa",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-far.bmp",
+      "sha256": "c722463dd14f5d3a7f0fd8136051b43c2c06e23cb2f7c79f9235101a02c18cc1",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-near.bmp",
+      "sha256": "5cad7f6a7d00701fad02932dbfa219c14e8cb4053f7c083d212489a7cbf14bfb",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-far.bmp",
+      "sha256": "e17a608e8297d5f739cd95936bc9aad8bcc848cc8772f0bfc8a1287b3c2866a0",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-near.bmp",
+      "sha256": "26d607fd91d1289492b48857ef340dd0394ad70819a448f76edfb358163c5ee7",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-far.bmp",
+      "sha256": "d8ea28113d9201c490be75380ccd356a2c7309e55525b09be73bdd5e04c01075",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-near.bmp",
+      "sha256": "c189445f21a18971f98fe83f537223df2e8d1245db408b5691d9481515e126f0",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-far.bmp",
+      "sha256": "9ac615a3e05181272216d4cf31ab613bf843654b04114af1d0f4f9ddb2ab46df",
+      "bytes": 6220854,
+      "width": 1920,
+      "height": 1080,
+      "pixelsReviewed": false
+    }
+  ],
+  "independentDirectPixelReview": {
+    "visibleNativeCloud": "PASS",
+    "exteriorBaseline": "PASS",
+    "viewedOriginals": [
+      {
+        "stem": "GEP215-wcs-baseline-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-baseline-far.bmp",
+        "sha256": "3a979979df000f327e13da7fea16fb54f9ed34298f7a1d32efcfa9b513001322",
+        "elapsedSeconds": null,
+        "directlyViewedExactOriginal": true,
+        "independentObservation": "Clear exterior airfield/coast/sky; distant Gepard visible; no smoke cloud."
+      },
+      {
+        "stem": "GEP215-wcs-pair-5-near",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-near.bmp",
+        "sha256": "c4160079e5924cf899c29c558b64c8d260c6373c6d186f55ae4fcd9f0f8726fa",
+        "elapsedSeconds": 12.1161,
+        "directlyViewedExactOriginal": true,
+        "independentObservation": "Dense light-gray/white native smoke obscures much local ground near the coast."
+      },
+      {
+        "stem": "GEP215-wcs-pair-5-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-far.bmp",
+        "sha256": "c722463dd14f5d3a7f0fd8136051b43c2c06e23cb2f7c79f9235101a02c18cc1",
+        "elapsedSeconds": 12.2499,
+        "directlyViewedExactOriginal": true,
+        "independentObservation": "Two dense lateral cloud groups; central clear gap leaves the Gepard plainly visible."
+      },
+      {
+        "stem": "GEP215-wcs-pair-8-near",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-near.bmp",
+        "sha256": "c189445f21a18971f98fe83f537223df2e8d1245db408b5691d9481515e126f0",
+        "elapsedSeconds": 40.1311,
+        "directlyViewedExactOriginal": true,
+        "independentObservation": "Substantial white-gray cloud remains in this local near view."
+      },
+      {
+        "stem": "GEP215-wcs-pair-8-far",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-far.bmp",
+        "sha256": "9ac615a3e05181272216d4cf31ab613bf843654b04114af1d0f4f9ddb2ab46df",
+        "elapsedSeconds": 40.2641,
+        "directlyViewedExactOriginal": true,
+        "independentObservation": "Two lateral clouds persist; thin right-edge wisps approach center, but Gepard remains visible through the central gap."
+      }
+    ],
+    "fixedAxisForwardConcealment": "NOT_USEFUL_AT_THE_TWO_DIRECTLY_REVIEWED_FAR_TIMES",
+    "basis": "Gepard remains visible through central gap at12.2499s and40.2641s. Near clouds demonstrate deployment, not useful screening.",
+    "wholeCoverage": "NEEDS_USER_TEST",
+    "parentElevenOriginalReview": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\SMOKE-FULL-VISUAL-07-DIRECT-PIXEL-REVIEW.json",
+      "sha256": "318d26aa3948c4f4357110b34e04f53e7ec43d7124441ff76e85b06a4617ad93",
+      "farSamples": "Parent additionally directly reviewed5/20/30s; independent child did not inspect those frames."
+    }
+  },
+  "rawPixelAcceptancePreserved": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\pixel-acceptance.json",
+    "sha256": "07569f144e2380e6cc3143b6eb0c8e312527a438ba6966b647e478a11b6b7bbd",
+    "visibleNativeCloud": "PASS",
+    "usefulCoverage": "NEEDS_USER_TEST"
+  },
+  "allChannelEF": [
+    {
+      "line": 53,
+      "text": "05:59:38.452   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\""
+    },
+    {
+      "line": 121,
+      "text": "05:59:39.354   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+    },
+    {
+      "line": 177,
+      "text": "05:59:41.385             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+    },
+    {
+      "line": 188,
+      "text": "05:59:41.479               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+    },
+    {
+      "line": 189,
+      "text": "05:59:41.479               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+    },
+    {
+      "line": 190,
+      "text": "05:59:41.479               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+    },
+    {
+      "line": 191,
+      "text": "05:59:41.479               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+    },
+    {
+      "line": 200,
+      "text": "05:59:41.484             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+    },
+    {
+      "line": 201,
+      "text": "05:59:41.484             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+    },
+    {
+      "line": 855,
+      "text": "06:00:53.911 RESOURCES (E): ==== Resource leaks ===="
+    },
+    {
+      "line": 856,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+    },
+    {
+      "line": 857,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+    },
+    {
+      "line": 858,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+    },
+    {
+      "line": 859,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+    },
+    {
+      "line": 860,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+    },
+    {
+      "line": 861,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+    },
+    {
+      "line": 862,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+    },
+    {
+      "line": 863,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+    },
+    {
+      "line": 864,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+    },
+    {
+      "line": 865,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 866,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+    },
+    {
+      "line": 867,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 868,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+    },
+    {
+      "line": 869,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+    },
+    {
+      "line": 870,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+    },
+    {
+      "line": 871,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+    },
+    {
+      "line": 872,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+    },
+    {
+      "line": 873,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+    },
+    {
+      "line": 874,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+    },
+    {
+      "line": 875,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+    },
+    {
+      "line": 876,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 877,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+    },
+    {
+      "line": 878,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 879,
+      "text": "06:00:53.911 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+    },
+    {
+      "line": 880,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+    },
+    {
+      "line": 881,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 882,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 883,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+    },
+    {
+      "line": 884,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+    },
+    {
+      "line": 885,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+    },
+    {
+      "line": 886,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+    },
+    {
+      "line": 887,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 888,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+    },
+    {
+      "line": 889,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+    },
+    {
+      "line": 890,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+    },
+    {
+      "line": 891,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 892,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+    },
+    {
+      "line": 893,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+    },
+    {
+      "line": 894,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+    },
+    {
+      "line": 895,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+    },
+    {
+      "line": 896,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+    },
+    {
+      "line": 897,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+    },
+    {
+      "line": 898,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+    },
+    {
+      "line": 899,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+    },
+    {
+      "line": 900,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+    },
+    {
+      "line": 901,
+      "text": "06:00:53.911 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+    },
+    {
+      "line": 902,
+      "text": "06:00:53.911 RESOURCES (E): UI/Imagesets/default.edds   1"
+    },
+    {
+      "line": 903,
+      "text": "06:00:53.911 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+    }
+  ],
+  "samplingLimits": [
+    "Five exact original BMPs directly reviewed; all25 file hashes/dimensions/completeness verified. No inference that all25 were visually inspected.",
+    "Eight full native payload IDs are telemetry identities, not eight individually resolved clouds.",
+    "Frame timestamps are retained capture-request observations; not independent exact onset/expiry or impact/fuse readbacks.",
+    "No extrapolation from this fixed axis to tactical all-angle screening, AI concealment or user acceptance."
+  ],
+  "remainingNotTested": [
+    "Individual eight-cloud count",
+    "Exact impact/fuse callbacks",
+    "AI concealment",
+    "Current V11/current1152 integration and ordinary roles/physical controls",
+    "Genuine finite smoke rearm/cooldown",
+    "MP/JIP/dedicated",
+    "Whole useful-screening/human judgment"
+  ],
+  "observerRecipe": "Use frozen full-visual job, exact compile10/four source closures, fresh owned profile and original normal-close wrapper. Require actual8 before program, eight full native IDs/motion, explicit delayed empty, checked camera requests and25 BMPs. Then separately inspect baseline/near/far originals. This audit requests no replay.",
+  "inputPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\SOURCE-MANIFEST.json": "0d09166c45c84d7cb1ecf8c20b5232d3eab512c6f0bcd80def9533dff36246a4",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\smoke-full-cloud-visual-control-job.json": "e02a995f68dea76808e1c377f852f0bb6d3175f204acf6f62b2467e919044806",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adapter.py": "b88aabd65ad49b81e82ae48702edbd92d9d36d5fb20685b074850852877403bc",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adoption.py": "bf18e91baf75f403ce8d5e00b07500b26b491d5e86696af60ed59f0a1bfceb8a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\analyze_wcs_smoke_supplier.py": "4d1c3ca6a4399cef1e7019ed5869025983c0070db5ee24f3ea166bd6d546892a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\BINDING-REUSE-PROOF.json": "76944900ff4d1107c169942f8599718b8a1889198f3018a62688a941b1ba283b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\build.py": "4aed4e135d64e62c8b7d4a2efce83fcdce7a1643491daabfcaa4402feafb5a21",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\CAPTURE-ONLY.patch": "f28fb29dadfae444d16b0d02ed4b1c71ed6700a2752c2c81be7d70f93a41aa8b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\check_syntax.ps1": "c360fd1a086a6dd5de28e673c9589f482c7702fe360b83fda7a7af9eb3250127",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\evidence.py": "faa6d005f18780b404c3603dfef67fd2da1b6e91ebe3029398339a262f8130ce",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\expected-pins\\GEPARD_SOURCE_MANIFEST.json": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\expected-pins\\QA_SOURCE_MANIFEST.json": "49c4c200dd07d9e428ceddc8ff821e15d92f7daedef017bbcfc81cac243bebc0",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\expected-pins\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\expected-pins\\WCSSMOKE_SOURCE_MANIFEST.json": "c11da2a21288f609198dd92e497cecead0ecac688fadb4691efc21381c86419d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\EXPECTED-STAGE-CLOSURES.json": "28d69b1ccca3431c5be61bfb6b8a1c4b8d4ea3920f348223481a80db8b81e956",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\finalize_proofs.py": "038403986ed46d1ef87d5de9973e15fd00f4c7ed33f792d8952ae1eacb5190d1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\full_visual_contract.py": "1ab55599d9509f5c53d895c692bc1db5d210b889896b8807e8cb349aa5ae8b32",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\INPUT-PROVENANCE.json": "3c300647fe66fcc2088cbf0e5cae5f0570a27501c52e841714a8ef3bfe584bf4",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\lease_read.py": "a56e0307d68ccbde1417da89086c65ed671cac888b886116652ebc2ae03baedf",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\overlay\\single\\qaSmoke\\Worlds\\GEP215_WCSFullRipple_default.layer": "8aef8a891a3bd67452c51946aa7e11ac8b64b1bbebb4839976572623a201b88a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\OVERLAY-MANIFEST.json": "91a97fe125009523d8fb114789522d500dbfdd4fd4df2d075e28f1278642e689",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\plan_full_visual.py": "03e8f4166ef6f45a5f65ddcf65e9cee5f4aad99548517ccfdcd21d9d90eaa029",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\plan_full_visual.py.patch": "e3840303bf0a6e108db03fcf721db538ba4ba956b99c4a80979c4fbbcc52d6b1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\PRECOMPILE-PLAN.json": "e588b22e828a3c3db2843465d1b7951973267e14784f0dd71420fbb6cc5752d5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\prepare_full_visual.py": "4d78f913734a79d2958d5cf6c88aca624d7a9a93a473f6fe70f32ef13f1e7bad",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\prepare_full_visual.py.patch": "1b19080957d4975c4d40a61b31f3b3663a15e50209e0e162cd520417352b2e62",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\README.md": "259cf8ad378159fbdc4aff92ce9c3a9afe4b35181deaba5ada466e2b8dc5fcd8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\review_cloud_pixels.py": "d6afac602c6641a76a330d878ff61e9184b5ca3be5c017c6edbe456b9116fce9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\review_cloud_pixels.py.patch": "9ac06fe9aebc61226a64b9ba4a0e0fd4015bc97332d2402bf4dbe42f2df0d7a2",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\seal_source.py": "f55004676edfa82f9d7db45e4b0e4e372e1c3a2439beb63486268b71c0311dd6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\SELFTEST-RESULT.json": "9591ca437e9b38743b123704ea1c00d7f395295b66968b36b2f607cb7383e084",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\selftest.py": "73f342c4e433e8644f6e6cf037794ce22bc3ce91d842355fb35e92d3dbdc3eb3",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\smoke_evidence.py": "4da33974b48871dffb88c4847215320c4e8eb235b9a81533c92aeaeb0bc3c9bb",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\smoke_evidence.py.patch": "42a6b5a85aae854f49510ff5b6265aa9db4eebc68cafca577cc53d53ee950da5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\SOURCE-COPY-CLOSURES.json": "bc00a058474c05d5ac6177be5b52a48de0735e90167beb51dc7a6ff0214da579",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\source-pins\\GEPARD_SOURCE_MANIFEST.json": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\source-pins\\QA_SOURCE_MANIFEST.json": "1c7ec811abea0247f832e29448a6e3f8632876bfda6814493bead2bb7a95a648",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\source-pins\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\source-pins\\WCSSMOKE_SOURCE_MANIFEST.json": "c11da2a21288f609198dd92e497cecead0ecac688fadb4691efc21381c86419d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\StageFullVisual.ps1": "efa338473e85701048e5f280deb30334c2514227674cc8bc256bcea21cebaea7",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\STATIC-SOURCE-RESULT.json": "cc69bea026f663a8abbc06726112762687cf010c27f04c3d0f0c52ffedcd9a8f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\tools\\CompileSmokeFullVisual.ps1": "795b582281b76304a609a8a7425d4f7e92375e7193bf7f7447ee1a100d81633a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\tools\\Scene.ps1": "bf43bae77f42011348c97545b5bb284c04215fd69047075e38d552352217a635",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\verify_source.py": "16eae4df378a25200c7e6f679334eeaf148603b50b0d4798d97db4c33f15eeb6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\visual_contract.py": "b578d318beae234a28c2972aba0fafb9aab82b9eb0f4f03ca65fcf5fd838e9d5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\WRAPPER-SYNTAX.json": "76038eee05e5d65e7a95d8748f2d799812f050a788852b634a7afd9586eff271",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\SOURCE-CLOSURES.json": "4b414a3aac3a458047e3b68831b2ce21f87586cc4b8e0ff94619760000b7e908",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\COMPILE-ADOPTION.json": "bd9c74b2883459c24ef831291e5342e7364b86df62435d0b4d31bcfd2b766d1c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\state\\STAGING-RESULT.json": "fe5b7dd3d6c674242feff420040b9a4ab6b5d47ada81dd385169d304afc38833",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\GEPARD_SOURCE_MANIFEST.json": "df4f10cc40463c9b3a162c0ebc1b1e0ad7decf30d6c262cbd25391d708fc0868",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\WCSSMOKE_SOURCE_MANIFEST.json": "c11da2a21288f609198dd92e497cecead0ecac688fadb4691efc21381c86419d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\QA_SOURCE_MANIFEST.json": "49c4c200dd07d9e428ceddc8ff821e15d92f7daedef017bbcfc81cac243bebc0",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullVisual-Bindings-v1-20261022\\adopted\\WCS_ARMAMENTS_SOURCE_MANIFEST.json": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\SOURCE-MANIFEST.json": "97f6072e7231fb20e266e4607dbb45895863cb332146baa120d3749056de4919",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\visual-binding-v1\\SOURCE-MANIFEST.json": "d276db327bca54c7be15796dcdea96a5d2dfe709d73cc10001f08574f96c9c17",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\qaSmoke\\scripts\\Game\\GEP215WCSQA\\GEP215_WCSProbe.c": "d51fe49cd445931227cd6a17ce78b1eb67a4a4c210432d21d2e90e7965b72922",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-full-service-stage-v2\\single\\qaSmoke\\Worlds\\GEP215_WCSFullRipple_default.layer": "7b443c34b0cccd6b3f26bc7c05ffef2a89d6284447b9ced51509750ab6e8c55c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-review.json": "6c6477d0ca521adca008cbfd28638ebf6c3db5cf7eb3a5e623c6d078d3acf82c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\result.json": "333ba74f7cc90de3c0ee88d814ded46cc8aa710960b9558d31c30c84d925d606",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-eight-empty-06\\smoke-full-eight-empty\\native-run\\exit.json": "d63bb239697fcb120143ca1caa15779c7fe7c1e4471f09b8d63a56e22ddaa87b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-review.json": "0cab580064f7993a9be66a208c7a2fb7291ab86dbae91b4ab5cf4ea43f7678a9",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\result.json": "6f9db1cc6a79277ea9ba0aaeb9f37831b4a39cee46d90dc1739c8db7f60b9965",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cloud-visual-04\\smoke-cloud-visual-control\\native-run\\exit.json": "0796e91318945bc9ed70038c547d59d2c5355023ff9d99a7debc79b9e77d946b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-cloud-visual-10\\RESULT.json": "38e1c2c657f478414b786b33340013dbc0af4faffd68230f0d300ae2b88009cd",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-cloud-visual-10\\compiler-identity.json": "aed26d8e97f8c922cf459b7f1e6a38f15b0da1d373e0d76efdbd8a19d200c51d",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-cloud-visual-10\\launcher-exit.json": "b9b2155d68833dbc1358413bac11b1fcc3d433f6a6531a954972310206748a1f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-cloud-visual-10\\owner-private.json": "42c0b860a2ac338f9d62b7430590261f1216943741e6db8de9202062f081e661",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-full-cloud-visual-10\\logs\\validate\\console.log": "4f30a6aef1be0a0c7de170791a586ff0651e45ac4fcbff88e67ca146fdc411b7",
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe": "51f941dee28bda7865e2428d7fc92fcbe7c5c7ff666caf642c0ff23c2aced457",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\adapter.py": "dec4fbb7017f372b95080629e68e079ba458a1114937a5101aab9041192c2621",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\tools\\Scene.ps1": "6e4b54e65b525006d52c6d149fbaf5e4574426156c47e34ed8861c2954b3f068",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\tools\\CompileSmokeFull.ps1": "1415c600f1a34a2fe41a7a906a977e46c34aa17caed286ec14233724d0b86aef",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-FullEight-Bindings-v2-20261022\\StageFullV2.ps1": "c95af171362dc72c4fc9c76185625e62921a725997cc86bc387ea284f3a8df43",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\request.json": "a355591a57363026ee48c5d351ed67ea5babff7455d3e19a939d39a7e064a7ec",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\result.json": "87f3d0871a27236477d2893f273d8146b53d5ed98b34545c5d2be9bde4cb7f9f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-review.json": "d1df9bb44f70d46fc9e6e84fa3329d031c9fc3ea3dc3f353c47ca992d74dbd36",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\pixel-acceptance.json": "07569f144e2380e6cc3143b6eb0c8e312527a438ba6966b647e478a11b6b7bbd",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\owner.json": "5a013ba19b6b7275e7bd3a98ae7c4cefaab9bf441eeaa794f462531121117f33",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\owner-private.json": "bbb1b092c097ad0362c810838f544fc03690e0bbf5a2b1b3ebebd97f23b81e93",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\exit.json": "9bc11d96cb3360cd95521c43fb4d8b7bcd38d3abc1b26eba6a33e6de6976949f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\plan.json": "4d382a1886a830e42550db3aedc1f3c02008e40dbfa4e804e268b9e4fc13ee05",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-baseline-far.bmp": "3a979979df000f327e13da7fea16fb54f9ed34298f7a1d32efcfa9b513001322",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-1.bmp": "a4f07816117160caed8586642ec79cb630f3d196851ef4386a387d76a03ab929",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-2.bmp": "1bbfe047685fe9a259fd9a12b6c61c2dc3e3534daf2f08811a972db457a02d1c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-3.bmp": "abf24676991efd38d280941ea2fe3e6e08731c007a04ed7792168f3cb3ebc6d0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-4.bmp": "d6321c89d89abfbccb81a740a57b0f434cc9087fb05ebaafcc2805fb6b3c7c96",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-5.bmp": "c4160079e5924cf899c29c558b64c8d260c6373c6d186f55ae4fcd9f0f8726fa",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-6.bmp": "5cad7f6a7d00701fad02932dbfa219c14e8cb4053f7c083d212489a7cbf14bfb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-7.bmp": "26d607fd91d1289492b48857ef340dd0394ad70819a448f76edfb358163c5ee7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-frame-8.bmp": "c189445f21a18971f98fe83f537223df2e8d1245db408b5691d9481515e126f0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-1-near.bmp": "a4f07816117160caed8586642ec79cb630f3d196851ef4386a387d76a03ab929",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-1-far.bmp": "cbcc80bee78f24354d4b5e4532f95bbb748a3f7b49dd01d9f75165113b799c73",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-2-near.bmp": "1bbfe047685fe9a259fd9a12b6c61c2dc3e3534daf2f08811a972db457a02d1c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-2-far.bmp": "af085426dfb326ba2b2f8f78a1de1bab1584dbcaa9f4fcc33fb27b48e5b0a3c3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-3-near.bmp": "abf24676991efd38d280941ea2fe3e6e08731c007a04ed7792168f3cb3ebc6d0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-3-far.bmp": "afb7f46196041b292b1f8057747517e3ded97d5c993267b065e668a1a900eef7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-near.bmp": "d6321c89d89abfbccb81a740a57b0f434cc9087fb05ebaafcc2805fb6b3c7c96",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-4-far.bmp": "a4ea8f6f1e0001b6b7d3c93e806fff7278f062f6fd367253b2bc9acda33ab64c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-near.bmp": "c4160079e5924cf899c29c558b64c8d260c6373c6d186f55ae4fcd9f0f8726fa",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-5-far.bmp": "c722463dd14f5d3a7f0fd8136051b43c2c06e23cb2f7c79f9235101a02c18cc1",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-near.bmp": "5cad7f6a7d00701fad02932dbfa219c14e8cb4053f7c083d212489a7cbf14bfb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-6-far.bmp": "e17a608e8297d5f739cd95936bc9aad8bcc848cc8772f0bfc8a1287b3c2866a0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-near.bmp": "26d607fd91d1289492b48857ef340dd0394ad70819a448f76edfb358163c5ee7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-7-far.bmp": "d8ea28113d9201c490be75380ccd356a2c7309e55525b09be73bdd5e04c01075",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-near.bmp": "c189445f21a18971f98fe83f537223df2e8d1245db408b5691d9481515e126f0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\profile\\profile\\GEP215-wcs-pair-8-far.bmp": "9ac615a3e05181272216d4cf31ab613bf843654b04114af1d0f4f9ddb2ab46df",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-full-cloud-visual-07\\smoke-full-cloud-visual-control\\native-run\\logs\\console.log": "3a685a9d89f4354e93b2770d39c5c5661a19c00880dcb6e466f9746eb5785d44",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\SMOKE-FULL-VISUAL-07-DIRECT-PIXEL-REVIEW.json": "318d26aa3948c4f4357110b34e04f53e7ec43d7124441ff76e85b06a4617ad93"
+  },
+  "DWritten": false,
+  "nativeStarted": false,
+  "GitChanged": false,
+  "sourceOrCollectorChanged": false,
+  "mainPackage08Touched": false
+}
