@@ -116,7 +116,7 @@
     {
       "id": "GEP-015",
       "status": "Blocked",
-      "reason": "Excluded. Control consumed8to7 and spawned one payload; flight/cloud/rearm unqualified. Angle replay compiled but automatic approval review explicitly denied native launch before execution; no bypass/retry or inferred permission.",
+      "reason": "Excluded. Earlier stock-only automatic-review rejection was reconciled by new parent evidence. One exact retry reached validation and aborted BEFORE native: pinned task-4/smoke-supplier/SUPPLIER-HANDOFF.md differs (expected deeebfa9472c2242dfea8dc62c577cab3b35309d15b67a75b42f5bdb8e146919; actual 0d431d7b7ceeb0b57a774e1326453870672c2252f15ea2dc9d35f0591e048714). All1200 staged pins match; output absent. This attempt was NOT_TESTED, not another security denial. Source owner must reconcile immutable metadata binding; no repin/overwrite/second retry. Flight/cloud/rearm remain unqualified.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": true,
@@ -278,7 +278,7 @@
     "Needs verification": "Existing release evidence passes; one named verification remains",
     "Blocked": "Concrete dependency prevents next planned work; current native authorization dialog for015/033"
   },
-  "updatedUtc": "2026-10-22T08:16:42.266860+00:00",
+  "updatedUtc": "2026-10-22T08:24:27.553187+00:00",
   "candidate": "ordinary source v6 / compile06 / pack08 / installed08; one left refill observed, whole services pending",
   "nativeCompile": "Actual ordinary-v6 compile06 PASS; historical board V3 compile/native observation retained separately. Compilation alone is not gameplay acceptance.",
   "nativeGameplay": "Package08 ordinary start and US provider observed; strict probe FAIL retained. Separate narrow left-refill observation does not mark services accepted.",

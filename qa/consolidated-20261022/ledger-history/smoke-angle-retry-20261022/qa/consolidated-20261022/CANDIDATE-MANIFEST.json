@@ -1,0 +1,886 @@
+{
+  "schema": 2,
+  "status": "CURRENT_PRIVATE_CANDIDATE_EVIDENCE_WITH_HUMAN_GATES_OPEN",
+  "createdUtc": "2026-10-22T08:16:42.266860+00:00",
+  "baselineRelease": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "sourceRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022",
+  "published": false,
+  "newAcceptedCheckboxes": 0,
+  "releaseExport": "Not performed; original root SOURCE_MANIFEST.json is historical release1.0.2 provenance, not the current candidate manifest.",
+  "releaseBaselineComparison": {
+    "baselineFiles": 1112,
+    "currentOriginalFilesExact": 1105,
+    "approvedFunctionalHudDifferences": [
+      "addon/scripts/Game/GEP/GEP_ControlHints580.c",
+      "addon/scripts/Game/GEP/GEP_CrewActions579.c",
+      "addon/scripts/Game/GEP/GEP_DriverStation.c",
+      "addon/scripts/Game/GEP/GEP_GunStatus.c",
+      "addon/scripts/Game/GEP/GEP_PlainSight680.c",
+      "addon/scripts/Game/GEP/GEP_Presentation680.c",
+      "addon/scripts/Game/GEP/GEP_RadarSystem.c"
+    ],
+    "missingOriginalFiles": [],
+    "note": "Additive art preserved the then-current1112-file core at integration; the full current candidate intentionally has seven approved functional/HUD script differences from release. Do not claim all1112 current bytes equal release."
+  },
+  "canonicalSources": {
+    "gepardRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon",
+    "gepardFiles": 1152,
+    "composition": {
+      "originalCore": 1112,
+      "additiveOverlay": 35,
+      "generatedTextures": 5,
+      "total": 1152
+    },
+    "worldRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\addon",
+    "worldFilesExcludingGeneratedRDB": 10,
+    "runtimeSHA256": "71dc97f41ed852952ac883396de1a064c9bdfcae6efb5d8ae7fa5fc2c07ee1fb",
+    "worldManifest": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\world-source-manifest.json",
+      "bytes": 1203,
+      "sha256": "f31c3b56d57dc1abfa4b061cdb54981e3308a5a4021224ef67c40aabbc48bf83"
+    }
+  },
+  "world": {
+    "worldCLI": "Worlds/GPG_Arland.ent",
+    "addonId": "A76A420022000001",
+    "objects": 31,
+    "boards": 23,
+    "routeGateCount": 8,
+    "targets": [
+      {
+        "id": "T100",
+        "pad": [
+          999.9390827019096,
+          0.0,
+          2673.48994967025
+        ],
+        "nominal": 100
+      },
+      {
+        "id": "T300",
+        "pad": [
+          1200.0,
+          0.0,
+          2670.0
+        ],
+        "nominal": 300
+      }
+    ],
+    "boundSlots": [
+      "OLD-CAMO",
+      "OLD-CHARCOAL",
+      "NEW-CAMO",
+      "NEW-CHARCOAL"
+    ],
+    "unboundSlots": [],
+    "comparisonScope": "OLD is exterior comparison only; OLD/NEW share current scripts and optic, not independent released-code runtimes.",
+    "hostiles": "OFF/qualification locked",
+    "USServiceProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+    "DamageAmmoProvider": "Unchanged stock Ural",
+    "USServiceResetQualification": "Not separately repeated; retained v5 service-reset evidence used prior provider."
+  },
+  "ordinarySource": {
+    "schema": 1,
+    "status": "ROOT_FINAL_SOURCE_READY_FOR_PRIVATE_PACK",
+    "sourceAddonRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6",
+    "coreAddonRoot": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+    "runRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08",
+    "outputRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08",
+    "projects": [
+      {
+        "role": "gepard",
+        "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\gepard\\Gepard.gproj",
+        "sourceManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json",
+        "sourceManifestSHA256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+        "outputName": "gepard",
+        "requiredPackageResources": [
+          "Prefabs/Vehicles/GEP_MobileCarrier.et",
+          "Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+          "Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et",
+          "scripts/Game/GEP/GEP_GunStatus.c"
+        ]
+      },
+      {
+        "role": "provingGround",
+        "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\provingGround\\GepardProvingGround.gproj",
+        "sourceManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-provingGround.json",
+        "sourceManifestSHA256": "593b20c11c708d04ba7468b5c36c49390b2813d9ad443de67e9b89e24fc3b2de",
+        "outputName": "provingGround",
+        "requiredPackageResources": [
+          "Worlds/GPG_Arland.ent",
+          "Worlds/GPG_Arland_default.layer",
+          "scripts/Game/GPG_Director.c",
+          "scripts/Game/GPG_Layout.c",
+          "scripts/Game/GPG_Resources.c",
+          "Prefabs/GPG_StationBoard.et"
+        ]
+      }
+    ],
+    "allowGeneratedResourceDatabaseOnly": true,
+    "actualCompileReceipt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\COMPILE-ADOPTION-RECEIPT.json",
+    "actualCompileReceiptSHA256": "2162584d833731de11681868d42dd6241313981ea30e61cf65a12aff50d38841"
+  },
+  "compile": {
+    "schema": 1,
+    "status": "SUCCESSFUL_NATIVE_COMPILE_CURRENT_CLOSURES_REVIEWED",
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\provingGround\\GepardProvingGround.gproj",
+    "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-demo-06",
+    "compilerResultSHA256": "35cb75ee7934bc63d531679e59980c5861a5200fe20c2b7124a25609fe442c83",
+    "compilerConsoleSHA256": "465ca731617e07fc6802d99900018990a348a7a81dcd1af6d352d9d9d20e85bf",
+    "compilerIdentitySHA256": "b6bc3004160e38fa0abe93eb5085bc5c9427fb55aa2d9984161d4082a579513a",
+    "launcherExitSHA256": "503b2384eea22b4358a4293acf1ad8c865e2100d7354ac092d6ce8dc609587d4",
+    "compilerOwnerProjectVerified": true,
+    "nativeRuntime": "NOT_TESTED",
+    "nativeGameplay": "NOT_TESTED",
+    "originalClosures": [
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\gepard",
+        "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\SourceManifest-gepard.json",
+        "sha256": "4b4ad6ae433db8996dad977e62687ef85ee6b7798f765bce8c4212dde6ab53fa",
+        "files": 1152
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\provingGround",
+        "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\SourceManifest-provingGround.json",
+        "sha256": "22b76d68ef6295561c561acece9b9b89851608b4ebd192274c3634a478b3be07",
+        "files": 10
+      }
+    ],
+    "closures": [
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\gepard",
+        "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json",
+        "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+        "files": 1152
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\provingGround",
+        "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-provingGround.json",
+        "sha256": "593b20c11c708d04ba7468b5c36c49390b2813d9ad443de67e9b89e24fc3b2de",
+        "files": 11
+      }
+    ],
+    "generatedChangesAfterCompile": {
+      "gepard": [
+        {
+          "relative": "resourceDatabase.rdb",
+          "originalSHA256": "7ee0c09284788b5f865a6cfd22ed2aa2a133b2da25508dc0c10142049ac7735c",
+          "currentSHA256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+        }
+      ],
+      "provingGround": [
+        {
+          "relative": "resourceDatabase.rdb",
+          "originalSHA256": null,
+          "currentSHA256": "b482544c42a028cc0b7168ae7e044dd23d6217c68764285a681eb5319d679d8c"
+        }
+      ]
+    },
+    "sourceCodeChangedDuringCompile": false,
+    "precompileArchivesPreserved": true,
+    "ordinarySourceOnly": true
+  },
+  "package": {
+    "installedClosure": {
+      "schema": 1,
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons",
+      "files": {
+        "D561AD08932E7B40/addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+        "D561AD08932E7B40/resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119",
+        "D561AD08932E7B40/data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+        "A76A420022000001/addon.gproj": "561a6370a828266d5df2039ed30a803138c51727b576e118c9cc10b654cfcbe4",
+        "A76A420022000001/resourceDatabase.rdb": "b482544c42a028cc0b7168ae7e044dd23d6217c68764285a681eb5319d679d8c",
+        "A76A420022000001/data.pak": "a63681487f900dd5b47747573d1accb25a977d28e7a494a85154ba86932fcd3d"
+      },
+      "packPlanSHA256": "2e45452dc101d9cd1e9e9f2a81ce4fee8a21ea7d79c6c973d96e9e740242ea44",
+      "packages": [
+        {
+          "role": "gepard",
+          "guid": "D561AD08932E7B40",
+          "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard-pack\\package-proof.json",
+          "proofSHA256": "39b9bf182dccb0eec73069c60f7bf17075cc34ce5b452adf708d8d6c0a90ca4a",
+          "trio": [
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\Gepard.gproj",
+              "bytes": 666,
+              "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+            },
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\resourceDatabase.rdb",
+              "bytes": 49774,
+              "sha256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+            },
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\data.pak",
+              "bytes": 254101614,
+              "sha256": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519"
+            }
+          ]
+        },
+        {
+          "role": "provingGround",
+          "guid": "A76A420022000001",
+          "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\provingGround-pack\\package-proof.json",
+          "proofSHA256": "89b9953cedef89b40be8bbf93d74295786bdb736078d15bfc9d35e1f53f030ba",
+          "trio": [
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\provingGround\\GepardProvingGround.gproj",
+              "bytes": 253,
+              "sha256": "561a6370a828266d5df2039ed30a803138c51727b576e118c9cc10b654cfcbe4"
+            },
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\provingGround\\resourceDatabase.rdb",
+              "bytes": 537,
+              "sha256": "b482544c42a028cc0b7168ae7e044dd23d6217c68764285a681eb5319d679d8c"
+            },
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\provingGround\\data.pak",
+              "bytes": 13062,
+              "sha256": "a63681487f900dd5b47747573d1accb25a977d28e7a494a85154ba86932fcd3d"
+            }
+          ]
+        }
+      ],
+      "packDiagnostics": {
+        "operationalVerdict": "PASS",
+        "strictNativeVerdict": "FAIL",
+        "rawNativeErrorCount": 100,
+        "rows": [
+          {
+            "role": "gepard",
+            "step": "validate",
+            "rawErrorCount": 25,
+            "strictNativeVerdict": "FAIL",
+            "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+            "diagnosticsReportSHA256": "ff770d2502655414af377a49613b2e13233b9e9520313a701226bd0eb821ed31",
+            "consoleSHA256": "2a91fc4f1a2f923a395142a326221e108c12836967883c75ab1d97650a841fe9"
+          },
+          {
+            "role": "gepard",
+            "step": "pack",
+            "rawErrorCount": 25,
+            "strictNativeVerdict": "FAIL",
+            "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+            "diagnosticsReportSHA256": "54a9eb271d8212962857520a4fcec0bf2eca3d93df735a57952a31be6bdc42e3",
+            "consoleSHA256": "4955427e6a849bc6ce29a6c2da90a2d01d3292adbdc7b05b9ed5b2efcc4c0c9f"
+          },
+          {
+            "role": "provingGround",
+            "step": "validate",
+            "rawErrorCount": 25,
+            "strictNativeVerdict": "FAIL",
+            "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+            "diagnosticsReportSHA256": "7ee31e0e1627aa4e3f49943541afbc03e158ccfb3229490cc2dab036d2c013d2",
+            "consoleSHA256": "faaeaf2548a63d3824bfd09e5599a027e4bbabaa198ba1bb196faa8a598eaac8"
+          },
+          {
+            "role": "provingGround",
+            "step": "pack",
+            "rawErrorCount": 25,
+            "strictNativeVerdict": "FAIL",
+            "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+            "diagnosticsReportSHA256": "3e29c55aa110546ccd7d258706385941185acfe9778bc8c1bafb52fbc7c41d30",
+            "consoleSHA256": "80849c534e6405313bf8333abb0482a89aa3a7401ea4f4e9cf0ab73c25dd3a0b"
+          }
+        ],
+        "meaning": "Known teardown retained; operational package gates pass. This is not a clean native aggregate or gameplay acceptance."
+      },
+      "nativeStarted": false,
+      "metadataBytesChanged": false,
+      "privateQAAdded": false,
+      "profilesAdded": false
+    },
+    "operationalVerdict": "PASS",
+    "strictNativeVerdict": "FAIL",
+    "rawPackErrorCount": 100,
+    "ordinaryProbe": {
+      "leaseReleased": true,
+      "status": "PACKAGE_ONLY_ORDINARY_STARTUP_PROOF_FAIL",
+      "fourComparisonBays": true,
+      "humanMovement": "NOT_TESTED",
+      "ordinaryReady": true,
+      "humanFiring": "NOT_TESTED",
+      "actualLayoutHashes": true,
+      "exitCode": 0,
+      "sourcePackOperationalVerdict": "PASS",
+      "privateQA": false,
+      "nativeAbsent": true,
+      "humanHUD": "NOT_TESTED",
+      "visualAcceptance": "NEEDS_USER_TEST",
+      "sourcePackRawErrorCount": 100,
+      "twoRangeSurveys": true,
+      "published": false,
+      "sourcePackStrictNativeVerdict": "FAIL",
+      "game": true,
+      "rawErrorCount": 59,
+      "probeSeconds": 75
+    },
+    "ordinaryProbeExit": {
+      "exitCode": 0,
+      "utc": "2026-10-22T08:07:06.6150178Z",
+      "closeMethod": "explicit-bounded-probe-owned-normal-window-close",
+      "leaseReleased": true,
+      "verifiedExited": true
+    },
+    "allRawProbeErrors": [
+      {
+        "line": 109,
+        "text": "03:05:51.472   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+      },
+      {
+        "line": 163,
+        "text": "03:05:59.891           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+      },
+      {
+        "line": 170,
+        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+      },
+      {
+        "line": 171,
+        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+      },
+      {
+        "line": 178,
+        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+      },
+      {
+        "line": 179,
+        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+      },
+      {
+        "line": 180,
+        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+      },
+      {
+        "line": 181,
+        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+      },
+      {
+        "line": 371,
+        "text": "03:07:06.052 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!"
+      },
+      {
+        "line": 372,
+        "text": "03:07:06.055 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!"
+      },
+      {
+        "line": 374,
+        "text": "03:07:06.233 RESOURCES (E): ==== Resource leaks ===="
+      },
+      {
+        "line": 375,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+      },
+      {
+        "line": 376,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+      },
+      {
+        "line": 377,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+      },
+      {
+        "line": 378,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+      },
+      {
+        "line": 379,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+      },
+      {
+        "line": 380,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+      },
+      {
+        "line": 381,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+      },
+      {
+        "line": 382,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+      },
+      {
+        "line": 383,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+      },
+      {
+        "line": 384,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+      },
+      {
+        "line": 385,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+      },
+      {
+        "line": 386,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+      },
+      {
+        "line": 387,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+      },
+      {
+        "line": 388,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+      },
+      {
+        "line": 389,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+      },
+      {
+        "line": 390,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+      },
+      {
+        "line": 391,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+      },
+      {
+        "line": 392,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+      },
+      {
+        "line": 393,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+      },
+      {
+        "line": 394,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+      },
+      {
+        "line": 395,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+      },
+      {
+        "line": 396,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+      },
+      {
+        "line": 397,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+      },
+      {
+        "line": 398,
+        "text": "03:07:06.233 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+      },
+      {
+        "line": 399,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+      },
+      {
+        "line": 400,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+      },
+      {
+        "line": 401,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+      },
+      {
+        "line": 402,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+      },
+      {
+        "line": 403,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+      },
+      {
+        "line": 404,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+      },
+      {
+        "line": 405,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+      },
+      {
+        "line": 406,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+      },
+      {
+        "line": 407,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+      },
+      {
+        "line": 408,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+      },
+      {
+        "line": 409,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+      },
+      {
+        "line": 410,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+      },
+      {
+        "line": 411,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+      },
+      {
+        "line": 412,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+      },
+      {
+        "line": 413,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+      },
+      {
+        "line": 414,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+      },
+      {
+        "line": 415,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+      },
+      {
+        "line": 416,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+      },
+      {
+        "line": 417,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+      },
+      {
+        "line": 418,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+      },
+      {
+        "line": 419,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+      },
+      {
+        "line": 420,
+        "text": "03:07:06.233 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+      },
+      {
+        "line": 421,
+        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/default.edds   1"
+      },
+      {
+        "line": 422,
+        "text": "03:07:06.233 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+      }
+    ],
+    "independentReview": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package08-Independent-ReadOnly-Review-20261022\\INDEPENDENT-REVIEW.json",
+      "bytes": 36831,
+      "sha256": "0f00633fd894df33e08f90958d582de39d041ea84fee83f3b42e805354aeaaa7"
+    },
+    "screenshot": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\package08-owned-printwindow.png",
+      "bytes": 1283111,
+      "sha256": "34a926f49c9dfc12af702cf02d56674b9d009b439f1c93f77465a4801650e6f3"
+    },
+    "screenshotReview": "Ground-level rendered grass/sky/nearby Gepards and station boards, Quick slots UI; no menu/blank/loading screen",
+    "sourceIdentity": "ordinary-v6 / compile06 / pack08 / installed08"
+  },
+  "observations": {
+    "HUD": "Both 1280x720 and 1920x1080 passed eight frozen narrow HUD assertions, with 15 phase snapshots/captures each. Sample pixels: 5 of 15 at 720p and 3 of 15 at 1080p reviewed (16:9 only). Positive range acquisition/accuracy, other aspects and design acceptance remain pending. Original strict FAIL retained. Daytime 16:9 evidence only; night/low-light cycle judgment remains pending.",
+    "art": "1/6camoposes observed; both NEW bindings/registration retained; broad dynamic/visual acceptance pending.",
+    "wheeled": "Two26checknative diagnostic observations; originalNOT_TESTED retained.",
+    "boards": "V3 independent source-bound observation: 23 boards with component/Station/Rpl/context and five actions each; 115 native owner-equality booleans. Registered bay read/reset/reset reaches the original Director; four replacements, 228 old IDs absent, 27 unrelated roots preserved and all 31 stable under debounce. Original adapter/aggregate NOT_TESTED from malformed inline-ID telemetry is retained; no ID normalization or waiver.",
+    "reset": "Final v5 positive range/damage/service and occupied/nearplayer negative reviews retained; moving/offpad native NOT_TESTED. The retained v5 service-reset case used the earlier provider; the current US-provider reset has not been separately repeated.",
+    "services": {
+      "status": "ONE_NATIVE_CAMO_LEFT_REFILL_OBSERVED_WHOLE_SERVICES_PENDING",
+      "selectedFeed": 0,
+      "targetMagazineBefore": 315,
+      "targetMagazineAfter": 320,
+      "selectedFiniteContainerBefore": 1000,
+      "selectedFiniteContainerAfter": 997,
+      "threeObservedContainerSums": {
+        "before": 3000,
+        "after": 2997
+      },
+      "otherTwoObservedContainersUnchanged": true,
+      "originalStrictCase": "FAIL_PRESERVED",
+      "strictRearmNativeErrors": 57,
+      "instrumentationFailures": "27 missing action-field parser mismatches plus incorrect aggregate0 versus actual per-container rows; no normalization or waiver.",
+      "independentReview": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
+        "bytes": 18820,
+        "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+      },
+      "includedProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+      "scope": "One source-bound camo left-feed refill only; not a whole-service PASS or GEP completion.",
+      "unqualified": [
+        "Original strict automated case",
+        "Right-feed transfer",
+        "Repeated/full/empty-negative services",
+        "Repair",
+        "Refuel",
+        "Physical input",
+        "Human usability",
+        "MP/JIP/dedicated"
+      ]
+    }
+  },
+  "excluded": {
+    "smoke": "Excluded. Control consumed8to7 and spawned one payload; flight/cloud/rearm unqualified. Angle replay compiled but automatic approval review explicitly denied native launch before execution; no bypass/retry or inferred permission.",
+    "newTrackAudio": "Excluded. Stock graph trace and authoring compile retained; bounded authoring approval remains pending. No audible implementation/playback acceptance; earlier protected-read/authoring declines retained separately.",
+    "stabilization": "Released hard-disable retained; deferred actualmotionqualification",
+    "ballisticCorrection": "Released hard-disable retained; no impactcorrectionacceptance",
+    "customGunSounds": "Stock gun sounds retained",
+    "V12V13": "Not adopted",
+    "Isfahan": "Separate task"
+  },
+  "entrypoint": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd",
+    "shim": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd",
+      "bytes": 230,
+      "sha256": "d3940d6d3d741970b266a1f03c222cae7071181fb81e3adbc48e19d58d7e05df"
+    },
+    "underlyingGuardedLauncher": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-Private-Demo.ps1",
+    "sealedOriginal": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v6-Pack08-ObservedTransfer-Preparation-20261022\\Launch-Gepard-Private-Demo.ps1",
+      "bytes": 2677,
+      "sha256": "91f0eb0ffe086f67dec485a570024400b3e8e548246852b9d60e249f544556d6"
+    },
+    "default": "Untimed human session, fresh owned UUIDprofile/run; PlanOnly/probe options in unchanged launcher.",
+    "installation": "Root atomically applies exact08 launcher with metadata only after actual08 render gate, preserving old07 exact bytes. Same CMD invokes the underlying PS1 unchanged.",
+    "previous07Launcher": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\ledger-history\\final-package08-20261022\\Launch-Gepard-Private-Demo.ps1",
+      "bytes": 2660,
+      "sha256": "e15b2df2060314c84aa65333208e6b2d6b200d72b1872111fb1ea4183799dac5"
+    },
+    "manualGuide": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\MANUAL-TEST-GUIDE-PACKAGE08.md",
+      "bytes": 3693,
+      "sha256": "e5d6dc8e6615d71169bc30106e140b7a8054a9a0d6843a95f0905177daa7c209"
+    }
+  },
+  "evidence": {
+    "boards": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-BoardActions-IndependentReview-v3-20261022\\RESULT.json",
+      "bytes": 159525,
+      "sha256": "a4e97ea2f9a0802f4c23d3695b75f2c15430beee227d2f94ea68cc2af7abf1ff"
+    },
+    "hud": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-IndependentReview-20261022\\INDEPENDENT-REVIEW.json",
+      "bytes": 58179,
+      "sha256": "09f227a06e92ec0f08f1504222e8657f2b4e2a7637da711c7514349ce562a136"
+    },
+    "pixels720": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-PixelReview-20261022\\PIXEL-REVIEW.json",
+      "bytes": 3534,
+      "sha256": "88dfed83286f13ca8a22011d926789a21236a90c63495fd12db452ec19e84f8a"
+    },
+    "pixels1080": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-PixelReview-20261022\\PIXEL-REVIEW-1920.json",
+      "bytes": 2582,
+      "sha256": "f86a9c6d151dd9a72583455d5d2c9cbf9f67ed2acd3c64ee2be5240dba7db959"
+    },
+    "artDynamic": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtDynamic-FinalEvidence-20261022\\FINAL-EVIDENCE.json",
+      "bytes": 4335,
+      "sha256": "78c8a7860839d05e7faef331b4b18bff8c0004b48faa842990f657cb019c5c72"
+    },
+    "wheeled": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Core-Wheeled-Review-20261022\\ACTUAL-COMPLETION-PAIR-REVIEW.json",
+      "bytes": 10845,
+      "sha256": "e7c0b1571637f885b9924cb3b2dc0ac724ea4dff0e2e5f063bfbad705d080a83"
+    },
+    "resets": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-FinalPositiveReset-Review-v5-20261022\\RESULT.json",
+      "bytes": 244306,
+      "sha256": "5e9aab48305a4efc4b9f96665f27dd05aa91bb442a35f791b4ad18243d287b83"
+    },
+    "negativeResets": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-NegativeGuard-Review-v5-20261022\\RESULT.json",
+      "bytes": 109636,
+      "sha256": "dc8a5efc6ed89ea4e49b87a1658b8f0a2fb26390e73070824f0f3ff84096a4ce"
+    },
+    "layout": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-MeasuredLayout-Review-20261022\\REVIEW-RESULT.json",
+      "bytes": 16950,
+      "sha256": "e901c2c5e746bdf7ca217a2c1314dd729e8dd6367bcaaef3fca9580a4bbef0e8"
+    },
+    "entrypointShim": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd",
+      "bytes": 230,
+      "sha256": "d3940d6d3d741970b266a1f03c222cae7071181fb81e3adbc48e19d58d7e05df"
+    },
+    "ordinary-gepard": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\CurrentSourceManifest-gepard.json",
+      "bytes": 148709,
+      "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09"
+    },
+    "ordinary-provingGround": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\CurrentSourceManifest-provingGround.json",
+      "bytes": 1118,
+      "sha256": "295483ba531e82747d04669adc8cddfb34e3b6dbdebaa7c74ccba84463d5b550"
+    },
+    "worldUSProviderAdoption08": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-USProvider-World-Adoption-v9-20261022\\RESULT.json",
+      "bytes": 3832,
+      "sha256": "17789a46dfbcd3d03a8f2971443008afe9f6a2651ec9c8848779abf13061c334"
+    },
+    "serviceLeftV9": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
+      "bytes": 18820,
+      "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+    },
+    "ordinarySource08": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v6-Pack08-ObservedTransfer-Preparation-20261022\\ROOT-COMPILED-SOURCE-CONTRACT.json",
+      "bytes": 2244,
+      "sha256": "a20fb789846be8b702fe8b5da70f275ff1576f4b37b1525a4f23c48653be3b6a"
+    },
+    "ordinaryCompile08": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\COMPILE-ADOPTION-RECEIPT.json",
+      "bytes": 3027,
+      "sha256": "2162584d833731de11681868d42dd6241313981ea30e61cf65a12aff50d38841"
+    },
+    "pack08": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\RESULT.json",
+      "bytes": 3433,
+      "sha256": "cce0d8748910a48f2a812abdf7dbc5d2828a625c36196540009ba91235284ec5"
+    },
+    "installed08": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v6-Pack08-ObservedTransfer-Preparation-20261022\\INSTALLED-PACKAGE-CLOSURE.json",
+      "bytes": 5064,
+      "sha256": "8a8728e1177495308aef4d482fb0105db1e0b410fde947f1e1eef23fb80e560d"
+    },
+    "package08Probe": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-08-sessions\\probe-cd2c5a32-317c-4462-b880-46ee67303d25\\RESULT.json",
+      "bytes": 614,
+      "sha256": "edd1094487a738b791081c25206f88da674e0a2e361f32acf3c4c6539efa3643"
+    },
+    "package08Exit": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-08-sessions\\probe-cd2c5a32-317c-4462-b880-46ee67303d25\\exit.json",
+      "bytes": 186,
+      "sha256": "e0d097c201eda366d15d3e58679462b7d4b65f8fb58aa5d4564b88c0e34a44ce"
+    },
+    "package08Independent": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package08-Independent-ReadOnly-Review-20261022\\INDEPENDENT-REVIEW.json",
+      "bytes": 36831,
+      "sha256": "0f00633fd894df33e08f90958d582de39d041ea84fee83f3b42e805354aeaaa7"
+    },
+    "package08Screenshot": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\package08-owned-printwindow.png",
+      "bytes": 1283111,
+      "sha256": "34a926f49c9dfc12af702cf02d56674b9d009b439f1c93f77465a4801650e6f3"
+    },
+    "package08Console": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-08-sessions\\probe-cd2c5a32-317c-4462-b880-46ee67303d25\\logs\\console.log",
+      "bytes": 44919,
+      "sha256": "ed8f0c4c9dcd72f0687c93f840dbe8c627377d85d3d5ad281e74b1e8e39e5bd1"
+    },
+    "guide08": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\MANUAL-TEST-GUIDE-PACKAGE08.md",
+      "bytes": 3693,
+      "sha256": "e5d6dc8e6615d71169bc30106e140b7a8054a9a0d6843a95f0905177daa7c209"
+    },
+    "launcher08": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v6-Pack08-ObservedTransfer-Preparation-20261022\\Launch-Gepard-Private-Demo.ps1",
+      "bytes": 2677,
+      "sha256": "91f0eb0ffe086f67dec485a570024400b3e8e548246852b9d60e249f544556d6"
+    },
+    "shimUnchanged": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd",
+      "bytes": 230,
+      "sha256": "d3940d6d3d741970b266a1f03c222cae7071181fb81e3adbc48e19d58d7e05df"
+    },
+    "launcherManifest": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v6-Pack08-ObservedTransfer-Preparation-20261022\\DELIVERABLE-MANIFEST.json",
+      "bytes": 2061,
+      "sha256": "685fe363879a823b76d424053584ef1e0072080555c76d7a20f892deae37011b"
+    },
+    "installedLauncher": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-Private-Demo.ps1",
+      "bytes": 2677,
+      "sha256": "91f0eb0ffe086f67dec485a570024400b3e8e548246852b9d60e249f544556d6",
+      "scope": "Exact post-apply installed pin, verified by updater; old07 before bytes are in the historical backup."
+    }
+  },
+  "serviceFinalReportProvided": true,
+  "packageIndependentReportProvided": true,
+  "metadataFinalReady": true,
+  "physicalAndWholeGepAcceptance": "PENDING; zero new trackercheckboxes",
+  "historicalArtifacts": "Old ledgers/readmes preserved in C preview originals and D ledger-history at explicit root apply. Historical native receipts, manifests and raw failures are never rewritten.",
+  "updatedUtc": "2026-10-22T08:16:42.266860+00:00",
+  "predecessor": {
+    "checkpoint": "5a06259",
+    "manifest": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\ledger-history\\final-package08-20261022\\CURRENT-CANDIDATE-MANIFEST.json",
+      "bytes": 195975,
+      "sha256": "1699c32a46a0dff8978b43dc379fce9b109e2e63108545d667fb9f25f331e96f"
+    },
+    "package": "private-installed-demo-07",
+    "policy": "Exact07 metadata/guide/launcher backed up before root apply; installed07 and all failed raw results remain unchanged.",
+    "evidence": {
+      "ordinarySource": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\ROOT-COMPILED-SOURCE-CONTRACT.json",
+        "bytes": 2244,
+        "sha256": "0c455d1f9dca948f5f34ba481753e0b81a8979bf2725996be9d2af4f82d97995"
+      },
+      "ordinaryCompile": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\COMPILE-ADOPTION-RECEIPT.json",
+        "bytes": 3027,
+        "sha256": "8016d4aed642627d00a0aecbba84905022fbc88ce7a91da6d5800f26a66dbd73"
+      },
+      "pack07": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-07\\RESULT.json",
+        "bytes": 3433,
+        "sha256": "d1e371f9d4ff9dd35ec42221c164fd043cca59ba852455d1ab8a15d3bafd5fb6"
+      },
+      "installed07": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\INSTALLED-PACKAGE-CLOSURE.json",
+        "bytes": 5064,
+        "sha256": "cdc3fcfd0b9996a45a5b6651284f3e0f73904dcfbdb8bc114ee51de7914323bc"
+      },
+      "package07Probe": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-07-sessions\\probe-2ca2c377-5be4-4686-9d2c-35a61b40e3d8\\RESULT.json",
+        "bytes": 614,
+        "sha256": "2e9271c0f84438bc3f793e94ab725e8c2957cca0cabde0f73cf2acf195b93372"
+      },
+      "package07Exit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-07-sessions\\probe-2ca2c377-5be4-4686-9d2c-35a61b40e3d8\\exit.json",
+        "bytes": 186,
+        "sha256": "0999012f9d9bac52df9a195de50a936e3139de85595a3049a408b14038f013e4"
+      },
+      "package07Independent": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package07-Independent-ReadOnly-Review-20261022\\INDEPENDENT-REVIEW.json",
+        "bytes": 33776,
+        "sha256": "a3640a69daa04a994837ecd5179c1cf9aa6199468cbc6f4f1de414b6a5f6fe3f"
+      },
+      "package07Console": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-07-sessions\\probe-2ca2c377-5be4-4686-9d2c-35a61b40e3d8\\logs\\console.log",
+        "bytes": 44934,
+        "sha256": "5da68001cb00d653c64ff667a034b9cff3ce7a32a58107a3c50ab6cac9367ad2"
+      },
+      "packageScreenshot": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\package07-owned-printwindow.png",
+        "bytes": 1306317,
+        "sha256": "0457525e905a2864824af3fc9feeec16bf43fba540ee99e266370d78a3dc8b88"
+      },
+      "launcher": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\Launch-Gepard-Private-Demo.ps1",
+        "bytes": 2660,
+        "sha256": "e15b2df2060314c84aa65333208e6b2d6b200d72b1872111fb1ea4183799dac5"
+      },
+      "launcherManifest": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\DELIVERABLE-MANIFEST.json",
+        "bytes": 2586,
+        "sha256": "ac1cd6517a288ff1aa338fda98b00c2b92650382bd64d28079931391f41d323e"
+      },
+      "installedLauncher": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\ledger-history\\final-package08-20261022\\Launch-Gepard-Private-Demo.ps1",
+        "bytes": 2660,
+        "sha256": "e15b2df2060314c84aa65333208e6b2d6b200d72b1872111fb1ea4183799dac5"
+      },
+      "manualGuide": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\MANUAL-TEST-GUIDE-PACKAGE07.md",
+        "bytes": 3532,
+        "sha256": "636bfe44d73288f793c6cbb2bfa718d5ce43699384459d95d7c388fb1f5f060b"
+      },
+      "serviceLatest": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\V8-ELIGIBILITY-CAUSE.json",
+        "bytes": 12078,
+        "sha256": "dd9dfe4a82fc06aba9cf26812308857dcd7d71cb2afef75d311059855c1350b7"
+      }
+    }
+  },
+  "fullCurrentManifest": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\CURRENT-CANDIDATE-MANIFEST.json",
+    "sha256": "e0f299e2dfde31293594632ce0ff01f611d08f7d0085fd5fd463c0478f5beca7"
+  }
+}

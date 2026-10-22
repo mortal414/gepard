@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-22T08:21:41.269533+00:00",
+  "status": "NOT_TESTED_PINNED_SUPPLIER_HANDOFF_DIFFERS_BEFORE_NATIVE",
+  "attemptsWithNewReconciliation": 1,
+  "nativeStarted": false,
+  "rawToolResponse": "{\"status\": \"NOT_TESTED\", \"reason\": \"Pinned file differs: C:\\\\Users\\\\marco\\\\Documents\\\\Codex\\\\2026-10-21\\\\task-4\\\\smoke-supplier\\\\SUPPLIER-HANDOFF.md\"}",
+  "targetFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier\\SUPPLIER-HANDOFF.md",
+  "expectedPin": "deeebfa9472c2242dfea8dc62c577cab3b35309d15b67a75b42f5bdb8e146919",
+  "actualSHA256": "0d431d7b7ceeb0b57a774e1326453870672c2252f15ea2dc9d35f0591e048714",
+  "nativeOutputExists": false,
+  "earlier1200StagePinsUnchanged": true,
+  "securityDenialThisAttempt": false,
+  "nextAction": "Source owner identifies exact metadata drift and supplies a reviewed immutable handoff binding; no automatic repin, external-file overwrite or second retry. No further smoke redesign before discriminating replay.",
+  "audioAuthoringStillPendingSeparateApproval": true,
+  "package08Unchanged": true
+}

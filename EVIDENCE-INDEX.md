@@ -18,7 +18,7 @@ Current handoff is ordinary-v6 / compile06 / pack08 / installed08. Package07 and
 | Registered boardread/reset/debounce observation | [boards](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-GPG-BoardActions-IndependentReview-v3-20261022/RESULT.json) | Original adapter NOT_TESTED from emitted-ID mismatch |
 | Historical V8 service diagnosis | [serviceLatest](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-Service-USProvider-v9-20261022/V8-ELIGIBILITY-CAUSE.json) | Earlier provider denial; superseded only for the narrow V9 left-refill observation |
 
-Smoke angle replay was explicitly denied by automatic approval review before launch. New rolling-audio authoring has a separate pending approval gate. Both remain excluded.
+Smoke angle replay: the earlier automatic-review conflict was reconciled; the one exact retry aborted before native on a supplier-handoff pin mismatch. New rolling-audio authoring has a separate pending approval gate. Both remain excluded.
 
 Historical root SOURCE_MANIFEST.json describes release1.0.2. Historical Q SOURCE-MANIFEST/SOURCE-CLOSURES/PROVING-GROUND-INTEGRATION and old1112/1147/unboundNEW/pack-not-built records are archived evidence, superseded for current use by CURRENT-CANDIDATE-MANIFEST.json. Do not launch old stages.
 

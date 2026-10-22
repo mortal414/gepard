@@ -179,11 +179,14 @@
       "id": "A11-smoke",
       "criterion": "Conditionalonly:actualalignedlaunch/flight/fuse/visiblecloud/ammo/full/empty/genuinerearm/dependencycompatibility;coveragehumanjudgmentseparate.",
       "outcome": "not tested",
-      "evidence": [],
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-angle-retry-01\\RESULT.json"
+      ],
       "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
-      "observedSubcriteria": "Excluded. Control consumed8to7 and spawned one payload; flight/cloud/rearm unqualified. Angle replay compiled but automatic approval review explicitly denied native launch before execution; no bypass/retry or inferred permission.",
+      "observedSubcriteria": "Excluded. Earlier stock-only automatic-review rejection was reconciled by new parent evidence. One exact retry reached validation and aborted BEFORE native: pinned task-4/smoke-supplier/SUPPLIER-HANDOFF.md differs (expected deeebfa9472c2242dfea8dc62c577cab3b35309d15b67a75b42f5bdb8e146919; actual 0d431d7b7ceeb0b57a774e1326453870672c2252f15ea2dc9d35f0591e048714). All1200 staged pins match; output absent. This attempt was NOT_TESTED, not another security denial. Source owner must reconcile immutable metadata binding; no repin/overwrite/second retry. Flight/cloud/rearm remain unqualified.",
       "remainingGates": [
-        "Denied angle native launch and missing flight/cloud/rearm proof"
+        "Source-owner immutable handoff binding reconciliation",
+        "Actual angle flight/fuse/cloud/empty/rearm/compatibility evidence"
       ]
     },
     {
@@ -307,7 +310,7 @@
       }
     }
   },
-  "updatedUtc": "2026-10-22T08:16:42.266860+00:00",
+  "updatedUtc": "2026-10-22T08:24:27.553187+00:00",
   "nativeCheckpoints": {
     "ordinarySource": "private-demo-source-v6; actual compile06 PASS",
     "packages": "pack08 operational PASS; strict100 errors retained; installed08 two verified trios",
@@ -349,7 +352,7 @@
         "MP/JIP/dedicated"
       ]
     },
-    "smoke": "Angle launch explicitlyauto-reviewDENIED beforeexecution; excluded",
+    "smoke": "Excluded. Earlier stock-only automatic-review rejection was reconciled by new parent evidence. One exact retry reached validation and aborted BEFORE native: pinned task-4/smoke-supplier/SUPPLIER-HANDOFF.md differs (expected deeebfa9472c2242dfea8dc62c577cab3b35309d15b67a75b42f5bdb8e146919; actual 0d431d7b7ceeb0b57a774e1326453870672c2252f15ea2dc9d35f0591e048714). All1200 staged pins match; output absent. This attempt was NOT_TESTED, not another security denial. Source owner must reconcile immutable metadata binding; no repin/overwrite/second retry. Flight/cloud/rearm remain unqualified.",
     "audio": "Separate boundedauthoring approval pending; excluded"
   },
   "latestService": {
