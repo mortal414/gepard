@@ -1744,7 +1744,7 @@
     "boards": "V3 independent source-bound observation: 23 boards with component/Station/Rpl/context and five actions each; 115 native owner-equality booleans. Registered bay read/reset/reset reaches the original Director; four replacements, 228 old IDs absent, 27 unrelated roots preserved and all 31 stable under debounce. Original adapter/aggregate NOT_TESTED from malformed inline-ID telemetry is retained; no ID normalization or waiver.",
     "reset": "Final v5 positive range/damage/service and occupied/nearplayer negative reviews retained; moving/offpad native NOT_TESTED. The retained v5 service-reset case used the earlier provider; the current US-provider reset has not been separately repeated.",
     "services": {
-      "status": "SEPARATE_NATIVE_LEFT_RIGHT_REFILLS_AND_RIGHT_CAP_FUEL_OBSERVED_WHOLE_SERVICES_PENDING",
+      "status": "SEPARATE_BOTH_FEEDS_RIGHT_FUEL_AND_ORIGINAL_HULL_REPAIR_OBSERVED_WHOLE_SERVICES_PENDING",
       "left": {
         "feed": 0,
         "action": 21,
@@ -1805,14 +1805,60 @@
       "sourceOrPackageChanged": false,
       "newAcceptedCheckboxes": 0,
       "remaining": [
-        "Actual repair healing with held wrench and finite debit",
         "Full/repeated/empty-negative service controls",
+        "Other damage groups/full-vehicle repair",
         "Left fuel cap/reach across positions",
         "Physical input/human usability",
         "MP/JIP/dedicated"
       ],
       "stockProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
-      "scope": "Separate fresh camo cases only. Narrow measured observations; no whole-service, human or GEP acceptance. Original strict cases and every previous failure are preserved."
+      "scope": "Separate fresh camo cases only. Narrow measured observations; no whole-service, human or GEP acceptance. Original strict cases and every previous failure are preserved.",
+      "repair": {
+        "status": "SEPARATE_NATIVE_ORIGINAL_HULL_HEAL_AND_FINITE_DEBIT_OBSERVED_RAW_HELPER_FAIL_PRESERVED",
+        "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo",
+        "hullBefore": 1993.51,
+        "hullAfter": 2000,
+        "observedGain": 6.48755,
+        "selectedProviderBefore": 1000,
+        "selectedProviderAfter": 999,
+        "originalContainerSums": [
+          3000,
+          2999
+        ],
+        "observedDebit": 1,
+        "independentAudit": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\repair-observation-v4\\INDEPENDENT-REVIEW.json",
+          "sha256": "2c109a7223fc53ff77c78481a4e14002f2711c3b0dea3e4995637ed13a10313f"
+        },
+        "rawResult": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\result.json",
+          "sha256": "74a8b696a67004f9e09a52500b7744e526a0ed7bc679647b48e32f405e44e5ea"
+        },
+        "rawOutcome": "FAIL_PRESERVED",
+        "strictErrors": 57,
+        "holdReleaseAndNormalExit": true,
+        "sequence": "Native selected hull initially onFire1/fireRate2.57769 with configured fireCost0; first native loop extinguishes without health gain/debit; later native loop restores Hull and debits1. No QA fire/health/resource mutation after original fixture setup.",
+        "helperBoundary": "Once the original zone is fully healed the native repair action hides/changes station selection. Final captures see healthy target but invalid station/provider, so the generic paired-readback helper and original criterion remain FAIL. Independent original-zone/container observations are separate.",
+        "screenshots": [
+          {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\repair-v3-owned-hold.png",
+            "sha256": "5681ea7ef993a61255257a4b35b1db5e00bfb6d706fe67ac33cad0d732ca58be"
+          },
+          {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\repair-v4-owned-second-loop.png",
+            "sha256": "7d929784abf74346ede901b29e835ee55fd707591b282ed743c310a5e97a4ee0"
+          }
+        ],
+        "sourceChangesToPlayableBuild": false,
+        "scope": "One real-fragment camo Hull repair. Other zones/full vehicle, repeated/empty negatives, physical human input and MP remain unqualified.",
+        "remaining": [
+          "Other damage groups and full vehicle repair",
+          "Repeated/full/empty and invalid-actor/range service negatives",
+          "Human physical reach/hold usability",
+          "MP/JIP/dedicated"
+        ],
+        "healthPrecision": "Native before-health text is rounded; separately logged native gain6.48755 is retained without reconstructing extra before-health precision."
+      }
     },
     "isolatedSmokeVisual04": {
       "status": "ISOLATED_SINGLE_PAYLOAD_VISIBLE_CLOUD_OBSERVED_EXCLUDED_FROM_PACKAGE08",
@@ -2061,6 +2107,10 @@
     "smokeVisual04": {
       "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-visual-04\\RESULT.json",
       "sha256": "6c9da3d93d6e6c617ad84d6fcca1d517f18f42d9d7fd12a6284ffcb928c3ff55"
+    },
+    "repairObservationV4": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\repair-observation-v4\\RESULT.json",
+      "sha256": "16a95c423819d5b61983ccc846d9509d84d5278638380c2517e89bf233ee000c"
     }
   },
   "serviceFinalReportProvided": true,
@@ -2068,7 +2118,7 @@
   "metadataFinalReady": true,
   "physicalAndWholeGepAcceptance": "PENDING; zero new trackercheckboxes",
   "historicalArtifacts": "Old ledgers/readmes preserved in C preview originals and D ledger-history at explicit root apply. Historical native receipts, manifests and raw failures are never rewritten.",
-  "updatedUtc": "2026-10-22T09:48:02.861316+00:00",
+  "updatedUtc": "2026-10-22T10:16:19.544548+00:00",
   "predecessor": {
     "checkpoint": "5a06259",
     "manifest": {

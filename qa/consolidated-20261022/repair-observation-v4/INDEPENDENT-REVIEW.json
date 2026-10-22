@@ -1,0 +1,963 @@
+{
+  "status": "INDEPENDENT_ORIGINAL_ZONE_HEAL_AND_FINITE_DEBIT_OBSERVED_ORIGINAL_STRICT_FAIL_PRESERVED",
+  "independentObservation": {
+    "status": "PASS",
+    "scope": "One source-bound original selected Hull health gain and positive finite selected-provider debit; not the helper/collector criterion.",
+    "nativeSelectedZoneGain": 6.48755,
+    "roundedRawHullBefore": 1993.51,
+    "rawHullAfter": 2000,
+    "roundedHealthDifference": 6.490000000000009,
+    "printedHealthRoundingTolerance": 0.005,
+    "selectedFiniteProviderBefore": 1000,
+    "selectedFiniteProviderAfter": 999,
+    "containerSums": {
+      "before": 3000.0,
+      "after": 2999.0
+    },
+    "other13OriginalZoneHealthUnchanged": true
+  },
+  "originalAutomation": {
+    "aggregate": "FAIL",
+    "repairCriterion": "FAIL",
+    "helperObserved": false,
+    "terminalReason": "native_selection_or_control_changed",
+    "noVerdictsRewritten": true
+  },
+  "caseId": "gpg-repair-fragment-camo",
+  "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+  "lifecycle": {
+    "status": "PASS",
+    "reason": "Original wrapper exact owner/argv receipts, verified normal exit and same released lease",
+    "verifiedExited": true,
+    "leaseReleased": true
+  },
+  "exit": {
+    "exitCode": 0,
+    "verifiedExited": true,
+    "nativeTerminalSeen": true,
+    "utc": "2026-10-22T10:08:36.1996457Z",
+    "leaseReleased": true,
+    "closeMethod": "owned-normal-window-close",
+    "cancelRequested": false
+  },
+  "source": {
+    "frozenManifestSHA256": "6e9a411f58a0d2bedc086d01f0684f888d460bc620524cd6981a0f4a9a773b66",
+    "completeClosures": [
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-service-repair-v4\\gepard",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\GEPARD_SOURCE_MANIFEST.json",
+        "sha256": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+        "files": 1152
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-service-repair-v4\\provingGround",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\QA_SOURCE_MANIFEST.json",
+        "sha256": "5731598162d0412e4af63d5dd1f44a0fbf64446ecc24e8cf3bff85285f5ccec9",
+        "files": 17
+      }
+    ],
+    "actualCompile": {
+      "schema": 1,
+      "status": "SCRIPT_COMPILE_PASS_ADOPTED",
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-service-repair-v4\\provingGround\\GepardProvingGround.gproj",
+      "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-compile-v4",
+      "compilerResultSHA256": "bec85314f53f8acf771f1651032fc7e9087ba91257cfe53edeadfb6150c82f8b",
+      "compilerConsoleSHA256": "fc6984f9998d6b338093a9c7b4bf61033c6601a459f5ceb7e958bf5b9b388964",
+      "compilerIdentitySHA256": "3ba796478b98b29ad90d99df936cd056b4d092df07c8949a901396cc8ff5cb31",
+      "launcherExitSHA256": "2fa4f133a099d545a87b228b6241b1ba0a933a96427ab2db88f174eba040100e",
+      "compilerOwnerProjectVerified": true,
+      "nativeRuntime": "NOT_TESTED",
+      "nativeGameplay": "NOT_TESTED"
+    },
+    "exactCurrentRAndWSourceSnapshot": true,
+    "repairOnlyBound16s": true,
+    "noTargetHealthSupplyFireSetterOrDirectRepairExecution": true
+  },
+  "facts": {
+    "ready": {
+      "line": 363,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "actor": "0x400000000000032C {}",
+        "subject": "0x40000000000002FB {}",
+        "provider": "0x4000000000000187 {}",
+        "physical": "0",
+        "healthSetters": "0"
+      }
+    },
+    "initialRealDamage": {
+      "line": 535,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "callbacks": "4",
+        "changedOriginalZones": "4",
+        "actualNativeTrigger": "1",
+        "healthSetters": "0",
+        "repairClaim": "0"
+      }
+    },
+    "singleStimulus": {
+      "line": 430,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "source": "<668.949,42,2577.14>",
+        "aim": "<670.949,42,2577.14>",
+        "actorDistance": "8.63597",
+        "standoff": "2",
+        "count": "1",
+        "strongerDamage": "0"
+      }
+    },
+    "heldWrench": {
+      "line": 539,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "actualHeldRepair": "1",
+        "sameWrench": "1",
+        "actorAlive": "1"
+      }
+    },
+    "admission": {
+      "line": 793,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "action": "11",
+        "stationOwner": "0x40000000000001A4 {}",
+        "ranged": "1",
+        "inRange": "1",
+        "nativeCost": "0"
+      }
+    },
+    "nativeDOWN": {
+      "line": 826,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "edge": "DOWN",
+        "action": "11",
+        "nativeDuration": "-5",
+        "continuous": "1",
+        "physicalKeyboard": "0"
+      }
+    },
+    "nativeHoldDone": {
+      "line": 4024,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "started": "1",
+        "released": "1",
+        "observedTransfer": "0",
+        "reason": "native_selection_or_control_changed",
+        "acceptance": "NOT_TESTED",
+        "physicalKeyboard": "0"
+      }
+    },
+    "holdNativeConsoleSeconds": 10.566000000002532,
+    "firstFire": {
+      "line": 820,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "before_public_down",
+        "action": "11",
+        "zone": "Hull",
+        "onFire": "1",
+        "fireRate": "2.57769",
+        "fireState": "10",
+        "health": "1993.51"
+      }
+    },
+    "lastFireBeforeClear": {
+      "line": 2351,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "during_hold_frame_readback",
+        "action": "11",
+        "zone": "Hull",
+        "onFire": "1",
+        "fireRate": "2.53601",
+        "fireState": "10",
+        "health": "1993.51"
+      }
+    },
+    "firstFireClearWithoutHealing": {
+      "line": 2432,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "during_hold_frame_readback",
+        "action": "11",
+        "zone": "Hull",
+        "onFire": "0",
+        "fireRate": "0",
+        "fireState": "0",
+        "health": "1993.51"
+      }
+    },
+    "clearFireConfig": {
+      "line": 2430,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "during_hold_frame_readback",
+        "action": "11",
+        "nativeAmount": "6.48755",
+        "activeDoT": "-1",
+        "fireReduction": "40",
+        "fireCost": "0",
+        "baseCost": "0"
+      }
+    },
+    "clearCache": {
+      "line": 2429,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "during_hold_frame_readback",
+        "action": "11",
+        "stationSame": "1",
+        "cachedCost": "1",
+        "cachedCanPerform": "1",
+        "cachedReason": "100",
+        "animationInDone": "0"
+      }
+    },
+    "lastFire": {
+      "line": 4032,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "after_public_up_same_frame",
+        "action": "11",
+        "zone": "Hull",
+        "onFire": "0",
+        "fireRate": "0",
+        "fireState": "0",
+        "health": "2000"
+      }
+    },
+    "beforeTarget": {
+      "line": 799,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "before_hold",
+        "owner": "0x40000000000002FB {}",
+        "zone": "Hull",
+        "health": "1993.51",
+        "maximum": "2000",
+        "pristine": "2000",
+        "afterImpact": "1993.51"
+      }
+    },
+    "afterTarget": {
+      "line": 4033,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "after_hold",
+        "owner": "0x40000000000002FB {}",
+        "zone": "Hull",
+        "health": "2000",
+        "maximum": "2000",
+        "pristine": "2000",
+        "afterImpact": "1993.51"
+      }
+    },
+    "supplySnapshots": {
+      "before": [
+        {
+          "line": 796,
+          "fields": {
+            "case": "gpg-repair-fragment-camo",
+            "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+            "phase": "before",
+            "owned": "Ammo",
+            "owner": "0x4000000000000173 {}",
+            "value": "1000",
+            "capacity": "1000",
+            "before": "1000"
+          }
+        },
+        {
+          "line": 797,
+          "fields": {
+            "case": "gpg-repair-fragment-camo",
+            "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+            "phase": "before",
+            "owned": "Repair",
+            "owner": "0x40000000000001A4 {}",
+            "value": "1000",
+            "capacity": "1000",
+            "before": "1000"
+          }
+        },
+        {
+          "line": 798,
+          "fields": {
+            "case": "gpg-repair-fragment-camo",
+            "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+            "phase": "before",
+            "owned": "DamageAmmo",
+            "owner": "0x400000000000028E {}",
+            "value": "1000",
+            "capacity": "1000",
+            "before": "1000"
+          }
+        }
+      ],
+      "after": [
+        {
+          "line": 4047,
+          "fields": {
+            "case": "gpg-repair-fragment-camo",
+            "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+            "phase": "after",
+            "owned": "Ammo",
+            "owner": "0x4000000000000173 {}",
+            "value": "1000",
+            "capacity": "1000",
+            "before": "1000"
+          }
+        },
+        {
+          "line": 4048,
+          "fields": {
+            "case": "gpg-repair-fragment-camo",
+            "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+            "phase": "after",
+            "owned": "Repair",
+            "owner": "0x40000000000001A4 {}",
+            "value": "999",
+            "capacity": "1000",
+            "before": "1000"
+          }
+        },
+        {
+          "line": 4049,
+          "fields": {
+            "case": "gpg-repair-fragment-camo",
+            "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+            "phase": "after",
+            "owned": "DamageAmmo",
+            "owner": "0x400000000000028E {}",
+            "value": "1000",
+            "capacity": "1000",
+            "before": "1000"
+          }
+        }
+      ]
+    },
+    "debits": [
+      {
+        "owned": "Ammo",
+        "opaqueOwner": "0x4000000000000173 {}",
+        "debit": 0.0
+      },
+      {
+        "owned": "Repair",
+        "opaqueOwner": "0x40000000000001A4 {}",
+        "debit": 1.0
+      },
+      {
+        "owned": "DamageAmmo",
+        "opaqueOwner": "0x400000000000028E {}",
+        "debit": 0.0
+      }
+    ],
+    "nativeSelectedZoneTransfer": {
+      "line": 4050,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "selectedZoneHealthGain": "6.48755",
+        "finiteGridDebit": "1",
+        "sameOriginalZones": "1",
+        "helperObserved": "0",
+        "observed": "0"
+      }
+    },
+    "extraHullEvent": {
+      "line": 4054,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "manager": "Vehicle<0x000001ECC1B1A350> @\"ENTITY:4611686018427388667\" ('Vehicle','Assets/ArtV11/Mobility/MobilityRig.xob') at <672.000000 38.986031 2577.000000> @\"{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et\"",
+        "zone": "Hull",
+        "effect": "UnknownDamageEffect",
+        "value": "-6.48755",
+        "type": "10"
+      }
+    },
+    "terminal": {
+      "line": 4056,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "observed": "0",
+        "reason": "native_selection_or_control_changed",
+        "holdReleased": "1",
+        "actorOwned": "1",
+        "callbacks": "5",
+        "physical": "0",
+        "acceptance": "NOT_TESTED"
+      }
+    },
+    "lastOriginalActionHandler": {
+      "line": 3965,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "during_hold_frame_readback",
+        "action": "11",
+        "lastAction": "11",
+        "lastSame": "1",
+        "selectedSame": "1",
+        "controlledSame": "1",
+        "canInteract": "0"
+      }
+    },
+    "lastHandler": {
+      "line": 4026,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "after_public_up_same_frame",
+        "action": "11",
+        "lastAction": "20",
+        "lastSame": "0",
+        "selectedSame": "0",
+        "controlledSame": "1",
+        "canInteract": "0"
+      }
+    },
+    "lastCache": {
+      "line": 4029,
+      "fields": {
+        "case": "gpg-repair-fragment-camo",
+        "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+        "phase": "after_public_up_same_frame",
+        "action": "11",
+        "stationSame": "0",
+        "cachedCost": "0",
+        "cachedCanPerform": "0",
+        "cachedReason": "600",
+        "animationInDone": "0"
+      }
+    },
+    "sameHeldGadgetReadbacks": 42,
+    "lastTwoHelperValues": [
+      {
+        "line": 4014,
+        "fields": {
+          "case": "gpg-repair-fragment-camo",
+          "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+          "phase": "during",
+          "worldMs": "34177.3",
+          "target": "2000",
+          "provider": "-1",
+          "capacity": "-1",
+          "enginesOff": "1"
+        }
+      },
+      {
+        "line": 4021,
+        "fields": {
+          "case": "gpg-repair-fragment-camo",
+          "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+          "phase": "during",
+          "worldMs": "34210.7",
+          "target": "2000",
+          "provider": "-1",
+          "capacity": "-1",
+          "enginesOff": "1"
+        }
+      }
+    ],
+    "lastTwoHelperIdentity": [
+      {
+        "line": 4012,
+        "fields": {
+          "case": "gpg-repair-fragment-camo",
+          "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+          "phase": "during",
+          "subject": "0x40000000000002FB {}",
+          "provider": "0x4000000000000187 {}",
+          "stationOwner": "",
+          "stationMatches": "0",
+          "actionOwnerMatches": "1"
+        }
+      },
+      {
+        "line": 4019,
+        "fields": {
+          "case": "gpg-repair-fragment-camo",
+          "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+          "phase": "during",
+          "subject": "0x40000000000002FB {}",
+          "provider": "0x4000000000000187 {}",
+          "stationOwner": "",
+          "stationMatches": "0",
+          "actionOwnerMatches": "1"
+        }
+      }
+    ],
+    "lastTwoHelperAdmission": [
+      {
+        "line": 4011,
+        "fields": {
+          "case": "gpg-repair-fragment-camo",
+          "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+          "phase": "during",
+          "action": "11",
+          "shown": "0",
+          "eligible": "0",
+          "selected": "1",
+          "controlledAlive": "1"
+        }
+      },
+      {
+        "line": 4018,
+        "fields": {
+          "case": "gpg-repair-fragment-camo",
+          "nonce": "6b05157668524e488b0597eb8f946251d37bebd08573481c8cce0f9e1b3d25b9",
+          "phase": "during",
+          "action": "11",
+          "shown": "0",
+          "eligible": "0",
+          "selected": "1",
+          "controlledAlive": "1"
+        }
+      }
+    ]
+  },
+  "sequenceLimits": [
+    "Fire-off is bracketed by sampled readbacks; native execution callbacks for each loop are not separately logged. Observed first fire-off occurs with unchangedHull/provider, later health gain/debit at the next countdown boundary.",
+    "Two final helper Captures already seeHull2000 but lose the action cached station (blank owner/provider-1), so no valid paired target-gain/provider-debit sample is accepted. Later selection guard stops; controlled actor remains same. This is more precise than saying no positive target Capture existed.",
+    "Original zone/finite-container after snapshots use source-retained references; all IDs stay full/opaque. No replacement identity reconstruction.",
+    "First image is V4 during repair; second is V3 separate failed attempt, not a V4 before image. Pixel observations support prompt/tool appearance only; no numeric result is derived from bracket text.",
+    "Physical keyboard/menu reach, repeat/full/negative repair, other zones/skins and whole-service/MP acceptance remain NOT_TESTED."
+  ],
+  "pixelObservations": {
+    "method": "Viewed both unchanged PNGs with view_image",
+    "v4": "Held wrench; Repair: Hull (Minor damage) [1/2000] prompt; bracket text not treated as health telemetry",
+    "v3": "Held wrench; Extinguish fire prompt in older separate run"
+  },
+  "allChannelEF": [
+    {
+      "line": 109,
+      "text": "05:07:49.563   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "channel": "GUI",
+      "severity": "E"
+    },
+    {
+      "line": 163,
+      "text": "05:07:59.316           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 170,
+      "text": "05:07:59.351           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 171,
+      "text": "05:07:59.351           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 178,
+      "text": "05:07:59.351           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 179,
+      "text": "05:07:59.351           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 180,
+      "text": "05:07:59.351           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 181,
+      "text": "05:07:59.351           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+      "channel": "WORLD",
+      "severity": "E"
+    },
+    {
+      "line": 4068,
+      "text": "05:08:35.604 RESOURCES (E): ==== Resource leaks ====",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4069,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4070,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4071,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4072,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4073,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4074,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4075,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4076,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4077,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4078,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4079,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4080,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4081,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4082,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4083,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4084,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4085,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4086,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4087,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4088,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4089,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4090,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4091,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4092,
+      "text": "05:08:35.604 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4093,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4094,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4095,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4096,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4097,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4098,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4099,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4100,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4101,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4102,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4103,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4104,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4105,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4106,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4107,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4108,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4109,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4110,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4111,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4112,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4113,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4114,
+      "text": "05:08:35.604 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4115,
+      "text": "05:08:35.604 RESOURCES (E): UI/Imagesets/default.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    },
+    {
+      "line": 4116,
+      "text": "05:08:35.604 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+      "channel": "RESOURCES",
+      "severity": "E"
+    }
+  ],
+  "originalErrorCount": 57,
+  "omittedErrors": [],
+  "inputs": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\candidate\\GEP683_PassiveImpact.c": "25731abdd27a76a0a450d68bc0e6793dbcf3587225e64903952398806f1bfd83",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\candidate\\GEP_DamageRecords683.c": "db894feb3bbca9761251c1f122d555eb68c92f98ccd8993fab5d7fcc9a93047f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\candidate\\GEP_NativeStimulus683.c": "80e8f68d28722a9b74fa9cd9905203f68ce7f71e1389ceefb7846b7d6c01b80a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\candidate\\GEP_ServiceQualification20261022.c": "e6f19ad6c397c041512f930c99232dbec2d2b70d8c466ed39a762667c6a268b8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\candidate\\GPG_RepairDispatchReadback20261022.c": "7f46748f64239ab7c0fbf47b3cf76be5f1bed24e7aa76840b9f4712f046ba67b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\candidate\\GPG_ServiceRepairFixture20261022.c": "7ca4718ef90b725d7ad711105703190d040e18fe09d70a3c6b468344830a5da9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\EXACT-DIFF.patch": "f5aa09f4df232462334846ffdb08d708047a609f0d5757dba93c7787e60a0263",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\freeze.py": "f2191b459b1b92e10563a8a5be573a96c555a9e47f0513506801ccf9a6455471",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\GPG_RepairFireReadback20261022.fragment": "285fc96981ac646fae1b13c0cf2257957b4e3f223410b1fdc41939a39b8cc181",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\prepare.py": "553e527d74e1bc2a508c4ae0f8c488c0a64b157333ec614a3e50f7d70dd9d8de",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\read_stock.mjs": "4237b2c88273033d53c1cf183b5769e8e97394eb63397d0adf90dd4112f58df3",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\README.md": "76a220e30588a914773f75eff1c720a8e2095a4be52f1ca411faceae05384a91",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\SOURCE-CHECKS.json": "dfac758222d67cfbe22a346e5150eaaa40449dd127de614439f0c2d24523e29b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\V3-READBACK-ROWS.json": "040a5417aaa0fc4213dbff4f6bac6be7246625e4673407f2213c8d5feb12623b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-LoopWindow-v4-20261022\\MANIFEST.json": "6e9a411f58a0d2bedc086d01f0684f888d460bc620524cd6981a0f4a9a773b66",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\adapter.py": "76068b0372ae2cb7bcd0142e81ca5211079f36ee0293282b10c69b5954e72abc",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\evidence.py": "a185b40a5bfb5846546c651c10147249ed6b2354a1a8826e9e4294d92b8ec07d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\startup_evidence.py": "fdf9f4943e3babf1160b67f20551203c3ba957ffd5d1b47a221d584ce06ea754",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\lease_read.py": "a56e0307d68ccbde1417da89086c65ed671cac888b886116652ebc2ae03baedf",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\common.py": "11ac72521b811ada489a61c4ff9d0de9ace0ce3467fdf5c53616ec6b20ffb1f5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\adoption.py": "bf18e91baf75f403ce8d5e00b07500b26b491d5e86696af60ed59f0a1bfceb8a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\SOURCE-PLAN.json": "8b5360a3599a117e0ba0989fb3a2727efaf295654192efe9a3e08a8732907983",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\GPG_ServiceRepairFixture20261022.c": "7ca4718ef90b725d7ad711105703190d040e18fe09d70a3c6b468344830a5da9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\GEP_ServiceQualification20261022.c": "e6f19ad6c397c041512f930c99232dbec2d2b70d8c466ed39a762667c6a268b8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\GEP_NativeStimulus683.c": "80e8f68d28722a9b74fa9cd9905203f68ce7f71e1389ceefb7846b7d6c01b80a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\GEP683_PassiveImpact.c": "25731abdd27a76a0a450d68bc0e6793dbcf3587225e64903952398806f1bfd83",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\GEP_DamageRecords683.c": "db894feb3bbca9761251c1f122d555eb68c92f98ccd8993fab5d7fcc9a93047f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\GPG_RepairDispatchReadback20261022.c": "7f46748f64239ab7c0fbf47b3cf76be5f1bed24e7aa76840b9f4712f046ba67b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\ROOT-REPAIR-ADMISSION.json": "837e6f18327dfae59d3daa0119235e2ca24653c6d54f96cd9b5bf9ccbe33be7c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\setup.json": "fef4530b32048448f9afda0c3716885f9591c126aeda27a7339ffcbda5f90464",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\STAGING-RECEIPT.json": "1b2747093d24fc0c275150e17aa724bc8dc07ad489f8ed9992cf5c9a2f1c1d38",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\INPUT-SNAPSHOT.json": "00420ca8b6b77a91b8b7d2a7837f0ad464320bfa959b3b11f614d599b84a3b37",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\MARKER-CONTRACT.json": "2673b0082f46ac3e8d65224ca937901f1d6ad4247bc13ef212613657b34c28cd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\SOURCE-CLOSURES.json": "65556ad4ad75676bf28a593084d1f113e00867d341a4c5f5897e72f5994fb041",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\COMPILE-ADOPTION.json": "ab170a77f5d17dfc4e0e77022ae8647782abd4261c599b07b6d047d173054ff5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\GEPARD_SOURCE_MANIFEST.json": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\QA_SOURCE_MANIFEST.json": "5731598162d0412e4af63d5dd1f44a0fbf64446ecc24e8cf3bff85285f5ccec9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\tools\\Scene.ps1": "78978d90a2eb225fc147b129fffb83431f0c847ac9d86d2d8e19d158f19afe06",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-compile-v4\\RESULT.json": "bec85314f53f8acf771f1651032fc7e9087ba91257cfe53edeadfb6150c82f8b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-compile-v4\\owner-private.json": "753c9f3da4d9590425fcc38e9458c9e9b8caa0f7149fc7445068eada10e460f3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-compile-v4\\compiler-identity.json": "3ba796478b98b29ad90d99df936cd056b4d092df07c8949a901396cc8ff5cb31",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-compile-v4\\launcher-exit.json": "2fa4f133a099d545a87b228b6241b1ba0a933a96427ab2db88f174eba040100e",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-compile-v4\\logs\\validate\\console.log": "fc6984f9998d6b338093a9c7b4bf61033c6601a459f5ceb7e958bf5b9b388964",
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe": "5923b0694874cee74169c2dffdc14ef3cbd8c0228964fd0f6348e4df8cb3c5f4",
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\request.json": "c11fbe572333d5410766128d7840f48218c63ee63dbcc88a2d51589ccc478785",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\private-native-job.json": "3046aec4d20e7486df6bd97dc21550974920c8102923734889dd8d9a7eba442b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\native-run\\profile\\profile\\GPG-ServiceRepair-job.json": "3046aec4d20e7486df6bd97dc21550974920c8102923734889dd8d9a7eba442b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\native-run\\owner.json": "53cb535e5fa1be11f923caa41465e80e6a37218b8e57e4839090df9a10361abc",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\native-run\\owner-private.json": "a1e0095917e9e92cd50339b4fa195a9484c001912e7357ad6af5712b200ef514",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\native-run\\exit.json": "6d364b20dfbb08a4570af19b38ebceeb168d7361c18454003af09b87f27136e9",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\result.json": "74a8b696a67004f9e09a52500b7744e526a0ed7bc679647b48e32f405e44e5ea",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\native-review.json": "a0e35917e35208736066f06a40a21e160c47e119fd3a946f81acbcf0c606dd67",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\gpg-repair-fragment-camo\\native-run\\logs\\console.log": "4807a3449a5bfc7c8c0a8c5c3d1e8836777a95873a67052bfd71e1961365d610",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Repair-Native-v4-20261022\\state\\repair-job.json": "0387a15a25dbe22f0e20a988f3db0701066efa45020eaa209714bf7eb25efc02",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-repair-fragment-camo-v4\\summary.json": "830814c519d2b890d9be185e69cb65c1403661d52102a6d3d8d1f7817d430298",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\repair-v4-owned-second-loop.png": "7d929784abf74346ede901b29e835ee55fd707591b282ed743c310a5e97a4ee0",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\repair-v3-owned-hold.png": "5681ea7ef993a61255257a4b35b1db5e00bfb6d706fe67ac33cad0d732ca58be"
+  },
+  "DWritten": false,
+  "nativeStarted": false,
+  "GitChanged": false,
+  "candidateOrCollectorChanged": false
+}
