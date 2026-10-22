@@ -1,0 +1,112 @@
+{
+  "status": "INSTALLED_CONTRACTS_PINNED",
+  "api": [
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\docs\\EnfusionScriptAPI\\html\\interfaceTriMeshDrawCommand.html",
+      "sha256": "6b022bf92786b515fa4d1c098da286b45ca74190dce1103111bf31decc8b159f",
+      "verifiedContracts": [
+        "ref array< float >",
+        "ref array< int >",
+        "m_Vertices",
+        "m_Indices",
+        "m_iColor",
+        "Indices to the m_Vertices array forming triangles.",
+        "If null, only filled mesh is drawn."
+      ]
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\docs\\EnfusionScriptAPI\\html\\interfaceCanvasWidget.html",
+      "sha256": "0c1266b8043610d347e647ce067be3bac118f4d1767cfafb0c0a62eb53f62ee2",
+      "verifiedContracts": [
+        "SetDrawCommands"
+      ]
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\docs\\EnfusionScriptAPI\\html\\interfaceLineDrawCommand.html",
+      "sha256": "54b36a298b49ac3157d472ee09cab9739a6dab12190010dfcb00a95ad7def2e8",
+      "verifiedContracts": [
+        "m_Vertices",
+        "m_fWidth"
+      ]
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\docs\\EnfusionScriptAPI\\html\\interfaceMath.html",
+      "sha256": "76cf907531aba36070c6331786c846d82838bfab0643f33f6fea4141da954f11",
+      "verifiedContracts": [
+        "PI2"
+      ]
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\docs\\EnfusionScriptAPI\\html\\interfacestring.html",
+      "sha256": "3928a194290f3e1d72f64d65e1c3c2a7a161100ed23ba8e8ed69e225c9d20387",
+      "verifiedContracts": [
+        "Replace"
+      ]
+    }
+  ],
+  "installedSource": [
+    {
+      "resource": "scripts/Game/Camera/Components/SCR_MapDescriptorManualCameraComponent.c",
+      "provenance": {
+        "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+        "packBytes": 1994525893,
+        "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+        "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+        "indexBytes": 1931975,
+        "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+        "resource": "scripts/Game/Camera/Components/SCR_MapDescriptorManualCameraComponent.c",
+        "offset": 1486938104,
+        "storedBytes": 1642,
+        "rawBytes": 4941,
+        "method": "00000106",
+        "sourceSha256": "fcd49a387f6269c6cc90b02e3cc6911bc340c66f15595d3c9367fd09b89e8d46"
+      },
+      "matchedLines": [
+        31,
+        94
+      ]
+    },
+    {
+      "resource": "scripts/Game/UI/Menu/CareerProfile/SCR_SpiderNet.c",
+      "provenance": {
+        "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+        "packBytes": 1994525893,
+        "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+        "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+        "indexBytes": 1931975,
+        "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+        "resource": "scripts/Game/UI/Menu/CareerProfile/SCR_SpiderNet.c",
+        "offset": 1491933436,
+        "storedBytes": 2838,
+        "rawBytes": 13232,
+        "method": "00000106",
+        "sourceSha256": "ee715b64d50b040ffea48d7052c4e186b2dd40efc0b8aac10d064b952d49116e"
+      },
+      "matchedLines": [
+        144,
+        145,
+        176,
+        179,
+        187,
+        190,
+        200,
+        214,
+        297,
+        298,
+        368,
+        369
+      ]
+    }
+  ],
+  "stockSearchBound": 1448,
+  "stockSourceFailures": [],
+  "coordinateContract": {
+    "newMesh": "TriMesh m_Vertices XY and m_Indices triangle indices; m_iColor int; null texture filled mesh",
+    "officialSameCanvasEvidence": "SCR_SpiderNet uses the same XY array for PolygonDrawCommand fill and LineDrawCommand contour, then DPIUnscale for FrameSlot text positions (source lines179,200,297/298).",
+    "projectEvidence": "Pinned previously compiled GEP_GunStatus.Line converts logical geometry to canvas pixels with DPIScale(1); new Panel704 applies exactly that same factor once to each logical XY vertex.",
+    "precision": "Pixel-coordinate interpretation is inferred from official fill/line/shared-coordinate and FrameSlot unscale examples plus existing project use; native mesh/line alignment and DPI changes remain NOT_TESTED. No direct installed TriMesh caller found in bounded1448UI-related-script search."
+  },
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED",
+  "officialPayloadExcludedFromManifest": true
+}

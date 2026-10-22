@@ -1,0 +1,7 @@
+{
+  "sourceModifiedForCheck": false,
+  "command": "git -c core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol diff --check",
+  "status": "PASS_CRLF_AWARE_DIFF_CHECK",
+  "reason": "Baseline uses byte-exact CRLF with -text attributes; retain encoding and keep ordinary whitespace checks enabled",
+  "priorFailure": "Plain git diff --check treated preserved CRLF carriage returns as trailing whitespace"
+}

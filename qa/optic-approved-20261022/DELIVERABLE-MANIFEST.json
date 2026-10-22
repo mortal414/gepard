@@ -1,0 +1,138 @@
+{
+  "status": "SOURCE_ONLY_FROZEN",
+  "sourceBaseCommit": "9223f61ec5b225757060465e9c7c90700e2767e3",
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED",
+  "productionEdits": false,
+  "DWrite": false,
+  "nativeActions": false,
+  "currentABArchivesChanged": false,
+  "approvedConceptLibraryId": "libfile_e9aa81f2e0a881919ba1a73b8d0527f2",
+  "patchSHA256": "0f97d5957d8363a9bb349a3a83363a2c8028a8b876f050443f2adc69f69be32e",
+  "rootOwnsRuntimeAndIntegration": true,
+  "files": [
+    {
+      "relative": "README.md",
+      "sha256": "44cdbc6b16f338af8d75b02f4d9f75a00f1a4a75dbfb0375a2869ad67358f00e",
+      "bytes": 6326
+    },
+    {
+      "relative": "approved_helpers.c.in",
+      "sha256": "cc3bf5e536fc1694e531f932fe9c50a60203584c3385bbc90dd7ed78aa82dac6",
+      "bytes": 5108
+    },
+    {
+      "relative": "build_candidate.py",
+      "sha256": "6153a5accc5af941987458ab701c60d39ac7f92fde0c76f53987f65d890d0eb8",
+      "bytes": 13988
+    },
+    {
+      "relative": "verify_candidate.py",
+      "sha256": "b9ef048174cb3f03655ecde2469e723d5a1cb66a2fb46fa439c7a3df2d4b9ecc",
+      "bytes": 8225
+    },
+    {
+      "relative": "verify_patch.py",
+      "sha256": "0d2a3cc8d4dffcda70f99f68f27cbae80637283b8e5204e86e23c0ebaf950629",
+      "bytes": 1717
+    },
+    {
+      "relative": "inspect_canvas_contract.mts",
+      "sha256": "119a7e94ea8c876bb7469f16251d1e836832c555fada847c0a537c29d35be805",
+      "bytes": 1465
+    },
+    {
+      "relative": "pin_api.py",
+      "sha256": "32001b6c5e624d69b37ba6270cd4c500f71dd785d45398c3af28c62a1c94a3d2",
+      "bytes": 2467
+    },
+    {
+      "relative": "seal_candidate.py",
+      "sha256": "472afc51cab4dcd97df47407c49d1f31cd810638fbde3a4dccee6cf0ec58f8a9",
+      "bytes": 2166
+    },
+    {
+      "relative": "DESIGN.json",
+      "sha256": "e2da2df82eabe52ad4828b99cf99cb62ba3794ded8be8ec0453ed640352e0064",
+      "bytes": 4442
+    },
+    {
+      "relative": "SOURCE-PINS.json",
+      "sha256": "86c2dc61d9fa54bdf4d15ea32baeb5a7f4b9473bc8d4ddb9f96a9e3fee38e500",
+      "bytes": 1280
+    },
+    {
+      "relative": "API-FACTS.json",
+      "sha256": "85be07cb77812a69cd903d50b2a8a150036127ce8ea0f9465584657f93674202",
+      "bytes": 4801
+    },
+    {
+      "relative": "STATIC-RESULT.json",
+      "sha256": "e5e312a4b7656a3520ea0341480ad5233badfbfdd4e7a6898e9109a5847d721a",
+      "bytes": 6579
+    },
+    {
+      "relative": "PATCH-RESULT.json",
+      "sha256": "21b697b2fd8a8356d012b2b67da6cacaecb233ac42ffe8c66a9572a5063290f2",
+      "bytes": 2035
+    },
+    {
+      "relative": "candidate.patch",
+      "sha256": "0f97d5957d8363a9bb349a3a83363a2c8028a8b876f050443f2adc69f69be32e",
+      "bytes": 26481
+    },
+    {
+      "relative": "baseline/scripts/Game/GEP/GEP_ControlHints580.c",
+      "sha256": "f5ce48d587781cdac3a8303e083213151958f7553d399480fb472a26d1de9701",
+      "bytes": 1194
+    },
+    {
+      "relative": "baseline/scripts/Game/GEP/GEP_GunStatus.c",
+      "sha256": "5cdfc9c3407a036c026b6b24a1dcd8c5a287af320257998b293f8d24e605c476",
+      "bytes": 31556
+    },
+    {
+      "relative": "baseline/scripts/Game/GEP/GEP_PlainSight680.c",
+      "sha256": "889103b7149c9237c279c66d8869e2283a3c71a58e5e0d7d475f2e61d24af9ac",
+      "bytes": 2511
+    },
+    {
+      "relative": "baseline/scripts/Game/GEP/GEP_Presentation680.c",
+      "sha256": "e5eefef4e2789a38f30cd9f5700d7a5d7c694920d400cdc707b856fbe5566014",
+      "bytes": 4399
+    },
+    {
+      "relative": "overlay/scripts/Game/GEP/GEP_ControlHints580.c",
+      "sha256": "8646ee2a904667358c57aafca1e90593dc10b2f0cf35165a54421806e7eb4086",
+      "bytes": 1194
+    },
+    {
+      "relative": "overlay/scripts/Game/GEP/GEP_GunStatus.c",
+      "sha256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966",
+      "bytes": 36913
+    },
+    {
+      "relative": "overlay/scripts/Game/GEP/GEP_PlainSight680.c",
+      "sha256": "4fac0ae37b8a4ccbc8992d4162c0f571f46642162b9c89d6caadbc6f0c144097",
+      "bytes": 2850
+    },
+    {
+      "relative": "overlay/scripts/Game/GEP/GEP_Presentation680.c",
+      "sha256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca",
+      "bytes": 4410
+    }
+  ],
+  "excluded": [
+    "LOCAL-OFFICIAL-CANVAS-CACHE.json",
+    "__pycache__"
+  ],
+  "nativeAcceptanceGates": [
+    "Exact fresh-stage compile/adoption after art handback and root admission",
+    "Mesh filled/contour alpha/DPI alignment and German UTF8/\u00d7/\u00b0/umlaut glyph fit",
+    "Actual320/319/160/0/unknown count-capacity bar states, Shift+V selection/fire",
+    "C ground/sky/unavailable/stale range, N day/restlicht,2x/4x/6x/8x",
+    "Actual relative turret angle/height vs icon and approved bow-up silhouette readability at720p",
+    "Menu/ADS/seat/vehicle exit/re-entry and operational German fallback, no raw development text",
+    "Matched approved-concept/native visual review by Marco; no source/static proof of appearance or gameplay"
+  ]
+}

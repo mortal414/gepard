@@ -1,0 +1,30 @@
+{
+  "baseCommit": "9223f61ec5b225757060465e9c7c90700e2767e3",
+  "baseAddon": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\diagnosis\\addon",
+  "changedFiles": [
+    {
+      "relative": "scripts/Game/GEP/GEP_ControlHints580.c",
+      "beforeSHA256": "f5ce48d587781cdac3a8303e083213151958f7553d399480fb472a26d1de9701",
+      "afterSHA256": "8646ee2a904667358c57aafca1e90593dc10b2f0cf35165a54421806e7eb4086"
+    },
+    {
+      "relative": "scripts/Game/GEP/GEP_GunStatus.c",
+      "beforeSHA256": "5cdfc9c3407a036c026b6b24a1dcd8c5a287af320257998b293f8d24e605c476",
+      "afterSHA256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966"
+    },
+    {
+      "relative": "scripts/Game/GEP/GEP_PlainSight680.c",
+      "beforeSHA256": "889103b7149c9237c279c66d8869e2283a3c71a58e5e0d7d475f2e61d24af9ac",
+      "afterSHA256": "4fac0ae37b8a4ccbc8992d4162c0f571f46642162b9c89d6caadbc6f0c144097"
+    },
+    {
+      "relative": "scripts/Game/GEP/GEP_Presentation680.c",
+      "beforeSHA256": "e5eefef4e2789a38f30cd9f5700d7a5d7c694920d400cdc707b856fbe5566014",
+      "afterSHA256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca"
+    }
+  ],
+  "newGameplayWriters": false,
+  "nativeActions": false,
+  "DWrite": false,
+  "currentABArchivesChanged": false
+}

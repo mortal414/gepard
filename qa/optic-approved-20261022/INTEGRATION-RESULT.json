@@ -1,0 +1,32 @@
+{
+  "status": "FOUR_FILE_PRESENTATION_PATCH_INTEGRATED_SOURCE_ONLY",
+  "baseline": "9223f61ec5b225757060465e9c7c90700e2767e3",
+  "productionFiles": 1112,
+  "productionChangedFiles": [
+    "scripts/Game/GEP/GEP_ControlHints580.c",
+    "scripts/Game/GEP/GEP_GunStatus.c",
+    "scripts/Game/GEP/GEP_PlainSight680.c",
+    "scripts/Game/GEP/GEP_Presentation680.c"
+  ],
+  "unchangedProductionFiles": 1108,
+  "nativeStage": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage",
+  "qaSourceFiles": 9,
+  "project": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\GEP_ApprovedHUD705_QA.gproj",
+  "manualWorld": "{7E0050C026102501}Worlds/GEP_ApprovedHUD705.ent",
+  "renderWorld": "{7E0050C026102502}Worlds/GEP_ApprovedRender705.ent",
+  "addonId": "7E0050C026102500",
+  "compile": "NOT_TESTED",
+  "render": "NOT_TESTED",
+  "physicalInput": "NOT_TESTED",
+  "runtimeAdmission": "Art user comparison live PID29236; explicit art handback and fresh ownership checks mandatory",
+  "noGameplayWritersChanged": true,
+  "releaseChanged": false,
+  "smokeAudioArtIntegrated": false,
+  "conceptLibraryId": "libfile_e9aa81f2e0a881919ba1a73b8d0527f2",
+  "next": [
+    "Bind/plan reviewed existing serial wrappers with complete source closures",
+    "Native compile; adopt only understood generated cache changes",
+    "Bounded actual ADS render at1280x720 then supported zoom/aspect and lifecycle cases",
+    "Untimed user demo only after valid rendering; user in-game approval before publication"
+  ]
+}

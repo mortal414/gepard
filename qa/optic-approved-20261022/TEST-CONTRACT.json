@@ -1,0 +1,60 @@
+{
+  "scope": "Approved precision-instrument HUD; no smoke/audio/art/physics integration",
+  "conceptLibraryId": "libfile_e9aa81f2e0a881919ba1a73b8d0527f2",
+  "baseline": "9223f61ec5b225757060465e9c7c90700e2767e3",
+  "nativeAdmission": "Pending explicit art handback, fresh census and lease ownership",
+  "allNativeResults": "NOT_TESTED",
+  "scenarios": [
+    {
+      "id": "HUD705-01-native-load-and-render",
+      "stimulus": "Fresh compiled isolated stage, same qualified Arland/native player-camera fixture, actual settled healthy gunner, native ADS",
+      "expect": "One visible custom root; all required widgets present; correctly centered accepted reticle; faithful dark lower panel and German top caps; no missing resource/script errors or loading capture",
+      "evidence": ["complete source/build manifests", "compiler console", "seat/ADS/camera/readiness ledger", "full native screenshot"],
+      "boundary": "Scripted native boarding/ADS is not physical user input evidence"
+    },
+    {
+      "id": "HUD705-02-zoom-and-aspect",
+      "stimulus": "Native 2x/4x/6x/8x optic magnification; supported 16:9 and 16:10 plus narrow4:3/wide21:9 visual checks where available",
+      "expect": "Reticle aiming reference stays at native viewport center; magnification reports actual value with German comma; labels/frames/glyphs stay readable and within screen; lower panel leaves useful target view",
+      "evidence": ["native magnification readback", "resolution/readback", "full screenshots"],
+      "boundary": "Offline coordinate bounds cannot prove native legibility or ballistic alignment"
+    },
+    {
+      "id": "HUD705-03-ammo-selection",
+      "stimulus": "Ordinary gunner input Shift+V cycles BEIDE/LINKS/RECHTS; short safe actual bursts with left then right selected",
+      "expect": "Selection marks match actual group; each numeric count and segmented bar follows its own real magazine count/capacity; full counts produce full bars; no invented AP feed; unavailable state never looks full",
+      "evidence": ["actual weapon group and pre/post ammo snapshots", "selected-side rendered screenshots", "user confirmation"],
+      "boundary": "No magazine setter may substitute for successful actual firing"
+    },
+    {
+      "id": "HUD705-04-range-and-lowlight",
+      "stimulus": "C on near ground and a distant valid surface; sky/no-return; leave and re-enter ADS; N toggles actual day/low-light state",
+      "expect": "ENTFERNUNG tracks real provider value/state; invalid/unmeasured range is visibly unavailable, never a stale valid value; no debug/development strings; TAG/RESTLICHT matches actual optics; no ballistic or stabilization-ready claim",
+      "evidence": ["provider state/distance/age", "native screenshots before/after", "ordinary input result"],
+      "boundary": "Measured range is not a correction/impact pass"
+    },
+    {
+      "id": "HUD705-05-relative-turret-diagram",
+      "stimulus": "Ordinary traverse left/right with hull stationary; elevate/depress; then change hull orientation safely",
+      "expect": "Recognizable fixed bow-up Gepard hull remains hull reference; turret/gun direction follows native hull-relative yaw; TURM/HÖHE numbers follow actual angles; no fictitious world-heading or vehicle damage visualization",
+      "evidence": ["native aiming-angle snapshot", "matched actual relative-view screenshots"],
+      "boundary": "Presentation inspection does not establish stabilization or a new damage model"
+    },
+    {
+      "id": "HUD705-06-lifecycle",
+      "stimulus": "Exit ADS to cabin, reopen ADS, open/close menu, leave/re-enter gunner seat; optional controlled death/control-loss only in a separate fresh QA run",
+      "expect": "No orphan panel/reticle outside eligible local gunner ADS; full UI recovers once; stock HUD returns appropriately; range scope clears; no duplicate widgets/listeners or restlight leakage",
+      "evidence": ["visibility/scope/readiness snapshots", "native before/after screenshots", "user observation"],
+      "boundary": "Keep the user's live demo untimed and free of delayed automation"
+    }
+  ],
+  "manualSession": [
+    "Judge the overall concept match and lower-panel height at2x, then cycle your normal zoom steps.",
+    "Shift+V through cannon groups; fire a short safe burst from each side and watch its number/bar.",
+    "C on near ground, distant ground and sky; N to RESTLICHT and back.",
+    "Traverse/elevate: the bow-up Gepard diagram and TURM/HÖHE must agree with relative gun direction.",
+    "Leave/reopen optic and seat once: the panel should disappear and recover cleanly."
+  ],
+  "acceptance": "Only user in-game judgment plus scenario evidence can accept the new HUD. Whole GEP005/006/008 remain unchecked where acceptance is missing.",
+  "release": "No publication before user in-game approval; accepted driving and stock sounds stay unchanged"
+}

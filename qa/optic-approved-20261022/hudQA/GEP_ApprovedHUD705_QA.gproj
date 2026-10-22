@@ -1,0 +1,7 @@
+GameProject {
+ ID "GEP_ApprovedHUD705_QA"
+ GUID "7E0050C026102500"
+ TITLE "Gepard approved optic private qualification"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" }
+ Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} }
+}

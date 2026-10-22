@@ -59,13 +59,13 @@ class GEP_Presentation680
  // Read-only fault label. A visible camera image is not operational permission.
  static string DisabledLabel(IEntity owner,string operationalReason)
  {
-  if(!owner || owner.IsDeleted())return "SIGHT UNAVAILABLE";
+  if(!owner || owner.IsDeleted())return "VISIER NICHT VERFÜGBAR";
   IEntity root=owner.GetRootParent();
   SCR_DamageManagerComponent hull;
   if(root && !root.IsDeleted())hull=SCR_DamageManagerComponent.Cast(root.FindComponent(SCR_DamageManagerComponent));
-  if(hull && hull.GetState()==EDamageState.DESTROYED)return "HULL DESTROYED";
+  if(hull && hull.GetState()==EDamageState.DESTROYED)return "WANNE ZERSTÖRT";
   SCR_DamageManagerComponent turret=SCR_DamageManagerComponent.Cast(owner.FindComponent(SCR_DamageManagerComponent));
-  if(turret && turret.GetState()==EDamageState.DESTROYED)return "TURRET DESTROYED";
-  return "SIGHT UNAVAILABLE";
+  if(turret && turret.GetState()==EDamageState.DESTROYED)return "TURM ZERSTÖRT";
+  return "VISIER NICHT VERFÜGBAR";
  }
 }

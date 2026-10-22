@@ -32,14 +32,20 @@ class GEP_PlainSight680
   WorkspaceWidget workspace=GetGame().GetWorkspace();
   float w=workspace.DPIUnscale(workspace.GetWidth());float h=workspace.DPIUnscale(workspace.GetHeight());
   FrameSlot.SetPos(m_Root,0,0);FrameSlot.SetSize(m_Root,w,h);FrameSlot.SetSize(m_Canvas,w,h);
-  m_Draw.Clear();float x=w*0.5;float y=h*0.5;
+  m_Draw.Clear();float x=w*0.5;float y=h*0.5;float s=Math.Min(w/1920,h/1080);
   for(int layer=0;layer<2;layer++)
   {
-   int color=0xff111a14;float stroke=5;if(layer==1){color=0xffeff6ee;stroke=2;}
-   Line(x-40,y,x-12,y,color,stroke);Line(x+12,y,x+40,y,color,stroke);Line(x,y-40,x,y-12,color,stroke);Line(x,y+12,x,y+40,color,stroke);
+   int color=0xff09100e;float stroke=6.8*s;if(layer==1){color=0xffeee9cd;stroke=3*s;}
+   Line(x-144*s*1.4,y+18*s*1.4,x-96*s*1.4,y,color,stroke);
+   Line(x-96*s*1.4,y,x-72*s*1.4,y,color,stroke);
+   Line(x+72*s*1.4,y,x+96*s*1.4,y,color,stroke);
+   Line(x+96*s*1.4,y,x+144*s*1.4,y+18*s*1.4,color,stroke);
+   Line(x-22*s*1.4,y+13*s*1.4,x-7*s*1.4,y,color,stroke);
+   Line(x+7*s*1.4,y,x+22*s*1.4,y+13*s*1.4,color,stroke);
+   Line(x,y-62*s*1.4,x,y-18*s*1.4,color,stroke);
   }
   m_Canvas.SetDrawCommands(m_Draw);
-  if(m_Fault){FrameSlot.SetPos(m_Fault,w*0.5-240,h*0.5+70);FrameSlot.SetSize(m_Fault,480,40);m_Fault.SetExactFontSize(19);m_Fault.SetColor(Color.FromInt(0xffffc37b));m_Fault.SetText(fault);}
+  if(m_Fault){FrameSlot.SetPos(m_Fault,w*0.5-330*s,h*0.5+110*s);FrameSlot.SetSize(m_Fault,660*s,48*s);m_Fault.SetExactFontSize(Math.Max(12,Math.Round(23*s)));m_Fault.SetBold(true);m_Fault.SetColor(Color.FromInt(0xffffc37b));m_Fault.SetText(fault);}
   m_Root.SetVisible(true);
  }
  void Hide(){if(m_Root)m_Root.SetVisible(false);}

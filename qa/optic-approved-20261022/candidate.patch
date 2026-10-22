@@ -1,0 +1,421 @@
+--- a/addon/scripts/Game/GEP/GEP_ControlHints580.c
++++ b/addon/scripts/Game/GEP/GEP_ControlHints580.c
+@@ -20,7 +20,7 @@
+  }
+  override string GetUIName()
+  {
+-  if(GEP_IsGroupHint580())return "Cannon group";
++  if(GEP_IsGroupHint580())return "Waffengruppe";
+   return super.GetUIName();
+  }
+ }
+--- a/addon/scripts/Game/GEP/GEP_GunStatus.c
++++ b/addon/scripts/Game/GEP/GEP_GunStatus.c
+@@ -66,7 +66,7 @@
+  ref array<Widget> HintRoots={};
+  ref array<SCR_InputButtonComponent> Hints={};
+  ref array<string> HintActions={"GEPNextGunGroup579","GEPOpticalNight","GEPOpticalTrack","GEPOpticalCancel","TurretADSHold","GEPMeasureRange676"};
+- ref array<string> HintLabels={"Cannon group","Low light","Optical follow","Cancel follow","Sight / cabin","Measure range"};
++ ref array<string> HintLabels={"Waffenauswahl","Restlicht","Optische Verfolgung","Verfolgung beenden","Visier / Innenraum","Entfernung messen"};
+  float Timer;
+  float HintTimer=2;
+  float W;
+@@ -179,7 +179,7 @@
+  {
+   ClearPresentation702();
+   if(Root)Root.SetVisible(false);
+-  string fault="INSTRUMENTS UNAVAILABLE";string reason;
++  string fault="ANZEIGE NICHT VERFÜGBAR";string reason;
+   if(!GEP_GunnerSnapshot583.Evaluate679(GetOwner(),reason))fault=GEP_Presentation680.DisabledLabel(GetOwner(),reason);
+   if(Plain680)Plain680.Show(fault);
+  }
+@@ -251,44 +251,18 @@
+  }
+  void Text()
+  {
+-  Put(Header,"GEPARD  /  OPTICAL");
+-  string optical="OPTICS --";if(Snapshot.OpticsValid){optical="DAY";if(Snapshot.Night)optical="LOW LIGHT";}
+-  Put(OpticalMode,optical);
+-  string rangeText676="RNG --";
+-  if(Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeMetres676>0 && Snapshot.RangeAge676>=0)rangeText676="RNG "+Math.Round(Snapshot.RangeMetres676).ToString()+" m  /  "+Snapshot.RangeAge676.ToString(-1,1)+" s";
+-  else if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN)rangeText676="RNG NO RETURN";
+-  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)rangeText676="RNG UNAVAILABLE";
+-  Put(Range676,rangeText676);
+-  int rangeColor702=Accent702();
+-  if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN || Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE || Snapshot.RangeAge676>10)rangeColor702=WARN583;
+-  Range676.SetColor(Color.FromInt(rangeColor702));
+-  string zoom="ZOOM --";if(Snapshot.ZoomValid)zoom=Snapshot.Magnification.ToString(-1,1)+"x";Put(Zoom,zoom);
+-  Put(LeftTitle,"LEFT FEED");Put(RightTitle,"RIGHT FEED");
+-  Put(LeftCount,Snapshot.Left.Rounds());Put(RightCount,Snapshot.Right.Rounds());
+-  Put(LeftType,Snapshot.Left.Ammunition);Put(RightType,Snapshot.Right.Ammunition);
+-  int leftColor=INK583;int rightColor=INK583;
+-  if(Snapshot.Group==0 || Snapshot.Group==1)leftColor=Accent702();
+-  if(Snapshot.Group==0 || Snapshot.Group==2)rightColor=Accent702();
+-  if(Snapshot.Left.State==0)leftColor=MUTED583;
+-  if(Snapshot.Right.State==0)rightColor=MUTED583;
+-  if(!Snapshot.Crew){leftColor=MUTED583;rightColor=MUTED583;}
+-  LeftCount.SetColor(Color.FromInt(leftColor));RightCount.SetColor(Color.FromInt(rightColor));
+-  Put(Group,"CANNONS  /  "+Snapshot.GroupName());
+-  string feedback=Snapshot.Feedback;
+-  if(!Snapshot.ADS)feedback="CABIN VIEW";
+-  if(Snapshot.DriveValid && Snapshot.DriveFault)feedback="TURRET DRIVE FAULT";
+-  Put(Feedback,feedback);
+-  int statusColor=INK583;if(!Snapshot.Crew || (Snapshot.DriveValid && Snapshot.DriveFault))statusColor=WARN583;
+-  Feedback.SetColor(Color.FromInt(statusColor));
+-  string drive="TURRET DRIVE --";if(Snapshot.DriveValid){drive="TURRET DRIVE AVAILABLE";if(Snapshot.DriveFault)drive="TURRET DRIVE UNAVAILABLE";}
+-  if(!Snapshot.Crew)drive="TURRET DRIVE UNAVAILABLE";Put(Drive,drive);
+-  string sight="SIGHT  BRG -- deg   EL -- deg";
+-  if(Snapshot.ViewValid)sight="SIGHT  BRG "+Snapshot.Bearing.ToString(-1,1)+" deg   EL "+Snapshot.SightElevation.ToString(-1,1)+" deg";
+-  Put(SightAngles,sight);
+-  string turret="HULL REL  AZ -- deg   EL -- deg";
+-  if(Snapshot.AimValid)turret="HULL REL  AZ "+Snapshot.HullAzimuth.ToString(-1,1)+" deg   EL "+Snapshot.GunElevation.ToString(-1,1)+" deg";
+-  Put(TurretAngles,turret);Put(Reference,"RANGE ONLY | ZERO/STAB UNQUALIFIED");
+-  if(HudStyle702==4)TextSight703();
++  if(HudStyle702==4){TextSight703();return;}
++  Put(Header,"GEPARD / ZIELVISIER");
++  string mode="--";if(Snapshot.OpticsValid){mode="TAG";if(Snapshot.Night)mode="RESTLICHT";}Put(OpticalMode,mode);
++  string zoom="--×";if(Snapshot.ZoomValid)zoom=NumberDE704(Snapshot.Magnification)+"×";Put(Zoom,zoom);
++  Put(LeftTitle,"LINKS");Put(RightTitle,"RECHTS");Put(LeftCount,FeedCountDE704(Snapshot.Left));Put(RightCount,FeedCountDE704(Snapshot.Right));
++  Put(LeftType,FeedTypeDE704(Snapshot.Left));Put(RightType,FeedTypeDE704(Snapshot.Right));
++  string range="ENTFERNUNG --";
++  if(Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeMetres676>0 && Snapshot.RangeAge676>=0)range="ENTFERNUNG "+Math.Round(Snapshot.RangeMetres676).ToString()+" m";
++  else if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN)range="KEIN MESSWERT";
++  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)range="MESSUNG NICHT VERFÜGBAR";
++  Put(Range676,range);string group="WAHL --";if(Snapshot.Group==0)group="BEIDE";if(Snapshot.Group==1)group="LINKS";if(Snapshot.Group==2)group="RECHTS";Put(Group,group);
++  Put(Feedback,OperationalFeedbackDE704());Put(Drive,"");Put(SightAngles,"");Put(TurretAngles,"");Put(Reference,"");
+  }
+  void Graphics()
+  {
+@@ -477,85 +451,224 @@
+   Canvas.SetDrawCommands(Draw);
+  }
+  // END GENERATED HUD OPTIONS702
++ // Original approved-concept vector instrument geometry. Presentation only.
++ void DLine704(float x1,float y1,float x2,float y2,int ink,float weight)
++ {
++  float ox=(W-1920*S)*0.5;float oy=(H-1080*S)*0.5;
++  Line(ox+x1*S,oy+y1*S,ox+x2*S,oy+y2*S,ink,weight*S);
++ }
++ void Contour704(array<float> points,int ink,float weight)
++ {
++  int n=points.Count();if(n<6 || n%2!=0)return;
++  for(int i=0;i<n;i+=2){int next=(i+2)%n;DLine704(points[i],points[i+1],points[next],points[next+1],ink,weight);}
++ }
++ void Panel704(array<float> points,array<int> triangles,int ink)
++ {
++  float dpi=GetGame().GetWorkspace().DPIScale(1);float ox=(W-1920*S)*0.5;float oy=(H-1080*S)*0.5;
++  TriMeshDrawCommand command=new TriMeshDrawCommand();command.m_iColor=ink;command.m_Vertices={};command.m_Indices=triangles;
++  for(int i=0;i<points.Count();i+=2){command.m_Vertices.Insert((ox+points[i]*S)*dpi);command.m_Vertices.Insert((oy+points[i+1]*S)*dpi);}
++  Draw.Insert(command);
++ }
++ void Ring704(float cx,float cy,float radius,int ink,float weight,int segments=48)
++ {
++  for(int i=0;i<segments;i++)
++  {
++   float a=i*Math.PI2/segments;float b=(i+1)*Math.PI2/segments;
++   DLine704(cx+Math.Sin(a)*radius,cy-Math.Cos(a)*radius,cx+Math.Sin(b)*radius,cy-Math.Cos(b)*radius,ink,weight);
++  }
++ }
++ void FeedBars704(GEP_GunnerFeed583 feed,float x,float y,int ink)
++ {
++  bool valid=feed && feed.State==2 && feed.Count>=0 && feed.Capacity>0;
++  float ratio=0;if(valid){ratio=feed.Count;ratio=Math.Clamp(ratio/feed.Capacity,0,1);}
++  for(int i=0;i<16;i++)
++  {
++   float left=x+i*11;array<float> cell={left,y,left+7,y,left+7,y+29,left,y+29};
++   Contour704(cell,0xff8d9188,0.8);
++   float filled=Math.Clamp(ratio*16-i,0,1);
++   if(valid && filled>0){DLine704(left+0.75+2.75*filled,y+1,left+0.75+2.75*filled,y+28,ink,5.5*filled);}
++  }
++ }
++ void FeedGlyph704(float cx,float cy,int ink)
++ {
++  array<float> housing={cx-18,cy+18,cx-14,cy-9,cx+14,cy-9,cx+18,cy+18,cx+18,cy+33,cx-18,cy+33};
++  Contour704(housing,ink,1.2);
++  DLine704(cx-8,cy-9,cx-8,cy-61,ink,1.6);DLine704(cx-3,cy-9,cx-3,cy-61,ink,1.6);
++  DLine704(cx+3,cy-9,cx+3,cy-61,ink,1.6);DLine704(cx+8,cy-9,cx+8,cy-61,ink,1.6);
++  DLine704(cx-10,cy-60,cx-1,cy-60,ink,1.1);DLine704(cx+1,cy-60,cx+10,cy-60,ink,1.1);
++  DLine704(cx-10,cy-54,cx-1,cy-54,ink,1.1);DLine704(cx+1,cy-54,cx+10,cy-54,ink,1.1);
++ }
++ void HullGlyph704(float cx,float cy)
++ {
++  int ink=0xffeee9cd;int detail=0xffadb2a5;
++  // Fixed bow-up hull and two separately described track runs.
++  array<float> hull={cx-22,cy-62,cx+22,cy-62,cx+31,cy-44,cx+31,cy+53,cx+22,cy+63,cx-22,cy+63,cx-31,cy+53,cx-31,cy-44};
++  Contour704(hull,ink,1.8);
++  for(int side=-1;side<=1;side+=2)
++  {
++   float sx=cx+side*36;
++   array<float> track={sx-7,cy-45,sx+7,cy-45,sx+7,cy+57,sx-7,cy+57};Contour704(track,ink,1.4);
++   for(int t=0;t<11;t++){float ty=cy-41+t*9;DLine704(sx-7,ty,sx+7,ty,detail,0.9);}
++   for(int wheel=0;wheel<6;wheel++){Ring704(sx,cy-34+wheel*16,4.3,detail,0.8,12);}
++  }
++  DLine704(cx-22,cy-40,cx+22,cy-40,detail,1);DLine704(cx-22,cy+43,cx+22,cy+43,detail,1);
++  DLine704(cx-17,cy+48,cx+17,cy+48,detail,1);DLine704(cx-17,cy+53,cx+17,cy+53,detail,1);
++  array<float> hatch={cx-15,cy+21,cx-3,cy+21,cx-3,cy+34,cx-15,cy+34};Contour704(hatch,detail,1);
++  Ring704(cx+11,cy+27,6,detail,1,16);Ring704(cx,cy-4,22,ink,1.5,40);
++  // The unlabelled orientation ring has no world heading or ballistic scale.
++  for(int tick=0;tick<60;tick++)
++  {
++   float angle=tick*Math.PI2/60;float end=96;
++   DLine704(cx+Math.Sin(angle)*94,cy-Math.Cos(angle)*94,cx+Math.Sin(angle)*end,cy-Math.Cos(angle)*end,detail,1);
++  }
++  // Numeric and graphic direction are both actual hull-relative native aim.
++  if(Snapshot.AimValid)
++  {
++   float angle=Snapshot.HullAzimuth*Math.DEG2RAD;float dx=Math.Sin(angle);float dy=-Math.Cos(angle);float px=Math.Cos(angle);float py=Math.Sin(angle);
++   for(int barrel=-1;barrel<=1;barrel+=2)
++   {
++    float offset=barrel*9;
++    DLine704(cx+px*offset+dx*14,cy+py*offset+dy*14,cx+px*offset+dx*73,cy+py*offset+dy*73,ink,2);
++    DLine704(cx+px*(offset+3)+dx*14,cy+py*(offset+3)+dy*14,cx+px*(offset+3)+dx*73,cy+py*(offset+3)+dy*73,ink,0.9);
++   }
++   DLine704(cx,cy,cx+dx*102,cy+dy*102,0xffffcc80,1.8);
++   DLine704(cx+dx*108,cy+dy*108,cx+dx*96+px*7,cy+dy*96+py*7,0xffffcc80,2.5);
++   DLine704(cx+dx*108,cy+dy*108,cx+dx*96-px*7,cy+dy*96-py*7,0xffffcc80,2.5);
++  }
++ }
++ string NumberDE704(float value,int decimals=1)
++ {
++  string text=value.ToString(-1,decimals);text.Replace(".",",");return text;
++ }
++ string FeedCountDE704(GEP_GunnerFeed583 feed)
++ {
++  if(!feed || feed.State!=2 || feed.Count<0)return "--";
++  return feed.Count.ToString();
++ }
++ string FeedTypeDE704(GEP_GunnerFeed583 feed)
++ {
++  if(!feed || feed.State==0)return "NICHT VERFÜGBAR";
++  if(feed.State==1)return "KEIN MAGAZIN";
++  if(feed.Ammunition=="HEI-T")return "HEI-T";
++  return "UNBEKANNT";
++ }
++ string OperationalFeedbackDE704()
++ {
++  if(!Snapshot.Crew)return GEP_Presentation680.DisabledLabel(GetOwner(),Snapshot.OperationalReason680);
++  if(Snapshot.DriveValid && Snapshot.DriveFault)return "TURMANTRIEB GESTÖRT";
++  // Do not forward raw FireControl development status or claim unavailable assists.
++  return "";
++ }
++
+  // BEGIN INTEGRATED SIGHT703
+  // Creative Gepard-inspired graphic. No copied/ballistically calibrated scales.
+  void LayoutSight703()
+  {
+   S=Math.Min(W/1920,H/1080);float ox=(W-1920*S)*0.5;float oy=(H-1080*S)*0.5;
+-  Place(Header,ox+54*S,oy+44*S,350*S,28*S,17,0xffeee9cd);
+-  Place(OpticalMode,ox+1540*S,oy+44*S,210*S,28*S,17,0xffeee9cd);
+-  Place(Zoom,ox+1765*S,oy+44*S,100*S,28*S,18,0xffeee9cd);
+-  Place(LeftTitle,ox+110*S,oy+907*S,260*S,25*S,16,0xffeee9cd);
+-  Place(LeftCount,ox+110*S,oy+940*S,280*S,43*S,34,0xffeee9cd);
+-  Place(LeftType,ox+110*S,oy+990*S,260*S,24*S,16,0xffeee9cd);
+-  Place(RightTitle,ox+420*S,oy+907*S,260*S,25*S,16,0xffeee9cd);
+-  Place(RightCount,ox+420*S,oy+940*S,280*S,43*S,34,0xffeee9cd);
+-  Place(RightType,ox+420*S,oy+990*S,260*S,24*S,16,0xffeee9cd);
+-  Place(Group,ox+730*S,oy+951*S,125*S,28*S,18,0xffeee9cd);
+-  Place(Range676,ox+880*S,oy+939*S,630*S,46*S,34,0xffeee9cd);
+-  Place(Reference,ox+880*S,oy+907*S,630*S,25*S,16,0xffeee9cd);
+-  Place(Feedback,ox+110*S,oy+1034*S,1320*S,28*S,18,0xffeee9cd);
+-  Place(Drive,ox+110*S,oy+1034*S,1320*S,28*S,18,0xffeee9cd);
+-  Place(SightAngles,ox+1550*S,oy+1010*S,320*S,24*S,16,0xffeee9cd);
+-  Place(TurretAngles,ox+1550*S,oy+1038*S,320*S,24*S,16,0xffeee9cd);
+-  Reference.SetVisible(true);Drive.SetVisible(false);
+-  Feedback.SetTextWrapping(false);
+-  for(int i=0;i<HintRoots.Count();i++)
+-  {
+-   Widget hint=HintRoots[i];
+-   if(!hint){continue;}
+-   bool showHint=SightHelpAge703<6 && (i==4 || i==5);
+-   hint.SetVisible(showHint);
+-   if(!showHint){continue;}
+-   float hintX=620;
+-   if(i==5){hintX=990;}
+-   FrameSlot.SetPos(hint,ox+hintX*S,oy+826*S);FrameSlot.SetSize(hint,310*S,44*S);
+-   if(Hints[i])Hints[i].SetSize(Math.Max(28,Math.Round(40*S)));
+-  }
++  Place(Header,ox+78*S,oy+46*S,380*S,42*S,25,0xffeee9cd);
++  Header.SetBold(true);
++  Place(OpticalMode,ox+1510*S,oy+46*S,180*S,42*S,26,0xffeee9cd);
++  OpticalMode.SetBold(true);
++  Place(Zoom,ox+1750*S,oy+46*S,130*S,42*S,27,0xffeee9cd);
++  Zoom.SetBold(true);
++  Place(LeftTitle,ox+140*S,oy+870*S,285*S,35*S,25,0xffeee9cd);
++  LeftTitle.SetBold(true);
++  Place(LeftCount,ox+140*S,oy+911*S,130*S,76*S,60,0xffeee9cd);
++  LeftCount.SetBold(true);
++  Place(LeftType,ox+140*S,oy+987*S,300*S,32*S,23,0xffeee9cd);
++  LeftType.SetBold(true);
++  Place(RightTitle,ox+585*S,oy+870*S,285*S,35*S,25,0xffeee9cd);
++  RightTitle.SetBold(true);
++  Place(RightCount,ox+585*S,oy+911*S,130*S,76*S,60,0xffeee9cd);
++  RightCount.SetBold(true);
++  Place(RightType,ox+585*S,oy+987*S,300*S,32*S,23,0xffeee9cd);
++  RightType.SetBold(true);
++  Place(Reference,ox+1054*S,oy+891*S,390*S,37*S,23,0xffeee9cd);
++  Reference.SetBold(true);
++  int rangeFont704=50;if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN || Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)rangeFont704=23;
++  Place(Range676,ox+1010*S,oy+936*S,430*S,69*S,rangeFont704,0xffeee9cd);
++  Range676.SetBold(true);
++  Place(Feedback,ox+963*S,oy+1005*S,475*S,30*S,18,0xffeee9cd);
++  Feedback.SetBold(true);
++  Place(Group,ox+1763*S,oy+850*S,130*S,34*S,23,0xffeee9cd);
++  Group.SetBold(true);
++  Place(Drive,ox+1763*S,oy+957*S,130*S,34*S,23,0xffeee9cd);
++  Drive.SetBold(true);
++  Place(SightAngles,ox+1763*S,oy+886*S,130*S,52*S,37,0xffeee9cd);
++  SightAngles.SetBold(true);
++  Place(TurretAngles,ox+1763*S,oy+991*S,130*S,52*S,37,0xffeee9cd);
++  TurretAngles.SetBold(true);
++  Drive.SetVisible(true);Reference.SetVisible(true);Group.SetVisible(true);Feedback.SetTextWrapping(false);
++  foreach(Widget hint:HintRoots){if(hint)hint.SetVisible(false);}
+  }
+  void TextSight703()
+  {
+-  Put(Header,"GEPARD / OPTIK");
++  Put(Header,"GEPARD  |  ZIELVISIER");
+   string mode="--";if(Snapshot.OpticsValid){mode="TAG";if(Snapshot.Night)mode="RESTLICHT";}Put(OpticalMode,mode);
++  string zoom="--×";if(Snapshot.ZoomValid)zoom=NumberDE704(Snapshot.Magnification)+"×";Put(Zoom,zoom);
+   Put(LeftTitle,"LINKS");Put(RightTitle,"RECHTS");
+-  string group="WAHL --";if(Snapshot.Group==0)group="BEIDE";if(Snapshot.Group==1)group="LINKS";if(Snapshot.Group==2)group="RECHTS";Put(Group,group);
+-  string distance="--";string measured="ENTFERNUNG";
++  Put(LeftCount,FeedCountDE704(Snapshot.Left));Put(RightCount,FeedCountDE704(Snapshot.Right));
++  Put(LeftType,FeedTypeDE704(Snapshot.Left));Put(RightType,FeedTypeDE704(Snapshot.Right));
++  int leftInk=0xffeee9cd;int rightInk=0xffeee9cd;
++  if(Snapshot.Left.State!=2)leftInk=MUTED583;if(Snapshot.Right.State!=2)rightInk=MUTED583;
++  if(Snapshot.Left.State==2 && Snapshot.Left.Count==0)leftInk=WARN583;
++  if(Snapshot.Right.State==2 && Snapshot.Right.Count==0)rightInk=WARN583;
++  LeftCount.SetColor(Color.FromInt(leftInk));RightCount.SetColor(Color.FromInt(rightInk));
++  string distance="-- m";string measured="ENTFERNUNG";
+   if(Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeMetres676>0 && Snapshot.RangeAge676>=0)distance=Math.Round(Snapshot.RangeMetres676).ToString()+" m";
+   else if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN)distance="KEIN MESSWERT";
+-  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)distance="MESSUNG NICHT VERFUEGBAR";Put(Range676,distance);if(Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeAge676>=0)measured="ENTF. / ALTER "+Snapshot.RangeAge676.ToString(-1,1)+" s";Put(Reference,measured);
+-  if(Snapshot.Feedback=="MANUAL")Put(Feedback,"MANUELL");
+-  if(Snapshot.DriveValid && Snapshot.DriveFault)Put(Feedback,"TURMANTRIEB GESTOERT");
+-  string bearing="BRG --";if(Snapshot.ViewValid)bearing="BRG "+Snapshot.Bearing.ToString(-1,1)+" deg";Put(SightAngles,bearing);
+-  string mount="AZ --  EL --";if(Snapshot.AimValid)mount="AZ "+Snapshot.HullAzimuth.ToString(-1,1)+"  EL "+Snapshot.GunElevation.ToString(-1,1)+" deg";Put(TurretAngles,mount);
+-  if(Snapshot.Left.State==2 && Snapshot.Left.Count==0)LeftCount.SetColor(Color.FromInt(WARN583));if(Snapshot.Right.State==2 && Snapshot.Right.Count==0)RightCount.SetColor(Color.FromInt(WARN583));
+-  int color=0xffeee9cd;if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN || Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE || Snapshot.RangeAge676>10)color=WARN583;Range676.SetColor(Color.FromInt(color));
++  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)distance="MESSUNG NICHT VERFÜGBAR";
++  if(Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeAge676>10)measured="ENTFERNUNG / VERALTET";
++  Put(Range676,distance);Put(Reference,measured);
++  int rangeInk=0xffeee9cd;if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN || Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE || Snapshot.RangeAge676>10)rangeInk=WARN583;
++  Range676.SetColor(Color.FromInt(rangeInk));Reference.SetColor(Color.FromInt(rangeInk));
++  Put(Group,"TURM");Put(Drive,"HÖHE");
++  string turret="--°";string elevation="--°";
++  if(Snapshot.AimValid){turret=NumberDE704(Snapshot.HullAzimuth,0)+"°";elevation=NumberDE704(Snapshot.GunElevation,0)+"°";}
++  Put(SightAngles,turret);Put(TurretAngles,elevation);
++  string operational=OperationalFeedbackDE704();Put(Feedback,operational);Feedback.SetVisible(operational!="");Feedback.SetColor(Color.FromInt(WARN583));
+  }
+  void GraphicsSight703()
+  {
+   Draw.Clear();float ox=(W-1920*S)*0.5;float oy=(H-1080*S)*0.5;float x=W*0.5;float y=H*0.5;
++  // The accepted seven-segment open-centre reticle remains the exact aiming datum.
+   for(int layer=0;layer<2;layer++)
+   {
+-   int color=0xff09100e;float stroke=4*S;if(layer==1){color=0xffeee9cd;stroke=1.5*S;}
+-   // Open point with paired wings; the empty centre is the aiming datum.
+-   Line(x-144*S,y+18*S,x-96*S,y,color,stroke);Line(x-96*S,y,x-72*S,y,color,stroke);Line(x+72*S,y,x+96*S,y,color,stroke);Line(x+96*S,y,x+144*S,y+18*S,color,stroke);
+-   Line(x-22*S,y+13*S,x-7*S,y,color,stroke);Line(x+7*S,y,x+22*S,y+13*S,color,stroke);Line(x,y-62*S,x,y-18*S,color,stroke);
+-  }
+-  // Selection witnesses indicate the real chosen gun group, not firing readiness.
+-  if(Snapshot.Crew && (Snapshot.Group==0 || Snapshot.Group==1))Line(ox+110*S,oy+888*S,ox+370*S,oy+888*S,0xffeee9cd,2*S);
+-  if(Snapshot.Crew && (Snapshot.Group==0 || Snapshot.Group==2))Line(ox+420*S,oy+888*S,ox+680*S,oy+888*S,0xffeee9cd,2*S);
+-  // Original top-down hull with track rails and actual relative turret direction.
+-  float cx=ox+1710*S;float cy=oy+949*S;
+-  for(int glyphLayer=0;glyphLayer<2;glyphLayer++)
+-  {
+-   int ink=0xff09100e;float weight=4*S;if(glyphLayer==1){ink=0xffeee9cd;weight=1.6*S;}
+-   // Bow points upward; side rails are the two tracks, not a compass scale.
+-   Line(cx-22*S,cy-34*S,cx,cy-45*S,ink,weight);Line(cx,cy-45*S,cx+22*S,cy-34*S,ink,weight);
+-   Line(cx+22*S,cy-34*S,cx+22*S,cy+35*S,ink,weight);Line(cx+22*S,cy+35*S,cx-22*S,cy+35*S,ink,weight);Line(cx-22*S,cy+35*S,cx-22*S,cy-34*S,ink,weight);
+-   Line(cx-32*S,cy-26*S,cx-32*S,cy+29*S,ink,weight);Line(cx+32*S,cy-26*S,cx+32*S,cy+29*S,ink,weight);
+-   Line(cx-10*S,cy-10*S,cx+10*S,cy-10*S,ink,weight);Line(cx+10*S,cy-10*S,cx+10*S,cy+10*S,ink,weight);Line(cx+10*S,cy+10*S,cx-10*S,cy+10*S,ink,weight);Line(cx-10*S,cy+10*S,cx-10*S,cy-10*S,ink,weight);
+-   if(Snapshot.AimValid){float angle=Snapshot.HullAzimuth*Math.DEG2RAD;float dx=Math.Sin(angle);float dy=-Math.Cos(angle);Line(cx,cy,cx+dx*62*S,cy+dy*62*S,ink,weight);float px=Math.Cos(angle);float py=Math.Sin(angle);Line(cx+dx*62*S,cy+dy*62*S,cx+dx*49*S+px*6*S,cy+dy*49*S+py*6*S,ink,weight);Line(cx+dx*62*S,cy+dy*62*S,cx+dx*49*S-px*6*S,cy+dy*49*S-py*6*S,ink,weight);}
+-  }
+-  Canvas.SetDrawCommands(Draw);
++   int color=0xff09100e;float stroke=6.8*S;if(layer==1){color=0xffeee9cd;stroke=3*S;}
++   Line(x-144*S*1.4,y+18*S*1.4,x-96*S*1.4,y,color,stroke);
++   Line(x-96*S*1.4,y,x-72*S*1.4,y,color,stroke);
++   Line(x+72*S*1.4,y,x+96*S*1.4,y,color,stroke);
++   Line(x+96*S*1.4,y,x+144*S*1.4,y+18*S*1.4,color,stroke);
++   Line(x-22*S*1.4,y+13*S*1.4,x-7*S*1.4,y,color,stroke);
++   Line(x+7*S*1.4,y,x+22*S*1.4,y+13*S*1.4,color,stroke);
++   Line(x,y-62*S*1.4,x,y-18*S*1.4,color,stroke);
++  }
++  array<float> panel0704={28,862,48,846,495,846,501,851,835,851,871,881,901,881,922,867,1430,867,1453,881,1472,881,1518,830,1544,830,1576,799,1686,799,1718,830,1860,830,1886,848,1892,868,1892,1024,1874,1040,1520,1040,1504,1028,901,1028,883,1016,263,1016,243,1028,47,1028,28,1012};
++  array<int> triangles0704={28,0,1,28,1,2,28,2,3,28,3,4,28,4,5,28,5,6,6,7,8,28,6,8,28,8,9,28,9,10,10,11,12,12,13,14,10,12,14,10,14,15,10,15,16,10,16,17,28,10,17,28,17,18,18,19,20,18,20,21,18,21,22,18,22,23,18,23,24,28,18,24,28,24,25,28,25,26,26,27,28};
++  Panel704(panel0704,triangles0704,0xc511181a);
++  Contour704(panel0704,0xcce6e3cd,1.6);
++  array<float> panel1704={36,38,512,38,448,96,36,96};
++  array<int> triangles1704={3,0,1,1,2,3};
++  Panel704(panel1704,triangles1704,0x9811181a);
++  Contour704(panel1704,0xcce6e3cd,1.1);
++  array<float> panel2704={1410,38,1885,38,1885,96,1474,96};
++  array<int> triangles2704={3,0,1,1,2,3};
++  Panel704(panel2704,triangles2704,0x9811181a);
++  Contour704(panel2704,0xcce6e3cd,1.1);
++  // Short inset edge details follow the approved tapered instrument panel.
++  DLine704(47,853,492,853,0xff9b9f91,0.9);DLine704(930,874,1421,874,0xff9b9f91,0.9);DLine704(1581,806,1681,806,0xff9b9f91,0.9);
++  DLine704(465,864,465,1009,0xffd8d7c3,1.1);DLine704(929,890,929,1008,0xffd8d7c3,1.1);DLine704(1416,889,1416,1008,0xffd8d7c3,1.1);DLine704(1760,930,1867,930,0xffd8d7c3,1);
++  DLine704(244,884,425,884,0xff818b80,1);DLine704(691,884,871,884,0xff818b80,1);DLine704(1692,51,1692,79,0xffd8d7c3,1);
++  // Open picture frame does not crop or mask the world.
++  DLine704(36,115,81,115,0xcce6e3cd,1.4);DLine704(36,115,36,274,0xcce6e3cd,1.4);DLine704(36,488,36,795,0xcce6e3cd,1.4);DLine704(36,795,81,795,0xcce6e3cd,1.4);
++  DLine704(1839,115,1884,115,0xcce6e3cd,1.4);DLine704(1884,115,1884,274,0xcce6e3cd,1.4);DLine704(1884,488,1884,795,0xcce6e3cd,1.4);DLine704(1839,795,1884,795,0xcce6e3cd,1.4);
++  int leftInk=0xffa3aa9c;int rightInk=0xffa3aa9c;
++  if(Snapshot.Crew && (Snapshot.Group==0 || Snapshot.Group==1))leftInk=0xffeee9cd;if(Snapshot.Crew && (Snapshot.Group==0 || Snapshot.Group==2))rightInk=0xffeee9cd;
++  FeedGlyph704(92,946,leftInk);FeedGlyph704(537,946,rightInk);FeedBars704(Snapshot.Left,275,936,leftInk);FeedBars704(Snapshot.Right,720,936,rightInk);
++  // Range brackets frame information, not a tracking box.
++  DLine704(1017,895,1032,895,0xffd8d7c3,1.2);DLine704(1017,895,1017,910,0xffd8d7c3,1.2);DLine704(1395,895,1410,895,0xffd8d7c3,1.2);DLine704(1410,895,1410,910,0xffd8d7c3,1.2);
++  DLine704(1017,987,1017,1002,0xffd8d7c3,1.2);DLine704(1017,1002,1032,1002,0xffd8d7c3,1.2);DLine704(1395,1002,1410,1002,0xffd8d7c3,1.2);DLine704(1410,987,1410,1002,0xffd8d7c3,1.2);
++  HullGlyph704(1620,937);Canvas.SetDrawCommands(Draw);
+  }
+  // END INTEGRATED SIGHT703
+  void RefreshHints()
+--- a/addon/scripts/Game/GEP/GEP_PlainSight680.c
++++ b/addon/scripts/Game/GEP/GEP_PlainSight680.c
+@@ -32,14 +32,20 @@
+   WorkspaceWidget workspace=GetGame().GetWorkspace();
+   float w=workspace.DPIUnscale(workspace.GetWidth());float h=workspace.DPIUnscale(workspace.GetHeight());
+   FrameSlot.SetPos(m_Root,0,0);FrameSlot.SetSize(m_Root,w,h);FrameSlot.SetSize(m_Canvas,w,h);
+-  m_Draw.Clear();float x=w*0.5;float y=h*0.5;
++  m_Draw.Clear();float x=w*0.5;float y=h*0.5;float s=Math.Min(w/1920,h/1080);
+   for(int layer=0;layer<2;layer++)
+   {
+-   int color=0xff111a14;float stroke=5;if(layer==1){color=0xffeff6ee;stroke=2;}
+-   Line(x-40,y,x-12,y,color,stroke);Line(x+12,y,x+40,y,color,stroke);Line(x,y-40,x,y-12,color,stroke);Line(x,y+12,x,y+40,color,stroke);
++   int color=0xff09100e;float stroke=6.8*s;if(layer==1){color=0xffeee9cd;stroke=3*s;}
++   Line(x-144*s*1.4,y+18*s*1.4,x-96*s*1.4,y,color,stroke);
++   Line(x-96*s*1.4,y,x-72*s*1.4,y,color,stroke);
++   Line(x+72*s*1.4,y,x+96*s*1.4,y,color,stroke);
++   Line(x+96*s*1.4,y,x+144*s*1.4,y+18*s*1.4,color,stroke);
++   Line(x-22*s*1.4,y+13*s*1.4,x-7*s*1.4,y,color,stroke);
++   Line(x+7*s*1.4,y,x+22*s*1.4,y+13*s*1.4,color,stroke);
++   Line(x,y-62*s*1.4,x,y-18*s*1.4,color,stroke);
+   }
+   m_Canvas.SetDrawCommands(m_Draw);
+-  if(m_Fault){FrameSlot.SetPos(m_Fault,w*0.5-240,h*0.5+70);FrameSlot.SetSize(m_Fault,480,40);m_Fault.SetExactFontSize(19);m_Fault.SetColor(Color.FromInt(0xffffc37b));m_Fault.SetText(fault);}
++  if(m_Fault){FrameSlot.SetPos(m_Fault,w*0.5-330*s,h*0.5+110*s);FrameSlot.SetSize(m_Fault,660*s,48*s);m_Fault.SetExactFontSize(Math.Max(12,Math.Round(23*s)));m_Fault.SetBold(true);m_Fault.SetColor(Color.FromInt(0xffffc37b));m_Fault.SetText(fault);}
+   m_Root.SetVisible(true);
+  }
+  void Hide(){if(m_Root)m_Root.SetVisible(false);}
+--- a/addon/scripts/Game/GEP/GEP_Presentation680.c
++++ b/addon/scripts/Game/GEP/GEP_Presentation680.c
+@@ -59,13 +59,13 @@
+  // Read-only fault label. A visible camera image is not operational permission.
+  static string DisabledLabel(IEntity owner,string operationalReason)
+  {
+-  if(!owner || owner.IsDeleted())return "SIGHT UNAVAILABLE";
++  if(!owner || owner.IsDeleted())return "VISIER NICHT VERFÜGBAR";
+   IEntity root=owner.GetRootParent();
+   SCR_DamageManagerComponent hull;
+   if(root && !root.IsDeleted())hull=SCR_DamageManagerComponent.Cast(root.FindComponent(SCR_DamageManagerComponent));
+-  if(hull && hull.GetState()==EDamageState.DESTROYED)return "HULL DESTROYED";
++  if(hull && hull.GetState()==EDamageState.DESTROYED)return "WANNE ZERSTÖRT";
+   SCR_DamageManagerComponent turret=SCR_DamageManagerComponent.Cast(owner.FindComponent(SCR_DamageManagerComponent));
+-  if(turret && turret.GetState()==EDamageState.DESTROYED)return "TURRET DESTROYED";
+-  return "SIGHT UNAVAILABLE";
++  if(turret && turret.GetState()==EDamageState.DESTROYED)return "TURM ZERSTÖRT";
++  return "VISIER NICHT VERFÜGBAR";
+  }
+ }

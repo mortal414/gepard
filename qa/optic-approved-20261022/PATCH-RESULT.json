@@ -1,0 +1,65 @@
+{
+  "status": "PASS_EXACT_PATCH_REPLAY",
+  "target": "C:\\Users\\marco\\AppData\\Local\\Temp\\hud-approved-patch-gxqxzwrq",
+  "patchSHA256": "0f97d5957d8363a9bb349a3a83363a2c8028a8b876f050443f2adc69f69be32e",
+  "commands": [
+    {
+      "args": [
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "-c",
+        "core.autocrlf=false",
+        "apply"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "files": [
+    {
+      "relative": "scripts\\Game\\GEP\\GEP_ControlHints580.c",
+      "exact": true,
+      "overlaySHA256": "8646ee2a904667358c57aafca1e90593dc10b2f0cf35165a54421806e7eb4086",
+      "replaySHA256": "8646ee2a904667358c57aafca1e90593dc10b2f0cf35165a54421806e7eb4086",
+      "overlayCRLF": 26,
+      "replayCRLF": 26
+    },
+    {
+      "relative": "scripts\\Game\\GEP\\GEP_GunStatus.c",
+      "exact": true,
+      "overlaySHA256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966",
+      "replaySHA256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966",
+      "overlayCRLF": 0,
+      "replayCRLF": 0
+    },
+    {
+      "relative": "scripts\\Game\\GEP\\GEP_PlainSight680.c",
+      "exact": true,
+      "overlaySHA256": "4fac0ae37b8a4ccbc8992d4162c0f571f46642162b9c89d6caadbc6f0c144097",
+      "replaySHA256": "4fac0ae37b8a4ccbc8992d4162c0f571f46642162b9c89d6caadbc6f0c144097",
+      "overlayCRLF": 0,
+      "replayCRLF": 0
+    },
+    {
+      "relative": "scripts\\Game\\GEP\\GEP_Presentation680.c",
+      "exact": true,
+      "overlaySHA256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca",
+      "replaySHA256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca",
+      "overlayCRLF": 71,
+      "replayCRLF": 71
+    }
+  ],
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED",
+  "productionEdits": false
+}

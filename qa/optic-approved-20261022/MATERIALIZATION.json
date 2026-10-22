@@ -1,0 +1,18 @@
+{
+  "status": "MATERIALIZED_ON_LOCAL_PC_AND_PIXELS_INSPECTED",
+  "library_file_id": "libfile_e9aa81f2e0a881919ba1a73b8d0527f2",
+  "file_id": "file_00000000c42081f5a6a70f8412b62b2a",
+  "version": 0,
+  "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\hud-approved-concept\\exec-4a7d8972-1ad8-4b03-b6d3-9c67fc0232cb.png",
+  "bytes": 1915198,
+  "sha256": "d51e20b476095bece80c52bf2a51593653e1d652888f7b73ecb198c23846e1fd",
+  "xattrs": [
+    {
+      "name": "user.library-file-version",
+      "value": "0"
+    }
+  ],
+  "localMetadataStatus": "APPLIED_AND_READ_BACK_NATIVE_NTFS_EA",
+  "approval": "Trusted parent delegation: user00:14 actually for now this is good supersedes wait",
+  "sourceOnlyUntilArtHandback": true
+}

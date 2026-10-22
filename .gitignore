@@ -6,3 +6,6 @@ downloads/
 *.zip
 *.bak
 *.log
+
+/native-stage/
+/native-runs/

@@ -1,0 +1,10 @@
+[
+  {
+    "root": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\gepard",
+    "manifest": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\GEPARD_SOURCE_MANIFEST.json"
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA",
+    "manifest": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\QA_SOURCE_MANIFEST.json"
+  }
+]

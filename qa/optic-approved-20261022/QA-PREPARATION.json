@@ -1,0 +1,18 @@
+{
+  "status": "SOURCE_PREPARED_NATIVE_NOT_TESTED",
+  "addonId": "7E0050C026102500",
+  "manualWorld": "{7E0050C026102501}Worlds/GEP_ApprovedHUD705.ent",
+  "renderWorld": "{7E0050C026102502}Worlds/GEP_ApprovedRender705.ent",
+  "sourceFiles": 9,
+  "upstreamQualifiedScene": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\new-features-optic-compare-20261021\\native-stage\\gepard\\scripts\\Game\\GEPUpdate101\\GEP_Update101Scene.c",
+  "upstreamQualifiedProbe": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\optic-render-qualification-20261021\\native-stage\\gepard\\scripts\\Game\\GEPOpticCompare704\\GEP_OpticRenderProbe704.c",
+  "changes": [
+    "one functional carrier",
+    "new class/resource identities",
+    "approved HUD instructions",
+    "removed per-instance A/B selector dependency",
+    "actual feed/widget readbacks"
+  ],
+  "renderBoundary": "One scripted native settled-seat ADS capture only; physical input/zoom/range/fire/lifecycle remain separate TEST-CONTRACT gates.",
+  "nativeAdmission": "Art live PID29236; explicit handback required; no runtime invoked"
+}

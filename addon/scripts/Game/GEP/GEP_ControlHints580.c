@@ -20,7 +20,7 @@ modded class SCR_AvailableActionContext
  }
  override string GetUIName()
  {
-  if(GEP_IsGroupHint580())return "Cannon group";
+  if(GEP_IsGroupHint580())return "Waffengruppe";
   return super.GetUIName();
  }
 }

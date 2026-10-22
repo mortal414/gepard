@@ -1,0 +1,299 @@
+{
+  "status": "PASS_SOURCE_ONLY",
+  "checkCount": 72,
+  "checks": [
+    {
+      "name": "exactly-four-presentation-files",
+      "pass": true
+    },
+    {
+      "name": "all-source-hashes-current",
+      "pass": true
+    },
+    {
+      "name": "one-private-geometry-block",
+      "pass": true
+    },
+    {
+      "name": "all-unlisted-GunStatus-source-byte-preserved",
+      "pass": true
+    },
+    {
+      "name": "native-probe-alias-preserved:Widget Root;",
+      "pass": true
+    },
+    {
+      "name": "native-probe-alias-preserved:TextWidget Range676;",
+      "pass": true
+    },
+    {
+      "name": "native-probe-alias-preserved:TextWidget Zoom;",
+      "pass": true
+    },
+    {
+      "name": "native-probe-alias-preserved:bool InstrumentsVisible702;",
+      "pass": true
+    },
+    {
+      "name": "existing-method-preserved:Ready680",
+      "pass": true
+    },
+    {
+      "name": "existing-method-preserved:HasVisual680",
+      "pass": true
+    },
+    {
+      "name": "existing-method-preserved:Layout",
+      "pass": true
+    },
+    {
+      "name": "existing-method-preserved:Graphics",
+      "pass": true
+    },
+    {
+      "name": "existing-method-preserved:RefreshHints",
+      "pass": true
+    },
+    {
+      "name": "no-raw-firecontrol-feedback-forwarded",
+      "pass": true
+    },
+    {
+      "name": "no-development-text-in-visible-paths",
+      "pass": true
+    },
+    {
+      "name": "German-approved-core-labels",
+      "pass": true
+    },
+    {
+      "name": "German-comma-zoom-and-degree-readouts",
+      "pass": true
+    },
+    {
+      "name": "range-requires-actual-valid-positive-recent-state",
+      "pass": true
+    },
+    {
+      "name": "operational-range-errors-German",
+      "pass": true
+    },
+    {
+      "name": "bars-only-known-count-and-capacity",
+      "pass": true
+    },
+    {
+      "name": "bars-have-proportional-last-cell",
+      "pass": true
+    },
+    {
+      "name": "bar-actual-ratio-320/320",
+      "pass": true
+    },
+    {
+      "name": "bar-actual-ratio-319/320",
+      "pass": true
+    },
+    {
+      "name": "bar-actual-ratio-160/320",
+      "pass": true
+    },
+    {
+      "name": "bar-actual-ratio-1/320",
+      "pass": true
+    },
+    {
+      "name": "bar-actual-ratio-0/320",
+      "pass": true
+    },
+    {
+      "name": "unknown-bar-empty-0--1--1",
+      "pass": true
+    },
+    {
+      "name": "unknown-bar-empty-1--1--1",
+      "pass": true
+    },
+    {
+      "name": "unknown-bar-empty-2--1-320",
+      "pass": true
+    },
+    {
+      "name": "unknown-bar-empty-2-10-0",
+      "pass": true
+    },
+    {
+      "name": "native-center-reticle",
+      "pass": true
+    },
+    {
+      "name": "accepted-bold-reticle-size",
+      "pass": true
+    },
+    {
+      "name": "orientation-not-world-bearing",
+      "pass": true
+    },
+    {
+      "name": "native-direction-only-when-valid",
+      "pass": true
+    },
+    {
+      "name": "distinct-recognizable-hull-features",
+      "pass": true
+    },
+    {
+      "name": "no-new-input-camera-pose-file-network-writers",
+      "pass": true
+    },
+    {
+      "name": "mesh-and-lines-share-one-DPI-scale",
+      "pass": true
+    },
+    {
+      "name": "concave-panel-triangulation-covers-exact-area",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-1280x720",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-1280x720",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-1280x720",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-1920x1080",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-1920x1080",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-1920x1080",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-2560x1440",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-2560x1440",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-2560x1440",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-1280x960",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-1280x960",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-1280x960",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-1280x1024",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-1280x1024",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-1280x1024",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-1920x1200",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-1920x1200",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-1920x1200",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-2560x1080",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-2560x1080",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-2560x1080",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-3440x1440",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-3440x1440",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-3440x1440",
+      "pass": true
+    },
+    {
+      "name": "widget-bounds-3840x2160",
+      "pass": true
+    },
+    {
+      "name": "nominal-font-height-fit-3840x2160",
+      "pass": true
+    },
+    {
+      "name": "panels-stay-below-target-area-3840x2160",
+      "pass": true
+    },
+    {
+      "name": "long-German-state-conservative-fit",
+      "pass": true
+    },
+    {
+      "name": "restlicht-conservative-fit",
+      "pass": true
+    },
+    {
+      "name": "plain-fallback-same-seven-segment-bold-shape",
+      "pass": true
+    },
+    {
+      "name": "German-fault-only-presentation-delta",
+      "pass": true
+    },
+    {
+      "name": "group-hint-only-string-delta",
+      "pass": true
+    },
+    {
+      "name": "UTF8-German-source-and-patch-clean",
+      "pass": true
+    },
+    {
+      "name": "API-contracts-pinned",
+      "pass": true
+    }
+  ],
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED",
+  "actualFontWidths": "NOT_TESTED",
+  "sceneOrControlEdits": false,
+  "scope": "Source preservation, actual-data guards, deterministic vector/model geometry only; no rendered native/physical input acceptance."
+}

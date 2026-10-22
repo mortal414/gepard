@@ -1,0 +1,24 @@
+Approved Gepard optic — private source candidate, native qualification pending
+
+Entry: INTEGRATION-RESULT.json, TEST-CONTRACT.json, SOURCE-CLOSURES.json.
+Isolated branch sprint/optic-approved-20261022, based on verified functional9223f61.
+No smoke, track audio or V11 art is integrated. Driving/R/braking, cannon/engine sounds, crew eligibility and input bindings stay byte-identical; only custom group hint wording becomes Waffengruppe.
+
+Approved concept Librarylibfile_e9aa81f2e0a881919ba1a73b8d0527f2 was downloaded through supported Library flow to this PC and visually inspected. MATERIALIZATION.json records identity/hash. No generated screenshot is represented as native evidence. Current/A/B archives preserved.
+
+Four production presentation files changed.1112production files frozen;1108match baseline.72offline source/geometry/data checks and byte-exact patch replay pass. TriMesh public API is pinned; final DPI/render alignment and legibility remain native gates.
+
+Native stage: D:/ArmaProjects/Gepard-OpticApproved-20261022/native-stage.
+Project: hudQA/GEP_ApprovedHUD705_QA.gproj, addon7E0050C026102500.
+Render world: {7E0050C026102502}Worlds/GEP_ApprovedRender705.ent — one scripted actual-seat/ADS capture, no ordinary-input or lifecycle acceptance claim.
+Manual world: {7E0050C026102501}Worlds/GEP_ApprovedHUD705.ent — one functional carrier, ordinary on-foot player, untimed after admission.
+Existing serial wrappers must be bound/reviewed with both complete source closures and static plan before execution. No runnable wrapper/job is claimed here. No native process was launched in this source pass. Art user sessionPID29236 retains the slot until explicit handback plus fresh ownership checks.
+
+New-feature manual checks after valid native render:
+1. Judge overall concept match, target visibility, lower-panel height and fonts at2x, then native zoom steps through8x.
+2. Shift+V selects actual cannon groups. Fire a short safe burst from each side: its numeric count and proportional bar must agree.
+3. C on near/distant ground and sky: valid/unavailable range must be honest. N changes TAG/RESTLICHT.
+4. Traverse/elevate: fixed bow-up hull, actual relative turret direction and TURM/HOEHE readouts must agree.
+5. Leave/reopen optic and seat: custom panel disappears and recovers once, stock presentation returns appropriately.
+
+GEP005/006/008 remain Needs user test; no new acceptance checkbox or publication. Physical input, zoom/aspect, range update, actual ammunition, crew/lifecycle and Marco's visual judgment require actual evidence.
