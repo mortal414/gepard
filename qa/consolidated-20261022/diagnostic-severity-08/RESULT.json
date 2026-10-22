@@ -1,0 +1,887 @@
+{
+  "utc": "2026-10-22T08:40:02.450252+00:00",
+  "status": "NO_DEMONSTRATED_DEMO_BLOCKING_REGRESSION_IN_RETAINED_DIAGNOSTICS",
+  "scope": "Source and retained evidence audit; no new runtime, suppression or clean-native claim",
+  "startup": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-08-sessions\\probe-cd2c5a32-317c-4462-b880-46ee67303d25\\logs\\console.log",
+    "sha256": "ed8f0c4c9dcd72f0687c93f840dbe8c627377d85d3d5ad281e74b1e8e39e5bd1",
+    "count": 59,
+    "categories": {
+      "GUI": 1,
+      "WORLD": 7,
+      "SCRIPT": 2,
+      "RESOURCES": 49
+    },
+    "errors": [
+      {
+        "line": 109,
+        "time": "03:05:51.472",
+        "category": "GUI",
+        "message": "Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+        "context": [
+          "03:05:51.471  SCRIPT       : Module: GameLib; loaded 465x files; 607x classes; used 775K of static memory; defines: \"ENF_WB,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE\"; CRC32: 4507af04",
+          "03:05:51.471 PROFILING    : Compiling GameLib scripts took: 19.627600 ms",
+          "03:05:51.472 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\"",
+          "03:05:51.472  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\"",
+          "03:05:51.472   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        ]
+      },
+      {
+        "line": 163,
+        "time": "03:05:59.891",
+        "category": "WORLD",
+        "message": "Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+        "context": [
+          "03:05:59.891       RESOURCES    : GetResourceObject @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\"",
+          "03:05:59.891        WORLD        : Entity prefab load @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\"",
+          "03:05:59.891         RESOURCES    : GetResourceObject @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\"",
+          "03:05:59.891          WORLD        : Entity prefab load @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\"",
+          "03:05:59.891           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+        ]
+      },
+      {
+        "line": 170,
+        "time": "03:05:59.926",
+        "category": "WORLD",
+        "message": "Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+        "context": [
+          "03:05:59.926       RESOURCES    : GetResourceObject @\"{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et\"",
+          "03:05:59.926        WORLD        : Entity prefab load @\"{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et\"",
+          "03:05:59.926         RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\"",
+          "03:05:59.926          WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\"",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+        ]
+      },
+      {
+        "line": 171,
+        "time": "03:05:59.926",
+        "category": "WORLD",
+        "message": "Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+        "context": [
+          "03:05:59.926        WORLD        : Entity prefab load @\"{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et\"",
+          "03:05:59.926         RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\"",
+          "03:05:59.926          WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\"",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+        ]
+      },
+      {
+        "line": 178,
+        "time": "03:05:59.926",
+        "category": "WORLD",
+        "message": "Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+        "context": [
+          "03:05:59.926       RESOURCES    : GetResourceObject @\"{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et\"",
+          "03:05:59.926        WORLD        : Entity prefab load @\"{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et\"",
+          "03:05:59.926         RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\"",
+          "03:05:59.926          WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\"",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+        ]
+      },
+      {
+        "line": 179,
+        "time": "03:05:59.926",
+        "category": "WORLD",
+        "message": "Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+        "context": [
+          "03:05:59.926        WORLD        : Entity prefab load @\"{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et\"",
+          "03:05:59.926         RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\"",
+          "03:05:59.926          WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\"",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+        ]
+      },
+      {
+        "line": 180,
+        "time": "03:05:59.926",
+        "category": "WORLD",
+        "message": "Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+        "context": [
+          "03:05:59.926         RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\"",
+          "03:05:59.926          WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\"",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+        ]
+      },
+      {
+        "line": 181,
+        "time": "03:05:59.926",
+        "category": "WORLD",
+        "message": "Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+        "context": [
+          "03:05:59.926          WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\"",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+          "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+        ]
+      },
+      {
+        "line": 371,
+        "time": "03:07:06.052",
+        "category": "SCRIPT",
+        "message": "'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!",
+        "context": [
+          "03:07:06.034    INIT         : INIT         : Loading StringTable",
+          "03:07:06.041   PROFILING    : Loading StringTable took: 7.481400 ms",
+          "03:07:06.042  PROFILING    : Settings changed took: 8.833600 ms",
+          "03:07:06.042 PROFILING    : ChangeEngineUserSettings took: 8.845700 ms",
+          "03:07:06.052 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!"
+        ]
+      },
+      {
+        "line": 372,
+        "time": "03:07:06.055",
+        "category": "SCRIPT",
+        "message": "'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!",
+        "context": [
+          "03:07:06.041   PROFILING    : Loading StringTable took: 7.481400 ms",
+          "03:07:06.042  PROFILING    : Settings changed took: 8.833600 ms",
+          "03:07:06.042 PROFILING    : ChangeEngineUserSettings took: 8.845700 ms",
+          "03:07:06.052 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!",
+          "03:07:06.055 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!"
+        ]
+      },
+      {
+        "line": 374,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "==== Resource leaks ====",
+        "context": [
+          "03:07:06.042 PROFILING    : ChangeEngineUserSettings took: 8.845700 ms",
+          "03:07:06.052 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!",
+          "03:07:06.055 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!",
+          "03:07:06.094 ENGINE       : Game destroyed.",
+          "03:07:06.233 RESOURCES (E): ==== Resource leaks ===="
+        ]
+      },
+      {
+        "line": 375,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+        "context": [
+          "03:07:06.052 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!",
+          "03:07:06.055 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!",
+          "03:07:06.094 ENGINE       : Game destroyed.",
+          "03:07:06.233 RESOURCES (E): ==== Resource leaks ====",
+          "03:07:06.233 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 376,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+        "context": [
+          "03:07:06.055 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!",
+          "03:07:06.094 ENGINE       : Game destroyed.",
+          "03:07:06.233 RESOURCES (E): ==== Resource leaks ====",
+          "03:07:06.233 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 377,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+        "context": [
+          "03:07:06.094 ENGINE       : Game destroyed.",
+          "03:07:06.233 RESOURCES (E): ==== Resource leaks ====",
+          "03:07:06.233 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 378,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): ==== Resource leaks ====",
+          "03:07:06.233 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 379,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 380,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 381,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 382,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 383,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Chat/chat_badge_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 384,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 385,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Chat/chat_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 386,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 387,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 388,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 389,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 390,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 391,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 392,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 393,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 394,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 395,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 396,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 397,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 398,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+        ]
+      },
+      {
+        "line": 399,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 400,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 401,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 402,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/cursors_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 403,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 404,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 405,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 406,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 407,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 408,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 409,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 410,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 411,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 412,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 413,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 414,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+        ]
+      },
+      {
+        "line": 415,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 416,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 417,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+        ]
+      },
+      {
+        "line": 418,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+        ]
+      },
+      {
+        "line": 419,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/debugUI.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+        ]
+      },
+      {
+        "line": 420,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+        ]
+      },
+      {
+        "line": 421,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "UI/Imagesets/default.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/default.edds   1"
+        ]
+      },
+      {
+        "line": 422,
+        "time": "03:07:06.233",
+        "category": "RESOURCES",
+        "message": "ui/fonts/robotomono_msdf_28.edds   1",
+        "context": [
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "03:07:06.233 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "03:07:06.233 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+        ]
+      }
+    ],
+    "gameDestroyedLine": 373
+  },
+  "packing": {
+    "count": 100,
+    "steps": [
+      {
+        "role": "gepard",
+        "step": "validate",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard\\logs\\validate\\console.log",
+        "sha256": "2a91fc4f1a2f923a395142a326221e108c12836967883c75ab1d97650a841fe9",
+        "count": 25,
+        "shutdownLines": [
+          250,
+          251
+        ],
+        "errorFirstLine": 252,
+        "errorFirstTime": "03:04:11.391",
+        "exactReleased102ErrorSignatures": true,
+        "exitCode": 0,
+        "verifiedExited": true
+      },
+      {
+        "role": "gepard",
+        "step": "pack",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard\\logs\\pack\\console.log",
+        "sha256": "4955427e6a849bc6ce29a6c2da90a2d01d3292adbdc7b05b9ed5b2efcc4c0c9f",
+        "count": 25,
+        "shutdownLines": [
+          208,
+          209
+        ],
+        "errorFirstLine": 210,
+        "errorFirstTime": "03:04:17.853",
+        "exactReleased102ErrorSignatures": true,
+        "exitCode": 0,
+        "verifiedExited": true
+      },
+      {
+        "role": "provingGround",
+        "step": "validate",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\provingGround\\logs\\validate\\console.log",
+        "sha256": "faaeaf2548a63d3824bfd09e5599a027e4bbabaa198ba1bb196faa8a598eaac8",
+        "count": 25,
+        "shutdownLines": [
+          260,
+          261
+        ],
+        "errorFirstLine": 262,
+        "errorFirstTime": "03:04:28.485",
+        "exactReleased102ErrorSignatures": true,
+        "exitCode": 0,
+        "verifiedExited": true
+      },
+      {
+        "role": "provingGround",
+        "step": "pack",
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\provingGround\\logs\\pack\\console.log",
+        "sha256": "80849c534e6405313bf8333abb0482a89aa3a7401ea4f4e9cf0ab73c25dd3a0b",
+        "count": 25,
+        "shutdownLines": [
+          221,
+          222
+        ],
+        "errorFirstLine": 223,
+        "errorFirstTime": "03:04:34.721",
+        "exactReleased102ErrorSignatures": true,
+        "exitCode": 0,
+        "verifiedExited": true
+      }
+    ],
+    "released102Baseline": [
+      {
+        "role": "released102validate",
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\pack-01\\logs\\validate\\console.log",
+        "sha256": "97fe326b8c5b20ebbd78f88e9da9ba14285ed7dc34d31e469578cf25ff4ef7be",
+        "count": 25
+      },
+      {
+        "role": "released102pack",
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\pack-01\\logs\\pack\\console.log",
+        "sha256": "24facb1fdcc9bfd25c92aba92005a03fcb895c7e0881dfcfc04ded564322f72e",
+        "count": 25
+      }
+    ]
+  },
+  "sourceProvenance": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package08-Diagnostic-Severity-20261022\\STOCK-RESOURCE-PROVENANCE.json",
+    "sha256": "fb435e5223a42707fed36016023672c689c36db87babd737597878c5f0d80879",
+    "candidateOverrides": false
+  },
+  "catalogAudit": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package08-CatalogSeverity-Audit-20261022\\RESULT.json",
+    "sha256": "926f69444e7f36287c78bac338f0c5122fab8b6ecf2caa23e864c623cbde2e6f"
+  },
+  "decision": "No stock resource overrides, duplicate managers, catalog removal or error filtering justified. Preserve package08 unchanged.",
+  "limits": [
+    "Stock source attribution does not prove each affected stock vehicle behaves correctly.",
+    "Catalog teardown caller and destruction order are inferred, not logged.",
+    "Shutdown resource list is not a long-session memory/performance qualification.",
+    "Strict startup FAIL59 and packing FAIL100 remain unchanged. Human feature acceptance remains pending."
+  ],
+  "nativeStarted": false,
+  "sourceModified": false
+}

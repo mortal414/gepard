@@ -180,13 +180,18 @@
       "criterion": "Conditionalonly:actualalignedlaunch/flight/fuse/visiblecloud/ammo/full/empty/genuinerearm/dependencycompatibility;coveragehumanjudgmentseparate.",
       "outcome": "not tested",
       "evidence": [
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-angle-retry-01\\RESULT.json"
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-flight-03\\RESULT.json",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-angle-03\\smoke-mechanism-control\\result.json"
       ],
       "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
-      "observedSubcriteria": "Excluded. Earlier stock-only automatic-review rejection was reconciled by new parent evidence. One exact retry reached validation and aborted BEFORE native: pinned task-4/smoke-supplier/SUPPLIER-HANDOFF.md differs (expected deeebfa9472c2242dfea8dc62c577cab3b35309d15b67a75b42f5bdb8e146919; actual 0d431d7b7ceeb0b57a774e1326453870672c2252f15ea2dc9d35f0591e048714). All1200 staged pins match; output absent. This attempt was NOT_TESTED, not another security denial. Source owner must reconcile immutable metadata binding; no repin/overwrite/second retry. Flight/cloud/rearm remain unqualified.",
+      "observedSubcriteria": "Excluded from stable08. Documentation-only provenance mismatch reconciled without source change. Actual smoke-angle-03: one payload/ammo8\u21927;49position samples show49.587m travel and42.271m horizontal displacement; normal exit0/released. Narrow launch/flight PASS; strict case FAIL57 preserved. Capture intentionally off: cloud/fuse/coverage/alignment/full-empty/rearm/roles/dependency compatibility remain unqualified. No active smoke permission denial.",
       "remainingGates": [
-        "Source-owner immutable handoff binding reconciliation",
-        "Actual angle flight/fuse/cloud/empty/rearm/compatibility evidence"
+        "Visible cloud and fuse lifetime",
+        "Two-view rendered alignment/clearance on both V11 skins",
+        "Full/empty/ammo/cooldown and genuine rearm",
+        "Dependency localization compatibility",
+        "Physical input/crew roles",
+        "MP/JIP"
       ]
     },
     {
@@ -310,7 +315,7 @@
       }
     }
   },
-  "updatedUtc": "2026-10-22T08:24:27.553187+00:00",
+  "updatedUtc": "2026-10-22T08:42:40.714833+00:00",
   "nativeCheckpoints": {
     "ordinarySource": "private-demo-source-v6; actual compile06 PASS",
     "packages": "pack08 operational PASS; strict100 errors retained; installed08 two verified trios",
@@ -352,8 +357,9 @@
         "MP/JIP/dedicated"
       ]
     },
-    "smoke": "Excluded. Earlier stock-only automatic-review rejection was reconciled by new parent evidence. One exact retry reached validation and aborted BEFORE native: pinned task-4/smoke-supplier/SUPPLIER-HANDOFF.md differs (expected deeebfa9472c2242dfea8dc62c577cab3b35309d15b67a75b42f5bdb8e146919; actual 0d431d7b7ceeb0b57a774e1326453870672c2252f15ea2dc9d35f0591e048714). All1200 staged pins match; output absent. This attempt was NOT_TESTED, not another security denial. Source owner must reconcile immutable metadata binding; no repin/overwrite/second retry. Flight/cloud/rearm remain unqualified.",
-    "audio": "Separate boundedauthoring approval pending; excluded"
+    "smoke": "Excluded from stable08. Documentation-only provenance mismatch reconciled without source change. Actual smoke-angle-03: one payload/ammo8\u21927;49position samples show49.587m travel and42.271m horizontal displacement; normal exit0/released. Narrow launch/flight PASS; strict case FAIL57 preserved. Capture intentionally off: cloud/fuse/coverage/alignment/full-empty/rearm/roles/dependency compatibility remain unqualified. No active smoke permission denial.",
+    "audio": "Separate boundedauthoring approval pending; excluded",
+    "diagnosticSeverity08": "Source audit: GUI1+stock catalog WORLD7; shutdown SCRIPT2; postdestroy RESOURCES49. Four pack tails25each exact released1.0.2 signatures. No demonstrated live demo blocker; strictFAIL59/100 unchanged."
   },
   "latestService": {
     "status": "ONE_NATIVE_CAMO_LEFT_REFILL_OBSERVED_WHOLE_SERVICES_PENDING",

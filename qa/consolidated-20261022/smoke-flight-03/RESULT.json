@@ -1,0 +1,45 @@
+{
+  "status": "ONE_NATIVE_SMOKE_PAYLOAD_AND_FLIGHT_OBSERVED_CLOUD_NOT_TESTED_STRICT_FAIL_PRESERVED",
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-angle-03\\smoke-mechanism-control",
+  "resultSHA256": "0e49f7e58097b9cb199ea229b5c14648e2dc3304035fc30ac82e5b0c3f37b44e",
+  "consoleSHA256": "8d5db904e1193ee91076b58963c0f362be76e777739d420c8fd33b08d6b7b920",
+  "exitSHA256": "3131a273ab20663ea38f2312c6b113e48200cd567862a8349d5ee745077b27de",
+  "oneProgram": true,
+  "ammoBefore": 8,
+  "ammoAfter": 7,
+  "track": {
+    "id": "native:4000000000000078",
+    "validSamples": 49,
+    "computedTravel": 49.587241032476285,
+    "maxHorizontalDistanceFromFirstReadback": 42.27146627289779,
+    "flightMotionObserved": true,
+    "first": [
+      598.860595703125,
+      41.83543395996094,
+      2600.997802734375
+    ],
+    "last": [
+      586.4304809570312,
+      39.3694953918457,
+      2641.400390625
+    ]
+  },
+  "strictNativeErrorCount": 57,
+  "strictCase": "FAIL",
+  "captureEnabled": false,
+  "cloud": "NOT_TESTED",
+  "normalExit": true,
+  "leaseReleased": true,
+  "previousProvenanceFailurePreserved": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-angle-retry-01\\RESULT.json",
+  "correctedRequest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\deliverables\\handoff-provenance-v2\\smoke-cameraoff-job-handoff-v2.json",
+  "remaining": [
+    "Visible cloud and fuse lifetime",
+    "Two-view rendered alignment/clearance on both V11 skins",
+    "Full/empty/ammo/cooldown and genuine rearm",
+    "Dependency localization compatibility",
+    "Physical input/crew roles",
+    "MP/JIP"
+  ],
+  "includedInPackage08": false,
+  "audioAuthoringRemainsPending": true
+}

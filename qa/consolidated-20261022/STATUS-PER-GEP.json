@@ -116,12 +116,12 @@
     {
       "id": "GEP-015",
       "status": "Blocked",
-      "reason": "Excluded. Earlier stock-only automatic-review rejection was reconciled by new parent evidence. One exact retry reached validation and aborted BEFORE native: pinned task-4/smoke-supplier/SUPPLIER-HANDOFF.md differs (expected deeebfa9472c2242dfea8dc62c577cab3b35309d15b67a75b42f5bdb8e146919; actual 0d431d7b7ceeb0b57a774e1326453870672c2252f15ea2dc9d35f0591e048714). All1200 staged pins match; output absent. This attempt was NOT_TESTED, not another security denial. Source owner must reconcile immutable metadata binding; no repin/overwrite/second retry. Flight/cloud/rearm remain unqualified.",
+      "reason": "Excluded from stable08. Documentation-only provenance mismatch reconciled without source change. Actual smoke-angle-03: one payload/ammo8\u21927;49position samples show49.587m travel and42.271m horizontal displacement; normal exit0/released. Narrow launch/flight PASS; strict case FAIL57 preserved. Capture intentionally off: cloud/fuse/coverage/alignment/full-empty/rearm/roles/dependency compatibility remain unqualified. No active smoke permission denial.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": true,
-      "blocker": "Automatic approval review denied angle native launch before execution; flight/cloud/rearm qualification also missing.",
-      "blockingState": "AUTO_REVIEW_DENIED_BEFORE_LAUNCH_KNOWN_NONEXECUTION"
+      "blocker": "Inclusion qualification incomplete: actual visible cloud/fuse, V11 alignment, full-empty/rearm and compatibility untested.",
+      "blockingState": "FEATURE_EXCLUDED_PENDING_NATIVE_QUALIFICATION_NOT_ACCESS_DENIED"
     },
     {
       "id": "GEP-016",
@@ -276,9 +276,9 @@
     "Deferred": "Not pursued in this bounded functional slice; not a global blocker",
     "Active elsewhere": "Owned and progressing in a separate lane",
     "Needs verification": "Existing release evidence passes; one named verification remains",
-    "Blocked": "Concrete dependency prevents next planned work; current native authorization dialog for015/033"
+    "Blocked": "A named inclusion gate remains unsatisfied: feature runtime qualification for015, separate bounded authoring permission for033. Deferred work is not globally blocked."
   },
-  "updatedUtc": "2026-10-22T08:24:27.553187+00:00",
+  "updatedUtc": "2026-10-22T08:42:40.714833+00:00",
   "candidate": "ordinary source v6 / compile06 / pack08 / installed08; one left refill observed, whole services pending",
   "nativeCompile": "Actual ordinary-v6 compile06 PASS; historical board V3 compile/native observation retained separately. Compilation alone is not gameplay acceptance.",
   "nativeGameplay": "Package08 ordinary start and US provider observed; strict probe FAIL retained. Separate narrow left-refill observation does not mark services accepted.",

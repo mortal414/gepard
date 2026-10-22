@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-22T08:38:24.443211+00:00",
+  "status": "ROOT_INDEPENDENT_SAME_SCOPE_PROVENANCE_VERIFIED",
+  "originalRequest": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-Angle-QA-20261022\\smoke-cameraoff-job.json",
+    "sha256": "ecbf02284a3736c2c410d5d463a17f310cf43eb4b36683db6182a506fca1a52c"
+  },
+  "correctedRequest": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\deliverables\\handoff-provenance-v2\\smoke-cameraoff-job-handoff-v2.json",
+    "sha256": "7001f4f94e5c5d8345605336a786434bddb18c9f381c7b979fae17dd3fbccd12"
+  },
+  "onlyChangedLeaf": "/requiredFiles/18/sha256",
+  "originalDocumentBytesPreserved": 10494,
+  "documentationPrefixBytes": 219,
+  "verifiedRequestPins": 27,
+  "stagedClosureCounts": [
+    1147,
+    20,
+    30,
+    3
+  ],
+  "stagedPins": 1200,
+  "outputAbsent": true,
+  "unchanged": "Source, adapter, wrapper, project/world, WCS dependencies, camera-off one-round75s, flight thresholds, strict errors, ownership, cancellation and normal closure",
+  "originalFailurePreserved": true,
+  "nativeStarted": false,
+  "audioAuthoringRemainsPaused": true
+}

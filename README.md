@@ -16,8 +16,11 @@ The proving ground contains 31 owned roots, 23 boards, eight route gates and 100
 
 One source-bound camo **left-feed refill** was observed: 315 to 320 rounds, with the selected finite US-provider container falling from 1,000 to 997 supplies. The two other observed containers stayed unchanged; total observed supplies fell from 3,000 to 2,997. Pack08 includes the stock US M923 service-ammo provider; DamageAmmo remains the stock Ural. The original private case remains FAIL because of instrumentation mismatches, with 57 native errors retained. This is not a whole-service pass: right-feed, repeated/full/empty-negative checks, repair, refuel and human/MP acceptance remain pending. The guide offers one optional left-feed check.
 
-Smoke and new track audio remain excluded under separate gates: the earlier angle rejection was reconciled, but one exact retry aborted before native because the pinned supplier handoff differs; bounded audio authoring approval is pending. Stabilization and ballistic correction remain disabled/deferred. Stock cannon sounds are retained.
+Smoke and new track audio remain excluded under separate gates. The audited smoke angle replay now shows one payload and measurable flight; visible cloud, alignment and full/empty/rearm qualification remain pending. Bounded audio authoring approval is still pending. Stabilization and ballistic correction remain disabled/deferred. Stock cannon sounds are retained.
 
 No new GEP completion checkbox is checked. Preserved accepted driving, R and braking behavior is compatibility evidence, not new user homework. The manual session focuses on the new exterior, optic and proving-ground convenience. Historical failed results are preserved, and no upload or publication is included.
 
 [Manual test guide](TEST-GUIDE.md) gives the station sequence and open judgments. Root installs its exact sealed bytes separately.
+
+
+Current source/evidence audit: [59 startup and100 packing diagnostics classified](qa/consolidated-20261022/diagnostic-severity-08/REPORT.md). No demonstrated demo-blocking regression or justified stock-resource edit; strict raw failures remain. [Isolated smoke flight03](qa/consolidated-20261022/smoke-flight-03/RESULT.json) is a narrow observation, not smoke inclusion or GEP acceptance.
