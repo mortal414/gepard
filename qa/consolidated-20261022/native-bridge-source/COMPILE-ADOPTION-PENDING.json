@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "status": "NOT_TESTED",
+  "project": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\GEP_ApprovedHUD705_QA.gproj",
+  "compileRun": null,
+  "compilerResultSHA256": null,
+  "compilerConsoleSHA256": null,
+  "closures": [],
+  "reason": "Root must compile exact frozen stage after explicit user resume, verify normal compiler exit/release, refresh complete source manifests if generated files changed, and record those actual hashes here before replanning. No compile occurred in this preparation."
+}

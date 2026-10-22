@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_ASSEMBLY_PENDING_WORKER_HANDOFFS_AND_NATIVE_QUALIFICATION",
+  "status": "SOURCE_ASSEMBLED_PROVING_GROUND_BOUND_ART_AND_NATIVE_QUALIFICATION_PENDING",
   "createdUtc": "2026-10-22T00:55:37.066743+00:00",
   "goal": "One complete consolidated user session tomorrow, followed by update only if accepted; no piecemeal demos tonight",
   "sourceRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022",
@@ -59,14 +59,36 @@
   },
   "provingGround": {
     "sourceOwnerRoot": "D:\\ArmaProjects\\Gepard-ProvingGround-20261022",
-    "project": null,
-    "world": null,
-    "handoff": "PENDING_SOURCE_WORKER",
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\addon\\GepardProvingGround.gproj",
+    "world": "{A76A420022000002}Worlds/GPG_Arland.ent",
+    "handoff": "INTEGRATED_SOURCE_ONLY",
     "requirements": "D:\\ArmaProjects\\Gepard-ProvingGround-20261022\\FUNCTIONAL-INTEGRATION-REQUIREMENTS.json",
-    "duplicateWorldBuilding": false
+    "duplicateWorldBuilding": false,
+    "addonId": "A76A420022000001",
+    "sourceOwnerCommit": "d42a569e46ee63c0e676361814a67394f7695d9f",
+    "localSource": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground",
+    "sharedRuntimeSHA256": "13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d",
+    "variantLockSHA256": "60471d4ba74bbb195e6c205f8bf688b016e57f13487ec8776d76a4f8d7368fca",
+    "boundSlots": [
+      "OLD-CAMO",
+      "OLD-CHARCOAL"
+    ],
+    "unboundSlots": [
+      "NEW-CAMO",
+      "NEW-CHARCOAL"
+    ],
+    "comparisonScope": "prefab/configuration/art comparison with one shared script implementation; NOT two independent released-code runtimes",
+    "nativeCompile": "NOT_TESTED",
+    "nativeGameplay": "NOT_TESTED",
+    "hostiles": "OFF_QUALIFICATION_LOCKED",
+    "optionalWCSIncluded": false,
+    "stagedProject": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+    "freezeGuardRepair": "checks/FREEZE-GUARD-REPAIR.json; six registry/source/manifest tamper cases PASS"
   },
   "selectedRuntimeDependencies": [
-    "58D0FB3206B6F859 base Reforger"
+    "58D0FB3206B6F859 base Reforger",
+    "D561AD08932E7B40 one consolidated Gepard addon",
+    "A76A420022000001 private proving-ground child addon"
   ],
   "privateBuild": {
     "compile": "NOT_TESTED",
@@ -75,5 +97,24 @@
   },
   "releaseFilesChanged": false,
   "published": false,
-  "newAcceptedCheckboxes": 0
+  "newAcceptedCheckboxes": 0,
+  "updatedUtc": "2026-10-22T01:09:12.304546+00:00",
+  "sourceCodeBaselineCommit": "09e75342f5bd7f3fda3b40617104c956d150d316",
+  "nativeBridge": {
+    "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\native-bridge-source",
+    "sourceManifestSHA256": "70aa4f87166665b7c57c91c1ab9ee36c4ddafbcca125a58893750795e694d1ed",
+    "offlineChecks": 51,
+    "staticPlan": "PASS_EXISTING_HUD_MODULE_ONLY",
+    "provingGroundAdapter": "PENDING",
+    "execution": "NOT_ATTEMPTED_USER_HOLD_AND_COMPILE_ADOPTION_PENDING"
+  },
+  "sourceStaging": {
+    "status": "EXACT_SOURCE_COPIES_ONLY",
+    "closureDescriptor": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\SOURCE-CLOSURES.json",
+    "files": 1122,
+    "resourceDatabaseRebuilt": false,
+    "nativeCompile": "NOT_TESTED",
+    "runtime": "NOT_TESTED",
+    "packageTrio": "NOT_BUILT"
+  }
 }

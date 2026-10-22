@@ -1,0 +1,289 @@
+{
+  "scope": "Consolidated candidate ledger; inherited historical task acceptance plus current source integration. No new native or user acceptance. Not a fresh live tracker read.",
+  "trackerReadOnly": true,
+  "newCheckboxesChecked": 0,
+  "rows": [
+    {
+      "id": "GEP-001",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-002",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-003",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-004",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-005",
+      "status": "Needs user test",
+      "reason": "Approved concept implemented and source checked; actual final native compile/render, glyph/aspect/zoom/readability and user design approval pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-006",
+      "status": "Needs user test",
+      "reason": "Current approved-concept lifecycle not qualified. Prior fixture evidence retained; automate before final user session.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-007",
+      "status": "Deferred",
+      "reason": "Released stabilization hard-disabled; no qualified actual-motion LOS/actuator calibration.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-008",
+      "status": "Needs user test",
+      "reason": "German range presentation source integrated. Real C range acquisition/update/sky clear and lifecycle pending in exact final build.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-009",
+      "status": "Deferred",
+      "reason": "Released ballistic correction hard-disabled; no physical elevation/impact qualification at multiple ranges/feeds.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-010",
+      "status": "Needs user test",
+      "reason": "Conscious/exact-occupant guards compiled; requested Get in commander restored for exterior and internal actions; physical bindings/prompts remain Needs user test.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-011",
+      "status": "Deferred",
+      "reason": "Armor/crew-protection tuning outside this sprint; one fragment case cannot qualify realism.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-012",
+      "status": "Deferred",
+      "reason": "Independent turret damage remains stubbed while hull alive; no speculative damage rewrite.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-013",
+      "status": "Needs user test",
+      "reason": "One exact same-build native2m fragment-survivor case passed damage callbacks, traverse/fire, exit/reentry/refire; broader hull/turret destruction states unqualified.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-014",
+      "status": "Deferred",
+      "reason": "Real radar sensing/tracking not implemented; existing deployment remains cosmetic.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-015",
+      "status": "Blocked",
+      "reason": "Optional original WCS Armaments8.4.0 dependency integration staged separately,57source guards and16analyzer tests pass; launch/fuse/cloud/ammo/genuine finite-supply rearm not native-qualified. Excluded from core. Native action pending explicit user resume, not denied.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "genuineBlocker": true,
+      "blocker": "Native continuation pending manual resolution of owned Workbench PID56448 FileIO.FileExists authorization dialog",
+      "blockingState": "PENDING_USER_RUNTIME_RESUME_AND_NATIVE_QUALIFICATION_NOT_DENIED"
+    },
+    {
+      "id": "GEP-016",
+      "status": "Deferred",
+      "reason": "Interior/cabin lighting redesign outside sprint.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-017",
+      "status": "Needs user test",
+      "reason": "Active separate art owner preparing cumulative V11 functional source handoff. Prior static import/render checks passed; functional integration/articulation/clearance/performance and user judgment pending. NEW pads visibly unbound.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "ACTIVE_SEPARATE_ART_OWNER",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-018",
+      "status": "Needs user test",
+      "reason": "Quiet charcoal release increment accepted; whole skin/PBR/seam/LOD refinement remains unfinished. Preserved exactly.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-019",
+      "status": "Deferred",
+      "reason": "User-deferred custom cannon audio; released stock sounds retained, no renewed effort.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-020",
+      "status": "Needs user test",
+      "reason": "Native healthy exit/reentry and one fragment-survivor pass; repeated all-seat/hatch/periscope physical cycles still pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-021",
+      "status": "Needs user test",
+      "reason": "Intentional hidden Leave-periscope prompt preserved with F behavior; hold-F/commander actions need current-build physical regression.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-022",
+      "status": "Needs user test",
+      "reason": "Commander position/view offsets preserved pending Marco alignment judgment.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-023",
+      "status": "Needs user test",
+      "reason": "Released fuel contexts already authored both sides; actual side/reach/transfer not newly verified.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-024",
+      "status": "Needs user test",
+      "reason": "Inspected default/charcoal gunner post-reentry and on-foot readiness captures; complete all-seat/lifecycle debug-text inspection pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-025",
+      "status": "Deferred",
+      "reason": "Dedicated/MP/JIP qualification outside this single-player bounded batch.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-026",
+      "status": "Deferred",
+      "reason": "Console device/control/performance qualification unavailable in this PC batch; compile configuration is not console gameplay.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-027",
+      "status": "Needs user test",
+      "reason": "Release1.0.2 upload/server processing and packaged GM spawn tests previously passed; public webpage visibility independently unverified. No new publication requested or performed.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Release already uploaded and packaged-tested; public page only outstanding",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-028",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-029",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-030",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-031",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-032",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-033",
+      "status": "Blocked",
+      "reason": "Read-only stock rolling graph tracer staged; no qualified selective adaptation or audible pass. Excluded until graph/bank mechanism and actual same-route audio qualified. Native inspection pending user resume, not denied.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "genuineBlocker": true,
+      "blocker": "Native continuation pending manual resolution of owned Workbench PID56448 FileIO.FileExists authorization dialog",
+      "blockingState": "PENDING_USER_RUNTIME_RESUME_AND_NATIVE_QUALIFICATION_NOT_DENIED"
+    }
+  ],
+  "nativeSlot": "BLOCKED_OWNED_AUTHORIZATION_DIALOG_PENDING_MANUAL_DISMISSAL",
+  "nativePid": 56448,
+  "earliestManualCandidate": "cc5d0989376ed1d20ada109ce7c1ada5d96aac7e",
+  "productionSuccessor": "Get in commander restored; exactly3 guard scripts differ from release; all other1109 production files preserved",
+  "statusDefinitions": {
+    "Ready": "Previously accepted baseline preserved, no new whole-task acceptance",
+    "Needs user test": "Bounded candidate/evidence exists; Marco acceptance remains",
+    "Deferred": "Not pursued in this bounded functional slice; not a global blocker",
+    "Active elsewhere": "Owned and progressing in a separate lane",
+    "Needs verification": "Existing release evidence passes; one named verification remains",
+    "Blocked": "Concrete dependency prevents next planned work; current native authorization dialog for015/033"
+  },
+  "updatedUtc": "2026-10-22T01:12:34.189064+00:00",
+  "runtimeHoldActive": true,
+  "candidate": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\CANDIDATE-MANIFEST.json",
+  "nativeCompile": "NOT_TESTED",
+  "nativeGameplay": "NOT_TESTED"
+}

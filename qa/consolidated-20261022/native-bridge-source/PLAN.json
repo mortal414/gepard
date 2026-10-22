@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "status": "NOT_TESTED",
+  "reason": "Plan only; capabilities are declarations, native compile/load and behavior remain untested",
+  "job": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\hud-startup-job.json",
+  "jobSha256": "ac2bdcb5d3033a6a1f666a139c318fb31aeab3fc71495eb7f9a8bd08e2d3a6c5",
+  "template": "startup",
+  "templateSha256": "f9cdb4cf78db36f912c094cee6aba0a40834870e95155a221a700b6cc8959672",
+  "project": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\GEP_ApprovedHUD705_QA.gproj",
+  "projectGuid": "7E0050C026102500",
+  "world": "Worlds/GEP_ApprovedRender705.ent",
+  "dependencies": {
+    "7E0050C026102500": {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\GEP_ApprovedHUD705_QA.gproj",
+      "dependencies": [
+        "58D0FB3206B6F859",
+        "D561AD08932E7B40"
+      ]
+    },
+    "58D0FB3206B6F859": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\ArmaReforger.gproj",
+      "dependencies": [
+        "5614BBCCBB55ED1C"
+      ]
+    },
+    "5614BBCCBB55ED1C": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\core\\core.gproj",
+      "dependencies": []
+    },
+    "D561AD08932E7B40": {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\gepard\\Gepard.gproj",
+      "dependencies": [
+        "58D0FB3206B6F859"
+      ]
+    }
+  },
+  "classDefinitions": {
+    "GEP_Approved705Scene": [
+      "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\scripts\\Game\\GEPApproved705\\GEP_Approved705Scene.c"
+    ],
+    "GEP_ApprovedRenderProbe705": [
+      "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\scripts\\Game\\GEPApproved705\\GEP_ApprovedRenderProbe705.c"
+    ],
+    "GEP_GunStatus": [
+      "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_GunStatus.c"
+    ]
+  },
+  "pins": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\GEP_ApprovedHUD705_QA.gproj",
+      "bytes": 264,
+      "sha256": "e6ebdc66ba5c3cb010bea790056633066304e04588c48ec71e92b9672d96b779"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\Worlds\\GEP_ApprovedRender705.ent",
+      "bytes": 98,
+      "sha256": "cf00a73dfad190345def5899fa6ae7f258437423e5857967b1152ac0caea6bf5"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\ArmaReforger.gproj",
+      "bytes": 47588,
+      "sha256": "4afb075b47d57d1a8af8b1b2bd7a76e65d456074aeafcd8bdcd92c98fb48a85c"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\core\\core.gproj",
+      "bytes": 2356,
+      "sha256": "d27c2324743cb3c63839ce22f0b371347bdf0aa90e17067a0da8f40a75047dec"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\gepard\\Gepard.gproj",
+      "bytes": 666,
+      "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\adapter.py",
+      "bytes": 14135,
+      "sha256": "a01c81c6bd064ec6c4b8b8438ab6458f182d3653ed7df35b7baab5a577774b1c"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\evidence.py",
+      "bytes": 6434,
+      "sha256": "6b8f7ffcdd2443839f614b7d8751b10980e3bc25bbfd855ec373f802d0faa91a"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\tools\\Scene.ps1",
+      "bytes": 12080,
+      "sha256": "ee51181df9cfbfefe0346209e5acb908bb0555d44a24c70e2363790f8063f32f"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\COMPILE-ADOPTION-PENDING.json",
+      "bytes": 538,
+      "sha256": "b1e5992bc16b11392b5d7f235616778daeff0098517c995220bf388c2322defa"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\SOURCE-CLOSURES.json",
+      "bytes": 444,
+      "sha256": "a279cbec2ba9bb4be776265978a5fdf8eaca1787bae63c866ddaf8889cce2f44"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\GEPARD_SOURCE_MANIFEST.json",
+      "bytes": 143906,
+      "sha256": "b2649c3ec7a11939853c87d3953cec5e65b2e1e55ada6fa64a778cc029a02da3"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\QA_SOURCE_MANIFEST.json",
+      "bytes": 1026,
+      "sha256": "1e36e6b8b1716178ce9973979cfe691c1e616383d571b90d63f78388bb576cfe"
+    },
+    {
+      "path": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+      "bytes": 301368,
+      "sha256": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe",
+      "bytes": 40060472,
+      "sha256": "51f941dee28bda7865e2428d7fc92fcbe7c5c7ff666caf642c0ff23c2aced457"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\scripts\\Game\\GEPApproved705\\GEP_Approved705Scene.c",
+      "bytes": 4624,
+      "sha256": "6250328e9b5725ad678265a6a1289af598bb454c78de19287e9a5d1f35b79bb2"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\scripts\\Game\\GEPApproved705\\GEP_ApprovedRenderProbe705.c",
+      "bytes": 5678,
+      "sha256": "2ea0dcb84764034bf36ba509e2d529c0b09c1c96aa58dd7b7a84df2ac283607b"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_GunStatus.c",
+      "bytes": 36913,
+      "sha256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966"
+    }
+  ],
+  "executable": {
+    "path": "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "bytes": 103192,
+    "sha256": "5923b0694874cee74169c2dffdc14ef3cbd8c0228964fd0f6348e4df8cb3c5f4"
+  },
+  "script": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\adapter.py",
+  "args": [
+    "{script}",
+    "{request}",
+    "{result}",
+    "{cancel}"
+  ],
+  "coordinator": {
+    "path": "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\tools\\workflow.py",
+    "bytes": 30420,
+    "sha256": "7dddb20a91f98f8613819e69dd68076f6e80b50cb80fbeb1b809609831b75eac"
+  },
+  "capabilities": [
+    "isolated-reset",
+    "owned-lifecycle",
+    "native-load"
+  ],
+  "cases": [
+    {
+      "id": "hud-render-startup",
+      "parameters": {
+        "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\tools\\Scene.ps1",
+        "wrapperSHA256": "ee51181df9cfbfefe0346209e5acb908bb0555d44a24c70e2363790f8063f32f",
+        "powerShell": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "closures": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\SOURCE-CLOSURES.json",
+        "closurePinSHA256": "a279cbec2ba9bb4be776265978a5fdf8eaca1787bae63c866ddaf8889cce2f44",
+        "completeManifestPins": {
+          "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\GEPARD_SOURCE_MANIFEST.json": "b2649c3ec7a11939853c87d3953cec5e65b2e1e55ada6fa64a778cc029a02da3",
+          "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\QA_SOURCE_MANIFEST.json": "1e36e6b8b1716178ce9973979cfe691c1e616383d571b90d63f78388bb576cfe"
+        },
+        "compileAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\COMPILE-ADOPTION-PENDING.json",
+        "addonId": "7E0050C026102500",
+        "seconds": 60,
+        "screenWidth": 1280,
+        "screenHeight": 720,
+        "adapterDeadlineSeconds": 100,
+        "childLogLimitBytes": 4194304
+      },
+      "assertions": [
+        "fixture.ready",
+        "world.loaded",
+        "hud.scripted-ads",
+        "hud.capture-file",
+        "hud.actual-data",
+        "native.errors"
+      ]
+    }
+  ],
+  "timeoutSeconds": 130,
+  "closeGraceSeconds": 35,
+  "limits": "GAME or compile alone proves startup only. Validate serialized classes and attributes in a native load."
+}

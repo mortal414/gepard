@@ -1,0 +1,19 @@
+{
+  "HUD-render-startup": {
+    "status": "SOURCE_BOUND_AND_STATICALLY_PLANNED",
+    "native": "NOT_TESTED"
+  },
+  "proving-ground-world": {
+    "status": "NOT_BOUND",
+    "native": "NOT_TESTED",
+    "owner": "Separate world worker"
+  },
+  "consolidated-user-session": {
+    "status": "NOT_YET_QUALIFIED",
+    "native": "NOT_TESTED"
+  },
+  "optional-art-smoke-audio-fire-control-refuel-damage-MP": {
+    "status": "NOT_BOUND",
+    "native": "NOT_TESTED"
+  }
+}

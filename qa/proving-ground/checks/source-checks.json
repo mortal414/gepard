@@ -1,0 +1,14 @@
+{
+  "status": "PASS_SOURCE_CHECKS_ONLY",
+  "nativeStatus": "NOT_TESTED",
+  "damageBaySeparationMetres": 800.0,
+  "targetHorizontalDistances": "PASS",
+  "subjectMutationSettersAbsent": true,
+  "hostileQualificationGate": true,
+  "slotsBound": 2,
+  "unboundSlots": [
+    "NEW-CAMO",
+    "NEW-CHARCOAL"
+  ],
+  "nativeBlocker": "User runtime hold and no delegated runtime slot"
+}

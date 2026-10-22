@@ -1,0 +1,23 @@
+{
+  "status": "SOURCE_PATCH_ONLY_NATIVE_NOT_TESTED",
+  "upstream": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\tools\\Scene.ps1",
+  "upstreamSHA256": "5edf3dc6d6775d87260073e2b7643b2b92d6ee88c7366b1ae8b8062f22f3e3a9",
+  "patchedSHA256": "ee51181df9cfbfefe0346209e5acb908bb0555d44a24c70e2363790f8063f32f",
+  "changes": [
+    "Read run-specific cancellation path from environment",
+    "Reject shared user runtime hold before admission AND immediately before any owned CloseMainWindow",
+    "Refuse launch when already cancelled",
+    "Check cancellation in both exact-owned runtime loops",
+    "Route cancellation through original guarded CloseMainWindow branch only while hold inactive",
+    "Retain cancellation bit in exit receipt"
+  ],
+  "unchanged": [
+    "Atomic lease claim/attach/release",
+    "Exact PID/executable/birth/parsed argv",
+    "Complete source closure guard",
+    "Hidden default; no force termination",
+    "15-second close grace then preserve uncertainty"
+  ],
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED"
+}

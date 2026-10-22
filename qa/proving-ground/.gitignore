@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+native-runs/
+package/
+.cache/
+addon/resourceDatabase.rdb

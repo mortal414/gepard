@@ -1,0 +1,8 @@
+{
+  "status": "REVIEWED_SOURCE_ARCHIVE_NOT_RELOCATED_EXECUTION_BINDING",
+  "originalRoot": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022",
+  "originalManifestSHA256": "70aa4f87166665b7c57c91c1ab9ee36c4ddafbcca125a58893750795e694d1ed",
+  "pathsRemainBoundToOriginalLocation": true,
+  "beforeUse": "Regenerate reviewed paths and complete source pins with prepare_job.py, then static plan. Do not execute under hold.",
+  "caseScope": "Existing approved HUD module only; GPG station/world protocol not yet bound."
+}

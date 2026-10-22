@@ -1,0 +1,48 @@
+{
+  "status": "PASS_SOURCE_INTEGRATION_ONLY_NATIVE_NOT_TESTED",
+  "createdUtc": "2026-10-22T01:09:12.348879+00:00",
+  "ownerCommit": "d42a569e46ee63c0e676361814a67394f7695d9f",
+  "sourceCodeBaselineCommit": "09e75342f5bd7f3fda3b40617104c956d150d316",
+  "sharedAddonFilesVerified": 1112,
+  "sharedAddonSHA256": "13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d",
+  "originalWorldClosureSHA256": "1f80377f53c09c0abe928d1d7b82d55d374d5e9dae8a4ba81a2df0acb648baf1",
+  "originalWorldFileSHA256": "eb1959b7c17f18e0c1a13b8b8346cc2b798109024e20e22edd364674590c3a58",
+  "integratedWorldFileSHA256": "eb1959b7c17f18e0c1a13b8b8346cc2b798109024e20e22edd364674590c3a58",
+  "generatedChecks": [
+    {
+      "command": [
+        "tools/generate.py",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "{\"status\": \"PASS_SOURCE_CHECKS_ONLY\", \"nativeStatus\": \"NOT_TESTED\", \"damageBaySeparationMetres\": 800.0, \"targetHorizontalDistances\": \"PASS\", \"subjectMutationSettersAbsent\": true, \"hostileQualificationGate\": true, \"slotsBound\": 2, \"unboundSlots\": [\"NEW-CAMO\", \"NEW-CHARCOAL\"], \"nativeBlocker\": \"User runtime hold and no delegated runtime slot\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/generate.py",
+        "--verify-lock"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS_FROZEN_SOURCE_ONLY; native compile/gameplay remains NOT_TESTED\n",
+      "stderr": ""
+    }
+  ],
+  "bridgeSelectedFilesVerified": 17,
+  "bridgeExecutionBindingRelocated": false,
+  "unboundArt": [
+    "NEW-CAMO",
+    "NEW-CHARCOAL"
+  ],
+  "runtimeHoldActive": true,
+  "nativeStarted": false,
+  "GUIAction": false,
+  "leaseMutated": false,
+  "published": false,
+  "recoveredAttempt": {
+    "action": "pre-copy identity assertion",
+    "failure": "Interpreted handoff worldSourceSha256 as single-world-file hash; field actually pins aggregate world source manifest",
+    "sourceOrLeaseMutationsBeforeFailure": false,
+    "repair": "Verify canonical aggregate and every declared source file; record separate closure and file hashes"
+  }
+}

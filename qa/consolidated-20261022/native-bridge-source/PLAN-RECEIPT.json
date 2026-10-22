@@ -1,0 +1,34 @@
+{
+  "status": "STATIC_PLAN_AND_COMPLETE_SOURCE_PINS_PASS_NATIVE_NOT_TESTED",
+  "jobSHA256": "ac2bdcb5d3033a6a1f666a139c318fb31aeab3fc71495eb7f9a8bd08e2d3a6c5",
+  "planSHA256": "fbe33663e8db7f75771019e176df336b5e8110730d6787efa4aa8d5c1761e1b8",
+  "coordinatorSHA256": "7dddb20a91f98f8613819e69dd68076f6e80b50cb80fbeb1b809609831b75eac",
+  "projectGuid": "7E0050C026102500",
+  "dependencies": [
+    "7E0050C026102500",
+    "58D0FB3206B6F859",
+    "5614BBCCBB55ED1C",
+    "D561AD08932E7B40"
+  ],
+  "completeClosures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\GEPARD_SOURCE_MANIFEST.json",
+      "sha256": "b2649c3ec7a11939853c87d3953cec5e65b2e1e55ada6fa64a778cc029a02da3",
+      "files": 1112
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA",
+      "manifest": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\qa\\optic-approved-20261022\\QA_SOURCE_MANIFEST.json",
+      "sha256": "1e36e6b8b1716178ce9973979cfe691c1e616383d571b90d63f78388bb576cfe",
+      "files": 9
+    }
+  ],
+  "registryMutated": false,
+  "nativeStarted": false,
+  "adapterMainInvoked": false,
+  "wrapperInvoked": false,
+  "userHold": "UNCHANGED; explicit user resume still required",
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED"
+}

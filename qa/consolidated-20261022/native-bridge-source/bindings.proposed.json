@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "bindings": {
+    "gepard-consolidated-hud-startup": {
+      "job": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\hud-startup-job.json",
+      "description": "Private source-prepared approved HUD startup bridge; hold/compile/native qualification pending. No whole GEP acceptance.",
+      "outputRoot": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\future-evidence"
+    }
+  }
+}

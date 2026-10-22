@@ -1,0 +1,8 @@
+{
+  "status": "PASS_SOURCE_GUARD_REPAIR_ONLY",
+  "reason": "Original verify-lock checked runtime/world files but did not reject registry drift. Coordinator copy now verifies all three registries and canonical manifest digests. Owner source remains untouched.",
+  "testExitCode": 0,
+  "stdout": "{\n  \"status\": \"PASS_OFFLINE_ONLY\",\n  \"checks\": 6,\n  \"cases\": [\n    {\n      \"case\": \"unchanged\",\n      \"status\": \"PASS\",\n      \"expected\": \"accept\",\n      \"observed\": \"accepted unchanged source\"\n    },\n    {\n      \"case\": \"registry-edit\",\n      \"status\": \"PASS\",\n      \"expected\": \"reject\",\n      \"observed\": \"FAIL: registry changed since freeze; review and regenerate\"\n    },\n    {\n      \"case\": \"world-edit\",\n      \"status\": \"PASS\",\n      \"expected\": \"reject\",\n      \"observed\": \"FAIL: world source changed since lock\"\n    },\n    {\n      \"case\": \"world-extra-file\",\n      \"status\": \"PASS\",\n      \"expected\": \"reject\",\n      \"observed\": \"FAIL: world source changed since lock\"\n    },\n    {\n      \"case\": \"manifest-digest-edit\",\n      \"status\": \"PASS\",\n      \"expected\": \"reject\",\n      \"observed\": \"FAIL: world source manifest aggregate differs\"\n    },\n    {\n      \"case\": \"runtime-digest-edit\",\n      \"status\": \"PASS\",\n      \"expected\": \"reject\",\n      \"observed\": \"FAIL: shared runtime closure changed; review and regenerate\"\n    }\n  ],\n  \"nativeStarted\": false\n}\n",
+  "stderr": "",
+  "nativeStarted": false
+}

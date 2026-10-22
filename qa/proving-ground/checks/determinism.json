@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SOURCE_GENERATION_ONLY",
+  "identicalRuns": 2,
+  "files": {
+    "addon/scripts/Game/GPG_Layout.c": "1e08b1abe3b00339453e98fb5cd95b8c3aa9da7a3fb85b8678cca5d98375001d",
+    "addon/scripts/Game/GPG_Resources.c": "b1edde5d0879c279311cabd89d1b06799755ba66bbc95742a201db30d2655102",
+    "checks/variant-lock.json": "4d6a72c51545061fce4e012622eb3a195c83e6c59ecd27984de348fbf3981438",
+    "checks/world-source-manifest.json": "3d5cd2535e287a2db99be537da39280289af74e93e6ba2b1db3cd0fa87c30d86",
+    "checks/coverage.json": "948c64ebdafe806e0a52e6d1497fdd84d029c13a3598b3cc724b1ad19b5de231"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "status": "PASS_OFFLINE_ONLY",
+  "scope": "Synthetic parser/guard/source contracts only; adapter.main, Popen and native wrapper were never invoked",
+  "checkCount": 51,
+  "checks": [
+    {
+      "name": "ordered-current-source-markers",
+      "pass": true
+    },
+    {
+      "name": "reject:wrong-world",
+      "pass": true
+    },
+    {
+      "name": "reject:duplicate-gepard",
+      "pass": true
+    },
+    {
+      "name": "reject:wrong-style",
+      "pass": true
+    },
+    {
+      "name": "reject:wrong-case",
+      "pass": true
+    },
+    {
+      "name": "reject:not-seated",
+      "pass": true
+    },
+    {
+      "name": "reject:hidden-hud",
+      "pass": true
+    },
+    {
+      "name": "reject:loading-player",
+      "pass": true
+    },
+    {
+      "name": "reject:stale-widget-count",
+      "pass": true
+    },
+    {
+      "name": "reject:non-German-zoom",
+      "pass": true
+    },
+    {
+      "name": "reject:invalid-group",
+      "pass": true
+    },
+    {
+      "name": "reject:unknown-zoom",
+      "pass": true
+    },
+    {
+      "name": "reject-duplicate-terminal",
+      "pass": true
+    },
+    {
+      "name": "reject-editor-init-without-GAME",
+      "pass": true
+    },
+    {
+      "name": "reject-marker-reordering",
+      "pass": true
+    },
+    {
+      "name": "accept-data:valid-range",
+      "pass": true
+    },
+    {
+      "name": "accept-data:no-return",
+      "pass": true
+    },
+    {
+      "name": "accept-data:unavailable",
+      "pass": true
+    },
+    {
+      "name": "native-errors-retained-not-suppressed",
+      "pass": true
+    },
+    {
+      "name": "fresh-native-BMP-header-payload-contract",
+      "pass": true
+    },
+    {
+      "name": "reject-stale-image",
+      "pass": true
+    },
+    {
+      "name": "reject-wrong-dimensions",
+      "pass": true
+    },
+    {
+      "name": "reject-truncated-pixel-body",
+      "pass": true
+    },
+    {
+      "name": "reject-ambiguous-profile-image",
+      "pass": true
+    },
+    {
+      "name": "complete-source-closure-contract",
+      "pass": true
+    },
+    {
+      "name": "reject-added-unpinned-source",
+      "pass": true
+    },
+    {
+      "name": "pending-compile-refuses-admission",
+      "pass": true
+    },
+    {
+      "name": "hold:status-hold",
+      "pass": true
+    },
+    {
+      "name": "hold:nested-hold",
+      "pass": true
+    },
+    {
+      "name": "hold:malformed-hold",
+      "pass": true
+    },
+    {
+      "name": "hold:inactive-hold",
+      "pass": true
+    },
+    {
+      "name": "hold:absent-hold",
+      "pass": true
+    },
+    {
+      "name": "same-identity-normal-exit-release-contract",
+      "pass": true
+    },
+    {
+      "name": "lifecycle-reject:wrong-lease",
+      "pass": true
+    },
+    {
+      "name": "lifecycle-reject:still-owned",
+      "pass": true
+    },
+    {
+      "name": "lifecycle-reject:not-released",
+      "pass": true
+    },
+    {
+      "name": "argument-array-preserves-wrapper-token",
+      "pass": true
+    },
+    {
+      "name": "bounded-hidden-only-command",
+      "pass": true
+    },
+    {
+      "name": "future-world-unbound-rejected",
+      "pass": true
+    },
+    {
+      "name": "censored-result-has-no-behavior-PASS",
+      "pass": true
+    },
+    {
+      "name": "all-censored-and-human-checks-NOT_TESTED",
+      "pass": true
+    },
+    {
+      "name": "wrapper:same-one-normal-close-path",
+      "pass": true
+    },
+    {
+      "name": "wrapper:same-identity-guards",
+      "pass": true
+    },
+    {
+      "name": "wrapper:no-force-kill",
+      "pass": true
+    },
+    {
+      "name": "wrapper:cancel-before-native-and-in-owned-loops",
+      "pass": true
+    },
+    {
+      "name": "wrapper:uncertain-close-retains-lease",
+      "pass": true
+    },
+    {
+      "name": "wrapper:dry-run-still-exits-before-execute-branch",
+      "pass": true
+    },
+    {
+      "name": "wrapper:user-hold-guards-before-GUI-close",
+      "pass": true
+    },
+    {
+      "name": "wrapper:atomic-claim-hold-check",
+      "pass": true
+    },
+    {
+      "name": "wrapper:inactive-shared-hold-field-preserved",
+      "pass": true
+    },
+    {
+      "name": "wrapper:hold-never-cleared-by-release",
+      "pass": true
+    }
+  ],
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED",
+  "holdRespected": true
+}

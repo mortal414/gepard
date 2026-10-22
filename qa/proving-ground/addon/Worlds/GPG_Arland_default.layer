@@ -1,0 +1,11 @@
+SCR_FactionManager GPGFactions : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {}
+SCR_BaseGameMode GPGGameMode : "{B00D51315A1C7150}Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Automatic.et" {
+ components {
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic GPG_ManualSpawnLogic "{A76A420022000010}" { m_sForcedFaction "US" }
+  }
+ }
+}
+SCR_LoadoutManager GPGLoadouts : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {}
+RadioManagerEntity GPGRadio : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {}
+GPG_Director GPGDirector { coords 600 50 2600 }

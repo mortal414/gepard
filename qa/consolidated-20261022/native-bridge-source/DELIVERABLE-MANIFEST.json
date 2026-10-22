@@ -1,0 +1,111 @@
+{
+  "status": "SOURCE_ONLY_READY_NATIVE_BLOCKED_BY_USER_HOLD_AND_PENDING_QUALIFICATION",
+  "files": [
+    {
+      "relative": "README.md",
+      "sha256": "c06a3640e40e6b8711987fab80dcf6fff5f49dff0ba24fe195de115ffe8d6f11",
+      "bytes": 9047
+    },
+    {
+      "relative": "adapter.py",
+      "sha256": "a01c81c6bd064ec6c4b8b8438ab6458f182d3653ed7df35b7baab5a577774b1c",
+      "bytes": 14135
+    },
+    {
+      "relative": "evidence.py",
+      "sha256": "6b8f7ffcdd2443839f614b7d8751b10980e3bc25bbfd855ec373f802d0faa91a",
+      "bytes": 6434
+    },
+    {
+      "relative": "prepare_job.py",
+      "sha256": "5242abb5becb4a23ce92e1ce98d6903e94b3e8d6cc6e7fbd9ef6dbd58a14d8b9",
+      "bytes": 8849
+    },
+    {
+      "relative": "plan_job.py",
+      "sha256": "db2fd3e55079a79194d513c5886668451cc7546c879e97752a51d5cca00e16d7",
+      "bytes": 1604
+    },
+    {
+      "relative": "selftest.py",
+      "sha256": "290d263630c32594953a66a05a9d0a0480e443b757235dc7ae56beab5749746f",
+      "bytes": 11535
+    },
+    {
+      "relative": "seal_bridge.py",
+      "sha256": "e56138fe13c077a6c23d4e2cafb91333fd508787fc9ef4e97099d3487c1a98b6",
+      "bytes": 2417
+    },
+    {
+      "relative": "tools/Scene.ps1",
+      "sha256": "ee51181df9cfbfefe0346209e5acb908bb0555d44a24c70e2363790f8063f32f",
+      "bytes": 12080
+    },
+    {
+      "relative": "tools/Scene-cancellation.patch",
+      "sha256": "8f49e1dbbcbd738bee82cd348815ef0ac88278847a599f513b970ef05a23c169",
+      "bytes": 7131
+    },
+    {
+      "relative": "WRAPPER-PATCH.json",
+      "sha256": "4fad300884f1611e719930de0bf10cc92558f650fa028db99f476a9a1e9dec9a",
+      "bytes": 1085
+    },
+    {
+      "relative": "hud-startup-job.json",
+      "sha256": "ac2bdcb5d3033a6a1f666a139c318fb31aeab3fc71495eb7f9a8bd08e2d3a6c5",
+      "bytes": 4966
+    },
+    {
+      "relative": "bindings.proposed.json",
+      "sha256": "edd52ce38b43c9928e303ab6c38a6e307ec3b479b18755e604fd1cf5467d1f23",
+      "bytes": 474
+    },
+    {
+      "relative": "COMPILE-ADOPTION-PENDING.json",
+      "sha256": "b1e5992bc16b11392b5d7f235616778daeff0098517c995220bf388c2322defa",
+      "bytes": 538
+    },
+    {
+      "relative": "PLAN.json",
+      "sha256": "fbe33663e8db7f75771019e176df336b5e8110730d6787efa4aa8d5c1761e1b8",
+      "bytes": 8658
+    },
+    {
+      "relative": "PLAN-RECEIPT.json",
+      "sha256": "a943ae99296ac372b2944aeb9f37c53d02d615feee2242ac353d4f8f1027d82b",
+      "bytes": 1451
+    },
+    {
+      "relative": "SELFTEST-RESULT.json",
+      "sha256": "1e2d81c8c4248c9bf8065398d21b56236fcdcce61f19d385fd811d1612b1d1fa",
+      "bytes": 4460
+    },
+    {
+      "relative": "MODULE-STATUS.json",
+      "sha256": "0ec038a891fcb4d8bd929aa7d8292b05e79246a03551d2ea5de2ce600815b8d9",
+      "bytes": 479
+    }
+  ],
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED",
+  "adapterMainInvoked": false,
+  "wrapperInvoked": false,
+  "nativeStarted": false,
+  "GUIOrRecorderAction": false,
+  "leaseMutated": false,
+  "DWrite": false,
+  "liveRegistryChanged": false,
+  "sourceFileCountVerified": 1121,
+  "blocker": {
+    "action": "Execute first native HUD startup/capture qualification through authoritative harness",
+    "target": "Existing hudQA GEP_ApprovedRender705 scene",
+    "state": "PENDING_USER_RESUME_AND_NATIVE_QUALIFICATION",
+    "reason": "Explicit user runtime hold; no automatic resume. Real exact-stage compile/adoption, wrapper cancellation/hold/closure native qualification still missing."
+  },
+  "excluded": [
+    "__pycache__",
+    "gep-bridge-offline-*",
+    "plan-history"
+  ]
+}

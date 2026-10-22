@@ -1,0 +1,76 @@
+{
+  "bay": {
+    "assertions": [
+      "fixture.ready",
+      "identity.prefab",
+      "identity.shared-scripts",
+      "crew.occupied",
+      "crew.exit",
+      "crew.reentry"
+    ],
+    "status": "NOT_TESTED",
+    "reset": "bay"
+  },
+  "drive": {
+    "assertions": [
+      "drive.powered",
+      "drive.signed-progress",
+      "drive.reverse",
+      "drive.stop-dwell",
+      "drive.turn-radius",
+      "drive.slope",
+      "drive.contact-material"
+    ],
+    "status": "NOT_TESTED",
+    "reset": "none"
+  },
+  "service": {
+    "assertions": [
+      "service.fuel-transfer",
+      "service.provider-cost",
+      "service.rearm-left",
+      "service.rearm-right",
+      "service.repair",
+      "service.supplies-cost"
+    ],
+    "status": "NOT_TESTED",
+    "reset": "service"
+  },
+  "range": {
+    "assertions": [
+      "range.survey",
+      "range.visibility",
+      "weapon.left",
+      "weapon.right",
+      "weapon.twin",
+      "range.measurement",
+      "range.impact"
+    ],
+    "status": "NOT_TESTED",
+    "reset": "range"
+  },
+  "damage": {
+    "assertions": [
+      "stimulus.native",
+      "damage.observed",
+      "zones.topology",
+      "post-hit.traverse",
+      "post-hit.fire",
+      "post-hit.drive",
+      "crew.exit",
+      "crew.reentry"
+    ],
+    "status": "NOT_TESTED",
+    "reset": "damage"
+  },
+  "hostile": {
+    "assertions": [
+      "enemy.opt-in",
+      "enemy.boundary",
+      "enemy.cleanup",
+      "enemy.backstop"
+    ],
+    "status": "NOT_TESTED",
+    "reset": "hostile"
+  }
+}
