@@ -1,0 +1,30 @@
+{
+  "status": "STAGED_TWO_FILE_COMPLETION_SUCCESSOR_COMPILE_PENDING",
+  "source": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-core-stage\\gepard",
+  "target": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-core-completion-stage\\gepard",
+  "sourceFiles": 1162,
+  "changedFiles": [
+    {
+      "path": "scripts/Game/GEP/GEP_CoreWheeledCourse20261022.c",
+      "preimageSHA256": "979298797ac521cbbd726f28a3e5d692d1453e993061200ca7f426ebb79282d8",
+      "proposedSHA256": "8bf0ab93ca244513fd485413bf448a85e4d069ac65316e6355920ab6365e4b1b",
+      "beforeBytes": 8649,
+      "afterBytes": 8789
+    },
+    {
+      "path": "scripts/Game/GEP/GEP_DamageScenario683.c",
+      "preimageSHA256": "906e68ae58fae03a68acb443e120ecfb4ca76016b2e7b9d3bbba3167df310680",
+      "proposedSHA256": "5db18eb61dce373bb90212d8d34f339d3bb1bf596bc63915e336efe04935c2e2",
+      "beforeBytes": 39172,
+      "afterBytes": 39184
+    }
+  ],
+  "compileWrapper": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\tools\\CompileCoreCompletionQA.ps1",
+  "compileWrapperOriginalSHA256": "39f1b34ef1be619142d591cd64dc53caf61f9eef12de8a44b1020e0bb4da3ce5",
+  "compileWrapperProposedSHA256": "600d60e6683d1cb4ac9acc34613974a1aaa961b29e2454d02693d3aec8098ff0",
+  "compile": "PENDING",
+  "healthy": "PENDING_FRESH_BOTH",
+  "wheeled": "PENDING",
+  "nativeStarted": false,
+  "sourceClosureSHA256": "9abab3355822fb318b35b2d5f4ff21eff652b7278f6864b6cc0fdbb1bbb421d8"
+}

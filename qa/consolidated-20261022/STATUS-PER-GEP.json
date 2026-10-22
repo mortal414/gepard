@@ -34,14 +34,14 @@
     {
       "id": "GEP-005",
       "status": "Needs user test",
-      "reason": "ApprovedGermanHUD nativeinitialdata/capture observed plusactualburst318each; missingglyphs diagnosed. Two-fileASCII successor sourceintegrated, compile/render/userjudgmentpending; wholeunchecked.",
+      "reason": "Approved larger German HUD integrated;ASCII successor native initial1280x720/2.0x pixelreview PASS;allzoom/aspects and userdesign judgment pending. Whole task unchecked.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false
     },
     {
       "id": "GEP-006",
       "status": "Needs user test",
-      "reason": "BothhealthyV11 scriptedADS/fire/exit/reentry/refirePASS. FullHUDselection/range/zoom/menu/seat lifecycle and newglyphrender stillpending; no taskclosure.",
+      "reason": "Both skins healthy/fragment scriptedADS/fire/exit/reentry pass. Exact finalHUD alltransition/range/menu/selection lifecycle pending.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false
     },
@@ -99,7 +99,7 @@
     {
       "id": "GEP-013",
       "status": "Needs user test",
-      "reason": "Both V11 skins passed fresh native 2m fragment cases: surviving crew, traverse/elevation, both feeds, public exit/re-entry and refire; normal exit0/released. Bounded automated evidence, not realistic protection or whole-task acceptance.",
+      "reason": "Both skins actual2mfragment damage/conscious survivor/publicexit/reentry/traverse/refire PASS. Limited stimulus only;whole task and humanacceptance unfinished.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": false
@@ -116,7 +116,7 @@
     {
       "id": "GEP-015",
       "status": "Blocked",
-      "reason": "WCS8.4.0 optionalintegrationexcluded. Recoveredfailedcamera runobserved8to7/onepayload/0.276m downward. Exactcameraoffrepair staged+compiling; angle-ordercounterfactual separate; flight/cloud/empty/rearm/compatibility notqualified.",
+      "reason": "WCSdeclareddependency candidate isolated. Actualcontrol8to7/onepayloadPASS but0mflight;anglecounterfactual compiledPASS. Nativeanglelaunch denied byauto-review beforeexecution due stale stock-only interpretation; noretry/bypass. Cloud/empty/rearm/compatibility pending.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": true,
@@ -135,7 +135,7 @@
     {
       "id": "GEP-017",
       "status": "Needs user test",
-      "reason": "Separateartowner35additivefiles integrated; all5FBXsnativelyrebuilt andnewhashesverified. ART4 actual5models57parts bothskins, matrices/readoutscomplete and12exteriorframes, normalexit0. BothhealthyV11functionalcontrolsPASS. Modeladoption/worldbindings/fullarticulation/LODs/performance/userqualitypending.",
+      "reason": "CumulativeV11fiveFBXs rebuilt and15NEWcooks adopted,bothskinsnativepart/bone/capture checks;nativefulldynamics/LODs/performance/manualvisualjudgment pending. Active art lane;V12/V13excluded.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "scopeDisposition": "ACTIVE_SEPARATE_ART_OWNER_AND_FUNCTIONAL_INTEGRATION",
@@ -262,7 +262,7 @@
     {
       "id": "GEP-033",
       "status": "Blocked",
-      "reason": "Signal-only historicaladapter isnotaudiocandidate. Fixedonlyprobe helperclass-namecollisions; compilePASS. Both exactstockACP protectedreads declinedNo toreleaseoptionalprobe; metadata/audibilityNOT_TESTED andexcluded. No retry/bypasswithoutnew relevantapproval.",
+      "reason": "Authorizedfixedstockgraphtrace complete18exclusivebanks/side;new eight-sample stockadaptation authoring script compiledPASS. NewFileIO.FileExists prompt line16 pending, notapproved. NoACPs materialized orplaybackpass;stockaccepted audio retained.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": true,
@@ -282,7 +282,7 @@
     "Needs verification": "Existing release evidence passes; one named verification remains",
     "Blocked": "Concrete dependency prevents next planned work; current native authorization dialog for015/033"
   },
-  "updatedUtc": "2026-10-22T03:59:48.882687+00:00",
+  "updatedUtc": "2026-10-22T05:06:41.003534+00:00",
   "runtimeHoldActive": true,
   "candidate": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\CANDIDATE-MANIFEST.json",
   "nativeCompile": "NOT_TESTED",

@@ -1,0 +1,35 @@
+{
+  "status": "NARROW_INITIAL_ASCII_RENDER_DATA_AND_ROOT_PIXEL_REVIEW_PASS",
+  "scope": "One actual1280x720 native image at2.0x/currentgroup0/320bothfeeds/relativeangles0; no allzoom/aspect/lifecycle acceptance",
+  "image": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-ascii-render-02\\hud-ascii-render-startup\\native-run\\profile\\profile\\approved705-render-case-0.bmp",
+  "imageSHA256": "00ef4ab4e917a8dd145be0d35d918f950cb5c681217ba118a83333ee23cd3d99",
+  "nativeCaseResult": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-ascii-render-02\\hud-ascii-render-startup\\result.json",
+  "nativeCaseSHA256": "0bfac8ee97e0c3f2f40957c8db404cef3bf170adb225738e3f0a579428c500bf",
+  "originalOverallStatus": "FAIL_NATIVE_ERRORS_RETAINED",
+  "rootPixelInspection": {
+    "method": "Viewed unmodified native BMP with view_image",
+    "observed": [
+      "GEPARD / ZIELVISIER andTAG labels legible",
+      "TURM GR. andHOEHE GR. render without prior missing-glyph boxes",
+      "2,0x and320counts readable",
+      "Approved larger reticle and lower instrument panels present",
+      "Relativeangle0text andammo320each match current captured native values",
+      "No development-status footer in optic"
+    ],
+    "limitations": [
+      "Single16:9resolution/currentzoom only",
+      "Range was unavailable: -- m, no acquisition transition measured",
+      "Human concept/quality approval pending; no user acceptance implied"
+    ]
+  },
+  "nativeLifecycle": {
+    "verifiedExited": true,
+    "leaseReleased": true,
+    "closeMethod": "owned-normal-window-close",
+    "utc": "2026-10-22T04:21:47.2102829Z",
+    "cancelRequested": false,
+    "exitCode": 0
+  },
+  "createdUtc": "2026-10-22T04:23:57.941105+00:00",
+  "noRawResultRewritten": true
+}

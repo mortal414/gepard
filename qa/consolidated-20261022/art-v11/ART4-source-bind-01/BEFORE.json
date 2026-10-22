@@ -1,0 +1,149 @@
+{
+  "targets": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\check_rebuild.py",
+      "existed": true,
+      "sha256": "43fa23fe51934f019097c32053216778134cc6af80a0f2a50feb2ba7d9e9f567",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\00-check_rebuild.py.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\NATIVE-ADOPTION-ART4-REVIEWED.json",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\CORE-CONTINUITY-ART4-HUD-LITERALS.json",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Mobility\\MobilityRig.xob",
+      "existed": true,
+      "sha256": "29b11eb0b809be7268c92201049dfd6795b939de8701354ba90aa04c5637e801",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\03-MobilityRig.xob.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Mobility\\MobilityRig.xob.meta",
+      "existed": true,
+      "sha256": "3e268d4a1d3194fc8712daad8bd0fce7d1541daf16378c6bac772aad93c58ed8",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\04-MobilityRig.xob.meta.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Mobility\\MobilityRig.txo",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardTurretRig.xob",
+      "existed": true,
+      "sha256": "29c40f92026bb0eabdabed27e135b6545613855ea43605c04d3aac8b2eeed198",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\06-GepardTurretRig.xob.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardTurretRig.xob.meta",
+      "existed": true,
+      "sha256": "60a52f3ede37a48d2fbbd19e9816523ff7b3ac772f26669811d4d272afb0ab57",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\07-GepardTurretRig.xob.meta.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardTurretRig.txo",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\RemainingExterior669\\RightStorage669.xob",
+      "existed": true,
+      "sha256": "4160a30b33b64dda89ad509047953c6c761af8355b5eaeff901241eb71d4831b",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\09-RightStorage669.xob.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\RemainingExterior669\\RightStorage669.xob.meta",
+      "existed": true,
+      "sha256": "40c88de5ab3629044a559f391a07280c8f284f820852d9096176d9648003cc42",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\10-RightStorage669.xob.meta.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\RemainingExterior669\\RightStorage669.txo",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardGunLeft.xob",
+      "existed": true,
+      "sha256": "dd12be49219736787710173276b39ddbd9d75d21e0fa4cd8fd83fdbdef4f824b",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\12-GepardGunLeft.xob.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardGunLeft.xob.meta",
+      "existed": true,
+      "sha256": "1269c4ac55be017289cd3cd4d07eac4daa9f6e6b81c1b67f4d7a6f38497195b1",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\13-GepardGunLeft.xob.meta.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardGunLeft.txo",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardGunRight.xob",
+      "existed": true,
+      "sha256": "420f3f76163233483a77569bf488c726405b34f60c1eb4b6515a64e7185cd2fc",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\15-GepardGunRight.xob.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardGunRight.xob.meta",
+      "existed": true,
+      "sha256": "97b7bb800f4ebf3a52227845d9ace17a04b3551f9b8eb82b349704d5901a323f",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\16-GepardGunRight.xob.meta.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Assets\\ArtV11\\Gepard\\GepardGunRight.txo",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\registry\\variants.json",
+      "existed": true,
+      "sha256": "043c9c0455f8923b3ca3c782f0d430e0c21dabd2cf3060da3c67488a6909f6a4",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\18-variants.json.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\addon\\scripts\\Game\\GPG_Resources.c",
+      "existed": true,
+      "sha256": "b1edde5d0879c279311cabd89d1b06799755ba66bbc95742a201db30d2655102",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\19-GPG_Resources.c.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\addon\\scripts\\Game\\GPG_Layout.c",
+      "existed": true,
+      "sha256": "fe8ebacd2c81c74f7fbea64aa74e0885de000aafb0c688ac0a9a02b3d2142f51",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\20-GPG_Layout.c.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\variant-lock.json",
+      "existed": true,
+      "sha256": "93bb84b6c6d3c6b15d9d2dd286f83e56d26a6bd4e6036891bd915a68a4640e15",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\21-variant-lock.json.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\coverage.json",
+      "existed": true,
+      "sha256": "948c64ebdafe806e0a52e6d1497fdd84d029c13a3598b3cc724b1ad19b5de231",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\22-coverage.json.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\source-checks.json",
+      "existed": true,
+      "sha256": "6f81d48d0b5995d804847532db05391c02f4c4d970b2d144744da1e077796c37",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\23-source-checks.json.before"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\world-source-manifest.json",
+      "existed": true,
+      "sha256": "7aaee46b0e6dc7fe1a8a2325dcfc921e10eaf8de27486212ddc2e18d7e5bab47",
+      "backup": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\before\\24-world-source-manifest.json.before"
+    }
+  ],
+  "coreBeforeSHA256": "b2649c3ec7a11939853c87d3953cec5e65b2e1e55ada6fa64a778cc029a02da3",
+  "nativeStageReadOnly": true
+}

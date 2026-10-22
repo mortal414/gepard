@@ -18,11 +18,14 @@
     "Prefabs/Weapons/GEP_VehicleTurret.et": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed",
     "Configs/System/chimeraInputCommon.conf": "2a902cefabf0dce25cb80182bd1d830c1aa785ad565b2912320eba56159a6aeb"
   },
-  "interpretation": "Static byte preservation of accepted configs; runtime compatibility remains untested, particularly with optional WCS globals",
-  "fileCountScope": "1112original core files;35additive art files recorded separately",
-  "corePreservedAgainst40ad931": 1112,
+  "interpretation": "Seven intentional script changes against released source; all1105 other release files and five accepted drivetrain/input pins exact. Native core behavior evidence separate; optional WCS not integrated.",
+  "fileCountScope": "1112 released core files, 35 additive art source/registration files and5 generated ArtV11 TXO outputs",
+  "corePreservedAgainst40ad931": "1110/1112 exact;2 reviewed German-ASCII literal-only HUD successor files",
   "artOverlayAdded": 35,
-  "totalCandidateAddonFiles": 1147,
+  "totalCandidateAddonFiles": 1152,
   "artOverlayManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\COMPARISON_OVERLAY_MANIFEST.json",
-  "artCookedStatus": "BASELINE_SEEDS_NOT_NATIVE_V11"
+  "artCookedStatus": "FIVE_NATIVE_REBUILDS_ADOPTED_15_HASH_PINNED_OUTPUTS",
+  "generatedArtTXOAdded": 5,
+  "nativeAdoption": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\RESULT.json",
+  "updatedUtc": "2026-10-22T04:19:57.047059+00:00"
 }

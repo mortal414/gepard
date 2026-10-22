@@ -1,0 +1,39 @@
+{
+  "hudResourceDatabaseSource": {
+    "sha256": "ce7bc9a57b1f02444c0e7038a3f6ba1bf7a6ab52ca69ca6b95be2b1fd9d44442",
+    "source": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\hudQA\\resourceDatabase.rdb"
+  },
+  "leaseMutated": false,
+  "closures": [
+    {
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-ascii-native\\GEPARD-MANIFEST.json",
+      "sha256": "0cef463286d82eb13aa76c751c6562cfc72477ee293a7aff4ad331f80998badc",
+      "files": 1152,
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-hud-ascii-stage\\gepard"
+    },
+    {
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-ascii-native\\HUDQA-MANIFEST.json",
+      "sha256": "6fe852a9781a9188ceb699b806ac704502a9e148146e8ab8e6d2f80bb95e29f1",
+      "files": 10,
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-hud-ascii-stage\\hudQA"
+    }
+  ],
+  "compile": "NOT_TESTED",
+  "cookedAdoptionReceiptSHA256": "b1253afb39b5f7acfec59f4876a5d0e1e6a1341e829feedde392060e297ae125",
+  "plan": {
+    "sourceFileCount": 1152,
+    "leaseMutated": false,
+    "DWritten": false,
+    "sourceGepard": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon",
+    "adoptedCookedOutputCount": 15,
+    "closureRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-ascii-native",
+    "privateQASourceCount": 9,
+    "status": "SOURCE_ONLY_STAGE_PLAN",
+    "nativeStarted": false,
+    "target": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-hud-ascii-stage"
+  },
+  "nativeStarted": false,
+  "status": "ISOLATED_SOURCE_STAGED_COMPILE_PENDING",
+  "oldNativeStageWritten": false,
+  "runtime": "NOT_TESTED"
+}

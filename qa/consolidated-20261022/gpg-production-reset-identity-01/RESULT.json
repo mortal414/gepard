@@ -1,0 +1,7 @@
+{
+  "status": "SOURCE_IDENTITY_GUARD_ADOPTED_FRESH_NATIVE_REQUIRED",
+  "directorSha256": "1f3a60a521c116d6d95295df699b1a6acdc93387489bc9804a9fbb76b7d6d0f1",
+  "unchangedOldCanReset": true,
+  "wholePreflightBeforeDeletion": true,
+  "nativeAcceptance": "NOT_TESTED"
+}

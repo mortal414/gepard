@@ -1,0 +1,27 @@
+{
+  "status": "SUCCESSFUL_NATIVE_COMPILE_CURRENT_CLOSURES_REVIEWED",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-demo-01",
+  "compilerResultSHA256": "14eae59860ce37e22a7adf03fb7fa0214b983f9d595424c160af2d06ca345a0b",
+  "compilerConsoleSHA256": "e249b54a69891bfce9230989c156dae5b76a64950f5396cea9bbcdaa7c9fa3ab",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source\\provingGround\\GepardProvingGround.gproj",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source\\GEPARD-MANIFEST.json",
+      "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source\\provingGround",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source\\PROVINGGROUND-MANIFEST.json",
+      "sha256": "4e17e1999d74d643681d527b0ab9ccbe37c821876459291de226e201f8c6d740",
+      "files": 11
+    }
+  ],
+  "generatedChangesAfterCompile": {
+    "gepard": [],
+    "provingGround": []
+  },
+  "nativeGameplay": "NOT_TESTED",
+  "sourceCodeChangedDuringCompile": false
+}

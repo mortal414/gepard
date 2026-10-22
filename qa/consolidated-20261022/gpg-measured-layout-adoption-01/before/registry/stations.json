@@ -1,0 +1,301 @@
+{
+  "schema": 1,
+  "id": "gepard-proving-ground-20261022-v1",
+  "terrain": "{A9806AF617972E97}worlds/Arland/Arland.ent",
+  "coordinateMode": "x,z fixed; y=GetSurfaceY(x,z)+clearance; yaw degrees",
+  "surveyStatus": "NOT_TESTED: nominal horizontal distances only until native sightline, ground and contact survey",
+  "stations": [
+    {
+      "id": "bay",
+      "title": "01 COMPARISON BAY",
+      "position": [
+        600,
+        0,
+        2600
+      ],
+      "board": [
+        584,
+        0,
+        2582
+      ],
+      "reset": "bay",
+      "coverage": [
+        "fixture.ready",
+        "identity.prefab",
+        "identity.shared-scripts",
+        "crew.occupied",
+        "crew.exit",
+        "crew.reentry"
+      ],
+      "instructions": "OLD/NEW exterior cases share the coordinator's functional scripts and approved optic. Read each numbered pad identity. Park engines off between listening tests. Never fire here. Reset only empty vehicles parked at their own pads. Full released-code comparisons require a separate run."
+    },
+    {
+      "id": "drive",
+      "title": "02 DRIVE LOOP",
+      "position": [
+        600,
+        0,
+        2660
+      ],
+      "board": [
+        586,
+        0,
+        2650
+      ],
+      "reset": "none",
+      "coverage": [
+        "drive.powered",
+        "drive.signed-progress",
+        "drive.reverse",
+        "drive.stop-dwell",
+        "drive.turn-radius",
+        "drive.slope",
+        "drive.contact-material"
+      ],
+      "instructions": "Start at paired cones. Straight north: accelerate 150 m, brake before 200 m; stop fully. Reverse the same marked 50 m section. Follow numbered gates clockwise through left/right turns then the terrain spur and return. Surface and grade labels are survey candidates until native readings confirm them. Same vehicle load and assistance for comparisons."
+    },
+    {
+      "id": "service",
+      "title": "03 FUEL / REARM / REPAIR",
+      "position": [
+        680,
+        0,
+        2590
+      ],
+      "board": [
+        664,
+        0,
+        2574
+      ],
+      "reset": "service",
+      "coverage": [
+        "service.fuel-transfer",
+        "service.provider-cost",
+        "service.rearm-left",
+        "service.rearm-right",
+        "service.repair",
+        "service.supplies-cost"
+      ],
+      "instructions": "Park inside the three stock trucks. Left/right rear fuel-cap action beside tanker; rear engine-deck repair actions with wrench held. Rearm both 35 mm feeds beside ammo truck. Supplies are finite: 1000 per ammo/repair source at setup. Reset sources here explicitly when empty. No automatic vehicle healing or refilling. WCS smoke supply is excluded."
+    },
+    {
+      "id": "range",
+      "title": "04 SURVEYED TARGET LANE",
+      "position": [
+        900,
+        0,
+        2450
+      ],
+      "board": [
+        884,
+        0,
+        2432
+      ],
+      "reset": "range",
+      "coverage": [
+        "range.survey",
+        "range.visibility",
+        "weapon.left",
+        "weapon.right",
+        "weapon.twin",
+        "range.measurement",
+        "range.impact"
+      ],
+      "instructions": "Fire EAST from the paired firing-line cones only. T100/T300/T500/T800/T1000 denote horizontal metres from this line. Read native GPG_SURVEY slant ranges and LOS before interpreting impact tests. Pop-up infantry targets stay down after hit until this station reset. Vehicle silhouettes are non-explosive. No live crews in this lane."
+    },
+    {
+      "id": "damage",
+      "title": "05 ISOLATED DAMAGE LANE",
+      "position": [
+        600,
+        0,
+        1800
+      ],
+      "board": [
+        580,
+        0,
+        1865
+      ],
+      "reset": "damage",
+      "coverage": [
+        "stimulus.native",
+        "damage.observed",
+        "zones.topology",
+        "post-hit.traverse",
+        "post-hit.fire",
+        "post-hit.drive",
+        "crew.exit",
+        "crew.reentry"
+      ],
+      "instructions": "EXPENDABLE subjects D1/D2 only. Fire SOUTH from the weapon line, away from the comparison bay behind you. M16, M249, M2 tripod and disposable M72s use native ammunition. Record weapon/ammo, impact side and range. Subjects never autoheal. Exit all seats and clear pads before explicit reset; reset refuses moved/occupied/moving subjects. Wait for fire and secondary explosions to stop. End the session normally and restart the scenario for a complete clean session."
+    },
+    {
+      "id": "hostile",
+      "title": "06 OPTIONAL HOSTILE CELL",
+      "position": [
+        1800,
+        0,
+        1400
+      ],
+      "board": [
+        1770,
+        0,
+        1370
+      ],
+      "reset": "hostile",
+      "coverage": [
+        "enemy.opt-in",
+        "enemy.boundary",
+        "enemy.cleanup",
+        "enemy.backstop"
+      ],
+      "instructions": "OFF by default. Coordinator must first qualify terrain backstop, enclosure, native AI and projectile containment; profile GPG-hostiles-qualified.flag then permits local arm action. Enter only deliberately. Two stock USSR sentries use a small defend waypoint, 35 m boundary and 180 s expiry. Leaving the cell ends the encounter. Boundary/timeout clears owned agents; never assume it catches bullets already fired. Stop action remains available."
+    }
+  ],
+  "route": [
+    {
+      "id": "G01 START",
+      "position": [
+        600,
+        0,
+        2660
+      ],
+      "kind": "start",
+      "nominalSurface": "apron candidate"
+    },
+    {
+      "id": "G02 50m REVERSE LIMIT",
+      "position": [
+        600,
+        0,
+        2710
+      ],
+      "kind": "straight"
+    },
+    {
+      "id": "G03 150m BRAKE",
+      "position": [
+        600,
+        0,
+        2810
+      ],
+      "kind": "brake"
+    },
+    {
+      "id": "G04 200m STOP / RIGHT",
+      "position": [
+        600,
+        0,
+        2860
+      ],
+      "kind": "turn-right"
+    },
+    {
+      "id": "G05 RIGHT LOOP",
+      "position": [
+        680,
+        0,
+        2860
+      ],
+      "kind": "turn-right"
+    },
+    {
+      "id": "G06 LEFT S BEND",
+      "position": [
+        680,
+        0,
+        2780
+      ],
+      "kind": "turn-left"
+    },
+    {
+      "id": "G07 TERRAIN SPUR",
+      "position": [
+        760,
+        0,
+        2780
+      ],
+      "kind": "slope-candidate",
+      "nominalSurface": "terrain survey required"
+    },
+    {
+      "id": "G08 CREST / TURN",
+      "position": [
+        800,
+        0,
+        2730
+      ],
+      "kind": "slope-candidate"
+    },
+    {
+      "id": "G09 RETURN",
+      "position": [
+        760,
+        0,
+        2650
+      ],
+      "kind": "surface-candidate"
+    },
+    {
+      "id": "G10 SERVICE / BAY",
+      "position": [
+        680,
+        0,
+        2640
+      ],
+      "kind": "return"
+    }
+  ],
+  "targets": [
+    {
+      "id": "T100",
+      "distance": 100,
+      "position": [
+        999.027,
+        0,
+        2436.083
+      ],
+      "kind": "infantry"
+    },
+    {
+      "id": "T300",
+      "distance": 300,
+      "position": [
+        1199.269,
+        0,
+        2429.073
+      ],
+      "kind": "vehicle"
+    },
+    {
+      "id": "T500",
+      "distance": 500,
+      "position": [
+        1400.0,
+        0,
+        2450.0
+      ],
+      "kind": "vehicle"
+    },
+    {
+      "id": "T800",
+      "distance": 800,
+      "position": [
+        1698.051,
+        0,
+        2505.805
+      ],
+      "kind": "vehicle"
+    },
+    {
+      "id": "T1000",
+      "distance": 1000,
+      "position": [
+        1890.268,
+        0,
+        2589.173
+      ],
+      "kind": "vehicle"
+    }
+  ]
+}

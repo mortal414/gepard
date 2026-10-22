@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\tools\\bind_variant.py",
+    "--slot",
+    "NEW-CAMO",
+    "--prefab",
+    "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+    "--label",
+    "NEW exterior / camo / native registration reviewed; manual art acceptance pending"
+  ],
+  "exitCode": 0,
+  "stdout": "Bound source only. Run tools/generate.py --check to pin the full current runtime and regenerate; native validation is still required.\n",
+  "stderr": "",
+  "nativeStarted": false
+}

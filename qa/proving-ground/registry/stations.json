@@ -3,7 +3,7 @@
   "id": "gepard-proving-ground-20261022-v1",
   "terrain": "{A9806AF617972E97}worlds/Arland/Arland.ent",
   "coordinateMode": "x,z fixed; y=GetSurfaceY(x,z)+clearance; yaw degrees",
-  "surveyStatus": "NOT_TESTED: nominal horizontal distances only until native sightline, ground and contact survey",
+  "surveyStatus": "Actual native layoutplan-v1: flat sampled80m rectangle;100/300m rays clear at2/3.2m. Physical driving,new targets,damage and projectile containment NOT_TESTED.",
   "stations": [
     {
       "id": "bay",
@@ -33,14 +33,14 @@
       "id": "drive",
       "title": "02 DRIVE LOOP",
       "position": [
-        600,
+        650,
         0,
-        2660
+        2695
       ],
       "board": [
-        586,
+        640,
         0,
-        2650
+        2695
       ],
       "reset": "none",
       "coverage": [
@@ -52,7 +52,7 @@
         "drive.slope",
         "drive.contact-material"
       ],
-      "instructions": "Start at paired cones. Straight north: accelerate 150 m, brake before 200 m; stop fully. Reverse the same marked 50 m section. Follow numbered gates clockwise through left/right turns then the terrain spur and return. Surface and grade labels are survey candidates until native readings confirm them. Same vehicle load and assistance for comparisons."
+      "instructions": "Start EAST at G01. The straight is80m: reverse between START and the50m marker; brake at60m and stop before80m. Follow the numbered80x25m rectangle and service connector at low speed. Check ground contact and clearance as you go. Use identical load and assistance."
     },
     {
       "id": "service",
@@ -80,16 +80,16 @@
     },
     {
       "id": "range",
-      "title": "04 SURVEYED TARGET LANE",
+      "title": "04 TARGET LANE /100m AND300m",
       "position": [
         900,
         0,
-        2450
+        2670
       ],
       "board": [
         884,
         0,
-        2432
+        2670
       ],
       "reset": "range",
       "coverage": [
@@ -101,20 +101,20 @@
         "range.measurement",
         "range.impact"
       ],
-      "instructions": "Fire EAST from the paired firing-line cones only. T100/T300/T500/T800/T1000 denote horizontal metres from this line. Read native GPG_SURVEY slant ranges and LOS before interpreting impact tests. Pop-up infantry targets stay down after hit until this station reset. Vehicle silhouettes are non-explosive. No live crews in this lane."
+      "instructions": "Fire EAST from the paired cones only. T100 is100m and T300 is300m horizontal. Only these two targets are open. Keep downrange empty and check the sight picture before firing. Do not use this station during damage tests."
     },
     {
       "id": "damage",
-      "title": "05 ISOLATED DAMAGE LANE",
+      "title": "05 DAMAGE FORK /EAST AND NORTH",
       "position": [
-        600,
+        900,
         0,
-        1800
+        2780
       ],
       "board": [
-        580,
+        880,
         0,
-        1865
+        2780
       ],
       "reset": "damage",
       "coverage": [
@@ -127,7 +127,7 @@
         "crew.exit",
         "crew.reentry"
       ],
-      "instructions": "EXPENDABLE subjects D1/D2 only. Fire SOUTH from the weapon line, away from the comparison bay behind you. M16, M249, M2 tripod and disposable M72s use native ammunition. Record weapon/ammo, impact side and range. Subjects never autoheal. Exit all seats and clear pads before explicit reset; reset refuses moved/occupied/moving subjects. Wait for fire and secondary explosions to stop. End the session normally and restart the scenario for a complete clean session."
+      "instructions": "EXPENDABLE subjects only: D1 EAST100m at1000/2780; D2 NORTH40m at900/2820. Fire only EAST to D1 or NORTH to D2. Never SOUTH or WEST. Pause all other stations during damage; clear every subject and downrange area. M2 starts aimed EAST; use hand weapons for the NORTH lane. Subjects never autoheal. Wait for fire/secondary explosions, exit seats and clear pads before reset. Shots are not physically confined; keep to the marked directions."
     },
     {
       "id": "hostile",
@@ -154,96 +154,92 @@
   ],
   "route": [
     {
-      "id": "G01 START",
+      "id": "G01 START EAST",
       "position": [
-        600,
+        650,
         0,
-        2660
+        2695
       ],
       "kind": "start",
-      "nominalSurface": "apron candidate"
+      "yaw": 90,
+      "nativeSurfaceEvidence": "layoutplan-v1 sampled lattice/interpolated straight; current-world vehicle clearance NOT_TESTED"
     },
     {
       "id": "G02 50m REVERSE LIMIT",
       "position": [
-        600,
+        700,
         0,
-        2710
+        2695
       ],
-      "kind": "straight"
+      "kind": "reverse-limit",
+      "yaw": 90,
+      "nativeSurfaceEvidence": "layoutplan-v1 sampled lattice/interpolated straight; current-world vehicle clearance NOT_TESTED"
     },
     {
-      "id": "G03 150m BRAKE",
+      "id": "G03 60m BRAKE",
       "position": [
-        600,
+        710,
         0,
-        2810
+        2695
       ],
-      "kind": "brake"
+      "kind": "brake",
+      "yaw": 90,
+      "nativeSurfaceEvidence": "layoutplan-v1 sampled lattice/interpolated straight; current-world vehicle clearance NOT_TESTED"
     },
     {
-      "id": "G04 200m STOP / RIGHT",
+      "id": "G04 80m STOP / NORTH",
       "position": [
-        600,
+        730,
         0,
-        2860
+        2695
       ],
-      "kind": "turn-right"
+      "kind": "stop-turn",
+      "yaw": 0,
+      "nativeSurfaceEvidence": "layoutplan-v1 sampled lattice/interpolated straight; current-world vehicle clearance NOT_TESTED"
     },
     {
-      "id": "G05 RIGHT LOOP",
+      "id": "G05 25m NORTH / WEST",
       "position": [
-        680,
+        730,
         0,
-        2860
+        2720
       ],
-      "kind": "turn-right"
+      "kind": "turn-west",
+      "yaw": 270,
+      "nativeSurfaceEvidence": "layoutplan-v1 sampled lattice/interpolated straight; current-world vehicle clearance NOT_TESTED"
     },
     {
-      "id": "G06 LEFT S BEND",
+      "id": "G06 WEST RETURN",
       "position": [
-        680,
+        690,
         0,
-        2780
+        2720
       ],
-      "kind": "turn-left"
+      "kind": "return-west",
+      "yaw": 270,
+      "nativeSurfaceEvidence": "layoutplan-v1 sampled lattice/interpolated straight; current-world vehicle clearance NOT_TESTED"
     },
     {
-      "id": "G07 TERRAIN SPUR",
+      "id": "G07 SOUTH RETURN",
       "position": [
-        760,
+        650,
         0,
-        2780
+        2720
       ],
-      "kind": "slope-candidate",
-      "nominalSurface": "terrain survey required"
+      "kind": "turn-south",
+      "yaw": 180,
+      "nativeSurfaceEvidence": "layoutplan-v1 sampled lattice/interpolated straight; current-world vehicle clearance NOT_TESTED"
     },
     {
-      "id": "G08 CREST / TURN",
+      "id": "G08 SERVICE CONNECTOR",
       "position": [
-        800,
+        650,
         0,
-        2730
+        2670
       ],
-      "kind": "slope-candidate"
-    },
-    {
-      "id": "G09 RETURN",
-      "position": [
-        760,
-        0,
-        2650
-      ],
-      "kind": "surface-candidate"
-    },
-    {
-      "id": "G10 SERVICE / BAY",
-      "position": [
-        680,
-        0,
-        2640
-      ],
-      "kind": "return"
+      "kind": "service-connector",
+      "yaw": 0,
+      "nativeSurfaceEvidence": "layoutplan-v1 sampled lattice/interpolated straight; current-world vehicle clearance NOT_TESTED"
     }
   ],
   "targets": [
@@ -251,9 +247,9 @@
       "id": "T100",
       "distance": 100,
       "position": [
-        999.027,
+        1000,
         0,
-        2436.083
+        2670
       ],
       "kind": "infantry"
     },
@@ -261,41 +257,76 @@
       "id": "T300",
       "distance": 300,
       "position": [
-        1199.269,
+        1200,
         0,
-        2429.073
-      ],
-      "kind": "vehicle"
-    },
-    {
-      "id": "T500",
-      "distance": 500,
-      "position": [
-        1400.0,
-        0,
-        2450.0
-      ],
-      "kind": "vehicle"
-    },
-    {
-      "id": "T800",
-      "distance": 800,
-      "position": [
-        1698.051,
-        0,
-        2505.805
-      ],
-      "kind": "vehicle"
-    },
-    {
-      "id": "T1000",
-      "distance": 1000,
-      "position": [
-        1890.268,
-        0,
-        2589.173
+        2670
       ],
       "kind": "vehicle"
     }
-  ]
+  ],
+  "layoutPlanning": {
+    "evidenceConsoleSHA256": "c285dd58d1b5f55f79b649dff42cd19e6d8c457e6a0fa6dbba2d2c6e5607ae55",
+    "planningReportSHA256": "4c771e612999066c60641ea3ce5bbb6a3bdfe97027a9fdae7964166cb5f890c6",
+    "routeSubject": [
+      650,
+      0,
+      2695
+    ],
+    "routeYaw": 90,
+    "audioOrigin": [
+      650,
+      0,
+      2695
+    ],
+    "damageSubjects": {
+      "D1": [
+        1000,
+        0,
+        2780
+      ],
+      "D2": [
+        900,
+        0,
+        2820
+      ]
+    },
+    "damageFireOrigin": [
+      900,
+      0,
+      2780
+    ],
+    "damageCorridors": [
+      {
+        "id": "EAST D1",
+        "start": [
+          900,
+          2780
+        ],
+        "end": [
+          1100,
+          2780
+        ],
+        "halfWidth": 8
+      },
+      {
+        "id": "NORTH D2",
+        "start": [
+          900,
+          2780
+        ],
+        "end": [
+          900,
+          2880
+        ],
+        "halfWidth": 8
+      }
+    ],
+    "containment": "NOT_TESTED",
+    "concurrency": "DAMAGE_EXCLUSIVE_NO_OTHER_STATION_ACTIVITY",
+    "excludedTargets": [
+      "T500",
+      "T800",
+      "T1000"
+    ]
+  }
 }

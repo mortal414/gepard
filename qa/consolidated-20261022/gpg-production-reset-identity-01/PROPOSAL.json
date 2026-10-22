@@ -1,0 +1,16 @@
+{
+  "method": " bool OwnedResetIdentityReady(string station,bool weapons)\n {\n  foreach(GPG_Owned check:Objects)\n  {\n   if(check.Station!=station && !(weapons && check.Station==\"weapons\"))continue;\n   // Missing roots retain CanReset's existing replacement behavior.\n   if(!check.Entity || check.Entity.IsDeleted())continue;\n   EntityID nativeId=check.Entity.GetID();\n   if(GetGame().GetWorld().FindEntityByID(nativeId)!=check.Entity)return false;\n   foreach(GPG_Owned other:Objects)\n   {\n    if(other==check || !other.Entity || other.Entity.IsDeleted())continue;\n    if(other.Entity.GetID()==nativeId)return false;\n   }\n  }\n  return true;\n }\n",
+  "call": "  // Complete read-only identity admission before touching any owned hierarchy.\n  if(!OwnedResetIdentityReady(station,weapons))\n  {\n   Hint(\"Reset refused: an owned object cannot be safely identified. Restart the scenario before resetting this station.\",\"RESET REFUSED\");\n   return;\n  }\n",
+  "newlineHex": "0a",
+  "exactByteInverseRestoresInput": true,
+  "status": "PRODUCTION_SOURCE_PROPOSAL_ONLY",
+  "input": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\addon\\scripts\\Game\\GPG_Director.c",
+  "inputSHA256": "d27862b2c8006978f23a512f97f9007df806df284fe329128ab6bbde0607bac8",
+  "proposed": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-Production-ResetIdentity-20261022\\proposal-after-layout-02\\GPG_Director.proposed.c",
+  "proposedActualSHA256": "1f3a60a521c116d6d95295df699b1a6acdc93387489bc9804a9fbb76b7d6d0f1",
+  "productionSourceEdited": false,
+  "nativeInvoked": false,
+  "dWrites": false,
+  "nativeCompile": "NOT_TESTED",
+  "runtimeAcceptance": "NOT_TESTED"
+}

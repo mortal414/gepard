@@ -1,0 +1,65 @@
+{
+  "status": "CANONICAL_SOURCE_REFERENCES_ADOPTED_NATIVE_IDENTITY_PENDING",
+  "changes": {
+    "cone": {
+      "before": "Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et",
+      "after": "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et"
+    },
+    "infantryTarget": {
+      "before": "Prefabs/Props/Military/Training/TargetInfantry_01.et",
+      "after": "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et"
+    },
+    "vehicleTarget": {
+      "before": "Prefabs/Structures/Military/Training/TargetVehicles/TargetBTR_front.et",
+      "after": "{DFD494A96CA95D0B}Prefabs/Structures/Military/Training/TargetVehicles/TargetBTR_front.et"
+    },
+    "rifle": {
+      "before": "Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et",
+      "after": "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et"
+    },
+    "rifleAmmo": {
+      "before": "Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et",
+      "after": "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+    },
+    "machinegun": {
+      "before": "Prefabs/Weapons/MachineGuns/M249/MG_M249.et",
+      "after": "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+    },
+    "machinegunAmmo": {
+      "before": "Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et",
+      "after": "{4FCBBDF274FD2157}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et"
+    },
+    "heavyMachinegun": {
+      "before": "Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et",
+      "after": "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et"
+    },
+    "launcher": {
+      "before": "Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et",
+      "after": "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+    },
+    "arsenal": {
+      "before": "Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et",
+      "after": "{BE99D77D1155B127}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et"
+    },
+    "enemyGroup": {
+      "before": "Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et",
+      "after": "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et"
+    },
+    "defendWaypoint": {
+      "before": "Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et",
+      "after": "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et"
+    },
+    "blastCover": {
+      "before": "Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_18x5.et",
+      "after": "{D0F17E2313DE33F1}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_18x5.et"
+    }
+  },
+  "source": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-RangeReset-Diagnosis-20261022\\resources.canonical.proposed.json",
+  "sourceSha256": "38e813e99a85526e3dfd6ead92ea7c1db6cded0e355a3a00ee866b06623fc2b4",
+  "sourceLFSha256": "0b7769e363ead006ef9a6347c5c666a3d7027bd0ab15cde74bdc7df959f90c10",
+  "checkoutCRLFPairs": 21,
+  "worldLockSha256": "545ada27b582ed98149b58958f58fe56490a7bf04738918bf8b64b0539b4f959",
+  "nativeStarted": false,
+  "rangeReset": "CRASH_RETAINED_DO_NOT_RETRY_WITHOUT_IDENTITY_ADMISSION",
+  "damageReset": "NOT_TESTED"
+}

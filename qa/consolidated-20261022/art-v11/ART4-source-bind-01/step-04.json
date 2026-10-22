@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\tools\\generate.py",
+    "--check"
+  ],
+  "exitCode": 0,
+  "stdout": "{\"status\": \"PASS_SOURCE_CHECKS_ONLY\", \"nativeStatus\": \"NOT_TESTED\", \"damageBaySeparationMetres\": 800.0, \"targetHorizontalDistances\": \"PASS\", \"subjectMutationSettersAbsent\": true, \"hostileQualificationGate\": true, \"slotsBound\": 4, \"unboundSlots\": [], \"nativeBlocker\": \"Source checks do not qualify native behavior; consult coordinator runtime lease and evidence\"}\n",
+  "stderr": "",
+  "nativeStarted": false
+}

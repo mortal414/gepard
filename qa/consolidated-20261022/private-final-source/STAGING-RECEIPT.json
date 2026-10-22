@@ -1,0 +1,41 @@
+{
+  "status": "ORDINARY_DEMO_SOURCE_STAGED_ACTUAL_COMPILE_PENDING",
+  "stage": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source",
+  "sourceOrigins": [
+    {
+      "role": "gepard",
+      "source": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon",
+      "sourceFiles": 1152,
+      "resourceDatabaseSource": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-hud-ascii-stage\\gepard\\resourceDatabase.rdb",
+      "previousSourceRDB": "7ee0c09284788b5f865a6cfd22ed2aa2a133b2da25508dc0c10142049ac7735c",
+      "selectedRDB": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+    },
+    {
+      "role": "provingGround",
+      "source": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\addon",
+      "sourceFiles": 10,
+      "resourceDatabaseSource": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\resourceDatabase.rdb",
+      "previousSourceRDB": null,
+      "selectedRDB": "b482544c42a028cc0b7168ae7e044dd23d6217c68764285a681eb5319d679d8c"
+    }
+  ],
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source\\GEPARD-MANIFEST.json",
+      "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source\\provingGround",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source\\PROVINGGROUND-MANIFEST.json",
+      "sha256": "4e17e1999d74d643681d527b0ab9ccbe37c821876459291de226e201f8c6d740",
+      "files": 11
+    }
+  ],
+  "qaHooksAndFlagsIncluded": false,
+  "productionSourcePreserved": true,
+  "publication": false,
+  "nativeStarted": false,
+  "packaging": "PENDING"
+}

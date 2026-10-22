@@ -1,0 +1,185 @@
+{
+  "status": "NATIVE_ART_IMPORT_REGISTRATION_REVIEWED",
+  "disposition": "PROPOSED_TO_ROOT_FOR_MANUAL_CANDIDATE_BINDING_ONLY",
+  "nativeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run",
+  "nativeCookRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\cook-v11-02",
+  "scriptCompileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-art-native-04",
+  "rebuiltModelSHA256": {
+    "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob": "7490fcff9d9e2ee387ad08972c75aecb1e4d8f601c0fba62b7a9cb8e2b1374f1",
+    "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob": "79ccacd0ca36a5a60a3c4be398d5170d1a6f46d776c1ee853a77c8d7aec932c2",
+    "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob": "3131f0cce258caabe4a3560cb3ef9a934f5e68a05cb4939ad24611f33ddd2ad3",
+    "{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob": "23ecfc6d4a976ccebfccfaee17a4db4068d4970f2f1349ed9c807b6dea128499",
+    "{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob": "7cac0dcaa1aede8111a3c887deeffdfba62129904c751e47e83c2cf9e8a926e7"
+  },
+  "sourceFBXSHA256": {
+    "Assets/ArtV11/Mobility/MobilityRig.fbx": "760d8e00f322351442116e55f536b2b26923d3f4bf48f34160c3f048ed847aa6",
+    "Assets/ArtV11/Gepard/GepardTurretRig.fbx": "5dc53fdc3d0c7f9df0dfa5c5a5d8d2933cfa6d640b43173cbcf97b174dca3cd8",
+    "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.fbx": "21994af72fa5681ca8e2794b3e736b5486e2b5f66fd642d5972e3421e5c604a9",
+    "Assets/ArtV11/Gepard/GepardGunLeft.fbx": "d621501bf806a36b7a10a9f60720aa613c2f767ec84f06aacd767845edb8e949",
+    "Assets/ArtV11/Gepard/GepardGunRight.fbx": "4a337b9a69704b702ae8a0df375bf391bc8b51cfc4df5a9c621b172781c5ff3a"
+  },
+  "registration": {
+    "bones": "PASS",
+    "materials": "PASS",
+    "parts": "PASS"
+  },
+  "registrationScope": {
+    "bones": "Both skins native names/hash IDs plus960successful raw/local matrix reads; parents/dynamic skinning excluded",
+    "materials": "Role names plus52valid Charcoal assigned resources matching native roles; importer-default Camo plus12actual rendered exterior views. GPU resource identity/PBR excluded",
+    "parts": "57actual entities per functional skin, all parent links/traversal checks, each5distinctnewmodelresources once; serialized model hash pins unchanged from cooked02"
+  },
+  "evidenceFiles": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\logs\\console.log",
+      "sha256": "e10269564f9677124bd7e49bd85b56ee598cf7a8c32c68f7f7b36a6e605a01a7"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\exit.json",
+      "sha256": "a785545c5f053695f4eeed5a6f041b1d1d5ab833cc3791bc06496179b608fd5e"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\owner.json",
+      "sha256": "79bea98881cc19eaded5a6c424df15150010299efc5495dfbb3dc66a8df46f30"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\plan.json",
+      "sha256": "d8ac4066c2898c0f79bdc42fc83a3182a1eb0599c57768cba89f3317ba582632"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\result.json",
+      "sha256": "0ee942be2632d9dd22ff7adeb9a149d5f4c40dc11b9d776dd690aeb581e1685a"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-review.json",
+      "sha256": "f882235412e9738dde9fcdc4208326c6f0fc55aee09b1b2aab8307ebc1800e43"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\cook-v11-02\\logs\\console.log",
+      "sha256": "9686763e428206be4bff07acccf89ebc0a0680280b63909809a9abf8527f5f14"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\cook-v11-02\\exit.json",
+      "sha256": "f5888a299c69f0215f4a748492cb5b0447d6148f8fe23951a5a4c45d84013b8c"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\native-scene\\COMPILE-ADOPTION-RECEIPT-04.json",
+      "sha256": "c3d865490bd77ac9cecbb8679b21156c5fa30a7e412a35b5c9fff67db429ff35"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtNativeScene-Bridge-NodeId-20261022\\COMPILE-ADOPTION.json",
+      "sha256": "3ce4db4c294b2b24ab850d1b33b344347efcaf421fce323a55aafdf1ee093a1f"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtNativeScene-Bridge-NodeId-20261022\\GEPARD_SOURCE_MANIFEST.json",
+      "sha256": "1bc770fdfd425ca6e94a8091e994c44d97d20f1687b4bbf6f874d3de5dc7623c"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtNativeScene-Bridge-NodeId-20261022\\QA_SOURCE_MANIFEST.json",
+      "sha256": "3a900838f48e0f07d8e6df32454cb5da5e203a50994d5a406f93ac8c41776345"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\POSTEXIT-ARTIFACT-CHECK.json",
+      "sha256": "3c703eb5137fd33b726cde52f89fed49800b6bc92242fb492a3dd295fabb390a"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\NATIVE-REGISTRATION-REVIEW.json",
+      "sha256": "9c45fa184fb51fcdcf7736395fc58b2b823324d6d5a90063a4925bfd774598f1"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\PARSER-CORRECTION-REVIEW.json",
+      "sha256": "d671b855524983a261f9fc1c31b39c469999faef17c45f451f919033ddda3b54"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\NATIVE-DIAGNOSTICS.json",
+      "sha256": "ad7c6defdcc1f38855198208527fa409359353b4d3ba344725d2892e1fd26250"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\CORE-CONTINUITY-PROPOSAL.json",
+      "sha256": "73ff69cf038b30cf8a82c54a65648e6edf34f0f14a0dcc407e167136618ea8cf"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\IMAGE-REVIEW.json",
+      "sha256": "b1f64c179733d7396db8af3f28936722524b5491b6055894ace318a42e152af9"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Camo-front3q.bmp",
+      "sha256": "7087ddf7d119c3a65f9ec7eace3d8d5a54ddc7a6273dcf51b7ff2d6953874fcb"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Camo-rear3q.bmp",
+      "sha256": "8ff36dd324b65ff02086fc6d26db2c0965ed2320c817ef09a0a32a7bab836d1e"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Camo-left.bmp",
+      "sha256": "de374102d84a20fb03d27be71e5582405cdcbb5cccb33d3ecf8794d961e08e4d"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Camo-right.bmp",
+      "sha256": "67a64ca3165f6c1db6bb471aebdd52e89a01fed03a3e07ed065e792e01dd9c6a"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Camo-guns.bmp",
+      "sha256": "09567c17ee5a9d2584a6fba4bc9a0c027cba205f5637c8a6149bd493d27a5d41"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Camo-reargrille.bmp",
+      "sha256": "0927283dee7411cd9ccacf02fd5f28fe431fa9ea0ce959d45ef88182d408f034"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Charcoal-front3q.bmp",
+      "sha256": "fcf142dea862b31082c79d21c64e4584a574f27460c5e6bbb1d52e25635a128b"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Charcoal-rear3q.bmp",
+      "sha256": "3c2f1f4ab01ee8a2cd0011e22906d78b7b1a96f53b8241693842b911814aeaea"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Charcoal-left.bmp",
+      "sha256": "adbbb6fd518f577f5b4708e7bdc41e799dcba57dbeaf4d922571d70ac6bdc5cf"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Charcoal-right.bmp",
+      "sha256": "21d871928d913868b7d29f2a37d41f3aafd9c77b88b9540c575e9df19bcf9abc"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Charcoal-guns.bmp",
+      "sha256": "ae75e963c13f4cf50552ef6f072a33c1bfd7ca24f8f3fb9bf411f27045c26e7e"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-04\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-functional-v11-Charcoal-reargrille.bmp",
+      "sha256": "ba3aaeb6918c98ecd7f1238b0543610cb8f349a993d3eeb46699b709e4e81afe"
+    }
+  ],
+  "renderReview": {
+    "images": 12,
+    "imageReview": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\IMAGE-REVIEW.json",
+    "actualExteriorSubjects": "REVIEWED_PRESENT_AND_USEFUL_VIEWS",
+    "userArtAcceptance": "PENDING_SEPARATE_JUDGMENT"
+  },
+  "coreContinuity": {
+    "receipt": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\CORE-CONTINUITY-PROPOSAL.json",
+    "sha256": "73ff69cf038b30cf8a82c54a65648e6edf34f0f14a0dcc407e167136618ea8cf",
+    "newHUDNativeEvidence": "NOT_CLAIMED"
+  },
+  "originalNativeBatchVerdict": "NOT_TESTED",
+  "strictNativeDiagnostics": {
+    "errors": 57,
+    "suppressed": 0,
+    "report": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtV11-Native-Adoption-20261022\\NATIVE-DIAGNOSTICS.json"
+  },
+  "remainingAcceptance": [
+    "Marco appearance judgment",
+    "PBR/effective GPU materials",
+    "LODs",
+    "full articulation/moving skinning",
+    "collision/driving/weapons gameplay",
+    "newHUDglyph compile/render"
+  ],
+  "materialWarningsRetained": [
+    "GEP_FinalFinish_Wheel09TireRolling",
+    "GEP_FinalFinish_Wheel09TireSidewall"
+  ],
+  "newPadsBoundByThisTask": false,
+  "newNativeStarted": false,
+  "DWrite": false
+}

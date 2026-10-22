@@ -1,36 +1,41 @@
 {
-  "cloud": "NOT_TESTED",
-  "recoveryReceipt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-mechanism-01\\smoke-mechanism-control\\native-run\\exit-recovered.json",
-  "failure": "VM null Camera in private QA View line142 before program observations",
-  "rearm": "NOT_TESTED",
-  "runtimeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-mechanism-01",
-  "rawConsole": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-mechanism-01\\smoke-mechanism-control\\native-run\\logs\\console.log",
-  "mechanism": "NOT_TESTED",
-  "next": "Repair only QA camera using known working fixture; root native slot currently art180s",
-  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-single-03",
-  "shutdown": "VM Abort then owned ordinary CloseMainWindow, exit verified lease released, exitCode unknown",
-  "noWCSImplementationEdits": true,
-  "status": "COMPILE_PASS_RUNTIME_FIXTURE_FAILED_BEFORE_MECHANISM",
-  "finalPostAbortEvidence": {
-    "diagnosis": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-Camera-Diagnosis-20261022\\HANDOFF.md",
-    "livePositions": 2,
-    "payloadEntities": 1,
-    "identityJSON": "0x4000000000000078 {}",
-    "identityConsole": "120",
-    "preflightAmmo": 8,
-    "programs": 1,
-    "motionGateOneMetre": "NOT_MET",
-    "terminalAmmo": 7,
-    "observedTravelMetres": 0.275966946,
-    "rawSamples": 146
+  "status": "CONTROL_PROGRAM_PASS_FLIGHT_NOT_QUALIFIED_OVERALL_FAIL",
+  "updatedUtc": "2026-10-22T04:08:36.562976+00:00",
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-cameraoff-02",
+  "summarySHA256": "53cede87e2d6dabf3e64849b0262941183034f20b92c9907eaf277e45fbf38d1",
+  "assertionStatus": {
+    "world.loaded": "PASS",
+    "fixture.ready": "PASS",
+    "smoke.program-payload": "PASS",
+    "smoke.flight-telemetry": "NOT_TESTED",
+    "smoke.capture-files": "NOT_TESTED",
+    "native.errors": "FAIL",
+    "scripts.compiled": "PASS",
+    "smoke.visible-cloud": "NOT_TESTED",
+    "smoke.impact": "NOT_TESTED",
+    "smoke.coverage": "NOT_TESTED",
+    "smoke.manual-input": "NOT_TESTED",
+    "smoke.rearm-cooldown-roles": "NOT_TESTED",
+    "smoke.mp-jip": "NOT_TESTED",
+    "art.v11-smoke-registration": "NOT_TESTED",
+    "package.trio": "NOT_TESTED",
+    "visual.approved": "NOT_TESTED"
   },
-  "pixelReview": {
-    "observed": "Both show gunner cabin, not requested external near/far view; external camera selection not proven; no cloud conclusion",
-    "actualImagesRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-mechanism-01\\smoke-mechanism-control\\native-run\\profile\\profile",
-    "reviewed": [
-      "GEP215-wcs-pair-3-near.bmp",
-      "GEP215-wcs-pair-8-far.bmp"
-    ]
+  "lifecycle": {
+    "status": "PASS",
+    "reason": "Original wrapper exact owner/argv receipts, verified normal exit and same released lease",
+    "verifiedExited": true,
+    "leaseReleased": true
   },
-  "sourceFixStatus": "No camera source fix applied; external supplier owns diagnosis. Existing compiled fixes only internal Sequence names, Ammo local int, EntityID strings."
+  "observations": {
+    "oneProgram": true,
+    "ammo": "8 -> 7",
+    "uniqueNativePayload": "native:4000000000000078",
+    "flight": "Only one valid position readback; 0m computed travel; minimum1m gates remain unsatisfied",
+    "camera": "Capture disabled; no screenshots or custom camera claims",
+    "nativeErrors": "WCS authoring localization source reference, seven retained legacy stock WORLD errors and shutdown resource leaks; original strict FAIL retained"
+  },
+  "nextProbe": "Separate eight-angle-order swap counterfactual; same camera-off fixture, original controls and strict travel thresholds",
+  "featureIncluded": false,
+  "nativeAcceptance": false
 }

@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\check_rebuild.py"
+  ],
+  "exitCode": 0,
+  "stdout": "{\n  \"status\": \"PASS_SOURCE_NATIVE_ADOPTION_GATE_ONLY\",\n  \"reasons\": [],\n  \"models\": [\n    {\n      \"resource\": \"{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob\",\n      \"currentSHA256\": \"7490fcff9d9e2ee387ad08972c75aecb1e4d8f601c0fba62b7a9cb8e2b1374f1\",\n      \"changedFromSeed\": true\n    },\n    {\n      \"resource\": \"{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob\",\n      \"currentSHA256\": \"79ccacd0ca36a5a60a3c4be398d5170d1a6f46d776c1ee853a77c8d7aec932c2\",\n      \"changedFromSeed\": true\n    },\n    {\n      \"resource\": \"{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob\",\n      \"currentSHA256\": \"3131f0cce258caabe4a3560cb3ef9a934f5e68a05cb4939ad24611f33ddd2ad3\",\n      \"changedFromSeed\": true\n    },\n    {\n      \"resource\": \"{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob\",\n      \"currentSHA256\": \"23ecfc6d4a976ccebfccfaee17a4db4068d4970f2f1349ed9c807b6dea128499\",\n      \"changedFromSeed\": true\n    },\n    {\n      \"resource\": \"{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob\",\n      \"currentSHA256\": \"7cac0dcaa1aede8111a3c887deeffdfba62129904c751e47e83c2cf9e8a926e7\",\n      \"changedFromSeed\": true\n    }\n  ],\n  \"userArtAcceptance\": \"PENDING_SEPARATE_JUDGMENT\",\n  \"nativeStarted\": false\n}\n",
+  "stderr": "",
+  "nativeStarted": false
+}

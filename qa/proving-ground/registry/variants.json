@@ -32,25 +32,25 @@
     },
     {
       "id": "NEW-CAMO",
-      "label": "NEW exterior / camo / NOT BOUND",
+      "label": "NEW exterior / camo / native registration reviewed; manual art acceptance pending",
       "position": [
         600,
         0,
         2622
       ],
-      "prefab": "",
-      "status": "PENDING_ART_COORDINATOR"
+      "prefab": "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+      "status": "BOUND_SOURCE_ONLY"
     },
     {
       "id": "NEW-CHARCOAL",
-      "label": "NEW exterior / charcoal / NOT BOUND",
+      "label": "NEW exterior / charcoal / native registration reviewed; manual art acceptance pending",
       "position": [
         620,
         0,
         2622
       ],
-      "prefab": "",
-      "status": "PENDING_ART_COORDINATOR"
+      "prefab": "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et",
+      "status": "BOUND_SOURCE_ONLY"
     }
   ],
   "damageSubjectSlot": "OLD-CAMO",

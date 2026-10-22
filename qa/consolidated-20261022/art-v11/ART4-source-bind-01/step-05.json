@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\tools\\generate.py",
+    "--verify-lock"
+  ],
+  "exitCode": 0,
+  "stdout": "PASS_FROZEN_SOURCE_ONLY; native compile/gameplay remains NOT_TESTED\n",
+  "stderr": "",
+  "nativeStarted": false
+}

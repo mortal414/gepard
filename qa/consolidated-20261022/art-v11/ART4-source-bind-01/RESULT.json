@@ -1,0 +1,85 @@
+{
+  "status": "REVIEWED_NEW_ART_OUTPUTS_ADOPTED_NEW_SLOTS_BOUND_SOURCE_ONLY",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\check_rebuild.py"
+      ],
+      "exitCode": 0,
+      "stdout": "{\n  \"status\": \"PASS_SOURCE_NATIVE_ADOPTION_GATE_ONLY\",\n  \"reasons\": [],\n  \"models\": [\n    {\n      \"resource\": \"{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob\",\n      \"currentSHA256\": \"7490fcff9d9e2ee387ad08972c75aecb1e4d8f601c0fba62b7a9cb8e2b1374f1\",\n      \"changedFromSeed\": true\n    },\n    {\n      \"resource\": \"{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob\",\n      \"currentSHA256\": \"79ccacd0ca36a5a60a3c4be398d5170d1a6f46d776c1ee853a77c8d7aec932c2\",\n      \"changedFromSeed\": true\n    },\n    {\n      \"resource\": \"{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob\",\n      \"currentSHA256\": \"3131f0cce258caabe4a3560cb3ef9a934f5e68a05cb4939ad24611f33ddd2ad3\",\n      \"changedFromSeed\": true\n    },\n    {\n      \"resource\": \"{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob\",\n      \"currentSHA256\": \"23ecfc6d4a976ccebfccfaee17a4db4068d4970f2f1349ed9c807b6dea128499\",\n      \"changedFromSeed\": true\n    },\n    {\n      \"resource\": \"{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob\",\n      \"currentSHA256\": \"7cac0dcaa1aede8111a3c887deeffdfba62129904c751e47e83c2cf9e8a926e7\",\n      \"changedFromSeed\": true\n    }\n  ],\n  \"userArtAcceptance\": \"PENDING_SEPARATE_JUDGMENT\",\n  \"nativeStarted\": false\n}\n",
+      "stderr": "",
+      "nativeStarted": false
+    },
+    {
+      "argv": [
+        "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\tools\\bind_variant.py",
+        "--slot",
+        "NEW-CAMO",
+        "--prefab",
+        "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+        "--label",
+        "NEW exterior / camo / native registration reviewed; manual art acceptance pending"
+      ],
+      "exitCode": 0,
+      "stdout": "Bound source only. Run tools/generate.py --check to pin the full current runtime and regenerate; native validation is still required.\n",
+      "stderr": "",
+      "nativeStarted": false
+    },
+    {
+      "argv": [
+        "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\tools\\bind_variant.py",
+        "--slot",
+        "NEW-CHARCOAL",
+        "--prefab",
+        "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et",
+        "--label",
+        "NEW exterior / charcoal / native registration reviewed; manual art acceptance pending"
+      ],
+      "exitCode": 0,
+      "stdout": "Bound source only. Run tools/generate.py --check to pin the full current runtime and regenerate; native validation is still required.\n",
+      "stderr": "",
+      "nativeStarted": false
+    },
+    {
+      "argv": [
+        "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\tools\\generate.py",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "{\"status\": \"PASS_SOURCE_CHECKS_ONLY\", \"nativeStatus\": \"NOT_TESTED\", \"damageBaySeparationMetres\": 800.0, \"targetHorizontalDistances\": \"PASS\", \"subjectMutationSettersAbsent\": true, \"hostileQualificationGate\": true, \"slotsBound\": 4, \"unboundSlots\": [], \"nativeBlocker\": \"Source checks do not qualify native behavior; consult coordinator runtime lease and evidence\"}\n",
+      "stderr": "",
+      "nativeStarted": false
+    },
+    {
+      "argv": [
+        "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\tools\\generate.py",
+        "--verify-lock"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS_FROZEN_SOURCE_ONLY; native compile/gameplay remains NOT_TESTED\n",
+      "stderr": "",
+      "nativeStarted": false
+    }
+  ],
+  "coreBeforePreserved": true,
+  "testedArt04StagePreserved": true,
+  "newArtOutputsAdopted": 15,
+  "boundSlots": {
+    "NEW-CAMO": "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+    "NEW-CHARCOAL": "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et"
+  },
+  "generatedVariantLockSha256": "978c578e42d0edb35b582a8569e5c49ab026f7394b3cb379764609fab7747050",
+  "generatedWorldManifestSha256": "229f7042878499ad0310d9da3e2357d692b1e4ac7a7018b2190c235e88ceedb4",
+  "sharedSourceClosureFiles": 1152,
+  "nativeCompile": "PENDING_FULL_CANDIDATE",
+  "nativeGameplay": "NOT_TESTED",
+  "newHUDNativeRender": "NOT_TESTED_BY_ART04",
+  "userArtAcceptance": "PENDING",
+  "nativeStarted": false,
+  "leaseMutated": false
+}

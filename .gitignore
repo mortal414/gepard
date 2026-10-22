@@ -17,3 +17,14 @@ downloads/
 /native-core-stage/
 
 /native-audio-stage/
+
+/native-smoke-angle-stage/
+/native-hud-ascii-stage/
+/native-core-completion-stage/
+/native-gpg-reset-stage-v1/
+/native-gpg-reset-stage-v2/
+/native-gpg-service-stage-v1/
+/native-*-stage*/
+/private-demo-source/
+/private-demo-package/
+/private-demo-packed-stage/

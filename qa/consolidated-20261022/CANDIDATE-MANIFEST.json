@@ -1,5 +1,5 @@
 {
-  "status": "NATIVE_CORE_QUALIFICATION_ACTIVE_OPTIONAL_AUDIO_DECLINED",
+  "status": "NATIVE_CONSOLIDATED_QUALIFICATION_ACTIVE",
   "createdUtc": "2026-10-22T00:55:37.066743+00:00",
   "goal": "One complete consolidated user session tomorrow, followed by update only if accepted; no piecemeal demos tonight",
   "sourceRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022",
@@ -24,12 +24,12 @@
       ],
       "sourceIncluded": true,
       "sourceChecks": 72,
-      "nativeCompile": "SCRIPT_COMPILE_PASS_shared_core_compile02",
-      "nativeRender": "INITIAL_APPROVED_RENDER_OBSERVED_320_BOTH_FEEDS_2X; HumanReadabilityPending",
+      "nativeCompile": "ASCII compile-hud-ascii-native01 PASS; actual root RDB transition reviewed by separate C v2 binding",
+      "nativeRender": "ASCII_RENDER_DATA_AND_ROOT_PIXEL_REVIEW_PASS_1280x720_2x; human design/allzooms/aspects pending",
       "userAcceptance": "PENDING",
-      "nativeRenderRun": "hud-render-control-01",
-      "nativeDiagnostics": "8exactstockbaseline errors retained; no clean-log claim",
-      "sourceSuccessor": "2GermanASCIIliteral-onlyfiles integrated; native-stage preserved pendingcompile/render",
+      "nativeRenderRun": "hud-ascii-render-02",
+      "nativeDiagnostics": "Strict original overallFAIL from retained nativeerrors; narrower HUD/data/capture checksPASS",
+      "sourceSuccessor": "Two German ASCII literal files source-integrated and actually rendered",
       "nativeLifecycle": "bothV11healthy scriptedADS/firing/exit/reentry/refirePASS; fullzoom/range/menu/physicalpending"
     },
     "artV11": {
@@ -42,27 +42,28 @@
       "functionalPatch": "ADDITIVE35FILES_INTEGRATED_CORE1112PRESERVED",
       "dynamicChecks": "BOTH_V11_HEALTHY_CORE_PASS; fullarticulation/LODs/performance/manualpending",
       "userAcceptance": "PENDING",
-      "cookedModelStatus": "ALL_FIVE_NATIVE_REBUILT_HASH_DIFFERENT",
+      "cookedModelStatus": "FIVE_REBUILDS_15_OUTPUTS_ADOPTED_1152_SOURCE_FILES",
       "nativeRebuild": "FIVE_MODEL_BUILD_PASS_EXIT0_COOK02",
-      "actualNEWBindings": "PENDING_SCOPED_ADOPTION_AND_WORLD_BINDING",
+      "actualNEWBindings": "BOTH_BOUND_SOURCE_ONLY; full candidate native compile/render pending",
       "pendingBindings": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\PENDING-BINDINGS.json",
       "nativeGate": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\REBUILD-PLAN.json",
       "overlayManifestSHA256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce",
       "nativeInspectionCompile": "SCRIPT_COMPILE_PASS_art_native04",
-      "nativeInspection": "ART4_12_ACTUAL_VIEWS_AND_TWO_COMPLETE_NATIVE_READOUTS_EXIT0"
+      "nativeInspection": "ART4_12_ACTUAL_VIEWS_AND_TWO_COMPLETE_NATIVE_READOUTS_EXIT0",
+      "nativeAdoption": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\RESULT.json"
     },
     "smoke": {
       "GEP": [
         "015"
       ],
       "sourceIncluded": false,
-      "status": "EXCLUDED_NATIVE_CONTROL_REPLAY_IN_PROGRESS",
+      "status": "EXCLUDED_ANGLE_PROBE_DENIED_BEFORE_LAUNCH_PENDING_AUTHORIZATION_RECONCILIATION",
       "stage": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\single",
       "dependency": "WCS_Armaments629B2BA37EFFD5778.4.0",
       "permissionGate": "No blanket blocker for audited original dependency-only design",
-      "nativeObservation": "recoveredfailedrun oneprogram ammo8to7 onepayload;0.276m downward; cabinimages invalidexternalcapture",
+      "nativeObservation": "Clean control02 programPASS8to7/exact1;flightNT1sample0m; strictoverallFAILretained",
       "sourceSuccessor": "exactsuppliercameraoff63ee... staged; separateangle-ordercandidate notmerged",
-      "nativeCompile": "SCRIPT_COMPILE_PASS_compile-smoke-cameraoff-04; native replay queued"
+      "nativeCompile": "ANGLE05_SCRIPT_COMPILE_PASS"
     },
     "trackAudio": {
       "GEP": [
@@ -81,14 +82,14 @@
     "sourceOwnerRoot": "D:\\ArmaProjects\\Gepard-ProvingGround-20261022",
     "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\addon\\GepardProvingGround.gproj",
     "world": "{A76A420022000002}Worlds/GPG_Arland.ent",
-    "handoff": "SOURCE_INTEGRATED_NATIVE_STARTUP_OBSERVED; successorresetfixpendingcompile",
+    "handoff": "34 actual bound source objects;28stations;12gates;5targets",
     "requirements": "D:\\ArmaProjects\\Gepard-ProvingGround-20261022\\FUNCTIONAL-INTEGRATION-REQUIREMENTS.json",
     "duplicateWorldBuilding": false,
     "addonId": "A76A420022000001",
     "sourceOwnerCommit": "d42a569e46ee63c0e676361814a67394f7695d9f",
     "localSource": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground",
-    "sharedRuntimeSHA256": "9578c4a161fd880b6ab3891e3c44d8db853222968be89182ff034272309a4b4d",
-    "variantLockSHA256": "93bb84b6c6d3c6b15d9d2dd286f83e56d26a6bd4e6036891bd915a68a4640e15",
+    "sharedRuntimeSHA256": "71dc97f41ed852952ac883396de1a064c9bdfcae6efb5d8ae7fa5fc2c07ee1fb",
+    "variantLockSHA256": "978c578e42d0edb35b582a8569e5c49ab026f7394b3cb379764609fab7747050",
     "boundSlots": [
       "OLD-CAMO",
       "OLD-CHARCOAL"
@@ -105,7 +106,8 @@
     "stagedProject": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
     "freezeGuardRepair": "checks/FREEZE-GUARD-REPAIR.json; six registry/source/manifest tamper cases PASS",
     "adapter": "SOURCE_PLAN_READY_NATIVE_NOT_TESTED",
-    "sourceResetFix": "3providerIDsmatchinitialization"
+    "sourceResetFix": "3providerIDsmatchinitialization",
+    "sourceNativeStage": "native-gpg-reset-stage-v1; private survey/reset compile failed lookup return; repair pending"
   },
   "selectedRuntimeDependencies": [
     "58D0FB3206B6F859 base Reforger",
@@ -122,7 +124,7 @@
   "releaseFilesChanged": false,
   "published": false,
   "newAcceptedCheckboxes": 0,
-  "updatedUtc": "2026-10-22T03:59:48.882687+00:00",
+  "updatedUtc": "2026-10-22T04:23:57.941105+00:00",
   "sourceCodeBaselineCommit": "09e75342f5bd7f3fda3b40617104c956d150d316",
   "nativeBridge": {
     "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\native-bridge-source",

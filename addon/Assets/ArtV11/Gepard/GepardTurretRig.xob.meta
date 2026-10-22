@@ -1,2154 +1,2154 @@
-MetaFileClass {
- Name "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob"
- Configurations {
-  FBXResourceClass PC {
-   SourceFile "GepardTurretRig.fbx"
-   ExportSkinning 1
-   ExportMorphs 0
-   ExportSceneHierarchy 1
-   MaterialAssigns {
-    MaterialAssignClass "{D61499CF70B1F352}" {
-     SourceMaterial "GEP_TurretLowerChin_ServiceB_20261017"
-     AssignedMaterial "{4B8A0C3041B14B4E}Assets/Gepard/ServiceWear656/MAT_08e170c59a_Service.emat"
-    }
-    MaterialAssignClass "{31DB291338014162}" {
-     SourceMaterial "GEP_TurretShell_ServiceBRefined_20261017"
-     AssignedMaterial "{B4ACF76C11464034}Assets/Gepard/ExteriorClosure658/TurretNationalCrosses.emat"
-    }
-    MaterialAssignClass "{C1F5094EA2DA4568}" {
-     SourceMaterial "GEP_OpticPane_D"
-     AssignedMaterial "{D561AD08932E6001}Assets/Gepard/Surface/OpticalGlass.emat"
-    }
-    MaterialAssignClass "{33FB8552200F4E34}" {
-     SourceMaterial "GEP_TurretRearBand_20261017"
-     AssignedMaterial "{72CC8957129142F9}Assets/Gepard/ServiceWear656/MAT_deef85e30c_Service.emat"
-    }
-    MaterialAssignClass "{6A9B0A90687F09FE}" {
-     SourceMaterial "GEP_Finish_Turret"
-     AssignedMaterial "{A83C4721B62F1004}Assets/Gepard/Finish/Turret.emat"
-    }
-    MaterialAssignClass "{D621B0F01E4C1B90}" {
-     SourceMaterial "GEP_CrewRoof_Coaming_ServiceB_20261017"
-     AssignedMaterial "{613A025E27C844BE}Assets/Gepard/ServiceWear656/MAT_1e39c20792_Service.emat"
-    }
-    MaterialAssignClass "{D621A886EAADFEDC}" {
-     SourceMaterial "GEP_rubber"
-     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
-    }
-    MaterialAssignClass "{D626B47FE594A65F}" {
-     SourceMaterial "GEP_StorageRearService_RearOriginalBoxes"
-     AssignedMaterial "{D62634DFA54F5738}Assets/Gepard/StorageRearService/RearOriginalBoxes.emat"
-    }
-    MaterialAssignClass "{D63511D37CAE7F2E}" {
-     SourceMaterial "GEP_Underpod225_ServicePaint"
-     AssignedMaterial "{D635241724D4A014}Assets/Gepard/Underpod225635/GEP_Underpod225_ServicePaint.emat"
-    }
-    MaterialAssignClass "{D63590E86342245E}" {
-     SourceMaterial "GEP_Underpod225_DarkFastener"
-     AssignedMaterial "{D6355DE63754441D}Assets/Gepard/Underpod225635/GEP_Underpod225_DarkFastener.emat"
-    }
-   }
-   MeshParams {
-    MeshParam GepardTurretRig {
-    }
-    MeshParam GEP_RearCapSeats651 {
-    }
-   }
-   GeometryParams {
-    GeometryParam UCX_Turret_Left_2072 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Floor_2073 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Left_2074 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Front_2075 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Right_2076 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Right_2077 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Right_2078 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Rear_2079 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Left_2080 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_027 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_028 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_029 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_030 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_031 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_032 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_066 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_067 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_068 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_069 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Component_TurretDrive {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_00 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_03 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_04 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_05 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_06 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_07 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_08 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_09 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_10 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_11 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_12 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_13 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_14 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_RaceSeal_15 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_000 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_000_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_000_Cut621_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_000_Cut621_03 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_000_Cut621_04 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_000_Cut621_05 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_000_Cut621_06 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_000_Cut621_07 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_001 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_001_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_001_Cut621_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_002 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_002_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_003 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_003_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_004 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_004_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_005 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_006 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_007 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_008 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_009 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_010 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_015 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_016 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_017 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_018 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_019 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_020 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_021 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_022 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_023 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_024 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_025 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_026 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_033 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_033_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_033_Cut621_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_033_Cut621_03 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_033_Cut621_04 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_033_Cut621_05 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_034 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_034_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_035 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_040 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_041 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_042 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_043 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_044 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_045 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_046 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_047 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_048 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_049 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_049_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_049_Cut621_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_049_Cut621_03 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_049_Cut621_04 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_050 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_050_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_050_Cut621_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_051 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_051_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_052 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_052_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_053 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_053_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_054 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_055 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_056 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_057 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_058 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_058_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_058_Cut621_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_059 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_059_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_059_Cut621_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_060 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_060_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_061 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_061_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_062 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_062_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_063 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_063_Cut621_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_064 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_065 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_070 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_071 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Turret_Roof569_072 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_00 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_00 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_02_01 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_02 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_03 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_03 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_02_03 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_04 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_04 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_05 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_05 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_02_05 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_06 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_06 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_07 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_07 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_02_07 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_08 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_08 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_09 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_09 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_02_09 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_10 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_10 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_11 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_11 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_02_11 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_12 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_12 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_13 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_13 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_14 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_14 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_15 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_15 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_16 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_16 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_17 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_17 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_18 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_18 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_19 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_19 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_20 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_20 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_21 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_21 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_22 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_22 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_23 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_23 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_24 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_24 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_25 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_25 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_26 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_26 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_27 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_27 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_28 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_28 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_29 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_29 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_30 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_30 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_31 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_31 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_32 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_32 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_33 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_33 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_34 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_34 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_35 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_35 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_36 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_36 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_37 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_37 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_38 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_38 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_39 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_39 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_40 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_40 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_41 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_41 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_42 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_42 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_43 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_43 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_44 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_44 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_45 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_45 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_46 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_46 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_47 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_47 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_48 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_48 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_49 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_49 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_50 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_50 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_51 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_51 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_52 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_52 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_53 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_53 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_54 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_54 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_55 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_55 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_56 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_56 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_57 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_57 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_58 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_58 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_59 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_59 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_60 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_60 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_61 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_61 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_62 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_62 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_00_63 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_CrewRoof621_Frame_01_63 {
-     LayerPreset "VehicleFire"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-   }
-   ApplicationVendor "Blender Foundation"
-   ApplicationName "Blender (stable FBX IO)"
-   ApplicationVersion "4.5.13 LTS"
-  }
-  FBXResourceClass HEADLESS : PC {
-  }
-  FBXResourceClass XBOX_ONE : PC {
-  }
-  FBXResourceClass XBOX_SERIES : PC {
-  }
-  FBXResourceClass PS4 : PC {
-  }
-  FBXResourceClass PS5 : PC {
-  }
- }
+MetaFileClass {
+ Name "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardTurretRig.fbx"
+   ExportSkinning 1
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{D61499CF70B1F352}" {
+     SourceMaterial "GEP_TurretLowerChin_ServiceB_20261017"
+     AssignedMaterial "{4B8A0C3041B14B4E}Assets/Gepard/ServiceWear656/MAT_08e170c59a_Service.emat"
+    }
+    MaterialAssignClass "{31DB291338014162}" {
+     SourceMaterial "GEP_TurretShell_ServiceBRefined_20261017"
+     AssignedMaterial "{B4ACF76C11464034}Assets/Gepard/ExteriorClosure658/TurretNationalCrosses.emat"
+    }
+    MaterialAssignClass "{C1F5094EA2DA4568}" {
+     SourceMaterial "GEP_OpticPane_D"
+     AssignedMaterial "{D561AD08932E6001}Assets/Gepard/Surface/OpticalGlass.emat"
+    }
+    MaterialAssignClass "{33FB8552200F4E34}" {
+     SourceMaterial "GEP_TurretRearBand_20261017"
+     AssignedMaterial "{72CC8957129142F9}Assets/Gepard/ServiceWear656/MAT_deef85e30c_Service.emat"
+    }
+    MaterialAssignClass "{6A9B0A90687F09FE}" {
+     SourceMaterial "GEP_Finish_Turret"
+     AssignedMaterial "{A83C4721B62F1004}Assets/Gepard/Finish/Turret.emat"
+    }
+    MaterialAssignClass "{D621B0F01E4C1B90}" {
+     SourceMaterial "GEP_CrewRoof_Coaming_ServiceB_20261017"
+     AssignedMaterial "{613A025E27C844BE}Assets/Gepard/ServiceWear656/MAT_1e39c20792_Service.emat"
+    }
+    MaterialAssignClass "{D621A886EAADFEDC}" {
+     SourceMaterial "GEP_rubber"
+     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
+    }
+    MaterialAssignClass "{D626B47FE594A65F}" {
+     SourceMaterial "GEP_StorageRearService_RearOriginalBoxes"
+     AssignedMaterial "{D62634DFA54F5738}Assets/Gepard/StorageRearService/RearOriginalBoxes.emat"
+    }
+    MaterialAssignClass "{D63511D37CAE7F2E}" {
+     SourceMaterial "GEP_Underpod225_ServicePaint"
+     AssignedMaterial "{D635241724D4A014}Assets/Gepard/Underpod225635/GEP_Underpod225_ServicePaint.emat"
+    }
+    MaterialAssignClass "{D63590E86342245E}" {
+     SourceMaterial "GEP_Underpod225_DarkFastener"
+     AssignedMaterial "{D6355DE63754441D}Assets/Gepard/Underpod225635/GEP_Underpod225_DarkFastener.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardTurretRig {
+    }
+    MeshParam GEP_RearCapSeats651 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Turret_Left_2072 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Floor_2073 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Left_2074 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Front_2075 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Right_2076 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Right_2077 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Right_2078 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Rear_2079 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Left_2080 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_027 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_028 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_029 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_030 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_031 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_032 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_066 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_067 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_068 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_069 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Component_TurretDrive {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_00 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_03 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_04 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_05 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_06 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_07 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_08 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_09 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_10 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_11 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_12 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_13 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_14 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_RaceSeal_15 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_000 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_000_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_000_Cut621_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_000_Cut621_03 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_000_Cut621_04 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_000_Cut621_05 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_000_Cut621_06 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_000_Cut621_07 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_001 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_001_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_001_Cut621_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_002 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_002_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_003 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_003_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_004 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_004_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_005 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_006 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_007 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_008 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_009 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_010 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_015 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_016 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_017 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_018 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_019 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_020 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_021 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_022 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_023 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_024 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_025 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_026 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_033 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_033_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_033_Cut621_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_033_Cut621_03 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_033_Cut621_04 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_033_Cut621_05 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_034 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_034_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_035 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_040 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_041 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_042 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_043 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_044 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_045 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_046 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_047 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_048 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_049 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_049_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_049_Cut621_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_049_Cut621_03 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_049_Cut621_04 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_050 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_050_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_050_Cut621_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_051 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_051_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_052 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_052_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_053 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_053_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_054 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_055 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_056 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_057 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_058 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_058_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_058_Cut621_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_059 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_059_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_059_Cut621_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_060 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_060_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_061 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_061_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_062 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_062_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_063 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_063_Cut621_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_064 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_065 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_070 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_071 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_Roof569_072 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_00 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_00 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_02_01 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_02 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_03 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_03 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_02_03 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_04 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_04 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_05 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_05 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_02_05 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_06 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_06 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_07 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_07 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_02_07 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_08 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_08 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_09 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_09 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_02_09 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_10 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_10 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_11 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_11 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_02_11 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_12 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_12 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_13 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_13 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_14 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_14 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_15 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_15 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_16 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_16 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_17 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_17 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_18 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_18 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_19 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_19 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_20 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_20 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_21 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_21 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_22 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_22 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_23 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_23 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_24 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_24 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_25 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_25 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_26 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_26 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_27 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_27 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_28 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_28 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_29 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_29 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_30 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_30 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_31 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_31 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_32 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_32 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_33 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_33 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_34 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_34 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_35 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_35 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_36 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_36 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_37 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_37 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_38 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_38 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_39 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_39 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_40 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_40 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_41 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_41 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_42 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_42 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_43 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_43 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_44 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_44 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_45 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_45 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_46 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_46 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_47 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_47 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_48 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_48 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_49 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_49 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_50 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_50 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_51 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_51 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_52 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_52 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_53 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_53 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_54 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_54 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_55 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_55 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_56 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_56 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_57 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_57 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_58 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_58 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_59 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_59 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_60 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_60 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_61 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_61 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_62 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_62 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_00_63 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_CrewRoof621_Frame_01_63 {
+     LayerPreset "VehicleFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
 }

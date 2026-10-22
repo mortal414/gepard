@@ -1,14 +1,12 @@
 {
   "status": "PASS_SOURCE_CHECKS_ONLY",
   "nativeStatus": "NOT_TESTED",
-  "damageBaySeparationMetres": 800.0,
+  "damageBaySeparationMetres": 349.85711369071805,
   "targetHorizontalDistances": "PASS",
+  "damageCorridorSourceNonintersection": "PASS_STATIC_ONLY_NOT_CONTAINMENT",
   "subjectMutationSettersAbsent": true,
   "hostileQualificationGate": true,
-  "slotsBound": 2,
-  "unboundSlots": [
-    "NEW-CAMO",
-    "NEW-CHARCOAL"
-  ],
+  "slotsBound": 4,
+  "unboundSlots": [],
   "nativeBlocker": "Source checks do not qualify native behavior; consult coordinator runtime lease and evidence"
 }

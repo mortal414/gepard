@@ -1,0 +1,56 @@
+{
+  "status": "DEPENDENCY_LOCALIZATION_AUTHORING_REFERENCE_WARNING_DIAGNOSED_INDEX_ONLY",
+  "createdUtc": "2026-10-22T04:06:38.488150+00:00",
+  "dependency": "WCS Armaments 629B2BA37EFFD577 8.4.0",
+  "pins": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\dependencies\\WCS_Armaments\\addon.gproj",
+      "sha256": "e6ffcf559a2e7898848349c090300ea8eca8cb2e13ecef456a108bcc82efc8b1",
+      "bytes": 2926
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\dependencies\\WCS_Armaments\\resourceDatabase.rdb",
+      "sha256": "92f6c40aeebab4c2148173ff61d4312340111a2e7b675b9e4bbced2814ed2154",
+      "bytes": 195796
+    }
+  ],
+  "projectSourceReference": "{41FA2A08B6971D4C}Language/wcs_armament_localization.st",
+  "sourcePathVisibleInIndex": false,
+  "sourceGuidVisibleAsASCIIorLE": false,
+  "runtimeReferences": [
+    "{3356BB5173BAB983}Language/wcs_armament_localization.cs_cz.conf",
+    "{E628A1626019A8A3}Language/wcs_armament_localization.de_de.conf",
+    "{B8D82B290AEAADA2}Language/wcs_armament_localization.en_us.conf",
+    "{7D9466A0E4E8C6BD}Language/wcs_armament_localization.es_es.conf",
+    "{C63C9397026B25BF}Language/wcs_armament_localization.fr_fr.conf",
+    "{46201CA3AF49A646}Language/wcs_armament_localization.it_it.conf",
+    "{563BA131913896ED}Language/wcs_armament_localization.ja_jp.conf",
+    "{F685899D021595D2}Language/wcs_armament_localization.ko_kr.conf",
+    "{AAF42F67BCFA09AE}Language/wcs_armament_localization.pl_pl.conf",
+    "{7F83B5AB8704C314}Language/wcs_armament_localization.pt_br.conf",
+    "{2AC2A1031A7DA662}Language/wcs_armament_localization.ru_ru.conf",
+    "{A09AF4F576531837}Language/wcs_armament_localization.uk_ua.conf",
+    "{7A2A9AC84FF3C82A}Language/wcs_armament_localization.zh_cn.conf"
+  ],
+  "runtimePathsVisibleInIndex": [
+    "Language/wcs_armament_localization.cs_cz.conf",
+    "Language/wcs_armament_localization.de_de.conf",
+    "Language/wcs_armament_localization.en_us.conf",
+    "Language/wcs_armament_localization.es_es.conf",
+    "Language/wcs_armament_localization.fr_fr.conf",
+    "Language/wcs_armament_localization.it_it.conf",
+    "Language/wcs_armament_localization.ja_jp.conf",
+    "Language/wcs_armament_localization.ko_kr.conf",
+    "Language/wcs_armament_localization.pl_pl.conf",
+    "Language/wcs_armament_localization.pt_br.conf",
+    "Language/wcs_armament_localization.ru_ru.conf",
+    "Language/wcs_armament_localization.uk_ua.conf",
+    "Language/wcs_armament_localization.zh_cn.conf"
+  ],
+  "method": "Read unmodified dependency gproj plus printable path records in its resource database; no asset extraction, authoring edits or protected LoadContainer call. This is not a complete binary format parser or native localization validation.",
+  "observedNativeWarning": "Wrong GUID/name {41FA2A08B6971D4C}Language/wcs_armament_localization.st in StringTableSource",
+  "interpretation": "Shipping project retains an authoring .st reference absent from inspected shipping index; all13 compiled runtime localization paths are present. Actual German action labels still require runtime/user review. This does not explain or excuse failed launch flight/cloud; strict original native error result remains FAIL.",
+  "mutation": false,
+  "nativeStarted": false,
+  "permissionsApproved": false
+}

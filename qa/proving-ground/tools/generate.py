@@ -80,6 +80,14 @@ def generate():
                   f'{s["id"]}: {s["label"]}; prefab SHA256 {(s["prefabSha256"] or "UNBOUND")[:16]}' for s in locked)
                   + f'\nShared script/resource closure SHA256 {shared["sha256"][:16]}; full hashes in checks/variant-lock.json.') + ';',
               ' }', ' static void Build(GPG_Director world)', ' {']
+    range_station=next(s for s in stations["stations"] if s["id"]=="range")
+    source.insert(-2, ' static vector RangeLine() {return '+vec(range_station['position'])+';}')
+    gate_yaws={g['id']:g.get('yaw',0) for g in stations['route']}
+    gate_yaws.update({'RANGE FIRE EAST':90,'DAMAGE FIRE EAST':90,'DAMAGE FIRE NORTH':0})
+    yaw_source=[' static float GateYaw(string id) {']
+    yaw_source += ['  if(id=='+quote(i)+')return '+str(y)+';' for i,y in gate_yaws.items()]
+    yaw_source += ['  return 0;',' }']
+    source[-2:-2]=yaw_source
     for station in stations["stations"]:
         source.append('  world.Station(' + ",".join([quote(station["id"]), quote(station["title"]), quote(station["instructions"]), vec(station["position"]), vec(station["board"])]) + ');')
     for slot in locked:
@@ -92,14 +100,17 @@ def generate():
         source.append(f'  world.Station({quote(gate["id"])},{quote(gate["id"])},{quote(gate["kind"] + "; grade/material require native survey.")},{vec(gate["position"])},{vec([x-10,y,z])});')
     route_slot=next(s for s in locked if s['id']==variants['routeSubjectSlot'])
     if route_slot['prefab']:
-        source.append(f'  world.Add("ROUTE-SUBJECT","drive",{quote(route_slot["prefab"])},"600 0 2660",0);')
+        source.append(f'  world.Add("ROUTE-SUBJECT","drive",{quote(route_slot["prefab"])},{vec(stations["layoutPlanning"]["routeSubject"])},{stations["layoutPlanning"]["routeYaw"]});')
+    audio=stations['layoutPlanning']['audioOrigin']
     for distance in (5,30,100):
-        source.append(f'  world.Station("AUDIO-{distance}m","LISTENER {distance}m horizontal", "From route point600/2750; record actual listener-to-emitter distance while moving. Native audio route and surface unqualified.","{600+distance} 0 2750","{600+distance} 0 2750");')
-    source.append('  world.Gate("RANGE FIRE EAST","900 0 2450");')
+        listener=[audio[0]-distance,0,audio[2]]
+        board=[listener[0],0,listener[2]-5]
+        source.append('  world.Station('+','.join([quote('AUDIO-'+str(distance)+'m'),quote('LISTENER '+str(distance)+'m horizontal'),quote('Stand WEST behind route start650/2695. Use one listening test at a time, stay clear of the moving route and record actual distance.'),vec(listener),vec(board)])+');')
+    source.append('  world.Gate("RANGE FIRE EAST",'+vec(range_station['position'])+');')
     for target in stations["targets"]:
         resource = resources["infantryTarget" if target["kind"] == "infantry" else "vehicleTarget"]
         x,y,z = target["position"]
-        actual = math.hypot(x-900,z-2450)
+        actual = math.hypot(x-range_station["position"][0],z-range_station["position"][2])
         if abs(actual-target["distance"]) > .1:
             raise ValueError(f'Target distance mismatch {target["id"]}: {actual}')
         source.append(f'  world.Target({quote(target["id"])},{vec(target["position"])},{quote(resource)},{target["distance"]});')
@@ -121,15 +132,23 @@ def verify(lock):
     damage = next(s for s in stations["stations"] if s["id"] == "damage")
     bay = next(s for s in stations["stations"] if s["id"] == "bay")
     separation = math.dist(damage["position"],bay["position"])
-    assert separation >= 700
-    assert damage["position"][2] < bay["position"][2]
+    # Static planning corridors only; no blast/projectile containment inference.
+    protected=[s['position'] for s in stations['stations'] if s['id'] in ('bay','service','range')]
+    protected += [g['position'] for g in stations['route']]
+    protected += [t['position'] for t in stations['targets']]
+    protected += [s['position'] for s in lock['slots'] if s['prefab']]
+    for corridor in stations['layoutPlanning']['damageCorridors']:
+        a,b=corridor['start'],corridor['end'];w=corridor['halfWidth']
+        for point in protected:
+            assert not(min(a[0],b[0])-w<=point[0]<=max(a[0],b[0])+w and min(a[1],b[1])-w<=point[2]<=max(a[1],b[1])+w),'Protected station/pad intersects declared damage planning corridor'
+    assert stations['layoutPlanning']['concurrency']=='DAMAGE_EXCLUSIVE_NO_OTHER_STATION_ACTIVITY'
     source = (ROOT / "addon/scripts/Game/GPG_Director.c").read_text()
     prohibited = ("SetHealth", "SetFuel(", "SetAmmoCount", "SetVelocity", "SetAngularVelocity", "SetThrottle", "SetBrake")
     assert not any(call in source for call in prohibited)
     assert "GPG-hostiles-qualified.flag" in source and "Backstop()" in source
     assert "Occupied(item.Entity)" in source and "GetVelocity().Length()>0.25" in source
     report = {"status":"PASS_SOURCE_CHECKS_ONLY", "nativeStatus":"NOT_TESTED", "damageBaySeparationMetres":separation,
-              "targetHorizontalDistances":"PASS", "subjectMutationSettersAbsent":True,
+              "targetHorizontalDistances":"PASS", "damageCorridorSourceNonintersection":"PASS_STATIC_ONLY_NOT_CONTAINMENT", "subjectMutationSettersAbsent":True,
               "hostileQualificationGate":True, "slotsBound":sum(bool(s["prefab"]) for s in lock["slots"]),
               "unboundSlots":lock["unboundSlots"], "nativeBlocker":"Source checks do not qualify native behavior; consult coordinator runtime lease and evidence"}
     (ROOT / "checks/source-checks.json").write_text(json.dumps(report,indent=2)+"\n")

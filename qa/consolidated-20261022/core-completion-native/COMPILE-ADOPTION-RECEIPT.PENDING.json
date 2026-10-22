@@ -1,0 +1,14 @@
+{
+  "status": "PENDING_ACTUAL_NATIVE_COMPILE",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-core-completion-stage\\gepard\\Gepard.gproj",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-core-completion-stage\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-completion-native\\GEPARD-MANIFEST.json",
+      "sha256": "985d9eee05624ff7b90502d3e99e72d86acb2edd1d675d512b78a7c2ce4c08bf",
+      "files": 1162
+    }
+  ],
+  "nativeGameplay": "NOT_TESTED",
+  "reason": "Root must run maintained derived compile wrapper and review actual RESULT/console/normal exit before writing adoption receipt."
+}

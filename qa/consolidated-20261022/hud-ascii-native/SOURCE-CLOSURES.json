@@ -1,0 +1,14 @@
+[
+  {
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-ascii-native\\GEPARD-MANIFEST.json",
+    "sha256": "0cef463286d82eb13aa76c751c6562cfc72477ee293a7aff4ad331f80998badc",
+    "files": 1152,
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-hud-ascii-stage\\gepard"
+  },
+  {
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-ascii-native\\HUDQA-MANIFEST.json",
+    "sha256": "6fe852a9781a9188ceb699b806ac704502a9e148146e8ab8e6d2f80bb95e29f1",
+    "files": 10,
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-hud-ascii-stage\\hudQA"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "sharedRuntime": {
+    "addonId": "D561AD08932E7B40",
+    "sourceRoot": "D:/ArmaProjects/Gepard-Consolidated-20261022/addon",
+    "commit": "09e75342f5bd7f3fda3b40617104c956d150d316",
+    "label": "approved concept HUD / consolidated common functional code; native compile pending"
+  },
+  "comparisonScope": "prefab/configuration/art comparison with one shared script implementation; NOT two independent released-code runtimes",
+  "slots": [
+    {
+      "id": "OLD-CAMO",
+      "label": "OLD exterior / camo / shared approved optic",
+      "position": [
+        600,
+        0,
+        2600
+      ],
+      "prefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "status": "BOUND_SOURCE_ONLY"
+    },
+    {
+      "id": "OLD-CHARCOAL",
+      "label": "OLD exterior / charcoal / shared approved optic",
+      "position": [
+        620,
+        0,
+        2600
+      ],
+      "prefab": "{BEF5FEB0ECCBC01D}Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "status": "BOUND_SOURCE_ONLY"
+    },
+    {
+      "id": "NEW-CAMO",
+      "label": "NEW exterior / camo / NOT BOUND",
+      "position": [
+        600,
+        0,
+        2622
+      ],
+      "prefab": "",
+      "status": "PENDING_ART_COORDINATOR"
+    },
+    {
+      "id": "NEW-CHARCOAL",
+      "label": "NEW exterior / charcoal / NOT BOUND",
+      "position": [
+        620,
+        0,
+        2622
+      ],
+      "prefab": "",
+      "status": "PENDING_ART_COORDINATOR"
+    }
+  ],
+  "damageSubjectSlot": "OLD-CAMO",
+  "routeSubjectSlot": "OLD-CAMO"
+}

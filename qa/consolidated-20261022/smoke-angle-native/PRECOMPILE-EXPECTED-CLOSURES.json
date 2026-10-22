@@ -1,0 +1,26 @@
+[
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\single\\gepard",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-Angle-QA-20261022\\stage-pins\\GEPARD_SOURCE_MANIFEST.json",
+    "sha256": "67b52cbb0a628e77c009e0242d46219e63df960a6ba5071d178866bbb9339b39",
+    "files": 1147
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\single\\wcsSmoke",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-Angle-QA-20261022\\stage-pins\\WCSSMOKE_SOURCE_MANIFEST.json",
+    "sha256": "c7e3097bfbe6da359ea569b19c1e2b2231a7f3ec3b91f3a816281f619d5256ec",
+    "files": 20
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\single\\qaSmoke",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-Angle-QA-20261022\\stage-pins\\QA_SOURCE_MANIFEST.json",
+    "sha256": "aa0b2a20f77a661265c95c825a77075da99a6d0aab64dff4810575686ad5ebc2",
+    "files": 30
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\dependencies\\WCS_Armaments",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-Angle-QA-20261022\\stage-pins\\WCS_ARMAMENTS_SOURCE_MANIFEST.json",
+    "sha256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+    "files": 3
+  }
+]

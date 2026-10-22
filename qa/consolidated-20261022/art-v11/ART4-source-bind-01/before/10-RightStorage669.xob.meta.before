@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "RightStorage669.fbx"
+   ExportSkinning 1
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{0148B21F4A9246DD}" {
+     SourceMaterial "GEP_StowageSeated_SelectedAntiSlip"
+     AssignedMaterial "{E8AEFC0A44C94B79}Assets/Gepard/AntiSlip673/BoxLidAggregate673.emat"
+    }
+    MaterialAssignClass "{878F0D8DF2FF4801}" {
+     SourceMaterial "GEP_StowageSeated_SelectedStowage"
+     AssignedMaterial "{1B7FB016F74A41A8}Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage.emat"
+    }
+    MaterialAssignClass "{D626F3C88450DEA0}" {
+     SourceMaterial "GEP_StorageRearService_SideOriginal"
+     AssignedMaterial "{BF696F466D79487F}Assets/Gepard/BalancedStorage651/SideOriginal_BalancedContactWear.emat"
+    }
+    MaterialAssignClass "{D62645355F436243}" {
+     SourceMaterial "GEP_StorageRearService_ExtensionHardware"
+     AssignedMaterial "{D6260DA1E5A18188}Assets/Gepard/StorageRearService/ExtensionHardware.emat"
+    }
+    MaterialAssignClass "{D62629EF0434D6FA}" {
+     SourceMaterial "GEP_StorageRearService_ExtensionOuterBody"
+     AssignedMaterial "{DFEA4A63DA3A4D36}Assets/Gepard/BalancedStorage651/ExtensionOuterBody_BalancedContactWear.emat"
+    }
+    MaterialAssignClass "{D626495F4779DE30}" {
+     SourceMaterial "GEP_StorageRearService_ExtensionOuterLidLip"
+     AssignedMaterial "{30817C7E114F4A4E}Assets/Gepard/BalancedStorage651/ExtensionOuterLidLip_BalancedContactWear.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GEP_StowageSeated {
+    }
+    MeshParam GEP_StorageRibs651 {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

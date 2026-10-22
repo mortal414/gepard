@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardGunLeft.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{D6143F4D63CBEDF9}" {
+     SourceMaterial "GEP_GunPodCasingLeft_Rebuilt"
+     AssignedMaterial "{D648A26803E0C3B7}Assets/Gepard/BalancedCasings648/CasingLeft_BalancedMaintainedDry.emat"
+    }
+    MaterialAssignClass "{2EA565C9F8DD4870}" {
+     SourceMaterial "GEP_Skin_GepardGunLeft_Registered579"
+     AssignedMaterial "{27313C4A6F1046E6}Assets/Gepard/ReceiverRegistered581/ReceiverLeft.emat"
+    }
+    MaterialAssignClass "{538EF87706F849E0}" {
+     SourceMaterial "GEP_GunLeft_ConstructionV3"
+     AssignedMaterial "{4F44FBD5DA6D41FD}Assets/Gepard/GunConstruction581/GunLeft.emat"
+    }
+    MaterialAssignClass "{6A9A37F16EA1028A}" {
+     SourceMaterial "GEP_nato_green"
+     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardGunLeft {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

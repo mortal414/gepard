@@ -74,7 +74,8 @@ class GPG_Director : GenericEntity
  }
  void Gate(string id,vector pad)
  {
-  Spawn(GPG_Resources.Cone(),pad+Vector(-5,0,0));Spawn(GPG_Resources.Cone(),pad+Vector(5,0,0));
+  float gateAngle=GPG_Layout.GateYaw(id)*Math.DEG2RAD;vector gateSide=Vector(Math.Cos(gateAngle)*5,0,-Math.Sin(gateAngle)*5);
+  Spawn(GPG_Resources.Cone(),pad-gateSide);Spawn(GPG_Resources.Cone(),pad+gateSide);
   PrintFormat("GPG_GATE id=%1 origin=%2 gradeDegrees=%3 surface=NOT_TESTED",id,Ground(pad),Grade(pad));
  }
  float Grade(vector pad)
@@ -88,7 +89,7 @@ class GPG_Director : GenericEntity
   GPG_Owned object=Add(id,"range",prefab,pad,90);
   SCR_FiringRangeTarget pop;if(object.Entity)pop=SCR_FiringRangeTarget.Cast(object.Entity);
   if(pop){pop.SetAutoResetTarget(false);pop.SetState(ETargetState.TARGET_UP);}
-  vector line=Ground("900 0 2450",2);vector aim=Ground(pad,1.2);
+  vector line=Ground(GPG_Layout.RangeLine(),2);vector aim=Ground(pad,1.2);
   TraceParam trace=new TraceParam();trace.Start=line;trace.End=aim;trace.Flags=TraceFlags.WORLD;
   float fraction=GetGame().GetWorld().TraceMove(trace,null);
   PrintFormat("GPG_SURVEY target=%1 nominalHorizontal=%2 slant=%3 terrainTraceFraction=%4 line=%5 aim=%6 nativeVisibilityReview=NOT_TESTED",id,nominal,vector.Distance(line,aim),fraction,line,aim);
@@ -113,21 +114,22 @@ class GPG_Director : GenericEntity
   ResourceName subject=GPG_Layout.DamagePrefab();
   if(subject!="")
   {
-   Add("D1","damage",subject,"600 0 1800",180);
-   Add("D2","damage",subject,"620 0 1800",180);
+   Add("D1","damage",subject,"1000 0 2780",180);
+   Add("D2","damage",subject,"900 0 2820",180);
   }
-  Add("M16","weapons",GPG_Resources.Rifle(),"586 0 1840");
-  Add("M249","weapons",GPG_Resources.Machinegun(),"588 0 1840");
-  Add("M2","weapons",GPG_Resources.HeavyMachinegun(),"610 0 1840",180);
-  Add("Arsenal","weapons",GPG_Resources.Arsenal(),"580 0 1840");
-  Supplies(Add("DamageAmmo","weapons",GPG_Resources.AmmoTruck(),"570 0 1840",180).Entity);
+  Add("M16","weapons",GPG_Resources.Rifle(),"898 0 2775");
+  Add("M249","weapons",GPG_Resources.Machinegun(),"900 0 2775");
+  Add("M2","weapons",GPG_Resources.HeavyMachinegun(),"908 0 2775",90);
+  Add("Arsenal","weapons",GPG_Resources.Arsenal(),"892 0 2785");
+  Supplies(Add("DamageAmmo","weapons",GPG_Resources.AmmoTruck(),"892 0 2775",0).Entity);
   for(int n=0;n<4;n++)
   {
-   Add("M72_"+n.ToString(),"weapons",GPG_Resources.Launcher(),Vector(585+n,0,1843));
-   Add("RifleAmmo_"+n.ToString(),"weapons",GPG_Resources.RifleAmmo(),Vector(585+n,0,1845));
-   Add("MGAmmo_"+n.ToString(),"weapons",GPG_Resources.MachinegunAmmo(),Vector(585+n,0,1847));
+   Add("M72_"+n.ToString(),"weapons",GPG_Resources.Launcher(),Vector(895+n,0,2776));
+   Add("RifleAmmo_"+n.ToString(),"weapons",GPG_Resources.RifleAmmo(),Vector(895+n,0,2777));
+   Add("MGAmmo_"+n.ToString(),"weapons",GPG_Resources.MachinegunAmmo(),Vector(895+n,0,2778));
   }
-  Gate("DAMAGE FIRE SOUTH", "610 0 1840");
+  Gate("DAMAGE FIRE EAST", "900 0 2780");
+  Gate("DAMAGE FIRE NORTH", "900 0 2780");
  }
  bool Occupied(IEntity entity)
  {
@@ -151,6 +153,23 @@ class GPG_Director : GenericEntity
   if(Actor && vector.Distance(Actor.GetOrigin(),item.Entity.GetOrigin())<9)return false;
   return true;
  }
+ bool OwnedResetIdentityReady(string station,bool weapons)
+ {
+  foreach(GPG_Owned check:Objects)
+  {
+   if(check.Station!=station && !(weapons && check.Station=="weapons"))continue;
+   // Missing roots retain CanReset's existing replacement behavior.
+   if(!check.Entity || check.Entity.IsDeleted())continue;
+   EntityID nativeId=check.Entity.GetID();
+   if(GetGame().GetWorld().FindEntityByID(nativeId)!=check.Entity)return false;
+   foreach(GPG_Owned other:Objects)
+   {
+    if(other==check || !other.Entity || other.Entity.IsDeleted())continue;
+    if(other.Entity.GetID()==nativeId)return false;
+   }
+  }
+  return true;
+ }
  void Reset(string station)
  {
   if(Clock-LastReset<15){Hint("Wait 15 seconds between explicit resets.","RESET PAUSED");return;}
@@ -160,6 +179,12 @@ class GPG_Director : GenericEntity
   {
    if(check.Station!=station && !(weapons && check.Station=="weapons"))continue;
    if(!CanReset(check)){Hint("Reset refused: an owned object is occupied, moving, moved off its pad, or too close to you. Park it, exit and stand back. A normal scenario restart is the full reset.","RESET REFUSED");return;}
+  }
+  // Complete read-only identity admission before touching any owned hierarchy.
+  if(!OwnedResetIdentityReady(station,weapons))
+  {
+   Hint("Reset refused: an owned object cannot be safely identified. Restart the scenario before resetting this station.","RESET REFUSED");
+   return;
   }
   int count;
   foreach(GPG_Owned item:Objects)
@@ -283,7 +308,7 @@ class GPG_Director : GenericEntity
    {
     SCR_RespawnSystemComponent respawn=SCR_RespawnSystemComponent.GetInstance();if(respawn)respawn.DestroyLoadingPlaceholder();
     pc.SetCharacterCameraRenderActive(true);GetGame().GetCameraManager().SetCamera(pc.GetPlayerCamera());CameraReady=true;
-    Hint("Read the numbered station boards. Comparison bay -> driving loop -> service -> east-facing target lane. Damage lane is 800 m SOUTH, firing farther SOUTH. Optional hostile cell is OFF. This source build still requires native survey and validation.","PRIVATE GEPARD PROVING GROUND");
+    Hint("Read the numbered station boards. Comparison bay -> driving loop -> service -> east-facing target lane. Damage fork at900/2780 fires EAST to D1 and NORTH to D2; no SOUTH/WEST shots and no other active stations during damage. Optional hostile cell is OFF. This source build still requires native survey and validation.","PRIVATE GEPARD PROVING GROUND");
    }
   }
   if(!Ready && CameraReady){Ready=true;PrintFormat("GPG_READY staged=%1 resourceFailure=%2 objects=%3 nativeBehaviorAcceptance=NOT_TESTED",Staged,Failed,Objects.Count());}

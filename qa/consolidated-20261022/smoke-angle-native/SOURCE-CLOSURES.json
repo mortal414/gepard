@@ -1,0 +1,26 @@
+[
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\single\\gepard",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-angle-native\\GEPARD_SOURCE_MANIFEST.json",
+    "sha256": "86457fe07ff7693ecd2c532b9159827b7b5fab7670a8af884f935ce67458c250",
+    "files": 1147
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\single\\wcsSmoke",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-angle-native\\WCSSMOKE_SOURCE_MANIFEST.json",
+    "sha256": "21fa351d0a42175f2122a90f8c625141bcbc1c87fd02720e07acfc0c0e3fb6d3",
+    "files": 20
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\single\\qaSmoke",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-angle-native\\QA_SOURCE_MANIFEST.json",
+    "sha256": "4f8176a73b4c1330788654e2b4466b452b17e206051869f6a7d130cc03354048",
+    "files": 30
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\dependencies\\WCS_Armaments",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-angle-native\\WCS_ARMAMENTS_SOURCE_MANIFEST.json",
+    "sha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "files": 3
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "PASS_EXACT_TWO_LITERAL_SUCCESSORS_ONLY_ALL_OTHER_CORE_UNCHANGED",
+  "baselineCoreManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\CORE-BEFORE.json",
+  "baselineCoreManifestSha256": "b2649c3ec7a11939853c87d3953cec5e65b2e1e55ada6fa64a778cc029a02da3",
+  "baselineCoreFiles": 1112,
+  "unchangedSourceCoreFiles": 1110,
+  "allowedExactChanges": [
+    {
+      "relative": "scripts/Game/GEP/GEP_GunStatus.c",
+      "oldSha256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966",
+      "newSha256": "44f14a9ce04e7c4d18decf5ba49a4b0cfdbdc04db18b982e3ec12287c099b4db",
+      "literalOnlySourceGuard": true,
+      "nativeArt04UsedSha256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966"
+    },
+    {
+      "relative": "scripts/Game/GEP/GEP_Presentation680.c",
+      "oldSha256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca",
+      "newSha256": "10add9409d473078c8f9ffe8c1ee349cd3d43763ac907b9f4a285cb7ae0146f1",
+      "literalOnlySourceGuard": true,
+      "nativeArt04UsedSha256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca"
+    }
+  ],
+  "hudCandidatePins": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ApprovedHUD-GermanASCII-20261022\\CANDIDATE-PINS.json",
+  "hudCandidatePinsSha256": "869ddd3fe8a06d3846e28eceb39eb89b4b9fa2e96a41bb604732dc39ce262631",
+  "currentSourceRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon",
+  "art04NativeRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+  "art04CoreScope": "Native stage retains all original1111non-RDBcore hashes; only native-generated RDB may differ. Source tree has exactly these2intentionalHUDliteral successors.",
+  "hudSuccessorNativeCompile": "NOT_TESTED_BY_ART04",
+  "hudSuccessorNativeRender": "NOT_TESTED_BY_ART04",
+  "guardProposal": "Keep old CORE-BEFORE frozen. Optional explicit continuity receipt must whitelist exactly these2paths with exact old/new hashes; all other1110source-core hashes still required. Keep native stage comparison against actual art04 baseline, not future HUD source. Root owns D guard edits."
+}

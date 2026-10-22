@@ -1,0 +1,68 @@
+{
+  "status": "C_ONLY_MEASURED_LAYOUT_SOURCE_PROPOSAL_NATIVE_PENDING",
+  "sourceWorld": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground",
+  "candidateWorld": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-MeasuredLayout-Repair-20261022\\candidate-world",
+  "changedFiles": [
+    {
+      "path": "addon/scripts/Game/GPG_Director.c",
+      "preimageSHA256": "50649e009b4171b7df8bb499472367567d8d4bfa8e4e98e241f63aae8eab3ef7",
+      "proposedSHA256": "d27862b2c8006978f23a512f97f9007df806df284fe329128ab6bbde0607bac8",
+      "bytes": 15358
+    },
+    {
+      "path": "addon/scripts/Game/GPG_Layout.c",
+      "preimageSHA256": "0ce7102b91e82e0c28766a58c9b166d30b9ae7463098dff69712c894a2744f9b",
+      "proposedSHA256": "b1a0034c574da0cf2d529b9f273de1a9d0479fe1e533fc58b80a5d2f8ad15715",
+      "bytes": 9862
+    },
+    {
+      "path": "checks/source-checks.json",
+      "preimageSHA256": "6f0e8f22ea8d785f8d1178c3b2d9caebd6a8e02d961ca4c5eb62d057525b6cbf",
+      "proposedSHA256": "be08695feaed310648587a306300d02af3791ff471f79eec35e4b93c70b2dfbb",
+      "bytes": 485
+    },
+    {
+      "path": "checks/variant-lock.json",
+      "preimageSHA256": "545ada27b582ed98149b58958f58fe56490a7bf04738918bf8b64b0539b4f959",
+      "proposedSHA256": "5ed1f041a87e921f4b080f8fe90a01af91e82e498994ec0bff4245945a3f48f1",
+      "bytes": 155492
+    },
+    {
+      "path": "checks/world-source-manifest.json",
+      "preimageSHA256": "da3d395fc6f309b66e1d0eb47e0a23a3beab5c26bcd801b820eeb14d4249dc59",
+      "proposedSHA256": "18b7feafa56c09e7c0d61114508588bb68751bb2fecb32fa1aefdd3e84e6c6b1",
+      "bytes": 1203
+    },
+    {
+      "path": "registry/stations.json",
+      "preimageSHA256": "cd50d59a7b2180feebb99762cb5fc54365c6e7ea8b6efb61c2069bb790f5cd57",
+      "proposedSHA256": "a4f8b908ee4bdc94f283c7d1d3cdf8e606d7a47a60ca1535deb06d5fc3fe4fa6",
+      "bytes": 8880
+    },
+    {
+      "path": "tools/generate.py",
+      "preimageSHA256": "f7b6e76b65e3200587689010b9d15156438232c95e6549c04ea0cc61bc7daaef",
+      "proposedSHA256": "8c44ea8b7b8cfc854dcd66d9f156ca64c48a8849c81335e7c62721f43c9d8737",
+      "bytes": 12652
+    }
+  ],
+  "preservedCanonicalFiles": {
+    "registry/resources.json": "38e813e99a85526e3dfd6ead92ea7c1db6cded0e355a3a00ee866b06623fc2b4",
+    "addon/scripts/Game/GPG_Resources.c": "aaa46248041af94d40cce8d9c5c06778819b776b84e82439538cdd0134aa0bfe",
+    "registry/variants.json": "e5fd70681c0c354ab72994cf15d0dcaab12831b4d3509edc0c08047ef0a664c7"
+  },
+  "actualPlanningEvidence": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-LayoutPlanningSurvey-20261022\\evidence\\actual-layoutplan-v1.json",
+  "actualPlanningEvidenceSHA256": "4c771e612999066c60641ea3ce5bbb6a3bdfe97027a9fdae7964166cb5f890c6",
+  "excludedLongRangeTargets": [
+    "T500",
+    "T800",
+    "T1000"
+  ],
+  "damageAxes": "EAST_D1_NORTH_D2_NO_SOUTH_WEST_NO_OTHER_ACTIVE_STATIONS",
+  "damageBaySeparationMetres": 349.85711369071805,
+  "separationIsContainment": false,
+  "sourceGeneratorCheck": "PASS_SOURCE_CHECKS_ONLY",
+  "nativeNewLayoutCompile": "NOT_TESTED",
+  "nativeNewLayoutStartupOrReset": "NOT_TESTED",
+  "dWrites": false
+}
