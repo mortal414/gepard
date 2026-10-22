@@ -34,3 +34,6 @@ Diagnostics are separate: 57 rearm-fixture errors, 59 ordinary08 probe errors an
 
 
 Current source/evidence audit: [59 startup and100 packing diagnostics classified](qa/consolidated-20261022/diagnostic-severity-08/REPORT.md). No demonstrated demo-blocking regression or justified stock-resource edit; strict raw failures remain. [Isolated smoke flight03](qa/consolidated-20261022/smoke-flight-03/RESULT.json) is a narrow observation, not smoke inclusion or GEP acceptance.
+
+
+[Focused service checkpoint](qa/consolidated-20261022/focused-services-v10/RESULT.json): separate left/right315-to320 native refills and right-cap30-to32.083L finite fuel transfer are observed. Whole service and human acceptance remain pending; original strict failures are unchanged. Package08 source, packages, launcher and installed guide are unchanged.

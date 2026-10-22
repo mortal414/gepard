@@ -1,0 +1,12 @@
+# Current consolidated ledger
+
+See [current entrypoint](../../README.md) and [evidence index](../../EVIDENCE-INDEX.md). Current source/package is ordinary-v6/compile06/pack08/installed08. Use CANDIDATE-MANIFEST.json, ACCEPTANCE-MATRIX.json and STATUS-PER-GEP.json; complete current canonical file hashes are in CURRENT-SOURCE-MANIFEST.json and the root CURRENT-CANDIDATE-MANIFEST.json.
+
+Old SOURCE-MANIFEST/SOURCE-CLOSURES, stage manifests, PROVING-GROUND-INTEGRATION and native bridge copies retain their historical meaning. Their old counts/unboundNEW/pending package labels are not current facts. Historical ledgers are backed up before root applies this update; raw failed native results remain immutable.
+
+No new accepted GEP checkbox or publication. Services/physical judgments and strict diagnostics remain open; smoke cloud/alignment/full-empty/rearm qualification and audio pending approval are separate gates.
+
+One native left-feed refill is now observed with finite-provider debit; whole services remain pending. See the exact independent review in the current manifest. Pack07 metadata/guide/launcher are backed up before08 apply.
+
+
+Current source/evidence audit: [59 startup and100 packing diagnostics classified](diagnostic-severity-08/REPORT.md). No demonstrated demo-blocking regression or justified stock-resource edit; strict raw failures remain. [Isolated smoke flight03](smoke-flight-03/RESULT.json) is a narrow observation, not smoke inclusion or GEP acceptance.

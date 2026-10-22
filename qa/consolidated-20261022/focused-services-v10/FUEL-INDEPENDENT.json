@@ -1,0 +1,995 @@
+{
+  "schema": 1,
+  "status": "NARROW_NATIVE_RIGHT_CAP_FINITE_FUEL_TRANSFER_OBSERVED_OVERALL_STRICT_FAIL_PRESERVED",
+  "caseId": "gpg-refuel-right-camo",
+  "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+  "originalFuelCriterion": "PASS",
+  "originalAggregate": "FAIL",
+  "lifecycle": {
+    "status": "PASS",
+    "reason": "Original wrapper exact owner/argv receipts, verified normal exit and same released lease",
+    "verifiedExited": true,
+    "leaseReleased": true
+  },
+  "exit": {
+    "leaseReleased": true,
+    "exitCode": 0,
+    "cancelRequested": false,
+    "utc": "2026-10-22T09:11:09.6497654Z",
+    "verifiedExited": true,
+    "nativeTerminalSeen": true,
+    "closeMethod": "owned-normal-window-close"
+  },
+  "sourceBinding": {
+    "fixtureSHA256": "009a77cd18e72c056b39c69dea31989e65ce0ab2852b5aa4046f839327601d79",
+    "helperSHA256": "67df9d6a1f101fd69992101fca47331d9504769f8eec73c251bb70aa3f632967",
+    "completeClosures": [
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-service-fuel-v4\\gepard",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\GEPARD_SOURCE_MANIFEST.json",
+        "sha256": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+        "files": 1152
+      },
+      {
+        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-service-fuel-v4\\provingGround",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\QA_SOURCE_MANIFEST.json",
+        "sha256": "b864bae60c6cc10f8d148fdd20b1ed4adce985346e7c892deb7367643834948f",
+        "files": 13
+      }
+    ],
+    "compile": {
+      "schema": 1,
+      "status": "SCRIPT_COMPILE_PASS_ADOPTED",
+      "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-service-fuel-v4\\provingGround\\GepardProvingGround.gproj",
+      "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-fuel-compile-v4",
+      "compilerResultSHA256": "f89d9ce562f019df19c9a878b2721ce64a2d6543db7de3c86dbfbb71273dcb87",
+      "compilerConsoleSHA256": "4b680d88ad4d856dc8cccef5b6302b5ea658898f3a8d28afda268b8b3f0943fa",
+      "compilerIdentitySHA256": "69bde6c422f105c75958eec2065b332fbe91bdfb277bf0a2c0a03728d8d78085",
+      "launcherExitSHA256": "c637124b8221273f605e028fa200e559681815a192a893d9ceae2617d899c7f5",
+      "compilerOwnerProjectVerified": true,
+      "nativeRuntime": "NOT_TESTED",
+      "nativeGameplay": "NOT_TESTED"
+    },
+    "actualR1152AndWSourceSnapshotMatched": true,
+    "nodeAndCapScope": "Right context fuel_cap_right675 naturally collected/filtered/selected, exact ranged finite station and original donor/target references required by source; no context/service/value setters. These pointer conditions are source-bound, not reconstructed from IDs."
+  },
+  "facts": {
+    "ready": {
+      "line": 363,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "actor": "0x400000000000032C {}",
+        "subject": "0x40000000000002FB {}",
+        "provider": "0x40000000000001C1 {}",
+        "authoredDeficit": "1",
+        "physical": "0"
+      }
+    },
+    "counts": {
+      "line": 375,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "owned": "31",
+        "boards": "23"
+      }
+    },
+    "boundsRows": 31,
+    "boardNonoverlap": "23 checked by exact native source loop; no per-board bound rows emitted",
+    "drySamples": [
+      {
+        "line": 407,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "sample": "0",
+          "position": "<663,39.7,2590>",
+          "terrain": "39",
+          "oceanBase": "0",
+          "dry": "1"
+        }
+      },
+      {
+        "line": 408,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "sample": "1",
+          "position": "<661.139,0,2586.24>",
+          "terrain": "39",
+          "oceanBase": "0",
+          "dry": "1"
+        }
+      },
+      {
+        "line": 409,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "sample": "2",
+          "position": "<664.861,0,2586.24>",
+          "terrain": "39",
+          "oceanBase": "0",
+          "dry": "1"
+        }
+      },
+      {
+        "line": 410,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "sample": "3",
+          "position": "<661.139,0,2594.16>",
+          "terrain": "39",
+          "oceanBase": "0",
+          "dry": "1"
+        }
+      },
+      {
+        "line": 411,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "sample": "4",
+          "position": "<664.861,0,2594.16>",
+          "terrain": "39",
+          "oceanBase": "0",
+          "dry": "1"
+        }
+      },
+      {
+        "line": 412,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "sample": "5",
+          "position": "<665.2,39.7,2587.3>",
+          "terrain": "39",
+          "oceanBase": "0",
+          "dry": "1"
+        }
+      },
+      {
+        "line": 413,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "sample": "6",
+          "position": "<666.3,39,2587.3>",
+          "terrain": "39",
+          "oceanBase": "0",
+          "dry": "1"
+        }
+      },
+      {
+        "line": 414,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "sample": "7",
+          "position": "<672.998,39.0668,2590.01>",
+          "terrain": "39",
+          "oceanBase": "0",
+          "dry": "1"
+        }
+      }
+    ],
+    "geometry": {
+      "line": 415,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "subject": "<663,39.7,2590>",
+        "provider": "<672.998,39.0668,2590.01>",
+        "subjectLow": "<661.139,39.7361,2586.24>",
+        "subjectHigh": "<664.861,43.8178,2594.16>",
+        "rootAabbClear": "1",
+        "physicalClearance": "NOT_TESTED"
+      }
+    },
+    "initialAuthoredDeficit": {
+      "line": 422,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "fuel": "30",
+        "maximum": "40",
+        "stableSeconds": "1.00031",
+        "prep": "FRESH_AUTHORED_NO_CONSUMPTION",
+        "fuelSetters": "0"
+      }
+    },
+    "stations": [
+      {
+        "line": 416,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "owner": "0x40000000000001DC {}",
+          "origin": "<672.998,39.0668,2590.01>",
+          "enabled": "1",
+          "range": "9"
+        }
+      },
+      {
+        "line": 418,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "owner": "0x40000000000001CA {}",
+          "origin": "<672.998,39.0668,2590.01>",
+          "enabled": "1",
+          "range": "-1"
+        }
+      },
+      {
+        "line": 420,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "owner": "0x40000000000001C9 {}",
+          "origin": "<672.998,39.0668,2590.01>",
+          "enabled": "1",
+          "range": "-1"
+        }
+      }
+    ],
+    "donors": [
+      {
+        "line": 417,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "owner": "0x40000000000001DC {}",
+          "finiteDonor": "1",
+          "fuel": "910",
+          "capacity": "4550"
+        }
+      },
+      {
+        "line": 419,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "owner": "0x40000000000001CA {}",
+          "finiteDonor": "1",
+          "fuel": "5",
+          "capacity": "20"
+        }
+      },
+      {
+        "line": 421,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "owner": "0x40000000000001C9 {}",
+          "finiteDonor": "1",
+          "fuel": "5",
+          "capacity": "20"
+        }
+      }
+    ],
+    "selectedCargoOpaqueOwner": "0x40000000000001DC {}",
+    "admission": {
+      "line": 436,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "action": "8",
+        "stationSame": "1",
+        "inRange": "1",
+        "actionPosition": "<664.48,41.25,2587.3>",
+        "range": "9"
+      }
+    },
+    "nativeDOWN": {
+      "line": 443,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "edge": "DOWN",
+        "action": "8",
+        "nativeDuration": "-0.5",
+        "continuous": "1",
+        "physicalKeyboard": "0"
+      }
+    },
+    "nativeReleasedUP": "released1 is emitted only after guarded native Handler.ActionPerform(0,UP); separate UP log absent",
+    "nativeDone": {
+      "line": 570,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "started": "1",
+        "released": "1",
+        "observedTransfer": "1",
+        "reason": "observed_target_gain_and_finite_source_debit_REVIEW_REQUIRED",
+        "acceptance": "NOT_TESTED",
+        "physicalKeyboard": "0"
+      }
+    },
+    "targetNodes": {
+      "before": {
+        "line": 437,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "phase": "before",
+          "index": "0",
+          "tankId": "1",
+          "fuel": "30",
+          "maximum": "40",
+          "sameOriginal": "1"
+        }
+      },
+      "after": {
+        "line": 571,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "phase": "after",
+          "index": "0",
+          "tankId": "1",
+          "fuel": "32.0833",
+          "maximum": "40",
+          "sameOriginal": "1"
+        }
+      }
+    },
+    "donorNodes": {
+      "before": {
+        "line": 438,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "phase": "before",
+          "stationOwner": "0x40000000000001DC {}",
+          "tankId": "10",
+          "fuel": "910",
+          "maximum": "4550"
+        }
+      },
+      "after": {
+        "line": 572,
+        "fields": {
+          "case": "gpg-refuel-right-camo",
+          "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+          "phase": "after",
+          "stationOwner": "0x40000000000001DC {}",
+          "tankId": "10",
+          "fuel": "907.917",
+          "maximum": "4550"
+        }
+      }
+    },
+    "servicePackets": 23,
+    "firstServiceValues": {
+      "line": 435,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "phase": "fuel_admission",
+        "worldMs": "9734.04",
+        "target": "30",
+        "provider": "910",
+        "capacity": "4550",
+        "enginesOff": "1"
+      }
+    },
+    "lastServiceValues": {
+      "line": 569,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "phase": "during",
+        "worldMs": "10434.1",
+        "target": "32.0833",
+        "provider": "907.917",
+        "capacity": "4550",
+        "enginesOff": "1"
+      }
+    },
+    "transfer": {
+      "line": 573,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "targetBefore": "30",
+        "targetAfter": "32.0833",
+        "donorBefore": "910",
+        "donorAfter": "907.917",
+        "sameStationNode": "1",
+        "litresConserved": "1"
+      }
+    },
+    "numbers": {
+      "targetBefore": 30.0,
+      "targetAfter": 32.0833,
+      "donorBefore": 910.0,
+      "donorAfter": 907.917,
+      "gain": 2.0833000000000013,
+      "debit": 2.08299999999997,
+      "difference": 0.00030000000003127525,
+      "tolerance": 0.05
+    },
+    "terminal": {
+      "line": 574,
+      "fields": {
+        "case": "gpg-refuel-right-camo",
+        "nonce": "9f339a7c8eb149cf8f188783e8dcf54ce0bf7e21f58640a385397e1557f2d3e9",
+        "observed": "1",
+        "reason": "observed_target_gain_and_finite_source_debit_REVIEW_REQUIRED",
+        "holdReleased": "1",
+        "actorOwned": "1",
+        "physical": "0",
+        "acceptance": "NOT_TESTED"
+      }
+    }
+  },
+  "allChannelErrorAudit": {
+    "actualEF": [
+      {
+        "line": 109,
+        "text": "04:10:39.653   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+        "channel": "GUI",
+        "severity": "E"
+      },
+      {
+        "line": 163,
+        "text": "04:10:56.990           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+        "channel": "WORLD",
+        "severity": "E"
+      },
+      {
+        "line": 170,
+        "text": "04:10:57.025           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+        "channel": "WORLD",
+        "severity": "E"
+      },
+      {
+        "line": 171,
+        "text": "04:10:57.025           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+        "channel": "WORLD",
+        "severity": "E"
+      },
+      {
+        "line": 178,
+        "text": "04:10:57.026           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+        "channel": "WORLD",
+        "severity": "E"
+      },
+      {
+        "line": 179,
+        "text": "04:10:57.026           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+        "channel": "WORLD",
+        "severity": "E"
+      },
+      {
+        "line": 180,
+        "text": "04:10:57.026           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+        "channel": "WORLD",
+        "severity": "E"
+      },
+      {
+        "line": 181,
+        "text": "04:10:57.026           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+        "channel": "WORLD",
+        "severity": "E"
+      },
+      {
+        "line": 586,
+        "text": "04:11:09.314 RESOURCES (E): ==== Resource leaks ====",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 587,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 588,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 589,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 590,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 591,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 592,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 593,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 594,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 595,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 596,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 597,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 598,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 599,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 600,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 601,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 602,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 603,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 604,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 605,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 606,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 607,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 608,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 609,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 610,
+        "text": "04:11:09.314 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 611,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 612,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 613,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 614,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 615,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 616,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 617,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 618,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 619,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 620,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 621,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 622,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 623,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 624,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 625,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 626,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 627,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 628,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 629,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 630,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 631,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 632,
+        "text": "04:11:09.314 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 633,
+        "text": "04:11:09.314 RESOURCES (E): UI/Imagesets/default.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      },
+      {
+        "line": 634,
+        "text": "04:11:09.314 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+        "channel": "RESOURCES",
+        "severity": "E"
+      }
+    ],
+    "originalCollectorCount": 57,
+    "fullCount": 57,
+    "omitted": [],
+    "counts": {
+      "GUI(E)": 1,
+      "WORLD(E)": 7,
+      "RESOURCES(E)": 49
+    },
+    "collectorLimitation": "Frozen regex enumerates8channels and(E) only; hypothetical DEFAULT(E)/any(F) gap remains. Actual independent all-channel(E/F) scan found57, all57 retained, omitted0. No source change or suppression."
+  },
+  "installedSourceSupport": {
+    "recoveredResourcePins": [
+      {
+        "source": {
+          "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+          "packBytes": 1994525893,
+          "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+          "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+          "indexBytes": 1931975,
+          "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+          "resource": "scripts/Game/Components/SupportStation/SCR_BaseSupportStationComponent.c",
+          "offset": 1487638268,
+          "storedBytes": 11546,
+          "rawBytes": 59757,
+          "method": "00000106",
+          "sourceSha256": "01431283e118c0e371a639eb60747f211d22712f1eb98c5a15916a15dafdb1a4"
+        },
+        "extracted": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-RefuelRepair-NativeRecipes-20261022\\installed\\SCR_BaseSupportStationComponent.c.txt"
+      },
+      {
+        "source": {
+          "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+          "packBytes": 1994525893,
+          "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+          "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+          "indexBytes": 1931975,
+          "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+          "resource": "scripts/Game/Components/SupportStation/SCR_FuelSupportStationComponent.c",
+          "offset": 1487649814,
+          "storedBytes": 3631,
+          "rawBytes": 13924,
+          "method": "00000106",
+          "sourceSha256": "1733c692653d0815c2aba0f101b51b270451f3e99c65934d0516083a3cf959e2"
+        },
+        "extracted": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-RefuelRepair-NativeRecipes-20261022\\installed\\SCR_FuelSupportStationComponent.c.txt"
+      },
+      {
+        "source": {
+          "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+          "packBytes": 1994525893,
+          "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+          "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+          "indexBytes": 1931975,
+          "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+          "resource": "scripts/Game/Interactions/SCR_InteractionHandlerComponent.c",
+          "offset": 1490228945,
+          "storedBytes": 8160,
+          "rawBytes": 34535,
+          "method": "00000106",
+          "sourceSha256": "4273c266067eb965a3e4269d53be6e75cd20978ef8d1c0e7accc1d0be52bd354",
+          "resourceGuid": null
+        },
+        "extracted": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-RefuelRepair-NativeRecipes-20261022\\installed\\SCR_InteractionHandlerComponent.c.txt"
+      },
+      {
+        "source": {
+          "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+          "packBytes": 1994525893,
+          "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+          "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+          "indexBytes": 1931975,
+          "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+          "resource": "scripts/Game/UserActions/SupportStations/SCR_RefuelAtSupportStationAction.c",
+          "offset": 1492663336,
+          "storedBytes": 2587,
+          "rawBytes": 9524,
+          "method": "00000106",
+          "sourceSha256": "1210056f167588395ac78ed7c9a659d0fd5c73a36f901cd494661263a1590061",
+          "resourceGuid": null
+        },
+        "extracted": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-RefuelRepair-NativeRecipes-20261022\\installed\\SCR_RefuelAtSupportStationAction.c.txt"
+      },
+      {
+        "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+        "packBytes": 1994525893,
+        "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+        "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+        "indexBytes": 1931975,
+        "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+        "resource": "Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et",
+        "offset": 1457550167,
+        "storedBytes": 118,
+        "rawBytes": 118,
+        "method": "00000000",
+        "sourceSha256": "bc110cb06d12d20ebe0b14f3d4458e006466d9ffdebe21f8e9c1616ce08b459a"
+      },
+      {
+        "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+        "packBytes": 1994525893,
+        "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+        "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+        "indexBytes": 1931975,
+        "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+        "resource": "Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item_base.et",
+        "offset": 1457550285,
+        "storedBytes": 4533,
+        "rawBytes": 4533,
+        "method": "00000000",
+        "sourceSha256": "7ea94841b3723243d9d1e3149b80c12e3bbd368a3a278bf0d3fe8775398210b1"
+      }
+    ],
+    "fuelNodeSupplement": {
+      "pak": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "indexOffset": 1992593910,
+      "indexSHA256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "nameOffset": 1418834,
+      "payloadOffset": 1487331528,
+      "storedBytes": 2421,
+      "rawBytes": 10528,
+      "sha256": "7be92cdeb3aeedec8ded5a6a2ee8b0d60a5b3c49d9307ae1407e88b0432b6d6d"
+    },
+    "versionIndexSHA256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+    "attributionBoundary": "Two inventory Jerrycans are source-supported; actual nonranged owners now separately report5/20. Their prefab names are not emitted. Cargo owner itself reports910/4550 and donor tank10 before/after, so selected cargo identity is observed/source-bound rather than provider-root guessing."
+  },
+  "preservedHistory": [
+    {
+      "version": "v1",
+      "scope": "Compile failure; no fuel case accepted",
+      "status": "SCRIPT_COMPILE_FAIL",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-fuel-compile-v1\\RESULT.json",
+      "sha256": "4b65d2168a7011a3d0d5613dc054942fb2b62e37d45be6f254a311e35fa4f0aa"
+    },
+    {
+      "version": "v2",
+      "scope": "Compile failure; no fuel case accepted",
+      "status": "SCRIPT_COMPILE_FAIL",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-fuel-compile-v2\\RESULT.json",
+      "sha256": "6ea951c37a090c56815c3f713dfcbc4dfaae291a71654725ee5e99be5ef9e35f"
+    },
+    {
+      "version": "v3",
+      "scope": "Adapter import failure before native; original summary lifecycle NOT_TESTED",
+      "status": "NOT_TESTED",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v3\\summary.json",
+      "sha256": "ce38f26067cce99eeb4bd3db37e9b46056974436ab67764e33c0a76a112a8b04"
+    },
+    {
+      "version": "v3b",
+      "scope": "Private station inventory admission abort before hold; no actual service attempted",
+      "status": "FAIL",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v3b\\summary.json",
+      "sha256": "377fdfe6e08644cfc5fc42bcd4ccb65519c962ae17c68a3aa1e06e6b094fc482"
+    }
+  ],
+  "inputs": {
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\result.json": "d49ddfc29fda571290074310f33c49fb25cf869484e33a42f9110ed50f540b19",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\adapter-result.json": "65ca5b9f6d50ecff7b1685ee5f10ad3e10b96f2a3f1fcb322d54d8de44d0ed95",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\native-review.json": "15731a11bffabd6aa538bc68aab7b6e8b9dd82d5b4616e946fa2433484367afb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\request.json": "3b5e312741ec9b1437f1d647bf140227324de713713750fb94aecb9b3c53e663",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\private-native-job.json": "82c1e434768acf36f85b11c5b345e18dcef415c59f9bc2a6d884b5a5946d6ad8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\native-run\\owner.json": "320f78063a5336a99686ba4a142fc7b7bf894ab2f6e10fee60f06323545cb3eb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\native-run\\owner-private.json": "919dac3eec363662f488eb8ac58800887520413d5785d9f447cbe782f8a609c3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\native-run\\exit.json": "cf1e41efcfed3896ccfa30ebae69c800a050f7b32b6785bbc0e432b88c1f10d8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\native-run\\profile\\profile\\GPG-ServiceFuel-job.json": "82c1e434768acf36f85b11c5b345e18dcef415c59f9bc2a6d884b5a5946d6ad8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo\\native-run\\logs\\console.log": "7a9235527a1b5566dd8170b6cd3cdbbe8dd711bbe32f297da759addb0f99471e",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\fuel-job.json": "b0d797d4ff629506406249cbca7bdf6fc8bb95480d5cdab799acb30aa0192e17",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\summary.json": "7e01cfc7965c0039e024956b71b8f59d7c851f0cc1d205d95aec5c7812f5a8e2",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\adapter.py": "44b219e7eb24025a40089760a8d38391fff53a3c5ec35195d894bbd638da8ecb",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\evidence.py": "d0fe735b384d32144691ef04b4b91b375c4293d5cb034fbc730c30bbea15fa9c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\startup_evidence.py": "fdf9f4943e3babf1160b67f20551203c3ba957ffd5d1b47a221d584ce06ea754",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\lease_read.py": "a56e0307d68ccbde1417da89086c65ed671cac888b886116652ebc2ae03baedf",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\common.py": "11ac72521b811ada489a61c4ff9d0de9ace0ce3467fdf5c53616ec6b20ffb1f5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\adoption.py": "bf18e91baf75f403ce8d5e00b07500b26b491d5e86696af60ed59f0a1bfceb8a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\SOURCE-PLAN.json": "4cec0227636d1b86da182d8b8ba2bb907481d335a67248e95256e9a85b175545",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\GPG_ServiceFuelFixture20261022.c": "009a77cd18e72c056b39c69dea31989e65ce0ab2852b5aa4046f839327601d79",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\GEP_ServiceQualification20261022.c": "67df9d6a1f101fd69992101fca47331d9504769f8eec73c251bb70aa3f632967",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\ROOT-FUEL-ADMISSION.json": "4b8fd14154be8c2b528288b1e2ce2f0f7e615e69525f3c2448767320c784f541",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\setup.json": "d7314ea18b5073042b4b5511e6760262d4ca321f8863a60370489849bd479068",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\STAGING-RECEIPT.json": "422e3a17516ecdda3ca8f099a841fb138c84565ee730238c790f83bff3e06d5a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\INPUT-SNAPSHOT.json": "00420ca8b6b77a91b8b7d2a7837f0ad464320bfa959b3b11f614d599b84a3b37",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\MARKER-CONTRACT.json": "2673b0082f46ac3e8d65224ca937901f1d6ad4247bc13ef212613657b34c28cd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\SOURCE-CLOSURES.json": "568130f30d3c0bd88d1b544efcae5c981d6a8db7f728beafea11b2ab8569e4f1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\COMPILE-ADOPTION.json": "430541d5be04e2e71afc175b64e3b56445afaf68eea5bea8a98e1ef1a1c35253",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\GEPARD_SOURCE_MANIFEST.json": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\QA_SOURCE_MANIFEST.json": "b864bae60c6cc10f8d148fdd20b1ed4adce985346e7c892deb7367643834948f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\state\\tools\\Scene.ps1": "00eeb39ad683356b9da204d074f4c60fcfc4b814635711dac71888a13d84760f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-fuel-compile-v4\\RESULT.json": "f89d9ce562f019df19c9a878b2721ce64a2d6543db7de3c86dbfbb71273dcb87",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-fuel-compile-v4\\owner-private.json": "33c8450ae6f7e78648ad1cb348f3f1653a4bc9f7df6880cb1c0049b80450547f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-fuel-compile-v4\\compiler-identity.json": "69bde6c422f105c75958eec2065b332fbe91bdfb277bf0a2c0a03728d8d78085",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-fuel-compile-v4\\launcher-exit.json": "c637124b8221273f605e028fa200e559681815a192a893d9ceae2617d899c7f5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-fuel-compile-v4\\logs\\validate\\console.log": "4b680d88ad4d856dc8cccef5b6302b5ea658898f3a8d28afda268b8b3f0943fa",
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe": "5923b0694874cee74169c2dffdc14ef3cbd8c0228964fd0f6348e4df8cb3c5f4",
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\STATION-ADMISSION-REPAIR.json": "c9375395619da75038e3f78ec22850e1a611a8d0563e4062ddc7b2b9ca4ba2f9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\CALLBACK-REPAIR.json": "7e654e8e61b3a7a08a067336da5b4166afb934a1cab492b95f63d87b0012f5a1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\RESERVED-NAME-REPAIR.json": "53a6185b66372b88d23dac9cd8e42eab04e4c902cc7e6d072627d252477f4034",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-Native-v4-20261022\\ADAPTER-IMPORT-REPAIR.json": "834e5e72a4ba8a4fd32376a7688907ac0dd56ecd8ab7824514f83c76a2f6c74e",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-IndependentReview-v3b-20261022\\INDEPENDENT-REVIEW.json": "6daa716a4129aa17cdd916333ba78fed85df369fa775ef4ee2406cb05c470ded",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-IndependentReview-v3b-20261022\\MANIFEST.json": "7350e1c15e349308c7adb76805e212ce0f28a798906ec5a945d776b9c24f2184",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Fuel-IndependentReview-v3b-20261022\\CANISTER-PINS.json": "d44e96fc17e428706f3355d9e03dfa3c78f7ca53a1880e56abc10a8481006808",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-RefuelRepair-NativeRecipes-20261022\\RECOVERED-PINS.json": "da4aecf7458ae4bcb310bc4268111be0f66feab7205810c88f24e0134fe00d75",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-RefuelRepair-NativeRecipes-20261022\\ADDITIONAL-INSTALLED-PINS.json": "8eb8ce6d1d689a3a543d5251590aa2ac5a22466c6e5e49a7876f06d619c6b5b1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-RefuelRepair-NativeRecipes-20261022\\EXACT-BASE-PINS.json": "6ba12ac6df20a4e38a6bfe68020df4f58da935b6cb8bd51e255e5822fa311171",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-RefuelRepair-NativeRecipes-20261022\\EXTRACTION-CORRECTION.json": "b2243bc70085ad9349e52777f95002543ff2c14358b54167b76faa4d3b7b301d"
+  },
+  "notQualified": [
+    "Whole fuel/service acceptance",
+    "Full fill or settled post-release continuation",
+    "Consumption by driving or churn",
+    "Left cap",
+    "Repeated/full/empty/negative refuel",
+    "Physical keyboard/menu/reach usability",
+    "Repair",
+    "Other skins",
+    "MP/JIP/dedicated"
+  ],
+  "DWritten": false,
+  "nativeStarted": false,
+  "collectorChanged": false,
+  "priorVerdictsChanged": false
+}

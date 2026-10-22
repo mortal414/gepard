@@ -44,20 +44,17 @@
     {
       "id": "A03-services",
       "criterion": "Ordinary repair/refuel/rearm eligible actions change actual target/provider values with finite accounting;failurecontrols andfreshreset verified.",
-      "outcome": "manual judgment pending",
+      "outcome": "not tested",
       "evidence": [
-        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json"
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\focused-services-v10\\RESULT.json"
       ],
       "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
-      "observedSubcriteria": "One source-bound camo LEFT refill315->320 with selected finite US-provider supplies1000->997; two other observed containers unchanged; total3000->2997. Original strict FAIL and57nativeerrors retained. Right/repeated/full/empty-negative/repair/refuel/manual/MP remain unqualified.",
+      "observedSubcriteria": "Separate native LEFT and RIGHT refills each315->320 with selected finite US-source1000->997/observed sums3000->2997. RIGHT fuel cap30->32.0833L with exact cargo910->907.917L, conserved within0.05L. All cases normal0/released; strict failures preserved. Whole criterion remains incomplete.",
       "remainingGates": [
-        "Original strict automated case",
-        "Right-feed transfer",
-        "Repeated/full/empty-negative services",
-        "Repair",
-        "Refuel",
-        "Physical input",
-        "Human usability",
+        "Actual repair healing with held wrench and finite debit",
+        "Full/repeated/empty-negative service controls",
+        "Left fuel cap/reach across positions",
+        "Physical input/human usability",
         "MP/JIP/dedicated"
       ]
     },
@@ -315,7 +312,7 @@
       }
     }
   },
-  "updatedUtc": "2026-10-22T08:42:40.714833+00:00",
+  "updatedUtc": "2026-10-22T09:22:11.370723+00:00",
   "nativeCheckpoints": {
     "ordinarySource": "private-demo-source-v6; actual compile06 PASS",
     "packages": "pack08 operational PASS; strict100 errors retained; installed08 two verified trios",
@@ -325,73 +322,149 @@
     "wheeled": "Two26checkdiagnosticpasses; originalnativeNOT_TESTED preserved",
     "boards": "V3 independent source-bound observation: 23 boards with component/Station/Rpl/context and five actions each; 115 native owner-equality booleans. Registered bay read/reset/reset reaches the original Director; four replacements, 228 old IDs absent, 27 unrelated roots preserved and all 31 stable under debounce. Original adapter/aggregate NOT_TESTED from malformed inline-ID telemetry is retained; no ID normalization or waiver.",
     "services": {
-      "status": "ONE_NATIVE_CAMO_LEFT_REFILL_OBSERVED_WHOLE_SERVICES_PENDING",
-      "selectedFeed": 0,
-      "targetMagazineBefore": 315,
-      "targetMagazineAfter": 320,
-      "selectedFiniteContainerBefore": 1000,
-      "selectedFiniteContainerAfter": 997,
-      "threeObservedContainerSums": {
-        "before": 3000,
-        "after": 2997
+      "status": "SEPARATE_NATIVE_LEFT_RIGHT_REFILLS_AND_RIGHT_CAP_FUEL_OBSERVED_WHOLE_SERVICES_PENDING",
+      "left": {
+        "feed": 0,
+        "action": 21,
+        "targetBefore": 315,
+        "targetAfter": 320,
+        "selectedSuppliesBefore": 1000,
+        "selectedSuppliesAfter": 997,
+        "observedContainerSums": [
+          3000,
+          2997
+        ],
+        "audit": {
+          "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
+          "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+        }
       },
-      "otherTwoObservedContainersUnchanged": true,
-      "originalStrictCase": "FAIL_PRESERVED",
-      "strictRearmNativeErrors": 57,
-      "instrumentationFailures": "27 missing action-field parser mismatches plus incorrect aggregate0 versus actual per-container rows; no normalization or waiver.",
-      "independentReview": {
-        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
-        "bytes": 18820,
-        "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+      "right": {
+        "feed": 1,
+        "action": 22,
+        "targetBefore": 315,
+        "targetAfter": 320,
+        "selectedSuppliesBefore": 1000,
+        "selectedSuppliesAfter": 997,
+        "observedContainerSums": [
+          3000,
+          2997
+        ],
+        "audit": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\focused-services-v10\\RIGHT-INDEPENDENT.json",
+          "sha256": "38ff17417859f3afbb7e4ec00ff723f65cd2f936edf6f32c95107f51799429fa"
+        },
+        "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo",
+        "strictCase": "FAIL_PRESERVED_KNOWN_COLLECTOR_DEFECTS"
       },
-      "includedProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
-      "scope": "One source-bound camo left-feed refill only; not a whole-service PASS or GEP completion.",
-      "unqualified": [
-        "Original strict automated case",
-        "Right-feed transfer",
-        "Repeated/full/empty-negative services",
-        "Repair",
-        "Refuel",
-        "Physical input",
-        "Human usability",
+      "fuel": {
+        "side": "right",
+        "action": 8,
+        "targetTank": 1,
+        "targetBefore": 30,
+        "targetAfter": 32.0833,
+        "targetCapacity": 40,
+        "donorTank": 10,
+        "donorBefore": 910,
+        "donorAfter": 907.917,
+        "donorCapacity": 4550,
+        "toleranceLitres": 0.05,
+        "observedConservationDifferenceLitres": 0.0003,
+        "narrowCriterion": "PASS",
+        "strictCase": "FAIL57_RETAINED",
+        "preparation": "Fresh authored deficit; no fuel setter or driving-consumption claim",
+        "audit": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\focused-services-v10\\FUEL-INDEPENDENT.json",
+          "sha256": "9865bfd3e234a29169a20dd5e25f5f8c403b3172cd727fd30919dc2bf8d7e63e"
+        },
+        "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo"
+      },
+      "released": true,
+      "sourceOrPackageChanged": false,
+      "newAcceptedCheckboxes": 0,
+      "remaining": [
+        "Actual repair healing with held wrench and finite debit",
+        "Full/repeated/empty-negative service controls",
+        "Left fuel cap/reach across positions",
+        "Physical input/human usability",
         "MP/JIP/dedicated"
-      ]
+      ],
+      "stockProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+      "scope": "Separate fresh camo cases only. Narrow measured observations; no whole-service, human or GEP acceptance. Original strict cases and every previous failure are preserved."
     },
     "smoke": "Excluded from stable08. Documentation-only provenance mismatch reconciled without source change. Actual smoke-angle-03: one payload/ammo8\u21927;49position samples show49.587m travel and42.271m horizontal displacement; normal exit0/released. Narrow launch/flight PASS; strict case FAIL57 preserved. Capture intentionally off: cloud/fuse/coverage/alignment/full-empty/rearm/roles/dependency compatibility remain unqualified. No active smoke permission denial.",
     "audio": "Separate boundedauthoring approval pending; excluded",
     "diagnosticSeverity08": "Source audit: GUI1+stock catalog WORLD7; shutdown SCRIPT2; postdestroy RESOURCES49. Four pack tails25each exact released1.0.2 signatures. No demonstrated live demo blocker; strictFAIL59/100 unchanged."
   },
   "latestService": {
-    "status": "ONE_NATIVE_CAMO_LEFT_REFILL_OBSERVED_WHOLE_SERVICES_PENDING",
-    "selectedFeed": 0,
-    "targetMagazineBefore": 315,
-    "targetMagazineAfter": 320,
-    "selectedFiniteContainerBefore": 1000,
-    "selectedFiniteContainerAfter": 997,
-    "threeObservedContainerSums": {
-      "before": 3000,
-      "after": 2997
+    "status": "SEPARATE_NATIVE_LEFT_RIGHT_REFILLS_AND_RIGHT_CAP_FUEL_OBSERVED_WHOLE_SERVICES_PENDING",
+    "left": {
+      "feed": 0,
+      "action": 21,
+      "targetBefore": 315,
+      "targetAfter": 320,
+      "selectedSuppliesBefore": 1000,
+      "selectedSuppliesAfter": 997,
+      "observedContainerSums": [
+        3000,
+        2997
+      ],
+      "audit": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
+        "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+      }
     },
-    "otherTwoObservedContainersUnchanged": true,
-    "originalStrictCase": "FAIL_PRESERVED",
-    "strictRearmNativeErrors": 57,
-    "instrumentationFailures": "27 missing action-field parser mismatches plus incorrect aggregate0 versus actual per-container rows; no normalization or waiver.",
-    "independentReview": {
-      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
-      "bytes": 18820,
-      "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+    "right": {
+      "feed": 1,
+      "action": 22,
+      "targetBefore": 315,
+      "targetAfter": 320,
+      "selectedSuppliesBefore": 1000,
+      "selectedSuppliesAfter": 997,
+      "observedContainerSums": [
+        3000,
+        2997
+      ],
+      "audit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\focused-services-v10\\RIGHT-INDEPENDENT.json",
+        "sha256": "38ff17417859f3afbb7e4ec00ff723f65cd2f936edf6f32c95107f51799429fa"
+      },
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo",
+      "strictCase": "FAIL_PRESERVED_KNOWN_COLLECTOR_DEFECTS"
     },
-    "includedProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
-    "scope": "One source-bound camo left-feed refill only; not a whole-service PASS or GEP completion.",
-    "unqualified": [
-      "Original strict automated case",
-      "Right-feed transfer",
-      "Repeated/full/empty-negative services",
-      "Repair",
-      "Refuel",
-      "Physical input",
-      "Human usability",
+    "fuel": {
+      "side": "right",
+      "action": 8,
+      "targetTank": 1,
+      "targetBefore": 30,
+      "targetAfter": 32.0833,
+      "targetCapacity": 40,
+      "donorTank": 10,
+      "donorBefore": 910,
+      "donorAfter": 907.917,
+      "donorCapacity": 4550,
+      "toleranceLitres": 0.05,
+      "observedConservationDifferenceLitres": 0.0003,
+      "narrowCriterion": "PASS",
+      "strictCase": "FAIL57_RETAINED",
+      "preparation": "Fresh authored deficit; no fuel setter or driving-consumption claim",
+      "audit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\focused-services-v10\\FUEL-INDEPENDENT.json",
+        "sha256": "9865bfd3e234a29169a20dd5e25f5f8c403b3172cd727fd30919dc2bf8d7e63e"
+      },
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo"
+    },
+    "released": true,
+    "sourceOrPackageChanged": false,
+    "newAcceptedCheckboxes": 0,
+    "remaining": [
+      "Actual repair healing with held wrench and finite debit",
+      "Full/repeated/empty-negative service controls",
+      "Left fuel cap/reach across positions",
+      "Physical input/human usability",
       "MP/JIP/dedicated"
-    ]
+    ],
+    "stockProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+    "scope": "Separate fresh camo cases only. Narrow measured observations; no whole-service, human or GEP acceptance. Original strict cases and every previous failure are preserved."
   }
 }

@@ -1,0 +1,71 @@
+{
+  "status": "SEPARATE_NATIVE_LEFT_RIGHT_REFILLS_AND_RIGHT_CAP_FUEL_OBSERVED_WHOLE_SERVICES_PENDING",
+  "left": {
+    "feed": 0,
+    "action": 21,
+    "targetBefore": 315,
+    "targetAfter": 320,
+    "selectedSuppliesBefore": 1000,
+    "selectedSuppliesAfter": 997,
+    "observedContainerSums": [
+      3000,
+      2997
+    ],
+    "audit": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
+      "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+    }
+  },
+  "right": {
+    "feed": 1,
+    "action": 22,
+    "targetBefore": 315,
+    "targetAfter": 320,
+    "selectedSuppliesBefore": 1000,
+    "selectedSuppliesAfter": 997,
+    "observedContainerSums": [
+      3000,
+      2997
+    ],
+    "audit": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\focused-services-v10\\RIGHT-INDEPENDENT.json",
+      "sha256": "38ff17417859f3afbb7e4ec00ff723f65cd2f936edf6f32c95107f51799429fa"
+    },
+    "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo",
+    "strictCase": "FAIL_PRESERVED_KNOWN_COLLECTOR_DEFECTS"
+  },
+  "fuel": {
+    "side": "right",
+    "action": 8,
+    "targetTank": 1,
+    "targetBefore": 30,
+    "targetAfter": 32.0833,
+    "targetCapacity": 40,
+    "donorTank": 10,
+    "donorBefore": 910,
+    "donorAfter": 907.917,
+    "donorCapacity": 4550,
+    "toleranceLitres": 0.05,
+    "observedConservationDifferenceLitres": 0.0003,
+    "narrowCriterion": "PASS",
+    "strictCase": "FAIL57_RETAINED",
+    "preparation": "Fresh authored deficit; no fuel setter or driving-consumption claim",
+    "audit": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\focused-services-v10\\FUEL-INDEPENDENT.json",
+      "sha256": "9865bfd3e234a29169a20dd5e25f5f8c403b3172cd727fd30919dc2bf8d7e63e"
+    },
+    "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-refuel-right-camo-v4\\gpg-refuel-right-camo"
+  },
+  "released": true,
+  "sourceOrPackageChanged": false,
+  "newAcceptedCheckboxes": 0,
+  "remaining": [
+    "Actual repair healing with held wrench and finite debit",
+    "Full/repeated/empty-negative service controls",
+    "Left fuel cap/reach across positions",
+    "Physical input/human usability",
+    "MP/JIP/dedicated"
+  ],
+  "stockProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+  "scope": "Separate fresh camo cases only. Narrow measured observations; no whole-service, human or GEP acceptance. Original strict cases and every previous failure are preserved."
+}

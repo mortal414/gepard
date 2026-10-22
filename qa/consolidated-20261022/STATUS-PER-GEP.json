@@ -184,7 +184,7 @@
     {
       "id": "GEP-023",
       "status": "Needs user test",
-      "reason": "Released fuel contexts already authored both sides; actual side/reach/transfer not newly verified.",
+      "reason": "Right-cap native refuel observed at one clear private pad: actual30->32.0833L and exact finite tanker cargo910->907.917L; source-bound native selection/hold/node/conservation and normal closure pass narrowly. Left-cap/other-position reach, full/repeat/negative and physical usability remain unqualified; no whole GEP acceptance.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
@@ -278,7 +278,7 @@
     "Needs verification": "Existing release evidence passes; one named verification remains",
     "Blocked": "A named inclusion gate remains unsatisfied: feature runtime qualification for015, separate bounded authoring permission for033. Deferred work is not globally blocked."
   },
-  "updatedUtc": "2026-10-22T08:42:40.714833+00:00",
+  "updatedUtc": "2026-10-22T09:22:11.370723+00:00",
   "candidate": "ordinary source v6 / compile06 / pack08 / installed08; one left refill observed, whole services pending",
   "nativeCompile": "Actual ordinary-v6 compile06 PASS; historical board V3 compile/native observation retained separately. Compilation alone is not gameplay acceptance.",
   "nativeGameplay": "Package08 ordinary start and US provider observed; strict probe FAIL retained. Separate narrow left-refill observation does not mark services accepted.",

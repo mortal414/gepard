@@ -1,0 +1,539 @@
+{
+  "schema": 1,
+  "status": "NARROW_NATIVE_RIGHT_REARM_TRANSFER_OBSERVED_STRICT_CASE_FAIL_PRESERVED",
+  "caseId": "gpg-rearm-right-camo",
+  "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+  "lifecycle": {
+    "status": "PASS",
+    "reason": "Original wrapper exact owner/argv receipts, verified normal exit and same released lease",
+    "verifiedExited": true,
+    "leaseReleased": true
+  },
+  "normalExit": {
+    "nativeTerminalSeen": true,
+    "closeMethod": "owned-normal-window-close",
+    "cancelRequested": false,
+    "utc": "2026-10-22T08:49:30.5037991Z",
+    "verifiedExited": true,
+    "leaseReleased": true,
+    "exitCode": 0
+  },
+  "infrastructure": {
+    "status": "PASS",
+    "reason": "Qualified source/compile, fresh bounded startup/survey markers and exact owned closure; all physical/visual acceptance remains NOT_TESTED"
+  },
+  "originalStrictStatus": "FAIL",
+  "originalStrictFailures": [
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "native_hold:mixed_packet_action_identity",
+    "known_supply_sum_no_debit",
+    "container_sum_mismatch_before",
+    "container_sum_mismatch_after"
+  ],
+  "nativeErrorsStatus": "FAIL_PRESERVED",
+  "frozenV9Source": {
+    "scope": "rearm",
+    "status": "PASS_FROZEN_SOURCE_ONLY",
+    "files": 46,
+    "sealSHA256": "253a923b1de35d7e59749da8fa92772f1fa500e00f8917ecf024023bc91f9c82",
+    "nativeCompile": "NOT_TESTED",
+    "transfer": "NOT_TESTED"
+  },
+  "rightBindingDeltaVerified": "Exact native source unchanged; C case/feed guards and original candidate-world path only; Scene ownership/lifecycle unchanged",
+  "completeClosures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-reset-stage-usrearm-v9\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\GEPARD_SOURCE_MANIFEST.json",
+      "sha256": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-reset-stage-usrearm-v9\\provingGround",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\QA_SOURCE_MANIFEST.json",
+      "sha256": "ad7eea6a3e4c697d33a0dbbaae0fbee4d477eca9a9da8c186ec1331dc7bc2f72",
+      "files": 13
+    }
+  ],
+  "actualCompile": {
+    "schema": 1,
+    "status": "SCRIPT_COMPILE_PASS_ADOPTED",
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-gpg-reset-stage-usrearm-v9\\provingGround\\GepardProvingGround.gproj",
+    "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-usrearm-compile-v9",
+    "compilerResultSHA256": "226fba8720dba262e852b9114210587838b9a9ca36175bcc1d756bbecc97c4e7",
+    "compilerConsoleSHA256": "052d970f3350e0c5d21171f8e13f9a4bdbb37b10704266b6f28e875e0c135f7d",
+    "compilerIdentitySHA256": "beba9331c0bee46a80c45d6451c7213d8ac9c609bcd1043ad67d901d0c2ac20b",
+    "launcherExitSHA256": "a4af68a7a7ce52993b562bee8f98a7a2b1df5123da13b7c02c766d843410b392",
+    "compilerOwnerProjectVerified": true,
+    "nativeRuntime": "NOT_TESTED",
+    "nativeGameplay": "NOT_TESTED"
+  },
+  "inputs": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\BINDING-DELTA.json": "e86d1e5666dded86d18aaefb512ac6099fefb6bc9e206c966a88ee5bf72f6937",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\ROOT-RIGHT-ADMISSION.json": "edf9b0f8c4f29e7f9c59db068353d069e0299b7e01c9274fec5f566cd85181a2",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\right-refill-job.json": "17ba8438a95e0457b2646c349b9b91578fa2ccfd70fdea66e160586012972193",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo\\result.json": "9118ce1a3eb15031eda97acc3b7f44c6c0d07b395446f1805195b88ee26a7db6",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo\\private-native-job.json": "e5c11cb422fa30e5f730bb822f76ee30c0ccbfb80c7f61b002a791f38a25c4af",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo\\request.json": "1d46a75e253744a29f8b4ab0386e42ddc1d6bfbfd08c87557f09cd186fd015eb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo\\native-run\\exit.json": "e513638baa068d0728d15d2d2df0a70a7119ecf14a7572349985f42a5b5dcae4",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo\\native-run\\owner.json": "3f35d09353810b1a438519ed28eb1cf06e45b90b1d66a08f084c1909101752af",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo\\native-run\\profile\\profile\\GPG-ServiceRearm-result.json": "adf94e7e850c982caefad9ecd67a4b04cf25d88fae2040acd4d41ebc64262a31",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo\\native-run\\profile\\profile\\GPG-ServiceRearm-job.json": "e5c11cb422fa30e5f730bb822f76ee30c0ccbfb80c7f61b002a791f38a25c4af",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\gpg-rearm-right-camo\\native-run\\logs\\console.log": "5293bd3a1f8183032cfee1cba8e451f8637f2ab4ec79e19bea03df1502eb126a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-right-camo-v10\\summary.json": "5a894bc919cd28eb4585d4be71de99f2f73ce7450cc6dcc611e0d470dfa85935",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\adapter.py": "5ce447128ed9675358c821aeaa99860e72433b9ac70bf8e9c0249ee5513b016b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\evidence.py": "7ec5e921f04de04b52668e9ed6e0d2b260e49b9350f340ff2036ffadd8a9761b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\startup_evidence.py": "fdf9f4943e3babf1160b67f20551203c3ba957ffd5d1b47a221d584ce06ea754",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\lease_read.py": "a56e0307d68ccbde1417da89086c65ed671cac888b886116652ebc2ae03baedf",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\common.py": "478a56992b788639e3ce4f9ac6b18c5b9f3598ba162eb90e3bd8bd6bdbafe1b7",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\adoption.py": "bf18e91baf75f403ce8d5e00b07500b26b491d5e86696af60ed59f0a1bfceb8a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\private-overlay\\scripts\\Game\\QA\\GEP_ServiceQualification20261022.c": "67df9d6a1f101fd69992101fca47331d9504769f8eec73c251bb70aa3f632967",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\private-overlay\\scripts\\Game\\QA\\GPG_ServiceRearmFixture20261022.c": "31ada3e56bbb0a610c2b0fc35d883afaf4aa910386d2478ab6ea156259a46c5c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\analyze_rearm.py": "93316b8ea1e58e544accf7cd6740d4a5f0609ef72d4bd5e2f4cfc266aaa4df9b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\analyze_service.py": "71b909f36d649715ac1fae3e0b4b391aef32308fc1374c160136bd18f835d5cd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\UPSTREAM-PINS.json": "fa639b05b83929a4665f8f01e34f6369dfd6dbe631e8f28f47f1568144fecf24",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\STAGING-RECEIPT.json": "003de919852d1efafcdd2a5ef0bb5609270570be2794370e7c9f81db9b2302fd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\INPUT-SNAPSHOT.json": "e954fc82ef8335cb3ff5857a067fc38d657345a5742dfea38380afd8a4e8c2d9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\MARKER-CONTRACT.json": "2673b0082f46ac3e8d65224ca937901f1d6ad4247bc13ef212613657b34c28cd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\SOURCE-CLOSURES.json": "38aa7fbd7f4a4f8ebbf0f5d0c1b83f387dbdba342eb17e53f5344cc0b515defb",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\COMPILE-ADOPTION.json": "8c9b3b89166ac58c2bdfd635415d51514e70acbf47a2209b03d6ecf186cd072e",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\GEPARD_SOURCE_MANIFEST.json": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\rearm\\state-usrearm-v9\\QA_SOURCE_MANIFEST.json": "ad7eea6a3e4c697d33a0dbbaae0fbee4d477eca9a9da8c186ec1331dc7bc2f72",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\Scene.ps1": "5820f89b6d04d4f854d48f2d82d90d6397902f4a1da520e085bbf915f73b00fb",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-usrearm-compile-v9\\RESULT.json": "226fba8720dba262e852b9114210587838b9a9ca36175bcc1d756bbecc97c4e7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-usrearm-compile-v9\\owner-private.json": "385b2b8ba5fddabd25a2cb24c9876a8d9f57f0ba45210e1e245e1db9120389c2",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-usrearm-compile-v9\\compiler-identity.json": "beba9331c0bee46a80c45d6451c7213d8ac9c609bcd1043ad67d901d0c2ac20b",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-usrearm-compile-v9\\launcher-exit.json": "a4af68a7a7ce52993b562bee8f98a7a2b1df5123da13b7c02c766d843410b392",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-usrearm-compile-v9\\logs\\validate\\console.log": "052d970f3350e0c5d21171f8e13f9a4bdbb37b10704266b6f28e875e0c135f7d",
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe": "5923b0694874cee74169c2dffdc14ef3cbd8c0228964fd0f6348e4df8cb3c5f4",
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-RightRefill-v10-20261022\\right-setup.json": "30cb8eb208e0c12d36c328a21e63c283d61a0112cc60218a4c517a0498651089"
+  },
+  "facts": {
+    "ready": {
+      "case": "gpg-rearm-right-camo",
+      "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+      "actor": "0x400000000000032C {}",
+      "subject": "0x40000000000002FB {}",
+      "provider": "0x400000000000015A {}",
+      "providerEpoch": "0",
+      "feed": "1",
+      "scriptedSetup": "1",
+      "physical": "0"
+    },
+    "feed": 1,
+    "action": 22,
+    "bothFeedsBefore": {
+      "line": 376,
+      "family": "GPG_REARM_AMMO",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "phase": "before",
+        "left": "320",
+        "right": "320"
+      }
+    },
+    "bothFeedsConsumed": {
+      "line": 773,
+      "family": "GPG_REARM_AMMO",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "phase": "consumed",
+        "left": "315",
+        "right": "315",
+        "leftUsed": "5",
+        "rightUsed": "5",
+        "nativeTrigger": "1"
+      }
+    },
+    "rightNativeEligibility": {
+      "line": 996,
+      "family": "GPG_REARM_ELIG_REASON",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "snapshot": "1",
+        "action": "22",
+        "cachedCanPerform": "1",
+        "reason": "100",
+        "selected": "1",
+        "ownerMatches": "1",
+        "magazineMatches": "1"
+      }
+    },
+    "rightNativeMagazine": {
+      "line": 997,
+      "family": "GPG_REARM_ELIG_MAG",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "snapshot": "1",
+        "action": "22",
+        "magazineOwner": "0x4000000000000321 {}",
+        "targetMagazineOwner": "0x4000000000000321 {}",
+        "current": "315",
+        "maximum": "320",
+        "targetCurrent": "315"
+      }
+    },
+    "rightNativeStation": {
+      "line": 998,
+      "family": "GPG_REARM_ELIG_ITEM",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "snapshot": "1",
+        "action": "22",
+        "item": "{D561AD08932E4020}Prefabs/Weapons/GEP_35_HEIT_Belt320.et",
+        "nativeStationOwner": "0x4000000000000173 {}",
+        "nativeCost": "3",
+        "stationMatches": "1"
+      }
+    },
+    "nonselectedLeftEligibility": {
+      "line": 985,
+      "family": "GPG_REARM_ELIG_REASON",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "snapshot": "1",
+        "action": "21",
+        "cachedCanPerform": "1",
+        "reason": "100",
+        "selected": "0",
+        "ownerMatches": "1",
+        "magazineMatches": "0"
+      }
+    },
+    "nonmatchingLeftMagazine": {
+      "line": 986,
+      "family": "GPG_REARM_ELIG_MAG",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "snapshot": "1",
+        "action": "21",
+        "magazineOwner": "0x400000000000031F {}",
+        "targetMagazineOwner": "0x4000000000000321 {}",
+        "current": "315",
+        "maximum": "320",
+        "targetCurrent": "315"
+      }
+    },
+    "nativeHoldDOWN": {
+      "line": 1043,
+      "family": "GEP_SERVICE_HOLD",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "edge": "DOWN",
+        "action": "22",
+        "nativeDuration": "-0.5",
+        "continuous": "1",
+        "physicalKeyboard": "0"
+      }
+    },
+    "completePackets": 20,
+    "firstPacket": {
+      "ADMISSION": {
+        "line": 1039,
+        "family": "GEP_SERVICE_ADMISSION",
+        "fields": {
+          "case": "gpg-rearm-right-camo",
+          "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+          "phase": "before",
+          "action": "22",
+          "shown": "1",
+          "eligible": "1",
+          "selected": "1",
+          "controlledAlive": "1"
+        }
+      },
+      "IDENTITY": {
+        "line": 1040,
+        "family": "GEP_SERVICE_IDENTITY",
+        "fields": {
+          "case": "gpg-rearm-right-camo",
+          "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+          "phase": "before",
+          "subject": "0x40000000000002FB {}",
+          "provider": "0x400000000000015A {}",
+          "stationOwner": "0x4000000000000173 {}",
+          "stationMatches": "1",
+          "actionOwnerMatches": "1"
+        }
+      },
+      "BACKING": {
+        "line": 1041,
+        "family": "GEP_SERVICE_BACKING",
+        "fields": {
+          "case": "gpg-rearm-right-camo",
+          "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+          "phase": "before",
+          "consumer": "1",
+          "suppliesEnabled": "1",
+          "cost": "3",
+          "container": "1",
+          "donorFuel": "0"
+        }
+      },
+      "VALUES": {
+        "line": 1042,
+        "family": "GEP_SERVICE_VALUES",
+        "fields": {
+          "case": "gpg-rearm-right-camo",
+          "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+          "phase": "before",
+          "worldMs": "15244.2",
+          "target": "315",
+          "provider": "1000",
+          "capacity": "1000",
+          "enginesOff": "1"
+        }
+      }
+    },
+    "finalPacket": {
+      "ADMISSION": {
+        "line": 1166,
+        "family": "GEP_SERVICE_ADMISSION",
+        "fields": {
+          "case": "gpg-rearm-right-camo",
+          "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+          "phase": "during",
+          "action": "22",
+          "shown": "1",
+          "eligible": "0",
+          "selected": "1",
+          "controlledAlive": "1"
+        }
+      },
+      "IDENTITY": {
+        "line": 1167,
+        "family": "GEP_SERVICE_IDENTITY",
+        "fields": {
+          "case": "gpg-rearm-right-camo",
+          "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+          "phase": "during",
+          "subject": "0x40000000000002FB {}",
+          "provider": "0x400000000000015A {}",
+          "stationOwner": "0x4000000000000173 {}",
+          "stationMatches": "1",
+          "actionOwnerMatches": "1"
+        }
+      },
+      "BACKING": {
+        "line": 1168,
+        "family": "GEP_SERVICE_BACKING",
+        "fields": {
+          "case": "gpg-rearm-right-camo",
+          "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+          "phase": "during",
+          "consumer": "1",
+          "suppliesEnabled": "1",
+          "cost": "3",
+          "container": "1",
+          "donorFuel": "0"
+        }
+      },
+      "VALUES": {
+        "line": 1169,
+        "family": "GEP_SERVICE_VALUES",
+        "fields": {
+          "case": "gpg-rearm-right-camo",
+          "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+          "phase": "during",
+          "worldMs": "15877.8",
+          "target": "320",
+          "provider": "997",
+          "capacity": "1000",
+          "enginesOff": "1"
+        }
+      }
+    },
+    "targetGain": 5,
+    "selectedProviderDebit": 3,
+    "elapsedWorldMs": 633.5999999999985,
+    "containerSnapshots": {
+      "before": {
+        "0x4000000000000173 {}": {
+          "line": 1036,
+          "family": "GPG_REARM_SUPPLIES",
+          "fields": {
+            "case": "gpg-rearm-right-camo",
+            "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+            "phase": "before",
+            "owner": "0x4000000000000173 {}",
+            "value": "1000",
+            "capacity": "1000",
+            "initial": "1000"
+          }
+        },
+        "0x40000000000001A4 {}": {
+          "line": 1037,
+          "family": "GPG_REARM_SUPPLIES",
+          "fields": {
+            "case": "gpg-rearm-right-camo",
+            "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+            "phase": "before",
+            "owner": "0x40000000000001A4 {}",
+            "value": "1000",
+            "capacity": "1000",
+            "initial": "1000"
+          }
+        },
+        "0x400000000000028E {}": {
+          "line": 1038,
+          "family": "GPG_REARM_SUPPLIES",
+          "fields": {
+            "case": "gpg-rearm-right-camo",
+            "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+            "phase": "before",
+            "owner": "0x400000000000028E {}",
+            "value": "1000",
+            "capacity": "1000",
+            "initial": "1000"
+          }
+        }
+      },
+      "after": {
+        "0x4000000000000173 {}": {
+          "line": 1171,
+          "family": "GPG_REARM_SUPPLIES",
+          "fields": {
+            "case": "gpg-rearm-right-camo",
+            "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+            "phase": "after",
+            "owner": "0x4000000000000173 {}",
+            "value": "997",
+            "capacity": "1000",
+            "initial": "1000"
+          }
+        },
+        "0x40000000000001A4 {}": {
+          "line": 1172,
+          "family": "GPG_REARM_SUPPLIES",
+          "fields": {
+            "case": "gpg-rearm-right-camo",
+            "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+            "phase": "after",
+            "owner": "0x40000000000001A4 {}",
+            "value": "1000",
+            "capacity": "1000",
+            "initial": "1000"
+          }
+        },
+        "0x400000000000028E {}": {
+          "line": 1173,
+          "family": "GPG_REARM_SUPPLIES",
+          "fields": {
+            "case": "gpg-rearm-right-camo",
+            "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+            "phase": "after",
+            "owner": "0x400000000000028E {}",
+            "value": "1000",
+            "capacity": "1000",
+            "initial": "1000"
+          }
+        }
+      }
+    },
+    "containerDebits": {
+      "0x4000000000000173 {}": 3.0,
+      "0x40000000000001A4 {}": 0.0,
+      "0x400000000000028E {}": 0.0
+    },
+    "independentContainerSums": {
+      "before": 3000.0,
+      "after": 2997.0
+    },
+    "durableIncorrectSums": {
+      "before": 0,
+      "after": 0
+    },
+    "releasedUP": "Source-bound: released=1 follows guarded Handler.ActionPerform(0,UP); no separate UP log emitted",
+    "nativeDone": {
+      "line": 1170,
+      "family": "GEP_SERVICE_DONE",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "started": "1",
+        "released": "1",
+        "observedTransfer": "1",
+        "reason": "observed_target_gain_and_finite_source_debit_REVIEW_REQUIRED",
+        "acceptance": "NOT_TESTED",
+        "physicalKeyboard": "0"
+      }
+    },
+    "fixtureDone": {
+      "line": 1174,
+      "family": "GPG_REARM_DONE",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "observedTransfer": "1",
+        "reason": "observed_target_gain_and_finite_source_debit_REVIEW_REQUIRED",
+        "leftUsed": "5",
+        "rightUsed": "5",
+        "suppliesBefore": "0",
+        "suppliesAfter": "0",
+        "acceptance": "NOT_TESTED",
+        "physical": "0"
+      }
+    },
+    "cleanup": {
+      "line": 1176,
+      "family": "GPG_REARM_CLEANUP",
+      "fields": {
+        "case": "gpg-rearm-right-camo",
+        "nonce": "85301645d29f4767a7b828155fc10d07b90e12bf9af84b08bfb668a9f9e39be1",
+        "complete": "1",
+        "actorStillOwned": "1",
+        "nativeClose": "COORDINATOR"
+      }
+    }
+  },
+  "identityMethod": "Opaque full native strings only; no conversions, truncation, masking or decimal reconstruction. Final selected-magazine continuity is source-bound to unchanged stored action handle; no post-transfer magazine-owner row is emitted.",
+  "defects": [
+    {
+      "name": "Missing action in20 IDENTITY/BACKING/VALUES packets",
+      "effect": "Frozen strict analyzer rejects20 action joins; ADMISSION has22 throughout. No logged actual action mismatch is inferred."
+    },
+    {
+      "name": "Native aggregate0 before/after",
+      "effect": "Retained durable fixture0 values disagree with actual three full-owner-keyed containers1000/1000/1000 to997/1000/1000. Independent arithmetic3000\u21922997 does not repair raw verdict."
+    }
+  ],
+  "notQualified": [
+    "Strict automated overall case",
+    "Whole service acceptance",
+    "Repair/refuel",
+    "Repeated/full/empty negative services",
+    "Physical keyboard/menu or human usability",
+    "Other skins",
+    "MP/JIP/dedicated"
+  ],
+  "nativeSourceChanged": false,
+  "rawResultsRewritten": false,
+  "nativeActionByLane": false,
+  "dWrites": false
+}

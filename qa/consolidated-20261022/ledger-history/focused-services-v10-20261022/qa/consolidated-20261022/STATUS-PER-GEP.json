@@ -1,0 +1,321 @@
+{
+  "scope": "Current consolidated private candidate evidence; no new GEP completion or tracker writes. Exact historical ledger preserved by updater backup.",
+  "trackerReadOnly": true,
+  "newCheckboxesChecked": 0,
+  "rows": [
+    {
+      "id": "GEP-001",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-002",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-003",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-004",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-005",
+      "status": "Needs user test",
+      "reason": "German HUD: both1280x720/1920x1080 passed eight narrow data assertions;5sampled720p+3sampled1080p pixels reviewed. Human design/other aspects/positive range accuracy unfinished; whole task unchecked.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-006",
+      "status": "Needs user test",
+      "reason": "HUD V3 actual15phase transitions/captures per resolution include hide-on-exit/single restore-on-return; native/widget angles and groups/zooms agree. Broad repeated seat/damage lifecycle and human judgment remain unfinished.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-007",
+      "status": "Deferred",
+      "reason": "Released stabilization hard-disabled; no qualified actual-motion LOS/actuator calibration.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-008",
+      "status": "Needs user test",
+      "reason": "Actual range request/miss transition and cleared state on seat return observed in HUD V3; positive target acquisition/accuracy and ballistic correction are NOT_TESTED. Whole task unchecked.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-009",
+      "status": "Deferred",
+      "reason": "Released ballistic correction hard-disabled; no physical elevation/impact qualification at multiple ranges/feeds.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-010",
+      "status": "Needs user test",
+      "reason": "Conscious/exact-occupant guards compiled; requested Get in commander restored for exterior and internal actions; physical bindings/prompts remain Needs user test.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-011",
+      "status": "Deferred",
+      "reason": "Armor/crew-protection tuning outside this sprint; one fragment case cannot qualify realism.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-012",
+      "status": "Deferred",
+      "reason": "Independent turret damage remains stubbed while hull alive; no speculative damage rewrite.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-013",
+      "status": "Needs user test",
+      "reason": "Both skins actual2mfragment damage/conscious survivor/publicexit/reentry/traverse/refire PASS. Limited stimulus only;whole task and humanacceptance unfinished.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-014",
+      "status": "Deferred",
+      "reason": "Real radar sensing/tracking not implemented; existing deployment remains cosmetic.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-015",
+      "status": "Blocked",
+      "reason": "Excluded from stable08. Documentation-only provenance mismatch reconciled without source change. Actual smoke-angle-03: one payload/ammo8\u21927;49position samples show49.587m travel and42.271m horizontal displacement; normal exit0/released. Narrow launch/flight PASS; strict case FAIL57 preserved. Capture intentionally off: cloud/fuse/coverage/alignment/full-empty/rearm/roles/dependency compatibility remain unqualified. No active smoke permission denial.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "genuineBlocker": true,
+      "blocker": "Inclusion qualification incomplete: actual visible cloud/fuse, V11 alignment, full-empty/rearm and compatibility untested.",
+      "blockingState": "FEATURE_EXCLUDED_PENDING_NATIVE_QUALIFICATION_NOT_ACCESS_DENIED"
+    },
+    {
+      "id": "GEP-016",
+      "status": "Deferred",
+      "reason": "Interior/cabin lighting redesign outside sprint.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-017",
+      "status": "Needs user test",
+      "reason": "Five V11 FBXs/15cooked outputs and both NEW bindings adopted with native registration evidence. Final dynamic case captured1of6camoposes (179.516deg); next-pose ADS readiness failed. Charcoal extremes/full clearance/hatches/LOD/performance and human acceptance pending; V12/V13 excluded.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "ACTIVE_SEPARATE_ART_OWNER_AND_FUNCTIONAL_INTEGRATION",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-018",
+      "status": "Needs user test",
+      "reason": "Released charcoal increment retained. Both skins healthy/fragment and wheeled native diagnostic observations retained; complete skin/PBR/seam/LOD judgment remains pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-019",
+      "status": "Deferred",
+      "reason": "User-deferred custom cannon audio; released stock sounds retained, no renewed effort.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-020",
+      "status": "Needs user test",
+      "reason": "Native healthy exit/reentry and one fragment-survivor pass; repeated all-seat/hatch/periscope physical cycles still pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-021",
+      "status": "Needs user test",
+      "reason": "Intentional hidden Leave-periscope prompt preserved with F behavior; hold-F/commander actions need current-build physical regression.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-022",
+      "status": "Needs user test",
+      "reason": "Commander position/view offsets preserved pending Marco alignment judgment.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-023",
+      "status": "Needs user test",
+      "reason": "Released fuel contexts already authored both sides; actual side/reach/transfer not newly verified.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-024",
+      "status": "Needs user test",
+      "reason": "Sampled German HUD pixels at720p/1080p show no developer footer/missing glyphs; complete every-seat/lifecycle release-debug inspection remains human pending.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
+    },
+    {
+      "id": "GEP-025",
+      "status": "Deferred",
+      "reason": "Dedicated/MP/JIP qualification outside this single-player bounded batch.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-026",
+      "status": "Deferred",
+      "reason": "Console device/control/performance qualification unavailable in this PC batch; compile configuration is not console gameplay.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Outside current deliverable slice; not globally blocked",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-027",
+      "status": "Needs user test",
+      "reason": "Release1.0.2 upload/server processing and packaged GM spawn tests previously passed; public webpage visibility independently unverified. No new publication requested or performed.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "scopeDisposition": "Release already uploaded and packaged-tested; public page only outstanding",
+      "genuineBlocker": false
+    },
+    {
+      "id": "GEP-028",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-029",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-030",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-031",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-032",
+      "status": "Ready",
+      "reason": "Previously accepted baseline behavior/source preserved; not reimplemented or newly marked complete.",
+      "doneAcceptedBeforeSprint": true,
+      "newlyCompleted": false
+    },
+    {
+      "id": "GEP-033",
+      "status": "Blocked",
+      "reason": "Excluded. Stock graph trace and authoring compile retained; bounded authoring approval remains pending. No audible implementation/playback acceptance; earlier protected-read/authoring declines retained separately.",
+      "doneAcceptedBeforeSprint": false,
+      "newlyCompleted": false,
+      "genuineBlocker": true,
+      "blocker": "Bounded new stock rolling-audio authoring approval pending; no audible candidate.",
+      "blockingState": "PENDING_BOUNDED_AUTHORING_APPROVAL_NO_AUDIBLE_IMPLEMENTATION"
+    }
+  ],
+  "statusDefinitions": {
+    "Ready": "Previously accepted baseline preserved, no new whole-task acceptance",
+    "Needs user test": "Bounded candidate/evidence exists; Marco acceptance remains",
+    "Deferred": "Not pursued in this bounded functional slice; not a global blocker",
+    "Active elsewhere": "Owned and progressing in a separate lane",
+    "Needs verification": "Existing release evidence passes; one named verification remains",
+    "Blocked": "A named inclusion gate remains unsatisfied: feature runtime qualification for015, separate bounded authoring permission for033. Deferred work is not globally blocked."
+  },
+  "updatedUtc": "2026-10-22T08:42:40.714833+00:00",
+  "candidate": "ordinary source v6 / compile06 / pack08 / installed08; one left refill observed, whole services pending",
+  "nativeCompile": "Actual ordinary-v6 compile06 PASS; historical board V3 compile/native observation retained separately. Compilation alone is not gameplay acceptance.",
+  "nativeGameplay": "Package08 ordinary start and US provider observed; strict probe FAIL retained. Separate narrow left-refill observation does not mark services accepted.",
+  "trackerSnapshot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\TRACKER-LIVE-20261022.json",
+  "latestService": {
+    "status": "ONE_NATIVE_CAMO_LEFT_REFILL_OBSERVED_WHOLE_SERVICES_PENDING",
+    "selectedFeed": 0,
+    "targetMagazineBefore": 315,
+    "targetMagazineAfter": 320,
+    "selectedFiniteContainerBefore": 1000,
+    "selectedFiniteContainerAfter": 997,
+    "threeObservedContainerSums": {
+      "before": 3000,
+      "after": 2997
+    },
+    "otherTwoObservedContainersUnchanged": true,
+    "originalStrictCase": "FAIL_PRESERVED",
+    "strictRearmNativeErrors": 57,
+    "instrumentationFailures": "27 missing action-field parser mismatches plus incorrect aggregate0 versus actual per-container rows; no normalization or waiver.",
+    "independentReview": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
+      "bytes": 18820,
+      "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+    },
+    "includedProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+    "scope": "One source-bound camo left-feed refill only; not a whole-service PASS or GEP completion.",
+    "unqualified": [
+      "Original strict automated case",
+      "Right-feed transfer",
+      "Repeated/full/empty-negative services",
+      "Repair",
+      "Refuel",
+      "Physical input",
+      "Human usability",
+      "MP/JIP/dedicated"
+    ]
+  },
+  "nativeSlot": "Consult live runtime owner; this updater never starts native or reads/mutates the lease.",
+  "hudScope": "Daytime 16:9 native/pixel evidence only; night/low-light cycle, positive range, other aspects and physical/design judgment remain pending."
+}
