@@ -1,0 +1,58 @@
+{
+  "status": "C_ONLY_TARGET_FAN_CANDIDATE_NATIVE_PENDING",
+  "sourceWorld": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground",
+  "candidateWorld": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-TargetFan-Repair-20261022\\candidate-world",
+  "changedFiles": [
+    {
+      "path": "addon/scripts/Game/GPG_Layout.c",
+      "preimageSHA256": "b1a0034c574da0cf2d529b9f273de1a9d0479fe1e533fc58b80a5d2f8ad15715",
+      "proposedSHA256": "0b9ea5e6a6aefa077d5748827fa09eddfed9b141120834fef696f4f825dd696d",
+      "bytes": 9937
+    },
+    {
+      "path": "checks/variant-lock.json",
+      "preimageSHA256": "5ed1f041a87e921f4b080f8fe90a01af91e82e498994ec0bff4245945a3f48f1",
+      "proposedSHA256": "81ac24549321f0d8036ff3303db67e2147ffe11663763cb0affe2005a558a866",
+      "bytes": 155492
+    },
+    {
+      "path": "checks/world-source-manifest.json",
+      "preimageSHA256": "67f27c136a0638ca94409d5627c5b646195d464f3c760a34e2047a011eda284c",
+      "proposedSHA256": "52a5c2361515e6891a050d6c98163214c627afc3acaf248a42d217752417430d",
+      "bytes": 1203
+    },
+    {
+      "path": "registry/stations.json",
+      "preimageSHA256": "a4f8b908ee4bdc94f283c7d1d3cdf8e606d7a47a60ca1535deb06d5fc3fe4fa6",
+      "proposedSHA256": "3cc6f657081f801a9df2a71cbf53042aa7bf3dc000d491236ce0aec25aab566c",
+      "bytes": 8905
+    }
+  ],
+  "preservedCanonicalFiles": {
+    "registry/resources.json": "38e813e99a85526e3dfd6ead92ea7c1db6cded0e355a3a00ee866b06623fc2b4",
+    "registry/variants.json": "e5fd70681c0c354ab72994cf15d0dcaab12831b4d3509edc0c08047ef0a664c7",
+    "addon/scripts/Game/GPG_Resources.c": "aaa46248041af94d40cce8d9c5c06778819b776b84e82439538cdd0134aa0bfe",
+    "addon/scripts/Game/GPG_Director.c": "1f3a60a521c116d6d95295df699b1a6acdc93387489bc9804a9fbb76b7d6d0f1",
+    "tools/generate.py": "8c44ea8b7b8cfc854dcd66d9f156ca64c48a8849c81335e7c62721f43c9d8737"
+  },
+  "t100Original": [
+    1000,
+    0,
+    2670
+  ],
+  "t100Candidate": [
+    999.9390827019096,
+    0,
+    2673.48994967025
+  ],
+  "formula": "[900+100*cos(2deg),0,2670+100*sin(2deg)]",
+  "horizontalMetres": 100.0,
+  "nearTargetLateralOffsetMetres": 3.4899496702500983,
+  "newNativeGround": "NOT_TESTED",
+  "newNativeLOS": "NOT_TESTED",
+  "nativeCompile": "NOT_TESTED",
+  "newClaims": "NONE_CANDIDATE_GEOMETRY_ONLY",
+  "sourceGeneratorCheck": "PASS_SOURCE_CHECKS_ONLY",
+  "nativeStarted": false,
+  "dWrites": false
+}

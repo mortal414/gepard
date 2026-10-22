@@ -1,0 +1,30 @@
+{
+  "status": "ONE_TARGET_FAN_SOURCE_ADOPTED_NATIVE_GROUND_LOS_PENDING",
+  "changedFiles": [
+    {
+      "path": "addon/scripts/Game/GPG_Layout.c",
+      "preimageSHA256": "b1a0034c574da0cf2d529b9f273de1a9d0479fe1e533fc58b80a5d2f8ad15715",
+      "proposedSHA256": "0b9ea5e6a6aefa077d5748827fa09eddfed9b141120834fef696f4f825dd696d",
+      "bytes": 9937
+    },
+    {
+      "path": "checks/variant-lock.json",
+      "preimageSHA256": "5ed1f041a87e921f4b080f8fe90a01af91e82e498994ec0bff4245945a3f48f1",
+      "proposedSHA256": "81ac24549321f0d8036ff3303db67e2147ffe11663763cb0affe2005a558a866",
+      "bytes": 155492
+    },
+    {
+      "path": "checks/world-source-manifest.json",
+      "preimageSHA256": "67f27c136a0638ca94409d5627c5b646195d464f3c760a34e2047a011eda284c",
+      "proposedSHA256": "52a5c2361515e6891a050d6c98163214c627afc3acaf248a42d217752417430d",
+      "bytes": 1203
+    },
+    {
+      "path": "registry/stations.json",
+      "preimageSHA256": "a4f8b908ee4bdc94f283c7d1d3cdf8e606d7a47a60ca1535deb06d5fc3fe4fa6",
+      "proposedSHA256": "3cc6f657081f801a9df2a71cbf53042aa7bf3dc000d491236ce0aec25aab566c",
+      "bytes": 8905
+    }
+  ],
+  "nativeStarted": false
+}

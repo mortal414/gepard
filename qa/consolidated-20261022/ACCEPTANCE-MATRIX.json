@@ -13,52 +13,65 @@
     {
       "id": "A01-launch",
       "criterion": "One owned source/package launch loads exact selected world/addon closure and labeled OLD/current/NEW cases;no duplicateGUID or stalebuild.",
-      "outcome": "not tested",
-      "evidence": [],
-      "manualJudgment": "separate where needed"
+      "outcome": "manual judgment pending",
+      "evidence": [
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package07-Independent-ReadOnly-Review-20261022\\INDEPENDENT-REVIEW.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\INSTALLED-PACKAGE-CLOSURE.json",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-07-sessions\\probe-2ca2c377-5be4-4686-9d2c-35a61b40e3d8\\RESULT.json"
+      ],
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Package07 installed trios verified; exact ordinary world loads with game/ready,4bays/2targets/layout hashes. Actual source compile05 and pack07 operational PASS; package probe normal0/released with59rawerrors/strictFAIL. Physical usability remains pending.",
+      "remainingGates": [
+        "Physical consolidated human session"
+      ]
     },
     {
       "id": "A02-world",
       "criterion": "Drivingloop,targetfan,isolateddamage lane and explicit reset boards work;actual terrain/sightlines surveyed.",
-      "outcome": "failed",
+      "outcome": "manual judgment pending",
       "evidence": [
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-layoutplan-survey-v1"
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-MeasuredLayout-Review-20261022\\REVIEW-RESULT.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-BoardActions-IndependentReview-v3-20261022\\RESULT.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package07-Independent-ReadOnly-Review-20261022\\INDEPENDENT-REVIEW.json"
       ],
-      "manualJudgment": "separate where needed",
-      "observedSubcriteria": "Original native survey FAILED usable layout: damage underwater, range obstructed, route cliff. Bounded173-query planning survey complete; source revision pending.",
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Measured final geometry:31roots/23boards/8routegates/2targets. Package07 actual layout matches and owned screenshot shows real player/grass/world. V3 independent source-bound observation: 23 boards with component/Station/Rpl/context and five actions each; 115 native owner-equality booleans. Registered bay read/reset/reset reaches the original Director; four replacements, 228 old IDs absent, 27 unrelated roots preserved and all 31 stable under debounce. Original adapter/aggregate NOT_TESTED from malformed inline-ID telemetry is retained; no ID normalization or waiver.",
       "remainingGates": [
-        "Adopt measured revised layout",
-        "Fresh terrain/combined LOS survey, physical placement/pixel review"
+        "Physical route/board usability and target impacts"
       ]
     },
     {
       "id": "A03-services",
       "criterion": "Ordinary repair/refuel/rearm eligible actions change actual target/provider values with finite accounting;failurecontrols andfreshreset verified.",
       "outcome": "not tested",
-      "evidence": [],
-      "manualJudgment": "separate where needed"
+      "evidence": [
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\V8-ELIGIBILITY-CAUSE.json"
+      ],
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "ClosedV8:29snapshots reason701 RESUPPLY_NOT_IN_STORAGE; both rear actions registered/filtered/shown, left owner+consumedmagmatch; donor child arsenal lacks exact item despite enabled/inRange/range9/supplies1000. No transfer. IsolatedUSprovider successor is not included/qualified. Refuel/repair transfer/accounting and physical reach remain unfinished.",
+      "remainingGates": [
+        "Actual finite transfer/accounting and physical reach"
+      ]
     },
     {
       "id": "A04-reset",
       "criterion": "Occupied/moving/moved/near-player reset rejected;validemptyfixture replaced once with newepoch,no old actor/sound/turretloops;knowninitialstate restored.",
-      "outcome": "not tested",
+      "outcome": "manual judgment pending",
       "evidence": [
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-core-survey-service-v3",
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-identity-survey-v4",
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-canonical-reset-range-v4"
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-FinalPositiveReset-Review-v5-20261022\\RESULT.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-NegativeGuard-Review-v5-20261022\\RESULT.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-BoardActions-IndependentReview-v3-20261022\\RESULT.json"
       ],
-      "manualJudgment": "separate where needed",
-      "observedSubcriteria": "Service reset five providers PASS. Canonical GUID repair removes WrongGUID and insertion errors;34unique native lookup-correct roots PASS. Range five-target replacement/newIDs/epochs/9oldhierarchyIDs absent/debounce/unrelated roots PASS in separate closed run.",
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Final v5 range2/damage19/service5 pristine replacements, knownstate/old hierarchy/debounce verified; occupied+near-player refusals preserve roots. V3 independent source-bound observation: 23 boards with component/Station/Rpl/context and five actions each; 115 native owner-equality booleans. Registered bay read/reset/reset reaches the original Director; four replacements, 228 old IDs absent, 27 unrelated roots preserved and all 31 stable under debounce. Original adapter/aggregate NOT_TESTED from malformed inline-ID telemetry is retained; no ID normalization or waiver. Moving/offpad, damaged/depleted reset and orphaned-audio/physical judgment remain NOT_TESTED.",
       "remainingGates": [
-        "Damage/weapons replacement",
-        "Occupied/moving/offpad/near-player negative guards",
-        "Requalify changed final layout",
-        "Physical reset board input and orphaned sound review"
+        "Moving/offpad native refusals",
+        "Post-damage/depletion/orphaned-audio and physical judgment"
       ]
     },
     {
       "id": "A05-art-rebuild",
-      "criterion": "Five exactFBXs nativelyrebuilt;all cookedhashes differfrombaseline seeds;native bones/material/part registration matches;OLDcore1112pins remain unchanged.",
+      "criterion": "Five exact FBXs were rebuilt: five actual XOB hashes changed versus registration seeds, and15resourceoutputs were adopted with GUID metadata preserved; additive art preserved the then-current core. Full current candidate retains1105 original release files exactly and7 deliberate approved functional/HUD script differences; released checkout remains separate.",
       "outcome": "automated pass",
       "evidence": [
         "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\COOKED-MODELS.json",
@@ -66,58 +79,80 @@
         "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\NATIVE-ADOPTION-ART4-REVIEWED.json"
       ],
       "manualJudgment": "separate where needed",
-      "observedSubcriteria": "Five FBXs rebuilt with changed native hashes;15outputs adopted only into NEW resources;both skins57part trees/960bone rows/12native captures reviewed.",
-      "remainingGates": []
+      "observedSubcriteria": "FiveactualXOBhasheschangedversusseeds;15resourceoutputsadoptedunderNEWwithGUIDmetadatapreservedandnativepart/bone/materialregistration; current release comparison is1105exact+7approvedscriptdifferences, not1112currentbytesidentical.",
+      "remainingGates": [],
+      "currentReleaseComparison": {
+        "baselineFiles": 1112,
+        "currentOriginalFilesExact": 1105,
+        "approvedFunctionalHudDifferences": [
+          "addon/scripts/Game/GEP/GEP_ControlHints580.c",
+          "addon/scripts/Game/GEP/GEP_CrewActions579.c",
+          "addon/scripts/Game/GEP/GEP_DriverStation.c",
+          "addon/scripts/Game/GEP/GEP_GunStatus.c",
+          "addon/scripts/Game/GEP/GEP_PlainSight680.c",
+          "addon/scripts/Game/GEP/GEP_Presentation680.c",
+          "addon/scripts/Game/GEP/GEP_RadarSystem.c"
+        ],
+        "missingOriginalFiles": [],
+        "note": "Additive art preserved the then-current1112-file core at integration; the full current candidate intentionally has seven approved functional/HUD script differences from release. Do not claim all1112 current bytes equal release."
+      }
     },
     {
       "id": "A06-art-dynamic",
       "criterion": "Bothskins/full yaw/elevation,recoil/firing,hatches/crew/periscopes,track/wheelphases,LODs/shadows/collision/performance observed.",
-      "outcome": "not tested",
+      "outcome": "manual judgment pending",
       "evidence": [
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-native\\FRAGMENT-PAIR-REVIEWED.json"
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtDynamic-FinalEvidence-20261022\\FINAL-EVIDENCE.json"
       ],
-      "manualJudgment": "pending",
-      "observedSubcriteria": "Both healthy and fragment skins actual yaw/elevation/fire/exit/reentry observed;offline pose/track checks preserved. Full native posed sweep pending.",
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Final dynamic capture1of6 camoposes:179.516deg,settled native screenshot. Next pose lost ADS readiness. Otherposes/charcoal extremes/full clearance/hatches/LODs/performance/human judgment unfinished.",
       "remainingGates": [
-        "Calibrated native yaw/elevation image sweep",
-        "Hatches/periscopes/LODs/shadows/collision/performance",
-        "Marco visual judgment"
+        "Remaining5camo poses/charcoal extremes",
+        "Clearance/hatches/LOD/performance/userjudgment"
       ]
     },
     {
       "id": "A07-HUD",
       "criterion": "ApprovedGerman design renders cleanly;reticlecenter/zoom/aspects,glyphs/liveammo/bar/group/range/relativeangles match actualstate;no devwarnings.",
-      "outcome": "not tested",
+      "outcome": "manual judgment pending",
       "evidence": [
-        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-native\\ASCII-RENDER-PIXEL-REVIEW.json"
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-IndependentReview-20261022\\INDEPENDENT-REVIEW.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-PixelReview-20261022\\PIXEL-REVIEW.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-PixelReview-20261022\\PIXEL-REVIEW-1920.json"
       ],
-      "manualJudgment": "pending",
-      "observedSubcriteria": "German ASCII successor rendered1280x720 at2.0x with live320/320 and angle labels;initial pixels reviewed, no missing glyph boxes/developer footer.",
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Both 1280x720 and 1920x1080 passed eight frozen narrow HUD assertions, with 15 phase snapshots/captures each. Sample pixels: 5 of 15 at 720p and 3 of 15 at 1080p reviewed (16:9 only). Positive range acquisition/accuracy, other aspects and design acceptance remain pending. Original strict FAIL retained.",
       "remainingGates": [
-        "All supported zoom/aspects",
-        "Selection/range acquisition/miss update",
-        "Marco design judgment"
+        "Positive target range acquisition/accuracy",
+        "Other aspects/design judgment"
       ]
     },
     {
       "id": "A08-HUD-lifecycle",
       "criterion": "Repeated sight/seat exit/reentry andfiring preserve truthfulvisibleHUD;cleanup/recovery observed.",
-      "outcome": "not tested",
-      "evidence": [],
-      "manualJudgment": "separate where needed"
+      "outcome": "manual judgment pending",
+      "evidence": [
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-IndependentReview-20261022\\INDEPENDENT-REVIEW.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-PixelReview-20261022\\PIXEL-REVIEW.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-PixelReview-20261022\\PIXEL-REVIEW-1920.json"
+      ],
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Both 1280x720 and 1920x1080 passed eight frozen narrow HUD assertions, with 15 phase snapshots/captures each. Sample pixels: 5 of 15 at 720p and 3 of 15 at 1080p reviewed (16:9 only). Positive range acquisition/accuracy, other aspects and design acceptance remain pending. Original strict FAIL retained. Actual exit hides optic and return restores one optic; no broad repeated/damaged-lifecycle acceptance.",
+      "remainingGates": [
+        "Broad repeated and damaged-seat lifecycle"
+      ]
     },
     {
       "id": "A09-driving",
       "criterion": "Accepted WHEELED poweredforward/reverse/brake/turn andRenginecontrol measured;controls restoredafter tests.",
-      "outcome": "not tested",
+      "outcome": "manual judgment pending",
       "evidence": [
         "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Core-Wheeled-Review-20261022\\ACTUAL-COMPLETION-PAIR-REVIEW.json"
       ],
-      "manualJudgment": "separate where needed",
-      "observedSubcriteria": "Both skins real powered course diagnostic26checks pass: signedforward/reverse,opposingturns,all8contacts,brake grounded stop/dwell. Original normalized NOT_TESTED remains; actual observations separately reviewed. Accepted physicalR mapping source unchanged.",
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Both wheeled courses pass26independent diagnostic checks each with powered signedforward/reverse,turns,8contacts,braking/stop. Original normalized NOT_TESTED retained; physicalR/userhandling not newly qualified. Accepted settings preserved.",
       "remainingGates": [
-        "No new physicalR keyboard claim; historic acceptance retained",
-        "Final integrated package load"
+        "PhysicalR/userhandling acceptance remains separate"
       ]
     },
     {
@@ -134,14 +169,22 @@
       "criterion": "Conditionalonly:actualalignedlaunch/flight/fuse/visiblecloud/ammo/full/empty/genuinerearm/dependencycompatibility;coveragehumanjudgmentseparate.",
       "outcome": "not tested",
       "evidence": [],
-      "manualJudgment": "pending"
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Excluded. Control consumed8to7 and spawned one payload; flight/cloud/rearm unqualified. Angle replay compiled but automatic approval review explicitly denied native launch before execution; no bypass/retry or inferred permission.",
+      "remainingGates": [
+        "Denied angle native launch and missing flight/cloud/rearm proof"
+      ]
     },
     {
       "id": "A12-trackaudio",
       "criterion": "Conditionalonly:understoodselectiverollinggraph;actualaudible speed/coast/stop/idle behavior,retainedskid/dampers/lifecycle;qualityjudgmentseparate.",
       "outcome": "not tested",
       "evidence": [],
-      "manualJudgment": "pending"
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Excluded. Stock graph trace and authoring compile retained; bounded authoring approval remains pending. No audible implementation/playback acceptance; earlier protected-read/authoring declines retained separately.",
+      "remainingGates": [
+        "Authoring approval and audible implementation"
+      ]
     },
     {
       "id": "A13-human",
@@ -153,9 +196,19 @@
     {
       "id": "A14-cleanbuild",
       "criterion": "Private samebuildgproj/pak/rdb andpackage-backed load;privateworld/demo keptseparatefromreleaseexport;no publication.",
-      "outcome": "not tested",
-      "evidence": [],
-      "manualJudgment": "separate where needed"
+      "outcome": "manual judgment pending",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\COMPILE-ADOPTION-RECEIPT.json",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-07\\RESULT.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\INSTALLED-PACKAGE-CLOSURE.json",
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package07-Independent-ReadOnly-Review-20261022\\INDEPENDENT-REVIEW.json"
+      ],
+      "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
+      "observedSubcriteria": "Ordinary sourcev5 compile05 PASS; both private trios built+installed07, operationalpackPASS with100strict teardown errors retained. Package07 world loads normally,59rawerrors/strictFAIL; clean-native aggregate and human acceptance are not claimed.",
+      "remainingGates": [
+        "Strict native diagnostics remain FAIL",
+        "Human session judgment"
+      ]
     }
   ],
   "sourceEvidenceIsNotBehaviorPass": true,
@@ -169,24 +222,232 @@
   "publication": false,
   "runtimeResumeAuthorizedUtc": "2026-10-22T01:52:00Z",
   "buildEvidence": {
-    "compile-core-01": "FAILED_RESERVED_KEYWORD_OWNED",
-    "compile-core-02": "SCRIPT_COMPILE_PASS_EXIT0_NORMAL_RELEASE",
-    "startup-core-01": "CENSORED_ADAPTER_LEASE_READ_RACE;GPG_READY32RESOURCEFAILURE0;OWNED_NORMAL_EXIT0",
-    "compile-stock-roll-01": "FAILED_PROBE_ATTRIBUTE_GRAPH;TRACE_NOT_RUN"
+    "policy": "Historical attempts preserved in backup and native-runs; current views reference current receipts, not rewritten historical results.",
+    "evidence": {
+      "boards": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-BoardActions-IndependentReview-v3-20261022\\RESULT.json",
+        "bytes": 159525,
+        "sha256": "a4e97ea2f9a0802f4c23d3695b75f2c15430beee227d2f94ea68cc2af7abf1ff"
+      },
+      "hud": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-IndependentReview-20261022\\INDEPENDENT-REVIEW.json",
+        "bytes": 58179,
+        "sha256": "09f227a06e92ec0f08f1504222e8657f2b4e2a7637da711c7514349ce562a136"
+      },
+      "pixels720": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-PixelReview-20261022\\PIXEL-REVIEW.json",
+        "bytes": 3534,
+        "sha256": "88dfed83286f13ca8a22011d926789a21236a90c63495fd12db452ec19e84f8a"
+      },
+      "pixels1080": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-HUD-V3-PixelReview-20261022\\PIXEL-REVIEW-1920.json",
+        "bytes": 2582,
+        "sha256": "f86a9c6d151dd9a72583455d5d2c9cbf9f67ed2acd3c64ee2be5240dba7db959"
+      },
+      "artDynamic": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtDynamic-FinalEvidence-20261022\\FINAL-EVIDENCE.json",
+        "bytes": 4335,
+        "sha256": "78c8a7860839d05e7faef331b4b18bff8c0004b48faa842990f657cb019c5c72"
+      },
+      "wheeled": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Core-Wheeled-Review-20261022\\ACTUAL-COMPLETION-PAIR-REVIEW.json",
+        "bytes": 10845,
+        "sha256": "e7c0b1571637f885b9924cb3b2dc0ac724ea4dff0e2e5f063bfbad705d080a83"
+      },
+      "resets": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-FinalPositiveReset-Review-v5-20261022\\RESULT.json",
+        "bytes": 244306,
+        "sha256": "5e9aab48305a4efc4b9f96665f27dd05aa91bb442a35f791b4ad18243d287b83"
+      },
+      "negativeResets": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-NegativeGuard-Review-v5-20261022\\RESULT.json",
+        "bytes": 109636,
+        "sha256": "dc8a5efc6ed89ea4e49b87a1658b8f0a2fb26390e73070824f0f3ff84096a4ce"
+      },
+      "layout": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-MeasuredLayout-Review-20261022\\REVIEW-RESULT.json",
+        "bytes": 16950,
+        "sha256": "e901c2c5e746bdf7ca217a2c1314dd729e8dd6367bcaaef3fca9580a4bbef0e8"
+      },
+      "ordinaryCompile": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\COMPILE-ADOPTION-RECEIPT.json",
+        "bytes": 3027,
+        "sha256": "8016d4aed642627d00a0aecbba84905022fbc88ce7a91da6d5800f26a66dbd73"
+      },
+      "pack07": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-07\\RESULT.json",
+        "bytes": 3433,
+        "sha256": "d1e371f9d4ff9dd35ec42221c164fd043cca59ba852455d1ab8a15d3bafd5fb6"
+      },
+      "installed07": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\INSTALLED-PACKAGE-CLOSURE.json",
+        "bytes": 5064,
+        "sha256": "cdc3fcfd0b9996a45a5b6651284f3e0f73904dcfbdb8bc114ee51de7914323bc"
+      },
+      "ordinarySource": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\ROOT-COMPILED-SOURCE-CONTRACT.json",
+        "bytes": 2244,
+        "sha256": "0c455d1f9dca948f5f34ba481753e0b81a8979bf2725996be9d2af4f82d97995"
+      },
+      "package07Probe": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-07-sessions\\probe-2ca2c377-5be4-4686-9d2c-35a61b40e3d8\\RESULT.json",
+        "bytes": 614,
+        "sha256": "2e9271c0f84438bc3f793e94ab725e8c2957cca0cabde0f73cf2acf195b93372"
+      },
+      "package07Exit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-07-sessions\\probe-2ca2c377-5be4-4686-9d2c-35a61b40e3d8\\exit.json",
+        "bytes": 186,
+        "sha256": "0999012f9d9bac52df9a195de50a936e3139de85595a3049a408b14038f013e4"
+      },
+      "launcherManifest": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\DELIVERABLE-MANIFEST.json",
+        "bytes": 2586,
+        "sha256": "ac1cd6517a288ff1aa338fda98b00c2b92650382bd64d28079931391f41d323e"
+      },
+      "launcher": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v5-Pack07-Preparation-20261022\\Launch-Gepard-Private-Demo.ps1",
+        "bytes": 2660,
+        "sha256": "e15b2df2060314c84aa65333208e6b2d6b200d72b1872111fb1ea4183799dac5"
+      },
+      "packageScreenshot": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\package07-owned-printwindow.png",
+        "bytes": 1306317,
+        "sha256": "0457525e905a2864824af3fc9feeec16bf43fba540ee99e266370d78a3dc8b88"
+      },
+      "installedLauncher": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-Private-Demo.ps1",
+        "bytes": 2660,
+        "sha256": "e15b2df2060314c84aa65333208e6b2d6b200d72b1872111fb1ea4183799dac5"
+      },
+      "entrypointShim": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd",
+        "bytes": 230,
+        "sha256": "d3940d6d3d741970b266a1f03c222cae7071181fb81e3adbc48e19d58d7e05df"
+      },
+      "ordinary-gepard": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\CurrentSourceManifest-gepard.json",
+        "bytes": 148709,
+        "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09"
+      },
+      "ordinary-provingGround": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\CurrentSourceManifest-provingGround.json",
+        "bytes": 1118,
+        "sha256": "295483ba531e82747d04669adc8cddfb34e3b6dbdebaa7c74ccba84463d5b550"
+      },
+      "package07Console": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-07-sessions\\probe-2ca2c377-5be4-4686-9d2c-35a61b40e3d8\\logs\\console.log",
+        "bytes": 44934,
+        "sha256": "5da68001cb00d653c64ff667a034b9cff3ce7a32a58107a3c50ab6cac9367ad2"
+      },
+      "package07Independent": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package07-Independent-ReadOnly-Review-20261022\\INDEPENDENT-REVIEW.json",
+        "bytes": 33776,
+        "sha256": "a3640a69daa04a994837ecd5179c1cf9aa6199468cbc6f4f1de414b6a5f6fe3f"
+      },
+      "serviceLatest": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\V8-ELIGIBILITY-CAUSE.json",
+        "bytes": 12078,
+        "sha256": "dd9dfe4a82fc06aba9cf26812308857dcd7d71cb2afef75d311059855c1350b7"
+      },
+      "manualGuide": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\MANUAL-TEST-GUIDE-PACKAGE07.md",
+        "bytes": 3532,
+        "sha256": "636bfe44d73288f793c6cbb2bfa718d5ce43699384459d95d7c388fb1f5f060b"
+      }
+    }
   },
-  "updatedUtc": "2026-10-22T05:06:41.003534+00:00",
+  "updatedUtc": "2026-10-22T07:32:51.006140+00:00",
   "nativeCheckpoints": {
-    "coreCompile": "compile-core-02 PASS; compile-core-qa-02 PASS isolatedfixtures",
-    "smokeCompile": "compile-smoke-single-03 PASS afterprivateQAonlyrepairs",
-    "artRebuild": "cook-v11-02 FIVE_BUILD_PASS exit0 all5hashchanged",
-    "artQACompile": "compile-art-native-01 PASS",
-    "startup": "startup-core-02 telemetry/lifecyclepass;strict7WORLDerrorsFAIL;all7matchreleasedstockresourcechains retainedlegacyreport",
-    "smokeRuntime": "Cameraoffcontrol8to7onepayloadPASS,0mtravel/cloudNOT_TESTED;anglecandidatecompilePASS but native launch auto-review DENIED beforeexecution.",
-    "audioCompile": "compile-stock-roll-01 FAILED Attribute/Graph APIerrors;rawreturnedtosupplier",
-    "healthyV11": "Camo02 andCharcoal01 V2 normalizedPASS infrastructure/lifecyclePASS nativefunctionPASS",
-    "artInspection": "ART4scopedreviewandNEWsourceadoption complete;manualart/dynamicsremainpending.",
-    "fragment": "Fresh V3 camo02 and charcoal01 normalized PASS, infrastructure/lifecycle PASS, normal exit0 and released leases; earlier orchestration failure preserved.",
-    "audio": "Authorized trace02complete18exclusivebanks/side exit0. Author plugin compilePASS; new FileIO.FileExists prompt atline16 pending, noauthor outputs. Priorreadapproval notextended.",
-    "world": "Canonical13GUIDrepair source integrated;actualidentity34PASS/range5replacementPASS;layoutrepairpending;strictnative.errorsFAILretained."
+    "ordinarySource": "private-demo-source-v5; actual compile05PASS",
+    "packages": "pack07operationalPASS;strictFAIL100errors;installed07two verified trios",
+    "packageOnlyStartup": "closednormal0/released,59errorsstrictFAIL;game/ready/4bays/2targets/layouthashes observed",
+    "HUD": "Both 1280x720 and 1920x1080 passed eight frozen narrow HUD assertions, with 15 phase snapshots/captures each. Sample pixels: 5 of 15 at 720p and 3 of 15 at 1080p reviewed (16:9 only). Positive range acquisition/accuracy, other aspects and design acceptance remain pending. Original strict FAIL retained.",
+    "artDynamic": "1/6camoposes; native privatecaseNOT_TESTED; remainingposes/visualacceptancepending",
+    "wheeled": "Two26checkdiagnosticpasses; originalnativeNOT_TESTED preserved",
+    "boards": "V3 independent source-bound observation: 23 boards with component/Station/Rpl/context and five actions each; 115 native owner-equality booleans. Registered bay read/reset/reset reaches the original Director; four replacements, 228 old IDs absent, 27 unrelated roots preserved and all 31 stable under debounce. Original adapter/aggregate NOT_TESTED from malformed inline-ID telemetry is retained; no ID normalization or waiver.",
+    "services": {
+      "status": "NOT_QUALIFIED",
+      "transferQualified": false,
+      "latestReport": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\V8-ELIGIBILITY-CAUSE.json",
+        "bytes": 12078,
+        "sha256": "dd9dfe4a82fc06aba9cf26812308857dcd7d71cb2afef75d311059855c1350b7"
+      },
+      "latestReportStatus": "OBSERVED_NATIVE_ELIGIBILITY_DENIAL",
+      "scope": "No finite rearm/refuel/repair transfer acceptance. Read actual supplier diagnosis; services remain unfinished.",
+      "actualV8Eligibility": {
+        "snapshots": 29,
+        "nativeReason": 701,
+        "nativeReasonName": "RESUPPLY_NOT_IN_STORAGE",
+        "allRearActionsRegisteredFilteredShown": true,
+        "leftOwnerAndConsumedMagazineIdentityMatch": true,
+        "providerArsenalExactItemAbsent": true,
+        "stationEnabledInRangeSuppliesEnabledConsumerAvailable": true,
+        "nativeAvailableSupplies": 1000,
+        "nativeRange": 9,
+        "serviceTransfer": "NOT_QUALIFIED",
+        "strictCase": "FAIL_PRESERVED",
+        "infrastructure": "PASS",
+        "closed": {
+          "nativeTerminalSeen": true,
+          "verifiedExited": true,
+          "exitCode": 0,
+          "leaseReleased": true,
+          "cancelRequested": false,
+          "utc": "2026-10-22T07:18:10.2917451Z",
+          "closeMethod": "owned-normal-window-close"
+        }
+      },
+      "nextUSProviderProposalIncluded": false,
+      "actualReportFindings": [
+        {
+          "field": ".nativeReasonName",
+          "value": "RESUPPLY_NOT_IN_STORAGE"
+        }
+      ]
+    },
+    "smoke": "Angle launch explicitlyauto-reviewDENIED beforeexecution; excluded",
+    "audio": "Separate boundedauthoring approval pending; excluded"
+  },
+  "latestService": {
+    "status": "NOT_QUALIFIED",
+    "transferQualified": false,
+    "latestReport": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\V8-ELIGIBILITY-CAUSE.json",
+      "bytes": 12078,
+      "sha256": "dd9dfe4a82fc06aba9cf26812308857dcd7d71cb2afef75d311059855c1350b7"
+    },
+    "latestReportStatus": "OBSERVED_NATIVE_ELIGIBILITY_DENIAL",
+    "scope": "No finite rearm/refuel/repair transfer acceptance. Read actual supplier diagnosis; services remain unfinished.",
+    "actualV8Eligibility": {
+      "snapshots": 29,
+      "nativeReason": 701,
+      "nativeReasonName": "RESUPPLY_NOT_IN_STORAGE",
+      "allRearActionsRegisteredFilteredShown": true,
+      "leftOwnerAndConsumedMagazineIdentityMatch": true,
+      "providerArsenalExactItemAbsent": true,
+      "stationEnabledInRangeSuppliesEnabledConsumerAvailable": true,
+      "nativeAvailableSupplies": 1000,
+      "nativeRange": 9,
+      "serviceTransfer": "NOT_QUALIFIED",
+      "strictCase": "FAIL_PRESERVED",
+      "infrastructure": "PASS",
+      "closed": {
+        "nativeTerminalSeen": true,
+        "verifiedExited": true,
+        "exitCode": 0,
+        "leaseReleased": true,
+        "cancelRequested": false,
+        "utc": "2026-10-22T07:18:10.2917451Z",
+        "closeMethod": "owned-normal-window-close"
+      }
+    },
+    "nextUSProviderProposalIncluded": false,
+    "actualReportFindings": [
+      {
+        "field": ".nativeReasonName",
+        "value": "RESUPPLY_NOT_IN_STORAGE"
+      }
+    ]
   }
 }

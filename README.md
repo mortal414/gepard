@@ -1,34 +1,23 @@
-# Gepard 35 mm SPAA — early WIP
+# Consolidated private Gepard playtest
 
-Release source and cooked assets for an experimental Gepard in Arma Reforger. This is an early WIP: several functions are unfinished and improvements are planned.
+**Double-click [Launch-Gepard-ProvingGround.cmd](Launch-Gepard-ProvingGround.cmd)** for the single handoff path. It calls the unchanged [guarded PowerShell launcher](Launch-Gepard-Private-Demo.ps1). Both are already installed from verified source. The default is an untimed human session with a fresh owned profile and run each time. The shim changes no execution policy or security settings.
 
-## Known limitations
+The current candidate is **ordinary source v5, compile05, private pack07, installed07**. The package-only probe loaded the actual player and world, four OLD/NEW bays, two targets and matching layout hashes, then closed normally. Both package trios are verified. Strict native diagnostics remain **FAIL**: 59 errors in the ordinary probe and 100 across validation/packaging are retained. This supports a bounded manual session; it adds no gameplay acceptance or publication.
 
-- Crew can still be injured or killed by fragments and nearby outside explosions. Crew protection is unfinished.
-- Independent destruction of the mounted default turret hit zone is temporarily disabled while the hull remains alive. Hull, crew and other component damage remain active; this is not validated realistic armor.
-- Radar deployment and sweep are cosmetic. Radar sensing, search and radar tracking are unavailable.
-- Ballistics, aiming correction and stabilization remain unfinished.
-- Multiplayer, join-in-progress, dedicated-server and console behavior are not fully qualified.
-- Sounds use stock game assets.
+Use the [current candidate manifest](CURRENT-CANDIDATE-MANIFEST.json), [evidence index](EVIDENCE-INDEX.md) and [GEP status](qa/consolidated-20261022/STATUS-PER-GEP.json). The old root SOURCE_MANIFEST.json is historical release 1.0.2 provenance.
 
-## Basic controls
+The canonical source contains 1,152 Gepard files (1,112 core + 35 overlay + 5 generated textures) and 10 world files. Of the original release files, 1,105 remain exact and seven have deliberate approved functional/HUD script changes. The art overlay itself preserved the then-current core. Both NEW V11 skins are bound. **OLD means old exterior with the same current scripts and optic**, not an independent release-code runtime.
 
-Open the appropriate hatch and use Get in. Driver: hold R to start and click R to stop, W/A/S/D to drive/brake/steer, Space for the handbrake. Gunner: right-click for sights, mouse to aim and left-click to fire. Use the crew controls to change seats; X exits. Crew and optics bindings can be changed in the controls menu. Rearm each feed through its side action near a supply source.
+Five actual rebuilt XOB hashes changed from the registration seeds; 15 resource outputs were adopted with GUID metadata preserved. Static registration is separate from dynamic acceptance: the final art case captured one of six camo poses. Remaining poses, charcoal extremes, clearance, hatches, LOD and performance still need review.
 
-## Contents and local use
+HUD V3 passed eight narrow data assertions at both 1280x720 and 1920x1080, with 15 phase snapshots and captures at each resolution. Five sampled 720p views and three sampled 1080p views were visually reviewed, all at 16:9. Positive target ranging, accuracy, other aspects and design acceptance remain pending. Seat exit hid the optic and return restored one optic; broader repeated or damaged-seat lifecycle acceptance is unfinished.
 
-Open `addon/Gepard.gproj` in Arma Reforger Workbench. It depends only on native Arma Reforger game data (`58D0FB3206B6F859`). Mount one copy of the project GUID `D561AD08932E7B40` at a time.
+The proving ground contains 31 owned roots, 23 boards, eight route gates and 100m/300m targets. Measured geometry, pristine reset and occupied/near-player refusal observations are indexed. Board V3 also observed actual registered read/reset/debounce behavior; its original adapter remains NOT_TESTED because emitted inline ID fields disagree. Physical F/menu use, rendered read hints, route handling and target impacts remain for manual review. Hostiles remain OFF and locked.
 
-This repository contains the reviewed release prefab, configuration and script sources plus cooked model, material, texture and resource-database files. Raw authoring models/textures are not included. `SOURCE_MANIFEST.json` pins this release source and cooked-asset snapshot, records the excluded raw authoring inputs, and identifies the tested package. Raw texture inputs remain in the private authoring archive; the cooked EDDS assets required by the vehicle are included. The Workshop preview, private QA scenes, profiles, logs, reference downloads, captures, experimental audio and the private development history are excluded. Large cooked files use Git LFS; use `git lfs pull` after cloning.
+Services remain unfinished. V8 reached both rear actions, but 29 samples reported reason 701, RESUPPLY_NOT_IN_STORAGE: the provider arsenal lacked the exact belt despite range 9 and 1,000 supplies. No transfer pass is claimed. A proposed isolated US-provider successor is not included in package07.
 
-The temporary turret gate is `m_bIndependentTurretDamageEnabled692 0` in the mounted turret prefab. Setting it to `1` restores native independent default-zone damage. Existing destroyed saved turrets are not automatically healed; use a fresh vehicle when checking the change.
+Smoke and new track audio remain excluded under separate gates: the angle native launch was denied by automatic approval review; bounded audio authoring approval is pending. Stabilization and ballistic correction remain disabled/deferred. Stock cannon sounds are retained.
 
-## Feedback
+No new GEP completion checkbox is checked. Preserved accepted driving, R and braking behavior is compatibility evidence, not new user homework. The manual session focuses on the new exterior, optic and proving-ground convenience. Historical failed results are preserved, and no upload or publication is included.
 
-Report gameplay bugs or visual/model feedback through the [general report and feedback form](https://github.com/mortal414/gepard/issues/new?template=bug_report.yml). Describe what needs attention and optionally include versions, reproduction steps, other enabled mods, screenshots or logs. Avoid posting private information or credentials.
-
-The separate [Reforger Agent Harness](https://github.com/mortal414/reforger-agent-harness) contains the generic development tools. [Tooling feedback belongs there](https://github.com/mortal414/reforger-agent-harness/issues).
-
-## Notices and license status
-
-The limited Kiichi tracked-guide MIT notice is retained under `addon/Docs/Licenses/` and embedded in the included running-gear source. It applies only to that contribution. Native dependency content remains under its original terms. A whole-mod reuse/Workshop license has not yet been selected; the harness's Apache-2.0 license does not license these vehicle assets.
+[Manual test guide](TEST-GUIDE.md) gives the station sequence and open judgments. Root installs its exact sealed bytes separately.

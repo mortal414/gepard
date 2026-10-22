@@ -28,3 +28,10 @@ downloads/
 /private-demo-source/
 /private-demo-package/
 /private-demo-packed-stage/
+
+/private-demo-source*/
+/private-package-build*/
+/private-demo-package*/
+/private-demo-packed-stage*/
+/private-package-probe*/
+/private-installed-demo*/

@@ -1,5 +1,5 @@
 {
-  "scope": "Read-only live tracker rechecked; local current native/source ledger. No new checkbox or whole-task acceptance.",
+  "scope": "Current consolidated private candidate evidence; no new GEP completion or tracker writes. Exact historical ledger preserved by updater backup.",
   "trackerReadOnly": true,
   "newCheckboxesChecked": 0,
   "rows": [
@@ -34,14 +34,14 @@
     {
       "id": "GEP-005",
       "status": "Needs user test",
-      "reason": "Approved larger German HUD integrated;ASCII successor native initial1280x720/2.0x pixelreview PASS;allzoom/aspects and userdesign judgment pending. Whole task unchecked.",
+      "reason": "German HUD: both1280x720/1920x1080 passed eight narrow data assertions;5sampled720p+3sampled1080p pixels reviewed. Human design/other aspects/positive range accuracy unfinished; whole task unchecked.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false
     },
     {
       "id": "GEP-006",
       "status": "Needs user test",
-      "reason": "Both skins healthy/fragment scriptedADS/fire/exit/reentry pass. Exact finalHUD alltransition/range/menu/selection lifecycle pending.",
+      "reason": "HUD V3 actual15phase transitions/captures per resolution include hide-on-exit/single restore-on-return; native/widget angles and groups/zooms agree. Broad repeated seat/damage lifecycle and human judgment remain unfinished.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false
     },
@@ -57,7 +57,7 @@
     {
       "id": "GEP-008",
       "status": "Needs user test",
-      "reason": "German range presentation source integrated. Real C range acquisition/update/sky clear and lifecycle pending in exact final build.",
+      "reason": "Actual range request/miss transition and cleared state on seat return observed in HUD V3; positive target acquisition/accuracy and ballistic correction are NOT_TESTED. Whole task unchecked.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false
     },
@@ -116,12 +116,12 @@
     {
       "id": "GEP-015",
       "status": "Blocked",
-      "reason": "WCSdeclareddependency candidate isolated. Actualcontrol8to7/onepayloadPASS but0mflight;anglecounterfactual compiledPASS. Nativeanglelaunch denied byauto-review beforeexecution due stale stock-only interpretation; noretry/bypass. Cloud/empty/rearm/compatibility pending.",
+      "reason": "Excluded. Control consumed8to7 and spawned one payload; flight/cloud/rearm unqualified. Angle replay compiled but automatic approval review explicitly denied native launch before execution; no bypass/retry or inferred permission.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": true,
-      "blocker": "Currentnativeflight/cloud/rearm acceptance missing; camera repair andangle-order replay queued, notdenied",
-      "blockingState": "PENDING_NATIVE_QUALIFICATION_NOT_GLOBAL_PERMISSION_BLOCKED"
+      "blocker": "Automatic approval review denied angle native launch before execution; flight/cloud/rearm qualification also missing.",
+      "blockingState": "AUTO_REVIEW_DENIED_BEFORE_LAUNCH_KNOWN_NONEXECUTION"
     },
     {
       "id": "GEP-016",
@@ -135,7 +135,7 @@
     {
       "id": "GEP-017",
       "status": "Needs user test",
-      "reason": "CumulativeV11fiveFBXs rebuilt and15NEWcooks adopted,bothskinsnativepart/bone/capture checks;nativefulldynamics/LODs/performance/manualvisualjudgment pending. Active art lane;V12/V13excluded.",
+      "reason": "Five V11 FBXs/15cooked outputs and both NEW bindings adopted with native registration evidence. Final dynamic case captured1of6camoposes (179.516deg); next-pose ADS readiness failed. Charcoal extremes/full clearance/hatches/LOD/performance and human acceptance pending; V12/V13 excluded.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "scopeDisposition": "ACTIVE_SEPARATE_ART_OWNER_AND_FUNCTIONAL_INTEGRATION",
@@ -144,7 +144,7 @@
     {
       "id": "GEP-018",
       "status": "Needs user test",
-      "reason": "Quietreleasedcharcoal increment retained. ActualV11charcoal healthyfunctionalPASS andexteriorframescaptured; whole skin/PBR/seam/LODuserjudgmentpending.",
+      "reason": "Released charcoal increment retained. Both skins healthy/fragment and wheeled native diagnostic observations retained; complete skin/PBR/seam/LOD judgment remains pending.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false
     },
@@ -192,7 +192,7 @@
     {
       "id": "GEP-024",
       "status": "Needs user test",
-      "reason": "Inspected default/charcoal gunner post-reentry and on-foot readiness captures; complete all-seat/lifecycle debug-text inspection pending.",
+      "reason": "Sampled German HUD pixels at720p/1080p show no developer footer/missing glyphs; complete every-seat/lifecycle release-debug inspection remains human pending.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "manualSessionScope": "Previously exercised checks are automated compatibility work; do not present as tonight new-feature progress or add another old checklist."
@@ -262,18 +262,14 @@
     {
       "id": "GEP-033",
       "status": "Blocked",
-      "reason": "Authorizedfixedstockgraphtrace complete18exclusivebanks/side;new eight-sample stockadaptation authoring script compiledPASS. NewFileIO.FileExists prompt line16 pending, notapproved. NoACPs materialized orplaybackpass;stockaccepted audio retained.",
+      "reason": "Excluded. Stock graph trace and authoring compile retained; bounded authoring approval remains pending. No audible implementation/playback acceptance; earlier protected-read/authoring declines retained separately.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": true,
-      "blocker": "BaseContainerTools.LoadContainer twofixedstockACP reads declinedNo; specificnewpermission needed; unrelatedtests continue",
-      "blockingState": "DECLINED_PROTECTED_READ_KNOWN_NOT_EXECUTED"
+      "blocker": "Bounded new stock rolling-audio authoring approval pending; no audible candidate.",
+      "blockingState": "PENDING_BOUNDED_AUTHORING_APPROVAL_NO_AUDIBLE_IMPLEMENTATION"
     }
   ],
-  "nativeSlot": "BLOCKED_OWNED_AUTHORIZATION_DIALOG_PENDING_MANUAL_DISMISSAL",
-  "nativePid": 56448,
-  "earliestManualCandidate": "cc5d0989376ed1d20ada109ce7c1ada5d96aac7e",
-  "productionSuccessor": "Get in commander restored; exactly3 guard scripts differ from release; all other1109 production files preserved",
   "statusDefinitions": {
     "Ready": "Previously accepted baseline preserved, no new whole-task acceptance",
     "Needs user test": "Bounded candidate/evidence exists; Marco acceptance remains",
@@ -282,10 +278,51 @@
     "Needs verification": "Existing release evidence passes; one named verification remains",
     "Blocked": "Concrete dependency prevents next planned work; current native authorization dialog for015/033"
   },
-  "updatedUtc": "2026-10-22T05:06:41.003534+00:00",
-  "runtimeHoldActive": true,
-  "candidate": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\CANDIDATE-MANIFEST.json",
-  "nativeCompile": "NOT_TESTED",
-  "nativeGameplay": "NOT_TESTED",
-  "trackerSnapshot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\TRACKER-LIVE-20261022.json"
+  "updatedUtc": "2026-10-22T07:32:51.006140+00:00",
+  "candidate": "private-demo-source-v5 / compile05 / pack07 / installed07",
+  "nativeCompile": "Actual ordinary compile05 PASS; separate board V3 compile PASS, no gameplay implication from compilation alone.",
+  "nativeGameplay": "Package07 ordinary readiness observed; strict59error FAIL retained. Individual source-bound observations recorded separately.",
+  "trackerSnapshot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\TRACKER-LIVE-20261022.json",
+  "latestService": {
+    "status": "NOT_QUALIFIED",
+    "transferQualified": false,
+    "latestReport": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\V8-ELIGIBILITY-CAUSE.json",
+      "bytes": 12078,
+      "sha256": "dd9dfe4a82fc06aba9cf26812308857dcd7d71cb2afef75d311059855c1350b7"
+    },
+    "latestReportStatus": "OBSERVED_NATIVE_ELIGIBILITY_DENIAL",
+    "scope": "No finite rearm/refuel/repair transfer acceptance. Read actual supplier diagnosis; services remain unfinished.",
+    "actualV8Eligibility": {
+      "snapshots": 29,
+      "nativeReason": 701,
+      "nativeReasonName": "RESUPPLY_NOT_IN_STORAGE",
+      "allRearActionsRegisteredFilteredShown": true,
+      "leftOwnerAndConsumedMagazineIdentityMatch": true,
+      "providerArsenalExactItemAbsent": true,
+      "stationEnabledInRangeSuppliesEnabledConsumerAvailable": true,
+      "nativeAvailableSupplies": 1000,
+      "nativeRange": 9,
+      "serviceTransfer": "NOT_QUALIFIED",
+      "strictCase": "FAIL_PRESERVED",
+      "infrastructure": "PASS",
+      "closed": {
+        "nativeTerminalSeen": true,
+        "verifiedExited": true,
+        "exitCode": 0,
+        "leaseReleased": true,
+        "cancelRequested": false,
+        "utc": "2026-10-22T07:18:10.2917451Z",
+        "closeMethod": "owned-normal-window-close"
+      }
+    },
+    "nextUSProviderProposalIncluded": false,
+    "actualReportFindings": [
+      {
+        "field": ".nativeReasonName",
+        "value": "RESUPPLY_NOT_IN_STORAGE"
+      }
+    ]
+  },
+  "nativeSlot": "Consult live runtime owner; this updater never starts native or reads/mutates the lease."
 }

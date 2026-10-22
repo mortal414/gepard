@@ -1,4 +1,4 @@
-GenericEntity : "Prefabs/Structures/Signs/Military/Sign_FiringRange_US_01.et" {
+GenericEntity : "{CCCC784526173F16}Prefabs/Structures/Signs/Military/Sign_FiringRange_US_01.et" {
  ID "A76A420022000003"
  components {
   GPG_BoardComponent "{A76A420022000020}" {}

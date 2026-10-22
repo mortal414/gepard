@@ -1,0 +1,54 @@
+{
+  "recordedUtc": "2026-10-22T07:23:09.466895+00:00",
+  "package07": {
+    "session": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-07-sessions\\probe-2ca2c377-5be4-4686-9d2c-35a61b40e3d8",
+    "result": {
+      "game": true,
+      "sourcePackOperationalVerdict": "PASS",
+      "nativeAbsent": true,
+      "leaseReleased": true,
+      "ordinaryReady": true,
+      "exitCode": 0,
+      "sourcePackStrictNativeVerdict": "FAIL",
+      "privateQA": false,
+      "twoRangeSurveys": true,
+      "visualAcceptance": "NEEDS_USER_TEST",
+      "humanHUD": "NOT_TESTED",
+      "humanMovement": "NOT_TESTED",
+      "actualLayoutHashes": true,
+      "sourcePackRawErrorCount": 100,
+      "fourComparisonBays": true,
+      "status": "PACKAGE_ONLY_ORDINARY_STARTUP_PROOF_FAIL",
+      "probeSeconds": 75,
+      "rawErrorCount": 59,
+      "humanFiring": "NOT_TESTED",
+      "published": false
+    },
+    "startingView": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\package07-owned-printwindow.png",
+    "startingViewSHA256": "0457525e905a2864824af3fc9feeec16bf43fba540ee99e266370d78a3dc8b88",
+    "pixelReview": "Root viewed owned native PrintWindow capture: ground-level player, grass, Gepards, boards and hint; no blank/loading/menu. No movement or optic claim."
+  },
+  "smokeBlocker": {
+    "state": "DENIED_BEFORE_EXECUTION",
+    "action": "workflow.py run --job C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-Angle-QA-20261022\\smoke-cameraoff-job.json --output D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-angle-03 --execute",
+    "target": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-angle-stage\\single\\qaSmoke\\GEP_WCSSmoke215_QA.gproj",
+    "denialReasonRecordedFromTool": "Native run uses WCS smoke project/dependency; review cited earlier stock-only smoke restriction to avoid unapproved WCS dependency. Angle-only change did not resolve the stated authorization conflict.",
+    "notWorkbenchPrompt": true,
+    "laterExistingContext": "Trusted parent had relayed user23:46 approval to use WCS dependency. Review nevertheless denied. No retry or alternate route after denial.",
+    "smallestNextGate": "Parent supplies materially new relevant authorization reconciling this exact denial; retry denied known-not-executed action once only.",
+    "lastNative": {
+      "run": "smoke-cameraoff-02",
+      "observed": "One payload and ammo8-to7; observed travel0m. Flight/fuse/cloud not qualified; normal exit0."
+    },
+    "outputAbsent": true
+  },
+  "audioBlocker": {
+    "state": "PENDING_NEW_USER_APPROVAL",
+    "action": "Pinned stock graph authoring script FileIO.FileExists/LoadContainer/SaveContainer/register/build bundle",
+    "actualAttempt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\stock-roll-author-01",
+    "priorOutcome": "NoToAll; normal exit0; four output graphs absent; no retry",
+    "separateFromSmoke": true
+  },
+  "publication": false,
+  "newAcceptance": 0
+}

@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "goal": "One integrated overnight demo,one consolidated human session afterward",
+  "createdUtc": "2026-10-22T01:56:30.583427+00:00",
+  "allowedOutcomes": [
+    "not tested",
+    "failed",
+    "automated pass",
+    "manual judgment pending",
+    "accepted"
+  ],
+  "criteria": [
+    {
+      "id": "A01-launch",
+      "criterion": "One owned source/package launch loads exact selected world/addon closure and labeled OLD/current/NEW cases;no duplicateGUID or stalebuild.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A02-world",
+      "criterion": "Drivingloop,targetfan,isolateddamage lane and explicit reset boards work;actual terrain/sightlines surveyed.",
+      "outcome": "failed",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-layoutplan-survey-v1"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Original native survey FAILED usable layout: damage underwater, range obstructed, route cliff. Bounded173-query planning survey complete; source revision pending.",
+      "remainingGates": [
+        "Adopt measured revised layout",
+        "Fresh terrain/combined LOS survey, physical placement/pixel review"
+      ]
+    },
+    {
+      "id": "A03-services",
+      "criterion": "Ordinary repair/refuel/rearm eligible actions change actual target/provider values with finite accounting;failurecontrols andfreshreset verified.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A04-reset",
+      "criterion": "Occupied/moving/moved/near-player reset rejected;validemptyfixture replaced once with newepoch,no old actor/sound/turretloops;knowninitialstate restored.",
+      "outcome": "not tested",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-core-survey-service-v3",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-identity-survey-v4",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-canonical-reset-range-v4"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Service reset five providers PASS. Canonical GUID repair removes WrongGUID and insertion errors;34unique native lookup-correct roots PASS. Range five-target replacement/newIDs/epochs/9oldhierarchyIDs absent/debounce/unrelated roots PASS in separate closed run.",
+      "remainingGates": [
+        "Damage/weapons replacement",
+        "Occupied/moving/offpad/near-player negative guards",
+        "Requalify changed final layout",
+        "Physical reset board input and orphaned sound review"
+      ]
+    },
+    {
+      "id": "A05-art-rebuild",
+      "criterion": "Five exactFBXs nativelyrebuilt;all cookedhashes differfrombaseline seeds;native bones/material/part registration matches;OLDcore1112pins remain unchanged.",
+      "outcome": "automated pass",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\COOKED-MODELS.json",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\RESULT.json",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\NATIVE-ADOPTION-ART4-REVIEWED.json"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Five FBXs rebuilt with changed native hashes;15outputs adopted only into NEW resources;both skins57part trees/960bone rows/12native captures reviewed.",
+      "remainingGates": []
+    },
+    {
+      "id": "A06-art-dynamic",
+      "criterion": "Bothskins/full yaw/elevation,recoil/firing,hatches/crew/periscopes,track/wheelphases,LODs/shadows/collision/performance observed.",
+      "outcome": "not tested",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-native\\FRAGMENT-PAIR-REVIEWED.json"
+      ],
+      "manualJudgment": "pending",
+      "observedSubcriteria": "Both healthy and fragment skins actual yaw/elevation/fire/exit/reentry observed;offline pose/track checks preserved. Full native posed sweep pending.",
+      "remainingGates": [
+        "Calibrated native yaw/elevation image sweep",
+        "Hatches/periscopes/LODs/shadows/collision/performance",
+        "Marco visual judgment"
+      ]
+    },
+    {
+      "id": "A07-HUD",
+      "criterion": "ApprovedGerman design renders cleanly;reticlecenter/zoom/aspects,glyphs/liveammo/bar/group/range/relativeangles match actualstate;no devwarnings.",
+      "outcome": "not tested",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-native\\ASCII-RENDER-PIXEL-REVIEW.json"
+      ],
+      "manualJudgment": "pending",
+      "observedSubcriteria": "German ASCII successor rendered1280x720 at2.0x with live320/320 and angle labels;initial pixels reviewed, no missing glyph boxes/developer footer.",
+      "remainingGates": [
+        "All supported zoom/aspects",
+        "Selection/range acquisition/miss update",
+        "Marco design judgment"
+      ]
+    },
+    {
+      "id": "A08-HUD-lifecycle",
+      "criterion": "Repeated sight/seat exit/reentry andfiring preserve truthfulvisibleHUD;cleanup/recovery observed.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A09-driving",
+      "criterion": "Accepted WHEELED poweredforward/reverse/brake/turn andRenginecontrol measured;controls restoredafter tests.",
+      "outcome": "not tested",
+      "evidence": [
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Core-Wheeled-Review-20261022\\ACTUAL-COMPLETION-PAIR-REVIEW.json"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Both skins real powered course diagnostic26checks pass: signedforward/reverse,opposingturns,all8contacts,brake grounded stop/dwell. Original normalized NOT_TESTED remains; actual observations separately reviewed. Accepted physicalR mapping source unchanged.",
+      "remainingGates": [
+        "No new physicalR keyboard claim; historic acceptance retained",
+        "Final integrated package load"
+      ]
+    },
+    {
+      "id": "A10-survivingcrew",
+      "criterion": "Nearbyexplosion withactualdamage/survivorstate followedby exit/reentry/traverse/refire;no claimrealisticprotectionfromone matrix.",
+      "outcome": "automated pass",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-native\\FRAGMENT-PAIR-REVIEWED.json"
+      ],
+      "manualJudgment": "Physical user experience remains separately pending; bounded native criterion observed in both skins."
+    },
+    {
+      "id": "A11-smoke",
+      "criterion": "Conditionalonly:actualalignedlaunch/flight/fuse/visiblecloud/ammo/full/empty/genuinerearm/dependencycompatibility;coveragehumanjudgmentseparate.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A12-trackaudio",
+      "criterion": "Conditionalonly:understoodselectiverollinggraph;actualaudible speed/coast/stop/idle behavior,retainedskid/dampers/lifecycle;qualityjudgmentseparate.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A13-human",
+      "criterion": "One station-based finalsession;Marco judges optic/art/smoke/audio asactuallyincluded.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A14-cleanbuild",
+      "criterion": "Private samebuildgproj/pak/rdb andpackage-backed load;privateworld/demo keptseparatefromreleaseexport;no publication.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    }
+  ],
+  "sourceEvidenceIsNotBehaviorPass": true,
+  "excluded": [
+    "unqualifiedsmoke/audiountilruntimepass",
+    "disabledstabilization/ballisticcorrectionstretchonlyaftercore",
+    "customcannonaudio",
+    "Isfahan"
+  ],
+  "newAcceptance": 0,
+  "publication": false,
+  "runtimeResumeAuthorizedUtc": "2026-10-22T01:52:00Z",
+  "buildEvidence": {
+    "compile-core-01": "FAILED_RESERVED_KEYWORD_OWNED",
+    "compile-core-02": "SCRIPT_COMPILE_PASS_EXIT0_NORMAL_RELEASE",
+    "startup-core-01": "CENSORED_ADAPTER_LEASE_READ_RACE;GPG_READY32RESOURCEFAILURE0;OWNED_NORMAL_EXIT0",
+    "compile-stock-roll-01": "FAILED_PROBE_ATTRIBUTE_GRAPH;TRACE_NOT_RUN"
+  },
+  "updatedUtc": "2026-10-22T05:06:41.003534+00:00",
+  "nativeCheckpoints": {
+    "coreCompile": "compile-core-02 PASS; compile-core-qa-02 PASS isolatedfixtures",
+    "smokeCompile": "compile-smoke-single-03 PASS afterprivateQAonlyrepairs",
+    "artRebuild": "cook-v11-02 FIVE_BUILD_PASS exit0 all5hashchanged",
+    "artQACompile": "compile-art-native-01 PASS",
+    "startup": "startup-core-02 telemetry/lifecyclepass;strict7WORLDerrorsFAIL;all7matchreleasedstockresourcechains retainedlegacyreport",
+    "smokeRuntime": "Cameraoffcontrol8to7onepayloadPASS,0mtravel/cloudNOT_TESTED;anglecandidatecompilePASS but native launch auto-review DENIED beforeexecution.",
+    "audioCompile": "compile-stock-roll-01 FAILED Attribute/Graph APIerrors;rawreturnedtosupplier",
+    "healthyV11": "Camo02 andCharcoal01 V2 normalizedPASS infrastructure/lifecyclePASS nativefunctionPASS",
+    "artInspection": "ART4scopedreviewandNEWsourceadoption complete;manualart/dynamicsremainpending.",
+    "fragment": "Fresh V3 camo02 and charcoal01 normalized PASS, infrastructure/lifecycle PASS, normal exit0 and released leases; earlier orchestration failure preserved.",
+    "audio": "Authorized trace02complete18exclusivebanks/side exit0. Author plugin compilePASS; new FileIO.FileExists prompt atline16 pending, noauthor outputs. Priorreadapproval notextended.",
+    "world": "Canonical13GUIDrepair source integrated;actualidentity34PASS/range5replacementPASS;layoutrepairpending;strictnative.errorsFAILretained."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "preview": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-FinalLedger-20261022\\preview-final-03",
+  "preparedSealSHA256": "6ce555e4a059796a3c36f64e3aefafee8f22bb3440ba4729a12d39575a21e818",
+  "originalTargets": {
+    "README.md": "c6734790aca0beb6927f22a32d206898b19054a36fcf4a73adb6c6bb8bae882b",
+    "EVIDENCE-INDEX.md": null,
+    "CURRENT-CANDIDATE-MANIFEST.json": null,
+    "qa/consolidated-20261022/README.md": "38d4f1efa10d85274a326dcbdf9fc1be474f2ff59710c4b2de6b738f9211445e",
+    "qa/consolidated-20261022/ACCEPTANCE-MATRIX.json": "b2c0dc35036bc998f865369c3573c2f9da4818a2786f86837440d396d8ccaa57",
+    "qa/consolidated-20261022/STATUS-PER-GEP.json": "9cba843d949798f8687bdcf9337a070d836a72b6acfd926903bd5480c8fc8970",
+    "qa/consolidated-20261022/CANDIDATE-MANIFEST.json": "575470093a71894092c63c0f464de5a4f889f286234c436f5e063438989f1d58",
+    "qa/consolidated-20261022/CURRENT-SOURCE-MANIFEST.json": null
+  },
+  "rawNativeResultsModified": false
+}

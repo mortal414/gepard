@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "status": "SUCCESSFUL_NATIVE_COMPILE_CURRENT_CLOSURES_REVIEWED",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v4\\provingGround\\GepardProvingGround.gproj",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-demo-04",
+  "compilerResultSHA256": "c1a4b9d67be07ac691dc77328600d4ad31c693d73f475785904ebc6468d2f902",
+  "compilerConsoleSHA256": "5ecc3681dcb491bee53f6d92c245012a28050d0e6f3d45e813efdb8ee8a3376e",
+  "compilerIdentitySHA256": "6642c2f013c5c54302f96ded725b3c735fce1a3276b39e87c4949b865a30f3cf",
+  "launcherExitSHA256": "af56aab7b09bc58602eafac01df5a1f7b0a502570908f7972949e77be8af462d",
+  "compilerOwnerProjectVerified": true,
+  "nativeRuntime": "NOT_TESTED",
+  "nativeGameplay": "NOT_TESTED",
+  "originalClosures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v4\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v4\\SourceManifest-gepard.json",
+      "sha256": "4b4ad6ae433db8996dad977e62687ef85ee6b7798f765bce8c4212dde6ab53fa",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v4\\provingGround",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v4\\SourceManifest-provingGround.json",
+      "sha256": "0fbe2d4d203443823e4fd0f198f5c9e9dd4e711f3b3e74a93d1922dd2b052a2e",
+      "files": 10
+    }
+  ],
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v4\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v4\\CurrentSourceManifest-gepard.json",
+      "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v4\\provingGround",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v4\\CurrentSourceManifest-provingGround.json",
+      "sha256": "7e365015e0ea03f490fab063dbbed5abdc53f7b13299f269f53817301c718045",
+      "files": 11
+    }
+  ],
+  "generatedChangesAfterCompile": {
+    "gepard": [
+      {
+        "relative": "resourceDatabase.rdb",
+        "originalSHA256": "7ee0c09284788b5f865a6cfd22ed2aa2a133b2da25508dc0c10142049ac7735c",
+        "currentSHA256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+      }
+    ],
+    "provingGround": [
+      {
+        "relative": "resourceDatabase.rdb",
+        "originalSHA256": null,
+        "currentSHA256": "b482544c42a028cc0b7168ae7e044dd23d6217c68764285a681eb5319d679d8c"
+      }
+    ]
+  },
+  "sourceCodeChangedDuringCompile": false,
+  "precompileArchivesPreserved": true,
+  "ordinarySourceOnly": true
+}

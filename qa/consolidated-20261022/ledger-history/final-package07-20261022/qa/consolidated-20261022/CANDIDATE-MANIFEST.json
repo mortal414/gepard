@@ -1,0 +1,215 @@
+{
+  "status": "FINAL_SOURCE_COMPILED_PRIVATE_PACKAGE_QUALIFICATION_IN_PROGRESS",
+  "createdUtc": "2026-10-22T00:55:37.066743+00:00",
+  "goal": "One complete consolidated user session tomorrow, followed by update only if accepted; no piecemeal demos tonight",
+  "sourceRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022",
+  "branch": "sprint/consolidated-proving-ground-20261022",
+  "seedCommit": "66bcb81ea7aec6d98478a0b2fbab26863e9bcc6f",
+  "baselineRelease": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "nativeHold": {
+    "active": false,
+    "reason": "User runtime hold lifted01:52; optional audio permission declined and its process closed",
+    "resume": "Existing overnight user authorization remains active",
+    "ownedAutomatedNativeRun": null,
+    "artHandback": "2026-10-22T00:46:19.3092117Z",
+    "resumeAuthorizedUtc": "2026-10-22T01:52:00Z",
+    "resumeReceipt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\RUNTIME-RESUME.json"
+  },
+  "modules": {
+    "HUD": {
+      "GEP": [
+        "005",
+        "006",
+        "008"
+      ],
+      "sourceIncluded": true,
+      "sourceChecks": 72,
+      "nativeCompile": "ASCII compile-hud-ascii-native01 PASS; actual root RDB transition reviewed by separate C v2 binding",
+      "nativeRender": "ASCII_RENDER_DATA_AND_ROOT_PIXEL_REVIEW_PASS_1280x720_2x; human design/allzooms/aspects pending",
+      "userAcceptance": "PENDING",
+      "nativeRenderRun": "hud-ascii-render-02",
+      "nativeDiagnostics": "Strict original overallFAIL from retained nativeerrors; narrower HUD/data/capture checksPASS",
+      "sourceSuccessor": "Two German ASCII literal files source-integrated and actually rendered",
+      "nativeLifecycle": "Truthv2 private phase driver repeats baseline; fixture successor pending. No full zoom/range/lifecycle acceptance claim."
+    },
+    "artV11": {
+      "GEP": [
+        "017"
+      ],
+      "sourceIncluded": true,
+      "owner": "Separate art task",
+      "staticDisplayEvidence": "Eight imports/four display checks passed per owner",
+      "functionalPatch": "ADDITIVE35FILES_INTEGRATED_CORE1112PRESERVED",
+      "dynamicChecks": "Healthy/fragment bothskins nativefire/traverse/exit/reentryPASS; fullposed sweep private signed-yaw controller repair pending; userart/LOD/performance pending",
+      "userAcceptance": "PENDING",
+      "cookedModelStatus": "FIVE_REBUILDS_15_OUTPUTS_ADOPTED_1152_SOURCE_FILES",
+      "nativeRebuild": "FIVE_MODEL_BUILD_PASS_EXIT0_COOK02",
+      "actualNEWBindings": "BOTH_BOUND_REBUILT_V11_15_OUTPUTS_NATIVE_PART_BONE_RENDER_VERIFIED",
+      "pendingBindings": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\PENDING-BINDINGS.json",
+      "nativeGate": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\REBUILD-PLAN.json",
+      "overlayManifestSHA256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce",
+      "nativeInspectionCompile": "SCRIPT_COMPILE_PASS_art_native04",
+      "nativeInspection": "ART4_12_ACTUAL_VIEWS_AND_TWO_COMPLETE_NATIVE_READOUTS_EXIT0",
+      "nativeAdoption": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\RESULT.json"
+    },
+    "smoke": {
+      "GEP": [
+        "015"
+      ],
+      "sourceIncluded": false,
+      "status": "EXCLUDED_ANGLE_PROBE_DENIED_BEFORE_LAUNCH_PENDING_AUTHORIZATION_RECONCILIATION",
+      "stage": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\single",
+      "dependency": "WCS_Armaments629B2BA37EFFD5778.4.0",
+      "permissionGate": "No blanket blocker for audited original dependency-only design",
+      "nativeObservation": "Clean control02 programPASS8to7/exact1;flightNT1sample0m; strictoverallFAILretained",
+      "sourceSuccessor": "exactsuppliercameraoff63ee... staged; separateangle-ordercandidate notmerged",
+      "nativeCompile": "ANGLE05_SCRIPT_COMPILE_PASS"
+    },
+    "trackAudio": {
+      "GEP": [
+        "033"
+      ],
+      "sourceIncluded": false,
+      "status": "EXCLUDED_NEW_AUTHORING_PERMISSION_DECLINED_AWAITING_BOUNDED_APPROVAL",
+      "stage": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-audio-stage\\stockRollTrace",
+      "customController": "FROZEN_OFF_QUEUE",
+      "nativeCompile": "SCRIPT_COMPILE_PASS_compile-stock-roll-author-01",
+      "nativeProbe": "Trace02 authorizedread complete18exclusivebanks/side normalexit0; authoring compiledPASS then FileIO.FileExists declined NoToAll, normalexit0, nooutputs",
+      "audible": "NOT_TESTED"
+    }
+  },
+  "provingGround": {
+    "sourceOwnerRoot": "D:\\ArmaProjects\\Gepard-ProvingGround-20261022",
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\addon\\GepardProvingGround.gproj",
+    "world": "{A76A420022000002}Worlds/GPG_Arland.ent",
+    "handoff": "Current31ownedroots/23boards/8routegates/2targets; source-derived measured final layout",
+    "requirements": "D:\\ArmaProjects\\Gepard-ProvingGround-20261022\\FUNCTIONAL-INTEGRATION-REQUIREMENTS.json",
+    "duplicateWorldBuilding": false,
+    "addonId": "A76A420022000001",
+    "sourceOwnerCommit": "d42a569e46ee63c0e676361814a67394f7695d9f",
+    "localSource": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground",
+    "sharedRuntimeSHA256": "71dc97f41ed852952ac883396de1a064c9bdfcae6efb5d8ae7fa5fc2c07ee1fb",
+    "variantLockSHA256": "978c578e42d0edb35b582a8569e5c49ab026f7394b3cb379764609fab7747050",
+    "boundSlots": [
+      "OLD-CAMO",
+      "OLD-CHARCOAL"
+    ],
+    "unboundSlots": [
+      "NEW-CAMO",
+      "NEW-CHARCOAL"
+    ],
+    "comparisonScope": "prefab/configuration/art comparison with one shared script implementation; NOT two independent released-code runtimes",
+    "nativeCompile": "PREDECESSOR_compile-core02_PASS; source successor pending",
+    "nativeGameplay": "startup-core02 32objects28stations12gates5survey; services/reset notqualified",
+    "hostiles": "OFF_QUALIFICATION_LOCKED",
+    "optionalWCSIncluded": false,
+    "stagedProject": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+    "freezeGuardRepair": "checks/FREEZE-GUARD-REPAIR.json; six registry/source/manifest tamper cases PASS",
+    "adapter": "SOURCE_PLAN_READY_NATIVE_NOT_TESTED",
+    "sourceResetFix": "3providerIDsmatchinitialization",
+    "sourceNativeStage": "native-gpg-reset-stage-v1; private survey/reset compile failed lookup return; repair pending",
+    "nativeGeometry": "54drygroundedpoints/4targetrays/8flatroutegates/31unique roots PASS in closed v2",
+    "nativeReset": "Final v5 service5/range2/damage19 replacements and occupied/near-player refusals narrowPASS; moving/offpad and physicalinput pending",
+    "currentLayout": "qa/proving-ground/addon/scripts/Game/GPG_Layout.c SHA2560b9ea5e6a6aefa077d5748827fa09eddfed9b141120834fef696f4f825dd696d"
+  },
+  "selectedRuntimeDependencies": [
+    "58D0FB3206B6F859 base Reforger",
+    "D561AD08932E7B40 one consolidated Gepard addon",
+    "A76A420022000001 private proving-ground child addon"
+  ],
+  "privateBuild": {
+    "compile": "PASS_COMPILE_CORE_02",
+    "packageTrio": "NOT_BUILT",
+    "cleanPackageLoad": "NOT_TESTED",
+    "nativeStartup": "ATTEMPT01_CENSORED_LEASE_READ_RACE_WORLD_READY_32_OBJECTS_NORMAL_EXIT0",
+    "gameplay": "NOT_TESTED"
+  },
+  "releaseFilesChanged": false,
+  "published": false,
+  "newAcceptedCheckboxes": 0,
+  "updatedUtc": "2026-10-22T06:11:27.343005+00:00",
+  "sourceCodeBaselineCommit": "09e75342f5bd7f3fda3b40617104c956d150d316",
+  "nativeBridge": {
+    "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\native-bridge-source",
+    "sourceManifestSHA256": "70aa4f87166665b7c57c91c1ab9ee36c4ddafbcca125a58893750795e694d1ed",
+    "offlineChecks": 51,
+    "staticPlan": "PASS_EXISTING_HUD_MODULE_ONLY",
+    "provingGroundAdapter": "PENDING",
+    "execution": "NOT_ATTEMPTED_USER_HOLD_AND_COMPILE_ADOPTION_PENDING",
+    "currentExecutionPins": "HISTORICAL1112_CORE_PINS_NOT_CURRENT"
+  },
+  "sourceStaging": {
+    "status": "EXACT_SOURCE_COPIES_ONLY",
+    "closureDescriptor": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\SOURCE-CLOSURES.json",
+    "files": 1157,
+    "resourceDatabaseRebuilt": false,
+    "nativeCompile": "NOT_TESTED",
+    "runtime": "NOT_TESTED",
+    "packageTrio": "NOT_BUILT",
+    "sharedCoreFilesPreserved": 1112,
+    "artOverlayFilesAdded": 35
+  },
+  "provingGroundBridge": {
+    "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\proving-ground-bridge-source",
+    "originalExecutionSource": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022",
+    "manifestSHA256": "05217d8f6751c1184bab09573a27349e67bdb1dd3ef89e595526ed29e6916d90",
+    "caseId": "gpg-startup-survey",
+    "sourceFilesVerified": 1122,
+    "offlineChecks": 75,
+    "staticPlan": "PASS",
+    "powerShellSyntax": "PASS",
+    "addonDiscovery": "Narrow native-stage parent plus installed base; actual native discovery NOT_TESTED",
+    "scope": "Startup/emitted telemetry consistency only; no physical driving/service/damage/survey usability/visual acceptance",
+    "nativeCompile": "NOT_TESTED",
+    "nativeLoad": "NOT_TESTED",
+    "nativeLifecycle": "NOT_TESTED",
+    "execution": "PENDING_USER_RESUME_AND_REAL_COMPILE_ADOPTION_NOT_ATTEMPTED",
+    "currentExecutionPins": "HISTORICAL1112_CORE_PINS_NOT_CURRENT"
+  },
+  "provingGroundArtV11Bridge": {
+    "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\proving-ground-art-v11-bridge-source",
+    "originalExecutionSource": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022",
+    "manifestSHA256": "b1cd73f0b9b593b84de7956e9367d25875827e67e75fea10707a347f1a354b46",
+    "jobSHA256": "64f70b42377bcf2590eedd4e514b9553773453fd9d2cd585d76451ca39d07486",
+    "offlineChecks": 79,
+    "staticPlan": "PASS_SOURCE_ONLY",
+    "powerShellSyntax": "PASS",
+    "filesVerified": 1157,
+    "nativeCompile": "NOT_TESTED",
+    "nativeRuntime": "NOT_TESTED",
+    "NEWArt": "UNBOUND_SEEDS_NOT_QUALIFIED",
+    "sourceCopyRelocatesExecutableBindings": false
+  },
+  "latestNativeEvidence": {
+    "successfulCompile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-core-02\\RESULT.json",
+    "startupAttempt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-01",
+    "startupOwnership": "Verified normal owned close exit0/released02:06:57UTC; adapter result staysNOT_TESTED",
+    "stockTrace": "Compile failed Attribute/Graph calls;raw diagnostic sharedsupplier,no trace/playback"
+  },
+  "qualificationQueue": [
+    "WHEELED sample collection/review",
+    "camera-off smoke control; separate angle-order replay if observed failure confirms need",
+    "adopt scoped ART4 proof and bind both NEW pads",
+    "compile/render German ASCII successor and GPG private reset/service qualification",
+    "final clean launch/package checks and one consolidated manual session"
+  ],
+  "publication": "NOT_AUTHORIZED",
+  "audioAuthorization": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\NATIVE-PENDING-SECURITY.json",
+  "coreQualification": {
+    "healthy": "Both skins native PASS",
+    "fragment": "Both skins fresh V3 native PASS; bounded survivor case",
+    "wheeled": "Fresh paired sample collection running; handling judgment not inferred from completion",
+    "evidence": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-native\\FRAGMENT-PAIR-REVIEWED.json"
+  },
+  "currentSourceCommit": "b3390d0 plus measured T100 fan correction and current QA records; final commit pending",
+  "currentOrdinarySource": {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v3",
+    "compile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-demo-03",
+    "compileOutcome": "SCRIPT_COMPILE_PASS exit0 normalreleased",
+    "sourceManifestDirectory": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v3",
+    "privateFixturesIncluded": false,
+    "packageAttempt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-04",
+    "packageStatus": "STRICT_FAIL_RETAINED_25_KNOWN_POSTSHUTDOWN_UI_LEAKS; no package outputs; scoped successor pending",
+    "historicalSourceClosures": "Top-level SOURCE-CLOSURES.json and native-stage manifests describe historical first bridge, not current build."
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "goal": "One integrated overnight demo,one consolidated human session afterward",
+  "createdUtc": "2026-10-22T01:56:30.583427+00:00",
+  "allowedOutcomes": [
+    "not tested",
+    "failed",
+    "automated pass",
+    "manual judgment pending",
+    "accepted"
+  ],
+  "criteria": [
+    {
+      "id": "A01-launch",
+      "criterion": "One owned source/package launch loads exact selected world/addon closure and labeled OLD/current/NEW cases;no duplicateGUID or stalebuild.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A02-world",
+      "criterion": "Drivingloop,targetfan,isolateddamage lane and explicit reset boards work;actual terrain/sightlines surveyed.",
+      "outcome": "manual judgment pending",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-measuredlayout-survey-v2"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Final measured layout v2:54 dry grounded points,31 unique live roots,23 boards,8 flat route gates and4 target rays pass; T100 moved+2 degrees to avoid blocking T300. Original failed underwater/cliff/blocked layouts preserved. Strict aggregate errors remain FAIL.",
+      "remainingGates": [
+        "Package-backed world load and visible placement",
+        "Physical route, board usability and actual target impacts"
+      ]
+    },
+    {
+      "id": "A03-services",
+      "criterion": "Ordinary repair/refuel/rearm eligible actions change actual target/provider values with finite accounting;failurecontrols andfreshreset verified.",
+      "outcome": "not tested",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-rearm-left-camo-v5"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Private v5 native gunner burst used4 rounds in both magazines; public exit progressed. Scripted native walk did not arrive; no transfer observation. Catalogue errors occur only at shutdown after other PASS cases; inherited manager already configured.",
+      "remainingGates": [
+        "Repair private walking fixture",
+        "Actual finite rearm transfer",
+        "Actual refuel/repair change with accounting",
+        "Physical action reach/usability"
+      ]
+    },
+    {
+      "id": "A04-reset",
+      "criterion": "Occupied/moving/moved/near-player reset rejected;validemptyfixture replaced once with newepoch,no old actor/sound/turretloops;knowninitialstate restored.",
+      "outcome": "not tested",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-final-reset-service-v5",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-final-reset-range-v5",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-final-reset-damage-v5",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-negative-occupied-v5",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\gpg-negative-nearplayer-v5"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Exact-current v5 service/range/damage resets replaced affected roots and restored epochs; occupied and near-player refusals preserved all roots. Independent positive reviews in progress. Original strict errors retained.",
+      "remainingGates": [
+        "Moving and off-pad reset refusals",
+        "Physical board input and orphan sound judgment"
+      ]
+    },
+    {
+      "id": "A05-art-rebuild",
+      "criterion": "Five exactFBXs nativelyrebuilt;all cookedhashes differfrombaseline seeds;native bones/material/part registration matches;OLDcore1112pins remain unchanged.",
+      "outcome": "automated pass",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\COOKED-MODELS.json",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\ART4-source-bind-01\\RESULT.json",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\NATIVE-ADOPTION-ART4-REVIEWED.json"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Five FBXs rebuilt with changed native hashes;15outputs adopted only into NEW resources;both skins57part trees/960bone rows/12native captures reviewed.",
+      "remainingGates": []
+    },
+    {
+      "id": "A06-art-dynamic",
+      "criterion": "Bothskins/full yaw/elevation,recoil/firing,hatches/crew/periscopes,track/wheelphases,LODs/shadows/collision/performance observed.",
+      "outcome": "not tested",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-timescale-camo-01",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\core-fragment-camo-02",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\core-fragment-charcoal-01"
+      ],
+      "manualJudgment": "pending",
+      "observedSubcriteria": "Both skins real healthy/fragment motion/fire/exit/reentry pass. Timescale diagnostic sampled exactly1,0PPM; pose sweep repeatedly crossed signed180 and captured no poses. Private circular control repair pending; no production aim changes.",
+      "remainingGates": [
+        "Six native stationary pose captures",
+        "Hatches/periscopes/LODs/shadows/performance",
+        "Marco visual judgment"
+      ]
+    },
+    {
+      "id": "A07-HUD",
+      "criterion": "ApprovedGerman design renders cleanly;reticlecenter/zoom/aspects,glyphs/liveammo/bar/group/range/relativeangles match actualstate;no devwarnings.",
+      "outcome": "not tested",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-native\\ASCII-RENDER-PIXEL-REVIEW.json"
+      ],
+      "manualJudgment": "pending",
+      "observedSubcriteria": "German ASCII successor rendered1280x720 at2.0x with live320/320 and angle labels;initial pixels reviewed, no missing glyph boxes/developer footer.",
+      "remainingGates": [
+        "All supported zoom/aspects",
+        "Selection/range acquisition/miss update",
+        "Marco design judgment"
+      ]
+    },
+    {
+      "id": "A08-HUD-lifecycle",
+      "criterion": "Repeated sight/seat exit/reentry andfiring preserve truthfulvisibleHUD;cleanup/recovery observed.",
+      "outcome": "not tested",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-truth-v2-1280-01"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Truth v2 compiled and closed normally; private phase driver repeatedly captured baseline and never advanced. Full lifecycle/zoom/selection/range acceptance not claimed. German initial1280 render evidence remains separate.",
+      "remainingGates": [
+        "Repair private driver guards",
+        "Actual phase progression and native/widget agreement",
+        "Repeated transitions and rendered aspect review"
+      ]
+    },
+    {
+      "id": "A09-driving",
+      "criterion": "Accepted WHEELED poweredforward/reverse/brake/turn andRenginecontrol measured;controls restoredafter tests.",
+      "outcome": "not tested",
+      "evidence": [
+        "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Core-Wheeled-Review-20261022\\ACTUAL-COMPLETION-PAIR-REVIEW.json"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Both skins real powered course diagnostic26checks pass: signedforward/reverse,opposingturns,all8contacts,brake grounded stop/dwell. Original normalized NOT_TESTED remains; actual observations separately reviewed. Accepted physicalR mapping source unchanged.",
+      "remainingGates": [
+        "No new physicalR keyboard claim; historic acceptance retained",
+        "Final integrated package load"
+      ]
+    },
+    {
+      "id": "A10-survivingcrew",
+      "criterion": "Nearbyexplosion withactualdamage/survivorstate followedby exit/reentry/traverse/refire;no claimrealisticprotectionfromone matrix.",
+      "outcome": "automated pass",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-native\\FRAGMENT-PAIR-REVIEWED.json"
+      ],
+      "manualJudgment": "Physical user experience remains separately pending; bounded native criterion observed in both skins."
+    },
+    {
+      "id": "A11-smoke",
+      "criterion": "Conditionalonly:actualalignedlaunch/flight/fuse/visiblecloud/ammo/full/empty/genuinerearm/dependencycompatibility;coveragehumanjudgmentseparate.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A12-trackaudio",
+      "criterion": "Conditionalonly:understoodselectiverollinggraph;actualaudible speed/coast/stop/idle behavior,retainedskid/dampers/lifecycle;qualityjudgmentseparate.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A13-human",
+      "criterion": "One station-based finalsession;Marco judges optic/art/smoke/audio asactuallyincluded.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A14-cleanbuild",
+      "criterion": "Private samebuildgproj/pak/rdb andpackage-backed load;privateworld/demo keptseparatefromreleaseexport;no publication.",
+      "outcome": "failed",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-demo-03",
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-04"
+      ],
+      "manualJudgment": "separate where needed",
+      "observedSubcriteria": "Final ordinary source v3 compiled successfully. Pack04 validation exited0 then strict wrapper stopped on25 exact stock UI leak tail after Game destroyed. Same tail found in released1.0.2 validate+pack. Scoped successor classification in preparation; original strict FAIL unchanged. Exact orphan reservation released after verified exit0/empty census.",
+      "remainingGates": [
+        "Actual fresh validate/pack sequence",
+        "Full package trio integrity and private-source exclusion",
+        "Package-only startup/pixels"
+      ]
+    }
+  ],
+  "sourceEvidenceIsNotBehaviorPass": true,
+  "excluded": [
+    "unqualifiedsmoke/audiountilruntimepass",
+    "disabledstabilization/ballisticcorrectionstretchonlyaftercore",
+    "customcannonaudio",
+    "Isfahan"
+  ],
+  "newAcceptance": 0,
+  "publication": false,
+  "runtimeResumeAuthorizedUtc": "2026-10-22T01:52:00Z",
+  "buildEvidence": {
+    "compile-core-01": "FAILED_RESERVED_KEYWORD_OWNED",
+    "compile-core-02": "SCRIPT_COMPILE_PASS_EXIT0_NORMAL_RELEASE",
+    "startup-core-01": "CENSORED_ADAPTER_LEASE_READ_RACE;GPG_READY32RESOURCEFAILURE0;OWNED_NORMAL_EXIT0",
+    "compile-stock-roll-01": "FAILED_PROBE_ATTRIBUTE_GRAPH;TRACE_NOT_RUN"
+  },
+  "updatedUtc": "2026-10-22T06:07:46.805620+00:00",
+  "nativeCheckpoints": {
+    "coreCompile": "compile-core-02 PASS; compile-core-qa-02 PASS isolatedfixtures",
+    "smokeCompile": "compile-smoke-single-03 PASS afterprivateQAonlyrepairs",
+    "artRebuild": "cook-v11-02 FIVE_BUILD_PASS exit0 all5hashchanged",
+    "artQACompile": "compile-art-native-01 PASS",
+    "startup": "startup-core-02 telemetry/lifecyclepass;strict7WORLDerrorsFAIL;all7matchreleasedstockresourcechains retainedlegacyreport",
+    "smokeRuntime": "Cameraoffcontrol8to7onepayloadPASS,0mtravel/cloudNOT_TESTED;anglecandidatecompilePASS but native launch auto-review DENIED beforeexecution.",
+    "audioCompile": "compile-stock-roll-01 FAILED Attribute/Graph APIerrors;rawreturnedtosupplier",
+    "healthyV11": "Camo02 andCharcoal01 V2 normalizedPASS infrastructure/lifecyclePASS nativefunctionPASS",
+    "artInspection": "ART4scopedreviewandNEWsourceadoption complete;manualart/dynamicsremainpending.",
+    "fragment": "Fresh V3 camo02 and charcoal01 normalized PASS, infrastructure/lifecycle PASS, normal exit0 and released leases; earlier orchestration failure preserved.",
+    "audio": "Authoring compiledPASS; FileIO.FileExists line16 declined NoToAll, normalexit0/released05:10. Four outputs absent. Parent asked new bounded authoring approval, awaiting answer; no retry.",
+    "world": "Final measured v2 dry ground/LOS/flatroute PASS. Exact-current v5 service/range/damage reset + occupied/near-player refusal narrow PASS; strict errors FAIL retained.",
+    "hud": "Truthv2 private driver repeats baseline; actual neutral/native/widget initial values valid, full truth transitions pending.",
+    "service": "V5 native actual320to316 BOTH and exit; bounded native walk failure before transfer; private repair pending.",
+    "artDynamic": "Timescale actual1/0PPM; signed yaw boundary private controller error, zero posecaptures, not qualified.",
+    "pack": "Final ordinarysourcev3 compilePASS; pack04 strictFAIL on25 postshutdown baseline leaks only, nativeexit0/released recovery. Fresh scoped pack05 pending."
+  }
+}
