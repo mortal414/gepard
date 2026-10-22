@@ -4,9 +4,9 @@ See [current entrypoint](../../README.md) and [evidence index](../../EVIDENCE-IN
 
 Old SOURCE-MANIFEST/SOURCE-CLOSURES, stage manifests, PROVING-GROUND-INTEGRATION and native bridge copies retain their historical meaning. Their old counts/unboundNEW/pending package labels are not current facts. Historical ledgers are backed up before root applies this update; raw failed native results remain immutable.
 
-No new accepted GEP checkbox or publication. Services/physical judgments and strict diagnostics remain open; smoke cloud/alignment/full-empty/rearm qualification and audio pending approval are separate gates.
+No new accepted GEP checkbox or publication. Whole-service and physical judgments and strict diagnostics remain open. Isolated smoke cloud/full-eight/empty observations are indexed below; real smoke rearm, current V11 integration, useful screening judgment and audio authoring approval remain separate gates.
 
-One native left-feed refill is now observed with finite-provider debit; whole services remain pending. See the exact independent review in the current manifest. Pack07 metadata/guide/launcher are backed up before08 apply.
+Separate native left/right feed refills, right-cap fuel transfer and one Hull repair are now observed with finite-provider debit; whole services remain pending. See the exact independent reviews in the current manifest and the optional notes in [the service supplement](repair-observation-v4/MANUAL-SUPPLEMENT.md). Pack07 metadata/guide/launcher are backed up before08 apply.
 
 
 Current source/evidence audit: [59 startup and100 packing diagnostics classified](diagnostic-severity-08/REPORT.md). No demonstrated demo-blocking regression or justified stock-resource edit; strict raw failures remain. [Isolated smoke flight03](smoke-flight-03/RESULT.json) is a narrow observation, not smoke inclusion or GEP acceptance.
@@ -14,7 +14,7 @@ Current source/evidence audit: [59 startup and100 packing diagnostics classified
 
 [Focused service checkpoint](focused-services-v10/RESULT.json): separate left/right315-to320 native refills and right-cap30-to32.083L finite fuel transfer are observed. Whole service and human acceptance remain pending; original strict failures are unchanged. Package08 source, packages, launcher and installed guide are unchanged.
 
-[Isolated native smoke Visual04](smoke-visual-04/RESULT.json): actual exterior cloud observed;25 native BMPs retained,11 root/5 independent images directly viewed. StrictFAIL58 stays raw. Full-eight/empty, real smoke rearm and currentV11 fit/compatibility remain separate next gates; stable08 unchanged.
+[Isolated native smoke Visual04](smoke-visual-04/RESULT.json): actual exterior cloud observed;25 native BMPs retained,11 root/5 independent images directly viewed. StrictFAIL58 stays raw. Full-eight/empty was later observed in isolated full06 below. Real smoke rearm, currentV11 fit/compatibility and useful screening judgment remain separate next gates; stable08 unchanged.
 
 [Native Hull repair observation](repair-observation-v4/RESULT.json): real original-zone gain6.48755, exact selected supply debit1 after native fire handling. Raw helperFAIL/strict57 remain; no gameplay-source change or whole-service acceptance.
 

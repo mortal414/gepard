@@ -1,0 +1,29 @@
+{
+  "status": "DOCS_AND_CURRENT_MANIFEST_ALIASES_CORRECTED_ONLY",
+  "createdUtc": "2026-10-22T10:56:18.892030+00:00",
+  "protectedFilesUnchanged": 2340,
+  "historicalEvidencePreserved": true,
+  "newAcceptedCheckboxes": 0,
+  "nativeStarted": false,
+  "sourceOrPackageOrLauncherOrGuideChanged": false,
+  "changes": {
+    "EVIDENCE-INDEX.md": {
+      "beforeSHA256": "414136dc239390ac8c28dd6edfcc6218733056f18646af72d4b2490e6135bedb",
+      "afterSHA256": "28d39f28bbb2bffa471a9f11595105d83139e65d1b014548f086420709d823ba"
+    },
+    "qa/consolidated-20261022/README.md": {
+      "beforeSHA256": "5468daff52a4f085d52183744dfaa499b26300ba0cee5aa0f31c44d2e4dcc7d1",
+      "afterSHA256": "1f6b923c16ae32856243f2c744755e0d9259babc8f5f9c18021738c2c05b0440"
+    },
+    "CURRENT-CANDIDATE-MANIFEST.json": {
+      "beforeSHA256": "df6988b3ce160863b2d1193939d9dbd322d0e785aaf6957203d83c2247659bbb",
+      "afterSHA256": "4fc221d5d88cbed1180bb210733fe57e4f7d716d8ccddd758617273b038ee8c4"
+    },
+    "qa/consolidated-20261022/CANDIDATE-MANIFEST.json": {
+      "beforeSHA256": "396fe9176ab0312df480f9b8dd796237647533e13c2cd0f8c62a33d63215a65d",
+      "afterSHA256": "0af54d2a14375596bfd05f8f235ff3a6777e0c8893a826e8fd71b30e28cc450a"
+    }
+  },
+  "auditSource": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Core-Handoff-Docs-Audit-20261022",
+  "auditSourceSealSHA256": "c61ce4f254dc48b2c7d4948238652f16b5387c185b410c10ca84ed58d2bc3507"
+}

@@ -1902,7 +1902,7 @@
         "sha256": "7aef95fed8c1c00bcdf527e27141f8745fb92998b8133577838ef9cc8a20a785"
       },
       "remaining": [
-        "Full eight actual payloads/ammo8->0 and empty negative",
+        "Full-eight/empty was pending at Visual04; later observed only in isolated full06. Current V11 integration remains pending.",
         "Genuine finite WCS smoke rearm with actual supply accounting",
         "Current cooked V11 camo/charcoal port world-fit and dependency-stack controls/HUD compatibility",
         "Impact/fuse exact callback timing",
@@ -2061,14 +2061,14 @@
       "sha256": "d3940d6d3d741970b266a1f03c222cae7071181fb81e3adbc48e19d58d7e05df"
     },
     "ordinary-gepard": {
-      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\CurrentSourceManifest-gepard.json",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json",
       "bytes": 148709,
       "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09"
     },
     "ordinary-provingGround": {
-      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\CurrentSourceManifest-provingGround.json",
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-provingGround.json",
       "bytes": 1118,
-      "sha256": "295483ba531e82747d04669adc8cddfb34e3b6dbdebaa7c74ccba84463d5b550"
+      "sha256": "593b20c11c708d04ba7468b5c36c49390b2813d9ad443de67e9b89e24fc3b2de"
     },
     "worldUSProviderAdoption08": {
       "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-USProvider-World-Adoption-v9-20261022\\RESULT.json",
@@ -2185,7 +2185,7 @@
   "metadataFinalReady": true,
   "physicalAndWholeGepAcceptance": "PENDING; zero new trackercheckboxes",
   "historicalArtifacts": "Old ledgers/readmes preserved in C preview originals and D ledger-history at explicit root apply. Historical native receipts, manifests and raw failures are never rewritten.",
-  "updatedUtc": "2026-10-22T10:38:02.443555+00:00",
+  "updatedUtc": "2026-10-22T10:56:18.892030+00:00",
   "predecessor": {
     "checkpoint": "5a06259",
     "manifest": {

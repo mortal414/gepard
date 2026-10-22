@@ -1,0 +1,149 @@
+{
+  "scope": "Documentation only. Apply no source/runtime/package/launcher/guide changes.",
+  "markdownProposals": [
+    {
+      "relative": "EVIDENCE-INDEX.md",
+      "preimageSHA256": "414136dc239390ac8c28dd6edfcc6218733056f18646af72d4b2490e6135bedb",
+      "proposalSHA256": "28d39f28bbb2bffa471a9f11595105d83139e65d1b014548f086420709d823ba",
+      "bytes": 6795
+    },
+    {
+      "relative": "qa/consolidated-20261022/README.md",
+      "preimageSHA256": "5468daff52a4f085d52183744dfaa499b26300ba0cee5aa0f31c44d2e4dcc7d1",
+      "proposalSHA256": "1f6b923c16ae32856243f2c744755e0d9259babc8f5f9c18021738c2c05b0440",
+      "bytes": 3013
+    }
+  ],
+  "manifestRecommendations": [
+    {
+      "documents": [
+        "CURRENT-CANDIDATE-MANIFEST.json",
+        "qa/consolidated-20261022/CANDIDATE-MANIFEST.json"
+      ],
+      "operations": [
+        {
+          "jsonPointer": "/evidence/ordinary-gepard",
+          "current": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\CurrentSourceManifest-gepard.json",
+            "bytes": 148709,
+            "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09"
+          },
+          "recommended": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json",
+            "bytes": 148709,
+            "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09"
+          },
+          "sameBytes": true
+        },
+        {
+          "jsonPointer": "/evidence/ordinary-provingGround",
+          "current": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v5\\CurrentSourceManifest-provingGround.json",
+            "bytes": 1118,
+            "sha256": "295483ba531e82747d04669adc8cddfb34e3b6dbdebaa7c74ccba84463d5b550"
+          },
+          "recommended": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-provingGround.json",
+            "bytes": 1118,
+            "sha256": "593b20c11c708d04ba7468b5c36c49390b2813d9ad443de67e9b89e24fc3b2de"
+          },
+          "sameBytes": false
+        }
+      ],
+      "reason": "Current ordinary aliases should point to ordinary-v6; v5 remains historical. Core alias bytes equal, world alias bytes differ."
+    },
+    {
+      "documents": [
+        "CURRENT-CANDIDATE-MANIFEST.json",
+        "qa/consolidated-20261022/CANDIDATE-MANIFEST.json"
+      ],
+      "jsonPointer": "/observations/isolatedSmokeVisual04/remaining/0",
+      "expected": "Full eight actual payloads/ammo8->0 and empty negative",
+      "recommendation": "Full-eight/empty was pending at Visual04; later observed only in isolated full06. Current V11 integration remains pending.",
+      "reason": "Disambiguate historical Visual04 remaining snapshot from the later current full06 observation; do not edit raw Visual04 report."
+    }
+  ],
+  "closureOrder": "If root adopts the manifest recommendations: update root CURRENT first, hash its final bytes, then update Q/CANDIDATE-MANIFEST fullCurrentManifest.sha256 (and bytes only if present). Preserve history/backup. Recheck all current refs. No frozen package/launcher/guide change.",
+  "leaveUnchanged": [
+    "TEST-GUIDE.md",
+    "Launch-Gepard-ProvingGround.cmd",
+    "Launch-Gepard-Private-Demo.ps1",
+    "all native raw results/compile/package/source files",
+    "all historical receipts",
+    "ACCEPTANCE-MATRIX.json outcomes",
+    "STATUS-PER-GEP.json acceptance"
+  ],
+  "optionalOnly": "A02 world evidence can add the current Package08 independent report alongside its explicitly historical Package07 observation. This is not a missing native-world proof or new acceptance.",
+  "preimages": {
+    "CURRENT-CANDIDATE-MANIFEST.json": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\CURRENT-CANDIDATE-MANIFEST.json",
+      "bytes": 216506,
+      "sha256": "df6988b3ce160863b2d1193939d9dbd322d0e785aaf6957203d83c2247659bbb",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "README.md": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\README.md",
+      "bytes": 5586,
+      "sha256": "d360689e94f880826425b47a0948900d7611c15941e554f8de2f12c1b7921aee",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "EVIDENCE-INDEX.md": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\EVIDENCE-INDEX.md",
+      "bytes": 6627,
+      "sha256": "414136dc239390ac8c28dd6edfcc6218733056f18646af72d4b2490e6135bedb",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "TEST-GUIDE.md": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\TEST-GUIDE.md",
+      "bytes": 3693,
+      "sha256": "e5d6dc8e6615d71169bc30106e140b7a8054a9a0d6843a95f0905177daa7c209",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "qa/consolidated-20261022/CANDIDATE-MANIFEST.json": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\CANDIDATE-MANIFEST.json",
+      "bytes": 55273,
+      "sha256": "396fe9176ab0312df480f9b8dd796237647533e13c2cd0f8c62a33d63215a65d",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "qa/consolidated-20261022/CURRENT-SOURCE-MANIFEST.json": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\CURRENT-SOURCE-MANIFEST.json",
+      "bytes": 158639,
+      "sha256": "dddcfcf2f32433937959af451455c38cc96ee4549f28a4e74342bb8b7171cae5",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "qa/consolidated-20261022/ACCEPTANCE-MATRIX.json": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\ACCEPTANCE-MATRIX.json",
+      "bytes": 41545,
+      "sha256": "ba28b647abcca1718587460258721e13c2e33d8d0c955ce4ce8c7ffa487b7511",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "qa/consolidated-20261022/STATUS-PER-GEP.json": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\STATUS-PER-GEP.json",
+      "bytes": 16275,
+      "sha256": "d9c8e23ded07ea5e4f4b1d5304010d4eb48b5e88baf869b8183bcd64209ccace",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "qa/consolidated-20261022/README.md": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\README.md",
+      "bytes": 2688,
+      "sha256": "5468daff52a4f085d52183744dfaa499b26300ba0cee5aa0f31c44d2e4dcc7d1",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    },
+    "qa/consolidated-20261022/repair-observation-v4/MANUAL-SUPPLEMENT.md": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\repair-observation-v4\\MANUAL-SUPPLEMENT.md",
+      "bytes": 1129,
+      "sha256": "a3d5c3b765b4bd46e4d8517bf6dcbecc206e45806dd14ab45314f314813c1e5b",
+      "utf8Valid": true,
+      "replacementCharacters": 0
+    }
+  }
+}
