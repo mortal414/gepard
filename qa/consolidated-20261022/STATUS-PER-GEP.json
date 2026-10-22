@@ -116,11 +116,11 @@
     {
       "id": "GEP-015",
       "status": "Blocked",
-      "reason": "Excluded from stable08. Visual07 now pairs exact full8/flight/empty telemetry with25 actual native captures; root11/independent5 original views confirm exterior white smoke. Two lateral groups leave the Gepard visibly exposed through a central gap on the fixed far-axis5/12/20/30/40s views; useful screening is not accepted. StrictFAIL58 and all earlier failures remain. Genuine finite WCS rearm, currentV11 eight-port/stack compatibility and ordinary roles/input remain pending. No active smoke access denial.",
+      "reason": "Smoke remains excluded from stable08. Both actual currentV11 skins passed exact resource/bank identities,8-to0/eight moving payloads and empty/no-ninth observations with normal0 closure. All8 zero-pose launch positions match measured V11 ports within0.189mm first native JSON (reference/frame assumptions explicit). StrictFAIL58 per skin remains. Passive HUD sampled ADSoff/widgetsabsent, so functional HUD compatibility is not established. Genuine finite rearm, rotated/visual fit, ordinary input and dependency-stack regression remain pending. Earlier full-salvo fixed-forward central gap is preserved, with no angle tuning or useful-screening acceptance. No smoke access denial.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "genuineBlocker": true,
-      "blocker": "Inclusion qualification pending: finite smoke rearm, currentV11 alignment/stack, ordinary input and useful screening with observed central gap.",
+      "blocker": "Optional inclusion gates pending: genuine finite rearm, rotated/visual fit and actual dependency-stack compatibility.",
       "blockingState": "FEATURE_EXCLUDED_PENDING_QUALIFICATION_NOT_ACCESS_DENIED"
     },
     {
@@ -278,7 +278,7 @@
     "Needs verification": "Existing release evidence passes; one named verification remains",
     "Blocked": "A named inclusion gate remains unsatisfied: feature runtime qualification for015, separate bounded authoring permission for033. Deferred work is not globally blocked."
   },
-  "updatedUtc": "2026-10-22T11:09:24.558721+00:00",
+  "updatedUtc": "2026-10-22T12:05:57.276437+00:00",
   "candidate": "ordinary source v6 / compile06 / pack08 / installed08; one left refill observed, whole services pending",
   "nativeCompile": "Actual ordinary-v6 compile06 PASS; historical board V3 compile/native observation retained separately. Compilation alone is not gameplay acceptance.",
   "nativeGameplay": "Package08 ordinary start and US provider observed; strict probe FAIL retained. Separate narrow left-refill observation does not mark services accepted.",

@@ -2027,10 +2027,99 @@
       "mpJipDedicated": "NOT_TESTED",
       "package08Changed": false,
       "newAcceptedCheckboxes": 0
+    },
+    "currentV11Smoke02": {
+      "status": "BOTH_CURRENT_V11_SKINS_NARROW_MECHANISM_PASS_STRICT_HEALTH_FAIL_MAIN08_UNCHANGED",
+      "cases": [
+        {
+          "skin": "camo",
+          "result": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-camo-02\\smoke-current-v11-camo\\result.json",
+            "sha256": "88cfff5ee06628f10172ac3c0def0ccbad25972eb3186c46e2bbf580545e5985"
+          },
+          "review": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-camo-02\\smoke-current-v11-camo\\native-review.json",
+            "sha256": "ded93ad0bdef836af05d33f550e8b757516228c752fe5ae24b73c42e3887958c"
+          },
+          "exit": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-camo-02\\smoke-current-v11-camo\\native-run\\exit.json",
+            "sha256": "f4f56a5c77feee40a0ed435388252f8280147eeba2ef70287e928bb42b5481d3"
+          },
+          "strictNativeOverall": "FAIL",
+          "strictErrors": 58,
+          "observedNarrowPasses": [
+            "smoke.current-v11-identity",
+            "smoke.current-v11-banks",
+            "world.loaded",
+            "fixture.ready",
+            "smoke.program-payload",
+            "smoke.empty-negative",
+            "smoke.flight-telemetry",
+            "scripts.compiled"
+          ]
+        },
+        {
+          "skin": "charcoal",
+          "result": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-charcoal-02\\smoke-current-v11-charcoal\\result.json",
+            "sha256": "f7af05e1109a284ff158b0958c0cfd5e7055e43a8ad227f053a8c6133d5bc46b"
+          },
+          "review": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-charcoal-02\\smoke-current-v11-charcoal\\native-review.json",
+            "sha256": "99d7d8f341aa3a8aae170d43878e76a8206233b857835adf8860c47ade47ed85"
+          },
+          "exit": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-charcoal-02\\smoke-current-v11-charcoal\\native-run\\exit.json",
+            "sha256": "6567076ca931d215599327fc940b7119eb5c36241ffcedeb2c591701ee51569c"
+          },
+          "strictNativeOverall": "FAIL",
+          "strictErrors": 58,
+          "observedNarrowPasses": [
+            "smoke.current-v11-identity",
+            "smoke.current-v11-banks",
+            "world.loaded",
+            "fixture.ready",
+            "smoke.program-payload",
+            "smoke.empty-negative",
+            "smoke.flight-telemetry",
+            "scripts.compiled"
+          ]
+        }
+      ],
+      "compile": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-current-v11-02\\RESULT.json",
+        "sha256": "9a6589df2d722f886119f1a1b536d6cb929baf6f1f9259a0df1c2b504acf7427"
+      },
+      "sourceSeal": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CurrentV11-Qualification-v3-20261022\\SOURCE-MANIFEST.json",
+        "sha256": "c6ba64b43fb700359047e37fb5e147ce9f31ccdf993ba8255d5eabd1c41ec9b1"
+      },
+      "independentAudit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-current-v11-02\\INDEPENDENT-REVIEW.json",
+        "sha256": "421e7b0b9266fc36449756e535ed4e665954ba6b49df5f6cf8a747c654c14cfb"
+      },
+      "core1152EqualsQualifiedPackage08": true,
+      "uniqueZeroPosePortsMatched": 8,
+      "maximumFirstNativeJsonOriginResidualMillimetres": 0.188852,
+      "maximumRoundedConsoleOriginResidualMillimetres": 2.134508,
+      "zeroPoseLimit": "Native initial payload positions/axes compared with frozen measured mesh reference under stated identity-frame assumptions; no tube-matrix getter, nonzero articulated fit or visual approval.",
+      "hudActualBothPhasesBothSkins": {
+        "workspace": 1,
+        "originalSight": 0,
+        "originalVisible": 0,
+        "plainSight": 0,
+        "plainVisible": 0,
+        "actualADS": 0
+      },
+      "functionalHudCompatibility": "NOT_TESTED_BY_PASSIVE_OBSERVATIONS",
+      "finiteSmokeRearm": "NOT_TESTED",
+      "smokeInMain08": false,
+      "publication": false,
+      "newAcceptedCheckboxes": 0
     }
   },
   "excluded": {
-    "smoke": "Excluded from stable08. Visual07 now pairs exact full8/flight/empty telemetry with25 actual native captures; root11/independent5 original views confirm exterior white smoke. Two lateral groups leave the Gepard visibly exposed through a central gap on the fixed far-axis5/12/20/30/40s views; useful screening is not accepted. StrictFAIL58 and all earlier failures remain. Genuine finite WCS rearm, currentV11 eight-port/stack compatibility and ordinary roles/input remain pending. No active smoke access denial.",
+    "smoke": "Smoke remains excluded from stable08. Both actual currentV11 skins passed exact resource/bank identities,8-to0/eight moving payloads and empty/no-ninth observations with normal0 closure. All8 zero-pose launch positions match measured V11 ports within0.189mm first native JSON (reference/frame assumptions explicit). StrictFAIL58 per skin remains. Passive HUD sampled ADSoff/widgetsabsent, so functional HUD compatibility is not established. Genuine finite rearm, rotated/visual fit, ordinary input and dependency-stack regression remain pending. Earlier full-salvo fixed-forward central gap is preserved, with no angle tuning or useful-screening acceptance. No smoke access denial.",
     "newTrackAudio": "Excluded. Stock graph trace and authoring compile retained; bounded authoring approval remains pending. No audible implementation/playback acceptance; earlier protected-read/authoring declines retained separately.",
     "stabilization": "Released hard-disable retained; deferred actualmotionqualification",
     "ballisticCorrection": "Released hard-disable retained; no impactcorrectionacceptance",
@@ -2237,6 +2326,10 @@
     "smokeFullVisual07": {
       "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-visual-07\\RESULT.json",
       "sha256": "16fb3b08d3870db2db9ab85a161292b4db20ee451c3262841c2cc8aa313370aa"
+    },
+    "currentV11Smoke02": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-current-v11-02\\RESULT.json",
+      "sha256": "3c08ca230aba3d63ac84217dcfe687d99bdfca05bc68681b2dc52da3249238ca"
     }
   },
   "serviceFinalReportProvided": true,
@@ -2244,7 +2337,7 @@
   "metadataFinalReady": true,
   "physicalAndWholeGepAcceptance": "PENDING; zero new trackercheckboxes",
   "historicalArtifacts": "Old ledgers/readmes preserved in C preview originals and D ledger-history at explicit root apply. Historical native receipts, manifests and raw failures are never rewritten.",
-  "updatedUtc": "2026-10-22T11:09:24.558721+00:00",
+  "updatedUtc": "2026-10-22T12:05:57.276437+00:00",
   "predecessor": {
     "checkpoint": "5a06259",
     "manifest": {

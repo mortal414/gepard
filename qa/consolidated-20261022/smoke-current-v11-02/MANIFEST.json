@@ -1,0 +1,22 @@
+{
+  "audit.py": {
+    "sha256": "8471f1dea3ca67be6e4df6048c91221afb5900a0e09d9345049acd986bd40c69",
+    "bytes": 14572
+  },
+  "CAMO-OBSERVATION.json": {
+    "sha256": "e57d56c6bcafc2565805d45fc40782f14f1b3c4d2a629121d2705c9fe7fd57f8",
+    "bytes": 30225
+  },
+  "CHARCOAL-OBSERVATION.json": {
+    "sha256": "9382f49f2426fc283e324e0be11c4dc6882503dc3edbb34cf45957f4395d90e9",
+    "bytes": 30311
+  },
+  "INDEPENDENT-REVIEW.json": {
+    "sha256": "421e7b0b9266fc36449756e535ed4e665954ba6b49df5f6cf8a747c654c14cfb",
+    "bytes": 157665
+  },
+  "REPORT.md": {
+    "sha256": "f96986e6804d236d95771e1ca42d5691baeade161ddaac5bb005ca0641a35c93",
+    "bytes": 4733
+  }
+}

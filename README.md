@@ -28,3 +28,5 @@ Current source/evidence audit: [59 startup and100 packing diagnostics classified
 The frozen installed guide remains unchanged. [Updated service observations and optional manual notes](qa/consolidated-20261022/repair-observation-v4/MANUAL-SUPPLEMENT.md) supersede its older service-evidence sentence only.
 
 [Full-program native cloud review07](qa/consolidated-20261022/smoke-full-visual-07/RESULT.json): eight-flight/empty/capture gates observed,25 native images; two lateral clouds leave a visible central gap on the fixed forward axis. Useful screening, finite smoke rearm and currentV11 compatibility remain unaccepted; rawFAIL58 and stable08 preserved.
+
+[Both current V11 smoke mechanism observations02](qa/consolidated-20261022/smoke-current-v11-02/RESULT.json): eight moving payloads/empty controls and zero-pose port correspondence observed in both skins. StrictFAIL58 retained; finite rearm, articulated fit and functional dependency-stack compatibility remain open. Stable08 unchanged.
