@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "template": "startup",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+  "world": "Worlds/GPG_Arland.ent",
+  "sourceRoots": [
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard"
+  ],
+  "addonRoots": [
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons"
+  ],
+  "requiredFiles": [
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\adapter.py",
+      "sha256": "24821b3051b0676852f1629568848a08c53b74be9f23dfceefe4b29a164c0355"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\evidence.py",
+      "sha256": "107bdd3eadbf15be543ffefb1cea8e787d749e389c632c5310754342898dca10"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\tools\\Scene.ps1",
+      "sha256": "11ac0e15580c590cc8f7a5dc7427c17a4f67bd36096ea4190bfdcfd3f92427f2"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\COMPILE-ADOPTION-PENDING.json",
+      "sha256": "61183e9792428777a33dd169d73a9c876ddfde37921abb69d76338e010c17487"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\SOURCE-CLOSURES.json",
+      "sha256": "3c00451b9bea83cfa91d1a79481401f27fe477c3b118ae300b16763cb2fb9571"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\GEPARD_SOURCE_MANIFEST.json",
+      "sha256": "0c71b18a05dc4731c9a9e7f089f1dd3f367504f28efbc84d0feaf40a0e829561"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\QA_SOURCE_MANIFEST.json",
+      "sha256": "8e0e38ec254f635fc87206bba40a63d51dfa98dd3667eb026eb22f1a76ed6181"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\MARKER-CONTRACT.json",
+      "sha256": "2c0634e70a157b5c7cba521ccd6af56747c1b20810dedc2178c6b6be777ccae7"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\variant-lock.json",
+      "sha256": "60471d4ba74bbb195e6c205f8bf688b016e57f13487ec8776d76a4f8d7368fca"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\world-source-manifest.json",
+      "sha256": "ffb2df35599329b875d8e45edc9f15054fcb546f6490c642310d700849e76dac"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\registry\\variants.json",
+      "sha256": "043c9c0455f8923b3ca3c782f0d430e0c21dabd2cf3060da3c67488a6909f6a4"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\registry\\stations.json",
+      "sha256": "cd50d59a7b2180feebb99762cb5fc54365c6e7ea8b6efb61c2069bb790f5cd57"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\registry\\resources.json",
+      "sha256": "4e4355de0521a115fdb996442efb6ce62a7e25941ea5c6daa9ccc13f2cb98441"
+    },
+    {
+      "path": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+      "sha256": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe",
+      "sha256": "51f941dee28bda7865e2428d7fc92fcbe7c5c7ff666caf642c0ff23c2aced457"
+    }
+  ],
+  "requiredClasses": [
+    "GPG_Director",
+    "GPG_Layout",
+    "GPG_Resources",
+    "GPG_BoardComponent",
+    "GPG_ManualSpawnLogic",
+    "GEP_GunStatus"
+  ],
+  "capabilities": [
+    "isolated-reset",
+    "owned-lifecycle",
+    "native-load"
+  ],
+  "adapter": {
+    "executable": "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "script": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\adapter.py",
+    "args": [
+      "{script}",
+      "{request}",
+      "{result}",
+      "{cancel}"
+    ]
+  },
+  "cases": [
+    {
+      "id": "gpg-startup-survey",
+      "parameters": {
+        "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\tools\\Scene.ps1",
+        "wrapperSHA256": "11ac0e15580c590cc8f7a5dc7427c17a4f67bd36096ea4190bfdcfd3f92427f2",
+        "powerShell": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "closures": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\SOURCE-CLOSURES.json",
+        "closurePinSHA256": "3c00451b9bea83cfa91d1a79481401f27fe477c3b118ae300b16763cb2fb9571",
+        "completeManifestPins": {
+          "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\QA_SOURCE_MANIFEST.json": "8e0e38ec254f635fc87206bba40a63d51dfa98dd3667eb026eb22f1a76ed6181",
+          "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\GEPARD_SOURCE_MANIFEST.json": "0c71b18a05dc4731c9a9e7f089f1dd3f367504f28efbc84d0feaf40a0e829561"
+        },
+        "compileAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\COMPILE-ADOPTION-PENDING.json",
+        "markerContract": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\MARKER-CONTRACT.json",
+        "markerContractSHA256": "2c0634e70a157b5c7cba521ccd6af56747c1b20810dedc2178c6b6be777ccae7",
+        "addonId": "A76A420022000001",
+        "addonSearchPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "seconds": 60,
+        "screenWidth": 1280,
+        "screenHeight": 720,
+        "adapterDeadlineSeconds": 100,
+        "childLogLimitBytes": 4194304
+      },
+      "assertions": [
+        "fixture.ready",
+        "world.loaded",
+        "gpg.startup",
+        "gpg.telemetry-consistent",
+        "native.errors"
+      ]
+    }
+  ],
+  "timeoutSeconds": 130,
+  "closeGraceSeconds": 35,
+  "notes": "SOURCE ONLY under explicit user hold. One bounded GPG startup/telemetry-consistency case. No automated driving, service, damage, terrain/LOS usability, capture, HUD/input or visual acceptance. NEW art unbound; smoke/audio excluded. Actual compile adoption + explicit user resume and ownership admission required."
+}

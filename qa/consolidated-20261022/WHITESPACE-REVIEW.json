@@ -1,0 +1,10 @@
+{
+  "implementationCheck": "PASS with cr-at-eol and exact artifact exclusions",
+  "preservedByteExactArtifacts": {
+    "native-bridge-source/tools/Scene-cancellation.patch": "Unified diff blank context retains one leading context space. Sealed source hash preserved.",
+    "proving-ground-bridge-source/tools/Scene-proving-ground.patch": "Unified diff blank context retains one leading context space at lines5/13. Sealed source hash preserved.",
+    "../proving-ground/README.md": "Inherited intentional Markdown two-space hard breaks at lines12/13."
+  },
+  "sourceCodeWhitespace": "No implementation whitespace errors outside these artifacts",
+  "nativeAcceptance": "NOT_TESTED"
+}

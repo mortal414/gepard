@@ -83,7 +83,8 @@
     "hostiles": "OFF_QUALIFICATION_LOCKED",
     "optionalWCSIncluded": false,
     "stagedProject": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
-    "freezeGuardRepair": "checks/FREEZE-GUARD-REPAIR.json; six registry/source/manifest tamper cases PASS"
+    "freezeGuardRepair": "checks/FREEZE-GUARD-REPAIR.json; six registry/source/manifest tamper cases PASS",
+    "adapter": "SOURCE_PLAN_READY_NATIVE_NOT_TESTED"
   },
   "selectedRuntimeDependencies": [
     "58D0FB3206B6F859 base Reforger",
@@ -98,7 +99,7 @@
   "releaseFilesChanged": false,
   "published": false,
   "newAcceptedCheckboxes": 0,
-  "updatedUtc": "2026-10-22T01:09:12.304546+00:00",
+  "updatedUtc": "2026-10-22T01:21:20.759388+00:00",
   "sourceCodeBaselineCommit": "09e75342f5bd7f3fda3b40617104c956d150d316",
   "nativeBridge": {
     "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\native-bridge-source",
@@ -116,5 +117,21 @@
     "nativeCompile": "NOT_TESTED",
     "runtime": "NOT_TESTED",
     "packageTrio": "NOT_BUILT"
+  },
+  "provingGroundBridge": {
+    "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\proving-ground-bridge-source",
+    "originalExecutionSource": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022",
+    "manifestSHA256": "05217d8f6751c1184bab09573a27349e67bdb1dd3ef89e595526ed29e6916d90",
+    "caseId": "gpg-startup-survey",
+    "sourceFilesVerified": 1122,
+    "offlineChecks": 75,
+    "staticPlan": "PASS",
+    "powerShellSyntax": "PASS",
+    "addonDiscovery": "Narrow native-stage parent plus installed base; actual native discovery NOT_TESTED",
+    "scope": "Startup/emitted telemetry consistency only; no physical driving/service/damage/survey usability/visual acceptance",
+    "nativeCompile": "NOT_TESTED",
+    "nativeLoad": "NOT_TESTED",
+    "nativeLifecycle": "NOT_TESTED",
+    "execution": "PENDING_USER_RESUME_AND_REAL_COMPILE_ADOPTION_NOT_ATTEMPTED"
   }
 }

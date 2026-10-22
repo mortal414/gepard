@@ -45,5 +45,12 @@
     "smoke usefulness/coverage",
     "sound quality",
     "MP/JIP/dedicated unless separately exercised"
-  ]
+  ],
+  "startupBinding": {
+    "job": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\gpg-startup-job.json",
+    "jobSHA256": "e49b1860cccbd048c57a4c375d1306b367a393c0aadf158fce79e78fff09aa8a",
+    "planReceipt": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\PLAN-RECEIPT.json",
+    "status": "SOURCE_PLAN_PASS_NATIVE_NOT_TESTED",
+    "notAFullRegressionRunner": true
+  }
 }

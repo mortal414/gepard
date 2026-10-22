@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_SOURCE_BYTES_MATCH_FROZEN_LOCKS_NATIVE_NOT_TESTED",
+  "upstreamBridgeManifestSHA256": "70aa4f87166665b7c57c91c1ab9ee36c4ddafbcca125a58893750795e694d1ed",
+  "worldFiles": 10,
+  "sharedFiles": 1112,
+  "worldSourceManifestFileSHA256": "ffb2df35599329b875d8e45edc9f15054fcb546f6490c642310d700849e76dac",
+  "variantLockFileSHA256": "60471d4ba74bbb195e6c205f8bf688b016e57f13487ec8776d76a4f8d7368fca",
+  "integrationReceiptSHA256": "5121f09bef4345d6dc069faafccda5e0215080c4923acb3d7d9a77a2566d8e99",
+  "hold": "UNCHANGED",
+  "nativeInvoked": false,
+  "dWrites": false,
+  "unboundArt": [
+    "NEW-CAMO",
+    "NEW-CHARCOAL"
+  ]
+}

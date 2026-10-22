@@ -1,0 +1,565 @@
+{
+  "schema": 1,
+  "projectGuid": "A76A420022000001",
+  "worldGuid": "A76A420022000002",
+  "world": "Worlds/GPG_Arland.ent",
+  "loadedAddonIds": [
+    "A76A420022000001",
+    "D561AD08932E7B40",
+    "58D0FB3206B6F859",
+    "5614BBCCBB55ED1C"
+  ],
+  "registrySHA256": "4b9d060a6d84cf1c4b33b143debde6d7f30fd323a787f85cc67bbd25874d289e",
+  "runtimeSHA256": "13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d",
+  "objects": {
+    "OLD-CAMO": {
+      "station": "bay",
+      "prefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "pad": [
+        600.0,
+        0.0,
+        2600.0
+      ]
+    },
+    "OLD-CHARCOAL": {
+      "station": "bay",
+      "prefab": "{BEF5FEB0ECCBC01D}Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "pad": [
+        620.0,
+        0.0,
+        2600.0
+      ]
+    },
+    "ROUTE-SUBJECT": {
+      "station": "drive",
+      "prefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "pad": [
+        600.0,
+        0.0,
+        2660.0
+      ]
+    },
+    "T100": {
+      "station": "range",
+      "prefab": "Prefabs/Props/Military/Training/TargetInfantry_01.et",
+      "pad": [
+        999.027,
+        0.0,
+        2436.083
+      ]
+    },
+    "T300": {
+      "station": "range",
+      "prefab": "Prefabs/Structures/Military/Training/TargetVehicles/TargetBTR_front.et",
+      "pad": [
+        1199.269,
+        0.0,
+        2429.073
+      ]
+    },
+    "T500": {
+      "station": "range",
+      "prefab": "Prefabs/Structures/Military/Training/TargetVehicles/TargetBTR_front.et",
+      "pad": [
+        1400.0,
+        0.0,
+        2450.0
+      ]
+    },
+    "T800": {
+      "station": "range",
+      "prefab": "Prefabs/Structures/Military/Training/TargetVehicles/TargetBTR_front.et",
+      "pad": [
+        1698.051,
+        0.0,
+        2505.805
+      ]
+    },
+    "T1000": {
+      "station": "range",
+      "prefab": "Prefabs/Structures/Military/Training/TargetVehicles/TargetBTR_front.et",
+      "pad": [
+        1890.268,
+        0.0,
+        2589.173
+      ]
+    },
+    "Ammo": {
+      "station": "service",
+      "prefab": "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et",
+      "pad": [
+        687.0,
+        0.0,
+        2590.0
+      ]
+    },
+    "Repair": {
+      "station": "service",
+      "prefab": "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et",
+      "pad": [
+        680.0,
+        0.0,
+        2580.0
+      ]
+    },
+    "Fuel": {
+      "station": "service",
+      "prefab": "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et",
+      "pad": [
+        673.0,
+        0.0,
+        2590.0
+      ]
+    },
+    "Wrench1": {
+      "station": "service",
+      "prefab": "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et",
+      "pad": [
+        678.0,
+        0.0,
+        2576.0
+      ]
+    },
+    "Wrench2": {
+      "station": "service",
+      "prefab": "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et",
+      "pad": [
+        680.0,
+        0.0,
+        2576.0
+      ]
+    },
+    "M16": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et",
+      "pad": [
+        586.0,
+        0.0,
+        1840.0
+      ]
+    },
+    "M249": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/MachineGuns/M249/MG_M249.et",
+      "pad": [
+        588.0,
+        0.0,
+        1840.0
+      ]
+    },
+    "M2": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et",
+      "pad": [
+        610.0,
+        0.0,
+        1840.0
+      ]
+    },
+    "Arsenal": {
+      "station": "weapons",
+      "prefab": "Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et",
+      "pad": [
+        580.0,
+        0.0,
+        1840.0
+      ]
+    },
+    "DamageAmmo": {
+      "station": "weapons",
+      "prefab": "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et",
+      "pad": [
+        570.0,
+        0.0,
+        1840.0
+      ]
+    },
+    "D1": {
+      "station": "damage",
+      "prefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "pad": [
+        600.0,
+        0.0,
+        1800.0
+      ]
+    },
+    "D2": {
+      "station": "damage",
+      "prefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "pad": [
+        620.0,
+        0.0,
+        1800.0
+      ]
+    },
+    "M72_0": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et",
+      "pad": [
+        585,
+        0,
+        1843
+      ]
+    },
+    "RifleAmmo_0": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et",
+      "pad": [
+        585,
+        0,
+        1845
+      ]
+    },
+    "MGAmmo_0": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et",
+      "pad": [
+        585,
+        0,
+        1847
+      ]
+    },
+    "M72_1": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et",
+      "pad": [
+        586,
+        0,
+        1843
+      ]
+    },
+    "RifleAmmo_1": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et",
+      "pad": [
+        586,
+        0,
+        1845
+      ]
+    },
+    "MGAmmo_1": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et",
+      "pad": [
+        586,
+        0,
+        1847
+      ]
+    },
+    "M72_2": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et",
+      "pad": [
+        587,
+        0,
+        1843
+      ]
+    },
+    "RifleAmmo_2": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et",
+      "pad": [
+        587,
+        0,
+        1845
+      ]
+    },
+    "MGAmmo_2": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et",
+      "pad": [
+        587,
+        0,
+        1847
+      ]
+    },
+    "M72_3": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et",
+      "pad": [
+        588,
+        0,
+        1843
+      ]
+    },
+    "RifleAmmo_3": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et",
+      "pad": [
+        588,
+        0,
+        1845
+      ]
+    },
+    "MGAmmo_3": {
+      "station": "weapons",
+      "prefab": "Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et",
+      "pad": [
+        588,
+        0,
+        1847
+      ]
+    }
+  },
+  "stations": {
+    "bay": [
+      584.0,
+      0.0,
+      2582.0
+    ],
+    "drive": [
+      586.0,
+      0.0,
+      2650.0
+    ],
+    "service": [
+      664.0,
+      0.0,
+      2574.0
+    ],
+    "range": [
+      884.0,
+      0.0,
+      2432.0
+    ],
+    "damage": [
+      580.0,
+      0.0,
+      1865.0
+    ],
+    "hostile": [
+      1770.0,
+      0.0,
+      1370.0
+    ],
+    "pad-OLD-CAMO": [
+      592.0,
+      0.0,
+      2597.0
+    ],
+    "pad-OLD-CHARCOAL": [
+      612.0,
+      0.0,
+      2597.0
+    ],
+    "pad-NEW-CAMO": [
+      592.0,
+      0.0,
+      2619.0
+    ],
+    "pad-NEW-CHARCOAL": [
+      612.0,
+      0.0,
+      2619.0
+    ],
+    "G01 START": [
+      590.0,
+      0.0,
+      2660.0
+    ],
+    "G02 50m REVERSE LIMIT": [
+      590.0,
+      0.0,
+      2710.0
+    ],
+    "G03 150m BRAKE": [
+      590.0,
+      0.0,
+      2810.0
+    ],
+    "G04 200m STOP / RIGHT": [
+      590.0,
+      0.0,
+      2860.0
+    ],
+    "G05 RIGHT LOOP": [
+      670.0,
+      0.0,
+      2860.0
+    ],
+    "G06 LEFT S BEND": [
+      670.0,
+      0.0,
+      2780.0
+    ],
+    "G07 TERRAIN SPUR": [
+      750.0,
+      0.0,
+      2780.0
+    ],
+    "G08 CREST / TURN": [
+      790.0,
+      0.0,
+      2730.0
+    ],
+    "G09 RETURN": [
+      750.0,
+      0.0,
+      2650.0
+    ],
+    "G10 SERVICE / BAY": [
+      670.0,
+      0.0,
+      2640.0
+    ],
+    "AUDIO-5m": [
+      605.0,
+      0.0,
+      2750.0
+    ],
+    "AUDIO-30m": [
+      630.0,
+      0.0,
+      2750.0
+    ],
+    "AUDIO-100m": [
+      700.0,
+      0.0,
+      2750.0
+    ],
+    "T100": [
+      999.027,
+      0.0,
+      2444.083
+    ],
+    "T300": [
+      1199.269,
+      0.0,
+      2437.073
+    ],
+    "T500": [
+      1400.0,
+      0.0,
+      2458.0
+    ],
+    "T800": [
+      1698.051,
+      0.0,
+      2513.805
+    ],
+    "T1000": [
+      1890.268,
+      0.0,
+      2597.173
+    ]
+  },
+  "gates": {
+    "G01 START": [
+      600.0,
+      0.0,
+      2660.0
+    ],
+    "G02 50m REVERSE LIMIT": [
+      600.0,
+      0.0,
+      2710.0
+    ],
+    "G03 150m BRAKE": [
+      600.0,
+      0.0,
+      2810.0
+    ],
+    "G04 200m STOP / RIGHT": [
+      600.0,
+      0.0,
+      2860.0
+    ],
+    "G05 RIGHT LOOP": [
+      680.0,
+      0.0,
+      2860.0
+    ],
+    "G06 LEFT S BEND": [
+      680.0,
+      0.0,
+      2780.0
+    ],
+    "G07 TERRAIN SPUR": [
+      760.0,
+      0.0,
+      2780.0
+    ],
+    "G08 CREST / TURN": [
+      800.0,
+      0.0,
+      2730.0
+    ],
+    "G09 RETURN": [
+      760.0,
+      0.0,
+      2650.0
+    ],
+    "G10 SERVICE / BAY": [
+      680.0,
+      0.0,
+      2640.0
+    ],
+    "RANGE FIRE EAST": [
+      900.0,
+      0.0,
+      2450.0
+    ],
+    "DAMAGE FIRE SOUTH": [
+      610,
+      0,
+      1840
+    ]
+  },
+  "targets": [
+    {
+      "id": "T100",
+      "pad": [
+        999.027,
+        0.0,
+        2436.083
+      ],
+      "nominal": 100
+    },
+    {
+      "id": "T300",
+      "pad": [
+        1199.269,
+        0.0,
+        2429.073
+      ],
+      "nominal": 300
+    },
+    {
+      "id": "T500",
+      "pad": [
+        1400.0,
+        0.0,
+        2450.0
+      ],
+      "nominal": 500
+    },
+    {
+      "id": "T800",
+      "pad": [
+        1698.051,
+        0.0,
+        2505.805
+      ],
+      "nominal": 800
+    },
+    {
+      "id": "T1000",
+      "pad": [
+        1890.268,
+        0.0,
+        2589.173
+      ],
+      "nominal": 1000
+    }
+  ],
+  "stocks": [
+    "GPG_Ammo",
+    "GPG_Repair",
+    "GPG_DamageAmmo"
+  ],
+  "unboundArt": [
+    "NEW-CAMO",
+    "NEW-CHARCOAL"
+  ],
+  "acceptance": "STARTUP_AND_TELEMETRY_CONSISTENCY_ONLY; all station/gameplay/visual acceptance NOT_TESTED"
+}

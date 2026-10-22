@@ -1,0 +1,313 @@
+{
+  "status": "PASS_OFFLINE_SYNTHETIC_AND_SOURCE_ONLY",
+  "tests": 75,
+  "results": [
+    {
+      "name": "valid synthetic source-bound startup",
+      "status": "PASS"
+    },
+    {
+      "name": "native acceptance stays NOT_TESTED",
+      "status": "PASS"
+    },
+    {
+      "name": "false/true boolean formatting supported",
+      "status": "PASS"
+    },
+    {
+      "name": "missing READY",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate READY",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate STAGED",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong source hash",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong registry hash",
+      "status": "PASS"
+    },
+    {
+      "name": "resource failure",
+      "status": "PASS"
+    },
+    {
+      "name": "staging false",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong object count",
+      "status": "PASS"
+    },
+    {
+      "name": "unrequested spawn failure",
+      "status": "PASS"
+    },
+    {
+      "name": "unrequested resource failure",
+      "status": "PASS"
+    },
+    {
+      "name": "unrequested command",
+      "status": "PASS"
+    },
+    {
+      "name": "unrequested reset",
+      "status": "PASS"
+    },
+    {
+      "name": "unrequested respawn",
+      "status": "PASS"
+    },
+    {
+      "name": "hostile startup forbidden",
+      "status": "PASS"
+    },
+    {
+      "name": "NEW art not silently bound",
+      "status": "PASS"
+    },
+    {
+      "name": "object missing",
+      "status": "PASS"
+    },
+    {
+      "name": "object duplicated",
+      "status": "PASS"
+    },
+    {
+      "name": "object epoch differs",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong prefab",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong native x/z",
+      "status": "PASS"
+    },
+    {
+      "name": "survey absent",
+      "status": "PASS"
+    },
+    {
+      "name": "survey duplicated",
+      "status": "PASS"
+    },
+    {
+      "name": "inconsistent slant",
+      "status": "PASS"
+    },
+    {
+      "name": "fraction exceeds one",
+      "status": "PASS"
+    },
+    {
+      "name": "nonfinite fraction",
+      "status": "PASS"
+    },
+    {
+      "name": "native review marker must remain NT",
+      "status": "PASS"
+    },
+    {
+      "name": "compiled marker is not compile proof",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong addons",
+      "status": "PASS"
+    },
+    {
+      "name": "out of order",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong stock count",
+      "status": "PASS"
+    },
+    {
+      "name": "missing station",
+      "status": "PASS"
+    },
+    {
+      "name": "bad grade",
+      "status": "PASS"
+    },
+    {
+      "name": "blocked terrain ray is telemetry not usable LOS",
+      "status": "PASS"
+    },
+    {
+      "name": "signed downhill terrain grade from Atan2 source",
+      "status": "PASS"
+    },
+    {
+      "name": "native errors retained before and after READY",
+      "status": "PASS"
+    },
+    {
+      "name": "finite vector <1, 2, 3>",
+      "status": "PASS"
+    },
+    {
+      "name": "finite vector (1 2 3)",
+      "status": "PASS"
+    },
+    {
+      "name": "finite vector \"1 2 3\"",
+      "status": "PASS"
+    },
+    {
+      "name": "finite vector 1 2 3",
+      "status": "PASS"
+    },
+    {
+      "name": "nonfinite vector",
+      "status": "PASS"
+    },
+    {
+      "name": "fresh exact console binding",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong profile",
+      "status": "PASS"
+    },
+    {
+      "name": "stale console",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate JSON keys",
+      "status": "PASS"
+    },
+    {
+      "name": "infinite JSON float",
+      "status": "PASS"
+    },
+    {
+      "name": "censored result cannot invent PASS",
+      "status": "PASS"
+    },
+    {
+      "name": "hold fail closed {'status': 'user_runtime_hold_no_native_admission'}",
+      "status": "PASS"
+    },
+    {
+      "name": "hold fail closed {'status': 'released', 'userRuntimeHold': {'active': True}}",
+      "status": "PASS"
+    },
+    {
+      "name": "hold fail closed {'status': 'released', 'userRuntimeHold': {}}",
+      "status": "PASS"
+    },
+    {
+      "name": "hold fail closed {'status': 'released', 'userRuntimeHold': None}",
+      "status": "PASS"
+    },
+    {
+      "name": "inactive hold record",
+      "status": "PASS"
+    },
+    {
+      "name": "complete source closure1122",
+      "status": "PASS"
+    },
+    {
+      "name": "pending compile adoption blocks",
+      "status": "PASS"
+    },
+    {
+      "name": "future command is bounded exact existing wrapper",
+      "status": "PASS"
+    },
+    {
+      "name": "one original guarded normal close",
+      "status": "PASS"
+    },
+    {
+      "name": "preserved guard User runtime hold active; no native admission",
+      "status": "PASS"
+    },
+    {
+      "name": "preserved guard User runtime hold active at atomic claim; no ",
+      "status": "PASS"
+    },
+    {
+      "name": "preserved guard User runtime hold active in owned loop; prese",
+      "status": "PASS"
+    },
+    {
+      "name": "preserved guard User runtime hold active before close; preser",
+      "status": "PASS"
+    },
+    {
+      "name": "preserved guard User runtime hold active during close wait; p",
+      "status": "PASS"
+    },
+    {
+      "name": "preserved guard User runtime hold active at release; preserve",
+      "status": "PASS"
+    },
+    {
+      "name": "existing identity/lease unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "prelaunch hold check",
+      "status": "PASS"
+    },
+    {
+      "name": "attachment preserves status-only hold",
+      "status": "PASS"
+    },
+    {
+      "name": "narrow stage exactly two addon projects",
+      "status": "PASS"
+    },
+    {
+      "name": "no broad consolidated root discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "no force termination added",
+      "status": "PASS"
+    },
+    {
+      "name": "explicit addon roots pinned",
+      "status": "PASS"
+    },
+    {
+      "name": "Python syntax adapter.py",
+      "status": "PASS"
+    },
+    {
+      "name": "Python syntax evidence.py",
+      "status": "PASS"
+    },
+    {
+      "name": "Python syntax prepare.py",
+      "status": "PASS"
+    },
+    {
+      "name": "Python syntax selftest.py",
+      "status": "PASS"
+    }
+  ],
+  "adapterMainInvoked": false,
+  "popenInvoked": false,
+  "wrapperInvoked": false,
+  "nativeInvoked": false,
+  "hold": "UNCHANGED",
+  "nativeCompile": "NOT_TESTED",
+  "nativeGameplay": "NOT_TESTED"
+}

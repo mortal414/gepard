@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "status": "NOT_TESTED",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+  "compileRun": null,
+  "compilerResultSHA256": null,
+  "compilerConsoleSHA256": null,
+  "closures": [],
+  "reason": "No native action allowed under explicit user runtime hold. Exact GPG+shared runtime compile/adoption pending; old HUD compile is not transferable."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "VERIFIED_SELECTED_SOURCE_ARCHIVE_ONLY",
+  "originalRoot": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022",
+  "manifestSHA256": "05217d8f6751c1184bab09573a27349e67bdb1dd3ef89e595526ed29e6916d90",
+  "selectedFiles": 22,
+  "executableBindingsRemainAtOriginalCLocation": true,
+  "beforeRelocatedExecution": "Regenerate and review all paths/pins, static-plan and obtain real compile/adoption proof; explicit user resume/admission required.",
+  "runtime": "NOT_TESTED"
+}

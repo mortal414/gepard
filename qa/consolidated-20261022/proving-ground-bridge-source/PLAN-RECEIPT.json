@@ -1,0 +1,36 @@
+{
+  "status": "STATIC_AUTHORITATIVE_PLAN_AND_COMPLETE_SOURCE_PINS_PASS_NATIVE_NOT_TESTED",
+  "jobSHA256": "e49b1860cccbd048c57a4c375d1306b367a393c0aadf158fce79e78fff09aa8a",
+  "planSHA256": "687c5495c2696dab5693240b15d4dd9a244eeaa0233f5026ebce6ddbf47897ee",
+  "coordinatorSHA256": "7dddb20a91f98f8613819e69dd68076f6e80b50cb80fbeb1b809609831b75eac",
+  "projectGuid": "A76A420022000001",
+  "dependencies": [
+    "A76A420022000001",
+    "58D0FB3206B6F859",
+    "5614BBCCBB55ED1C",
+    "D561AD08932E7B40"
+  ],
+  "completeClosures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\QA_SOURCE_MANIFEST.json",
+      "sha256": "8e0e38ec254f635fc87206bba40a63d51dfa98dd3667eb026eb22f1a76ed6181",
+      "files": 10
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\GEPARD_SOURCE_MANIFEST.json",
+      "sha256": "0c71b18a05dc4731c9a9e7f089f1dd3f367504f28efbc84d0feaf40a0e829561",
+      "files": 1112
+    }
+  ],
+  "registryMutated": false,
+  "nativeStarted": false,
+  "adapterMainInvoked": false,
+  "wrapperInvoked": false,
+  "userHold": "UNCHANGED; explicit user resume required",
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED",
+  "newArt": "UNBOUND",
+  "optionalSmokeAudio": "EXCLUDED"
+}
