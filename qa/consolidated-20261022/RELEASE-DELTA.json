@@ -1,0 +1,22 @@
+{
+  "release": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "files": 1112,
+  "changed": [
+    "scripts/Game/GEP/GEP_ControlHints580.c",
+    "scripts/Game/GEP/GEP_CrewActions579.c",
+    "scripts/Game/GEP/GEP_DriverStation.c",
+    "scripts/Game/GEP/GEP_GunStatus.c",
+    "scripts/Game/GEP/GEP_PlainSight680.c",
+    "scripts/Game/GEP/GEP_Presentation680.c",
+    "scripts/Game/GEP/GEP_RadarSystem.c"
+  ],
+  "unchanged": 1105,
+  "drivingAndInputConfigurationPins": {
+    "Prefabs/Vehicles/GEP_MobileCarrier.et": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543",
+    "Prefabs/Vehicles/GEP_WheeledMobility101.et": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912",
+    "Prefabs/Vehicles/GEP_TrackedMobility.et": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521",
+    "Prefabs/Weapons/GEP_VehicleTurret.et": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed",
+    "Configs/System/chimeraInputCommon.conf": "2a902cefabf0dce25cb80182bd1d830c1aa785ad565b2912320eba56159a6aeb"
+  },
+  "interpretation": "Static byte preservation of accepted configs; runtime compatibility remains untested, particularly with optional WCS globals"
+}

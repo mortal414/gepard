@@ -1,0 +1,49 @@
+{
+  "status": "SOURCE_PLAN_ONLY_NATIVE_HELD",
+  "cases": [
+    {
+      "id": "C01-closure-startup",
+      "expect": "One Gepard GUID, exact dependency closure, compile/native serialized world load, full source/build pin and clean owned exit"
+    },
+    {
+      "id": "C02-HUD",
+      "expect": "Actual healthy local gunner/ADS render, center/DPI/German glyphs;2x-8x/aspects; native group/ammo/range updates and lifecycle cleanup"
+    },
+    {
+      "id": "C03-art",
+      "expect": "OLD/NEW functional articulation, recoil/firing, wheels/tracks/suspension and hatch/crew/periscope clearances; both skins; no accepted physics changes"
+    },
+    {
+      "id": "C04-drive-compatibility",
+      "expect": "Actual accepted WHEELED solver, native powered forward/reverse/braking/turning and grounded stop dwell on same lane; do not reuse deprecated tracked getters/controller"
+    },
+    {
+      "id": "C05-crew-cannons",
+      "expect": "Healthy native traverse and both-cannon ammunition decrease; exit/reentry and restored firing; input positive control"
+    },
+    {
+      "id": "C06-smoke-conditional",
+      "expect": "Only after compile: single8->7 and actual flight/impact/cloud, then full8->0/eight entities/empty control, ordinary roles/cooldown; genuine rearm and finite supply conservation"
+    },
+    {
+      "id": "C07-audio-conditional",
+      "expect": "Trace stock rolling branch; only proven selective adaptation; actual movement-linked recorded playback, idle silence, coast/stop, retained skid/dampers and lifecycle"
+    },
+    {
+      "id": "C08-stations-reset",
+      "expect": "Native finite fuel/repair/ammunition supply behavior; WCS supplies-enabled/consumer gates if selected; fresh owned subject reset and no unrelated entity deletion"
+    },
+    {
+      "id": "C09-clean-package",
+      "expect": "Fresh nonempty same-buildgproj/pak/rdb hashes, explicit dependencies, package-backed proving-ground load and same feature checks; no source fallback"
+    }
+  ],
+  "evidence": "Raw native markers, actual positions/angles/ammo/resources, full native pixels and loopback where relevant, complete source/build manifests, exact process ownership and closure receipts",
+  "notAutomatedAcceptance": [
+    "Marco visual preference",
+    "optic readability/obstruction judgment",
+    "smoke usefulness/coverage",
+    "sound quality",
+    "MP/JIP/dedicated unless separately exercised"
+  ]
+}

@@ -1,0 +1,10 @@
+One consolidated session — provisional NEW-feature checklist, not a ready-to-launch claim.
+
+Start at the labeled version row. Labels must state exactly which exterior, optic, smoke/audio modules and source commit each subject contains.
+1. OLD versus V11: judge casing/detail/materials in both skins, then inspect the functional NEW turret/guns/hatches after automated dynamic checks pass.
+2. Approved optic: overall match/readability and target view at normal zoom steps; actual cannon selection/count/bar, range and relative turret/elevation instruments.
+3. Smoke only if qualified/included: deployment pattern, concealment and duration, then the genuine rearm stop; exclude failed prototype cases explicitly.
+4. Track audio only if audible/qualified/included: matched short baseline/NEW route, cabin/exterior, coast and stop; judge cadence/tone.
+5. Use the reusable course, targets, damage weapons and fuel/repair/rearm/reset stations as needed; routine regression chores are automated beforehand.
+
+No native session starts until the user explicitly resumes. No update is published tonight. Whole task acceptance remains pending.

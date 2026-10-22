@@ -1,0 +1,79 @@
+{
+  "status": "SOURCE_ASSEMBLY_PENDING_WORKER_HANDOFFS_AND_NATIVE_QUALIFICATION",
+  "createdUtc": "2026-10-22T00:55:37.066743+00:00",
+  "goal": "One complete consolidated user session tomorrow, followed by update only if accepted; no piecemeal demos tonight",
+  "sourceRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022",
+  "branch": "sprint/consolidated-proving-ground-20261022",
+  "seedCommit": "66bcb81ea7aec6d98478a0b2fbab26863e9bcc6f",
+  "baselineRelease": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+  "nativeHold": {
+    "active": true,
+    "reason": "User using machine",
+    "resume": "Explicit user resume required",
+    "ownedAutomatedNativeRun": null,
+    "artHandback": "2026-10-22T00:46:19.3092117Z"
+  },
+  "modules": {
+    "HUD": {
+      "GEP": [
+        "005",
+        "006",
+        "008"
+      ],
+      "sourceIncluded": true,
+      "sourceChecks": 72,
+      "nativeCompile": "NOT_TESTED",
+      "nativeRender": "NOT_TESTED",
+      "userAcceptance": "PENDING"
+    },
+    "artV11": {
+      "GEP": [
+        "017"
+      ],
+      "sourceIncluded": false,
+      "owner": "Separate art task",
+      "staticDisplayEvidence": "Eight imports/four display checks passed per owner",
+      "functionalPatch": "PENDING_OWNER_HANDOFF",
+      "dynamicChecks": "NOT_TESTED",
+      "userAcceptance": "PENDING"
+    },
+    "smoke": {
+      "GEP": [
+        "015"
+      ],
+      "sourceIncluded": false,
+      "status": "EXCLUDED_UNTIL_NATIVE_QUALIFIED",
+      "stage": "D:\\ArmaProjects\\Gepard-WCSSmoke-20261022",
+      "dependency": "WCS_Armaments629B2BA37EFFD5778.4.0",
+      "permissionGate": "No blanket blocker for audited original dependency-only design"
+    },
+    "trackAudio": {
+      "GEP": [
+        "033"
+      ],
+      "sourceIncluded": false,
+      "status": "EXCLUDED_UNTIL_WORKING_REFERENCE_AND_AUDIBLE_QUALIFICATION",
+      "stage": "D:\\ArmaProjects\\Gepard-StockRollTrace-20261022",
+      "customController": "FROZEN_OFF_QUEUE"
+    }
+  },
+  "provingGround": {
+    "sourceOwnerRoot": "D:\\ArmaProjects\\Gepard-ProvingGround-20261022",
+    "project": null,
+    "world": null,
+    "handoff": "PENDING_SOURCE_WORKER",
+    "requirements": "D:\\ArmaProjects\\Gepard-ProvingGround-20261022\\FUNCTIONAL-INTEGRATION-REQUIREMENTS.json",
+    "duplicateWorldBuilding": false
+  },
+  "selectedRuntimeDependencies": [
+    "58D0FB3206B6F859 base Reforger"
+  ],
+  "privateBuild": {
+    "compile": "NOT_TESTED",
+    "packageTrio": "NOT_BUILT",
+    "cleanPackageLoad": "NOT_TESTED"
+  },
+  "releaseFilesChanged": false,
+  "published": false,
+  "newAcceptedCheckboxes": 0
+}
