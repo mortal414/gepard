@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "mode": "single",
+  "scope": "OFFLINE_NATIVE_TELEMETRY_AND_CAPTURE_AVAILABILITY_ONLY",
+  "runRoot": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP015-WCS-Analysis-20261022\\no-native-run",
+  "profile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP015-WCS-Analysis-20261022\\no-native-run\\profile",
+  "console": null,
+  "deterministicTelemetry": {
+    "status": "NOT_TESTED",
+    "checks": {
+      "inputSchemaValid": {
+        "status": "NOT_TESTED",
+        "detail": {
+          "errors": [],
+          "discoveryParseErrors": []
+        }
+      },
+      "oneAuthorizedProgramRequest": {
+        "status": "NOT_TESTED"
+      },
+      "settledCrewInitialEight": {
+        "status": "NOT_TESTED"
+      },
+      "terminalProgramRecorded": {
+        "status": "NOT_TESTED"
+      },
+      "terminalScopeMatches": {
+        "status": "NOT_TESTED"
+      },
+      "oneSuccessfulDiagnosticTerminal": {
+        "status": "NOT_TESTED"
+      },
+      "terminalAmmoMatches": {
+        "status": "NOT_TESTED",
+        "detail": {
+          "expected": 7,
+          "observed": null
+        }
+      },
+      "terminalSettledCrew": {
+        "status": "NOT_TESTED"
+      },
+      "uniqueOrderedSamples": {
+        "status": "NOT_TESTED"
+      },
+      "ammoReachesAndRemainsExpected": {
+        "status": "NOT_TESTED"
+      },
+      "ammoNeverIncreases": {
+        "status": "NOT_TESTED"
+      },
+      "exactUniqueNativeLaunches": {
+        "status": "NOT_TESTED",
+        "detail": {
+          "expected": 1,
+          "loggedIds": []
+        }
+      },
+      "allKnownCountsBounded": {
+        "status": "NOT_TESTED"
+      },
+      "launchOriginsNearFixture": {
+        "status": "NOT_TESTED",
+        "detail": {
+          "fixtureOrigin": [
+            600.0,
+            0.0,
+            2600.0
+          ],
+          "maximumDistance": 200.0
+        }
+      },
+      "allObservedPositionsNearFixture": {
+        "status": "NOT_TESTED",
+        "detail": []
+      },
+      "readbackIdentityMatchesNativeLaunches": {
+        "status": "NOT_TESTED"
+      },
+      "actualMotionForEveryPayload": {
+        "status": "NOT_TESTED",
+        "detail": {
+          "minComputedTravel": 1.0,
+          "minHorizontalDistance": 1.0,
+          "tracks": []
+        }
+      },
+      "singleHasNoEmptyOrSecondProgram": {
+        "status": "NOT_TESTED"
+      },
+      "noNativeScriptOrFatalErrors": {
+        "status": "NOT_TESTED",
+        "detail": []
+      }
+    }
+  },
+  "captureAvailability": {
+    "status": "NOT_TESTED",
+    "frames": [
+      {
+        "index": 1,
+        "expectedSeconds": 0.25,
+        "status": "NOT_TESTED",
+        "files": []
+      },
+      {
+        "index": 2,
+        "expectedSeconds": 1,
+        "status": "NOT_TESTED",
+        "files": []
+      },
+      {
+        "index": 3,
+        "expectedSeconds": 3,
+        "status": "NOT_TESTED",
+        "files": []
+      },
+      {
+        "index": 4,
+        "expectedSeconds": 5,
+        "status": "NOT_TESTED",
+        "files": []
+      },
+      {
+        "index": 5,
+        "expectedSeconds": 12,
+        "status": "NOT_TESTED",
+        "files": []
+      },
+      {
+        "index": 6,
+        "expectedSeconds": 20,
+        "status": "NOT_TESTED",
+        "files": []
+      },
+      {
+        "index": 7,
+        "expectedSeconds": 30,
+        "status": "NOT_TESTED",
+        "files": []
+      },
+      {
+        "index": 8,
+        "expectedSeconds": 40,
+        "status": "NOT_TESTED",
+        "files": []
+      }
+    ],
+    "requestTelemetry": [],
+    "pixelContentReviewed": false
+  },
+  "lifecycle": {
+    "status": "NOT_TESTED",
+    "scope": "COORDINATOR_RECEIPT_ONLY"
+  },
+  "inputs": [],
+  "impact": "NEEDS_NATIVE_OBSERVATION_OR_PIXEL_REVIEW",
+  "visibleCloud": "NEEDS_PIXEL_REVIEW",
+  "coverageDurationPlacement": "NEEDS_USER_TEST",
+  "rearmRolesCooldownMP": "NOT_TESTED",
+  "overallFeatureReadiness": "NEEDS_USER_TEST",
+  "limits": [
+    "HasLaunched plus changing valid native positions supports observed flight motion; it does not establish safe muzzle clearance or impact.",
+    "A capture file/header proves availability only, never visible cloud or useful coverage.",
+    "A motion plateau or fuse/TTL value is not automatically an impact/cloud pass.",
+    "No compilation/source identity qualification is inferred; pair this output with the exact staged manifest and fresh native compile receipt.",
+    "If evidence is missing or malformed the corresponding checks remain NOT_TESTED or FAIL; no inferred successful delivery."
+  ]
+}

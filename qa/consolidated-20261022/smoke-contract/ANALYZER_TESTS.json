@@ -1,0 +1,11 @@
+{
+  "testsRun": 16,
+  "result": "Ran16tests,OK; observed in tool output",
+  "scope": "SYNTHETIC_PARSER_AND_FALSE_POSITIVE_TESTS_ONLY_NOT_NATIVE_EVIDENCE",
+  "command": "Python311/python.exe test_analyzer.py",
+  "noEvidenceControl": "Missing console/JSON =>telemetry,captures,lifecycle NOT_TESTED;visibleCloud NEEDS_PIXEL_REVIEW",
+  "analyzerSHA256": "90019bc332dfa06c6aee5e143d269796314ca25a7d12ffbf8640efd2ecef5d4a",
+  "testSHA256": "3ee765b0ea90bd0d93fb48d644c53abb3aeeb62eba174aac3b1461aad0020684",
+  "nativeRuns": 0,
+  "status": "PASS"
+}

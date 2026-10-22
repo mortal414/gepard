@@ -1,0 +1,455 @@
+{
+  "schema": 1,
+  "status": "GENUINE_INSTALLED_REFERENCE_SOURCE_VERIFIED_NATIVE_NOT_TESTED",
+  "checkedUTC": "2026-10-22T00:54:30.425Z",
+  "dependency": {
+    "id": "629B2BA37EFFD577",
+    "version": "8.4.0",
+    "extraModule": "None indicated for these references"
+  },
+  "station": {
+    "guid": "ECB8E313DFBD3415",
+    "path": "Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et",
+    "WCSComponent": "WCS_Armament_RearmSupportStationComponent",
+    "componentId": "648D00E7903CB1D0",
+    "stationType": "WCS_REARM",
+    "rangeMetres": 9,
+    "priority": "HIGH",
+    "resourceComponentId": "648D00E7EEF5F62D",
+    "consumerClass": "SCR_ResourceConsumerServicePoint",
+    "consumerId": "648D00E7D726A703",
+    "consumerGenerator": "DEFAULT",
+    "resourceType": "SUPPLIES",
+    "rights": "ALL",
+    "storageType": "STORED",
+    "supplySearchRangeMetres": 50,
+    "builtInSupplyStorage": "{CA3B72D3341FEE40}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_01.et",
+    "initialAggregate": "MEASURE_NATIVE;composition contains a virtual supply container and child supply stacks;do not assume zero or40"
+  },
+  "fallbackFiniteSupplySource": {
+    "guid": "D07C2D4844753F76",
+    "path": "Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_storage.et",
+    "nativeContainer": "SCR_ResourceContainer",
+    "resourceComponentId": "5D247A59598D71AE",
+    "containerId": "5D3CDAE74F1A6127",
+    "inheritedCurrent": 40,
+    "inheritedCapacity": 40,
+    "storageType": "STORED",
+    "decayEnabled": false,
+    "sourceScope": "Initial inherited serialized configuration;native container registration/value remains to verify"
+  },
+  "alternateVehicleStation": {
+    "guid": "402274CE2FB0720D",
+    "path": "Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_ammo_box.et",
+    "WCSComponent": "WCS_Armament_RearmSupportStationComponent",
+    "isVehicle": true,
+    "priority": "MEDIUM",
+    "caveat": "Use in its proper M923A1 vehicle assembly;standalone ammo-box spawn is not qualified"
+  },
+  "supplyGate": {
+    "global": "SCR_BaseGameMode.IsResourceTypeEnabled(EResourceType.SUPPLIES)",
+    "component": "SCR_ResourceComponent.IsResourceTypeEnabled(SUPPLIES)",
+    "station": "AreSuppliesEnabled()",
+    "requiredConsumer": "GetResourceConsumer()!=null",
+    "available": "GetMaxAvailableSupplies()",
+    "exactSourceReadback": "SCR_ResourceComponent.GetContainer(EResourceType.SUPPLIES).GetResourceValue()",
+    "dangerousFalsePositive": "Base HasEnoughSupplies/OnConsumeSuppliesServer return success if consumer missing or supplies disabled. Reject that state explicitly;int.MAX from GetMaxAvailableSupplies is not proven supply backing.",
+    "actualConsumption": "WCS OnExecutedServer consumes through the native resource consumer before rearm action.ExecuteServer;that action refills first dispenser with room,one round per iteration under candidate config,one supply charged."
+  },
+  "knownRDBCrossChecks": {
+    "Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et": "F8EE668DCA4ACE4E",
+    "Prefabs/Weapons/Core/Armament_Dispenser_Base.et": "FF458505C9D5894C",
+    "Prefabs/Weapons/Core/Configs/Actions/WCS_Armament_RearmDispenserAtRepairStationAction.conf": "5A895912918C8787",
+    "Prefabs/Weapons/Core/Configs/FireModes/WCS_Armament_SmokeFullRippleFireMode.conf": "AEEDF8C46942A598"
+  },
+  "resources": [
+    {
+      "provider": "WCS_Armaments8.4.0",
+      "pack": "C:\\Users\\marco\\Documents\\My Games\\ArmaReforger\\addons\\WCS_Armaments_629B2BA37EFFD577\\data.pak",
+      "packBytes": 441631740,
+      "packModifiedUtc": "2026-10-17T18:21:43.961Z",
+      "headerHex": "030001005e511dcb212b621040555c0a525b015d0701045700000000",
+      "indexBytes": 105945,
+      "indexSha256": "196255ea12ba4cca9cc81b37fe71fca1a4577d8116c0cc5d41ae061016a9a9f8",
+      "resource": "Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et",
+      "offset": 361532429,
+      "storedBytes": 883,
+      "rawBytes": 883,
+      "method": "00000000",
+      "sourceSha256": "45835806c937b3d0e5980f232d302484eec937dbc56e28ddec28656c944cc1d3",
+      "rdb": {
+        "guid": "ECB8E313DFBD3415",
+        "offset": 76517,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et",
+      "offset": 1456842498,
+      "storedBytes": 7187,
+      "rawBytes": 7187,
+      "method": "00000000",
+      "sourceSha256": "55a4cfd1fbb0dc8f129ed22d4f421274537c8b22fb49ec40dc92b661e764f06f",
+      "rdb": {
+        "guid": "ECB8E313DFBD3415",
+        "offset": 6061553,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "WCS_Armaments8.4.0",
+      "pack": "C:\\Users\\marco\\Documents\\My Games\\ArmaReforger\\addons\\WCS_Armaments_629B2BA37EFFD577\\data.pak",
+      "packBytes": 441631740,
+      "packModifiedUtc": "2026-10-17T18:21:43.961Z",
+      "headerHex": "030001005e511dcb212b621040555c0a525b015d0701045700000000",
+      "indexBytes": 105945,
+      "indexSha256": "196255ea12ba4cca9cc81b37fe71fca1a4577d8116c0cc5d41ae061016a9a9f8",
+      "resource": "Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_Conflict_US_01.et",
+      "offset": 361530662,
+      "storedBytes": 884,
+      "rawBytes": 884,
+      "method": "00000000",
+      "sourceSha256": "bd1d9f1044ef03f3e9a0d4d036caed4cfca5ca9f37b9a1dcabec46f19aec9db0",
+      "rdb": {
+        "guid": "ECB8E313DFBD3416",
+        "offset": 76299,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_Conflict_US_01.et",
+      "offset": 1456817528,
+      "storedBytes": 8062,
+      "rawBytes": 8062,
+      "method": "00000000",
+      "sourceSha256": "12dc025bf4cf6d17f291e0dc36f10e9b3af060d30b5e5aee4817937d6686720d",
+      "rdb": {
+        "guid": "ECB8E313DFBD3416",
+        "offset": 6061235,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "WCS_Armaments8.4.0",
+      "pack": "C:\\Users\\marco\\Documents\\My Games\\ArmaReforger\\addons\\WCS_Armaments_629B2BA37EFFD577\\data.pak",
+      "packBytes": 441631740,
+      "packModifiedUtc": "2026-10-17T18:21:43.961Z",
+      "headerHex": "030001005e511dcb212b621040555c0a525b015d0701045700000000",
+      "indexBytes": 105945,
+      "indexSha256": "196255ea12ba4cca9cc81b37fe71fca1a4577d8116c0cc5d41ae061016a9a9f8",
+      "resource": "Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_ammo_box.et",
+      "offset": 361748102,
+      "storedBytes": 258,
+      "rawBytes": 258,
+      "method": "00000000",
+      "sourceSha256": "fb1810a1c0e4ab707d88fda1367bf7e6319352dfbcee80e2b3f253cb49330554",
+      "rdb": {
+        "guid": "402274CE2FB0720D",
+        "offset": 100333,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_ammo_box.et",
+      "offset": 1473840374,
+      "storedBytes": 1744,
+      "rawBytes": 1744,
+      "method": "00000000",
+      "sourceSha256": "d195ae8cf9c342005a7d7e0d4144023ba839f5261b5fed5c3d50609cf9971200",
+      "rdb": {
+        "guid": "402274CE2FB0720D",
+        "offset": 7426308,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Vehicles/Core/Vehicle_AmmoBox_Base.et",
+      "offset": 1472901888,
+      "storedBytes": 5926,
+      "rawBytes": 5926,
+      "method": "00000000",
+      "sourceSha256": "a656e897024c26ba960a51010d71cf6929c0108ab6fcc1c9476b94db973c111a",
+      "rdb": {
+        "guid": "6C6D4CF5F88AE48D",
+        "offset": 7375323,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_01.et",
+      "offset": 1455832848,
+      "storedBytes": 1761,
+      "rawBytes": 1761,
+      "method": "00000000",
+      "sourceSha256": "25ebd621cedc2b7301570a2606d47176be714c93af4757b88ca7b3b274399a07",
+      "rdb": {
+        "guid": "CA3B72D3341FEE40",
+        "offset": 6041664,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_storage.et",
+      "offset": 1459721469,
+      "storedBytes": 167,
+      "rawBytes": 167,
+      "method": "00000000",
+      "sourceSha256": "598106f3bc04d43a6c6480cbd8be03419d92b556f497d410f2fff9b30ae5ef25",
+      "rdb": {
+        "guid": "D07C2D4844753F76",
+        "offset": 6345587,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_storage_base.et",
+      "offset": 1459721636,
+      "storedBytes": 847,
+      "rawBytes": 847,
+      "method": "00000000",
+      "sourceSha256": "78c2b54d34f371640b0ab101fd7006699a894eecd4f2e413a9232575c7c4b6a8",
+      "rdb": {
+        "guid": "ACE75F726BCC4944",
+        "offset": 6345699,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Base.et",
+      "offset": 1459717096,
+      "storedBytes": 1740,
+      "rawBytes": 1740,
+      "method": "00000000",
+      "sourceSha256": "8c1391f98ef2795a4fd7f9b84ea00b6c4c38958c16c219d2e9dec9b659b37241",
+      "rdb": {
+        "guid": "412CBCBED417FB62",
+        "offset": 6345248,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Props/Core/SupplyBox_Base.et",
+      "offset": 1458343923,
+      "storedBytes": 2323,
+      "rawBytes": 2323,
+      "method": "00000000",
+      "sourceSha256": "3619e93e379af3d0b3c25005d05d40db84b649c1abd8c3f2bd56cc842fa6d1e1",
+      "rdb": {
+        "guid": "A5AC0827E24C1929",
+        "offset": 6184104,
+        "recordMarker": "00060000000000"
+      }
+    },
+    {
+      "provider": "WCS_Armaments8.4.0",
+      "pack": "C:\\Users\\marco\\Documents\\My Games\\ArmaReforger\\addons\\WCS_Armaments_629B2BA37EFFD577\\data.pak",
+      "packBytes": 441631740,
+      "packModifiedUtc": "2026-10-17T18:21:43.961Z",
+      "headerHex": "030001005e511dcb212b621040555c0a525b015d0701045700000000",
+      "indexBytes": 105945,
+      "indexSha256": "196255ea12ba4cca9cc81b37fe71fca1a4577d8116c0cc5d41ae061016a9a9f8",
+      "resource": "Scripts/Game/Components/SupportStation/WCS_Armament_RearmSupportStationComponent.c",
+      "offset": 362248007,
+      "storedBytes": 1054,
+      "rawBytes": 3703,
+      "method": "00000106",
+      "sourceSha256": "787f76cc56d582fe9ebf4b6b9f7ed7393e3a3fc67c8459eee138ad888fd74f34",
+      "rdb": {
+        "status": "UNSUPPORTED_RECORD_MARKER_NO_GUID_INFERRED",
+        "offset": 133730,
+        "observedMarker": "00040000000000"
+      }
+    },
+    {
+      "provider": "WCS_Armaments8.4.0",
+      "pack": "C:\\Users\\marco\\Documents\\My Games\\ArmaReforger\\addons\\WCS_Armaments_629B2BA37EFFD577\\data.pak",
+      "packBytes": 441631740,
+      "packModifiedUtc": "2026-10-17T18:21:43.961Z",
+      "headerHex": "030001005e511dcb212b621040555c0a525b015d0701045700000000",
+      "indexBytes": 105945,
+      "indexSha256": "196255ea12ba4cca9cc81b37fe71fca1a4577d8116c0cc5d41ae061016a9a9f8",
+      "resource": "Scripts/Game/UserActions/SupportStations/WCS_Armament_RearmDispenserAtRepairStationAction.c",
+      "offset": 362563979,
+      "storedBytes": 1246,
+      "rawBytes": 5552,
+      "method": "00000106",
+      "sourceSha256": "30f398b72395dafd03cffb7f8d0687fa84c34c10765e3e7ef9431396c3e64fc5",
+      "rdb": {
+        "status": "UNSUPPORTED_RECORD_MARKER_NO_GUID_INFERRED",
+        "offset": 151596,
+        "observedMarker": "00040000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/Components/SupportStation/SCR_BaseSupportStationComponent.c",
+      "offset": 1487638268,
+      "storedBytes": 11546,
+      "rawBytes": 59757,
+      "method": "00000106",
+      "sourceSha256": "01431283e118c0e371a639eb60747f211d22712f1eb98c5a15916a15dafdb1a4",
+      "rdb": {
+        "status": "UNSUPPORTED_RECORD_MARKER_NO_GUID_INFERRED",
+        "offset": 7942731,
+        "observedMarker": "00040000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/Sandbox/Resources/SCR_ResourceComponent.c",
+      "offset": 1490663254,
+      "storedBytes": 9341,
+      "rawBytes": 55614,
+      "method": "00000106",
+      "sourceSha256": "d9790df37b24a66ddffe5f4201e51f836bbe41b6a7523f7e9219860ad12737b4",
+      "rdb": {
+        "status": "UNSUPPORTED_RECORD_MARKER_NO_GUID_INFERRED",
+        "offset": 8222412,
+        "observedMarker": "00040000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/Sandbox/Resources/Container/SCR_ResourceContainer.c",
+      "offset": 1490633038,
+      "storedBytes": 4897,
+      "rawBytes": 33583,
+      "method": "00000106",
+      "sourceSha256": "93aef83faf2ec6f9dc03604f69b23d50178d29f4be861c30ac6c2d73459cd6a3",
+      "rdb": {
+        "status": "UNSUPPORTED_RECORD_MARKER_NO_GUID_INFERRED",
+        "offset": 8217658,
+        "observedMarker": "00040000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/Sandbox/Resources/Helpers/SCR_ResourceSystemHelper.c",
+      "offset": 1490660539,
+      "storedBytes": 2093,
+      "rawBytes": 12915,
+      "method": "00000106",
+      "sourceSha256": "4baa4cef2c5288b171289b914847c54b93f79d5cb5266131482171fde7bdada0",
+      "rdb": {
+        "status": "UNSUPPORTED_RECORD_MARKER_NO_GUID_INFERRED",
+        "offset": 8222187,
+        "observedMarker": "00040000000000"
+      }
+    },
+    {
+      "provider": "base1.8.0.13",
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/GameMode/SCR_BaseGameMode.c",
+      "offset": 1489150107,
+      "storedBytes": 18174,
+      "rawBytes": 86089,
+      "method": "00000106",
+      "sourceSha256": "fff38d126c333b55d5c26427a3b61ec60d13fc0b016d8ba38d4d5fc19117b4df",
+      "rdb": {
+        "status": "UNSUPPORTED_RECORD_MARKER_NO_GUID_INFERRED",
+        "offset": 8059780,
+        "observedMarker": "00040000000000"
+      }
+    }
+  ],
+  "nativeCompile": "NOT_TESTED",
+  "nativeResourceRegistration": "NOT_TESTED",
+  "nativeRearm": "NOT_TESTED",
+  "worldFilesEdited": false,
+  "thirdPartyImplementationBundled": false,
+  "readerRepair": "First read failed when generic GUID lookup met a non-prefab RDB record marker;bounded repair retains unsupported markers without inferring GUIDs. Four known exposed prefab/config GUID records must still match exactly.",
+  "ownership": "User runtime hold00:47 applies;no native/GUI/focus/close/lease action by lane",
+  "mechanismReview": "D:/ArmaProjects/Gepard-WCSSmoke-20261022/DEPENDENCY-MECHANISM-REVIEW.json@b2360a0 supersedes broad permission-gate wording in older frozen package;these are dependency-only references"
+}
