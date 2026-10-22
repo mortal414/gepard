@@ -17,5 +17,6 @@
   "enemyGroup": "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et",
   "defendWaypoint": "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et",
   "blastCover": "{D0F17E2313DE33F1}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_18x5.et",
-  "actor": "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+  "actor": "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et",
+  "serviceAmmoTruck": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et"
 }

@@ -1,0 +1,21 @@
+{
+  "cone": "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et",
+  "board": "{A76A420022000003}Prefabs/GPG_StationBoard.et",
+  "infantryTarget": "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et",
+  "vehicleTarget": "{DFD494A96CA95D0B}Prefabs/Structures/Military/Training/TargetVehicles/TargetBTR_front.et",
+  "ammoTruck": "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et",
+  "repairTruck": "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et",
+  "fuelTruck": "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et",
+  "wrench": "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et",
+  "rifle": "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et",
+  "rifleAmmo": "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et",
+  "machinegun": "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et",
+  "machinegunAmmo": "{4FCBBDF274FD2157}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et",
+  "heavyMachinegun": "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et",
+  "launcher": "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et",
+  "arsenal": "{BE99D77D1155B127}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et",
+  "enemyGroup": "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et",
+  "defendWaypoint": "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et",
+  "blastCover": "{D0F17E2313DE33F1}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_18x5.et",
+  "actor": "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+}

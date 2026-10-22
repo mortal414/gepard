@@ -1,6 +1,6 @@
 # Current candidate evidence
 
-This is a current index; original raw failures and historical receipts remain unchanged. No new GEP checkbox or publication.
+Current handoff is ordinary-v6 / compile06 / pack08 / installed08. Package07 and its clean checkpoint remain historical fallback evidence. This is a current index; original raw failures and historical receipts remain unchanged. No new GEP checkbox or publication.
 
 | Area | Observed evidence | Remaining limit |
 |---|---|---|
@@ -16,8 +16,18 @@ This is a current index; original raw failures and historical receipts remain un
 | Three final v5 positive reset domains | [resets](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-GPG-FinalPositiveReset-Review-v5-20261022/RESULT.json) | Pristinefixtures; moving/offpad/orphanedaudioNT |
 | Occupied and near-player refusals | [negativeResets](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-GPG-NegativeGuard-Review-v5-20261022/RESULT.json) | Scriptednativepreparation; physicalFNT |
 | Registered boardread/reset/debounce observation | [boards](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-GPG-BoardActions-IndependentReview-v3-20261022/RESULT.json) | Original adapter NOT_TESTED from emitted-ID mismatch |
-| Latest closed service diagnosis | [serviceLatest](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-Service-USProvider-v9-20261022/V8-ELIGIBILITY-CAUSE.json) | Transfer NOT_QUALIFIED; latest exact cause retained |
+| Historical V8 service diagnosis | [serviceLatest](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-Service-USProvider-v9-20261022/V8-ELIGIBILITY-CAUSE.json) | Earlier provider denial; superseded only for the narrow V9 left-refill observation |
 
 Smoke angle replay was explicitly denied by automatic approval review before launch. New rolling-audio authoring has a separate pending approval gate. Both remain excluded.
 
 Historical root SOURCE_MANIFEST.json describes release1.0.2. Historical Q SOURCE-MANIFEST/SOURCE-CLOSURES/PROVING-GROUND-INTEGRATION and old1112/1147/unboundNEW/pack-not-built records are archived evidence, superseded for current use by CURRENT-CANDIDATE-MANIFEST.json. Do not launch old stages.
+
+Current08 additions (all original strict failures preserved):
+
+- [Actual08 package-only rendered start](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-Package08-Independent-ReadOnly-Review-20261022/INDEPENDENT-REVIEW.json).
+- [Actual compile06](/D:/ArmaProjects/Gepard-Consolidated-20261022/qa/consolidated-20261022/private-final-source-v6/COMPILE-ADOPTION-RECEIPT.json).
+- [Installed08 exact trios](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-Private-Demo-v6-Pack08-ObservedTransfer-Preparation-20261022/INSTALLED-PACKAGE-CLOSURE.json).
+- [One observed camo LEFT refill; whole services pending](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-Service-Transfer-IndependentReview-v9-20261022/INDEPENDENT-TRANSFER-REVIEW.json).
+- [Six-file ordinary-world US service-provider adoption](/C:/Users/marco/Documents/Codex/2026-10-21/task/GEP-USProvider-World-Adoption-v9-20261022/RESULT.json).
+
+Diagnostics are separate: 57 rearm-fixture errors, 59 ordinary08 probe errors and 100 validate/pack errors. No counts or outcomes are merged. The original board-V3 adapter NOT_TESTED and original rearm strict FAIL remain unchanged.

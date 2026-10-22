@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "status": "ROOT_US_PROVIDER_V9_ORDINARY_WORLD_OVERLAY_ADOPTED",
+  "utc": "2026-10-22T07:58:07.261039+00:00",
+  "providerPrefab": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+  "runtimeUnchanged": true,
+  "boardUnchanged": true,
+  "damageAmmoUnchanged": true,
+  "files": {
+    "addon/scripts/Game/GPG_Director.c": {
+      "before": "1f3a60a521c116d6d95295df699b1a6acdc93387489bc9804a9fbb76b7d6d0f1",
+      "after": "4c26f24ea50e5a7b954d1b252b7e027c6848c2079b2834447858eea597673abd"
+    },
+    "addon/scripts/Game/GPG_Layout.c": {
+      "before": "0b9ea5e6a6aefa077d5748827fa09eddfed9b141120834fef696f4f825dd696d",
+      "after": "deab080544b6ecf4993cd7db905823d8e96b85c1e06385eb091ff1332fe72697"
+    },
+    "addon/scripts/Game/GPG_Resources.c": {
+      "before": "aaa46248041af94d40cce8d9c5c06778819b776b84e82439538cdd0134aa0bfe",
+      "after": "4092b688ddc684d83a41868668d53d5a77c227799fa6554d17d5cb77db0d5a55"
+    },
+    "checks/variant-lock.json": {
+      "before": "81ac24549321f0d8036ff3303db67e2147ffe11663763cb0affe2005a558a866",
+      "after": "f4591c54eb23f2cffd965f391de2da5756b5b03f7c7b04d0e0365d3e974e9a6f"
+    },
+    "checks/world-source-manifest.json": {
+      "before": "bf5e3f6a4fc0f1c4b7f7efb8087c1f05abd0cdafec2873da4b80fe51e9d4e30b",
+      "after": "f31c3b56d57dc1abfa4b061cdb54981e3308a5a4021224ef67c40aabbc48bf83"
+    },
+    "registry/resources.json": {
+      "before": "38e813e99a85526e3dfd6ead92ea7c1db6cded0e355a3a00ee866b06623fc2b4",
+      "after": "9d83a3233e70212c13a89e22963c259ebbf8a15720c4e3f37360420456dd5b3c"
+    }
+  },
+  "worldAddonPins": {
+    "GepardProvingGround.gproj": "561a6370a828266d5df2039ed30a803138c51727b576e118c9cc10b654cfcbe4",
+    "Prefabs/GPG_StationBoard.et": "5b9d2b3fc6ae01fadd3bfd27636f419265130fc71a2ea28b1774c19d41467301",
+    "Prefabs/GPG_StationBoard.et.meta": "cbcd4286fabbb11c9ec5241ecc93b1d4077ba8e6413a38d5fca7bafa36974e37",
+    "scripts/Game/GPG_Actions.c": "dfbdead1e1f84d09651df25bb571cc7b6115ae2b41de381acc2cb45e8fbda0ee",
+    "scripts/Game/GPG_Director.c": "4c26f24ea50e5a7b954d1b252b7e027c6848c2079b2834447858eea597673abd",
+    "scripts/Game/GPG_Layout.c": "deab080544b6ecf4993cd7db905823d8e96b85c1e06385eb091ff1332fe72697",
+    "scripts/Game/GPG_Resources.c": "4092b688ddc684d83a41868668d53d5a77c227799fa6554d17d5cb77db0d5a55",
+    "Worlds/GPG_Arland.ent": "eb1959b7c17f18e0c1a13b8b8346cc2b798109024e20e22edd364674590c3a58",
+    "Worlds/GPG_Arland.ent.meta": "28a297bbdb97d8a9554056937afc520ac8f42a92e7bbd94bd165e787251e7c50",
+    "Worlds/GPG_Arland_default.layer": "a51f85bc36837652a8de74eb97265877fbdaba6eeaefefa504dc7a7c30fc87a9"
+  },
+  "worldSourceManifest": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\world-source-manifest.json",
+    "sha256": "f31c3b56d57dc1abfa4b061cdb54981e3308a5a4021224ef67c40aabbc48bf83"
+  },
+  "previousBoardAdoptionReceipt": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-GPG-BoardActions-Repair-v2-20261022\\adoption-board-v2\\RESULT.json",
+    "sha256": "b6ed3a23dbf7deb2f31cfc289cfa505dacd358b9015a30fc687c6cd128d6bd2d"
+  },
+  "independentTransferReview": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
+    "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
+  },
+  "rollbackRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\gpg-us-provider-adoption-01\\before",
+  "originalStrictNativeCase": "FAIL_PRESERVED",
+  "transferScope": "One native left-feed refill observed; whole services/manual/MP not accepted",
+  "nativeStarted": false,
+  "published": false,
+  "userAccepted": false
+}

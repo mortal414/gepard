@@ -1,0 +1,18 @@
+{
+  "checkpoint07": "5a06259",
+  "preview": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-Pack08-Metadata-20261022\\preview-08-final-03",
+  "sealSHA256": "b481103ab6668be99b660c1ffb145a5edb21f69363e3484cab92a2fea2427d56",
+  "files": {
+    "README.md": "d9de16bd000f560a21f7fec2c59e85bcd92e4e57d87374ed2dc1d3f6c983e9e1",
+    "EVIDENCE-INDEX.md": "4630e3bd9d99d92560185220a39b2f6f2460ffd69a09d869c5dde873adef4874",
+    "CURRENT-CANDIDATE-MANIFEST.json": "1699c32a46a0dff8978b43dc379fce9b109e2e63108545d667fb9f25f331e96f",
+    "qa/consolidated-20261022/README.md": "e398cbe130a19d4a56f57fe00c91065f842ef0982c27872624fd53dc4e9ecb01",
+    "qa/consolidated-20261022/ACCEPTANCE-MATRIX.json": "79f1146d53e6b49e900442367de9a1ef644cad34510d2b59a8fafe6b61a15ab2",
+    "qa/consolidated-20261022/STATUS-PER-GEP.json": "40d3085f7b32a19c6cb7a84f6b35bd117000155f9a5dbb9f006474ba6f44b262",
+    "qa/consolidated-20261022/CANDIDATE-MANIFEST.json": "f73e738dfdceda17d79ce759b6f3814863552cf22de19cf0ce5d7f1eb2263838",
+    "qa/consolidated-20261022/CURRENT-SOURCE-MANIFEST.json": "3641fd9126c5c2e34626203d0617a1dacc9ee17f00bd9a4417cc17001d18813f",
+    "TEST-GUIDE.md": "636bfe44d73288f793c6cbb2bfa718d5ce43699384459d95d7c388fb1f5f060b",
+    "Launch-Gepard-Private-Demo.ps1": "e15b2df2060314c84aa65333208e6b2d6b200d72b1872111fb1ea4183799dac5"
+  },
+  "rawResultsChanged": false
+}

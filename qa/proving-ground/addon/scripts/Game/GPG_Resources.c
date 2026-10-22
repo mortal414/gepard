@@ -20,4 +20,5 @@ class GPG_Resources
  static ResourceName DefendWaypoint() {return "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et";}
  static ResourceName BlastCover() {return "{D0F17E2313DE33F1}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_18x5.et";}
  static ResourceName Actor() {return "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et";}
+ static ResourceName ServiceAmmoTruck() {return "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et";}
 }

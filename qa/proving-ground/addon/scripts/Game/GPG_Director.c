@@ -103,7 +103,7 @@ class GPG_Director : GenericEntity
  }
  void Service()
  {
-  Supplies(Add("Ammo","service",GPG_Resources.AmmoTruck(),"687 0 2590").Entity);
+  Supplies(Add("Ammo","service",GPG_Resources.ServiceAmmoTruck(),"687 0 2590").Entity);
   Supplies(Add("Repair","service",GPG_Resources.RepairTruck(),"680 0 2580").Entity);
   Add("Fuel","service",GPG_Resources.FuelTruck(),"673 0 2590");
   Add("Wrench1","service",GPG_Resources.Wrench(),"678 0 2576");

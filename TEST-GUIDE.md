@@ -1,6 +1,6 @@
 # Gepard consolidated playtest
 
-Double-click `D:\ArmaProjects\Gepard-Consolidated-20261022\Launch-Gepard-ProvingGround.cmd`. Package07 has loaded and rendered its ordinary starting scene; manual gameplay and design judgments remain pending. Exit normally through the game when finished.
+Double-click `D:\ArmaProjects\Gepard-Consolidated-20261022\Launch-Gepard-ProvingGround.cmd`. Package08 is the consolidated candidate; its final package-only startup evidence is listed in EVIDENCE-INDEX.md. Manual gameplay and design judgments remain pending. Exit normally through the game when finished.
 
 Choose a **10-minute core review** below, then any optional station you want. Record **keep / change / skipped**, plus a screenshot if something looks wrong. All visual and physical judgments remain **Needs user test**.
 
@@ -25,7 +25,7 @@ Follow the80×25m loop slowly to view the NEW exterior in motion. The straight i
 
 **Optional03 — Service stop**
 
-Judge the truck layout and ordinary prompt/reach convenience. Rearm is currently rejected because the stock truck arsenal does not contain the Gepard belt (native reason701); its isolated US-provider repair is not in this package. Refuel/repair transfer and accounting remain unqualified. Record prompt/reach feedback and move on; no successful transfer is promised.
+After a short burst, park beside the US ammo truck at the service stop and turn the engine off. Use the ordinary rear-feed action, then check the count when you return to the optic. One left-feed refill was observed natively:315 to320 rounds, truck1000 to997 supplies. Please check ordinary reach/hold convenience and both feeds. Right-feed transfer, repair/refuel and repeated/empty cases remain unqualified; record absent prompts or unchanged values without assuming success.
 
 **Optional05 — Expendable damage area**
 

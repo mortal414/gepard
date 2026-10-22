@@ -278,51 +278,44 @@
     "Needs verification": "Existing release evidence passes; one named verification remains",
     "Blocked": "Concrete dependency prevents next planned work; current native authorization dialog for015/033"
   },
-  "updatedUtc": "2026-10-22T07:32:51.006140+00:00",
-  "candidate": "private-demo-source-v5 / compile05 / pack07 / installed07",
-  "nativeCompile": "Actual ordinary compile05 PASS; separate board V3 compile PASS, no gameplay implication from compilation alone.",
-  "nativeGameplay": "Package07 ordinary readiness observed; strict59error FAIL retained. Individual source-bound observations recorded separately.",
+  "updatedUtc": "2026-10-22T08:16:42.266860+00:00",
+  "candidate": "ordinary source v6 / compile06 / pack08 / installed08; one left refill observed, whole services pending",
+  "nativeCompile": "Actual ordinary-v6 compile06 PASS; historical board V3 compile/native observation retained separately. Compilation alone is not gameplay acceptance.",
+  "nativeGameplay": "Package08 ordinary start and US provider observed; strict probe FAIL retained. Separate narrow left-refill observation does not mark services accepted.",
   "trackerSnapshot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\TRACKER-LIVE-20261022.json",
   "latestService": {
-    "status": "NOT_QUALIFIED",
-    "transferQualified": false,
-    "latestReport": {
-      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-USProvider-v9-20261022\\V8-ELIGIBILITY-CAUSE.json",
-      "bytes": 12078,
-      "sha256": "dd9dfe4a82fc06aba9cf26812308857dcd7d71cb2afef75d311059855c1350b7"
+    "status": "ONE_NATIVE_CAMO_LEFT_REFILL_OBSERVED_WHOLE_SERVICES_PENDING",
+    "selectedFeed": 0,
+    "targetMagazineBefore": 315,
+    "targetMagazineAfter": 320,
+    "selectedFiniteContainerBefore": 1000,
+    "selectedFiniteContainerAfter": 997,
+    "threeObservedContainerSums": {
+      "before": 3000,
+      "after": 2997
     },
-    "latestReportStatus": "OBSERVED_NATIVE_ELIGIBILITY_DENIAL",
-    "scope": "No finite rearm/refuel/repair transfer acceptance. Read actual supplier diagnosis; services remain unfinished.",
-    "actualV8Eligibility": {
-      "snapshots": 29,
-      "nativeReason": 701,
-      "nativeReasonName": "RESUPPLY_NOT_IN_STORAGE",
-      "allRearActionsRegisteredFilteredShown": true,
-      "leftOwnerAndConsumedMagazineIdentityMatch": true,
-      "providerArsenalExactItemAbsent": true,
-      "stationEnabledInRangeSuppliesEnabledConsumerAvailable": true,
-      "nativeAvailableSupplies": 1000,
-      "nativeRange": 9,
-      "serviceTransfer": "NOT_QUALIFIED",
-      "strictCase": "FAIL_PRESERVED",
-      "infrastructure": "PASS",
-      "closed": {
-        "nativeTerminalSeen": true,
-        "verifiedExited": true,
-        "exitCode": 0,
-        "leaseReleased": true,
-        "cancelRequested": false,
-        "utc": "2026-10-22T07:18:10.2917451Z",
-        "closeMethod": "owned-normal-window-close"
-      }
+    "otherTwoObservedContainersUnchanged": true,
+    "originalStrictCase": "FAIL_PRESERVED",
+    "strictRearmNativeErrors": 57,
+    "instrumentationFailures": "27 missing action-field parser mismatches plus incorrect aggregate0 versus actual per-container rows; no normalization or waiver.",
+    "independentReview": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Service-Transfer-IndependentReview-v9-20261022\\INDEPENDENT-TRANSFER-REVIEW.json",
+      "bytes": 18820,
+      "sha256": "5bee1c3531f68fbbdd555f5e76779c704bbfd6bd5b95abad97e084add44cab7a"
     },
-    "nextUSProviderProposalIncluded": false,
-    "actualReportFindings": [
-      {
-        "field": ".nativeReasonName",
-        "value": "RESUPPLY_NOT_IN_STORAGE"
-      }
+    "includedProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
+    "scope": "One source-bound camo left-feed refill only; not a whole-service PASS or GEP completion.",
+    "unqualified": [
+      "Original strict automated case",
+      "Right-feed transfer",
+      "Repeated/full/empty-negative services",
+      "Repair",
+      "Refuel",
+      "Physical input",
+      "Human usability",
+      "MP/JIP/dedicated"
     ]
   },
-  "nativeSlot": "Consult live runtime owner; this updater never starts native or reads/mutates the lease."
+  "nativeSlot": "Consult live runtime owner; this updater never starts native or reads/mutates the lease.",
+  "hudScope": "Daytime 16:9 native/pixel evidence only; night/low-light cycle, positive range, other aspects and physical/design judgment remain pending."
 }

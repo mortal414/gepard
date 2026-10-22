@@ -12,8 +12,8 @@
   "runtimeSHA256": "71dc97f41ed852952ac883396de1a064c9bdfcae6efb5d8ae7fa5fc2c07ee1fb",
   "worldManifest": {
     "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\world-source-manifest.json",
-    "bytes": 1188,
-    "sha256": "bf5e3f6a4fc0f1c4b7f7efb8087c1f05abd0cdafec2873da4b80fe51e9d4e30b"
+    "bytes": 1203,
+    "sha256": "f31c3b56d57dc1abfa4b061cdb54981e3308a5a4021224ef67c40aabbc48bf83"
   },
   "files": {
     "addon/Assets/ArtV11/Gepard/GepardGunLeft.fbx": "d621501bf806a36b7a10a9f60720aa613c2f767ec84f06aacd767845edb8e949",
@@ -1172,9 +1172,9 @@
     "provingGround/Prefabs/GPG_StationBoard.et": "5b9d2b3fc6ae01fadd3bfd27636f419265130fc71a2ea28b1774c19d41467301",
     "provingGround/Prefabs/GPG_StationBoard.et.meta": "cbcd4286fabbb11c9ec5241ecc93b1d4077ba8e6413a38d5fca7bafa36974e37",
     "provingGround/scripts/Game/GPG_Actions.c": "dfbdead1e1f84d09651df25bb571cc7b6115ae2b41de381acc2cb45e8fbda0ee",
-    "provingGround/scripts/Game/GPG_Director.c": "1f3a60a521c116d6d95295df699b1a6acdc93387489bc9804a9fbb76b7d6d0f1",
-    "provingGround/scripts/Game/GPG_Layout.c": "0b9ea5e6a6aefa077d5748827fa09eddfed9b141120834fef696f4f825dd696d",
-    "provingGround/scripts/Game/GPG_Resources.c": "aaa46248041af94d40cce8d9c5c06778819b776b84e82439538cdd0134aa0bfe",
+    "provingGround/scripts/Game/GPG_Director.c": "4c26f24ea50e5a7b954d1b252b7e027c6848c2079b2834447858eea597673abd",
+    "provingGround/scripts/Game/GPG_Layout.c": "deab080544b6ecf4993cd7db905823d8e96b85c1e06385eb091ff1332fe72697",
+    "provingGround/scripts/Game/GPG_Resources.c": "4092b688ddc684d83a41868668d53d5a77c227799fa6554d17d5cb77db0d5a55",
     "provingGround/Worlds/GPG_Arland.ent": "eb1959b7c17f18e0c1a13b8b8346cc2b798109024e20e22edd364674590c3a58",
     "provingGround/Worlds/GPG_Arland.ent.meta": "28a297bbdb97d8a9554056937afc520ac8f42a92e7bbd94bd165e787251e7c50",
     "provingGround/Worlds/GPG_Arland_default.layer": "a51f85bc36837652a8de74eb97265877fbdaba6eeaefefa504dc7a7c30fc87a9"
