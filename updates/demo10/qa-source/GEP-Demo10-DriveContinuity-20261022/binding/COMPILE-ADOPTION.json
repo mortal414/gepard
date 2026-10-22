@@ -1,0 +1,59 @@
+{
+  "status": "SOURCE_MATCHED_NATIVE_COMPILE_ADOPTED",
+  "receipt": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-drive-01\\RESULT.json",
+  "receiptSha256": "b600f477ae415780078e5fc67e1c7b011a7342fb3a72a3ce3219437f102b7e66",
+  "compilerIdentity": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-drive-01\\compiler-identity.json",
+  "compilerIdentitySha256": "c5ab8bf7ea9104f636f1bd233732c5a3cf1e132a055778cbafb3043f8116ec81",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\gepard.json",
+      "manifestSha256": "73ee39ecea90fc19c6420d1d7b2eca255705bd263dab681af90a2f633861feb2",
+      "changed": [],
+      "added": [],
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\wcsSmoke.json",
+      "manifestSha256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8",
+      "changed": [],
+      "added": [],
+      "files": 14
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\integration.json",
+      "manifestSha256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+      "changed": [],
+      "added": [],
+      "files": 68
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\SpaceCore_5E389BB9F58B79A6.json",
+      "manifestSha256": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8",
+      "changed": [],
+      "added": [],
+      "files": 3
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\WCS_Armaments_629B2BA37EFFD577.json",
+      "manifestSha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+      "changed": [],
+      "added": [],
+      "files": 3
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\native-stage\\audioQA",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\QA-MANIFEST.json",
+      "manifestSha256": "7c0282efd4032c73198df4223c22cb262e3651529cf5e29e54d5d29e84007b63",
+      "changed": [],
+      "added": [],
+      "files": 19
+    }
+  ],
+  "nativeAudio": "NOT_TESTED",
+  "sourceOnlyUntilRuntime": true
+}

@@ -1,0 +1,33 @@
+{
+  "status": "ACTUAL_CURRENT_COMPILE_BOUND_FOURSTEP_OPTIONAL_WORLD_PLAN_NO_NATIVE",
+  "plan": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ROOT-PACK-PLAN-10.json",
+  "planSHA256": "de70dc9fca8a08ccf1e6fc9b2fe181a81407f4970bdb9bfc51fa577c1ad79518",
+  "sourceVerification": [
+    {
+      "role": "integration",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+      "guid": "5E51C5D8F04FDB80",
+      "manifestSHA256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+      "fileCount": 68,
+      "projectSHA256": "b0b1b93621c75367246d55d9f97a21be5d000ec1de02e27d0963057f96112b13",
+      "generatedRDBdelta": null
+    },
+    {
+      "role": "provingGround",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+      "guid": "A76A420022000001",
+      "manifestSHA256": "87eae93b58a53e7ea976a8e0b7ee9e1df3ef12afab14af17fec9545cdcde2d0e",
+      "fileCount": 11,
+      "projectSHA256": "d2be5b613f9bb2f6109e6d7ba81a837690bbce9a67db491ae604fac51f22a42d",
+      "generatedRDBdelta": null
+    }
+  ],
+  "steps": [
+    "integration:validate",
+    "integration:pack",
+    "provingGround:validate",
+    "provingGround:pack"
+  ],
+  "coreRebuilt": false,
+  "nativeStarted": false
+}

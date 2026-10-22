@@ -1,0 +1,8 @@
+{
+  "status": "PASS_PENDING_SOURCE_REFUSAL_AND_RESOURCE_GUARDS",
+  "draftRefusal": "Final source staging/pins still pending root",
+  "nativeStarted": false,
+  "packaged": false,
+  "installed": false,
+  "sourceBindingsFinal": false
+}

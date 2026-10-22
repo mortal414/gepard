@@ -1,0 +1,8 @@
+{
+  "adoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\COMPILE-ADOPTION.json",
+  "sha256": "d52b190322923312eec01ed8bd6791d97a683b93db1b47a16f1e5b16109af115",
+  "passedCourse": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\native-stage\\audioQA\\scripts\\Game\\GEP\\GEP_CoreWheeledCourse20261022.c",
+  "courseSHA256": "2d3444337d8e55258bac3dd9f83fa0f2459887c5b68386f4787a2dc0d12af651",
+  "parentAudioPairAudit": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\paired-audit-01\\PAIRED-EVIDENCE.json",
+  "parentAudioPairSHA256": "8d68c1ddac19ac2ddd88fc36cb9f46b2e859ce792945b63531b340e8f09914a9"
+}

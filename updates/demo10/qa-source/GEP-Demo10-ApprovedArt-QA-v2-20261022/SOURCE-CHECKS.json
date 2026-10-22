@@ -1,0 +1,20 @@
+{
+  "status": "STATIC_RECOVERY_AND_BINDING_CHECKS_PASS_NATIVE_NOT_TESTED",
+  "checks": {
+    "pythonSyntax": true,
+    "eightRegistrySevenNewPlusCurrentStorage": true,
+    "signedNodeGettersRetained": true,
+    "threeSkeletonOwnersGuardRetained": true,
+    "noVehicleStateTuning": true,
+    "fourteenSameCameraViews": true,
+    "eightLoadedIDs": true,
+    "collectorExactResourcesAndEF": true,
+    "wrapperSharingBoundRetained": true,
+    "fixed180Wrapper": true,
+    "privateQASixFiles": true,
+    "precompile1257": true,
+    "wrapperParseOnlyPassed": true
+  },
+  "nativeStarted": false,
+  "DWritten": false
+}

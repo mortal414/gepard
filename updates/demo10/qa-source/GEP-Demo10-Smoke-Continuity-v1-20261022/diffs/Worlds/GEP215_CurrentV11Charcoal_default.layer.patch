@@ -1,0 +1,8 @@
+--- D:\ArmaProjects\Gepard-Consolidated-20261022\native-smoke-current-v11-stage-v3\current\qaSmoke\Worlds\GEP215_CurrentV11Charcoal_default.layer
++++ Worlds\GEP215_CurrentV11Charcoal_default.layer
+@@ -4,4 +4,4 @@
+ }
+ SCR_LoadoutManager DemoLoadouts : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {}
+ RadioManagerEntity DemoRadio : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {}
+-GEP215_CurrentV11Probe SmokeProbe { coords 600 50 2600 ExpectedShots 8 FixtureYaw 0 VehiclePrefab "{7E0150C026103004}Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et" }
++GEP215_CurrentV11Probe SmokeProbe { coords 600 50 2600 ExpectedShots 8 FixtureYaw 0 VehiclePrefab "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et" }

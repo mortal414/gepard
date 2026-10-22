@@ -1,0 +1,12 @@
+[
+  {
+    "errorCount": 0,
+    "file": "CompileSmokeCoreCompatibility.ps1",
+    "errors": []
+  },
+  {
+    "errorCount": 0,
+    "file": "tools\\Scene.ps1",
+    "errors": []
+  }
+]

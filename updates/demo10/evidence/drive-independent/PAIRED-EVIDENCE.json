@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "status": "FINAL_SKIN_DRIVE_PAIR_VERIFIED_ORIGINAL_STRICT_FAIL_RETAINED",
+  "sourceClosures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "files": 1152,
+      "exact": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "files": 14,
+      "exact": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "files": 68,
+      "exact": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "files": 3,
+      "exact": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "files": 3,
+      "exact": true
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\native-stage\\audioQA",
+      "files": 19,
+      "exact": true
+    }
+  ],
+  "precompileSealDeclaredChangesOnly": [],
+  "actualCompileClosed": true,
+  "serialUniqueNativeRuns": true,
+  "runs": {
+    "camo": {
+      "status": "NARROW_MECHANICAL_CAMERA_LIFECYCLE_OBSERVATIONS_VERIFIED_STRICT_FAIL_RETAINED",
+      "view": "exterior",
+      "skin": "camo",
+      "actualPrefab": "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+      "pid": 3864,
+      "leaseId": "0152f15b-3f65-4b09-8bb0-bb8463de7ddf",
+      "createdUtc": "2026-10-22T18:48:54.0676050Z",
+      "exit": {
+        "exitCode": 0,
+        "utc": "2026-10-22T18:50:04.4627414Z",
+        "cancelRequested": false,
+        "verifiedExited": true,
+        "closeMethod": "owned-normal-window-close",
+        "nativeTerminalSeen": true,
+        "leaseReleased": true
+      },
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02",
+      "samples": 152,
+      "forwardSamples": 15,
+      "forwardPoweredMeters": 6.419987340399073,
+      "forwardPoweredSeconds": 1.6004000000000014,
+      "allEightContactsForward": true,
+      "reverseSamples": 11,
+      "reversePoweredMeters": 1.9799980199995635,
+      "reversePoweredSeconds": 1.0664000000000013,
+      "handbrakeSamples": 23,
+      "finalRestSeconds": 1.8627000000000045,
+      "finalRestDriftMeters": 0.0,
+      "allEightWheelContactsDuringReverseAndEngineOffRest": true,
+      "nativeCameraSamples": 152,
+      "actualListenerDistanceMinMax": [
+        2.45498,
+        5.47293
+      ],
+      "events": [
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "d204394210d906427f57e0afa4262173ad5429d5baebc0260da42d9077cf5717",
+          "event": "exit_complete",
+          "worldMs": "56434.2",
+          "physical": "0"
+        },
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "d204394210d906427f57e0afa4262173ad5429d5baebc0260da42d9077cf5717",
+          "event": "reentry_requested",
+          "worldMs": "60467.3",
+          "accepted": "1",
+          "physical": "0"
+        },
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "d204394210d906427f57e0afa4262173ad5429d5baebc0260da42d9077cf5717",
+          "event": "reentry_complete",
+          "worldMs": "60567.6",
+          "physical": "0"
+        }
+      ],
+      "tailSamples": 16,
+      "tailEngineRemainedOff": true,
+      "nativeErrors": 59,
+      "wav": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\continuous\\system-output.wav",
+        "sha256": "29280fdad0fe2ad4e2195232d0d08655e3b465da2a956a2f80ade11516ebbff9",
+        "frames": 3523200,
+        "seconds": 73.4,
+        "rate": 48000,
+        "channels": 2,
+        "sampleBytes": 2
+      },
+      "rawResultStatus": "NOT_TESTED",
+      "strictReviewStatus": "FAIL",
+      "humanSoundJudgment": "NOT_TESTED_BY_AUDIT"
+    },
+    "charcoal": {
+      "status": "NARROW_MECHANICAL_CAMERA_LIFECYCLE_OBSERVATIONS_VERIFIED_STRICT_FAIL_RETAINED",
+      "view": "exterior",
+      "skin": "charcoal",
+      "actualPrefab": "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et",
+      "pid": 3068,
+      "leaseId": "4e121944-9db1-4493-a44f-962b03e333a9",
+      "createdUtc": "2026-10-22T18:50:29.0670310Z",
+      "exit": {
+        "closeMethod": "owned-normal-window-close",
+        "cancelRequested": false,
+        "utc": "2026-10-22T18:51:39.5835403Z",
+        "verifiedExited": true,
+        "exitCode": 0,
+        "leaseReleased": true,
+        "nativeTerminalSeen": true
+      },
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02",
+      "samples": 152,
+      "forwardSamples": 15,
+      "forwardPoweredMeters": 6.399987382086091,
+      "forwardPoweredSeconds": 1.6004000000000014,
+      "allEightContactsForward": true,
+      "reverseSamples": 11,
+      "reversePoweredMeters": 2.009997990000218,
+      "reversePoweredSeconds": 1.0670999999999986,
+      "handbrakeSamples": 23,
+      "finalRestSeconds": 1.8661000000000059,
+      "finalRestDriftMeters": 0.0,
+      "allEightWheelContactsDuringReverseAndEngineOffRest": true,
+      "nativeCameraSamples": 152,
+      "actualListenerDistanceMinMax": [
+        2.45675,
+        5.46991
+      ],
+      "events": [
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "51419a88c9288e0788358345a25bf0a3fd57f9c33f7d29c16d33594603923be2",
+          "event": "exit_complete",
+          "worldMs": "56466.6",
+          "physical": "0"
+        },
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "51419a88c9288e0788358345a25bf0a3fd57f9c33f7d29c16d33594603923be2",
+          "event": "reentry_requested",
+          "worldMs": "60502.8",
+          "accepted": "1",
+          "physical": "0"
+        },
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "51419a88c9288e0788358345a25bf0a3fd57f9c33f7d29c16d33594603923be2",
+          "event": "reentry_complete",
+          "worldMs": "60604.2",
+          "physical": "0"
+        }
+      ],
+      "tailSamples": 16,
+      "tailEngineRemainedOff": true,
+      "nativeErrors": 59,
+      "wav": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\continuous\\system-output.wav",
+        "sha256": "5045a037e90839fa761524fd7c7c0004627a280e7afe1739fd7701b54e4d50da",
+        "frames": 3528000,
+        "seconds": 73.5,
+        "rate": 48000,
+        "channels": 2,
+        "sampleBytes": 2
+      },
+      "rawResultStatus": "NOT_TESTED",
+      "strictReviewStatus": "FAIL",
+      "humanSoundJudgment": "NOT_TESTED_BY_AUDIT"
+    }
+  },
+  "supportingPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\COMPILE-ADOPTION.json": "f05276c4af6ac660ad6e77dee572c778b0da35437bb8d477019bc034468d1a2a",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-drive-01\\RESULT.json": "b600f477ae415780078e5fc67e1c7b011a7342fb3a72a3ce3219437f102b7e66",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-drive-01\\compiler-identity.json": "c5ab8bf7ea9104f636f1bd233732c5a3cf1e132a055778cbafb3043f8116ec81",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\gepard.json": "73ee39ecea90fc19c6420d1d7b2eca255705bd263dab681af90a2f633861feb2",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\wcsSmoke.json": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\integration.json": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\SpaceCore_5E389BB9F58B79A6.json": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\WCS_Armaments_629B2BA37EFFD577.json": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\QA-MANIFEST.json": "7c0282efd4032c73198df4223c22cb262e3651529cf5e29e54d5d29e84007b63",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\REPAIR-RECEIPT.json": "b5e074543247eb1925e5d7e12c2d09b9a506145f99f9b82b772cb36b678c2d80",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\tools\\Scene.ps1": "b0f2a0fdcf97096aa0c455f997c8dad9bca80bfaf6f05169be2436860c28873f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\Scene.ps1": "25c32604f91767389c73e7ce1afdbe9d2bf04840cc152f1b0fef60a1b0dc7cf5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\recordings\\camo\\continuous\\native-wrapper.stderr.log": "6c7623257f821eb72b4334aa36f300bc39062459a819471d31df4644b7262edb",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\continuous\\LEDGER.json": "e85aa5a9accd0b28aa8c4a5586a15b872fa3e1c8ada76e0d2ea00b0f1e1d6b8d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\command.json": "073a835e5e4373a55a22b6443780b6eee393c6ee2904646025a68d60bcea0e16",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\job.json": "cf43cfabe0799ff534d4cd0a33447ad0f74bcd038ea9d5e4e8a9fe117121cace",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02\\owner.json": "6b59819fbd276e60798f5252d24dbf7577313a2c26dd5b4579fc9c9201f5aa5d",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02\\exit.json": "597dd570ea16f25d24074475894462e74cfd9e9b27e848d6de717dcead73ebc5",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02\\plan.json": "b974972ae0b8403641f59666f53d36831b18228415439230259f51f6fc3490e2",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02\\logs\\console.log": "20659ba809d0144c98b0b87019b41029eba4011eaf14a535ad27db0026d5efb9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\CAMO-REVIEW.json": "c6f65623fc89eaa9a9d0f6019428fcf2ed61c62d31d3511e1617d0e98e6d2d26",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02\\profile\\profile\\DamageHarness-result683.json": "a0fee60f5f6c515c54e9ccdcf9b1c0f3312d675d9df7279354d34ebe3aa95d4b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\continuous\\system-output.wav": "29280fdad0fe2ad4e2195232d0d08655e3b465da2a956a2f80ade11516ebbff9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\continuous\\forward_default.png": "fa0ed05878e6e1fb0a927c051e6d01d2e637f508be335d689951ba0ae7145b32",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\continuous\\public_stop_observe.png": "83d15e14e0c7cd3950c9c754ce15c63a68712316fcf32097dcddd79c23ef1118",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\continuous\\LEDGER.json": "1ab352f3e690d672841e91f6d2214368215f4ff1747a5cde7102e6cdefdbec1b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\command.json": "c32429adee00f030eb83aea9adc59242dfc3e2fc56f8a8cdd00a7fb819203961",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\job.json": "7a9903f89956ef0fa5784325614c4b0ab76fb58a90508d22736a26f9d8ffacbb",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02\\owner.json": "7c643ca61770940533b6814f60568904ed607362519ff7dcd9626a207153d117",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02\\exit.json": "c8c8ecee71a351b03c741ed64d00b89aa7d48bdffbb43c6a7f9dd4295e836712",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02\\plan.json": "044bc18d3e62a9a82c842f741c1774fbff27577476bcf8de3783b331aea6f6d7",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02\\logs\\console.log": "69d19e721a6854af92c8a4771606d5e2f17c6b5318006399c5eb74143d0e7eff",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\CHARCOAL-REVIEW.json": "a90b1499b412d763972bd06404167692e6560ba4f69d3dc6595c221885d8af90",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02\\profile\\profile\\DamageHarness-result683.json": "25b611614e9d8f2a81827526e4f5e38ab7b797e70472751b3efe4cdbb357cbfa",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\continuous\\system-output.wav": "5045a037e90839fa761524fd7c7c0004627a280e7afe1739fd7701b54e4d50da",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\continuous\\forward_default.png": "ac12898eeb63ffc98a04d715cf127a0ef7eecc3fa532761e3bcba4b898b7c203",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\continuous\\public_stop_observe.png": "7b724cbb1184703c637de138edd5b23c54b005008ed698131602903e9eb7978d"
+  },
+  "limits": [
+    "Human accepted candidate02 timbre remains trusted; this is not a new listening judgment",
+    "Neither WAV existence nor waveform level identifies track output or tail quality",
+    "Delete/reset,30/100m,cannon balance,physical input,MP/JIP unqualified",
+    "Actual final Demo10 prefab motion/contact is observed; phase-entry photos at zero speed do not prove moving-wheel clearance/skinning"
+  ]
+}

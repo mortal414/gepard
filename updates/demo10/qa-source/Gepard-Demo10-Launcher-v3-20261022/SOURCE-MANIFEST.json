@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "status": "FROZEN_LAUNCHER_ONLY_DEMO10_V3_EXACT_WORLD_CONTRACT_PATH_FIX",
+  "files": {
+    "Launch-Gepard-Private-Demo10.ps1": "8717feeafe6c4e9882a2d81ad118c5c25eb8d7527edf1d8c09c737618fcca19f",
+    "PackageOnlyScene10.ps1": "31250fb830846bdf7fd844d3305e8d2cbe8ad8025f451af649e60197b6b3cfec",
+    "README.md": "0c37cc233358029309bd4b67be2d693284bf9de3c3c7ac915332b5baca23ec08"
+  },
+  "originalPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\SOURCE-MANIFEST.json": "9292a10a250c5a892360370de0dab0a3e02432394f62da38304b5b09d03882b0",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\package_launch.mjs": "3f9cf16d8e5b8bfa8086b352c940940007bff2de2692005e22abeb93881ecd4a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\pack_tools10.mjs": "6380c4d9ec076a713e117431ae6c28e6da955cafa70afe07aef5715b670e74f4",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ROOT-PACK-PLAN-10.json": "de70dc9fca8a08ccf1e6fc9b2fe181a81407f4970bdb9bfc51fa577c1ad79518",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ROOT-COMPILED-SOURCE-CONTRACT.json": "8beb52e2d8001a121161a93236a8180ead8ff45a669fb91c87fc938a190c2349",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\PACKAGE10-WORLD-CONTRACT.json": "fc1a55d24f796da2ebd71e41968e38671a910b4b3b9c846c1aa93b7be59293c4",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\SEPARATE-DEPENDENCIES.json": "964b5a7e12f337a49630ad1d706705646cd403e463ff0ab0d4259dc036610133",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\CORE08-TRIO-REUSE-INPUT.json": "b41c60699860f98477e26c5d5f325932b1911a1ca1944306076e1c8de4994d83",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\SMOKE09-TRIO-REUSE-INPUT.json": "694ca8ad56489e912364c68df2aab634f7874e6c1c3d7d66613e4c346ee53dfa",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\NativeTailClassifier10-v2.ps1": "55262d1601aac0dbba5cf30f96773c01a6310485512797629e9486983bbe1a59",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\NATIVE-TAIL-BASELINE-v2.json": "855eaac5bccc08399ca61c73d3459e0973f25378d3da1969c196e6a1d7fd303b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\INSTALLED-PACKAGE-CLOSURE.json": "373811c010cb5e13ce005c5ab46c61f9a1e5b257bbf8be638c8ea659dbb785be",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\PackageOnlyScene10.ps1": "ddd6ce64136b1021c76a65f0d9a51ad7794f21c61085ba470767454d5d318185",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\Launch-Gepard-Private-Demo10.ps1": "7f2fdd1742ba60e828d2e391ac74e9913da7bdaf354b0839ff0d9b4bd14e9778",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\RESULT.json": "d4270defa78e9c28414a3cf9ddac827bafec878b22f8faa03976fc409e7bd1af",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard-pack\\package-proof.json": "39b9bf182dccb0eec73069c60f7bf17075cc34ce5b452adf708d8d6c0a90ca4a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\wcsSmoke-pack\\package-proof.json": "b8e923aefc96e71a87c5384be92348f25dd601c8de85726697a03b8183947e26",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration-pack\\package-proof.json": "04d5f7fd6d59a074a70fca72a53f6f579d537960c8639a061cb96a4cb7673a34",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround-pack\\package-proof.json": "6d85646ab8be21dd0528a263b5d99b483ce69fa46eba17b65df3c27fa0cd0dd5"
+  },
+  "unchangedInstalledClosure": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\INSTALLED-PACKAGE-CLOSURE.json",
+    "sha256": "373811c010cb5e13ce005c5ab46c61f9a1e5b257bbf8be638c8ea659dbb785be"
+  },
+  "noRepack": true,
+  "noReinstall": true,
+  "nativeStartedByLane": false,
+  "DWrittenByLane": false
+}

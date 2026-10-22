@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "template": "startup",
+  "project": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single\\qaCore\\GEP_SmokeCoreCompatQA.gproj",
+  "world": "Worlds/GEP_GunRange.ent",
+  "sourceRoots": [
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single\\qaCore"
+  ],
+  "addonRoots": [
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons"
+  ],
+  "requiredFiles": [],
+  "requiredClasses": [
+    "GEP_DamageScenario683",
+    "GEP_CoreWheeledCourse20261022",
+    "GEP_ManualSpawnLogic"
+  ],
+  "capabilities": [
+    "isolated-reset",
+    "owned-lifecycle",
+    "native-load",
+    "native-damage"
+  ],
+  "adapter": {
+    "executable": "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "script": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adapter.py",
+    "args": [
+      "{script}",
+      "{request}",
+      "{result}",
+      "{cancel}"
+    ]
+  },
+  "cases": [
+    {
+      "id": "v11-healthy-v11-camo",
+      "parameters": {
+        "nativeCase": "v11-healthy",
+        "vehicle": "v11-camo",
+        "caseFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\cases\\v11-healthy.json",
+        "vehicleFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\vehicles\\v11-camo.json",
+        "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\tools\\Scene.ps1",
+        "wrapperSHA256": "603646e5c90fc260dbe63a705b1485c9f6fea47e9108c730ea139aa415b6dc51",
+        "powerShell": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "closures": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\SOURCE-CLOSURES.json",
+        "closurePinSHA256": "PENDING_ACTUAL_POSTCOMPILE_CLOSURE",
+        "completeManifestPins": {},
+        "compileAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\COMPILE-ADOPTION.json",
+        "addonId": "A9F84D1626102251",
+        "addonSearchPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single,D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single,D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "seconds": 105,
+        "screenWidth": 1280,
+        "screenHeight": 720,
+        "adapterDeadlineSeconds": 125,
+        "childLogLimitBytes": 4194304,
+        "collector": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\damage-adapter683.ts",
+        "healthyControl": true,
+        "qaManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\qaCore.json",
+        "boundJob": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\core-native-job.json"
+      },
+      "assertions": [
+        "fixture.ready",
+        "world.loaded",
+        "native.errors",
+        "native.case-result",
+        "addons.exact-stack",
+        "smoke.not-triggered",
+        "input.positive-control",
+        "post-hit.traverse",
+        "post-hit.elevation",
+        "post-hit.fire",
+        "crew.exit",
+        "crew.reentry",
+        "post-reentry.fire"
+      ]
+    },
+    {
+      "id": "v11-healthy-v11-charcoal",
+      "parameters": {
+        "nativeCase": "v11-healthy",
+        "vehicle": "v11-charcoal",
+        "caseFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\cases\\v11-healthy.json",
+        "vehicleFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\vehicles\\v11-charcoal.json",
+        "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\tools\\Scene.ps1",
+        "wrapperSHA256": "603646e5c90fc260dbe63a705b1485c9f6fea47e9108c730ea139aa415b6dc51",
+        "powerShell": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "closures": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\SOURCE-CLOSURES.json",
+        "closurePinSHA256": "PENDING_ACTUAL_POSTCOMPILE_CLOSURE",
+        "completeManifestPins": {},
+        "compileAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\COMPILE-ADOPTION.json",
+        "addonId": "A9F84D1626102251",
+        "addonSearchPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single,D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single,D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "seconds": 105,
+        "screenWidth": 1280,
+        "screenHeight": 720,
+        "adapterDeadlineSeconds": 125,
+        "childLogLimitBytes": 4194304,
+        "collector": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\damage-adapter683.ts",
+        "healthyControl": true,
+        "qaManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\qaCore.json",
+        "boundJob": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\core-native-job.json"
+      },
+      "assertions": [
+        "fixture.ready",
+        "world.loaded",
+        "native.errors",
+        "native.case-result",
+        "addons.exact-stack",
+        "smoke.not-triggered",
+        "input.positive-control",
+        "post-hit.traverse",
+        "post-hit.elevation",
+        "post-hit.fire",
+        "crew.exit",
+        "crew.reentry",
+        "post-reentry.fire"
+      ]
+    }
+  ],
+  "timeoutSeconds": 180,
+  "closeGraceSeconds": 35,
+  "notes": "Fresh current1152+optional13+dependency3+QA11 compatibility only. Healthy pair first. Old native results cannot qualify this closure; strict all-domain E/F retained. No smoke QA probe or automatic smoke program; physical boarding/HUD/design separate. V2 precompile template is intentionally not runnable: actual reviewed adoption emits a new D job with complete postcompile closure/manifest pins. Core1152 uses exact admitted ordinary-v6 de12 index; only new optional/QA resourceDatabase.rdb additions may be admitted."
+}

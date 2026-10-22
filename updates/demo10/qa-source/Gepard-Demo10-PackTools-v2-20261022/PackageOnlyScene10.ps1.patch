@@ -1,0 +1,64 @@
+--- D:\ArmaProjects\Gepard-Consolidated-20261022\updates\demo09\launcher\PackageOnlyScene09.ps1
++++ PackageOnlyScene10.ps1
+@@ -9,7 +9,7 @@
+ Set-StrictMode -Version Latest
+ $ErrorActionPreference='Stop'
+ $parserSeal=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'SOURCE-MANIFEST.json') -Raw|ConvertFrom-Json -AsHashtable
+-if((Get-FileHash -LiteralPath $PSCommandPath -Algorithm SHA256).Hash.ToLowerInvariant() -cne $parserSeal.files['PackageOnlyScene09.ps1']){throw 'Frozen parser successor differs'}
++if((Get-FileHash -LiteralPath $PSCommandPath -Algorithm SHA256).Hash.ToLowerInvariant() -cne $parserSeal.files['PackageOnlyScene10.ps1']){throw 'Frozen parser successor differs'}
+ 
+ $slot='C:\Users\marco\Documents\Codex\2026-10-12\task\RUNTIME_SLOT.json'
+ $proof=$null;$game=$null;$attached=$false;$claimed=$false;$owner=$null;$RunRoot=$null
+@@ -103,19 +103,20 @@
+ function AssertPackageClosure {
+  if((Get-FileHash -LiteralPath $PlanFile -Algorithm SHA256).Hash.ToLowerInvariant() -cne $PlanSHA256){throw 'Manual plan changed'}
+  if((Get-FileHash -LiteralPath $plan.installedClosure -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.installedClosureSHA256){throw 'Installed closure pin changed'}
+- if($plan.worldContract -cne 'C:\Users\marco\Documents\Codex\2026-10-21\task\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\PACKAGE09-WORLD-CONTRACT.json' -or (Get-FileHash -LiteralPath $plan.worldContract -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.worldContractSHA256){throw 'Exact V2 world startup contract changed'}
++ if($plan.worldContract -cne 'C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-20261022\PACKAGE10-WORLD-CONTRACT.json' -or (Get-FileHash -LiteralPath $plan.worldContract -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.worldContractSHA256){throw 'Exact V2 world startup contract changed'}
+  $closure=Get-Content -LiteralPath $plan.installedClosure -Raw|ConvertFrom-Json
+  $pins=Get-Content -LiteralPath $plan.installedClosure -Raw|ConvertFrom-Json -AsHashtable
+  $files=@(Get-ChildItem -LiteralPath $closure.root -File -Recurse)
+- if($files.Count -ne 9 -or $pins.files.Count -ne 9){throw 'Exact three own installed trios required'}
++ if($files.Count -ne 12 -or $pins.files.Count -ne 12){throw 'Exact four own installed trios required'}
+  foreach($rel in $pins.files.Keys){if((Get-FileHash -LiteralPath (Join-Path $closure.root $rel) -Algorithm SHA256).Hash.ToLowerInvariant() -cne $pins.files[$rel]){throw 'Installed package bytes changed'}}
+  if((Get-FileHash -LiteralPath $plan.dependencyClosure -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.dependencyClosureSHA256){throw 'Separate WCS dependency closure differs'}
+  $wcsClosure=Get-Content -LiteralPath $plan.dependencyClosure -Raw|ConvertFrom-Json -AsHashtable
+- if($wcsClosure.root -cne 'D:\ArmaProjects\Gepard-Consolidated-20261022\private-smoke-demo-source-v2\dependencies' -or $wcsClosure.files.Count -ne 3 -or @(Get-ChildItem -LiteralPath $wcsClosure.root -Recurse -File).Count -ne 3){throw 'Only exact separate installed WCS trio permitted'}
++ if($wcsClosure.root -cne 'D:\ArmaProjects\Gepard-Demo10-TrackArt-20261022\private-demo-source10\dependencies' -or $wcsClosure.files.Count -ne 6 -or @(Get-ChildItem -LiteralPath $wcsClosure.root -Recurse -File).Count -ne 6){throw 'Only exact separate SpaceCore and WCS trios permitted'}
++ if((@(Get-ChildItem -LiteralPath $wcsClosure.root -Directory | ForEach-Object {$_.Name} | Sort-Object) -join ',') -cne 'SpaceCore_5E389BB9F58B79A6,WCS_Armaments_629B2BA37EFFD577'){throw 'Unexpected/Bradley dependency directory'}
+  foreach($relativeWCS in $wcsClosure.files.Keys){if((Get-FileHash -LiteralPath (Join-Path $wcsClosure.root $relativeWCS) -Algorithm SHA256).Hash.ToLowerInvariant() -cne $wcsClosure.files[$relativeWCS]){throw 'Separately installed WCS dependency changed'}}
+  foreach($p in $plan.nativeToolPins.psobject.Properties){if((Get-FileHash -LiteralPath $p.Name -Algorithm SHA256).Hash.ToLowerInvariant() -cne $p.Value){throw 'Native executable pin differs'}}
+ }
+-function ReadWorldStartup09([string]$text) {
++function ReadWorldStartup10([string]$text) {
+  $wc=Get-Content -LiteralPath $plan.worldContract -Raw|ConvertFrom-Json
+  $first=[regex]::Match($text,[regex]::Escape($wc.requiredReadyMarker))
+  if(!$first.Success){return @{pass=$false;objects=0;boards=0;finiteInitial=$false;bindings=$false}}
+@@ -158,14 +159,14 @@
+ $RunRoot=$plan.runRoot;$Project=$plan.project;$exe=$plan.executable;$nativeArgs=@($plan.args)
+ if($plan.schema -ne 1 -or $plan.type -cne 'private-package-only-ordinary-scene' -or !$plan.keepOpen -or $plan.mode -notin @('manual','probe')){throw 'Only frozen ordinary package plan bound'}
+ if(($plan.mode -eq 'manual' -and $ProbeSeconds -ne 0) -or ($plan.mode -eq 'probe' -and $ProbeSeconds -ne 75)){throw 'Manual untimed/probe75 close policy differs'}
+-$R='D:\ArmaProjects\Gepard-Consolidated-20261022'
+-$installed=Join-Path $R 'private-installed-demo-09\addons'
++$R='D:\ArmaProjects\Gepard-Demo10-TrackArt-20261022'
++$installed=Join-Path $R 'private-installed-demo-10b\addons'
+ $expectedExe='D:\SteamLibrary\steamapps\common\Arma Reforger\ArmaReforgerSteamDiag.exe'
+ if($plan.sessionId -cnotmatch '^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$'){throw 'Only builder-generated UUID4 session bound'}
+-$expectedRun='native-runs\private-demo-09-sessions\'+$plan.mode+'-'+$plan.sessionId
++$expectedRun='native-runs\private-demo-10b-sessions\'+$plan.mode+'-'+$plan.sessionId
+ if($exe -cne $expectedExe -or $RunRoot -cne (Join-Path $R $expectedRun) -or $Project -cne (Join-Path $installed 'A76A420022000001\addon.gproj')){throw 'Exact package-only executable/run/project differs'}
+ $profile=Join-Path $RunRoot 'profile';$logs=Join-Path $RunRoot 'logs'
+-$expectedArgs=@('-profile',$profile,'-logsDir',$logs,'-addonDownloadDir',$profile,'-window','-screenWidth','1280','-screenHeight','720','-maxFPS','60','-noSplash','-forceUpdate','-addonsDir',($installed+',D:\ArmaProjects\Gepard-Consolidated-20261022\private-smoke-demo-source-v2\dependencies,D:\SteamLibrary\steamapps\common\Arma Reforger\addons'),'-addons','D561AD08932E7B40,7E0150C026101500,A76A420022000001,629B2BA37EFFD577','-world','Worlds/GPG_Arland.ent','-worldSystemsConfig','{C50579A2EC48E8EF}Configs/Systems/MissionSystems.conf','-noBackend')
++$expectedArgs=@('-profile',$profile,'-logsDir',$logs,'-addonDownloadDir',$profile,'-window','-screenWidth','1280','-screenHeight','720','-maxFPS','60','-noSplash','-forceUpdate','-addonsDir',($installed+',D:\ArmaProjects\Gepard-Demo10-TrackArt-20261022\private-demo-source10\dependencies,D:\SteamLibrary\steamapps\common\Arma Reforger\addons'),'-addons','D561AD08932E7B40,7E0150C026101500,5E51C5D8F04FDB80,A76A420022000001,5E389BB9F58B79A6,629B2BA37EFFD577','-world','Worlds/GPG_Arland.ent','-worldSystemsConfig','{C50579A2EC48E8EF}Configs/Systems/MissionSystems.conf','-noBackend')
+ if($nativeArgs.Count -ne $expectedArgs.Count){throw 'Package-only argv count differs'}
+ for($i=0;$i -lt $expectedArgs.Count;$i++){if($nativeArgs[$i] -cne $expectedArgs[$i]){throw 'Exact ordinary package argv differs'}}
+ AssertPackageClosure
+@@ -228,7 +229,7 @@
+  $hashes=$text.Contains('GPG_STAGED registry='+$plan.expectedRegistry+' source='+$plan.expectedRuntime+' ')
+  $bays=$true;foreach($id in @('OLD-CAMO','OLD-CHARCOAL','NEW-CAMO','NEW-CHARCOAL')){if(!$text.Contains('GPG_OBJECT id='+$id+' station=bay ')){$bays=$false}}
+  $survey=$text.Contains('GPG_SURVEY target=T100 nominalHorizontal=100 ') -and $text.Contains('GPG_SURVEY target=T300 nominalHorizontal=300 ')
+- $worldStartup=ReadWorldStartup09 $text
++ $worldStartup=ReadWorldStartup10 $text
+  $functionalStartup=$code -eq 0 -and $gameState -and $ready -and $hashes -and $bays -and $survey -and $worldStartup.pass
+  $passed=$functionalStartup -and $errors.Count -eq 0
+  Save 'RESULT.json' @{status=$(if($passed){'PACKAGE_ONLY_ORDINARY_STARTUP_PROOF_PASS'}else{'PACKAGE_ONLY_ORDINARY_STARTUP_PROOF_FAIL'});functionalStartupObserved=$functionalStartup;worldStartup=$worldStartup;strictNativeVerdict=$(if($errors.Count){'FAIL'}else{'PASS'});exitCode=$code;nativeAbsent=$true;leaseReleased=$true;game=$gameState;ordinaryReady=$ready;actualLayoutHashes=$hashes;fourComparisonBays=$bays;twoRangeSurveys=$survey;rawErrorCount=$errors.Count;probeSeconds=$ProbeSeconds;privateQA=$false;humanMovement='NOT_TESTED';humanHUD='NOT_TESTED';humanFiring='NOT_TESTED';visualAcceptance='NEEDS_USER_TEST';sourcePackOperationalVerdict=$closure.packDiagnostics.operationalVerdict;sourcePackStrictNativeVerdict=$closure.packDiagnostics.strictNativeVerdict;sourcePackRawErrorCount=$closure.packDiagnostics.rawNativeErrorCount;published=$false}

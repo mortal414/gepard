@@ -1,0 +1,8 @@
+{
+  "parentAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\ACTUAL-COMPILE-ADOPTION.json",
+  "sha256": "8f755091832f343da29b37d45a78a11388c9c522dad9a715976b102c0491a37a",
+  "receipt": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-core-01\\RESULT.json",
+  "receiptSHA256": "c0325b8714c2e2ed2be400bd9b34bfe8cf467e0ef80d1d4ff4169b76e76ca6aa",
+  "parentClosuresExact": true,
+  "excludedUnloadedWorldRoot": "provingGround"
+}

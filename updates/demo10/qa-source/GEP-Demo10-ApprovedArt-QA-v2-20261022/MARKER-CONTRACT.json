@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "projectGuid": "65239F780E614817",
+  "worldGuid": "CFEAA2A7BDA141AC",
+  "world": "Worlds/GEPArtNativeSceneQA.ent",
+  "loadedAddonIds": [
+    "65239F780E614817",
+    "5E51C5D8F04FDB80",
+    "D561AD08932E7B40",
+    "7E0150C026101500",
+    "5E389BB9F58B79A6",
+    "629B2BA37EFFD577",
+    "58D0FB3206B6F859",
+    "5614BBCCBB55ED1C"
+  ],
+  "functionalSubjects": 2,
+  "viewsPerSkin": 7,
+  "expectedImages": 14,
+  "newPadsBound": false,
+  "artAcceptance": "NOT_TESTED",
+  "modelResources": [
+    "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+    "{4D7043CCA2E8BD79}Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+    "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+    "{2A7F69D8A7902DE2}Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+    "{3772144B4AA90B1E}Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+    "{B621A5631346B7A3}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+    "{418DE4B4FC8541A0}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+    "{C23AF0E6361BFB2C}Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob"
+  ]
+}

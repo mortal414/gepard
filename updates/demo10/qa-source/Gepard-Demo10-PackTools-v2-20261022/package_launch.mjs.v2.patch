@@ -1,0 +1,29 @@
+--- C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-20261022\package_launch.mjs
++++ C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-v2-20261022\package_launch.mjs
+@@ -6,7 +6,7 @@
+ import {makeClientPlan,verifyInstalledAddons} from 'file:///C:/Users/marco/Desktop/reforger-agent-harness/src/client-cli.ts';
+ const HERE=path.dirname(fileURLToPath(import.meta.url));
+ const R='D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022';
+-const installed=path.join(R,'private-installed-demo-10','addons');
++const installed=path.join(R,'private-installed-demo-10b','addons');
+ const expected={gepard:'D561AD08932E7B40',wcsSmoke:'7E0150C026101500',integration:'5E51C5D8F04FDB80',provingGround:'A76A420022000001'};
+ const wcs='629B2BA37EFFD577',space='5E389BB9F58B79A6',dependencyRoot=path.join(R,'private-demo-source10','dependencies');
+ const planPath=path.join(HERE,'ROOT-PACK-PLAN-10.json');
+@@ -75,7 +75,7 @@
+ }
+ export function qualifyPackages(){
+  const plan=read(planPath);verifySources(plan);dependency();
+- insist(plan.runRoot===path.join(R,'native-runs','private-pack-10')&&plan.outputRoot===path.join(R,'private-package-build-10'),'Only exact09 pack bound');
++ insist(plan.runRoot===path.join(R,'native-runs','private-pack-10b')&&plan.outputRoot===path.join(R,'private-package-build-10b'),'Only exact09 pack bound');
+  const result=read(path.join(plan.runRoot,'RESULT.json'));
+  insist(result.status==='PRIVATE_VALIDATE_PACK_SEQUENCE_OPERATIONAL_PASS'&&result.nativeAbsent===true&&result.leaseReleased===true&&result.published===false,'Actual complete closed private pack required');
+  insist(result.steps.length===4&&result.steps.every(s=>s.exitCode===0&&s.verifiedExited===true),'Four actual natural exits required');
+@@ -105,7 +105,7 @@
+  insist(closure.root===installed&&closure.packPlanSHA256===sha(planPath)&&Object.keys(closure.files).length===12,'Installed09 origin differs');complete(installed,closure.files);
+  insist(fs.readdirSync(installed).sort().join(',')===Object.values(expected).sort().join(','),'Only exact four own addon GUIDs');
+  verifyInstalledAddons([...Object.values(expected),space,wcs],[installed,dependencyRoot]);
+- const sessionId=randomUUID(),run=path.join(R,'native-runs','private-demo-10-sessions',mode+'-'+sessionId),sessionRoot=path.join(HERE,'session-plans',mode+'-'+sessionId);
++ const sessionId=randomUUID(),run=path.join(R,'native-runs','private-demo-10b-sessions',mode+'-'+sessionId),sessionRoot=path.join(HERE,'session-plans',mode+'-'+sessionId);
+  insist(!fs.existsSync(run),'Fresh UUID native profile required');
+  const exe='D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe';
+  const client=makeClientPlan({addonIds:[expected.gepard,expected.wcsSmoke,expected.integration,expected.provingGround,space,wcs],addonsDirs:[installed,dependencyRoot,plan.coreAddonRoot],world:'Worlds/GPG_Arland.ent',connectLocal:false,forceUpdate:true,durationSeconds:600,keepOpen:true,expectGame:true,profile:path.join(run,'profile')},exe,run);

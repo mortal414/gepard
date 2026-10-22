@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "id": "v11-healthy",
+  "stimulus": "none",
+  "resource": "",
+  "position": "600 0.7 2600",
+  "targetLocal": "1.050971 2.3 -0.14",
+  "incoming": "1 0 0",
+  "range": 25,
+  "standoff": 2,
+  "settleSeconds": 10,
+  "sampleSeconds": 3,
+  "maxGameSeconds": 90,
+  "shotCount": 1,
+  "shotInterval": 0.3,
+  "requestScriptedEgress": true,
+  "crewRole": "gunner",
+  "seedRequest": -1,
+  "capture": true
+}

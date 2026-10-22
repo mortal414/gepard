@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "template": "startup",
+  "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-artqa-new-stage-v2\\artNativeQA\\GEPArtNativeSceneQA.gproj",
+  "world": "Worlds/GEPArtNativeSceneQA.ent",
+  "sourceRoots": [
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-artqa-new-stage-v2\\artNativeQA"
+  ],
+  "addonRoots": [
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-artqa-new-stage-v2",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons"
+  ],
+  "requiredFiles": [],
+  "requiredClasses": [
+    "GEP_ArtNativeSceneQA20261022",
+    "GEP_ArtNativeSpawnLogic20261022",
+    "GEP_ArtNativeQualification20261022"
+  ],
+  "capabilities": [
+    "isolated-reset",
+    "owned-lifecycle",
+    "native-load"
+  ],
+  "adapter": {
+    "executable": "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "script": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-ApprovedArt-QA-v2-20261022\\adapter.py",
+    "args": [
+      "{script}",
+      "{request}",
+      "{result}",
+      "{cancel}"
+    ]
+  },
+  "cases": [
+    {
+      "id": "art-native-functional-capture",
+      "parameters": {
+        "closures": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-ApprovedArt-QA-v2-20261022\\adopted\\SOURCE-CLOSURES.json",
+        "closurePinSHA256": "9091e4b8c4dad4ed7538f923010657c28a6f247c9c1ba8875befe158b8da921e",
+        "completeManifestPins": {
+          "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtNativeScene-Bridge-NodeId-20261022\\GEPARD_SOURCE_MANIFEST.json": "1bc770fdfd425ca6e94a8091e994c44d97d20f1687b4bbf6f874d3de5dc7623c",
+          "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtNativeScene-Bridge-NodeId-20261022\\QA_SOURCE_MANIFEST.json": "3a900838f48e0f07d8e6df32454cb5da5e203a50994d5a406f93ac8c41776345"
+        },
+        "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-ApprovedArt-QA-v2-20261022\\tools\\Scene.ps1",
+        "wrapperSHA256": "f1b0f6776d3eb43249fa44606f3454721c2f63500984b2ad1154d37cc39c6cca",
+        "powerShell": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "compileAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-ApprovedArt-QA-v2-20261022\\adopted\\COMPILE-ADOPTION.json",
+        "markerContract": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ArtNativeScene-Bridge-NodeId-20261022\\MARKER-CONTRACT.json",
+        "markerContractSHA256": "981976e0c38d8cc0ff9c66db47f1ab8c16ae58519f4ce5ae71a7d3ec79ff0dd5",
+        "addonId": "65239F780E614817",
+        "addonSearchPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "seconds": 180,
+        "screenWidth": 1280,
+        "screenHeight": 720,
+        "adapterDeadlineSeconds": 240,
+        "childLogLimitBytes": 4194304
+      },
+      "assertions": [
+        "fixture.ready",
+        "world.loaded",
+        "scripts.compiled",
+        "art.native-readout",
+        "art.capture-files",
+        "native.errors"
+      ]
+    }
+  ],
+  "timeoutSeconds": 270,
+  "closeGraceSeconds": 35,
+  "notes": "Parent sole native coordinator; fresh admission and active user hold checks preserved. One180s bounded functional V11 readout/twelve BMP artifact case. Image content/art/dynamic gameplay NOT_TESTED; no NEW binding. No forced cleanup or automatic retry."
+}

@@ -1,0 +1,58 @@
+{
+  "status": "ROOT_DEMO10_COMPILE_ADMITTED_CURRENT_CLOSURES",
+  "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+  "resultPath": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-core-01\\RESULT.json",
+  "resultSHA256": "c0325b8714c2e2ed2be400bd9b34bfe8cf467e0ef80d1d4ff4169b76e76ca6aa",
+  "consolePath": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-core-01\\logs\\validate\\console.log",
+  "consoleSHA256": "056847878a0f8d1fb00b1ba35baac1ad117ce50276210af01cc4647c14c1785b",
+  "sourceClosures": [
+    {
+      "role": "gepard",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-gepard.json",
+      "manifestSHA256": "73ee39ecea90fc19c6420d1d7b2eca255705bd263dab681af90a2f633861feb2",
+      "files": 1152
+    },
+    {
+      "role": "wcsSmoke",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-wcsSmoke.json",
+      "manifestSHA256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8",
+      "files": 14
+    },
+    {
+      "role": "integration",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-integration.json",
+      "manifestSHA256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+      "files": 68
+    },
+    {
+      "role": "provingGround",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-provingGround.json",
+      "manifestSHA256": "87eae93b58a53e7ea976a8e0b7ee9e1df3ef12afab14af17fec9545cdcde2d0e",
+      "files": 11
+    },
+    {
+      "role": "SpaceCore_5E389BB9F58B79A6",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-SpaceCore_5E389BB9F58B79A6.json",
+      "manifestSHA256": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8",
+      "files": 3
+    },
+    {
+      "role": "WCS_Armaments_629B2BA37EFFD577",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-WCS_Armaments_629B2BA37EFFD577.json",
+      "manifestSHA256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+      "files": 3
+    }
+  ],
+  "originalRootAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\ACTUAL-COMPILE-ADOPTION.json",
+  "originalRootAdoptionSHA256": "8f755091832f343da29b37d45a78a11388c9c522dad9a715976b102c0491a37a",
+  "compilerIdentity": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-core-01\\compiler-identity.json",
+  "compilerIdentitySHA256": "64bf711ed99a36e72e67e84f6cdbc394896d648cfa6fc2ff60ac437eedf47c2f",
+  "nativeGameplay": "NOT_TESTED",
+  "normalization": "Field mapping only; actual source/result/console/compiler receipts read and verified, no native result changed"
+}

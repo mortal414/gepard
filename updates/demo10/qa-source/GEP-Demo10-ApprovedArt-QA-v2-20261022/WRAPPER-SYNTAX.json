@@ -1,0 +1,18 @@
+{
+  "leaseRead": false,
+  "DWritten": false,
+  "nativeStarted": false,
+  "status": "POWERSHELL_PARSE_ONLY_PASS",
+  "rows": [
+    {
+      "parseErrors": 0,
+      "executed": false,
+      "file": "Scene.ps1"
+    },
+    {
+      "parseErrors": 0,
+      "executed": false,
+      "file": "Compile.ps1"
+    }
+  ]
+}

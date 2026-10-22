@@ -1,0 +1,35 @@
+{
+  "demo10Adoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\ACTUAL-COMPILE-ADOPTION.json",
+  "demo10AdoptionSHA256": "8f755091832f343da29b37d45a78a11388c9c522dad9a715976b102c0491a37a",
+  "oldSourceSeal": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CurrentV11-Qualification-v3-20261022\\SOURCE-MANIFEST.json",
+  "oldSourceSealSHA256": "c6ba64b43fb700359047e37fb5e147ce9f31ccdf993ba8255d5eabd1c41ec9b1",
+  "qaChanges": [
+    "GEP_SmokeCurrentV11_QA.gproj",
+    "scripts/Game/GEP215CurrentV11QA/GEP215_CurrentV11Probe.c",
+    "Worlds/GEP215_CurrentV11Camo_default.layer",
+    "Worlds/GEP215_CurrentV11Charcoal_default.layer"
+  ],
+  "productionWrites": false,
+  "finalResourceRebind": {
+    "{7E0150C026103002}Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et": "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+    "{7E0150C026103004}Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et": "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et"
+  },
+  "qualifiedPriorCases": [
+    {
+      "skin": "camo",
+      "result": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-camo-02\\smoke-current-v11-camo\\result.json",
+      "sha256": "88cfff5ee06628f10172ac3c0def0ccbad25972eb3186c46e2bbf580545e5985",
+      "nativeErrorsPreserved": "FAIL"
+    },
+    {
+      "skin": "charcoal",
+      "result": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-charcoal-02\\smoke-current-v11-charcoal\\result.json",
+      "sha256": "f7af05e1109a284ff158b0958c0cfd5e7055e43a8ad227f053a8c6133d5bc46b",
+      "nativeErrorsPreserved": "FAIL"
+    }
+  ],
+  "finalInputsFiles": 1251,
+  "qaFiles": 10,
+  "stageRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-demo10-smoke-stage-v1",
+  "nativeStarted": false
+}

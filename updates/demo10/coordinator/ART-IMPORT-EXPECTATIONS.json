@@ -1,0 +1,52 @@
+{
+  "models": [
+    {
+      "new_model": "{B621A5631346B7A3}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.fbx",
+      "new_fbx_sha256": "fdc4133cc08fb321d9fe30362c736557403e64c6faaa9283ceffffa28c784ed2",
+      "seed_xob_sha256": "c8c767b4fe90d61b52e81b18cff305757751554914f7be14d04b925e3a214622"
+    },
+    {
+      "new_model": "{418DE4B4FC8541A0}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.fbx",
+      "new_fbx_sha256": "d9c81b27823212d11014867253f952fe5da686d48bb924233de084a7fdbf16d2",
+      "seed_xob_sha256": "d119ae1e0f871dd87e42dd230a71733cb6e4b5530935fd4d1af4d9f29078f8fb"
+    },
+    {
+      "new_model": "{C23AF0E6361BFB2C}Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.fbx",
+      "new_fbx_sha256": "57fcd57facf9f30b1fe8166d55f119119985426f16b83b150a46afbf42bc0958",
+      "seed_xob_sha256": "3b5f1c3b52f727dfa4282de6f072b1210eb030ba53b166152c1d520ca89b7e6b"
+    },
+    {
+      "new_model": "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Mobility/MobilityRig.fbx",
+      "new_fbx_sha256": "256013e7aada1110e76775894fb1533c74ea368e6f4e9ed90f0c6369b0bbc358",
+      "seed_xob_sha256": "7490fcff9d9e2ee387ad08972c75aecb1e4d8f601c0fba62b7a9cb8e2b1374f1"
+    },
+    {
+      "new_model": "{4D7043CCA2E8BD79}Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.fbx",
+      "new_fbx_sha256": "881ca360c0b3cebbade36589897e938a015fec49a83308b91cefc61a80d629b5",
+      "seed_xob_sha256": "79ccacd0ca36a5a60a3c4be398d5170d1a6f46d776c1ee853a77c8d7aec932c2"
+    },
+    {
+      "new_model": "{3BCF7603417F357B}Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.fbx",
+      "new_fbx_sha256": "7117353ccfb3712fa2636ddaff52d57f1adcf106521d84d93be902f88bdd7d74",
+      "seed_xob_sha256": "3131f0cce258caabe4a3560cb3ef9a934f5e68a05cb4939ad24611f33ddd2ad3"
+    },
+    {
+      "new_model": "{2A7F69D8A7902DE2}Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/GepardGunLeft.fbx",
+      "new_fbx_sha256": "646d25a76e5e404a08368fe7856b9c6e96beb1b104ea143a384917136c476d70",
+      "seed_xob_sha256": "23ecfc6d4a976ccebfccfaee17a4db4068d4970f2f1349ed9c807b6dea128499"
+    },
+    {
+      "new_model": "{3772144B4AA90B1E}Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/GepardGunRight.fbx",
+      "new_fbx_sha256": "c679f652ce1414d7f4de38c0d4ecb98dddc8d7681ac47bdf9362fbb862d65664",
+      "seed_xob_sha256": "7cac0dcaa1aede8111a3c887deeffdfba62129904c751e47e83c2cf9e8a926e7"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+// Original child: use installed SpaceCore graphs through their normal dependency.
+Vehicle : "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et" {
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Wheels {
+    VehicleWheelSound L_01 { Filename "{309FB429B1BB6ACC}Sounds/Vehicles/_SharedData/Tracks/Vehicles_Tracks_Left.acp" }
+    VehicleWheelSound R_01 { Filename "{C1948C7DC2E45F20}Sounds/Vehicles/_SharedData/Tracks/Vehicles_Tracks_Right.acp" }
+   }
+  }
+ }
+}

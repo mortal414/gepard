@@ -1,0 +1,38 @@
+[
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\gepard.json",
+    "sha256": "73ee39ecea90fc19c6420d1d7b2eca255705bd263dab681af90a2f633861feb2",
+    "files": 1152
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\wcsSmoke.json",
+    "sha256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8",
+    "files": 14
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\integration.json",
+    "sha256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+    "files": 68
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\SpaceCore_5E389BB9F58B79A6.json",
+    "sha256": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8",
+    "files": 3
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\WCS_Armaments_629B2BA37EFFD577.json",
+    "sha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "files": 3
+  },
+  {
+    "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single\\qaCore",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\qaCore.json",
+    "sha256": "f62d47b95de33956b9ee3a1e4ef27e90d2b85d0641f6ca38be3f8fff952d8900",
+    "files": 12
+  }
+]

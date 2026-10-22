@@ -1,0 +1,171 @@
+{
+  "nativeStarted": false,
+  "files": [
+    {
+      "bytes": 14967,
+      "sha256": "e4f223e0c93c48a57d10599b2532af205fc779d02d258f6fd061d7813d472232",
+      "relative": "adapter.py"
+    },
+    {
+      "bytes": 332,
+      "sha256": "58c4a36acd4e6735b622ef2d94f969427f11e87b1f122b0dd67af5712ca7f387",
+      "relative": "addon/GEP_SmokeCurrentV11_QA.gproj"
+    },
+    {
+      "bytes": 561,
+      "sha256": "4751abba5f609fe83c74d4ee5f99d6a44eaf0564cc038a6b7ac2f03723de9d43",
+      "relative": "addon/resourceDatabase.rdb"
+    },
+    {
+      "bytes": 21719,
+      "sha256": "00a670569f6e809654973d7f7fd3e854f5814e07424b95ae96c9550e7b79b799",
+      "relative": "addon/scripts/Game/GEP215CurrentV11QA/GEP215_CurrentV11Probe.c"
+    },
+    {
+      "bytes": 100,
+      "sha256": "8504ea9e00bdc4ca41dde5a23bef1203fc92a90d7e0f7436b550bc0062563a65",
+      "relative": "addon/scripts/Game/GEP215CurrentV11QA/GEP215_CurrentV11Probe.c.meta"
+    },
+    {
+      "bytes": 766,
+      "sha256": "8fbcedcd76dff8435e71caad2e1575ca4e27188f2eb2a8dbdd7ab7a23d46ed82",
+      "relative": "addon/Worlds/GEP215_CurrentV11Camo_default.layer"
+    },
+    {
+      "bytes": 96,
+      "sha256": "075a4183ee3395f20e16130e61074d942ed7bb44d8810dc0f42ee2f151291530",
+      "relative": "addon/Worlds/GEP215_CurrentV11Camo.ent"
+    },
+    {
+      "bytes": 76,
+      "sha256": "0e1ec1abf6ff2b2ae26b0397be658298bc684444d6b4eef0c4bf9eb66c0aac8b",
+      "relative": "addon/Worlds/GEP215_CurrentV11Camo.ent.meta"
+    },
+    {
+      "bytes": 770,
+      "sha256": "56d1345fed692bda71fedbb360040d686a2dfb2cb874384add7eeb2640aac590",
+      "relative": "addon/Worlds/GEP215_CurrentV11Charcoal_default.layer"
+    },
+    {
+      "bytes": 96,
+      "sha256": "075a4183ee3395f20e16130e61074d942ed7bb44d8810dc0f42ee2f151291530",
+      "relative": "addon/Worlds/GEP215_CurrentV11Charcoal.ent"
+    },
+    {
+      "bytes": 80,
+      "sha256": "75df46c54f97c004881048d7b9eca6ec7e1be65088742c85fe1b4187d7c67334",
+      "relative": "addon/Worlds/GEP215_CurrentV11Charcoal.ent.meta"
+    },
+    {
+      "bytes": 5072,
+      "sha256": "bf18e91baf75f403ce8d5e00b07500b26b491d5e86696af60ed59f0a1bfceb8a",
+      "relative": "adoption.py"
+    },
+    {
+      "bytes": 15584,
+      "sha256": "4d1c3ca6a4399cef1e7019ed5869025983c0070db5ee24f3ea166bd6d546892a",
+      "relative": "analyze_wcs_smoke_supplier.py"
+    },
+    {
+      "bytes": 468,
+      "sha256": "5b7e9bcd2b08d50fa31a7eec41aacfe07fb1de5aa61c92aefd8011a56fd97be8",
+      "relative": "CHECKS.json"
+    },
+    {
+      "bytes": 599,
+      "sha256": "f28ce074da5c42c34b24a50572bd425119405b82ba8c1437f6d41b0c2795cca9",
+      "relative": "diffs/GEP_SmokeCurrentV11_QA.gproj.patch"
+    },
+    {
+      "bytes": 2002,
+      "sha256": "f362378cec548a85487b3c3cc4c26355f3b90ff009349f01e22c0aec4eac06bd",
+      "relative": "diffs/scripts/Game/GEP215CurrentV11QA/GEP215_CurrentV11Probe.c.patch"
+    },
+    {
+      "bytes": 772,
+      "sha256": "fa691a8ff6b26b75aba161f266d98041d8daf037c0c553d8e8bc13aabed96ee1",
+      "relative": "diffs/Worlds/GEP215_CurrentV11Camo_default.layer.patch"
+    },
+    {
+      "bytes": 788,
+      "sha256": "b13741b307c1084210c0b9d27b7b1760f735e00803195ee1bb45b5f174b74009",
+      "relative": "diffs/Worlds/GEP215_CurrentV11Charcoal_default.layer.patch"
+    },
+    {
+      "bytes": 1007,
+      "sha256": "faa6d005f18780b404c3603dfef67fd2da1b6e91ebe3029398339a262f8130ce",
+      "relative": "evidence.py"
+    },
+    {
+      "bytes": 2659,
+      "sha256": "419de5d0e03c5bb54203f60dc542a9869d819c74d87d001525f015643d833b9f",
+      "relative": "EXPECTED-STAGE-CLOSURES.json"
+    },
+    {
+      "bytes": 1934,
+      "sha256": "e9750f62fd03cd8b859c92dcf8980a74263a02ae4f020923653dbeb18db97054",
+      "relative": "INPUT-PINS.json"
+    },
+    {
+      "bytes": 2810,
+      "sha256": "a56e0307d68ccbde1417da89086c65ed671cac888b886116652ebc2ae03baedf",
+      "relative": "lease_read.py"
+    },
+    {
+      "bytes": 1154,
+      "sha256": "b724561ad288c270500d7e9fe386a0afe882bcc07a1bc7dec27ee4d80a775e01",
+      "relative": "pins/QA_SOURCE10.json"
+    },
+    {
+      "bytes": 2002,
+      "sha256": "a8f596cdd127ea74cbd758c694d2be3c5f2f4efc0187335b68fe45fedcc8c86f",
+      "relative": "plan_current.py"
+    },
+    {
+      "bytes": 7978,
+      "sha256": "0a62179c7bc9f23b55a650a1f9c1e8f231bee5ddf2e0956927b71c02ccf4dbcd",
+      "relative": "prepare_current.py"
+    },
+    {
+      "bytes": 4221,
+      "sha256": "4e1221a4a91bd0e0b479d3fab4697dba2436a658d05139a225adb5bf7ffd77e1",
+      "relative": "README.md"
+    },
+    {
+      "bytes": 12193,
+      "sha256": "3049a9e93e6811d022b106ee1e2db1416c1b573f8cde33d67076c7429ae25b6e",
+      "relative": "smoke_evidence.py"
+    },
+    {
+      "bytes": 3685,
+      "sha256": "392e23ad4bf049afe312f281a95ef23f12b52ad7965bca0186d3abceff021332",
+      "relative": "SOURCE-COPY-CLOSURES.json"
+    },
+    {
+      "bytes": 837,
+      "sha256": "4a781569e033172ce16c7afee6e60db7274c30469072e300e7180491a1fab5e2",
+      "relative": "SOURCE-DERIVATION.json"
+    },
+    {
+      "bytes": 5187,
+      "sha256": "faae9b36b2041c8204a2dce7a91b6b4346d8b471ddb2a1586f553d492963a13f",
+      "relative": "StageDemo10.ps1"
+    },
+    {
+      "bytes": 9067,
+      "sha256": "eb96631ada8e5248d214d4411ec186cfb903e77e7cfe3556cef78405cccc3331",
+      "relative": "tools/CompileCurrentV11.ps1"
+    },
+    {
+      "bytes": 14368,
+      "sha256": "60272227e5a1ad3451d60e3ee9d35f031583a166d54debb701b108ab9a2cf7de",
+      "relative": "tools/Scene.ps1"
+    },
+    {
+      "bytes": 2347,
+      "sha256": "fd00b5d686ff76d36b10a75bb2a5eaa75a1f9f5de6dc5defddbaeb99041d244f",
+      "relative": "verify_source.py"
+    }
+  ],
+  "status": "FROZEN_FINAL_DEMO10_SMOKE_QA_SOURCE_READY"
+}

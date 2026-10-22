@@ -1,0 +1,58 @@
+[
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+    "target": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-gepard.json",
+    "sha256": "73ee39ecea90fc19c6420d1d7b2eca255705bd263dab681af90a2f633861feb2",
+    "files": 1152,
+    "copyRequired": false
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+    "target": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-wcsSmoke.json",
+    "sha256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8",
+    "files": 14,
+    "copyRequired": false
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+    "target": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-integration.json",
+    "sha256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+    "files": 68,
+    "copyRequired": false
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround",
+    "target": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-provingGround.json",
+    "sha256": "87eae93b58a53e7ea976a8e0b7ee9e1df3ef12afab14af17fec9545cdcde2d0e",
+    "files": 11,
+    "copyRequired": false
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+    "target": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-SpaceCore_5E389BB9F58B79A6.json",
+    "sha256": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8",
+    "files": 3,
+    "copyRequired": false
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+    "target": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-WCS_Armaments_629B2BA37EFFD577.json",
+    "sha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "files": 3,
+    "copyRequired": false
+  },
+  {
+    "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-Smoke-Continuity-v1-20261022\\addon",
+    "target": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-demo10-smoke-stage-v1\\qaSmoke",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-Smoke-Continuity-v1-20261022\\pins\\QA_SOURCE10.json",
+    "sha256": "b724561ad288c270500d7e9fe386a0afe882bcc07a1bc7dec27ee4d80a775e01",
+    "files": 10,
+    "copyRequired": true
+  }
+]

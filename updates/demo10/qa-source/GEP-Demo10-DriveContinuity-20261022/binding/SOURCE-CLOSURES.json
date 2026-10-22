@@ -1,0 +1,26 @@
+[
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\gepard.json"
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\wcsSmoke.json"
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\integration.json"
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\SpaceCore_5E389BB9F58B79A6.json"
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\WCS_Armaments_629B2BA37EFFD577.json"
+  },
+  {
+    "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\native-stage\\audioQA",
+    "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\QA-MANIFEST.json"
+  }
+]

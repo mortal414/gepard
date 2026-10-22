@@ -1,0 +1,168 @@
+{
+  "status": "PASS_SOURCE_ONLY",
+  "checks": [
+    {
+      "name": "complete exact closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "pass": true
+    },
+    {
+      "name": "complete exact closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "pass": true
+    },
+    {
+      "name": "complete exact closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "pass": true
+    },
+    {
+      "name": "complete exact closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "pass": true
+    },
+    {
+      "name": "complete exact closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "pass": true
+    },
+    {
+      "name": "complete exact closure:C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\native-stage\\audioQA",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:resourceDatabase.rdb",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP033_AudioReadback.c",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP033_AudioReadback.c.meta",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP683_PassiveImpact.c",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP683_PassiveImpact.c.meta",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_CoreManualSpawn20261022.c",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_CoreManualSpawn20261022.c.meta",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_CoreWheeledCourse20261022.c",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_CoreWheeledCourse20261022.c.meta",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_DamageRecords683.c",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_DamageRecords683.c.meta",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_DamageScenario683.c.meta",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_NativeStimulus683.c",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:scripts\\Game\\GEP\\GEP_NativeStimulus683.c.meta",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:Worlds\\GEP_TrackRollingAudition033.ent",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:Worlds\\GEP_TrackRollingAudition033.ent.meta",
+      "pass": true
+    },
+    {
+      "name": "unchanged passed QA:Worlds\\GEP_TrackRollingAudition033_default.layer",
+      "pass": true
+    },
+    {
+      "name": "one resource allowlist line only",
+      "pass": true
+    },
+    {
+      "name": "unused Bradley reference removed",
+      "pass": true
+    },
+    {
+      "name": "final integration dependency",
+      "pass": true
+    },
+    {
+      "name": "no old1158 common clone",
+      "pass": true
+    },
+    {
+      "name": "same bounded parameters:camo",
+      "pass": true
+    },
+    {
+      "name": "actual approved target:camo",
+      "pass": true
+    },
+    {
+      "name": "same bounded parameters:charcoal",
+      "pass": true
+    },
+    {
+      "name": "actual approved target:charcoal",
+      "pass": true
+    },
+    {
+      "name": "old source root absent:Compile.ps1",
+      "pass": true
+    },
+    {
+      "name": "root lifecycle guards:Compile.ps1",
+      "pass": true
+    },
+    {
+      "name": "old source root absent:Scene.ps1",
+      "pass": true
+    },
+    {
+      "name": "root lifecycle guards:Scene.ps1",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:adopt_compile.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:check_source.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:prepare.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:prepare_recording.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:review_run.py",
+      "pass": true
+    }
+  ],
+  "nativeStarted": false,
+  "nativeCompile": "NOT_TESTED_SUCCESSOR",
+  "nativeDriving": "NOT_TESTED_FINAL_SKINS"
+}

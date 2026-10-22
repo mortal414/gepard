@@ -1,0 +1,1 @@
+GameProject { ID "GEP_TrackRollingQA033" GUID "7E0330C026102210" TITLE "Gepard track rolling first audition" Dependencies { "D561AD08932E7B40" "58D0FB3206B6F859" "5E389BB9F58B79A6" "629B2BA37EFFD577" "5E51C5D8F04FDB80" } Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} } }

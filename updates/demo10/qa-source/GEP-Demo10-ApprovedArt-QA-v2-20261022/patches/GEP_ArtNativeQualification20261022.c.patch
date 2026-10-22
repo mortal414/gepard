@@ -1,0 +1,68 @@
+--- D:\ArmaProjects\Gepard-Consolidated-20261022\native-stage\artNativeQA\scripts\Game\GEPArtNativeQA\GEP_ArtNativeQualification20261022.c
++++ source/scripts/Game/GEPArtNativeQA/GEP_ArtNativeQualification20261022.c
+@@ -37,12 +37,15 @@
+ }
+ class GEP_ArtNativeQualification20261022
+ {
+- protected ref array<ResourceName> m_Models = {
+-  "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob",
+-  "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob",
+-  "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+-  "{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob",
+-  "{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob"
++ protected ref array<ResourceName> m_Models = {
++  "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
++  "{4D7043CCA2E8BD79}Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
++  "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
++  "{2A7F69D8A7902DE2}Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
++  "{3772144B4AA90B1E}Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
++  "{B621A5631346B7A3}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
++  "{418DE4B4FC8541A0}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
++  "{C23AF0E6361BFB2C}Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob"
+  };
+  protected ref array<int> m_Seen = {};
+  protected int m_Parts; protected bool m_Truncated; protected bool m_ReadFailure;
+@@ -54,8 +57,8 @@
+ 
+  protected ResourceName ExpectedPrefab(string skin)
+  {
+-  if (skin == "Camo") return "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et";
+-  if (skin == "Charcoal") return "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et";
++  if (skin == "Camo") return "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et";
++  if (skin == "Charcoal") return "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et";
+   return string.Empty;
+  }
+  protected string PrefabName(IEntity entity)
+@@ -169,12 +172,12 @@
+   { Print("GEP_ART_NATIVE_NOT_TESTED wrong-or-unbound-functional-prefab"); return false; }
+   if (!root.FindComponent(VehicleWheeledSimulation))
+   { Print("GEP_ART_NATIVE_NOT_TESTED functional-wheeled-component-missing"); return false; }
+-  m_Seen.Clear(); for (int i = 0; i < 5; i++) m_Seen.Insert(0);
++  m_Seen.Clear(); for (int i = 0; i < m_Models.Count(); i++) m_Seen.Insert(0);
+   m_Parts = 0; m_Truncated = false; m_ReadFailure = false;
+   Print("GEP_ART_NATIVE_BEGIN skin=" + skin + " observations-only dynamic=NOT_TESTED");
+   Part(root, null, skin, "root", 0);
+   bool complete = !m_Truncated && !m_ReadFailure;
+-  for (int j = 0; j < 5; j++)
++  for (int j = 0; j < m_Models.Count(); j++)
+   {
+    PrintFormat("GEP_ART_NATIVE_MODEL skin=%1 modelIndex=%2 count=%3 expected=%4", skin, j, m_Seen[j], m_Models[j]);
+    if (m_Seen[j] != 1) complete = false;
+@@ -189,7 +192,7 @@
+   if (m_Staged) return false;
+   if (!subject || !alreadyOwnedCameraActor || (skin == "Camo" && subject != m_Camo) || (skin == "Charcoal" && subject != m_Charcoal)) return false;
+   if (skin != "Camo" && skin != "Charcoal") return false;
+-  array<string> views = {"front3q", "rear3q", "left", "right", "guns", "reargrille"};
++  array<string> views = {"front3q", "rear3q", "left", "right", "guns", "reargrille", "rearfar"};
+   if (!views.Contains(view) || m_CapturedKeys.Contains(skin + "-" + view)) return false;
+   m_Subject = subject; m_CameraActor = alreadyOwnedCameraActor; m_Skin = skin; m_View = view;
+   m_CaptureStartMs = GetGame().GetWorld().GetWorldTime(); m_Staged = true;
+@@ -208,7 +211,7 @@
+   vector camera[4]; player.GetPlayerCamera().GetWorldTransform(camera);
+   PrintFormat("GEP_ART_NATIVE_VIEW_READBACK skin=%1 view=%2 worldMs=%3 timeScale=%4 subjectPosition=%5 camera0=%6 camera1=%7 camera2=%8 cameraEye=%9", m_Skin, m_View, GetGame().GetWorld().GetWorldTime(), GetGame().GetWorld().GetTimeScale(), m_Subject.GetOrigin(), camera[0], camera[1], camera[2], camera[3]);
+   string key = m_Skin + "-" + m_View; m_CapturedKeys.Insert(key); m_Staged = false;
+-  bool requested = System.MakeScreenshot("$profile:artnative-functional-v11-" + key);
++  bool requested = System.MakeScreenshot("$profile:artnative-demo10-new-" + key);
+   PrintFormat("GEP_ART_NATIVE_CAPTURE skin=%1 view=%2 requested=%3 nativePixelsValidation=PENDING humanAcceptance=PENDING", m_Skin, m_View, requested);
+   return requested;
+  }

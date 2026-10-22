@@ -1,0 +1,7 @@
+// Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
+GenericEntity : "{D5D53F5F72BF4474}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCoverRight668.et" { components {
+MeshObject "{2B66EA33B46D49BB}" { Object "{418DE4B4FC8541A0}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob" Materials {
+MaterialAssignClass "{560894F9D3766BE2}" { SourceMaterial "GEP668_CoverRight" AssignedMaterial "{D00AA682A9D08476}Assets/Gepard/GEP018/NeutralBaseV2/c1c79ae8f08a.emat" }
+}
+ }
+} }

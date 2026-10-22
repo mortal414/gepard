@@ -1,0 +1,15 @@
+{
+  "mechanism": "Original settled-gunner public FullRipple,8composite bank IDs,8->0,eight actual flights,empty no ninth; camera0",
+  "qaNativeChanges": [
+    "GEP_SmokeCurrentV11_QA.gproj",
+    "scripts/Game/GEP215CurrentV11QA/GEP215_CurrentV11Probe.c",
+    "Worlds/GEP215_CurrentV11Camo_default.layer",
+    "Worlds/GEP215_CurrentV11Charcoal_default.layer"
+  ],
+  "readOnlyProductionInputs": 6,
+  "copyProduction": false,
+  "newNativeAPIs": false,
+  "collectorChanges": "Only exact final-resource strings and two newly declared dependency addon identities; unchanged analyzer/strict errors",
+  "terrainLimit": "Original payload samples carry world positions but no per-sample terrain heights. Actual motion/position is measured; complete aboveground clearance is not independently qualified.",
+  "nativeStarted": false
+}

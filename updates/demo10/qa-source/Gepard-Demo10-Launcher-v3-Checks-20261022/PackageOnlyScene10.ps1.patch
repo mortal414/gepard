@@ -1,0 +1,11 @@
+--- C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-v2-20261022\PackageOnlyScene10.ps1
++++ C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-Launcher-v3-20261022\PackageOnlyScene10.ps1
+@@ -103,7 +103,7 @@
+ function AssertPackageClosure {
+  if((Get-FileHash -LiteralPath $PlanFile -Algorithm SHA256).Hash.ToLowerInvariant() -cne $PlanSHA256){throw 'Manual plan changed'}
+  if((Get-FileHash -LiteralPath $plan.installedClosure -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.installedClosureSHA256){throw 'Installed closure pin changed'}
+- if($plan.worldContract -cne 'C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-20261022\PACKAGE10-WORLD-CONTRACT.json' -or (Get-FileHash -LiteralPath $plan.worldContract -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.worldContractSHA256){throw 'Exact V2 world startup contract changed'}
++ if($plan.worldContract -cne 'C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-v2-20261022\PACKAGE10-WORLD-CONTRACT.json' -or (Get-FileHash -LiteralPath $plan.worldContract -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.worldContractSHA256){throw 'Exact V2 world startup contract changed'}
+  $closure=Get-Content -LiteralPath $plan.installedClosure -Raw|ConvertFrom-Json
+  $pins=Get-Content -LiteralPath $plan.installedClosure -Raw|ConvertFrom-Json -AsHashtable
+  $files=@(Get-ChildItem -LiteralPath $closure.root -File -Recurse)

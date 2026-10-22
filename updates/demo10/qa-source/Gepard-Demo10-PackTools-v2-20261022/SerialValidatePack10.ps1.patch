@@ -1,0 +1,20 @@
+--- C:\Users\marco\Documents\Codex\2026-10-21\task\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\SerialValidatePack09.ps1
++++ SerialValidatePack10.ps1
+@@ -132,14 +132,15 @@
+  foreach($support in $plan.supportingSourceClosures){
+   if((Get-FileHash -LiteralPath $support.manifest -Algorithm SHA256).Hash.ToLowerInvariant() -cne $support.manifestSHA256){throw 'Qualified core source manifest differs'}
+   $corePins=Get-Content -LiteralPath $support.manifest -Raw|ConvertFrom-Json -AsHashtable
+-  if($corePins.Count -ne 1152 -or @(Get-ChildItem -LiteralPath $support.root -Recurse -File).Count -ne 1152){throw 'Exact qualified1152 source required'}
++  $expectedSupportCount=0;if($support.role -ceq 'gepard'){$expectedSupportCount=1152}elseif($support.role -ceq 'wcsSmoke'){$expectedSupportCount=14}else{throw 'Unexpected supporting source role'}
++  if($corePins.Count -ne $expectedSupportCount -or @(Get-ChildItem -LiteralPath $support.root -Recurse -File).Count -ne $expectedSupportCount){throw 'Exact qualified supporting source count required'}
+   foreach($relativeCore in $corePins.Keys){if((Get-FileHash -LiteralPath (Join-Path $support.root $relativeCore) -Algorithm SHA256).Hash.ToLowerInvariant() -cne $corePins[$relativeCore]){throw 'Qualified core source/RDB changed'}}
+  }
+  if($ExecutingNativeBatch){Save 'source-cache-observations.json' $cacheObservations}
+ }
+ AssertSources
+ . $plan.nativeTailClassifierPath
+-$names=@('wcsSmoke:validate','wcsSmoke:pack','provingGround:validate','provingGround:pack')
++$names=@('integration:validate','integration:pack','provingGround:validate','provingGround:pack')
+ for($i=0;$i -lt 4;$i++){
+  $s=$plan.steps[$i]
+  if(($s.role+':'+$s.name) -cne $names[$i] -or $s.executable -cne $exe -or $s.deadlineSeconds -lt 30 -or $s.deadlineSeconds -gt 300){throw 'Native sequential step binding differs'}

@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "status": "PAIRED_NARROW_PROOF_VERIFIED_ORIGINAL_STRICT_FAIL_RETAINED",
+  "sourceClosures": [
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\native-stage\\gepard",
+      "files": 1158,
+      "exact": true
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\native-stage\\audioQA",
+      "files": 19,
+      "exact": true
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependencies\\M2BradleyFightingVehicle_63120AE07E6C0966",
+      "files": 3,
+      "exact": true
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "files": 3,
+      "exact": true
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "files": 3,
+      "exact": true
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\native-stage\\trackDependency033",
+      "files": 4,
+      "exact": true
+    }
+  ],
+  "precompileSealAllOriginalFilesExact": true,
+  "actualCompileClosed": true,
+  "serialUniqueNativeRuns": true,
+  "runs": {
+    "exterior": {
+      "status": "NARROW_MECHANICAL_CAMERA_LIFECYCLE_OBSERVATIONS_VERIFIED_STRICT_FAIL_RETAINED",
+      "view": "exterior",
+      "pid": 27032,
+      "leaseId": "f11aaada-d9dc-41d1-81e0-878877162d01",
+      "createdUtc": "2026-10-22T17:55:51.5351280Z",
+      "exit": {
+        "leaseReleased": true,
+        "exitCode": 0,
+        "closeMethod": "owned-normal-window-close",
+        "verifiedExited": true,
+        "utc": "2026-10-22T17:57:01.7014381Z",
+        "nativeTerminalSeen": true,
+        "cancelRequested": false
+      },
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-exterior-01",
+      "samples": 151,
+      "reverseSamples": 11,
+      "reversePoweredMeters": 2.009997990000218,
+      "reversePoweredSeconds": 1.0665999999999984,
+      "handbrakeSamples": 23,
+      "finalRestSeconds": 1.8664000000000014,
+      "finalRestDriftMeters": 0.0,
+      "allEightWheelContactsDuringReverseAndEngineOffRest": true,
+      "nativeCameraSamples": 151,
+      "actualListenerDistanceMinMax": [
+        2.45675,
+        5.47506
+      ],
+      "events": [
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "be1db970db50eb6a9824d0b51873d3db2c9d6fb127bc0320d21d5e35323f4a37",
+          "event": "exit_complete",
+          "worldMs": "56424.7",
+          "physical": "0"
+        },
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "be1db970db50eb6a9824d0b51873d3db2c9d6fb127bc0320d21d5e35323f4a37",
+          "event": "reentry_requested",
+          "worldMs": "60458.1",
+          "accepted": "1",
+          "physical": "0"
+        },
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "be1db970db50eb6a9824d0b51873d3db2c9d6fb127bc0320d21d5e35323f4a37",
+          "event": "reentry_complete",
+          "worldMs": "60558",
+          "physical": "0"
+        }
+      ],
+      "tailSamples": 16,
+      "tailEngineRemainedOff": true,
+      "nativeErrors": 60,
+      "wav": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\exterior\\continuous\\system-output.wav",
+        "sha256": "c18d27adfbc5913d31b3be89d104cc5c46b20daacf02c00c0255cb3f4db26c48",
+        "frames": 3518400,
+        "seconds": 73.3,
+        "rate": 48000,
+        "channels": 2,
+        "sampleBytes": 2
+      },
+      "rawResultStatus": "NOT_TESTED",
+      "strictReviewStatus": "FAIL",
+      "humanSoundJudgment": "NOT_TESTED_BY_AUDIT"
+    },
+    "cabin": {
+      "status": "NARROW_MECHANICAL_CAMERA_LIFECYCLE_OBSERVATIONS_VERIFIED_STRICT_FAIL_RETAINED",
+      "view": "cabin",
+      "pid": 33072,
+      "leaseId": "aa15499e-ddf4-4d50-80d4-33e28dbdd6a9",
+      "createdUtc": "2026-10-22T18:01:17.6677250Z",
+      "exit": {
+        "cancelRequested": false,
+        "leaseReleased": true,
+        "nativeTerminalSeen": true,
+        "exitCode": 0,
+        "utc": "2026-10-22T18:02:27.6536937Z",
+        "closeMethod": "owned-normal-window-close",
+        "verifiedExited": true
+      },
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-cabin-01",
+      "samples": 151,
+      "reverseSamples": 11,
+      "reversePoweredMeters": 2.00000049397,
+      "reversePoweredSeconds": 1.0667000000000044,
+      "handbrakeSamples": 23,
+      "finalRestSeconds": 1.8665999999999985,
+      "finalRestDriftMeters": 0.0,
+      "allEightWheelContactsDuringReverseAndEngineOffRest": true,
+      "nativeCameraSamples": 151,
+      "actualListenerDistanceMinMax": [
+        2.24729,
+        2.49976
+      ],
+      "events": [
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "f03f7e0de6bbe88f85631609bc884598d96e7aa313bc9b860c781ae121ced827",
+          "event": "exit_complete",
+          "worldMs": "56421.7",
+          "physical": "0"
+        },
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "f03f7e0de6bbe88f85631609bc884598d96e7aa313bc9b860c781ae121ced827",
+          "event": "reentry_requested",
+          "worldMs": "60454.8",
+          "accepted": "1",
+          "physical": "0"
+        },
+        {
+          "case": "v11-wheeled-course",
+          "nonce": "f03f7e0de6bbe88f85631609bc884598d96e7aa313bc9b860c781ae121ced827",
+          "event": "reentry_complete",
+          "worldMs": "60554.6",
+          "physical": "0"
+        }
+      ],
+      "tailSamples": 16,
+      "tailEngineRemainedOff": true,
+      "nativeErrors": 60,
+      "wav": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\cabin\\continuous\\system-output.wav",
+        "sha256": "a04a34759408c60fdb3be08a4afcfad9af135512d57d8184b869a43a2790aa54",
+        "frames": 3513600,
+        "seconds": 73.2,
+        "rate": 48000,
+        "channels": 2,
+        "sampleBytes": 2
+      },
+      "rawResultStatus": "NOT_TESTED",
+      "strictReviewStatus": "FAIL",
+      "humanSoundJudgment": "NOT_TESTED_BY_AUDIT"
+    }
+  },
+  "supportingPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\binding\\COMPILE-ADOPTION.json": "55dcce21bdbec43a6fd0d5b5c454aca5f0e817f75fb8d36701aeb34750c8e2a5",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-audio-bounded-01\\RESULT.json": "caaee916506ca27344d6ec7deffec0f80b6bad723297dd7804c6d2eac0b31586",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-audio-bounded-01\\compiler-identity.json": "9e8c0b98f7d20570bac02c9101d9ee946ac3514604e73a10dc0a3b83d7a7f412",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\binding\\COMMON-MANIFEST.json": "773a0c290b7dfdab9aa85ae1cec90deb4ee401bb5646cc984ac71378908d246f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\binding\\QA-MANIFEST.json": "0b45175d37f2398d4b5a3e0e2d98c20e35d4a8bc575991ebe5ddb86d845fae7b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\binding\\63120AE07E6C0966-MANIFEST.json": "77da22ffeea3a6af4ca2ef20b9b41ba6cc4565b840fa392b14479be7654838fc",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\binding\\5E389BB9F58B79A6-MANIFEST.json": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\binding\\629B2BA37EFFD577-MANIFEST.json": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\binding\\TRACK-DEPENDENCY-MANIFEST.json": "97da2e7d0a935e784eca6da8d43a2f392b558c991f34bd458bf0bc221efc26ae",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\exterior\\continuous\\LEDGER.json": "3826847644a80d7b26e32ee67032c3d727370ff652518b01732fbb4984137e62",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\exterior\\command.json": "fa2a6c1066262692e0bd8e5363eed3748116b3bfa34ec342256d372b749d4aa6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\binding\\tools\\Scene.ps1": "0074684175c3c3d3bd1cc7dc4a0f6fb8d06531a0054ff13180d68c1529009020",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\exterior\\job.json": "5d53a17efeea7793a6ddc8765cbff9def769d00b5d9fd025c329bcb8a24b0184",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-exterior-01\\owner.json": "b8aea1157adc359531c71ccb447ad1723a947e6edbdf33c396d732941824a850",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-exterior-01\\exit.json": "836cb8dd3a3359d1ef06bc928d5a9efc511e28087ddd1dcbde7eb62afcca2c4c",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-exterior-01\\plan.json": "f16ebda21ec0909a6335e9717644e8506247f7084a74094a0d1dcb2ac6a98cbb",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-exterior-01\\logs\\console.log": "67497ed5991d32324ec0f62543b811fdec6dbea494a5d09f98a1c159f2566974",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\EXTERIOR-REVIEW-01.json": "c4f43b9daed308eb3e2d9cbbfbf05333186752141a7035af5832a67cda4fe138",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-exterior-01\\profile\\profile\\DamageHarness-result683.json": "0ee9b103f63408329ef78aaeafa6c488e8af9db043cd5f704f28c4bdb5383395",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\exterior\\continuous\\system-output.wav": "c18d27adfbc5913d31b3be89d104cc5c46b20daacf02c00c0255cb3f4db26c48",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\exterior\\continuous\\forward_default.png": "4189e5dcd58b5ab9a718a76d93d83fd3aa643c4911fa2e4aa1756790e558dbda",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\exterior\\continuous\\public_stop_observe.png": "c6629b5507b4ba0d9ee9158eeacf9cd7dbae298cd98d007caaa02ca9c16a96e9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\cabin\\continuous\\LEDGER.json": "d5666606a5785d068c127d2dad3215650b19e6ea7baf92173cc03e931b9c9ec5",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\cabin\\command.json": "2d7e0ae30e3d5c1592bd644fced959adbf24d1b0dd2cb539599c5ef6592541c7",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\cabin\\job.json": "2151011e0f6f8fdb12c08a6a795603432492a54236a1def976e450d501519a7f",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-cabin-01\\owner.json": "e71076109d25117adc6c97d694c92f4261d777297f59958698eca1fa997779e5",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-cabin-01\\exit.json": "5c509e1068fa4c9b54fffa916eb9ae58f03569c822a003748631dbd55a5d837f",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-cabin-01\\plan.json": "8bb7b7a4193aa8c78cf787d9bb537f835f6376f43c3cec29cff7b0437e1950eb",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-cabin-01\\logs\\console.log": "d81efd56605a82cb548590713cf8ef2d4ce5b863aee3630d5ff511c27092f5cc",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\CABIN-REVIEW-01.json": "eb3a68200c70a31486ab5618a36fae86b523db456737fbe15330710c9e6f07b2",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-cabin-01\\profile\\profile\\DamageHarness-result683.json": "803cd617f8786527e310bd9239837d34967bac603c5840421c99951576a9fbb2",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\cabin\\continuous\\system-output.wav": "a04a34759408c60fdb3be08a4afcfad9af135512d57d8184b869a43a2790aa54",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\cabin\\continuous\\forward_default.png": "0c52e933a90d43be435718111791c440e0b8c60cf16e3287fb2bd0ee7b4cb6a6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-BoundedQualification-20261022\\recordings\\cabin\\continuous\\public_stop_observe.png": "5e7fb5301e335afc7ce735787f0f2243f63ad142f528878eb71ab1958e49967d"
+  },
+  "limits": [
+    "Human accepted candidate02 timbre remains trusted; this is not a new listening judgment",
+    "Neither WAV existence nor waveform level identifies track output or tail quality",
+    "Delete/reset,30/100m,cannon balance,physical input,MP/JIP unqualified",
+    "The source1158/candidate02 stage is not the pending Demo10 new-art build"
+  ]
+}

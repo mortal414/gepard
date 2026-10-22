@@ -1,0 +1,152 @@
+{
+  "status": "FAIL",
+  "console": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02\\logs\\console.log",
+  "consoleSHA256": "69d19e721a6854af92c8a4771606d5e2f17c6b5318006399c5eb74143d0e7eff",
+  "view": "exterior",
+  "assertions": {
+    "telemetry.join": {
+      "status": "PASS",
+      "reason": "All source markers paired by actual sample ID"
+    },
+    "clock.native": {
+      "status": "PASS",
+      "reason": "Native world time must increase at scale1 without >1s gaps"
+    },
+    "reverse.powered": {
+      "status": "PASS",
+      "reason": ">=1m actual backward progress during continuous powered/contact/native reverse input overlap"
+    },
+    "reverse.neutral-handbrake": {
+      "status": "PASS",
+      "reason": "Native momentary handbrake readback; both propulsion actions zero"
+    },
+    "stop.engine-off-dwell": {
+      "status": "PASS",
+      "reason": "Final >=1.5s engine-off grounded3D rest, drift<=.1m"
+    },
+    "camera.native-view": {
+      "status": "PASS",
+      "reason": "Actual native player camera and requested view; requested distance remains0"
+    },
+    "crew.exit-reentry": {
+      "status": "PASS",
+      "reason": "One actual exit, accepted native entry request, completed occupied-seat return"
+    },
+    "sequence.terminal": {
+      "status": "PASS",
+      "reason": "Exactly one terminal observation marker; no audibility claim"
+    },
+    "tail.stationary": {
+      "status": "PASS",
+      "reason": "Actual stationary stop/exit/reentry tail samples"
+    },
+    "native.errors": {
+      "status": "FAIL",
+      "reason": "All raw native E/F rows retained; no audio-specific suppression"
+    },
+    "audio.human-quality": {
+      "status": "NOT_TESTED",
+      "reason": "Requires separate actual native/manual acceptance; not implied by telemetry"
+    },
+    "audio.cabin-balance": {
+      "status": "NOT_TESTED",
+      "reason": "Requires separate actual native/manual acceptance; not implied by telemetry"
+    },
+    "audio.stop-exit-tail-judgment": {
+      "status": "NOT_TESTED",
+      "reason": "Requires separate actual native/manual acceptance; not implied by telemetry"
+    },
+    "audio.delete-reset": {
+      "status": "NOT_TESTED",
+      "reason": "Requires separate actual native/manual acceptance; not implied by telemetry"
+    },
+    "audio.near-far30-100": {
+      "status": "NOT_TESTED",
+      "reason": "Requires separate actual native/manual acceptance; not implied by telemetry"
+    },
+    "audio.cannon-balance": {
+      "status": "NOT_TESTED",
+      "reason": "Requires separate actual native/manual acceptance; not implied by telemetry"
+    },
+    "input.physical": {
+      "status": "NOT_TESTED",
+      "reason": "Requires separate actual native/manual acceptance; not implied by telemetry"
+    },
+    "MP.JIP": {
+      "status": "NOT_TESTED",
+      "reason": "Requires separate actual native/manual acceptance; not implied by telemetry"
+    }
+  },
+  "metrics": {
+    "reverseSamples": 11,
+    "poweredReverseSamples": 5,
+    "bestContinuousReverseProgressMeters": 2.009997990000218,
+    "continuousReverseSpanSeconds": 1.0670999999999986,
+    "finalRestSeconds": 1.8661000000000059,
+    "finalRestDriftMeters": 0.0
+  },
+  "nativeErrorRows": [
+    "13:50:29.513   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+    "13:50:29.513   RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+    "13:50:30.420   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+    "13:50:32.581             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+    "13:50:32.679               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+    "13:50:32.679               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+    "13:50:32.679               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+    "13:50:32.679               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+    "13:50:32.683             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+    "13:50:32.683             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+    "13:51:39.007 RESOURCES (E): ==== Resource leaks ====",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+    "13:51:39.007 RESOURCES (E): UI/Imagesets/default.edds   1",
+    "13:51:39.007 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+  ],
+  "humanAcceptedTimbre": "Inherited parent acceptance of candidate02; this review does not reinterpret it",
+  "lifecycle": "Require original root wrapper normal-exit/lease receipts separately",
+  "recording": "Require finalized original continuous WASAPI WAV and ledger; no trim/gain/normalization"
+}

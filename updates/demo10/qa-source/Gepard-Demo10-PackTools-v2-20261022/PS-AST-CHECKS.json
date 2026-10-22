@@ -1,0 +1,32 @@
+[
+  {
+    "path": "SerialValidatePack10.ps1",
+    "errors": [],
+    "sha256": "ae7c6fb82ee8267288da50f77417ae6036ed4fc394f1dc10f5ee2aefbd4aa4e8",
+    "pass": true
+  },
+  {
+    "path": "PackageOnlyScene10.ps1",
+    "errors": [],
+    "sha256": "ddd6ce64136b1021c76a65f0d9a51ad7794f21c61085ba470767454d5d318185",
+    "pass": true
+  },
+  {
+    "path": "Launch-Gepard-Private-Demo10.ps1",
+    "errors": [],
+    "sha256": "7f2fdd1742ba60e828d2e391ac74e9913da7bdaf354b0839ff0d9b4bd14e9778",
+    "pass": true
+  },
+  {
+    "path": "NativeTailClassifier10.ps1",
+    "errors": [],
+    "sha256": "31d9dc7335e31a60eb3e810a12cb65456c872dff9f1f4f2f1cbffbfd18ef3483",
+    "pass": true
+  },
+  {
+    "path": "NativeTailClassifier10-v2.ps1",
+    "errors": [],
+    "sha256": "55262d1601aac0dbba5cf30f96773c01a6310485512797629e9486983bbe1a59",
+    "pass": true
+  }
+]

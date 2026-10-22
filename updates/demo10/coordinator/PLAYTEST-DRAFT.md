@@ -1,0 +1,14 @@
+# Demo10: one private test session
+
+Preparation draft. The final launcher and native evidence must be admitted before handoff.
+
+Use **keep / change / skipped** for each station. Record the vehicle label and a screenshot or continuous sound recording for issues. These judgments do not automatically close whole GEP tasks.
+
+1. **Comparison bay — exterior.** OLD keeps the original exterior and rolling sound with current shared functional scripts and optic. NEW has the approved cumulative rear-housing, gun-cover, lower-cheek, barrel and sprocket refinements, plus SpaceCore tracks and WCS smoke. Compare both skins at close range and normal viewing distance. Check seams, material finish and moving clearance while traversing/elevating. V16, V19 and conditional roof proposals are excluded.
+2. **Drive loop — tracks.** Use the NEW route vehicle. Drive forward and reverse, vary speed, brake to a stop, then switch the engine off with the accepted R control. Listen for motion-linked clatter/rumble, a clean stop, and sensible engine balance. Exit and return; after leaving every seat, use the explicit station reset and listen for a lingering sound. The 5/30/100 m markers support a separate observer with another driver; solo cabin/third-person listening does not establish 100 m attenuation. Stock cannon sounds remain unchanged; compare their balance with the engine/tracks during a short safe burst at the target lane.
+3. **NEW optic/target lane.** Confirm the approved German instrument panels, large reticle and vehicle diagram remain legible at your normal zoom. This is a visual preference check; repeated firing/seat-transition regressions are automated separately. Range acquisition/accuracy and broad lighting/aspect acceptance remain open. Stabilization, ballistic correction and radar readiness are not newly implemented.
+4. **NEW smoke and station07.** From a gunner or commander seat use the installed WCS DeploySmoke binding (default Left Shift + G). Fire an eight-round salvo, then try empty. Judge the screen from useful angles; the earlier tested layout produced two lateral groups with a central gap. Exit and use the ordinary bank rearm hold action beside a maintenance point: one restored tube should cost one supply from the **shared eight-supply crate**, not eight per vehicle. Re-fire a restored tube and test full/empty feedback. Use the explicit service reset only while clear. Full shared-world transfer/negative cases/approach feel and rotated-turret port fit remain user judgments.
+
+The ordinary 35 mm refill/refuel/repair station and isolated damage area remain available. Existing service limitations stay documented; station initialization is not proof of fuel/repair transfer. Hostiles remain off. All accepted driving/reverse/brake/R settings are preserved.
+
+Demo09 remains a separate rollback. Nothing is published. Raw failed diagnostics and unsuccessful importer attempts remain in the evidence index.

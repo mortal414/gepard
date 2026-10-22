@@ -1,0 +1,237 @@
+{
+  "wholeTaskCheckboxesChanged": 0,
+  "globalBlockedItemsAdded": 0,
+  "items": [
+    {
+      "id": "GEP-001",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-002",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-003",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-004",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-005",
+      "title": "HUD",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-006",
+      "title": "HUD lifecycle",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-007",
+      "title": "stabilization",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-008",
+      "title": "range display regression",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-009",
+      "title": "ballistic elevation/impact correction",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-010",
+      "title": "familiar controls",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-011",
+      "title": "armor/crew protection",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-012",
+      "title": "independent turret damage",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-013",
+      "title": "surviving crew exit",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-014",
+      "title": "radar",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-015",
+      "title": "smoke",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Included experimental full8 smoke; both final skins8to0/eightmovingpayloads/emptyrequest observed. Cloud/coverage/ports/physical roles/shared8 rearm remain pending."
+    },
+    {
+      "id": "GEP-016",
+      "title": "interior",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-017",
+      "title": "exterior",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Approved cumulative frozen art included as reviewable candidate;8nativebuilds,14static images, native model/material/bone observations and bounded both-skin motion. Full clearance/collision/LOD/user appearance remain pending; art lane continues separately."
+    },
+    {
+      "id": "GEP-018",
+      "title": "charcoal",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-019",
+      "title": "custom gun sounds",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-020",
+      "title": "seats/hatches/periscopes",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-021",
+      "title": "commander prompts",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-022",
+      "title": "commander position/view alignment",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-023",
+      "title": "refuel side/reach",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-024",
+      "title": "release debug text",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Current implementation preserved; native healthy HUD/crew/fire and drive regressions cover narrow paths only. Broader task acceptance not promoted."
+    },
+    {
+      "id": "GEP-025",
+      "title": "MP/JIP/dedicated",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-026",
+      "title": "console",
+      "status": "Deferred",
+      "acceptance": "not assessed",
+      "scope": "Out of this bounded successor; no global blocker or new implementation claim."
+    },
+    {
+      "id": "GEP-027",
+      "title": "tracker/publication text",
+      "status": "Needs user test",
+      "acceptance": "not assessed",
+      "scope": "Prior1.0.2 upload/server processing/package GM spawn evidence exists. Public-page visibility remains independently unverified; nothing published here."
+    },
+    {
+      "id": "GEP-028",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-029",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-030",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-031",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-032",
+      "title": "prior accepted item",
+      "status": "Ready",
+      "acceptance": "accepted prior per trusted handoff",
+      "scope": "Prior accepted task preserved; not reimplemented."
+    },
+    {
+      "id": "GEP-033",
+      "title": "speed-synced track audio",
+      "status": "Needs user test",
+      "acceptance": "audible direction accepted only",
+      "scope": "User accepted Candidate02 audible direction. Normal SpaceCore dependency now on NEW+route; reverse/stop/cabin/exterior/exit-reentry observations recorded. Balance/distance/delete-reset/human/MP gates stay open."
+    }
+  ]
+}

@@ -1,0 +1,2074 @@
+[
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": true,
+      "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 27,
+      "knownBaselineTeardownCount": 25,
+      "knownDependencyAuthoringWarningCount": 2,
+      "operationalErrorCount": 0,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "EXACT_KNOWN_WCS_SPACECORE_AUTHORING_AND_NATIVE_TEARDOWN_RETAINED",
+      "reason": "Actual step success/normalexit and exact known source-bound diagnostic categories; every raw row and strictFAIL retained, no clean-health/gameplay claim",
+      "successLine": 267,
+      "shutdownLines": [
+        287,
+        288
+      ],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "actual27_exact_pair",
+    "expectedOperationalPass": true
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 28,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 28,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 104,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 105
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 313
+        },
+        {
+          "index": 313,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 314
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Repeated/unsupported dependency authoring warning combination",
+      "successLine": 268,
+      "shutdownLines": [],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "repeat_space",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 26,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 26,
+      "errors": [
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Repeated/unsupported dependency authoring warning combination",
+      "successLine": 267,
+      "shutdownLines": [],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "space_only",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 27,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 27,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.de_de.conf\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Dependency warning position/count differs",
+      "successLine": 267,
+      "shutdownLines": [],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "novel_runtime_conf",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 27,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 27,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Dependency warning position/count differs",
+      "successLine": 267,
+      "shutdownLines": [],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "reverse_pair",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": true,
+      "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 26,
+      "knownBaselineTeardownCount": 25,
+      "knownDependencyAuthoringWarningCount": 1,
+      "operationalErrorCount": 0,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "EXACT_KNOWN_WCS_AUTHORING_AND_NATIVE_TEARDOWN_RETAINED",
+      "reason": "Actual step success/normalexit and exact known source-bound diagnostic categories; every raw row and strictFAIL retained, no clean-health/gameplay claim",
+      "successLine": 267,
+      "shutdownLines": [
+        287,
+        288
+      ],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "known_wcs_only",
+    "expectedOperationalPass": true
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": true,
+      "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 25,
+      "knownBaselineTeardownCount": 25,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 0,
+      "errors": [
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "EXACT_BASELINE_NATIVE_TEARDOWN_RETAINED",
+      "reason": "Actual step success/normalexit and exact known source-bound diagnostic categories; every raw row and strictFAIL retained, no clean-health/gameplay claim",
+      "successLine": 267,
+      "shutdownLines": [
+        287,
+        288
+      ],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "known_tail_only",
+    "expectedOperationalPass": true
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 27,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 27,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Nonzero actual native exit",
+      "successLine": null,
+      "shutdownLines": [],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 1,
+      "validationWasAccepted": false
+    },
+    "name": "nonzero_exit",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 27,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 27,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Missing or repeated exact step success marker",
+      "successLine": null,
+      "shutdownLines": [],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "missing_success",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 27,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 2,
+      "operationalErrorCount": 27,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Novel failure ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Novel/reordered/changed exact diagnostic signature",
+      "successLine": 267,
+      "shutdownLines": [
+        287,
+        288
+      ],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "novel_tail",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 28,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 28,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        },
+        {
+          "index": 314,
+          "text": "13:12:08.600 RESOURCES (E): novel",
+          "line": 315
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Dependency warning position/count differs",
+      "successLine": 267,
+      "shutdownLines": [],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "validate",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "late_extra_line",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": false,
+      "operationalVerdict": "FAIL",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 27,
+      "knownBaselineTeardownCount": 0,
+      "knownDependencyAuthoringWarningCount": 0,
+      "operationalErrorCount": 27,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "UNQUALIFIED",
+      "reason": "Pack lacks accepted same-batch preceding native validation",
+      "successLine": null,
+      "shutdownLines": [],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "pack",
+      "exitCode": 0,
+      "validationWasAccepted": false
+    },
+    "name": "pack_without_validation",
+    "expectedOperationalPass": false
+  },
+  {
+    "actual": {
+      "schema": 1,
+      "operationalPass": true,
+      "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+      "strictNativeVerdict": "FAIL",
+      "rawNativeErrorCount": 27,
+      "knownBaselineTeardownCount": 25,
+      "knownDependencyAuthoringWarningCount": 2,
+      "operationalErrorCount": 0,
+      "errors": [
+        {
+          "index": 101,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+          "line": 102
+        },
+        {
+          "index": 103,
+          "text": "13:12:01.280     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+          "line": 104
+        },
+        {
+          "index": 288,
+          "text": "13:12:08.540 RESOURCES (E): ==== Resource leaks ====",
+          "line": 289
+        },
+        {
+          "index": 289,
+          "text": "13:12:08.540 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+          "line": 290
+        },
+        {
+          "index": 290,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+          "line": 291
+        },
+        {
+          "index": 291,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+          "line": 292
+        },
+        {
+          "index": 292,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+          "line": 293
+        },
+        {
+          "index": 293,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+          "line": 294
+        },
+        {
+          "index": 294,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+          "line": 295
+        },
+        {
+          "index": 295,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+          "line": 296
+        },
+        {
+          "index": 296,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+          "line": 297
+        },
+        {
+          "index": 297,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+          "line": 298
+        },
+        {
+          "index": 298,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+          "line": 299
+        },
+        {
+          "index": 299,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+          "line": 300
+        },
+        {
+          "index": 300,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+          "line": 301
+        },
+        {
+          "index": 301,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+          "line": 302
+        },
+        {
+          "index": 302,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+          "line": 303
+        },
+        {
+          "index": 303,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+          "line": 304
+        },
+        {
+          "index": 304,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+          "line": 305
+        },
+        {
+          "index": 305,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+          "line": 306
+        },
+        {
+          "index": 306,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+          "line": 307
+        },
+        {
+          "index": 307,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+          "line": 308
+        },
+        {
+          "index": 308,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+          "line": 309
+        },
+        {
+          "index": 309,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+          "line": 310
+        },
+        {
+          "index": 310,
+          "text": "13:12:08.540 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+          "line": 311
+        },
+        {
+          "index": 311,
+          "text": "13:12:08.540 RESOURCES (E): UI/Imagesets/default.edds   1",
+          "line": 312
+        },
+        {
+          "index": 312,
+          "text": "13:12:08.540 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1",
+          "line": 313
+        }
+      ],
+      "classification": "EXACT_KNOWN_WCS_SPACECORE_AUTHORING_AND_NATIVE_TEARDOWN_RETAINED",
+      "reason": "Actual step success/normalexit and exact known source-bound diagnostic categories; every raw row and strictFAIL retained, no clean-health/gameplay claim",
+      "successLine": 267,
+      "shutdownLines": [
+        287,
+        288
+      ],
+      "baselineSignaturesSHA256": "f4dc25b6fada7e24acabccb705619654b9d92ebe98d62423da1434e81daabad5",
+      "step": "pack",
+      "exitCode": 0,
+      "validationWasAccepted": true
+    },
+    "name": "pack_samebatch_validation",
+    "expectedOperationalPass": true
+  }
+]

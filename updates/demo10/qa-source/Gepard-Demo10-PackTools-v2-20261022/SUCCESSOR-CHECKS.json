@@ -1,0 +1,29 @@
+{
+  "status": "PASS_MINIMAL_CONTRACT_AND_PATH_SUCCESSOR_WITH_ACTUAL_PRIOR_PAK_RUNTIME_RESOURCES_PRESENT",
+  "contractInverseExactAfterDeclaredEightTXORemovalAndPathRebinding": true,
+  "guardSourceTextInverseExactAfterPathRenames": true,
+  "unchangedRuntimeAndAdmissionFiles": [
+    "SerialValidatePack10.ps1",
+    "pack_tools10.mjs",
+    "make_plan10.mjs",
+    "NativeTailClassifier10-v2.ps1",
+    "NATIVE-TAIL-BASELINE-v2.json",
+    "Launch-Gepard-Private-Demo10.ps1",
+    "ACTUAL-COMPILE-ADMISSION.json",
+    "ROOT-10-ADMISSION.json",
+    "PACKAGE10-WORLD-CONTRACT.json",
+    "CORE08-TRIO-REUSE-INPUT.json",
+    "SMOKE09-TRIO-REUSE-INPUT.json"
+  ],
+  "preservedActualPAK": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10\\integration\\data.pak",
+    "sha256": "3540663192f25e94689d95b67cb4f665f7ba5b14cb28ec1595f9a7999a9e531b",
+    "indexSHA256": "d10d31536d9f131a4bac94622a188eb92b117352ddbe8c528a11b6e6324a7fb0",
+    "required25PresentNonempty": true,
+    "foreignOwnedResources": 0
+  },
+  "TXORetainedInExactSourceManifest": true,
+  "newNativeBatch": "NOT_RUN",
+  "nativeStarted": false,
+  "DWritten": false
+}

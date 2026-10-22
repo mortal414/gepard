@@ -1,0 +1,107 @@
+{
+  "status": "SOURCE_ONLY_MINIMUM_REQUIRED_RESOURCE_CONTRACT_SUCCESSOR",
+  "predecessorSeal": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\SOURCE-MANIFEST.json",
+    "sha256": "32cc1fdb9899663f2d293d497c84eed79bc36481de12131a3981756ee0b2e9af"
+  },
+  "priorFailure": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\FAILURE.json",
+    "sha256": "b2a6a29681d1034ec2941184fb4c5fc2827df91d20975724b184745cd3d8010f",
+    "raw": {
+      "leaseRetained": true,
+      "reason": "Same-build trio/content verification failed; no following step",
+      "noFollowingStep": true,
+      "currentNativePid": 31628,
+      "forceTerminationPerformed": false,
+      "completedSteps": [
+        {
+          "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+          "diagnosticsReportSHA256": "e933bed42774e573a89763cbd6e12626eb29f1c1c68a4f91ee9fbab75d25bb7e",
+          "role": "integration",
+          "strictNativeVerdict": "FAIL",
+          "verifiedExited": true,
+          "nativeErrorCount": 27,
+          "stepRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\integration-validate",
+          "console": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\integration\\logs\\validate\\console.log",
+          "exitCode": 0,
+          "diagnosticsReport": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\integration-validate\\native-diagnostics.json",
+          "step": "validate"
+        }
+      ],
+      "status": "NOT_TESTED_OR_FAILED_PRESERVED",
+      "published": false
+    }
+  },
+  "priorRelease": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\POST-FAILURE-RELEASE.json",
+    "sha256": "36a6b7a81c13c5331ce0b903ec32332da17617ce1d66745fd68c910e225b2eff",
+    "raw": {
+      "reason": "Exact owned natural exit and repeated fresh native absence",
+      "released": true,
+      "strictFailurePreserved": true,
+      "eligible": true,
+      "nativeStopped": false,
+      "exitCode": 0
+    }
+  },
+  "removedRequiredPackageResources": [
+    "Assets/ArtApproved20261022/Gepard/GepardGunLeft.txo",
+    "Assets/ArtApproved20261022/Gepard/GepardGunRight.txo",
+    "Assets/ArtApproved20261022/Gepard/GepardTurretRig.txo",
+    "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.txo",
+    "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.txo",
+    "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.txo",
+    "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.txo",
+    "Assets/ArtApproved20261022/Mobility/MobilityRig.txo"
+  ],
+  "remainingIntegrationRequirements": [
+    "Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+    "Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+    "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+    "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+    "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+    "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+    "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.xob",
+    "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+    "Prefabs/ArtApproved20261022/Camo/GEP_35_GunLeft.et",
+    "Prefabs/ArtApproved20261022/Camo/GEP_35_GunRight.et",
+    "Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+    "Prefabs/ArtApproved20261022/Camo/GEP_VehicleTurret.et",
+    "Prefabs/ArtApproved20261022/Camo/GepardCoverLeft668.et",
+    "Prefabs/ArtApproved20261022/Camo/GepardCoverRight668.et",
+    "Prefabs/ArtApproved20261022/Camo/GepardRightRearShieldCover671.et",
+    "Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunLeft.et",
+    "Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunRight.et",
+    "Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et",
+    "Prefabs/ArtApproved20261022/Charcoal/GEP_VehicleTurret.et",
+    "Prefabs/ArtApproved20261022/Charcoal/GepardCoverLeft668.et",
+    "Prefabs/ArtApproved20261022/Charcoal/GepardCoverRight668.et",
+    "Prefabs/ArtApproved20261022/Charcoal/GepardRightRearShieldCover671.et",
+    "Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et",
+    "Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et",
+    "Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et"
+  ],
+  "unchangedSourceManifests": [
+    {
+      "role": "integration",
+      "sourceManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-integration.json",
+      "sourceManifestSHA256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0"
+    },
+    {
+      "role": "provingGround",
+      "sourceManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-provingGround.json",
+      "sourceManifestSHA256": "87eae93b58a53e7ea976a8e0b7ee9e1df3ef12afab14af17fec9545cdcde2d0e"
+    }
+  ],
+  "allowedRuntimePathRenames": {
+    "private-pack-10": "private-pack-10b",
+    "private-package-build-10": "private-package-build-10b",
+    "private-installed-demo-10": "private-installed-demo-10b",
+    "private-demo-10-sessions": "private-demo-10b-sessions"
+  },
+  "TXOStillRequiredInCompleteSourceClosure": true,
+  "noDependencyOrSourceChanges": true,
+  "noNative": true,
+  "noDWrite": true,
+  "resourceReviewSHA256": "35887b65a7c1c89abceb6eea594a7ce2f66f423fe59de3379252e02cc08e5ece"
+}

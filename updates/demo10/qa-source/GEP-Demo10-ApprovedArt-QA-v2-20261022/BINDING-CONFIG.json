@@ -1,0 +1,19 @@
+{
+  "qaRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-artqa-new-stage-v2\\artNativeQA",
+  "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-artqa-new-stage-v2\\artNativeQA\\GEPArtNativeSceneQA.gproj",
+  "world": "Worlds/GEPArtNativeSceneQA.ent",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-artqa-02",
+  "addonRoots": [
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-artqa-new-stage-v2",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons"
+  ],
+  "addonId": "65239F780E614817",
+  "seconds": 180,
+  "adapterDeadlineSeconds": 240,
+  "coordinatorSeconds": 270,
+  "coreCompileReceipt": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\ACTUAL-COMPILE-ADOPTION.json",
+  "coreCompileReceiptSHA256": "8f755091832f343da29b37d45a78a11388c9c522dad9a715976b102c0491a37a",
+  "status": "SOURCE_ONLY_QA_NATIVE_COMPILE_AND_ARTIFACT_REVIEW_REQUIRED"
+}

@@ -1,0 +1,4 @@
+// Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
+GenericEntity : "{2B39D98AED8F9F2E}Prefabs/ArtV11/Camo/GEP_35_GunLeftV11.et" { components {
+MeshObject "{CFBAA4B701F95D69}" { Object "{2A7F69D8A7902DE2}Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob"  }
+} }

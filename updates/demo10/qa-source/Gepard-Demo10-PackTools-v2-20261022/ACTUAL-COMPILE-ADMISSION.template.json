@@ -1,0 +1,49 @@
+{
+  "status": "PENDING_ROOT_ACTUAL_COMPILE",
+  "requiredStatus": "ROOT_DEMO10_COMPILE_ADMITTED_CURRENT_CLOSURES",
+  "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+  "resultPath": "PENDING_ROOT_ACTUAL_COMPILE_RESULT_JSON",
+  "resultSHA256": "PENDING_ROOT_64HEX",
+  "consolePath": "PENDING_ROOT_ACTUAL_COMPILE_CONSOLE",
+  "consoleSHA256": "PENDING_ROOT_64HEX",
+  "sourceClosures": [
+    {
+      "role": "integration",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "manifest": "PENDING_ROOT_FINAL_INTEGRATION_MANIFEST",
+      "manifestSHA256": "PENDING_ROOT_64HEX"
+    },
+    {
+      "role": "provingGround",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround",
+      "manifest": "PENDING_ROOT_FINAL_WORLD_MANIFEST",
+      "manifestSHA256": "PENDING_ROOT_64HEX"
+    },
+    {
+      "role": "gepard",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Support-Core1152.json",
+      "manifestSHA256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09"
+    },
+    {
+      "role": "wcsSmoke",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Support-Smoke14.json",
+      "manifestSHA256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8"
+    },
+    {
+      "role": "SpaceCore_5E389BB9F58B79A6",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Dependency-SpaceCore_5E389BB9F58B79A6.json",
+      "manifestSHA256": "af822707ba1cae416f029616b058d3682ea3fcf9b77330dcbf54e5e06bc8756c"
+    },
+    {
+      "role": "WCS_Armaments_629B2BA37EFFD577",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Dependency-WCS_Armaments_629B2BA37EFFD577.json",
+      "manifestSHA256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6"
+    }
+  ],
+  "strictNativeErrors": "RAW_RETAINED_NO_NEW_CLASSIFIER_SIGNATURE_ADMISSION",
+  "nativeGameplay": "NOT_TESTED_BY_COMPILE"
+}

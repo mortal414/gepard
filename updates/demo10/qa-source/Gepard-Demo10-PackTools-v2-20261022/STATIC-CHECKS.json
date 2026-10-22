@@ -1,0 +1,58 @@
+{
+  "status": "PASS_STATIC_DERIVATION_AST_SOURCE_AND_PENDING_GATE_ONLY",
+  "ownership": [
+    {
+      "file": "SerialValidatePack10.ps1",
+      "ownershipFunctionsTextExact": [
+        "KeyHash",
+        "Inventory",
+        "OpenExclusiveLeaseWriter",
+        "SlotTransaction",
+        "AssertOwner",
+        "QuoteNative",
+        "AssertIdentity",
+        "UserRuntimeHoldRecord705",
+        "UserRuntimeHold705",
+        "CancelRequested705"
+      ]
+    },
+    {
+      "file": "PackageOnlyScene10.ps1",
+      "ownershipFunctionsTextExact": [
+        "KeyHash",
+        "Inventory",
+        "OpenExclusiveLeaseWriter",
+        "SlotTransaction",
+        "AssertOwner",
+        "QuoteNative",
+        "AssertIdentity",
+        "UserRuntimeHoldRecord705",
+        "UserRuntimeHold705",
+        "CancelRequested705"
+      ]
+    }
+  ],
+  "startupBoardSpaceParserTextExact": true,
+  "finiteTailClassifierAndBaselineByteExact": true,
+  "reuseOwnTrios": 2,
+  "supportingSourceCounts": [
+    1152,
+    14
+  ],
+  "dependencyCounts": [
+    3,
+    3
+  ],
+  "newPackedRoles": [
+    "integration",
+    "provingGround"
+  ],
+  "exactFourNativeStepsBound": true,
+  "ownInstalledFilesBound": 12,
+  "separateDependencyFilesBound": 6,
+  "noBradleyDirectoryOrDependencyEdgeAllowed": true,
+  "nativeStarted": false,
+  "packaged": false,
+  "installed": false,
+  "finalSourcesAndCompile": "ACTUAL_ROOT_ADOPTED_SIX_CLOSURES"
+}

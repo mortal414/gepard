@@ -1,0 +1,10 @@
+{
+  "project": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\native-import-stage\\artImport\\GEP_ApprovedArtImport.gproj",
+  "plugin": "GEP_Demo10ApprovedArtRebuild",
+  "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\IMPORT-SOURCE-PINS.json",
+  "runRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\approved-art-rebuild-01",
+  "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\CookApprovedArt.ps1",
+  "inputManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\IMPORT-TARGET-PINS.json",
+  "commandScope": "Eight exact approved additive FBXs; normal owned close only; no stock/current/release source changes",
+  "gameplay": "NOT_TESTED"
+}

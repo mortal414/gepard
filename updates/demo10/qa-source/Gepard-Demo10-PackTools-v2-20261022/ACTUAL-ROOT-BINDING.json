@@ -1,0 +1,25 @@
+{
+  "status": "ACTUAL_CLOSED_COMPILE_AND_FINAL_SOURCE_BOUND_C_ONLY_NO_PACKAGE_EXECUTION",
+  "originalRootAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\ACTUAL-COMPILE-ADOPTION.json",
+  "originalRootAdoptionSHA256": "8f755091832f343da29b37d45a78a11388c9c522dad9a715976b102c0491a37a",
+  "sourceFiles": 1251,
+  "sourceCounts": {
+    "gepard": 1152,
+    "wcsSmoke": 14,
+    "integration": 68,
+    "provingGround": 11,
+    "SpaceCore_5E389BB9F58B79A6": 3,
+    "WCS_Armaments_629B2BA37EFFD577": 3
+  },
+  "requiredIntegrationResources": 25,
+  "FBXRequired": false,
+  "coreAndSmokeRebuilt": false,
+  "contractSHA256": "8beb52e2d8001a121161a93236a8180ead8ff45a669fb91c87fc938a190c2349",
+  "worldContractSHA256": "fc1a55d24f796da2ebd71e41968e38671a910b4b3b9c846c1aa93b7be59293c4",
+  "gameplayAndPackageStartup": "PENDING",
+  "DWritten": false,
+  "nativeStarted": false,
+  "packaged": false,
+  "TXORequiredInPAK": false,
+  "TXORetainedInSourceManifest": true
+}

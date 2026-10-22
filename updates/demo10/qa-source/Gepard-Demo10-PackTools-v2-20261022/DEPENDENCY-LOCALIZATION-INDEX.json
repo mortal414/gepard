@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "status": "EXACT_EDITOR_SOURCES_ABSENT_26_DECLARED_RUNTIME_CONFS_INDEX_PRESENT",
+  "results": [
+    {
+      "folder": "WCS_Armaments_629B2BA37EFFD577",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577\\addon.gproj",
+      "projectSHA256": "e6ffcf559a2e7898848349c090300ea8eca8cb2e13ecef456a108bcc82efc8b1",
+      "pak": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577\\data.pak",
+      "pakSHA256": "e18ab4bb3f390dd6116d8c7e686fe21349c6c993a77b7ea6361d4027d7683788",
+      "pakIndexSHA256": "196255ea12ba4cca9cc81b37fe71fca1a4577d8116c0cc5d41ae061016a9a9f8",
+      "indexEntries": 1722,
+      "source": {
+        "guid": "41FA2A08B6971D4C",
+        "resource": "Language/wcs_armament_localization.st",
+        "matchingIndexEntries": 0
+      },
+      "runtime": [
+        {
+          "guid": "3356BB5173BAB983",
+          "resource": "Language/wcs_armament_localization.cs_cz.conf",
+          "offset": 361332253,
+          "storedBytes": 6864,
+          "rawBytes": 29877,
+          "method": "00000106"
+        },
+        {
+          "guid": "E628A1626019A8A3",
+          "resource": "Language/wcs_armament_localization.de_de.conf",
+          "offset": 361339117,
+          "storedBytes": 6704,
+          "rawBytes": 29658,
+          "method": "00000106"
+        },
+        {
+          "guid": "B8D82B290AEAADA2",
+          "resource": "Language/wcs_armament_localization.en_us.conf",
+          "offset": 361345821,
+          "storedBytes": 6493,
+          "rawBytes": 29613,
+          "method": "00000106"
+        },
+        {
+          "guid": "7D9466A0E4E8C6BD",
+          "resource": "Language/wcs_armament_localization.es_es.conf",
+          "offset": 361352314,
+          "storedBytes": 6744,
+          "rawBytes": 29849,
+          "method": "00000106"
+        },
+        {
+          "guid": "C63C9397026B25BF",
+          "resource": "Language/wcs_armament_localization.fr_fr.conf",
+          "offset": 361359058,
+          "storedBytes": 6751,
+          "rawBytes": 29919,
+          "method": "00000106"
+        },
+        {
+          "guid": "46201CA3AF49A646",
+          "resource": "Language/wcs_armament_localization.it_it.conf",
+          "offset": 361365809,
+          "storedBytes": 6683,
+          "rawBytes": 29775,
+          "method": "00000106"
+        },
+        {
+          "guid": "563BA131913896ED",
+          "resource": "Language/wcs_armament_localization.ja_jp.conf",
+          "offset": 361372492,
+          "storedBytes": 7023,
+          "rawBytes": 29810,
+          "method": "00000106"
+        },
+        {
+          "guid": "F685899D021595D2",
+          "resource": "Language/wcs_armament_localization.ko_kr.conf",
+          "offset": 361379515,
+          "storedBytes": 6871,
+          "rawBytes": 29525,
+          "method": "00000106"
+        },
+        {
+          "guid": "AAF42F67BCFA09AE",
+          "resource": "Language/wcs_armament_localization.pl_pl.conf",
+          "offset": 361386386,
+          "storedBytes": 6876,
+          "rawBytes": 29940,
+          "method": "00000106"
+        },
+        {
+          "guid": "7F83B5AB8704C314",
+          "resource": "Language/wcs_armament_localization.pt_br.conf",
+          "offset": 361393262,
+          "storedBytes": 6739,
+          "rawBytes": 29819,
+          "method": "00000106"
+        },
+        {
+          "guid": "2AC2A1031A7DA662",
+          "resource": "Language/wcs_armament_localization.ru_ru.conf",
+          "offset": 361400001,
+          "storedBytes": 7297,
+          "rawBytes": 31662,
+          "method": "00000106"
+        },
+        {
+          "guid": "A09AF4F576531837",
+          "resource": "Language/wcs_armament_localization.uk_ua.conf",
+          "offset": 361407298,
+          "storedBytes": 7066,
+          "rawBytes": 30801,
+          "method": "00000106"
+        },
+        {
+          "guid": "7A2A9AC84FF3C82A",
+          "resource": "Language/wcs_armament_localization.zh_cn.conf",
+          "offset": 361414364,
+          "storedBytes": 6912,
+          "rawBytes": 29279,
+          "method": "00000106"
+        }
+      ],
+      "all13DeclaredRuntimeResourcesPresentNonempty": true,
+      "resourceBodiesRead": false
+    },
+    {
+      "folder": "SpaceCore_5E389BB9F58B79A6",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6\\addon.gproj",
+      "projectSHA256": "2db2e318e6f45bede0d1173d77af03314f888aedfb31bc767d569ccfb6e70a34",
+      "pak": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6\\data.pak",
+      "pakSHA256": "0e783e0179a90d2764361c1833824b64b0d0270a09716599ff593a318f0f14cd",
+      "pakIndexSHA256": "6d7f9d389417be383f7374d8ceea6d6bc49533565fc70641f705d2980ea45982",
+      "indexEntries": 194,
+      "source": {
+        "guid": "84270E09F7A4A7A0",
+        "resource": "Language/wcs_spacecore_localization.st",
+        "matchingIndexEntries": 0
+      },
+      "runtime": [
+        {
+          "guid": "26A4446A32A57D83",
+          "resource": "Language/wcs_spacecore_localization.cs_cz.conf",
+          "offset": 16982853,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "F3DA5E5921066CA3",
+          "resource": "Language/wcs_spacecore_localization.de_de.conf",
+          "offset": 16983713,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "AD2AD4124BF569A2",
+          "resource": "Language/wcs_spacecore_localization.en_us.conf",
+          "offset": 16984573,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "6866999BA5F702BD",
+          "resource": "Language/wcs_spacecore_localization.es_es.conf",
+          "offset": 16985433,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "D3CE6CAC4374E1BF",
+          "resource": "Language/wcs_spacecore_localization.fr_fr.conf",
+          "offset": 16986293,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "53D2E398EE566246",
+          "resource": "Language/wcs_spacecore_localization.it_it.conf",
+          "offset": 16987153,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "43C95E0AD02752ED",
+          "resource": "Language/wcs_spacecore_localization.ja_jp.conf",
+          "offset": 16988013,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "E37776A6430A51D2",
+          "resource": "Language/wcs_spacecore_localization.ko_kr.conf",
+          "offset": 16988873,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "BF06D05CFDE5CDAE",
+          "resource": "Language/wcs_spacecore_localization.pl_pl.conf",
+          "offset": 16989733,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "6A714A90C61B0714",
+          "resource": "Language/wcs_spacecore_localization.pt_br.conf",
+          "offset": 16990593,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "3F305E385B626262",
+          "resource": "Language/wcs_spacecore_localization.ru_ru.conf",
+          "offset": 16991453,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "B5680BCE374CDC37",
+          "resource": "Language/wcs_spacecore_localization.uk_ua.conf",
+          "offset": 16992313,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        },
+        {
+          "guid": "6FD865F30EEC0C2A",
+          "resource": "Language/wcs_spacecore_localization.zh_cn.conf",
+          "offset": 16993173,
+          "storedBytes": 860,
+          "rawBytes": 3061,
+          "method": "00000106"
+        }
+      ],
+      "all13DeclaredRuntimeResourcesPresentNonempty": true,
+      "resourceBodiesRead": false
+    }
+  ],
+  "scope": "Index existence/size plus project declarations only; no runtime localization/rendered text validation; no warning suppression or source edits",
+  "DWritten": false,
+  "nativeStarted": false
+}

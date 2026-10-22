@@ -1,0 +1,18 @@
+{
+  "status": "DRAFT_PARENT_CONTEXT_AND_EXACT_REUSE_INPUTS_FINAL_SOURCE_PENDING",
+  "inputPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\pack_tools09.mjs": "c3819ca025fcac230209dc29393e381d590ca6e3b29b38ad64ae75b5dab7010b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\make_plan09.mjs": "9d7a15f742e4032048aac7f7aed5623d2d60e4a924132489276a768cfe276712",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\SerialValidatePack09.ps1": "f1e3c33de55ffc36f72078d0098b5e30172e2ed57305ed9fad63149187daacc8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\NativeTailClassifier09.ps1": "31d9dc7335e31a60eb3e810a12cb65456c872dff9f1f4f2f1cbffbfd18ef3483",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\NATIVE-TAIL-BASELINE.json": "42ad582e96087f6b0deaab817286adc0dfa78f26fe1a766fa00176b853affaa7",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\package_launch.mjs": "812f14377bf988b79032ee24d1717f1b39998e74459cf4a1505a3e4208c2f9f6",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\PackageOnlyScene09.ps1": "0d83e7023c3acddabed63bbe7345e25ed4bf9fd6dc36714313b5242df3c33518",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\Launch-Gepard-Private-Demo09.ps1": "9969ed9b9d79ae30238c245c39790a76ffb697af45e00a4af4b130374bb84898",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\PLAN.json": "9b29b92c5c7cc4a23b5e29f025a9fb9901ca0691c493243d67947499f55ac126",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\DEMO10-INITIAL-SOURCE.json": "ae56a3ea38d117af19a9aaf3e7470aabe3b977cc055afdeb29e733f0bc9d04ba"
+  },
+  "finalSourceManifests": "PENDING_ROOT",
+  "actualCompile": "PENDING_ROOT",
+  "nativeStarted": false
+}

@@ -1,0 +1,7 @@
+SCR_FactionManager DemoFactions : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {}
+SCR_BaseGameMode DemoMode : "{B00D51315A1C7150}Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Automatic.et" {
+ components { SCR_RespawnSystemComponent "{56B2B4793051E7C9}" { m_SpawnLogic GEP215_CurrentV11SpawnLogic "{7E0150C026102504}" { m_sForcedFaction "US" } } }
+}
+SCR_LoadoutManager DemoLoadouts : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {}
+RadioManagerEntity DemoRadio : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {}
+GEP215_CurrentV11Probe SmokeProbe { coords 600 50 2600 ExpectedShots 8 FixtureYaw 0 VehiclePrefab "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et" }

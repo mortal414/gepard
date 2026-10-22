@@ -1,0 +1,432 @@
+{
+  "status": "FOURTEEN_EXACT_ORIGINALS_DIRECTLY_REVIEWED_NARROW_STATIC_APPEARANCE_OBSERVATIONS",
+  "images": [
+    {
+      "skin": "Camo",
+      "view": "front3q",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Camo-front3q.bmp",
+      "bytes": 2764854,
+      "sha256": "8ad22fcb1272a286044890d274a1bff409850645fe3e92f8e30931aa6e8d93e9",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Complete front-threequarter functional subject, both barrels, hull and running gear visible; recognizable skin treatment.",
+      "nativeCameraReadback": {
+        "line": 1539,
+        "fields": {
+          "skin": "Camo",
+          "view": "front3q",
+          "worldMs": "20382.4",
+          "timeScale": "1",
+          "subjectPosition": "<592,39.25,2600>",
+          "camera0": "<-0.819232,0,0.573462>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-0.573462,0,-0.819232>",
+          "cameraEye": "<598.901,40.6282,2609.99>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 12.141824451045032,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Camo",
+      "view": "rear3q",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Camo-rear3q.bmp",
+      "bytes": 2764854,
+      "sha256": "c34658efa1831948e0de4c84884f89ae9df99645301348ab8fa834a34f806fec",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Rear-threequarter silhouette, rear panel/flaps, radar and running gear visible; no obvious missing surface.",
+      "nativeCameraReadback": {
+        "line": 1548,
+        "fields": {
+          "skin": "Camo",
+          "view": "rear3q",
+          "worldMs": "25415.4",
+          "timeScale": "1",
+          "subjectPosition": "<592,39.25,2600>",
+          "camera0": "<0.819232,0,0.573462>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-0.573462,0,0.819232>",
+          "cameraEye": "<599.027,40.6282,2590.1>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 12.140375982645777,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Camo",
+      "view": "left",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Camo-left.bmp",
+      "bytes": 2764854,
+      "sha256": "c5fe18969bc5a5b511a4acceb9452520911701bfbe5b65fd67b149526d15939c",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Useful left broadside with full hull/track silhouette and turret/pods; parked other subject is separate.",
+      "nativeCameraReadback": {
+        "line": 1557,
+        "fields": {
+          "skin": "Camo",
+          "view": "left",
+          "worldMs": "30449.5",
+          "timeScale": "1",
+          "subjectPosition": "<592,39.25,2600>",
+          "camera0": "<7.54979e-08,0,-1>",
+          "camera1": "<0,1,0>",
+          "camera2": "<1,0,7.54979e-08>",
+          "cameraEye": "<583.063,40.6282,2599.92>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 8.937358054816881,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Camo",
+      "view": "right",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Camo-right.bmp",
+      "bytes": 2764854,
+      "sha256": "2d49233738fde16d16a996e468cb92a325e050565cfef6696f274036f28279c7",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Useful right broadside, turret/guns/pods, wheel/track and flank visible; dark shade limits fine material judgment.",
+      "nativeCameraReadback": {
+        "line": 1566,
+        "fields": {
+          "skin": "Camo",
+          "view": "right",
+          "worldMs": "35482",
+          "timeScale": "1",
+          "subjectPosition": "<592,39.25,2600>",
+          "camera0": "<7.54979e-08,0,1>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-1,0,7.54979e-08>",
+          "cameraEye": "<600.937,40.6282,2600.08>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 8.937358054816881,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Camo",
+      "view": "guns",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Camo-guns.bmp",
+      "bytes": 2764854,
+      "sha256": "70b0a0ce0020b9585e3f7d4e2b9800e125841b85b4eaad8005d1b674f4346db2",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Closest front/gun view resolves both muzzle brakes, barrels, pods, front panel and wheels; no obvious duplicate cover or purple material.",
+      "nativeCameraReadback": {
+        "line": 1575,
+        "fields": {
+          "skin": "Camo",
+          "view": "guns",
+          "worldMs": "40515.2",
+          "timeScale": "1",
+          "subjectPosition": "<592,39.25,2600>",
+          "camera0": "<-0.832051,-1.05879e-22,0.5547>",
+          "camera1": "<1.97069e-15,1,2.95604e-15>",
+          "camera2": "<-0.5547,3.55271e-15,-0.832051>",
+          "cameraEye": "<595.901,40.6282,2605.99>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 7.1482795832281925,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Camo",
+      "view": "reargrille",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Camo-reargrille.bmp",
+      "bytes": 2764854,
+      "sha256": "c6865674c1757f50704f15496f28dfd2e032d59e585b55d2e418ad0b993fa32c",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Closer rear panel/grille, lamps/flaps and right running gear visible; some strong shade.",
+      "nativeCameraReadback": {
+        "line": 1584,
+        "fields": {
+          "skin": "Camo",
+          "view": "reargrille",
+          "worldMs": "45549.2",
+          "timeScale": "1",
+          "subjectPosition": "<592,39.25,2600>",
+          "camera0": "<0.894427,0,0.447214>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-0.447214,0,0.894427>",
+          "cameraEye": "<595.041,40.6282,2594.09>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 6.6464863649900465,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Camo",
+      "view": "rearfar",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Camo-rearfar.bmp",
+      "bytes": 2764854,
+      "sha256": "9eea535fb12c4982cc04fafca5629bc34a9a52c7cec94e68474583d1aa4a33cd",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Target is much smaller and remains identifiable/unobstructed; other skin stays spatially separate. Fine detail and LOD transitions cannot be judged.",
+      "nativeCameraReadback": {
+        "line": 1593,
+        "fields": {
+          "skin": "Camo",
+          "view": "rearfar",
+          "worldMs": "50581.9",
+          "timeScale": "1",
+          "subjectPosition": "<592,39.25,2600>",
+          "camera0": "<0.819232,0,0.573462>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-0.573462,0,0.819232>",
+          "cameraEye": "<620.027,40.6282,2560.1>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 48.75984750796509,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Charcoal",
+      "view": "front3q",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Charcoal-front3q.bmp",
+      "bytes": 2764854,
+      "sha256": "248fda15a599d5dc39b7d0ff87d9dcbf2725985601efce8078241c825a7d30f5",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Complete front-threequarter functional subject, both barrels, hull and running gear visible; recognizable skin treatment.",
+      "nativeCameraReadback": {
+        "line": 1602,
+        "fields": {
+          "skin": "Charcoal",
+          "view": "front3q",
+          "worldMs": "55614.9",
+          "timeScale": "1",
+          "subjectPosition": "<608,39.25,2620>",
+          "camera0": "<-0.819232,0,0.573462>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-0.573462,0,-0.819232>",
+          "cameraEye": "<614.901,40.6282,2629.99>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 12.141824451045032,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Charcoal",
+      "view": "rear3q",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Charcoal-rear3q.bmp",
+      "bytes": 2764854,
+      "sha256": "fef450cd4146bd3cc72b7d03a35f58632254f14adcda0f07c20931cd5c038985",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Rear-threequarter silhouette, rear panel/flaps, radar and running gear visible; no obvious missing surface.",
+      "nativeCameraReadback": {
+        "line": 1611,
+        "fields": {
+          "skin": "Charcoal",
+          "view": "rear3q",
+          "worldMs": "60648.4",
+          "timeScale": "1",
+          "subjectPosition": "<608,39.25,2620>",
+          "camera0": "<0.819232,0,0.573462>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-0.573462,0,0.819232>",
+          "cameraEye": "<615.027,40.6282,2610.1>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 12.140375982645777,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Charcoal",
+      "view": "left",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Charcoal-left.bmp",
+      "bytes": 2764854,
+      "sha256": "0ee32de25acfc6150bf9a40f91d90dbafc35c09c445ef08f0e39c6a181345854",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Useful left broadside with full hull/track silhouette and turret/pods; parked other subject is separate.",
+      "nativeCameraReadback": {
+        "line": 1620,
+        "fields": {
+          "skin": "Charcoal",
+          "view": "left",
+          "worldMs": "65681.5",
+          "timeScale": "1",
+          "subjectPosition": "<608,39.25,2620>",
+          "camera0": "<7.54979e-08,0,-1>",
+          "camera1": "<0,1,0>",
+          "camera2": "<1,0,7.54979e-08>",
+          "cameraEye": "<599.063,40.6282,2619.92>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 8.937358054816881,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Charcoal",
+      "view": "right",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Charcoal-right.bmp",
+      "bytes": 2764854,
+      "sha256": "6e791ee28b15b2e958b72cdcfef5d942d6d0ea6ba071cd904ff5a52d5502b6dc",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Useful right broadside, turret/guns/pods, wheel/track and flank visible; dark shade limits fine material judgment.",
+      "nativeCameraReadback": {
+        "line": 1629,
+        "fields": {
+          "skin": "Charcoal",
+          "view": "right",
+          "worldMs": "70715.4",
+          "timeScale": "1",
+          "subjectPosition": "<608,39.25,2620>",
+          "camera0": "<7.54979e-08,0,1>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-1,0,7.54979e-08>",
+          "cameraEye": "<616.937,40.6282,2620.08>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 8.937358054816881,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Charcoal",
+      "view": "guns",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Charcoal-guns.bmp",
+      "bytes": 2764854,
+      "sha256": "c48525678b726ce783c1e881ecf0458122b6c85a5def1e758a94a093e7b85312",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Closest front/gun view resolves both muzzle brakes, barrels, pods, front panel and wheels; no obvious duplicate cover or purple material.",
+      "nativeCameraReadback": {
+        "line": 1638,
+        "fields": {
+          "skin": "Charcoal",
+          "view": "guns",
+          "worldMs": "75749.1",
+          "timeScale": "1",
+          "subjectPosition": "<608,39.25,2620>",
+          "camera0": "<-0.832051,-1.05879e-22,0.5547>",
+          "camera1": "<1.97069e-15,1,2.95604e-15>",
+          "camera2": "<-0.5547,3.55271e-15,-0.832051>",
+          "cameraEye": "<611.901,40.6282,2625.99>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 7.1482795832281925,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Charcoal",
+      "view": "reargrille",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Charcoal-reargrille.bmp",
+      "bytes": 2764854,
+      "sha256": "dbeac4e88faf15ce0a8d0e6664d1b2bd1edaa36fd1103fbe62a6f7fce403e87f",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Closer rear panel/grille, lamps/flaps and right running gear visible; some strong shade.",
+      "nativeCameraReadback": {
+        "line": 1647,
+        "fields": {
+          "skin": "Charcoal",
+          "view": "reargrille",
+          "worldMs": "80781.9",
+          "timeScale": "1",
+          "subjectPosition": "<608,39.25,2620>",
+          "camera0": "<0.894427,0,0.447214>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-0.447214,0,0.894427>",
+          "cameraEye": "<611.041,40.6282,2614.09>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 6.6464863649900465,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    },
+    {
+      "skin": "Charcoal",
+      "view": "rearfar",
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\art-approved-static-new-02\\art-native-functional-capture\\native-run\\profile\\profile\\artnative-demo10-new-Charcoal-rearfar.bmp",
+      "bytes": 2764854,
+      "sha256": "4d165a56bc03f49dc0cc7c8eeca75699ed6123251bb579ee0e3fd03b883dffa7",
+      "bmpWidth": 1280,
+      "bmpHeight": 720,
+      "bits": 24,
+      "headerAndDataLengthSupported": true,
+      "framingMaterialsGeometryAcceptance": "PENDING_VISUAL_REVIEW",
+      "directlyViewedExactOriginal": true,
+      "independentPixelObservation": "Target is much smaller and remains identifiable/unobstructed; other skin stays spatially separate. Fine detail and LOD transitions cannot be judged.",
+      "nativeCameraReadback": {
+        "line": 1656,
+        "fields": {
+          "skin": "Charcoal",
+          "view": "rearfar",
+          "worldMs": "85814.7",
+          "timeScale": "1",
+          "subjectPosition": "<608,39.25,2620>",
+          "camera0": "<0.819232,0,0.573462>",
+          "camera1": "<0,1,0>",
+          "camera2": "<-0.573462,0,0.819232>",
+          "cameraEye": "<636.027,40.6282,2580.1>"
+        }
+      },
+      "horizontalEyeToSubjectMetres": 48.75984750796509,
+      "scope": "STATIC_PIXEL_OBSERVATION_NOT_USER_ART_OR_GPU_MATERIAL_ACCEPTANCE"
+    }
+  ],
+  "observed": "Real current approved functional Camo/Charcoal carriers; no obvious purple/missing/fallback materials or doubled covers at these sampled static views.",
+  "limits": [
+    "Appearance remains human judgment; dark/strong daylight and camera distances limit fine PBR assessment.",
+    "Far frames are distance observations only: no selected-LOD query, transition/performance or collision proof.",
+    "No motion, recoil, suspension deformation, full clearance, hatches or OLD/current paired runtime comparison."
+  ],
+  "newAcceptance": false
+}

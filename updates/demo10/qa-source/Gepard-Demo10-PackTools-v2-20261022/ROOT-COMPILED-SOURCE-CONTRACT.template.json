@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "status": "PENDING_ROOT_FINAL_SOURCE_MANIFESTS_COMPILE_AND_REVIEW",
+  "sourceAddonRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single",
+  "dependencyAddonRoots": [
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies"
+  ],
+  "coreAddonRoot": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+  "runRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10",
+  "outputRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10",
+  "allowGeneratedResourceDatabaseOnly": true,
+  "actualCompileReceipt": "PENDING_ROOT_ACTUAL_COMPILE_ADMISSION_JSON",
+  "actualCompileReceiptSHA256": "PENDING_ROOT_64HEX",
+  "rootReview": "PENDING_ROOT_REVIEW_JSON",
+  "rootReviewSHA256": "PENDING_ROOT_64HEX",
+  "supportingSourceClosures": [
+    {
+      "role": "gepard",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Support-Core1152.json",
+      "manifestSHA256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09"
+    },
+    {
+      "role": "wcsSmoke",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Support-Smoke14.json",
+      "manifestSHA256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8"
+    }
+  ],
+  "dependencyClosures": [
+    {
+      "role": "SpaceCore_5E389BB9F58B79A6",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Dependency-SpaceCore_5E389BB9F58B79A6.json",
+      "manifestSHA256": "af822707ba1cae416f029616b058d3682ea3fcf9b77330dcbf54e5e06bc8756c"
+    },
+    {
+      "role": "WCS_Armaments_629B2BA37EFFD577",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Dependency-WCS_Armaments_629B2BA37EFFD577.json",
+      "manifestSHA256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6"
+    }
+  ],
+  "projects": [
+    {
+      "role": "integration",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+      "sourceManifest": "PENDING_ROOT_FINAL_INTEGRATION_MANIFEST",
+      "sourceManifestSHA256": "PENDING_ROOT_64HEX",
+      "outputName": "integration",
+      "requiredPackageResources": [
+        "Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et",
+        "Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et",
+        "ROOT_MUST_BIND_FINAL_APPROVED_ART_XOB_MATERIAL_AND_CHILD_RESOURCES"
+      ]
+    },
+    {
+      "role": "provingGround",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+      "sourceManifest": "PENDING_ROOT_FINAL_WORLD_MANIFEST",
+      "sourceManifestSHA256": "PENDING_ROOT_64HEX",
+      "outputName": "provingGround",
+      "requiredPackageResources": [
+        "Worlds/GPG_Arland.ent",
+        "Worlds/GPG_Arland_default.layer",
+        "scripts/Game/GPG_Director.c",
+        "scripts/Game/GPG_Layout.c",
+        "scripts/Game/GPG_Resources.c",
+        "scripts/Game/GPG_Actions.c",
+        "Prefabs/GPG_StationBoard.et"
+      ]
+    }
+  ],
+  "coreRebuilt": false,
+  "smokeRebuilt": false,
+  "reusedTrioInputs": {
+    "gepard": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\CORE08-TRIO-REUSE-INPUT.json",
+      "sha256": "b41c60699860f98477e26c5d5f325932b1911a1ca1944306076e1c8de4994d83"
+    },
+    "wcsSmoke": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\SMOKE09-TRIO-REUSE-INPUT.json",
+      "sha256": "694ca8ad56489e912364c68df2aab634f7874e6c1c3d7d66613e4c346ee53dfa"
+    }
+  },
+  "protectedDependenciesBundled": false,
+  "wholeAudioOrArtAcceptance": false
+}

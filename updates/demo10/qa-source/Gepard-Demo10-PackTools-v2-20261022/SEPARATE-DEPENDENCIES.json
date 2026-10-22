@@ -1,0 +1,27 @@
+{
+  "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies",
+  "files": {
+    "SpaceCore_5E389BB9F58B79A6/addon.gproj": "2db2e318e6f45bede0d1173d77af03314f888aedfb31bc767d569ccfb6e70a34",
+    "SpaceCore_5E389BB9F58B79A6/data.pak": "0e783e0179a90d2764361c1833824b64b0d0270a09716599ff593a318f0f14cd",
+    "SpaceCore_5E389BB9F58B79A6/resourceDatabase.rdb": "f8e7de8778bec66ba13e1ebe7f1ddb29667cc9738e0ccf3f977180ff7e05d449",
+    "WCS_Armaments_629B2BA37EFFD577/addon.gproj": "e6ffcf559a2e7898848349c090300ea8eca8cb2e13ecef456a108bcc82efc8b1",
+    "WCS_Armaments_629B2BA37EFFD577/data.pak": "e18ab4bb3f390dd6116d8c7e686fe21349c6c993a77b7ea6361d4027d7683788",
+    "WCS_Armaments_629B2BA37EFFD577/resourceDatabase.rdb": "92f6c40aeebab4c2148173ff61d4312340111a2e7b675b9e4bbced2814ed2154"
+  },
+  "closures": [
+    {
+      "role": "SpaceCore_5E389BB9F58B79A6",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\Dependency-SpaceCore_5E389BB9F58B79A6.json",
+      "manifestSHA256": "af822707ba1cae416f029616b058d3682ea3fcf9b77330dcbf54e5e06bc8756c"
+    },
+    {
+      "role": "WCS_Armaments_629B2BA37EFFD577",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\Dependency-WCS_Armaments_629B2BA37EFFD577.json",
+      "manifestSHA256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6"
+    }
+  ],
+  "redistributableOwnPayload": false,
+  "noBradleyOrOtherAddon": true
+}

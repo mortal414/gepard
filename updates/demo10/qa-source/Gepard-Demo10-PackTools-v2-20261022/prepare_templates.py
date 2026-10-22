@@ -1,0 +1,31 @@
+from pathlib import Path
+import json,hashlib,re
+r=Path(__file__).resolve().parent;t=r.parent
+R=Path(r'D:\ArmaProjects\Gepard-Demo10-TrackArt-20261022');stage=R/'private-demo-source10'
+old=t/'GEP-Private-Demo-Pack09-Smoke-Preparation-20261022'
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def read(p):return json.loads(Path(p).read_text(encoding='utf-8-sig'))
+def write(n,v):
+ p=r/n;assert not p.exists();p.write_text(json.dumps(v,indent=2)+'\n',encoding='utf-8',newline='\n')
+def inv(root):return {p.relative_to(root).as_posix():sha(p) for p in root.rglob('*') if p.is_file()}
+supports=[]
+for role,name,inputName in [('gepard','Support-Core1152.json','CORE08-TRIO-REUSE-INPUT.json'),('wcsSmoke','Support-Smoke14.json','SMOKE09-TRIO-REUSE-INPUT.json')]:
+ origin=read(r/inputName);source=Path(origin['currentSourceManifest']);assert sha(source)==origin['currentSourceManifestSHA256']
+ pins=read(source);assert len(pins)==(1152 if role=='gepard' else 14);assert inv(stage/'single'/role)==pins
+ (r/name).write_bytes(source.read_bytes());supports.append({'role':role,'root':str(stage/'single'/role),'manifest':str(r/name),'manifestSHA256':sha(r/name)})
+initial=read(t/'Gepard-Demo10-Integration-20261022/DEMO10-INITIAL-SOURCE.json');deps=[];combined={}
+for d in initial['dependencies']:
+ role=d['folder'];root=stage/'dependencies'/role;assert inv(root)==d['files'] and len(d['files'])==3
+ name='Dependency-'+role+'.json';write(name,d['files']);deps.append({'role':role,'root':str(root),'manifest':str(r/name),'manifestSHA256':sha(r/name)})
+ combined.update({role+'/'+n:h for n,h in d['files'].items()})
+assert {p.name for p in (stage/'dependencies').iterdir()}=={x['role'] for x in deps} and len(combined)==6
+write('SEPARATE-DEPENDENCIES.json',{'root':str(stage/'dependencies'),'files':combined,'closures':deps,'redistributableOwnPayload':False,'noBradleyOrOtherAddon':True})
+contract={'schema':1,'status':'PENDING_ROOT_FINAL_SOURCE_MANIFESTS_COMPILE_AND_REVIEW','sourceAddonRoot':str(stage/'single'),'dependencyAddonRoots':[str(stage/'dependencies')],'coreAddonRoot':r'D:\SteamLibrary\steamapps\common\Arma Reforger\addons','runRoot':str(R/'native-runs/private-pack-10'),'outputRoot':str(R/'private-package-build-10'),'allowGeneratedResourceDatabaseOnly':True,'actualCompileReceipt':'PENDING_ROOT_ACTUAL_COMPILE_ADMISSION_JSON','actualCompileReceiptSHA256':'PENDING_ROOT_64HEX','rootReview':'PENDING_ROOT_REVIEW_JSON','rootReviewSHA256':'PENDING_ROOT_64HEX','supportingSourceClosures':supports,'dependencyClosures':deps,'projects':[{'role':'integration','project':str(stage/'single/integration/GEP_SpaceCoreTracks033.gproj'),'sourceManifest':'PENDING_ROOT_FINAL_INTEGRATION_MANIFEST','sourceManifestSHA256':'PENDING_ROOT_64HEX','outputName':'integration','requiredPackageResources':['Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et','Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et','ROOT_MUST_BIND_FINAL_APPROVED_ART_XOB_MATERIAL_AND_CHILD_RESOURCES']},{'role':'provingGround','project':str(stage/'single/provingGround/GepardProvingGround.gproj'),'sourceManifest':'PENDING_ROOT_FINAL_WORLD_MANIFEST','sourceManifestSHA256':'PENDING_ROOT_64HEX','outputName':'provingGround','requiredPackageResources':['Worlds/GPG_Arland.ent','Worlds/GPG_Arland_default.layer','scripts/Game/GPG_Director.c','scripts/Game/GPG_Layout.c','scripts/Game/GPG_Resources.c','scripts/Game/GPG_Actions.c','Prefabs/GPG_StationBoard.et']}],'coreRebuilt':False,'smokeRebuilt':False,'reusedTrioInputs':{'gepard':{'path':str(r/'CORE08-TRIO-REUSE-INPUT.json'),'sha256':sha(r/'CORE08-TRIO-REUSE-INPUT.json')},'wcsSmoke':{'path':str(r/'SMOKE09-TRIO-REUSE-INPUT.json'),'sha256':sha(r/'SMOKE09-TRIO-REUSE-INPUT.json')}},'protectedDependenciesBundled':False,'wholeAudioOrArtAcceptance':False}
+write('ROOT-COMPILED-SOURCE-CONTRACT.template.json',contract)
+world=read(old/'PACKAGE09-WORLD-CONTRACT.json');world.update({'status':'PENDING_ROOT_FINAL_DEMO10_WORLD_SOURCE_BINDING','stageRoot':str(stage),'registryHash':'PENDING_ROOT_64HEX','runtimeHash':'PENDING_ROOT_64HEX','sourceManifestSHA256':'PENDING_ROOT_FINAL_WORLD_SOURCE_HASH','worldCandidate':'PENDING_ROOT_FINAL_WORLD_SOURCE_RECEIPT','newWrappers':{'NEW-CAMO':'{A76A420022100002}Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et','NEW-CHARCOAL':'{A76A420022100004}Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et'}})
+write('PACKAGE10-WORLD-CONTRACT.template.json',world)
+review={'status':'PENDING_ROOT_REVIEW','requiredStatus':'ROOT_PRIVATE_DEMO10_SOURCE_ADMITTED','explicitPack10Requested':False,'strictNativeFailuresPreserved':True,'dependenciesWCSAndSpaceCoreConfirmed':True,'noBradley':True,'noPublication':True,'approvedArtSnapshot':'PENDING_ROOT_SEALED_ART_BUILD_RECEIPTS','currentBothSkinCompatibility':'PENDING_ROOT_ACTUAL_EVIDENCE','trackAudioAcceptanceScope':'Candidate02 direction accepted; broader GEP033 remains unfinished','remainingUserAcceptance':'All unobserved manual/MP/fit/coverage/audio judgments stay pending'}
+write('ROOT-10-ADMISSION.template.json',review)
+write('ACTUAL-COMPILE-ADMISSION.template.json',{'status':'PENDING_ROOT_ACTUAL_COMPILE','requiredStatus':'ROOT_DEMO10_COMPILE_ADMITTED_CURRENT_CLOSURES','project':contract['projects'][1]['project'],'resultPath':'PENDING_ROOT_ACTUAL_COMPILE_RESULT_JSON','resultSHA256':'PENDING_ROOT_64HEX','consolePath':'PENDING_ROOT_ACTUAL_COMPILE_CONSOLE','consoleSHA256':'PENDING_ROOT_64HEX','sourceClosures':[{'role':p['role'],'root':str(Path(p['project']).parent),'manifest':p['sourceManifest'],'manifestSHA256':p['sourceManifestSHA256']} for p in contract['projects']]+supports+deps,'strictNativeErrors':'RAW_RETAINED_NO_NEW_CLASSIFIER_SIGNATURE_ADMISSION','nativeGameplay':'NOT_TESTED_BY_COMPILE'})
+write('TEMPLATE-INPUT-CHECKS.json',{'status':'EXACT_REUSE_AND_SUPPORT_INPUTS_VERIFIED_FINAL_NEW_SOURCE_PENDING','supportCounts':[1152,14],'dependencyCounts':[3,3],'newPackedRoles':['integration','provingGround'],'fourSequentialSteps':True,'installedOwnFilesExpected':12,'separateDependencyFilesExpected':6,'noBradley':True,'finalManifestAndCompileAdmission':'PENDING_ROOT','nativeStarted':False,'DWritten':False})
+print(json.dumps({'status':'C_ONLY_TEMPLATES_READY_FINAL_SOURCE_PENDING','supports':supports,'dependencies':deps,'DWritten':False,'nativeStarted':False},indent=2))

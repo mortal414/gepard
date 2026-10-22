@@ -1,0 +1,33 @@
+{
+  "worktree": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022",
+  "branch": "sprint/demo10-track-art-20261022",
+  "rollback": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd",
+  "nativeCoordinator": "root only; read current shared lease and actual process before any retry",
+  "activeAtCheckpoint": {"task":"smoke final charcoal", "execSession":32769, "run":"native-runs/smoke-demo10-charcoal-01"},
+  "observed": [
+    "Bounded audio exterior and cabin each passed nine behavior assertions; strict60 E/F each retained; timbre accepted by user separately",
+    "All52 frozen additive art files copied; current core1152/smoke14 unchanged; V14 approval clarification resolved review denial before exact retry",
+    "Art cook01 failed importer compilation and closed normally; corrected cook02 eight successful builds/eight changed XOBs, source FBXs and native-meta tokens unchanged",
+    "Final world compile passed0/released; final adopted manifests cover1251 production/dependency files",
+    "Both skin healthy crew/HUD/yaw/elevation/both-feed firing/reentry/refire behavior passed; strict59 E/F each preserved",
+    "Pack10 integration native validate+pack completed0 but verifier correctly stopped on mistaken requiredTXO; failure cleanup released lease; no world pack/install occurred",
+    "Qualified old core also excludes TXO; versioned10b removes only8TXO PAK requirements, retains all17prefab+8XOB requirements and all source pins",
+    "Final camo smoke passed actual8to0/eightmovingpayloads/emptyrequest no ninth; strict native errors retained; no new cloud/clearance acceptance"
+  ],
+  "nextSerialQueue": [
+    "Reconcile charcoal smoke exact closure/result",
+    "Run frozen four-step Pack10b plan de70dc9fca8a08ccf1e6fc9b2fe181a81407f4970bdb9bfc51fa577c1ad79518",
+    "Stage/compile/adopt/run artQA v2 after supplier confirms final seal; no prior stage executed; use native-artqa-new-stage-v2 and compile-demo10-artqa-02",
+    "Inspect actual14nativeimages/owner/material/node readbacks; source fit and complete collision/LOD/manual judgments stay bounded",
+    "Install actual four own trios +two separately loaded dependencies, PlanOnly then75s package-only Probe; inspect ordinary world/OLD NEW bothskins",
+    "Commit clean source/evidence/launcher under worktree updates/demo10; final guide/status/evidence index; no publication"
+  ],
+  "tools": {
+    "pack":"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022",
+    "artQA":"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-ApprovedArt-QA-v2-20261022",
+    "smoke":"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-Smoke-Continuity-v1-20261022",
+    "crewEvidence":"C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\paired-native-audit-01"
+  },
+  "publication":false,
+  "remainingHumanGates":"Full art appearance/clearance/LOD/collision, audio balance/distance/delete-reset tails, smoke screen/ports/physical roles/shared rearm, broad range/protection/MP. No whole GEP checkbox promoted by compile."
+}

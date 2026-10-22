@@ -1,0 +1,66 @@
+{
+  "published": false,
+  "leaseReleased": true,
+  "nativeGameplay": "NOT_TESTED",
+  "packageOnlyWorldLoad": "NOT_TESTED",
+  "strictNativeVerdict": "FAIL",
+  "nativeErrorCount": 108.0,
+  "nativeAbsent": true,
+  "steps": [
+    {
+      "stepRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration-validate",
+      "nativeErrorCount": 27,
+      "step": "validate",
+      "diagnosticsReport": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration-validate\\native-diagnostics.json",
+      "exitCode": 0,
+      "console": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration\\logs\\validate\\console.log",
+      "verifiedExited": true,
+      "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+      "strictNativeVerdict": "FAIL",
+      "diagnosticsReportSHA256": "3630fc7d2a4048728a5755e4257ca7766d81487fc06e51423e7c6b4e99deea94",
+      "role": "integration"
+    },
+    {
+      "stepRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration-pack",
+      "nativeErrorCount": 27,
+      "step": "pack",
+      "diagnosticsReport": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration-pack\\native-diagnostics.json",
+      "exitCode": 0,
+      "console": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration\\logs\\pack\\console.log",
+      "verifiedExited": true,
+      "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+      "strictNativeVerdict": "FAIL",
+      "diagnosticsReportSHA256": "46c4803db40341bedc93a306d1d64f864a73ca0232ebd83ef500d2ce71416543",
+      "role": "integration"
+    },
+    {
+      "stepRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround-validate",
+      "nativeErrorCount": 27,
+      "step": "validate",
+      "diagnosticsReport": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround-validate\\native-diagnostics.json",
+      "exitCode": 0,
+      "console": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround\\logs\\validate\\console.log",
+      "verifiedExited": true,
+      "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+      "strictNativeVerdict": "FAIL",
+      "diagnosticsReportSHA256": "c8686d4ded8024bed5fce83255414c6f79d0c8bda0bc54e2270c8af14e5653bb",
+      "role": "provingGround"
+    },
+    {
+      "stepRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround-pack",
+      "nativeErrorCount": 27,
+      "step": "pack",
+      "diagnosticsReport": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround-pack\\native-diagnostics.json",
+      "exitCode": 0,
+      "console": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround\\logs\\pack\\console.log",
+      "verifiedExited": true,
+      "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+      "strictNativeVerdict": "FAIL",
+      "diagnosticsReportSHA256": "076b4af41ce929424c1381c4298d720f9570d963c11ee2c51037e7014a20ad0b",
+      "role": "provingGround"
+    }
+  ],
+  "operationalVerdict": "PASS",
+  "status": "PRIVATE_VALIDATE_PACK_SEQUENCE_OPERATIONAL_PASS",
+  "baselineTeardownDiagnosticsRetained": true
+}

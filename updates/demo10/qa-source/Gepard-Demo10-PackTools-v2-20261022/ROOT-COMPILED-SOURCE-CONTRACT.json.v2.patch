@@ -1,0 +1,55 @@
+--- C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-20261022\ROOT-COMPILED-SOURCE-CONTRACT.json
++++ C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-v2-20261022\ROOT-COMPILED-SOURCE-CONTRACT.json
+@@ -6,12 +6,12 @@
+     "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies"
+   ],
+   "coreAddonRoot": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+-  "runRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10",
+-  "outputRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10",
++  "runRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b",
++  "outputRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b",
+   "allowGeneratedResourceDatabaseOnly": true,
+-  "actualCompileReceipt": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\ACTUAL-COMPILE-ADMISSION.json",
++  "actualCompileReceipt": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ACTUAL-COMPILE-ADMISSION.json",
+   "actualCompileReceiptSHA256": "42a4e046347a6667a4b9686213e14beba8eca5853cc93d3a024b1e62ecca07f8",
+-  "rootReview": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\ROOT-10-ADMISSION.json",
++  "rootReview": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ROOT-10-ADMISSION.json",
+   "rootReviewSHA256": "f6efc02413929be5b97d06e78e52bb66cbcf3cd80d69c08dfe98eefdf8fcfdd5",
+   "supportingSourceClosures": [
+     {
+@@ -49,21 +49,13 @@
+       "sourceManifestSHA256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+       "outputName": "integration",
+       "requiredPackageResources": [
+-        "Assets/ArtApproved20261022/Gepard/GepardGunLeft.txo",
+         "Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+-        "Assets/ArtApproved20261022/Gepard/GepardGunRight.txo",
+         "Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+-        "Assets/ArtApproved20261022/Gepard/GepardTurretRig.txo",
+         "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+-        "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.txo",
+         "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+-        "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.txo",
+         "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+-        "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.txo",
+         "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+-        "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.txo",
+         "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.xob",
+-        "Assets/ArtApproved20261022/Mobility/MobilityRig.txo",
+         "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+         "Prefabs/ArtApproved20261022/Camo/GEP_35_GunLeft.et",
+         "Prefabs/ArtApproved20261022/Camo/GEP_35_GunRight.et",
+@@ -105,11 +97,11 @@
+   "smokeRebuilt": false,
+   "reusedTrioInputs": {
+     "gepard": {
+-      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\CORE08-TRIO-REUSE-INPUT.json",
++      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\CORE08-TRIO-REUSE-INPUT.json",
+       "sha256": "b41c60699860f98477e26c5d5f325932b1911a1ca1944306076e1c8de4994d83"
+     },
+     "wcsSmoke": {
+-      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\SMOKE09-TRIO-REUSE-INPUT.json",
++      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\SMOKE09-TRIO-REUSE-INPUT.json",
+       "sha256": "694ca8ad56489e912364c68df2aab634f7874e6c1c3d7d66613e4c346ee53dfa"
+     }
+   },

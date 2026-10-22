@@ -1,0 +1,17 @@
+{
+  "status": "PASS_TWO_EXACT_SUBSTITUTIONS_ONLY",
+  "sceneSingleWorldContractPathSubstitution": true,
+  "launcherSinglePlannerRootSubstitution": true,
+  "otherStaleV1FixedScenePaths": 0,
+  "originalV2SealAndAllFilesVerified": true,
+  "installedTwelveFilesExact": true,
+  "allOriginalProofPinsVerified": true,
+  "newLauncherSealSHA256": "935f9f68f608e5b4c58bf80a1796616e5cd120a6ee3d70fda00e09f55db2a89c",
+  "files": {
+    "Launch-Gepard-Private-Demo10.ps1": "8717feeafe6c4e9882a2d81ad118c5c25eb8d7527edf1d8c09c737618fcca19f",
+    "PackageOnlyScene10.ps1": "31250fb830846bdf7fd844d3305e8d2cbe8ad8025f451af649e60197b6b3cfec",
+    "README.md": "0c37cc233358029309bd4b67be2d693284bf9de3c3c7ac915332b5baca23ec08"
+  },
+  "nativeStarted": false,
+  "DWritten": false
+}

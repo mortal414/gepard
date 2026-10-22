@@ -1,0 +1,29 @@
+{
+  "status": "WRAPPER_ONLY_EXACT_TWO_ALIAS_REPAIR_NATIVE_NOT_STARTED",
+  "originalWrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\tools\\Scene.ps1",
+  "originalWrapperSHA256": "b0f2a0fdcf97096aa0c455f997c8dad9bca80bfaf6f05169be2436860c28873f",
+  "newWrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\Scene.ps1",
+  "newWrapperSHA256": "25c32604f91767389c73e7ce1afdbe9d2bf04840cc152f1b0fef60a1b0dc7cf5",
+  "changedLines": 2,
+  "inverseExact": true,
+  "allowedAliases": {
+    "demo10-camo": "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+    "demo10-charcoal": "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et"
+  },
+  "oldAliasesRejected": true,
+  "nativeSourcesAndCompileUnchanged": true,
+  "priorFailure": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\recordings\\camo\\continuous\\native-wrapper.stderr.log",
+  "priorRunDirectoryAbsent": true,
+  "commands": {
+    "camo": {
+      "command": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\command.json",
+      "output": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\continuous",
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02"
+    },
+    "charcoal": {
+      "command": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\command.json",
+      "output": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\continuous",
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02"
+    }
+  }
+}

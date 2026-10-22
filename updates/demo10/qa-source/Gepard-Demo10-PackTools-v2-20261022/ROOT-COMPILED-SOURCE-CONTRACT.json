@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "status": "ROOT_FINAL_SOURCE_READY_FOR_PRIVATE_PACK",
+  "sourceAddonRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single",
+  "dependencyAddonRoots": [
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies"
+  ],
+  "coreAddonRoot": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+  "runRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b",
+  "outputRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b",
+  "allowGeneratedResourceDatabaseOnly": true,
+  "actualCompileReceipt": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ACTUAL-COMPILE-ADMISSION.json",
+  "actualCompileReceiptSHA256": "42a4e046347a6667a4b9686213e14beba8eca5853cc93d3a024b1e62ecca07f8",
+  "rootReview": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ROOT-10-ADMISSION.json",
+  "rootReviewSHA256": "f6efc02413929be5b97d06e78e52bb66cbcf3cd80d69c08dfe98eefdf8fcfdd5",
+  "supportingSourceClosures": [
+    {
+      "role": "gepard",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-gepard.json",
+      "manifestSHA256": "73ee39ecea90fc19c6420d1d7b2eca255705bd263dab681af90a2f633861feb2"
+    },
+    {
+      "role": "wcsSmoke",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-wcsSmoke.json",
+      "manifestSHA256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8"
+    }
+  ],
+  "dependencyClosures": [
+    {
+      "role": "SpaceCore_5E389BB9F58B79A6",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-SpaceCore_5E389BB9F58B79A6.json",
+      "manifestSHA256": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8"
+    },
+    {
+      "role": "WCS_Armaments_629B2BA37EFFD577",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-WCS_Armaments_629B2BA37EFFD577.json",
+      "manifestSHA256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69"
+    }
+  ],
+  "projects": [
+    {
+      "role": "integration",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+      "sourceManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-integration.json",
+      "sourceManifestSHA256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+      "outputName": "integration",
+      "requiredPackageResources": [
+        "Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+        "Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+        "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+        "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+        "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+        "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+        "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.xob",
+        "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+        "Prefabs/ArtApproved20261022/Camo/GEP_35_GunLeft.et",
+        "Prefabs/ArtApproved20261022/Camo/GEP_35_GunRight.et",
+        "Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+        "Prefabs/ArtApproved20261022/Camo/GEP_VehicleTurret.et",
+        "Prefabs/ArtApproved20261022/Camo/GepardCoverLeft668.et",
+        "Prefabs/ArtApproved20261022/Camo/GepardCoverRight668.et",
+        "Prefabs/ArtApproved20261022/Camo/GepardRightRearShieldCover671.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunLeft.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunRight.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GEP_VehicleTurret.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GepardCoverLeft668.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GepardCoverRight668.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GepardRightRearShieldCover671.et",
+        "Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et",
+        "Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et",
+        "Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et"
+      ]
+    },
+    {
+      "role": "provingGround",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+      "sourceManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-provingGround.json",
+      "sourceManifestSHA256": "87eae93b58a53e7ea976a8e0b7ee9e1df3ef12afab14af17fec9545cdcde2d0e",
+      "outputName": "provingGround",
+      "requiredPackageResources": [
+        "Worlds/GPG_Arland.ent",
+        "Worlds/GPG_Arland_default.layer",
+        "scripts/Game/GPG_Director.c",
+        "scripts/Game/GPG_Layout.c",
+        "scripts/Game/GPG_Resources.c",
+        "scripts/Game/GPG_Actions.c",
+        "Prefabs/GPG_StationBoard.et"
+      ]
+    }
+  ],
+  "coreRebuilt": false,
+  "smokeRebuilt": false,
+  "reusedTrioInputs": {
+    "gepard": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\CORE08-TRIO-REUSE-INPUT.json",
+      "sha256": "b41c60699860f98477e26c5d5f325932b1911a1ca1944306076e1c8de4994d83"
+    },
+    "wcsSmoke": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\SMOKE09-TRIO-REUSE-INPUT.json",
+      "sha256": "694ca8ad56489e912364c68df2aab634f7874e6c1c3d7d66613e4c346ee53dfa"
+    }
+  },
+  "protectedDependenciesBundled": false,
+  "wholeAudioOrArtAcceptance": false
+}

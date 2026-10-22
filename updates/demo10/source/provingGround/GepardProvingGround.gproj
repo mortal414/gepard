@@ -1,0 +1,10 @@
+GameProject {
+ ID "GepardProvingGroundPrivate"
+ GUID "A76A420022000001"
+ TITLE "Private Gepard Proving Ground"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" "7E0150C026101500" "5E51C5D8F04FDB80" }
+ Configurations {
+  GameProjectConfig PC {}
+  GameProjectConfig HEADLESS : PC {}
+ }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "VERSIONED_TXO_REQUIREMENT_AND_FRESH_PATH_SUCCESSOR_FROZEN",
+  "files": [
+    {
+      "source": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\pack_tools09.mjs",
+      "sourceSHA256": "c3819ca025fcac230209dc29393e381d590ca6e3b29b38ad64ae75b5dab7010b",
+      "target": "pack_tools10.mjs",
+      "targetSHA256": "6380c4d9ec076a713e117431ae6c28e6da955cafa70afe07aef5715b670e74f4"
+    },
+    {
+      "source": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\make_plan09.mjs",
+      "sourceSHA256": "9d7a15f742e4032048aac7f7aed5623d2d60e4a924132489276a768cfe276712",
+      "target": "make_plan10.mjs",
+      "targetSHA256": "f47dcac2c739140dfcb6c99c0e26f506ea4c2f375bd673ef34bdb189c8159da9"
+    },
+    {
+      "source": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\SerialValidatePack09.ps1",
+      "sourceSHA256": "f1e3c33de55ffc36f72078d0098b5e30172e2ed57305ed9fad63149187daacc8",
+      "target": "SerialValidatePack10.ps1",
+      "targetSHA256": "ae7c6fb82ee8267288da50f77417ae6036ed4fc394f1dc10f5ee2aefbd4aa4e8"
+    },
+    {
+      "source": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\package_launch.mjs",
+      "sourceSHA256": "812f14377bf988b79032ee24d1717f1b39998e74459cf4a1505a3e4208c2f9f6",
+      "target": "package_launch.mjs",
+      "targetSHA256": "3f9cf16d8e5b8bfa8086b352c940940007bff2de2692005e22abeb93881ecd4a"
+    },
+    {
+      "source": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\PackageOnlyScene09.ps1",
+      "sourceSHA256": "0d83e7023c3acddabed63bbe7345e25ed4bf9fd6dc36714313b5242df3c33518",
+      "target": "PackageOnlyScene10.ps1",
+      "targetSHA256": "ddd6ce64136b1021c76a65f0d9a51ad7794f21c61085ba470767454d5d318185"
+    },
+    {
+      "source": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\Launch-Gepard-Private-Demo09.ps1",
+      "sourceSHA256": "9969ed9b9d79ae30238c245c39790a76ffb697af45e00a4af4b130374bb84898",
+      "target": "Launch-Gepard-Private-Demo10.ps1",
+      "targetSHA256": "7f2fdd1742ba60e828d2e391ac74e9913da7bdaf354b0839ff0d9b4bd14e9778"
+    }
+  ],
+  "originalInputPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\pack_tools09.mjs": "c3819ca025fcac230209dc29393e381d590ca6e3b29b38ad64ae75b5dab7010b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\make_plan09.mjs": "9d7a15f742e4032048aac7f7aed5623d2d60e4a924132489276a768cfe276712",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\SerialValidatePack09.ps1": "f1e3c33de55ffc36f72078d0098b5e30172e2ed57305ed9fad63149187daacc8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\NativeTailClassifier09.ps1": "31d9dc7335e31a60eb3e810a12cb65456c872dff9f1f4f2f1cbffbfd18ef3483",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\NATIVE-TAIL-BASELINE.json": "42ad582e96087f6b0deaab817286adc0dfa78f26fe1a766fa00176b853affaa7",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\package_launch.mjs": "812f14377bf988b79032ee24d1717f1b39998e74459cf4a1505a3e4208c2f9f6",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\PackageOnlyScene09.ps1": "0d83e7023c3acddabed63bbe7345e25ed4bf9fd6dc36714313b5242df3c33518",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\Launch-Gepard-Private-Demo09.ps1": "9969ed9b9d79ae30238c245c39790a76ffb697af45e00a4af4b130374bb84898",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\PLAN.json": "9b29b92c5c7cc4a23b5e29f025a9fb9901ca0691c493243d67947499f55ac126",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\DEMO10-INITIAL-SOURCE.json": "ae56a3ea38d117af19a9aaf3e7470aabe3b977cc055afdeb29e733f0bc9d04ba"
+  },
+  "DWritten": false,
+  "nativeStarted": false,
+  "packageExecuted": false
+}

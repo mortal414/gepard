@@ -1,0 +1,20 @@
+--- D:\ArmaProjects\Gepard-Consolidated-20261022\native-smoke-current-v11-stage-v3\current\qaSmoke\scripts\Game\GEP215CurrentV11QA\GEP215_CurrentV11Probe.c
++++ scripts\Game\GEP215CurrentV11QA\GEP215_CurrentV11Probe.c
+@@ -10,7 +10,7 @@
+ class GEP215_CurrentV11Probe : GenericEntity
+ {
+  [Attribute("1")] int ExpectedShots;
+- [Attribute("{7E0150C026103002}Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et", UIWidgets.ResourceNamePicker, "Exact original test vehicle", "et")] ResourceName VehiclePrefab;
++ [Attribute("{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et", UIWidgets.ResourceNamePicker, "Exact original test vehicle", "et")] ResourceName VehiclePrefab;
+  [Attribute("0")] float FixtureYaw;
+  [Attribute("0")] bool CaptureEnabled;
+  bool CaptureUnavailable;bool CaptureViewReady;bool CaptureSetupLogged;
+@@ -130,7 +130,7 @@
+   if(!Hull || Hull.IsDeleted() || !Hull.GetPrefabData() || !Manager)return false;
+   ResourceName actual=Hull.GetPrefabData().GetPrefabName();
+   bool resourceMatches=actual==VehiclePrefab;
+-  bool approvedVariant=VehiclePrefab=="{7E0150C026103002}Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et" || VehiclePrefab=="{7E0150C026103004}Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et";
++  bool approvedVariant=VehiclePrefab=="{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et" || VehiclePrefab=="{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et";
+   PrintFormat("GEP215_CURRENT_RESOURCE phase=%1 requested=%2 actual=%3 matches=%4 approvedVariant=%5 hull=%6 turret=%7 authoredHullYaw=%8",phase,VehiclePrefab,actual,resourceMatches,approvedVariant,CurrentV11EntityId(Hull),CurrentV11EntityId(ProbeTurret),FixtureYaw);
+   PrintFormat("GEP215_CURRENT_POSE phase=%1 hullOrigin=%2 hullNativeAngles=%3 turretOrigin=%4 turretNativeAngles=%5",phase,Hull.GetOrigin(),Hull.GetAngles(),ProbeTurret.GetOrigin(),ProbeTurret.GetAngles());
+   m_aCurrentV11BankKeys.Clear();

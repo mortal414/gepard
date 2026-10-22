@@ -1,0 +1,8 @@
+// Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
+GenericEntity : "{37A08EB9B18F18A9}Prefabs/Variants/Charcoal018/Prefabs/Art/GepardRightRearShieldCover671.et" { components {
+MeshObject "{AA74CE07C0024A28}" { Object "{C23AF0E6361BFB2C}Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob" Materials {
+MaterialAssignClass "{5738C8646338A0DC}" { SourceMaterial "GEP671_Seam" AssignedMaterial "{E23A5094DEF9C8F3}Assets/Gepard/GEP018/NeutralBaseV2/ce6c45851113.emat" }
+MaterialAssignClass "{72A534F604427642}" { SourceMaterial "GEP671_ShieldPaint" AssignedMaterial "{6746127489ECF902}Assets/Gepard/GEP018/NeutralBaseV2/dbd23d9d19d8.emat" }
+}
+ }
+} }

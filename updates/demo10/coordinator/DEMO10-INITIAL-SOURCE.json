@@ -1,0 +1,77 @@
+{
+  "status": "DRAFT_SOURCE_NOT_NATIVE_ADMITTED",
+  "worktree": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022",
+  "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10",
+  "qualifiedCoreFiles": 1152,
+  "coreFilesExact": true,
+  "smokeSourceExact": true,
+  "commonAndSmokeCodeChanged": false,
+  "integrationCandidateOrigin": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\spacecore-dependency-candidate-02\\MANIFEST.json",
+  "originSHA256": "827f79eca9a41012ada6f0f64cf03103ed80d7d0baf85c7d2fe786aca6f50ad0",
+  "wrappers": [
+    {
+      "skin": "Camo",
+      "resource": "{A76A420022100002}Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et",
+      "parent": "{7E0150C026103002}Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et",
+      "originalAudioOnlySHA256": "fadcf4cc7f2bf29ab14be5192ccf5c029ed73e776eaf44f181a02193358ffb8e",
+      "approvedArt": "PENDING_FROZEN_HANDOFF_AND_NATIVE_BUILD"
+    },
+    {
+      "skin": "Charcoal",
+      "resource": "{A76A420022100004}Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et",
+      "parent": "{7E0150C026103004}Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et",
+      "originalAudioOnlySHA256": "5bebfc2b75eccc7cac4dd0ef6ce40afe959f1ad3b050a580c4c101a4d7db202b",
+      "approvedArt": "PENDING_FROZEN_HANDOFF_AND_NATIVE_BUILD"
+    }
+  ],
+  "dependencies": [
+    {
+      "folder": "SpaceCore_5E389BB9F58B79A6",
+      "files": {
+        "addon.gproj": "2db2e318e6f45bede0d1173d77af03314f888aedfb31bc767d569ccfb6e70a34",
+        "data.pak": "0e783e0179a90d2764361c1833824b64b0d0270a09716599ff593a318f0f14cd",
+        "resourceDatabase.rdb": "f8e7de8778bec66ba13e1ebe7f1ddb29667cc9738e0ccf3f977180ff7e05d449"
+      },
+      "mode": "Unmodified complete separately loaded dependency trio, not copied inside owned addon payload"
+    },
+    {
+      "folder": "WCS_Armaments_629B2BA37EFFD577",
+      "files": {
+        "addon.gproj": "e6ffcf559a2e7898848349c090300ea8eca8cb2e13ecef456a108bcc82efc8b1",
+        "data.pak": "e18ab4bb3f390dd6116d8c7e686fe21349c6c993a77b7ea6361d4027d7683788",
+        "resourceDatabase.rdb": "92f6c40aeebab4c2148173ff61d4312340111a2e7b675b9e4bbced2814ed2154"
+      },
+      "mode": "Unmodified complete separately loaded dependency trio, not copied inside owned addon payload"
+    }
+  ],
+  "worldBindings": "PENDING_FINAL_ART_SNAPSHOT_AND_REGISTRY_HASH_REFRESH",
+  "approvedArtScope": [
+    "V15R1",
+    "V17",
+    "V18R1"
+  ],
+  "excludedArt": [
+    "V16",
+    "V19 or other active unreviewed proposals"
+  ],
+  "requiredNext": [
+    "Frozen art handoff and whitelist merge preserving functional parents",
+    "Native model rebuild and material/collision/LOD/clearance evidence",
+    "Final world NEW/route bindings and exact source manifests",
+    "Compile/pack/ordinary package-only native checks"
+  ],
+  "demo09Protected": {
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\DEMO09-MANIFEST.json": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd": "44ef2e80b836be44ad1e027426957f33031fe0c27a516fc9ec2e1988e2155c52",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\PLAYTEST-NEW-FEATURES.md": "562b0db93ec95cd8d76d234e50b5bf6047cef16f93a850be8993ca688a2fc962",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\addon.gproj": "ac6136b5ef4e4153ec38a078c9bc6a8e5e34b609c99fa526931c1f411599ba34",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\data.pak": "516e16efdea95990fd95cddd31392ff9744e8805fdce50683a89acfe285a2cc3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\resourceDatabase.rdb": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+  }
+}

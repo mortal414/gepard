@@ -1,0 +1,32 @@
+{
+  "visualAcceptance": "NEEDS_USER_TEST",
+  "sourcePackStrictNativeVerdict": "FAIL",
+  "humanMovement": "NOT_TESTED",
+  "game": true,
+  "functionalStartupObserved": true,
+  "nativeAbsent": true,
+  "worldStartup": {
+    "boards": 24,
+    "finiteInitial": true,
+    "bindings": true,
+    "loggedOrigins": "authored Ground descriptors, XZ checked; actualY/reach/shared queue NOT_TESTED",
+    "pass": true,
+    "objects": 34
+  },
+  "twoRangeSurveys": true,
+  "published": false,
+  "privateQA": false,
+  "humanHUD": "NOT_TESTED",
+  "humanFiring": "NOT_TESTED",
+  "exitCode": 0,
+  "sourcePackRawErrorCount": 108,
+  "leaseReleased": true,
+  "fourComparisonBays": true,
+  "strictNativeVerdict": "FAIL",
+  "actualLayoutHashes": true,
+  "probeSeconds": 75,
+  "ordinaryReady": true,
+  "rawErrorCount": 59,
+  "sourcePackOperationalVerdict": "PASS",
+  "status": "PACKAGE_ONLY_ORDINARY_STARTUP_PROOF_FAIL"
+}

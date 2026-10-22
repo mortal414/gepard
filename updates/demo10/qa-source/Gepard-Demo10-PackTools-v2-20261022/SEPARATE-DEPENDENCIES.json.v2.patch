@@ -1,0 +1,18 @@
+--- C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-20261022\SEPARATE-DEPENDENCIES.json
++++ C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-v2-20261022\SEPARATE-DEPENDENCIES.json
+@@ -12,13 +12,13 @@
+     {
+       "role": "SpaceCore_5E389BB9F58B79A6",
+       "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+-      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Dependency-SpaceCore_5E389BB9F58B79A6.json",
++      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\Dependency-SpaceCore_5E389BB9F58B79A6.json",
+       "manifestSHA256": "af822707ba1cae416f029616b058d3682ea3fcf9b77330dcbf54e5e06bc8756c"
+     },
+     {
+       "role": "WCS_Armaments_629B2BA37EFFD577",
+       "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+-      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-20261022\\Dependency-WCS_Armaments_629B2BA37EFFD577.json",
++      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\Dependency-WCS_Armaments_629B2BA37EFFD577.json",
+       "manifestSHA256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6"
+     }
+   ],

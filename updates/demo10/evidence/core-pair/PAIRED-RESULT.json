@@ -1,0 +1,893 @@
+{
+  "status": "PAIRED_NATIVE_FUNCTIONAL_PROOF_VERIFIED_ORIGINAL_STRICT_FAIL_PRESERVED",
+  "actualSourceClosures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "files": 1152,
+      "exact": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "files": 14,
+      "exact": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "files": 68,
+      "exact": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "files": 3,
+      "exact": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "files": 3,
+      "exact": true
+    },
+    {
+      "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single\\qaCore",
+      "files": 12,
+      "exact": true
+    }
+  ],
+  "sourceSealChanges": [],
+  "runs": {
+    "camo": {
+      "strictStatus": "FAIL",
+      "rawNativeBehaviorStatus": "PASS",
+      "subjectPrefabObserved": "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+      "subjectConsoleEvidence": [
+        {
+          "line": 280,
+          "raw": "13:19:19.369   SCRIPT       : GEP_DAMAGE683_SUBJECT|740f191a-6fe5-4389-add7-6a644e1a3efe|46a12d9329d02822dafc56d231f0818e661d0fdbfab32c6169c37f09c83c9758|{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et|<600,39.7,2600>"
+        }
+      ],
+      "pid": 11868,
+      "leaseId": "f65b4e04-ff98-4422-91a7-307aebed714a",
+      "createdUtc": "2026-10-22T18:19:12.0505970Z",
+      "exit": {
+        "cancelRequested": false,
+        "verifiedExited": true,
+        "closeMethod": "owned-normal-window-close",
+        "utc": "2026-10-22T18:19:47.9898389Z",
+        "exitCode": 0,
+        "leaseReleased": true,
+        "nativeTerminalSeen": true
+      },
+      "loadedAddons": [
+        "5614BBCCBB55ED1C",
+        "58D0FB3206B6F859",
+        "D561AD08932E7B40",
+        "629B2BA37EFFD577",
+        "7E0150C026101500",
+        "5E389BB9F58B79A6",
+        "5E51C5D8F04FDB80",
+        "A9F84D1626102251"
+      ],
+      "measurements": {
+        "rightTraverseDegreesQA": 102.80265045,
+        "leftTraverseDegreesQA": 48.31261825,
+        "upElevationDegreesQA": 9.96216487,
+        "downElevationDegreesQA": -7.71097278,
+        "leftRoundsUsedQA": 4,
+        "rightRoundsUsedQA": 4,
+        "reentryLeftRoundsUsedQA": 11,
+        "reentryRightRoundsUsedQA": 11,
+        "publicReentryCompletedQA": true,
+        "elapsedGameSeconds": 30.56690406
+      },
+      "nativeErrors": [
+        {
+          "line": 63,
+          "raw": "13:19:12.523   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\""
+        },
+        {
+          "line": 65,
+          "raw": "13:19:12.524   RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\""
+        },
+        {
+          "line": 133,
+          "raw": "13:19:13.410   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 189,
+          "raw": "13:19:15.443             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+        },
+        {
+          "line": 200,
+          "raw": "13:19:15.540               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+        },
+        {
+          "line": 201,
+          "raw": "13:19:15.540               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+        },
+        {
+          "line": 202,
+          "raw": "13:19:15.540               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+        },
+        {
+          "line": 203,
+          "raw": "13:19:15.540               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+        },
+        {
+          "line": 212,
+          "raw": "13:19:15.544             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+        },
+        {
+          "line": 213,
+          "raw": "13:19:15.544             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+        },
+        {
+          "line": 357,
+          "raw": "13:19:47.591 RESOURCES (E): ==== Resource leaks ===="
+        },
+        {
+          "line": 358,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+        },
+        {
+          "line": 359,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+        },
+        {
+          "line": 360,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+        },
+        {
+          "line": 361,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+        },
+        {
+          "line": 362,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+        },
+        {
+          "line": 363,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+        },
+        {
+          "line": 364,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+        },
+        {
+          "line": 365,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+        },
+        {
+          "line": 366,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+        },
+        {
+          "line": 367,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+        },
+        {
+          "line": 368,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+        },
+        {
+          "line": 369,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+        },
+        {
+          "line": 370,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+        },
+        {
+          "line": 371,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+        },
+        {
+          "line": 372,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+        },
+        {
+          "line": 373,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+        },
+        {
+          "line": 374,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+        },
+        {
+          "line": 375,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+        },
+        {
+          "line": 376,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+        },
+        {
+          "line": 377,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+        },
+        {
+          "line": 378,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+        },
+        {
+          "line": 379,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+        },
+        {
+          "line": 380,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+        },
+        {
+          "line": 381,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+        },
+        {
+          "line": 382,
+          "raw": "13:19:47.591 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+        },
+        {
+          "line": 383,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+        },
+        {
+          "line": 384,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+        },
+        {
+          "line": 385,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+        },
+        {
+          "line": 386,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+        },
+        {
+          "line": 387,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+        },
+        {
+          "line": 388,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+        },
+        {
+          "line": 389,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+        },
+        {
+          "line": 390,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+        },
+        {
+          "line": 391,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+        },
+        {
+          "line": 392,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+        },
+        {
+          "line": 393,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+        },
+        {
+          "line": 394,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+        },
+        {
+          "line": 395,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+        },
+        {
+          "line": 396,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+        },
+        {
+          "line": 397,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+        },
+        {
+          "line": 398,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+        },
+        {
+          "line": 399,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+        },
+        {
+          "line": 400,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+        },
+        {
+          "line": 401,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+        },
+        {
+          "line": 402,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+        },
+        {
+          "line": 403,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+        },
+        {
+          "line": 404,
+          "raw": "13:19:47.593 RESOURCES (E): UI/Imagesets/default.edds   1"
+        },
+        {
+          "line": 405,
+          "raw": "13:19:47.593 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+        }
+      ],
+      "captures": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\CoreQA-burst-012.bmp",
+          "sha256": "a893a58293c6d29916d92bfeb41cffebef4814ddc926dce355bf4d37a9a7ef5b",
+          "bytes": 2764854,
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\CoreQA-burst-032.bmp",
+          "sha256": "e4a6d01ae842b3f71f73f910059b2d9b5341bd32f4b0af0fc534b60525a28934",
+          "bytes": 2764854,
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\DamageHarness-after.bmp",
+          "sha256": "5691f90674e233cd0a2b35e0b8b4e9fc0fcbcc1ea9fd11e7e4f6c37fda44650f",
+          "bytes": 2764854,
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\DamageHarness-before.bmp",
+          "sha256": "e304d415087ddbb97cd2e6e8ad19e5db93cf8da817748b28f3900fc6aaee1de0",
+          "bytes": 2764854,
+          "dimensions": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "actualNativeObservations": [
+        {
+          "line": 302,
+          "raw": "13:19:34.391   SCRIPT       : QA_INPUT_READY controlled=1 camera=1 ads=1 turretContext=1"
+        },
+        {
+          "line": 305,
+          "raw": "13:19:36.392   SCRIPT       : QA_POSTHIT_RIGHT degrees=102.803 nativeAction=TurretAimRight physicalInput=0"
+        },
+        {
+          "line": 308,
+          "raw": "13:19:38.424   SCRIPT       : QA_POSTHIT_LEFT degrees=48.3126 nativeAction=TurretAimRight physicalInput=0"
+        },
+        {
+          "line": 311,
+          "raw": "13:19:39.126   SCRIPT       : GEP_CORE_ELEVATION case=v11-healthy nonce=46a12d9329d02822dafc56d231f0818e661d0fdbfab32c6169c37f09c83c9758 phase=up degrees=9.96216 physical=0"
+        },
+        {
+          "line": 314,
+          "raw": "13:19:39.858   SCRIPT       : GEP_CORE_ELEVATION case=v11-healthy nonce=46a12d9329d02822dafc56d231f0818e661d0fdbfab32c6169c37f09c83c9758 phase=down degrees=-7.71097 physical=0"
+        },
+        {
+          "line": 327,
+          "raw": "13:19:40.493   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=46a12d9329d02822dafc56d231f0818e661d0fdbfab32c6169c37f09c83c9758 phase=first_burst_complete x=<0.823931,0,-0.56669> y=<-0.00763783,0.999909,-0.0111049> z=<0.566638,0.013478,0.823856> pos=<600.796,42.74,2600.55> yawHull=34.5197 elevationHull=0.772255"
+        },
+        {
+          "line": 328,
+          "raw": "13:19:40.493   SCRIPT       : QA_POSTHIT_FIRE leftUsed=4 rightUsed=4 physicalInput=0"
+        },
+        {
+          "line": 331,
+          "raw": "13:19:42.591   SCRIPT       : QA_REENTRY_ADMISSION ownerMatches=1 slotMatches=1 door=0 doorUser=NULL doorAccess=1 gettingIn=0 gettingOut=0 switching=0"
+        },
+        {
+          "line": 332,
+          "raw": "13:19:42.591   SCRIPT       : QA_REENTRY_GEOMETRY actor=<601.134,41.275,2598.69> seatOwner=Turret<0x000002C0FC334128> @\"ENTITY:4611686018427387936\" ('Turret','Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob') at <600.000000 41.299999 2600.149902> @\"{66A1C21DD2B5C275}Prefabs/ArtApproved20261022/Camo/GEP_VehicleTurret.et\" actionOwner=Turret<0x000002C0FC334128> @\"ENTITY:4611686018427387936\" ('Turret','Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob') at <600.000000 41.299999 2600.149902> @\"{66A1C21DD2B5C275}Prefabs/ArtApproved20261022/Camo/GEP_VehicleTurret.et\" main=Vehicle<0x000002C0913D2BC8> @\"ENTITY:4611686018427387915\" ('Vehicle','Assets/ArtApproved20261022/Mobility/MobilityRig.xob') at <600.000000 39.700001 2600.000000> @\"{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et\" localPosition=<1.1344,-0.0250397,-1.45532>"
+        },
+        {
+          "line": 335,
+          "raw": "13:19:45.391   SCRIPT       : QA_REENTRY_INPUT ads=1 context=1 occupied=1"
+        },
+        {
+          "line": 340,
+          "raw": "13:19:46.891   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=46a12d9329d02822dafc56d231f0818e661d0fdbfab32c6169c37f09c83c9758 phase=reentry_burst_complete x=<0.824073,0,-0.566484> y=<-0.00789376,0.999903,-0.0114832> z=<0.566429,0.0139347,0.823993> pos=<600.796,42.74,2600.55> yawHull=34.5054 elevationHull=0.798423"
+        },
+        {
+          "line": 341,
+          "raw": "13:19:46.891   SCRIPT       : QA_REENTRY_FIRE leftUsed=11 rightUsed=11 physicalInput=0"
+        }
+      ],
+      "inheritedPlaceholdersPreserved": {
+        "art.new-bound": {
+          "status": "NOT_TESTED",
+          "reason": "NEW-CAMO and NEW-CHARCOAL remain unbound"
+        },
+        "audio.accepted": {
+          "status": "NOT_TESTED",
+          "reason": "Optional track audio excluded"
+        },
+        "smoke.accepted": {
+          "status": "NOT_TESTED",
+          "reason": "Optional smoke excluded"
+        },
+        "glyphs.reviewed": {
+          "status": "NOT_TESTED",
+          "reason": "No native glyph review performed"
+        },
+        "visual.approved": {
+          "status": "NOT_TESTED",
+          "reason": "No screenshot/pixel or human station/art/HUD judgment performed"
+        }
+      }
+    },
+    "charcoal": {
+      "strictStatus": "FAIL",
+      "rawNativeBehaviorStatus": "PASS",
+      "subjectPrefabObserved": "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et",
+      "subjectConsoleEvidence": [
+        {
+          "line": 280,
+          "raw": "13:21:00.442   SCRIPT       : GEP_DAMAGE683_SUBJECT|fc413c1f-01cc-4a82-a39d-4caf33e608e7|2c2b56f46c4001ec2a062e35073fcdd83504227ca92add790141677b9ea0685a|{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et|<600,39.7,2600>"
+        }
+      ],
+      "pid": 18092,
+      "leaseId": "117de400-96c5-4ee2-b2b7-41867e885a3a",
+      "createdUtc": "2026-10-22T18:20:53.0653490Z",
+      "exit": {
+        "verifiedExited": true,
+        "utc": "2026-10-22T18:21:29.2771398Z",
+        "closeMethod": "owned-normal-window-close",
+        "exitCode": 0,
+        "nativeTerminalSeen": true,
+        "cancelRequested": false,
+        "leaseReleased": true
+      },
+      "loadedAddons": [
+        "5614BBCCBB55ED1C",
+        "58D0FB3206B6F859",
+        "D561AD08932E7B40",
+        "629B2BA37EFFD577",
+        "7E0150C026101500",
+        "5E389BB9F58B79A6",
+        "5E51C5D8F04FDB80",
+        "A9F84D1626102251"
+      ],
+      "measurements": {
+        "rightTraverseDegreesQA": 105.47621917,
+        "leftTraverseDegreesQA": 48.38849639,
+        "upElevationDegreesQA": 10.60673618,
+        "downElevationDegreesQA": -7.1348958,
+        "leftRoundsUsedQA": 4,
+        "rightRoundsUsedQA": 4,
+        "reentryLeftRoundsUsedQA": 11,
+        "reentryRightRoundsUsedQA": 11,
+        "publicReentryCompletedQA": true,
+        "elapsedGameSeconds": 30.5901165
+      },
+      "nativeErrors": [
+        {
+          "line": 63,
+          "raw": "13:20:53.534   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\""
+        },
+        {
+          "line": 65,
+          "raw": "13:20:53.534   RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\""
+        },
+        {
+          "line": 133,
+          "raw": "13:20:54.419   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 189,
+          "raw": "13:20:56.455             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+        },
+        {
+          "line": 200,
+          "raw": "13:20:56.548               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+        },
+        {
+          "line": 201,
+          "raw": "13:20:56.548               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+        },
+        {
+          "line": 202,
+          "raw": "13:20:56.548               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+        },
+        {
+          "line": 203,
+          "raw": "13:20:56.548               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+        },
+        {
+          "line": 212,
+          "raw": "13:20:56.553             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+        },
+        {
+          "line": 213,
+          "raw": "13:20:56.553             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+        },
+        {
+          "line": 357,
+          "raw": "13:21:28.728 RESOURCES (E): ==== Resource leaks ===="
+        },
+        {
+          "line": 358,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+        },
+        {
+          "line": 359,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+        },
+        {
+          "line": 360,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+        },
+        {
+          "line": 361,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+        },
+        {
+          "line": 362,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+        },
+        {
+          "line": 363,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+        },
+        {
+          "line": 364,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+        },
+        {
+          "line": 365,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+        },
+        {
+          "line": 366,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+        },
+        {
+          "line": 367,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+        },
+        {
+          "line": 368,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+        },
+        {
+          "line": 369,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+        },
+        {
+          "line": 370,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+        },
+        {
+          "line": 371,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+        },
+        {
+          "line": 372,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+        },
+        {
+          "line": 373,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+        },
+        {
+          "line": 374,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+        },
+        {
+          "line": 375,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+        },
+        {
+          "line": 376,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+        },
+        {
+          "line": 377,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+        },
+        {
+          "line": 378,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+        },
+        {
+          "line": 379,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+        },
+        {
+          "line": 380,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+        },
+        {
+          "line": 381,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+        },
+        {
+          "line": 382,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+        },
+        {
+          "line": 383,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+        },
+        {
+          "line": 384,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+        },
+        {
+          "line": 385,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+        },
+        {
+          "line": 386,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+        },
+        {
+          "line": 387,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+        },
+        {
+          "line": 388,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+        },
+        {
+          "line": 389,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+        },
+        {
+          "line": 390,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+        },
+        {
+          "line": 391,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+        },
+        {
+          "line": 392,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+        },
+        {
+          "line": 393,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+        },
+        {
+          "line": 394,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+        },
+        {
+          "line": 395,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+        },
+        {
+          "line": 396,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+        },
+        {
+          "line": 397,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+        },
+        {
+          "line": 398,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+        },
+        {
+          "line": 399,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+        },
+        {
+          "line": 400,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+        },
+        {
+          "line": 401,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+        },
+        {
+          "line": 402,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+        },
+        {
+          "line": 403,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+        },
+        {
+          "line": 404,
+          "raw": "13:21:28.728 RESOURCES (E): UI/Imagesets/default.edds   1"
+        },
+        {
+          "line": 405,
+          "raw": "13:21:28.728 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+        }
+      ],
+      "captures": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\CoreQA-burst-012.bmp",
+          "sha256": "c02a39d8aa40e26e72885c34f77e0066c92450d445930fa382f3719095806b48",
+          "bytes": 2764854,
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\CoreQA-burst-032.bmp",
+          "sha256": "3dff47684ae1530f2d8248de05e6f733d7ad87ef0fffbef1e53dbe4b01bd4400",
+          "bytes": 2764854,
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\DamageHarness-after.bmp",
+          "sha256": "d1f43a2155294cb8cf03d75fa858d045dfe6d90e603520bc7216baccf4a3936b",
+          "bytes": 2764854,
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\DamageHarness-before.bmp",
+          "sha256": "fb2765b4b3722293bf26f0886e258cb7f50a45b207e4239f2959e86f63e58948",
+          "bytes": 2764854,
+          "dimensions": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "actualNativeObservations": [
+        {
+          "line": 302,
+          "raw": "13:21:15.467   SCRIPT       : QA_INPUT_READY controlled=1 camera=1 ads=1 turretContext=1"
+        },
+        {
+          "line": 305,
+          "raw": "13:21:17.499   SCRIPT       : QA_POSTHIT_RIGHT degrees=105.476 nativeAction=TurretAimRight physicalInput=0"
+        },
+        {
+          "line": 308,
+          "raw": "13:21:19.533   SCRIPT       : QA_POSTHIT_LEFT degrees=48.3885 nativeAction=TurretAimRight physicalInput=0"
+        },
+        {
+          "line": 311,
+          "raw": "13:21:20.267   SCRIPT       : GEP_CORE_ELEVATION case=v11-healthy nonce=2c2b56f46c4001ec2a062e35073fcdd83504227ca92add790141677b9ea0685a phase=up degrees=10.6067 physical=0"
+        },
+        {
+          "line": 314,
+          "raw": "13:21:20.967   SCRIPT       : GEP_CORE_ELEVATION case=v11-healthy nonce=2c2b56f46c4001ec2a062e35073fcdd83504227ca92add790141677b9ea0685a phase=down degrees=-7.1349 physical=0"
+        },
+        {
+          "line": 327,
+          "raw": "13:21:21.567   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=2c2b56f46c4001ec2a062e35073fcdd83504227ca92add790141677b9ea0685a phase=first_burst_complete x=<0.797633,0,-0.603143> y=<-0.0213342,0.999374,-0.0282137> z=<0.602765,0.0353718,0.797134> pos=<600.813,42.74,2600.51> yawHull=37.0953 elevationHull=2.02708"
+        },
+        {
+          "line": 328,
+          "raw": "13:21:21.567   SCRIPT       : QA_POSTHIT_FIRE leftUsed=4 rightUsed=4 physicalInput=0"
+        },
+        {
+          "line": 331,
+          "raw": "13:21:23.666   SCRIPT       : QA_REENTRY_ADMISSION ownerMatches=1 slotMatches=1 door=0 doorUser=NULL doorAccess=1 gettingIn=0 gettingOut=0 switching=0"
+        },
+        {
+          "line": 332,
+          "raw": "13:21:23.666   SCRIPT       : QA_REENTRY_GEOMETRY actor=<601.07,41.2761,2598.61> seatOwner=Turret<0x0000028051074128> @\"ENTITY:4611686018427387936\" ('Turret','Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob') at <600.000000 41.299999 2600.149902> @\"{C799D9FE57618AC7}Prefabs/ArtApproved20261022/Charcoal/GEP_VehicleTurret.et\" actionOwner=Turret<0x0000028051074128> @\"ENTITY:4611686018427387936\" ('Turret','Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob') at <600.000000 41.299999 2600.149902> @\"{C799D9FE57618AC7}Prefabs/ArtApproved20261022/Charcoal/GEP_VehicleTurret.et\" main=Vehicle<0x0000028041D82BC8> @\"ENTITY:4611686018427387915\" ('Vehicle','Assets/ArtApproved20261022/Mobility/MobilityRig.xob') at <600.000000 39.700001 2600.000000> @\"{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et\" localPosition=<1.06952,-0.0238991,-1.53638>"
+        },
+        {
+          "line": 335,
+          "raw": "13:21:26.467   SCRIPT       : QA_REENTRY_INPUT ads=1 context=1 occupied=1"
+        },
+        {
+          "line": 340,
+          "raw": "13:21:27.967   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=2c2b56f46c4001ec2a062e35073fcdd83504227ca92add790141677b9ea0685a phase=reentry_burst_complete x=<0.797783,0,-0.602944> y=<-0.0216024,0.999358,-0.0285831> z=<0.602557,0.0358282,0.797271> pos=<600.813,42.74,2600.51> yawHull=37.081 elevationHull=2.05324"
+        },
+        {
+          "line": 341,
+          "raw": "13:21:27.967   SCRIPT       : QA_REENTRY_FIRE leftUsed=11 rightUsed=11 physicalInput=0"
+        }
+      ],
+      "inheritedPlaceholdersPreserved": {
+        "art.new-bound": {
+          "status": "NOT_TESTED",
+          "reason": "NEW-CAMO and NEW-CHARCOAL remain unbound"
+        },
+        "audio.accepted": {
+          "status": "NOT_TESTED",
+          "reason": "Optional track audio excluded"
+        },
+        "smoke.accepted": {
+          "status": "NOT_TESTED",
+          "reason": "Optional smoke excluded"
+        },
+        "glyphs.reviewed": {
+          "status": "NOT_TESTED",
+          "reason": "No native glyph review performed"
+        },
+        "visual.approved": {
+          "status": "NOT_TESTED",
+          "reason": "No screenshot/pixel or human station/art/HUD judgment performed"
+        }
+      }
+    }
+  },
+  "pins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\COMPILE-ADOPTION.json": "d52b190322923312eec01ed8bd6791d97a683b93db1b47a16f1e5b16109af115",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-compat-01\\RESULT.json": "5464738d08a223b25d1bacf5daffaaab42f5b474da5469756a9eed6af5eecbdb",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-compat-01\\logs\\validate\\console.log": "b9d9826b2e0ad410ed7c012874a44fb749275c115b5f1e2468e6b0a177924651",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-compat-01\\owner-private.json": "2e46282d0d03eac2ab53ca4792ec4f49b2a3138edb70136721af07a6ba5e72f9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\gepard.json": "c5c19cda4189f0f51215bb37791ed588bf977d4ca8085f12d5ebf19242005163",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\wcsSmoke.json": "c7d8d39e20a22698a49dc62f4e493129284629a8259652fd7966a157dd02fdfb",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\integration.json": "6eaf4edcd1f2e3c1541f2b3720579b990a5bb70351e24e9be4c7f9a83008b631",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\SpaceCore_5E389BB9F58B79A6.json": "af822707ba1cae416f029616b058d3682ea3fcf9b77330dcbf54e5e06bc8756c",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\WCS_Armaments_629B2BA37EFFD577.json": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\qaCore.json": "1d62a25e18c520aa0572ddfc09fbe7414eea68632fa08b988b30d65d01a9c503",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\core-native-job.json": "ecb44e4ee1fda93891791fac2ac0c9934295bc8aaf83ea1d34b92ea55bffe7aa",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adapter.py": "c1658ece6a028240770c3614e8dfadaabdfb6aea7ea54ff32b2647d58292bb61",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopt_compile.py": "56151a469aa5f4ed298e5740284a4f88818197826b1f5e18f113df01dad39c81",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\check_source.py": "2dbc563b4f4afa7e80d8f11c34259fddb060eb6b7ac56ebf7bc51ce52b67a68a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\core_evidence.py": "d09af708089588429a65c923dc315a5233a42fe27c87140c4f233c9105f0db17",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\evidence.py": "aa7d7c35f4eeeca688a49c3543a0f7837979bc1b6c164b9f67e95fe7be2c7557",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\lease_read.py": "ff9d94076e00260fdf62e0b484ddb1810edc80e862d2dffd4f869d7c7de23c80",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\prepare.py": "24407b90c73903504713e0e3169cec109ca27f7c870c0a156de6bf916ea3a262",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\damage-adapter683.ts": "3d9b2de769b0a7eded49c01d2e2c76476b4aa756a4b67cde46737f7233a795b6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\package.json": "4ae935ef906a8954168983d48aaca9acbb0d53232a095d20a32e0baf373b1dcd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\cases\\v11-fragment-survivor.json": "21a00b68add7e3dd2a06e0fa81a6e03463f5b633c64e0ebb3f34dece28b15f62",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\cases\\v11-healthy.json": "7cecd25080edde1b778edec15f014b84cac464cab8d75498b0b6d38e7b7450dd",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\cases\\v11-wheeled-course.json": "a21310a9e58ca7ed4999e1aef750a2e2d8ec8988be6f681defdbb6055cb6a6cf",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\vehicles\\v11-camo.json": "f405632f4b92436b810724385c90fe4f41e221ad63b7e568b0debf1ee6a7fc3a",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\vehicles\\v11-charcoal.json": "7230e009320b3b782f7d560a626c7f3c48c5d3a7e6a81ecc13f43926979c6faa",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\tools\\Scene.ps1": "603646e5c90fc260dbe63a705b1485c9f6fea47e9108c730ea139aa415b6dc51",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\CompileSmokeCoreCompatibility.ps1": "8435976aa5ebd406ba5ad91d3d56f86df2cf274c0164ae3d9d8a799ad8819077",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\gepard.json": "73ee39ecea90fc19c6420d1d7b2eca255705bd263dab681af90a2f633861feb2",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\integration.json": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\qaCore.json": "f62d47b95de33956b9ee3a1e4ef27e90d2b85d0641f6ca38be3f8fff952d8900",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\SpaceCore_5E389BB9F58B79A6.json": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\wcsSmoke.json": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\manifests\\WCS_Armaments_629B2BA37EFFD577.json": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\SOURCE-CLOSURES.json": "77922faacdb3244620ec632a53be7f61c354a64f66a1eb63b7f64ab33d697fb2",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\PARENT-ADOPTION-PINS.json": "77fffea1c0f79c11a065d67b41338a9fbbb591ae0f6af29e18b8e02e2fba283e",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\adopted\\postcompile\\SOURCE-CLOSURES.json": "ebe5417ab6496f7f51920d173a5261ce0cf85baa2e0a21fd1ba5f460a87d48e3",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\summary.json": "0451ee3fe4c02007bf5303bb8bb39525a71264f3f10ff2f66cbf3b94b4a0ae1c",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\result.json": "a9d5107afe9a0609b1002c544341cc67df778f74f57bdac6c7d8ab4bff4f80a7",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\adapter-result.json": "760ea8a34642b5b10d4964b218acf485b1ad9d9a47b75f51bbb555b7249e3c4d",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\DamageHarness-result683.json": "f4edb22b59b3af94ee4ada9c8080dd72c294259fad4b8e1328857d39e0d6d3ea",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\exit.json": "eb67e1c42ceab301a72401cf3af3968d14aca4cef20cca0ba8068e52c05e6bb1",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\owner.json": "b68c370c9601ee97eb15b76bbf65a6d9e9b2fb78fcc7e139ba501758a681af9b",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\owner-private.json": "5111dee7275aeae2dac2c8fc1b419f42f88b96a3e203b71aedf0c049cac37426",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\plan.json": "482415c6ab57e929866ca33e979cb341244fdace6237da7e037c4b1f51cf3d26",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-job.json": "ced384d2266c3c8ca8c6b49c141bf21e5277c42975308addf31e7ac935ad7066",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\logs\\console.log": "d376530e60cafcc0782e1d24ede51e556e8cc39e6f0e0cd8f2e9c46ad4808bc8",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\ALL-DOMAIN-NATIVE-ERRORS.json": "28b15874e6bdc262fa0d905afc3db30f0a34f496ff397568706672b9e0700ad4",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\CoreQA-burst-012.bmp": "a893a58293c6d29916d92bfeb41cffebef4814ddc926dce355bf4d37a9a7ef5b",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\CoreQA-burst-032.bmp": "e4a6d01ae842b3f71f73f910059b2d9b5341bd32f4b0af0fc534b60525a28934",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\DamageHarness-after.bmp": "5691f90674e233cd0a2b35e0b8b4e9fc0fcbcc1ea9fd11e7e4f6c37fda44650f",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\DamageHarness-before.bmp": "e304d415087ddbb97cd2e6e8ad19e5db93cf8da817748b28f3900fc6aaee1de0",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\summary.json": "12443bfd3d559dc90af80af3bb509ec5c27e087835d39bb3c3dad9a212169a14",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\result.json": "39285f9a986a4d4d4551071b8b3b0f22e929296edc43b0642e894817b94ff8a7",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\adapter-result.json": "54ac8eb382a38835305b816b8e5dcec612161716647b5015ae0aac8ed9f470d7",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\DamageHarness-result683.json": "c1cfe268e306624f00540d821d408a1a9d577de17d426529914b2e06b6350c76",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\exit.json": "e1d505bf0aceb4a8d4613415ed91af694e385a8a6bdfbad750e8e8d8e1900a08",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\owner.json": "a88e86854aeb85212030f64536a82516fe7736bf39566643712d6470eef09275",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\owner-private.json": "e3420eea5eaf29ede4e4990f2d2e9dc8ee02ab7b3d275461023ac70f17eca57f",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\plan.json": "06c3248e8cc6e0fa668393c04b402732046a4654907b84a62da87b617729be27",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-job.json": "a3deb1869edb23ca148ff07ee69a1f329b2c4f3f9b60e7d2881acfce0d48f70a",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\logs\\console.log": "19e15bdd69b49361840bff36bef90245828676b6353d5493f31645b9de635a01",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\ALL-DOMAIN-NATIVE-ERRORS.json": "5aaea32626f91869cc3a2aa36bac8415f61814c41008002d58083d342a5c9eb5",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\CoreQA-burst-012.bmp": "c02a39d8aa40e26e72885c34f77e0066c92450d445930fa382f3719095806b48",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\CoreQA-burst-032.bmp": "3dff47684ae1530f2d8248de05e6f733d7ad87ef0fffbef1e53dbe4b01bd4400",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\DamageHarness-after.bmp": "d1f43a2155294cb8cf03d75fa858d045dfe6d90e603520bc7216baccf4a3936b",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-compat-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\DamageHarness-before.bmp": "fb2765b4b3722293bf26f0886e258cb7f50a45b207e4239f2959e86f63e58948"
+  },
+  "annotation": "Inherited art.new-bound/audio.excluded/smoke.excluded text is generic out-of-scope startup wording, not an assessment of this observed subject. Actual exact Demo10 subject binding is separately proven by native job,raw measurements and unique subject marker. This does not promote art render/PBR/LOD, audio listening or smoke launch acceptance. Originals remain unchanged."
+}

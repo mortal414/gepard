@@ -1,0 +1,16 @@
+{
+  "originalAnalyzerByteExact": true,
+  "productionWrites": false,
+  "nativeStarted": false,
+  "priorTwoNativeCases": "Required functional assertions PASS; original errors retained",
+  "pythonSyntax": "PASS",
+  "status": "SOURCE_ONLY_REBIND_CHECKS_PASS",
+  "qaCopiedFiles": 10,
+  "powerShellSyntax": [
+    "StageDemo10.ps1",
+    "tools/CompileCurrentV11.ps1",
+    "tools/Scene.ps1"
+  ],
+  "qaNativeChangedFiles": 4,
+  "productionMountedFiles": 1251
+}

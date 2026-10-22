@@ -1,0 +1,11 @@
+{
+  "qualifiedCoreFiles": 1152,
+  "worktreeCoreFiles": 1152,
+  "worktreeMissing": [],
+  "worktreeExtra": [],
+  "worktreeChanged": [
+    "resourceDatabase.rdb"
+  ],
+  "qualifiedOriginalDiff": [],
+  "status": "CHECKOUT_BYTE_DIFFERENCES_REQUIRE_SOURCE_BINDING_REVIEW"
+}

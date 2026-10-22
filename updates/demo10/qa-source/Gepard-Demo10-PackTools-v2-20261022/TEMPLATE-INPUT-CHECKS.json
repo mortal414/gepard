@@ -1,0 +1,22 @@
+{
+  "status": "EXACT_REUSE_AND_SUPPORT_INPUTS_VERIFIED_FINAL_NEW_SOURCE_PENDING",
+  "supportCounts": [
+    1152,
+    14
+  ],
+  "dependencyCounts": [
+    3,
+    3
+  ],
+  "newPackedRoles": [
+    "integration",
+    "provingGround"
+  ],
+  "fourSequentialSteps": true,
+  "installedOwnFilesExpected": 12,
+  "separateDependencyFilesExpected": 6,
+  "noBradley": true,
+  "finalManifestAndCompileAdmission": "PENDING_ROOT",
+  "nativeStarted": false,
+  "DWritten": false
+}

@@ -1,0 +1,252 @@
+{
+  "schema": 1,
+  "type": "private-serial-validate-pack",
+  "contract": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ROOT-COMPILED-SOURCE-CONTRACT.json",
+  "contractSHA256": "8beb52e2d8001a121161a93236a8180ead8ff45a669fb91c87fc938a190c2349",
+  "runRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b",
+  "outputRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b",
+  "sourceAddonRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single",
+  "coreAddonRoot": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+  "dependencyAddonRoots": [
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies"
+  ],
+  "dependencyClosures": [
+    {
+      "role": "SpaceCore_5E389BB9F58B79A6",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-SpaceCore_5E389BB9F58B79A6.json",
+      "manifestSHA256": "7160e493fe35e03c1931e72a3fd638b159c885a43007738925c13856c0df28b8"
+    },
+    {
+      "role": "WCS_Armaments_629B2BA37EFFD577",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-WCS_Armaments_629B2BA37EFFD577.json",
+      "manifestSHA256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69"
+    }
+  ],
+  "supportingSourceClosures": [
+    {
+      "role": "gepard",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-gepard.json",
+      "manifestSHA256": "73ee39ecea90fc19c6420d1d7b2eca255705bd263dab681af90a2f633861feb2"
+    },
+    {
+      "role": "wcsSmoke",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-wcsSmoke.json",
+      "manifestSHA256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8"
+    }
+  ],
+  "allowGeneratedResourceDatabaseOnly": true,
+  "sources": [
+    {
+      "role": "integration",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+      "guid": "5E51C5D8F04FDB80",
+      "manifestSHA256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+      "fileCount": 68,
+      "projectSHA256": "b0b1b93621c75367246d55d9f97a21be5d000ec1de02e27d0963057f96112b13",
+      "generatedRDBdelta": null
+    },
+    {
+      "role": "provingGround",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+      "guid": "A76A420022000001",
+      "manifestSHA256": "87eae93b58a53e7ea976a8e0b7ee9e1df3ef12afab14af17fec9545cdcde2d0e",
+      "fileCount": 11,
+      "projectSHA256": "d2be5b613f9bb2f6109e6d7ba81a837690bbce9a67db491ae604fac51f22a42d",
+      "generatedRDBdelta": null
+    }
+  ],
+  "projects": [
+    {
+      "role": "integration",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+      "sourceManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-integration.json",
+      "sourceManifestSHA256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+      "outputName": "integration",
+      "requiredPackageResources": [
+        "Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+        "Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+        "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+        "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+        "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+        "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+        "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.xob",
+        "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+        "Prefabs/ArtApproved20261022/Camo/GEP_35_GunLeft.et",
+        "Prefabs/ArtApproved20261022/Camo/GEP_35_GunRight.et",
+        "Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+        "Prefabs/ArtApproved20261022/Camo/GEP_VehicleTurret.et",
+        "Prefabs/ArtApproved20261022/Camo/GepardCoverLeft668.et",
+        "Prefabs/ArtApproved20261022/Camo/GepardCoverRight668.et",
+        "Prefabs/ArtApproved20261022/Camo/GepardRightRearShieldCover671.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunLeft.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunRight.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GEP_VehicleTurret.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GepardCoverLeft668.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GepardCoverRight668.et",
+        "Prefabs/ArtApproved20261022/Charcoal/GepardRightRearShieldCover671.et",
+        "Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et",
+        "Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et",
+        "Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et"
+      ]
+    },
+    {
+      "role": "provingGround",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+      "sourceManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-provingGround.json",
+      "sourceManifestSHA256": "87eae93b58a53e7ea976a8e0b7ee9e1df3ef12afab14af17fec9545cdcde2d0e",
+      "outputName": "provingGround",
+      "requiredPackageResources": [
+        "Worlds/GPG_Arland.ent",
+        "Worlds/GPG_Arland_default.layer",
+        "scripts/Game/GPG_Director.c",
+        "scripts/Game/GPG_Layout.c",
+        "scripts/Game/GPG_Resources.c",
+        "scripts/Game/GPG_Actions.c",
+        "Prefabs/GPG_StationBoard.et"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "name": "validate",
+      "executable": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\ArmaReforgerWorkbenchSteamDiag.exe",
+      "logsDir": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration\\logs\\validate",
+      "args": [
+        "-gproj",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+        "-addonsDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single,D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "-logsDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration\\logs\\validate",
+        "-wbSilent",
+        "-wbModule=ScriptEditor",
+        "-validate",
+        "PC"
+      ],
+      "role": "integration",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+      "output": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\integration",
+      "guid": "5E51C5D8F04FDB80",
+      "deadlineSeconds": 90
+    },
+    {
+      "name": "pack",
+      "executable": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\ArmaReforgerWorkbenchSteamDiag.exe",
+      "logsDir": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration\\logs\\pack",
+      "args": [
+        "-gproj",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+        "-addonsDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single,D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "-logsDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration\\logs\\pack",
+        "-wbModule=ResourceManager",
+        "-packAddon",
+        "-packAddonDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\integration"
+      ],
+      "role": "integration",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration\\GEP_SpaceCoreTracks033.gproj",
+      "output": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\integration",
+      "guid": "5E51C5D8F04FDB80",
+      "deadlineSeconds": 180
+    },
+    {
+      "name": "validate",
+      "executable": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\ArmaReforgerWorkbenchSteamDiag.exe",
+      "logsDir": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround\\logs\\validate",
+      "args": [
+        "-gproj",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+        "-addonsDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single,D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "-logsDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround\\logs\\validate",
+        "-wbSilent",
+        "-wbModule=ScriptEditor",
+        "-validate",
+        "PC"
+      ],
+      "role": "provingGround",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+      "output": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\provingGround",
+      "guid": "A76A420022000001",
+      "deadlineSeconds": 90
+    },
+    {
+      "name": "pack",
+      "executable": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\ArmaReforgerWorkbenchSteamDiag.exe",
+      "logsDir": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround\\logs\\pack",
+      "args": [
+        "-gproj",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+        "-addonsDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single,D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "-logsDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround\\logs\\pack",
+        "-wbModule=ResourceManager",
+        "-packAddon",
+        "-packAddonDir",
+        "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\provingGround"
+      ],
+      "role": "provingGround",
+      "project": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\provingGround\\GepardProvingGround.gproj",
+      "output": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\provingGround",
+      "guid": "A76A420022000001",
+      "deadlineSeconds": 180
+    }
+  ],
+  "toolPins": {
+    "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\src\\workbench-cli.ts": "04f553c83508f1caccaa02eca9998264d3c580142e219fc2a7e26ccdaed8b5b2",
+    "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\src\\pak-source.ts": "de31ffce0bb92e6b961766cf59185f449dfba2c132267ed00d3286f845b6f3f3",
+    "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\src\\fs-utils.ts": "3e2d4d839e89b75d1c8e8a7e884bf3a23a1831182b622fe9a61547c522a97d5d",
+    "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\node_modules\\tsx\\dist\\loader.mjs": "17e2a92c5f1f70065b01c65d5ee9ac260839d4fc0ea78fdbb4db7b1155ccd32f",
+    "C:\\Program Files\\nodejs\\node.exe": "d14ba95cdce1ef7dc9ad3ac74949ca5db38b27378ee30f30a23cf26f9e875a11",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger Tools\\Workbench\\ArmaReforgerWorkbenchSteamDiag.exe": "7dd36ca1f662b0c13669a4f2f7f10e3c461c2906b021e742272d64b3ab7e9798",
+    "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\package.json": "9d2047f9622162ff4033e618c6ed1dac90229d9222b69f0e0d59db212ae8b3af",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v3-Pack04-Preparation-20261022\\pack_tools.mjs": "c72581e1ba986c48501f46d0d2fc2751204ad985d99b1ffa85101854c925db10",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v3-Pack04-Preparation-20261022\\SerialValidatePack.ps1": "8dbe6cc1a63d8be6a7bdc8880a49a0b57c034d7863a69d922b0792ae7852f4f1",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ACTUAL-COMPILE-ADMISSION.json": "42a4e046347a6667a4b9686213e14beba8eca5853cc93d3a024b1e62ecca07f8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\ROOT-10-ADMISSION.json": "f6efc02413929be5b97d06e78e52bb66cbcf3cd80d69c08dfe98eefdf8fcfdd5",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-core-01\\RESULT.json": "c0325b8714c2e2ed2be400bd9b34bfe8cf467e0ef80d1d4ff4169b76e76ca6aa",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-core-01\\logs\\validate\\console.log": "056847878a0f8d1fb00b1ba35baac1ad117ce50276210af01cc4647c14c1785b",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\compile-demo10-core-01\\owner-private.json": "ccaf2b611b74969490342bb39bac632501aea20fc7a85d5271425b04a1ba834f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\CORE08-TRIO-REUSE-INPUT.json": "b41c60699860f98477e26c5d5f325932b1911a1ca1944306076e1c8de4994d83",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard-pack\\package-proof.json": "39b9bf182dccb0eec73069c60f7bf17075cc34ce5b452adf708d8d6c0a90ca4a",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\Gepard.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\SMOKE09-TRIO-REUSE-INPUT.json": "694ca8ad56489e912364c68df2aab634f7874e6c1c3d7d66613e4c346ee53dfa",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\adopted\\CurrentSourceManifest-wcsSmoke.json": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\wcsSmoke-pack\\package-proof.json": "b8e923aefc96e71a87c5384be92348f25dd601c8de85726697a03b8183947e26",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\GEP_WCSSmoke215.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\SerialValidatePack10.ps1": "ae7c6fb82ee8267288da50f77417ae6036ed4fc394f1dc10f5ee2aefbd4aa4e8",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\NativeTailClassifier10-v2.ps1": "55262d1601aac0dbba5cf30f96773c01a6310485512797629e9486983bbe1a59",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\NATIVE-TAIL-BASELINE-v2.json": "855eaac5bccc08399ca61c73d3459e0973f25378d3da1969c196e6a1d7fd303b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\pack_tools10.mjs": "6380c4d9ec076a713e117431ae6c28e6da955cafa70afe07aef5715b670e74f4",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\SOURCE-INPUT-PINS.json": "9ac3f319ef250f11de15ec31defc25ebb5df07b42065244156a08c500c329c66"
+  },
+  "tools": {
+    "node": "C:\\Program Files\\nodejs\\node.exe",
+    "tsxLoader": "file:///C:/Users/marco/Desktop/reforger-agent-harness/node_modules/tsx/dist/loader.mjs",
+    "helper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\pack_tools10.mjs"
+  },
+  "proofScope": "Compile and package only. Gameplay, visual judgment, multiplayer, publication NOT_TESTED.",
+  "nativeTailClassifierPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\NativeTailClassifier10-v2.ps1",
+  "nativeTailBaselinePath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\NATIVE-TAIL-BASELINE-v2.json",
+  "diagnosticsPolicy": "Every E/F retained as raw strictFAIL; exact dependency authoringwarning and finiteEOFtail categorized separately from actual native step success/artifacts/normalexit. No clean-health or gameplay claim."
+}

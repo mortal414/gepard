@@ -1,0 +1,15 @@
+--- C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-20261022\PackageOnlyScene10.ps1
++++ C:\Users\marco\Documents\Codex\2026-10-21\task\Gepard-Demo10-PackTools-v2-20261022\PackageOnlyScene10.ps1
+@@ -160,10 +160,10 @@
+ if($plan.schema -ne 1 -or $plan.type -cne 'private-package-only-ordinary-scene' -or !$plan.keepOpen -or $plan.mode -notin @('manual','probe')){throw 'Only frozen ordinary package plan bound'}
+ if(($plan.mode -eq 'manual' -and $ProbeSeconds -ne 0) -or ($plan.mode -eq 'probe' -and $ProbeSeconds -ne 75)){throw 'Manual untimed/probe75 close policy differs'}
+ $R='D:\ArmaProjects\Gepard-Demo10-TrackArt-20261022'
+-$installed=Join-Path $R 'private-installed-demo-10\addons'
++$installed=Join-Path $R 'private-installed-demo-10b\addons'
+ $expectedExe='D:\SteamLibrary\steamapps\common\Arma Reforger\ArmaReforgerSteamDiag.exe'
+ if($plan.sessionId -cnotmatch '^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$'){throw 'Only builder-generated UUID4 session bound'}
+-$expectedRun='native-runs\private-demo-10-sessions\'+$plan.mode+'-'+$plan.sessionId
++$expectedRun='native-runs\private-demo-10b-sessions\'+$plan.mode+'-'+$plan.sessionId
+ if($exe -cne $expectedExe -or $RunRoot -cne (Join-Path $R $expectedRun) -or $Project -cne (Join-Path $installed 'A76A420022000001\addon.gproj')){throw 'Exact package-only executable/run/project differs'}
+ $profile=Join-Path $RunRoot 'profile';$logs=Join-Path $RunRoot 'logs'
+ $expectedArgs=@('-profile',$profile,'-logsDir',$logs,'-addonDownloadDir',$profile,'-window','-screenWidth','1280','-screenHeight','720','-maxFPS','60','-noSplash','-forceUpdate','-addonsDir',($installed+',D:\ArmaProjects\Gepard-Demo10-TrackArt-20261022\private-demo-source10\dependencies,D:\SteamLibrary\steamapps\common\Arma Reforger\addons'),'-addons','D561AD08932E7B40,7E0150C026101500,5E51C5D8F04FDB80,A76A420022000001,5E389BB9F58B79A6,629B2BA37EFFD577','-world','Worlds/GPG_Arland.ent','-worldSystemsConfig','{C50579A2EC48E8EF}Configs/Systems/MissionSystems.conf','-noBackend')

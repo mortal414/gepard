@@ -1,0 +1,159 @@
+{
+  "status": "PRIVATE_DEMO10_PLAYABLE_TEST_CANDIDATE_READY_WITH_EXPLICIT_LIMITS",
+  "createdUtc": "2026-10-22T18:58:37.429751+00:00",
+  "entrypoint": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\Launch-Gepard-Demo10.cmd",
+    "sha256": "c47dc91a3eeb632fac9179ecac26ef4e6ffb03fabf5f312fc2306dd77acc07c5",
+    "mode": "Untimed manual; PlanOnly tested through exactCMD; samecopied3filelauncher/sourcehash alreadyactual75sprobe"
+  },
+  "guide": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\PLAYTEST-DEMO10.md",
+    "sha256": "fcc4d6a363e7b53839b5b3f40dcdf6f1af82a16d2c1aaaad80d9c94bfccd186a"
+  },
+  "branch": "sprint/demo10-track-art-20261022",
+  "baseCommit": "eacbab07aa7b6bf54f1873d4b78c006a43cd10d6",
+  "published": false,
+  "releaseFilesChanged": false,
+  "rollbackDemo09Protected": {
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\DEMO09-MANIFEST.json": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd": "44ef2e80b836be44ad1e027426957f33031fe0c27a516fc9ec2e1988e2155c52",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\PLAYTEST-NEW-FEATURES.md": "562b0db93ec95cd8d76d234e50b5bf6047cef16f93a850be8993ca688a2fc962",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\addon.gproj": "ac6136b5ef4e4153ec38a078c9bc6a8e5e34b609c99fa526931c1f411599ba34",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\data.pak": "516e16efdea95990fd95cddd31392ff9744e8805fdce50683a89acfe285a2cc3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\resourceDatabase.rdb": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+  },
+  "installedOwnFiles": 12,
+  "ownedAddonCount": 4,
+  "separateDependencyPackages": {
+    "SpaceCore": "5E389BB9F58B79A6",
+    "WCS_Armaments": "629B2BA37EFFD577"
+  },
+  "dependencyVersionAssumption": "Installed8.4.0 exact pinnedtrios; not a claim about latestonlineversion",
+  "BradleyRequired": false,
+  "dependenciesCopiedIntoOwnedPayload": false,
+  "currentCore1152AndSmoke14Exact": true,
+  "included": [
+    "Current approvedGermanHUD/functionalscripts",
+    "NormalSpaceCore track graph references onNEWbothskins+route",
+    "Frozen approvedcumulativeV12/V14/V15R1/V17/V18R1over safeV11; V16/V19excluded",
+    "Existing experimentalWCS8roundsmoke+shared8service",
+    "OrdinaryOLD/NEW comparison/driving/target/service/damage provingground"
+  ],
+  "excluded": [
+    "FAILED01tire-sampleadapter",
+    "UnapprovedV16/V19/conditionalroof/bakeexperiments",
+    "Newstabilization/ballisticcorrection/radarsensing",
+    "Customcannonaudio",
+    "Publication"
+  ],
+  "observedNative": {
+    "artImport": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\ART-NATIVE-REBUILD-RESULT.json",
+      "sha256": "1afa2206a12429af6f43582f5a3e45ce79bbcf9b58b35a1c6765dee7e5c5cdfd"
+    },
+    "artStatic": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-ApprovedArt-Static-IndependentReview-20261022\\INDEPENDENT-REVIEW.json",
+      "sha256": "c2f8eccf1847dfd1ce2dfb192f466819071ad8fe570f9380e2ae5e15f53b8f68"
+    },
+    "corePair": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\paired-native-audit-01\\PAIRED-RESULT.json",
+      "sha256": "86d607e4d8363f3273bd447be4c74c6f87fd6173535e64a29aefa40b98d6612d"
+    },
+    "smokePair": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-Smoke-Paired-Audit-20261022\\PAIRED-REPORT.json",
+      "sha256": "5793f19a85fbe94b1b73e87ebc4e26683eac1494722bd100db573b47cb8e318d"
+    },
+    "drivePair": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\paired-native-audit-02\\PAIRED-EVIDENCE.json",
+      "sha256": "ada67a76977257decd153443bad6781dc7ae82fddb96198d791545d757139a6e"
+    },
+    "compile": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\ACTUAL-COMPILE-ADOPTION.json",
+      "sha256": "8f755091832f343da29b37d45a78a11388c9c522dad9a715976b102c0491a37a"
+    },
+    "pack": {
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\RESULT.json",
+      "sha256": "d4270defa78e9c28414a3cf9ddac827bafec878b22f8faa03976fc409e7bd1af"
+    },
+    "packagedStartup": {
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-demo-10b-sessions\\probe-56a353ee-012f-4742-b203-7ab9b03c1294\\RESULT.json",
+      "sha256": "415e85c1fcc2fb8e32709e8cd6c6e87e1379a95f7ba7a8fba36669e6c64bba8a"
+    },
+    "packagedExit": {
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-demo-10b-sessions\\probe-56a353ee-012f-4742-b203-7ab9b03c1294\\exit.json",
+      "sha256": "234a96ed3a5b47eb7f87b2e73778158a670d706114beccb939c46c1446d08c1d"
+    }
+  },
+  "finalBothSkinDrive": {
+    "camo": {
+      "review": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\CAMO-REVIEW.json",
+      "reviewSHA256": "c6f65623fc89eaa9a9d0f6019428fcf2ed61c62d31d3511e1617d0e98e6d2d26",
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02",
+      "exitSHA256": "597dd570ea16f25d24074475894462e74cfd9e9b27e848d6de717dcead73ebc5",
+      "metrics": {
+        "reverseSamples": 11,
+        "poweredReverseSamples": 5,
+        "bestContinuousReverseProgressMeters": 1.9799980199995635,
+        "continuousReverseSpanSeconds": 1.0664000000000013,
+        "finalRestSeconds": 1.8627000000000045,
+        "finalRestDriftMeters": 0.0
+      },
+      "strictNativeVerdict": "FAIL",
+      "rawErrorCount": 59,
+      "recording": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\continuous\\system-output.wav",
+        "bytes": 14092844,
+        "sha256": "29280fdad0fe2ad4e2195232d0d08655e3b465da2a956a2f80ade11516ebbff9"
+      }
+    },
+    "charcoal": {
+      "review": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\CHARCOAL-REVIEW.json",
+      "reviewSHA256": "a90b1499b412d763972bd06404167692e6560ba4f69d3dc6595c221885d8af90",
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02",
+      "exitSHA256": "c8c8ecee71a351b03c741ed64d00b89aa7d48bdffbb43c6a7f9dd4295e836712",
+      "metrics": {
+        "reverseSamples": 11,
+        "poweredReverseSamples": 5,
+        "bestContinuousReverseProgressMeters": 2.009997990000218,
+        "continuousReverseSpanSeconds": 1.0670999999999986,
+        "finalRestSeconds": 1.8661000000000059,
+        "finalRestDriftMeters": 0.0
+      },
+      "strictNativeVerdict": "FAIL",
+      "rawErrorCount": 59,
+      "recording": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\continuous\\system-output.wav",
+        "bytes": 14112044,
+        "sha256": "5045a037e90839fa761524fd7c7c0004627a280e7afe1739fd7701b54e4d50da"
+      }
+    }
+  },
+  "manualJudgments": [
+    "Appearance/fullarticulation/clearance/collision/LOD",
+    "Audio cabin/cannon/engine balance,nearfar,delete/reset tails",
+    "Smokeusefulscreen/portfit/physicalroles/cooldown/sharedrearm",
+    "Positive rangeaccuracy/broadlighting/aspects",
+    "Actualfuel/repairtransfer anddamage/crewprotection/MP/JIP/console"
+  ],
+  "newWholeGEPCheckboxes": 0,
+  "evidenceIndex": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\updates\\demo10\\EVIDENCE-INDEX.json",
+    "sha256": "d61bf8f932f4d34f0816db43d7740824e917b2bcdc311e176f0dffb8d47349c3"
+  },
+  "sourceSnapshot": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\updates\\demo10\\FINAL-FILES.json",
+    "sha256": "3b86f85a5e4f9d6c43866a213941fa8217aa4a1a53e0b59b471be41a04c74168"
+  },
+  "noOutstandingPermissionDenial": true,
+  "sourceAndPackingFailuresPreserved": true,
+  "repeatableAutomation": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\updates\\demo10\\REPLAY.md",
+    "sha256": "c613916587b81572210640baf96eea445897f42b4fd7a9534e17f6991eec2b23"
+  }
+}

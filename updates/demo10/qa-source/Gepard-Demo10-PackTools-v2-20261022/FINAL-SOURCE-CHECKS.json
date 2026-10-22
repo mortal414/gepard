@@ -1,0 +1,41 @@
+{
+  "status": "FROZEN_SOURCE_ONLY_READY_FOR_ROOT_SERIAL_PRIVATE_PACK",
+  "planSHA256": "de70dc9fca8a08ccf1e6fc9b2fe181a81407f4970bdb9bfc51fa577c1ad79518",
+  "planAllToolPinsMatch": true,
+  "actualCompileResultAndSixAdoptedClosurePinsBound": true,
+  "sourceCounts": {
+    "core": 1152,
+    "smoke": 14,
+    "integration": 68,
+    "world": 11,
+    "SpaceCore": 3,
+    "WCS": 3
+  },
+  "totalSourceFiles": 1251,
+  "integrationRequiredRuntimeResources": 25,
+  "requiredFBXResources": 0,
+  "fourNativeSteps": [
+    "integration:validate",
+    "integration:pack",
+    "provingGround:validate",
+    "provingGround:pack"
+  ],
+  "separateDependencyResources": 6,
+  "ownInstallResources": 12,
+  "originalClassifierAndBaselineByteExact": true,
+  "versionedClassifierFiniteChecks": 13,
+  "PowerShellASTChecks": 5,
+  "ownershipHelpersAndBoardParserTextExact": true,
+  "nodeSyntaxFiles": 3,
+  "rawStrictErrorsRetained": true,
+  "nativeStartedByLane": false,
+  "DWrittenByLane": false,
+  "packagedByLane": false,
+  "rootMayBeExecutingSeparately": true,
+  "contextPinsHistoricalOnly": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\PLAN.json": "9b29b92c5c7cc4a23b5e29f025a9fb9901ca0691c493243d67947499f55ac126",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\DEMO10-INITIAL-SOURCE.json": "ae56a3ea38d117af19a9aaf3e7470aabe3b977cc055afdeb29e733f0bc9d04ba"
+  },
+  "requiredTXOResources": 0,
+  "predecessorNativeBatchFailedAndPreserved": true
+}

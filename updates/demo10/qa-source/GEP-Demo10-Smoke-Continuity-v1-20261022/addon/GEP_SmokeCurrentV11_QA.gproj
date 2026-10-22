@@ -1,0 +1,7 @@
+GameProject {
+ ID "GEP_SmokeCurrentV11_QA"
+ GUID "7E0150C026106500"
+ TITLE "Private current V11 smoke compatibility qualification"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" "629B2BA37EFFD577" "7E0150C026101500" "5E51C5D8F04FDB80" }
+ Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} }
+}

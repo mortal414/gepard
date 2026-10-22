@@ -1,0 +1,32 @@
+{
+  "command": [
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+    "-NoProfile",
+    "-File",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\tools\\Scene.ps1",
+    "-Project",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\native-stage\\audioQA\\GEP_TrackRollingQA033.gproj",
+    "-World",
+    "Worlds/GEP_TrackRollingAudition033.ent",
+    "-Manifest",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\binding\\QA-MANIFEST.json",
+    "-RunRoot",
+    "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\audio-bounded-exterior-01",
+    "-Seconds",
+    "120",
+    "-AddonId",
+    "7E0330C026102210",
+    "-ScreenWidth",
+    "1280",
+    "-ScreenHeight",
+    "720",
+    "-NativeJob",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\recordings\\exterior\\job.json",
+    "-NativeJobSHA256",
+    "5d53a17efeea7793a6ddc8765cbff9def769d00b5d9fd025c329bcb8a24b0184",
+    "-Interactive",
+    "-Execute"
+  ],
+  "nativeStarted": false,
+  "note": "RunRoot/nativeJob/hash replaced only by prepare_recording.py after actual compile"
+}

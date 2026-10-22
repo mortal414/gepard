@@ -1,0 +1,7 @@
+GameProject {
+ ID "GEPArtNativeSceneQA20261022"
+ GUID "65239F780E614817"
+ TITLE "PRIVATE Functional Gepard V11 Native Art QA"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" "5E51C5D8F04FDB80" }
+ Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} }
+}

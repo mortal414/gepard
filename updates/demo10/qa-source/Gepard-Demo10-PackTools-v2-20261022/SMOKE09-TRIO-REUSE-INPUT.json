@@ -1,0 +1,20 @@
+{
+  "status": "EXACT_INSTALLED_TRIO_MATCHES_ORIGINAL_SAME_BUILD_PROOF_NO_COPY",
+  "role": "wcsSmoke",
+  "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons",
+  "files": {
+    "7E0150C026101500/addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "7E0150C026101500/resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "7E0150C026101500/data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f"
+  },
+  "originalSameBuildProof": {
+    "role": "wcsSmoke",
+    "guid": "7E0150C026101500",
+    "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\wcsSmoke-pack\\package-proof.json",
+    "proofSHA256": "b8e923aefc96e71a87c5384be92348f25dd601c8de85726697a03b8183947e26"
+  },
+  "currentSourceManifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\adopted\\CurrentSourceManifest-wcsSmoke.json",
+  "currentSourceManifestSHA256": "e30b65d7cf958991a0f110298c859907d4284d3ea08706b19ccdbfb02fade2d8",
+  "copied": false,
+  "nativeStarted": false
+}

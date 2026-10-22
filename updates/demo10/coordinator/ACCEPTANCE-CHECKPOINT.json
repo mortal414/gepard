@@ -1,0 +1,16 @@
+{
+  "candidate": "Demo10 private successor; Demo09 rollback preserved",
+  "published": false,
+  "audioTimbre": {"status":"accepted","scope":"User accepted Candidate02 recorded audible direction; other sound judgments remain separate."},
+  "audioExteriorMotion": {"status":"automated pass","evidence":"../GEP033-BoundedQualification-20261022/EXTERIOR-REVIEW-01.json","scope":"Powered reverse, native braking, engine-off grounded dwell, actual exterior camera, exit and re-entry. Sound judgment is pending."},
+  "audioCabinMotion": {"status":"automated pass","evidence":"../GEP033-BoundedQualification-20261022/CABIN-REVIEW-01.json","scope":"Same bounded behavior using actual native cabin camera; recording retained."},
+  "audioDistanceAndBalance": {"status":"manual judgment pending","scope":"30/100m attenuation, cabin/cannon/engine balance, deletion/reset audible tails."},
+  "artSource": {"status":"automated pass","evidence":"ART-INTEGRATION-RESULT.json","scope":"52 additive frozen resources; V12/V14/V15R1/V17/V18R1 cumulative accepted direction. V16/V19 and conditional work excluded."},
+  "artNativeImport": {"status":"automated pass","evidence":"ART-NATIVE-REBUILD-RESULT.json","scope":"Eight native successful builds, eight changed cooked hashes, original FBXs and material-mapping token streams preserved."},
+  "artNativeBehavior": {"status":"not tested","scope":"Both skin renders, model ownership, articulated clearance/collision and LOD; existing proven fixtures being rebound."},
+  "finalScriptCompile": {"status":"automated pass","evidence":"adopted/ACTUAL-COMPILE-ADOPTION.json","scope":"Actual final world and dependency stack compile; no script errors, normal exit0/released. Compile does not prove gameplay."},
+  "finalCrewHudFire": {"status":"not tested","scope":"Both final skin children need actual existing healthy crew/HUD/fire fixture replay."},
+  "finalPackageOnlyLaunch": {"status":"not tested","scope":"Four owned addons with unchanged core/smoke reuse and two separately loaded dependencies; no Bradley dependency."},
+  "rawNativeErrors": {"status":"failed","scope":"Strict raw E/F outcomes retained in every run. Existing resource/metadata/UI shutdown diagnostics must remain distinct from observed feature behavior."},
+  "rollbackAndRelease": {"status":"automated pass","scope":"Original current core1152, smoke14 and dependency trios unchanged; Demo09 launch and release untouched."}
+}

@@ -1,0 +1,15 @@
+{
+  "status": "ROOT_REPORTED_EXACT_CONTRACT_PATH_REFUSAL_BEFORE_NATIVE",
+  "failureTarget": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\PackageOnlyScene10.ps1:106",
+  "reason": "Old fixed v1 worldContract path differs from actual v2 planner path",
+  "failedPlan": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\session-plans\\probe-4f1df565-7ee0-40cd-8bbb-ece7e85f5e56\\PACKAGE-PROBE-PLAN.json",
+    "sha256": "f68763877f5c3926893b05e2a41ded41fd79d8ee634f5dd99f623baf8c25cc3a",
+    "runRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-demo-10b-sessions\\probe-4f1df565-7ee0-40cd-8bbb-ece7e85f5e56",
+    "runRootExistsAtReview": false
+  },
+  "oldWorldContractSHA256": "fc1a55d24f796da2ebd71e41968e38671a910b4b3b9c846c1aa93b7be59293c4",
+  "v2WorldContractSHA256": "fc1a55d24f796da2ebd71e41968e38671a910b4b3b9c846c1aa93b7be59293c4",
+  "nativeNotStartedReportedByParent": true,
+  "noPriorOutcomeRewrite": true
+}

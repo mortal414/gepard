@@ -1,0 +1,19 @@
+{
+  "status": "SOURCE_READY_FOR_ROOT_PRIVATE_QA_STAGE_AND_COMPILE_NATIVE_NOT_TESTED",
+  "sourceSealSHA256": "3c77fa7722cba60c1cc5e3ef4f88ddf20f522c1450f4a604daa0271d61198657",
+  "v1Preserved": true,
+  "deltaProofSHA256": "6942946823f846bea897f674a2d5927975aad4e35f51fd6f299329457f36168f",
+  "stagePlan": "READ_ONLY_FRESH_STAGE_PLAN_PASS",
+  "qaSourceFiles": 6,
+  "modelRegistry": "Seven new approved bound models plus retained currentV11 storage; rebuilt new storage intentionally unbound.",
+  "farView": "rearfar offset28/0/-40 with exact original rear3q basis; original six views unchanged.",
+  "plannedImages": 14,
+  "sceneSeconds": 180,
+  "actualQACompile": "PENDING_ROOT",
+  "actualNative": "NOT_TESTED",
+  "jobPrepared": false,
+  "entrypoint": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-ApprovedArt-QA-v2-20261022\\README.md",
+  "entrypointSHA256": "12b62c8df3a5589476ae5f4ae138f945f35a690fe7068fc26691b69813702ce0",
+  "DWritten": false,
+  "nativeStarted": false
+}

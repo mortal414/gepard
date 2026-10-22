@@ -1,0 +1,4 @@
+{
+  "status": "NOT_TESTED",
+  "reason": "No optional-stack native result; old core controls cannot qualify changed closure. Only healthy cases bound."
+}

@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-installed-demo-10b\\addons",
+  "files": {
+    "D561AD08932E7B40/addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D561AD08932E7B40/resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119",
+    "D561AD08932E7B40/data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+    "7E0150C026101500/addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "7E0150C026101500/resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "7E0150C026101500/data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+    "5E51C5D8F04FDB80/addon.gproj": "b0b1b93621c75367246d55d9f97a21be5d000ec1de02e27d0963057f96112b13",
+    "5E51C5D8F04FDB80/resourceDatabase.rdb": "2f79fe88a17bdc9cd934941942786e5a687c5dd4c02d84e01cc59b7771f59828",
+    "5E51C5D8F04FDB80/data.pak": "3540663192f25e94689d95b67cb4f665f7ba5b14cb28ec1595f9a7999a9e531b",
+    "A76A420022000001/addon.gproj": "d2be5b613f9bb2f6109e6d7ba81a837690bbce9a67db491ae604fac51f22a42d",
+    "A76A420022000001/resourceDatabase.rdb": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c",
+    "A76A420022000001/data.pak": "0de4f09614e1a46dd24f0bdf50a93232906b3891edcfdcd5e099fe843c9b03f9"
+  },
+  "packPlanSHA256": "de70dc9fca8a08ccf1e6fc9b2fe181a81407f4970bdb9bfc51fa577c1ad79518",
+  "packages": [
+    {
+      "role": "gepard",
+      "guid": "D561AD08932E7B40",
+      "reused": true,
+      "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard-pack\\package-proof.json",
+      "proofSHA256": "39b9bf182dccb0eec73069c60f7bf17075cc34ce5b452adf708d8d6c0a90ca4a",
+      "trio": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\addon.gproj",
+          "bytes": 666,
+          "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\resourceDatabase.rdb",
+          "bytes": 49774,
+          "sha256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\data.pak",
+          "bytes": 254101614,
+          "sha256": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519"
+        }
+      ]
+    },
+    {
+      "role": "wcsSmoke",
+      "guid": "7E0150C026101500",
+      "reused": true,
+      "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\wcsSmoke-pack\\package-proof.json",
+      "proofSHA256": "b8e923aefc96e71a87c5384be92348f25dd601c8de85726697a03b8183947e26",
+      "trio": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\addon.gproj",
+          "bytes": 295,
+          "sha256": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\resourceDatabase.rdb",
+          "bytes": 746,
+          "sha256": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\data.pak",
+          "bytes": 9144,
+          "sha256": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f"
+        }
+      ]
+    },
+    {
+      "role": "integration",
+      "guid": "5E51C5D8F04FDB80",
+      "reused": false,
+      "proofPath": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\integration-pack\\package-proof.json",
+      "proofSHA256": "04d5f7fd6d59a074a70fca72a53f6f579d537960c8639a061cb96a4cb7673a34",
+      "trio": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\integration\\GEP_SpaceCoreTracks033.gproj",
+          "bytes": 319,
+          "sha256": "b0b1b93621c75367246d55d9f97a21be5d000ec1de02e27d0963057f96112b13"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\integration\\resourceDatabase.rdb",
+          "bytes": 4214,
+          "sha256": "2f79fe88a17bdc9cd934941942786e5a687c5dd4c02d84e01cc59b7771f59828"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\integration\\data.pak",
+          "bytes": 26914456,
+          "sha256": "3540663192f25e94689d95b67cb4f665f7ba5b14cb28ec1595f9a7999a9e531b"
+        }
+      ]
+    },
+    {
+      "role": "provingGround",
+      "guid": "A76A420022000001",
+      "reused": false,
+      "proofPath": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\provingGround-pack\\package-proof.json",
+      "proofSHA256": "6d85646ab8be21dd0528a263b5d99b483ce69fa46eba17b65df3c27fa0cd0dd5",
+      "trio": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\provingGround\\GepardProvingGround.gproj",
+          "bytes": 291,
+          "sha256": "d2be5b613f9bb2f6109e6d7ba81a837690bbce9a67db491ae604fac51f22a42d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\provingGround\\resourceDatabase.rdb",
+          "bytes": 537,
+          "sha256": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10b\\provingGround\\data.pak",
+          "bytes": 13921,
+          "sha256": "0de4f09614e1a46dd24f0bdf50a93232906b3891edcfdcd5e099fe843c9b03f9"
+        }
+      ]
+    }
+  ],
+  "packDiagnostics": {
+    "operationalVerdict": "PASS",
+    "strictNativeVerdict": "FAIL",
+    "rawNativeErrorCount": 108,
+    "rows": [
+      {
+        "role": "integration",
+        "step": "validate",
+        "rawErrorCount": 27,
+        "strictNativeVerdict": "FAIL",
+        "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+        "consoleSHA256": "9aa4b5f5a11d325f5e92d74fcdcb09d9ed5798e06f82598b8a6cd865420e8a92",
+        "diagnosticsReportSHA256": "3630fc7d2a4048728a5755e4257ca7766d81487fc06e51423e7c6b4e99deea94"
+      },
+      {
+        "role": "integration",
+        "step": "pack",
+        "rawErrorCount": 27,
+        "strictNativeVerdict": "FAIL",
+        "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+        "consoleSHA256": "f52a3d567a22a84650174f16fd4c744627dbff3f5f87e233907f22790e823740",
+        "diagnosticsReportSHA256": "46c4803db40341bedc93a306d1d64f864a73ca0232ebd83ef500d2ce71416543"
+      },
+      {
+        "role": "provingGround",
+        "step": "validate",
+        "rawErrorCount": 27,
+        "strictNativeVerdict": "FAIL",
+        "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+        "consoleSHA256": "989045193fbb782c9e7bf1d13d5d5470c5d9ac7a3f5cf7054b253471f41a0639",
+        "diagnosticsReportSHA256": "c8686d4ded8024bed5fce83255414c6f79d0c8bda0bc54e2270c8af14e5653bb"
+      },
+      {
+        "role": "provingGround",
+        "step": "pack",
+        "rawErrorCount": 27,
+        "strictNativeVerdict": "FAIL",
+        "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+        "consoleSHA256": "ba79579ca7fc4268fa7392fc74a31ea176187b98212771c60dae4ec2c5508790",
+        "diagnosticsReportSHA256": "076b4af41ce929424c1381c4298d720f9570d963c11ee2c51037e7014a20ad0b"
+      }
+    ],
+    "meaning": "Actual validation/package success and closed ownership; known errors remain strictFAIL, no clean-health/gameplay claim"
+  },
+  "WCSCopiedIntoOwnPayload": false,
+  "SpaceCoreCopiedIntoOwnPayload": false,
+  "nativeStarted": false,
+  "metadataBytesChanged": false,
+  "privateQAAdded": false
+}

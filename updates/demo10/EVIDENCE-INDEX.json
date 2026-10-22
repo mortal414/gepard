@@ -1,0 +1,93 @@
+{
+  "observed": {
+    "artImport": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\ART-NATIVE-REBUILD-RESULT.json",
+      "sha256": "1afa2206a12429af6f43582f5a3e45ce79bbcf9b58b35a1c6765dee7e5c5cdfd"
+    },
+    "artStatic": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-ApprovedArt-Static-IndependentReview-20261022\\INDEPENDENT-REVIEW.json",
+      "sha256": "c2f8eccf1847dfd1ce2dfb192f466819071ad8fe570f9380e2ae5e15f53b8f68"
+    },
+    "corePair": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\paired-native-audit-01\\PAIRED-RESULT.json",
+      "sha256": "86d607e4d8363f3273bd447be4c74c6f87fd6173535e64a29aefa40b98d6612d"
+    },
+    "smokePair": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-Smoke-Paired-Audit-20261022\\PAIRED-REPORT.json",
+      "sha256": "5793f19a85fbe94b1b73e87ebc4e26683eac1494722bd100db573b47cb8e318d"
+    },
+    "drivePair": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-DriveContinuity-20261022\\paired-native-audit-02\\PAIRED-EVIDENCE.json",
+      "sha256": "ada67a76977257decd153443bad6781dc7ae82fddb96198d791545d757139a6e"
+    },
+    "compile": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\ACTUAL-COMPILE-ADOPTION.json",
+      "sha256": "8f755091832f343da29b37d45a78a11388c9c522dad9a715976b102c0491a37a"
+    },
+    "pack": {
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10b\\RESULT.json",
+      "sha256": "d4270defa78e9c28414a3cf9ddac827bafec878b22f8faa03976fc409e7bd1af"
+    },
+    "packagedStartup": {
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-demo-10b-sessions\\probe-56a353ee-012f-4742-b203-7ab9b03c1294\\RESULT.json",
+      "sha256": "415e85c1fcc2fb8e32709e8cd6c6e87e1379a95f7ba7a8fba36669e6c64bba8a"
+    },
+    "packagedExit": {
+      "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-demo-10b-sessions\\probe-56a353ee-012f-4742-b203-7ab9b03c1294\\exit.json",
+      "sha256": "234a96ed3a5b47eb7f87b2e73778158a670d706114beccb939c46c1446d08c1d"
+    }
+  },
+  "drive": {
+    "camo": {
+      "review": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\CAMO-REVIEW.json",
+      "reviewSHA256": "c6f65623fc89eaa9a9d0f6019428fcf2ed61c62d31d3511e1617d0e98e6d2d26",
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-camo-02",
+      "exitSHA256": "597dd570ea16f25d24074475894462e74cfd9e9b27e848d6de717dcead73ebc5",
+      "metrics": {
+        "reverseSamples": 11,
+        "poweredReverseSamples": 5,
+        "bestContinuousReverseProgressMeters": 1.9799980199995635,
+        "continuousReverseSpanSeconds": 1.0664000000000013,
+        "finalRestSeconds": 1.8627000000000045,
+        "finalRestDriftMeters": 0.0
+      },
+      "strictNativeVerdict": "FAIL",
+      "rawErrorCount": 59,
+      "recording": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\camo\\continuous\\system-output.wav",
+        "bytes": 14092844,
+        "sha256": "29280fdad0fe2ad4e2195232d0d08655e3b465da2a956a2f80ade11516ebbff9"
+      }
+    },
+    "charcoal": {
+      "review": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\CHARCOAL-REVIEW.json",
+      "reviewSHA256": "a90b1499b412d763972bd06404167692e6560ba4f69d3dc6595c221885d8af90",
+      "nativeRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\demo10-drive-charcoal-02",
+      "exitSHA256": "c8c8ecee71a351b03c741ed64d00b89aa7d48bdffbb43c6a7f9dd4295e836712",
+      "metrics": {
+        "reverseSamples": 11,
+        "poweredReverseSamples": 5,
+        "bestContinuousReverseProgressMeters": 2.009997990000218,
+        "continuousReverseSpanSeconds": 1.0670999999999986,
+        "finalRestSeconds": 1.8661000000000059,
+        "finalRestDriftMeters": 0.0
+      },
+      "strictNativeVerdict": "FAIL",
+      "rawErrorCount": 59,
+      "recording": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\drive-binding-v2\\charcoal\\continuous\\system-output.wav",
+        "bytes": 14112044,
+        "sha256": "5045a037e90839fa761524fd7c7c0004627a280e7afe1739fd7701b54e4d50da"
+      }
+    }
+  },
+  "strictNativeResults": "Original strict FAIL/NOT_TESTED remain. Compile/pack known exact editor-source warnings plus25 EOF diagnostics classified separately; no clean-health claim. Game runs retain59E/F each.",
+  "knownRecoveries": [
+    "Art import01 compile failure -> fresh correctedcook02",
+    "Art static worldlog GUID regex mismatch -> separate exactsource/argv/worldmeta plusall14pixels reconciliation; originalNT preserved",
+    "Package10 TXO PAK assumption -> evidence-backedfresh10b; originalfailurepreserved",
+    "Launcher v2 path guard -> exact2substitutionlauncheronlyv3, no repack",
+    "Drive01 stalealias/map -> two-linewrapperonlyv2; nativecourseunchanged, originalpreexecutionfailureretained"
+  ],
+  "rawEvidenceStaysInNativeRuns": true
+}

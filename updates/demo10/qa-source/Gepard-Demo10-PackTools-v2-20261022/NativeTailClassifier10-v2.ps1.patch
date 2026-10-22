@@ -1,0 +1,41 @@
+--- preserved NativeTailClassifier10.ps1
++++ NativeTailClassifier10-v2.ps1
+@@ -23,17 +23,20 @@
+  if($StepName -eq 'pack' -and !$ValidationWasAccepted){$result.reason='Pack lacks accepted same-batch preceding native validation';return [pscustomobject]$result}
+  $result.successLine=$success[0]+1
+  if(!$errors.Count){$result.operationalPass=$true;$result.operationalVerdict='PASS';$result.operationalErrorCount=0;$result.classification='NO_NATIVE_ERRORS';return [pscustomobject]$result}
+- if($b.dependencyAuthoringWarning.addonId -cne '629B2BA37EFFD577' -or $b.dependencyAuthoringWarning.version -cne '8.4.0'){$result.reason='Dependency source/version mismatch';return [pscustomobject]$result}
+- $sourceWarnings=@($errors|Where-Object {$parsed.ContainsKey($_.index) -and $parsed[$_.index].body -ceq $b.dependencyAuthoringWarning.signature})
+- if($sourceWarnings.Count -gt 1){$result.reason='Repeated dependency authoring warning';return [pscustomobject]$result}
+- if($sourceWarnings.Count -eq 1){
+-  if($errors.Count -ne 26 -or $errors[0].index -ne $sourceWarnings[0].index -or $sourceWarnings[0].index -ge $success[0]){$result.reason='Dependency warning position/count differs';return [pscustomobject]$result}
+-  $result.knownDependencyAuthoringWarningCount=1
++ if($b.dependencyAuthoringWarning.addonId -cne '629B2BA37EFFD577' -or $b.dependencyAuthoringWarning.version -cne '8.4.0' -or $b.dependencyAuthoringWarnings.Count -ne 2 -or $b.dependencyAuthoringWarnings[1].addonId -cne '5E389BB9F58B79A6'){$result.reason='Dependency source/version mismatch';return [pscustomobject]$result}
++ $sourceWarnings=@($errors|Where-Object {$parsed.ContainsKey($_.index) -and $parsed[$_.index].body -ceq $b.dependencyAuthoringWarnings[0].signature})
++ $spaceWarnings=@($errors|Where-Object {$parsed.ContainsKey($_.index) -and $parsed[$_.index].body -ceq $b.dependencyAuthoringWarnings[1].signature})
++ if($sourceWarnings.Count -gt 1 -or $spaceWarnings.Count -gt 1 -or ($spaceWarnings.Count -eq 1 -and $sourceWarnings.Count -ne 1)){$result.reason='Repeated/unsupported dependency authoring warning combination';return [pscustomobject]$result}
++ $authorCount=$sourceWarnings.Count+$spaceWarnings.Count
++ if($authorCount){
++  if($errors.Count -ne (25+$authorCount) -or $errors[0].index -ne $sourceWarnings[0].index -or $sourceWarnings[0].index -ge $success[0]){$result.reason='Dependency warning position/count differs';return [pscustomobject]$result}
++  if($spaceWarnings.Count -eq 1 -and ($errors[1].index -ne $spaceWarnings[0].index -or $spaceWarnings[0].index -le $sourceWarnings[0].index -or $spaceWarnings[0].index -ge $success[0])){$result.reason='Exact observed WCS then SpaceCore warning order differs';return [pscustomobject]$result}
++  $result.knownDependencyAuthoringWarningCount=$authorCount
+  }
+- # Full raw errors/result.errors remain unchanged and strictFAIL. Only the separately
+- # categorized native EOF tail is checked against its original finite25 signature.
+- $tailErrors=@($errors)
+- if($sourceWarnings.Count -eq 1){$tailErrors=@($errors|Where-Object {$_.index -ne $sourceWarnings[0].index})}
++ # Every raw error remains in result.errors and strictFAIL. Only exact source-bound
++ # authoring diagnostics are separated from the unchanged finite25 shutdown tail.
++ $warningIndices=@($sourceWarnings|ForEach-Object {$_.index})+@($spaceWarnings|ForEach-Object {$_.index})
++ $tailErrors=@($errors|Where-Object {$_.index -notin $warningIndices})
+  if($tailErrors.Count -ne 25){$result.reason='Native tail/error count differs from finite25-row baseline';return [pscustomobject]$result}
+  if($destroyed.Count -ne 2 -or $destroyed[0] -le $success[0] -or $destroyed[1] -ne ($destroyed[0]+1)){$result.reason='Exact ordered adjacent double Game destroyed boundary absent';return [pscustomobject]$result}
+  $result.shutdownLines=@($destroyed|ForEach-Object {$_+1})
+@@ -50,6 +53,6 @@
+   if($parsed[$i].ms -lt $lastMs -or ($parsed[$i].ms-$parsed[$destroyed[1]].ms) -gt 1000){$result.reason='Tail timestamp outside ordered one-second shutdown window';return [pscustomobject]$result}
+   $lastMs=$parsed[$i].ms
+  }
+- $result.operationalPass=$true;$result.operationalVerdict='PASS_WITH_EXACT_BASELINE_TEARDOWN';$result.knownBaselineTeardownCount=25;$result.operationalErrorCount=0;$result.classification=$(if($result.knownDependencyAuthoringWarningCount -eq 1){'EXACT_KNOWN_WCS_AUTHORING_AND_NATIVE_TEARDOWN_RETAINED'}else{'EXACT_BASELINE_NATIVE_TEARDOWN_RETAINED'});$result.reason='Actual step success/normalexit and exact known source-bound diagnostic categories; every raw row and strictFAIL retained, no clean-health/gameplay claim'
++ $result.operationalPass=$true;$result.operationalVerdict='PASS_WITH_EXACT_BASELINE_TEARDOWN';$result.knownBaselineTeardownCount=25;$result.operationalErrorCount=0;$result.classification=$(if($result.knownDependencyAuthoringWarningCount -eq 2){'EXACT_KNOWN_WCS_SPACECORE_AUTHORING_AND_NATIVE_TEARDOWN_RETAINED'}elseif($result.knownDependencyAuthoringWarningCount -eq 1){'EXACT_KNOWN_WCS_AUTHORING_AND_NATIVE_TEARDOWN_RETAINED'}else{'EXACT_BASELINE_NATIVE_TEARDOWN_RETAINED'});$result.reason='Actual step success/normalexit and exact known source-bound diagnostic categories; every raw row and strictFAIL retained, no clean-health/gameplay claim'
+  return [pscustomobject]$result
+ }

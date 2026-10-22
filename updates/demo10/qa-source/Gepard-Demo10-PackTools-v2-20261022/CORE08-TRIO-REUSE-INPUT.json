@@ -1,0 +1,37 @@
+{
+  "status": "EXACT_INSTALLED_TRIO_MATCHES_ORIGINAL_SAME_BUILD_PROOF_NO_COPY",
+  "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons",
+  "files": {
+    "D561AD08932E7B40/addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D561AD08932E7B40/resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119",
+    "D561AD08932E7B40/data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519"
+  },
+  "originalSameBuildProof": {
+    "role": "gepard",
+    "guid": "D561AD08932E7B40",
+    "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard-pack\\package-proof.json",
+    "proofSHA256": "39b9bf182dccb0eec73069c60f7bf17075cc34ce5b452adf708d8d6c0a90ca4a",
+    "trio": [
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\Gepard.gproj",
+        "bytes": 666,
+        "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\resourceDatabase.rdb",
+        "bytes": 49774,
+        "sha256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\data.pak",
+        "bytes": 254101614,
+        "sha256": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519"
+      }
+    ]
+  },
+  "currentSourceManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json",
+  "currentSourceManifestSHA256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+  "nativeStarted": false,
+  "copied": false,
+  "role": "gepard"
+}

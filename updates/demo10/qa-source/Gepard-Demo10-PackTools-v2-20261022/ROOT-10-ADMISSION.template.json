@@ -1,0 +1,13 @@
+{
+  "status": "PENDING_ROOT_REVIEW",
+  "requiredStatus": "ROOT_PRIVATE_DEMO10_SOURCE_ADMITTED",
+  "explicitPack10Requested": false,
+  "strictNativeFailuresPreserved": true,
+  "dependenciesWCSAndSpaceCoreConfirmed": true,
+  "noBradley": true,
+  "noPublication": true,
+  "approvedArtSnapshot": "PENDING_ROOT_SEALED_ART_BUILD_RECEIPTS",
+  "currentBothSkinCompatibility": "PENDING_ROOT_ACTUAL_EVIDENCE",
+  "trackAudioAcceptanceScope": "Candidate02 direction accepted; broader GEP033 remains unfinished",
+  "remainingUserAcceptance": "All unobserved manual/MP/fit/coverage/audio judgments stay pending"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "FAILED_BEFORE_NATIVE_EXECUTION",
+  "plan": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-PackTools-v2-20261022\\session-plans\\probe-4f1df565-7ee0-40cd-8bbb-ece7e85f5e56\\PACKAGE-PROBE-PLAN.json",
+  "plannedRun": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-demo-10b-sessions\\probe-4f1df565-7ee0-40cd-8bbb-ece7e85f5e56",
+  "actualError": "PackageOnlyScene10.ps1:106 Exact V2 world startup contract changed",
+  "reason": "Derived wrapper still requires the original v1 C-folder contract path while planner correctly pins the v2 folder. Contract bytes are identical SHA256 fc1a55d24f796da2ebd71e41968e38671a910b4b3b9c846c1aa93b7be59293c4.",
+  "plannedRunDirectoryCreated": false,
+  "nativeStarted": false,
+  "packageOrInstallMutatedByProbe": false,
+  "recovery": "Separate launcher-only successor; repair exact path binding with inverse proof. No package/source rebuild or previous evidence rewrite."
+}

@@ -1,0 +1,123 @@
+{
+  "status": "PASS_SOURCE_ONLY",
+  "nativeCompile": "NOT_TESTED_FRESH_QA",
+  "nativeBehavior": "NOT_TESTED_DEMO10",
+  "checks": [
+    {
+      "name": "final parent adoption",
+      "pass": true
+    },
+    {
+      "name": "manifest:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "pass": true
+    },
+    {
+      "name": "full closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "pass": true
+    },
+    {
+      "name": "manifest:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "pass": true
+    },
+    {
+      "name": "full closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\wcsSmoke",
+      "pass": true
+    },
+    {
+      "name": "manifest:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "pass": true
+    },
+    {
+      "name": "full closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "pass": true
+    },
+    {
+      "name": "manifest:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "pass": true
+    },
+    {
+      "name": "full closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\SpaceCore_5E389BB9F58B79A6",
+      "pass": true
+    },
+    {
+      "name": "manifest:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "pass": true
+    },
+    {
+      "name": "full closure:D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\dependencies\\WCS_Armaments_629B2BA37EFFD577",
+      "pass": true
+    },
+    {
+      "name": "manifest:C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single\\qaCore",
+      "pass": true
+    },
+    {
+      "name": "full closure:C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Demo10-CoreCompatibility-20261022\\native-stage\\single\\qaCore",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:adapter.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:adopt_compile.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:check_source.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:core_evidence.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:evidence.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:lease_read.py",
+      "pass": true
+    },
+    {
+      "name": "Python syntax:prepare.py",
+      "pass": true
+    },
+    {
+      "name": "fixture behavior unchanged except two prefabs",
+      "pass": true
+    },
+    {
+      "name": "original collector exact",
+      "pass": true
+    },
+    {
+      "name": "exact eight addons and one scoped block",
+      "pass": true
+    },
+    {
+      "name": "no obsolete paths:CompileSmokeCoreCompatibility.ps1",
+      "pass": true
+    },
+    {
+      "name": "root owner guards:CompileSmokeCoreCompatibility.ps1",
+      "pass": true
+    },
+    {
+      "name": "no obsolete paths:tools/Scene.ps1",
+      "pass": true
+    },
+    {
+      "name": "root owner guards:tools/Scene.ps1",
+      "pass": true
+    },
+    {
+      "name": "two existing healthy cases",
+      "pass": true
+    },
+    {
+      "name": "explicit finite coordinator",
+      "pass": true
+    }
+  ]
+}

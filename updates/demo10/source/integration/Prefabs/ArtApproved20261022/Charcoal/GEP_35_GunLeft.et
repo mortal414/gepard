@@ -1,0 +1,10 @@
+// Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
+GenericEntity : "{6F50182EB7D3F75B}Prefabs/ArtV11/Charcoal/GEP_35_GunLeftV11.et" { components {
+MeshObject "{CFBAA4B701F95D69}" { Object "{2A7F69D8A7902DE2}Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob" Materials {
+MaterialAssignClass "{E52EA387F04B0756}" { SourceMaterial "GEP_GunLeft_ConstructionV3" AssignedMaterial "{4F44FBD5DA6D41FD}Assets/Gepard/GunConstruction581/GunLeft.emat" }
+MaterialAssignClass "{CD394B38C9688BF4}" { SourceMaterial "GEP_GunPodCasingLeft_Rebuilt" AssignedMaterial "{66553C442FB118C7}Assets/Gepard/GEP018/NeutralBaseV2/0c00d2a1afb2.emat" }
+MaterialAssignClass "{BFDE8EBF7581B174}" { SourceMaterial "GEP_Skin_GepardGunLeft_Registered579" AssignedMaterial "{0D8206BF9FBCEB38}Assets/Gepard/GEP018/NeutralBaseV2/76b92e1dbf50.emat" }
+MaterialAssignClass "{230B0A521F843B75}" { SourceMaterial "GEP_nato_green" AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat" }
+}
+ }
+} }

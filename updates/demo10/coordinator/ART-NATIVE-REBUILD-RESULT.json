@@ -1,0 +1,137 @@
+{
+  "status": "EIGHT_NATIVE_BUILDS_AND_CHANGED_COOKED_HASHES_VERIFIED",
+  "models": [
+    {
+      "new_model": "{B621A5631346B7A3}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.fbx",
+      "new_fbx_sha256": "fdc4133cc08fb321d9fe30362c736557403e64c6faaa9283ceffffa28c784ed2",
+      "seed_xob_sha256": "c8c767b4fe90d61b52e81b18cff305757751554914f7be14d04b925e3a214622",
+      "actualCookedSHA256": "b9c19ce4247be573aa5215100579d80e3a2fd0a1b888c7cfa1824399f1fe321e",
+      "actualNativeMetaSHA256": "28772fec6aa0e7ab50c6337a408ccc611d5326b2015f700f3b81d3924e6667a4",
+      "nativeMetaTokensUnchanged": true,
+      "txoSHA256": "12397d3c098681e556b16ba9af65d4c5faa896e6ebb07d21b9c0e359c1852924"
+    },
+    {
+      "new_model": "{418DE4B4FC8541A0}Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.fbx",
+      "new_fbx_sha256": "d9c81b27823212d11014867253f952fe5da686d48bb924233de084a7fdbf16d2",
+      "seed_xob_sha256": "d119ae1e0f871dd87e42dd230a71733cb6e4b5530935fd4d1af4d9f29078f8fb",
+      "actualCookedSHA256": "354cabb309c24dbe81887729425991e3adf5461e28410e039b5692cc86eb3963",
+      "actualNativeMetaSHA256": "b330b85d8b481d05ea623be0ea08275e6dff7a35e2f3e8914c25e4328eb24901",
+      "nativeMetaTokensUnchanged": true,
+      "txoSHA256": "57a8e51f45f3e34f9ae90e9da64f08969a619ce14eb3a749737f4e06a3367486"
+    },
+    {
+      "new_model": "{C23AF0E6361BFB2C}Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.fbx",
+      "new_fbx_sha256": "57fcd57facf9f30b1fe8166d55f119119985426f16b83b150a46afbf42bc0958",
+      "seed_xob_sha256": "3b5f1c3b52f727dfa4282de6f072b1210eb030ba53b166152c1d520ca89b7e6b",
+      "actualCookedSHA256": "0e17098d1a60cd5b9ad2685c6bcde12f5dd641652b0cc7874bc904d54a4f2260",
+      "actualNativeMetaSHA256": "0652a8fed0cec52c141041d0cd6fbe47df10ffeae076d8ab48e13be63078bb63",
+      "nativeMetaTokensUnchanged": true,
+      "txoSHA256": "50f9cc8699acb5a2c7ddc85b845f2c4e55b642757bfbc51a88d38520f760c5f6"
+    },
+    {
+      "new_model": "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Mobility/MobilityRig.fbx",
+      "new_fbx_sha256": "256013e7aada1110e76775894fb1533c74ea368e6f4e9ed90f0c6369b0bbc358",
+      "seed_xob_sha256": "7490fcff9d9e2ee387ad08972c75aecb1e4d8f601c0fba62b7a9cb8e2b1374f1",
+      "actualCookedSHA256": "ea7f09575ca8ae6bbd002612c36569789dd1b356fbbf91bb29808278a903bbb2",
+      "actualNativeMetaSHA256": "a785d36f1c19a247befa304d987b5388453e7b95d86c9f33c48f4781fd14d464",
+      "nativeMetaTokensUnchanged": true,
+      "txoSHA256": "452796eae4239da959c5c38d9e9838232b95fbf6bf4bc126a4bcfd4031c6086a"
+    },
+    {
+      "new_model": "{4D7043CCA2E8BD79}Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.fbx",
+      "new_fbx_sha256": "881ca360c0b3cebbade36589897e938a015fec49a83308b91cefc61a80d629b5",
+      "seed_xob_sha256": "79ccacd0ca36a5a60a3c4be398d5170d1a6f46d776c1ee853a77c8d7aec932c2",
+      "actualCookedSHA256": "1656d1b0f8991c32e70b16e4a46070c555aa4f46dacb24010ea8296124efb8f2",
+      "actualNativeMetaSHA256": "c3cb1f7e71cbeb0dc52fea4b962741f3066bbb9054f8b5a4de49d0b970ddd511",
+      "nativeMetaTokensUnchanged": true,
+      "txoSHA256": "56c25f327421e1e12e3be7f03f005782588ab964cebde0824ff970d3f50e5f88"
+    },
+    {
+      "new_model": "{3BCF7603417F357B}Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.fbx",
+      "new_fbx_sha256": "7117353ccfb3712fa2636ddaff52d57f1adcf106521d84d93be902f88bdd7d74",
+      "seed_xob_sha256": "3131f0cce258caabe4a3560cb3ef9a934f5e68a05cb4939ad24611f33ddd2ad3",
+      "actualCookedSHA256": "4ca3b4f248dddb33a8960e2d5b2fafa2b701e5090729c9fbe41cd3697c495a96",
+      "actualNativeMetaSHA256": "eaf65d4b4c2d6aa5601c613551bc4ed7a0c2399b4a60383b487a03f2c79844f5",
+      "nativeMetaTokensUnchanged": true,
+      "txoSHA256": "4a8fc6fae32b734471f026ebb5286e658bf3c0f5699702c158aa5908e662ba9e"
+    },
+    {
+      "new_model": "{2A7F69D8A7902DE2}Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/GepardGunLeft.fbx",
+      "new_fbx_sha256": "646d25a76e5e404a08368fe7856b9c6e96beb1b104ea143a384917136c476d70",
+      "seed_xob_sha256": "23ecfc6d4a976ccebfccfaee17a4db4068d4970f2f1349ed9c807b6dea128499",
+      "actualCookedSHA256": "cdf4cad356c3d5bb32440079d3fb1ce8d015f73b8ed05668ae7f5feab0c62b58",
+      "actualNativeMetaSHA256": "cdcd5d6391605b55c90f2940a51faf388fe14ae3e28e51da27a4b5f88b00d3f2",
+      "nativeMetaTokensUnchanged": true,
+      "txoSHA256": "b7379ede9a1ce56f7aeca5f21f9e6c7afaeed928cf3822f804a0278617bac620"
+    },
+    {
+      "new_model": "{3772144B4AA90B1E}Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+      "new_fbx": "Assets/ArtApproved20261022/Gepard/GepardGunRight.fbx",
+      "new_fbx_sha256": "c679f652ce1414d7f4de38c0d4ecb98dddc8d7681ac47bdf9362fbb862d65664",
+      "seed_xob_sha256": "7cac0dcaa1aede8111a3c887deeffdfba62129904c751e47e83c2cf9e8a926e7",
+      "actualCookedSHA256": "f5c09abe75724930f3cc1bfb463a735e3c44ccba3d62d27e537e91be6be1e872",
+      "actualNativeMetaSHA256": "92bc50708d62e857c825ce89dad4bb8cc3453a52963ba5d72336cc354cf8a5db",
+      "nativeMetaTokensUnchanged": true,
+      "txoSHA256": "d727849db9f3a1570100ee865a7f124305ccb7a0b5b4b6e687bdc33e9d6a5236"
+    }
+  ],
+  "sourceFBXsUnchanged": true,
+  "nativeMetaTokensUnchanged": true,
+  "newFiles": [
+    "Assets/ArtApproved20261022/Gepard/GepardGunLeft.txo",
+    "Assets/ArtApproved20261022/Gepard/GepardGunRight.txo",
+    "Assets/ArtApproved20261022/Gepard/GepardTurretRig.txo",
+    "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.txo",
+    "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.txo",
+    "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.txo",
+    "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.txo",
+    "Assets/ArtApproved20261022/Mobility/MobilityRig.txo"
+  ],
+  "exit": {
+    "verifiedExited": true,
+    "exitCode": 0,
+    "utc": "2026-10-22T18:10:15.5235463Z",
+    "leaseReleased": true,
+    "closeMethod": "owned-normal-window-close-after8-builds"
+  },
+  "console": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\approved-art-rebuild-02\\logs\\console.log",
+  "consoleSHA256": "029117914b48cb3d6ef1966bdb9041a75f695aa48958348847e27a8203223c63",
+  "rawErrors": [
+    "13:10:04.705     RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"",
+    "13:10:04.705     RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"",
+    "13:10:15.049 RESOURCES (E): ==== Resource leaks ====",
+    "13:10:15.049 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+    "13:10:15.049 RESOURCES (E): UI/Imagesets/default.edds   1",
+    "13:10:15.049 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+  ],
+  "nativeMaterialsRenderingClearanceCollisionLOD": "PENDING_SCENE_VALIDATION",
+  "scope": "Model import only; no gameplay acceptance or publication"
+}

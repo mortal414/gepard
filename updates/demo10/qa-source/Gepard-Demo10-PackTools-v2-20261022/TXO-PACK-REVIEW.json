@@ -1,0 +1,5081 @@
+{
+  "status": "SOURCE_AND_PAK_INDEX_COMPARISON_ONLY",
+  "rows": [
+    {
+      "role": "qualified-core08",
+      "pak": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\data.pak",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\gepard",
+      "manifestSHA256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+      "pakSHA256": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+      "indexSHA256": "2b783ec71d11af0937d5bfd6e3d62a8aff4e2be4176c7825416fc1f8a81c966d",
+      "indexCount": 587,
+      "extensionCounts": {
+        ".xob": 34,
+        ".emat": 193,
+        ".edds": 238,
+        ".conf": 8,
+        ".et": 76,
+        ".c": 38
+      },
+      "sourceTXOCount": 5,
+      "companions": [
+        {
+          "txo": "Assets/ArtV11/Gepard/GepardGunLeft.txo",
+          "sourceTXOSHA256": "05b3ae94c00fafeffaf2179d0b69389e02f0ecc2c5f34e1bf2069039717b6a1c",
+          "txoInPak": false,
+          "xob": "Assets/ArtV11/Gepard/GepardGunLeft.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtV11/Gepard/GepardGunLeft.xob",
+            "offset": 56,
+            "storedBytes": 597999,
+            "rawBytes": 597999,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtV11/Gepard/GepardGunRight.txo",
+          "sourceTXOSHA256": "a449da3423461fd644d57cd4497242b5063dcb4f6e1b95e4ce8f05bab8f4d15c",
+          "txoInPak": false,
+          "xob": "Assets/ArtV11/Gepard/GepardGunRight.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtV11/Gepard/GepardGunRight.xob",
+            "offset": 598055,
+            "storedBytes": 605009,
+            "rawBytes": 605009,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtV11/Gepard/GepardTurretRig.txo",
+          "sourceTXOSHA256": "67da352d0e4a87c3bb07b2953ecf9e6a10388ee99d11f264887a51b3b4d266ee",
+          "txoInPak": false,
+          "xob": "Assets/ArtV11/Gepard/GepardTurretRig.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtV11/Gepard/GepardTurretRig.xob",
+            "offset": 1203064,
+            "storedBytes": 2066886,
+            "rawBytes": 2066886,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.txo",
+          "sourceTXOSHA256": "e2d45cba8b794e136a58165e4512ae1aaf16437fde553a5b3e3235e953646ba0",
+          "txoInPak": false,
+          "xob": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+            "offset": 3269950,
+            "storedBytes": 630894,
+            "rawBytes": 630894,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtV11/Mobility/MobilityRig.txo",
+          "sourceTXOSHA256": "49249a760c2fa098a1f2fc990191a8958ba11f9548c201678af94110f22c8113",
+          "txoInPak": false,
+          "xob": "Assets/ArtV11/Mobility/MobilityRig.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtV11/Mobility/MobilityRig.xob",
+            "offset": 3900844,
+            "storedBytes": 23183881,
+            "rawBytes": 23183881,
+            "method": "00000000"
+          }
+        }
+      ],
+      "textReferences": [
+        {
+          "file": "Assets/Gepard/AntiSlip673/BoxLidAggregate673.emat",
+          "sha256": "a268fb25d940eb9c726692a8f80865f3ed5b17dba0af5ee80f1131bf8bc7b262",
+          "references": [
+            {
+              "resource": "Assets/Gepard/AntiSlip673/BoxLidAggregate673_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/AntiSlip673/BoxLidAggregate673_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/AuxFittings672/GEP672_DarkCap.emat",
+          "sha256": "1de81c12cccc0ab4899ef25fb9bc5f61c9d827561c3b878662872b390ccbbbf4",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/GearRecess522_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/AuxFittings672/GEP672_Paint.emat",
+          "sha256": "1628c931d3abd10178115cf104ebf11078b765210d162ce3d14f62abb318d835",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/grille_paint_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/AuxFittings672/GEP672_UnlitLens.emat",
+          "sha256": "850b4bffd691dca02c175e02c4d1735f571b5f4829398badd65ef29a75d22448",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/OpticalGlass_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/BalancedCasings648/CasingLeft_BalancedMaintainedDry.emat",
+          "sha256": "abdeca39f1edd56f204973132d9606a3373269fdb061c9f5c9e7f29fb76548f0",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_06f34cace3_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GunPodCasings614/CasingLeft_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/BalancedCasings648/CasingRight_BalancedMaintainedDry.emat",
+          "sha256": "7c15e7d6c6aca213e47c4f344b65b9e66553faeb8a262b5ddb492d1cf0bde6cb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_63941ab408_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GunPodCasings614/CasingRight_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/BalancedStorage651/ExtensionOuterBody_BalancedContactWear.emat",
+          "sha256": "d024fb3c0d6d124c5e06789153630f861c2ce225a1fa5747dbaf1f3becc791cb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/BalancedStorage651/ExtensionOuterBody_BalancedContactWear_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/BalancedStorage651/ExtensionOuterLidLip_BalancedContactWear.emat",
+          "sha256": "0d16c6e646a17a9867db0b54c20abea5b1e812a5a2d74629aa71900c7bc3ecb3",
+          "references": [
+            {
+              "resource": "Assets/Gepard/BalancedStorage651/ExtensionOuterLidLip_BalancedContactWear_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/BalancedStorage651/SideOriginal_BalancedContactWear.emat",
+          "sha256": "755b8901476d5e1762139aad8abd8760854f41b65e845c9f7ec59c114b121682",
+          "references": [
+            {
+              "resource": "Assets/Gepard/BalancedStorage651/SideOriginal_BalancedContactWear_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ExteriorClosure658/SearchCharcoalCover.emat",
+          "sha256": "5560bbfb876ccf5b4c47f6a69f77e7c86cd306ce82b4e25b0fa769175363e9f3",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ExteriorClosure658/SearchCharcoal_Cover_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardSearchHead_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ExteriorClosure658/SearchCharcoalLip.emat",
+          "sha256": "ea73be7c1d8f0736459559af1f9c29d4e2ac77d73792595e0c414abeb141bd83",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ExteriorClosure658/SearchCharcoal_Lip_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ExteriorClosure658/TurretNationalCrosses.emat",
+          "sha256": "c9a4c4af40ea384ab88aabf76f849e4fb53d32b6576d86414f4281f00408ff7d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_f25582f131_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/TurretServiceB604/TurretShell_ServiceBRefined_20261017_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role02_FinalFinish_Hub14B.emat",
+          "sha256": "cae258d5b0c51315e6bb4c5fcbf85abc4c09125370c8669b809a29de567707b6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role02_FinalFinish_Hub14B_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role02_FinalFinish_Hub14B_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating.emat",
+          "sha256": "fa5015f5df7578f31f31e8f409d42aee642bf6d2c41a674fce6300538567753b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role04_FinalFinish_RearHardwareSuccessor.emat",
+          "sha256": "039b36a06c5b93b405e846d78b0ae21e2fd10607170cd698953bebaae058d86a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role04_FinalFinish_RearHardwareSuccessor_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role04_FinalFinish_RearHardwareSuccessor_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role05_FinalFinish_RearPanelC.emat",
+          "sha256": "e9f204b80647129a4717e9079c5af979671b894c0fbe3944f9358d42b977a255",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_04e1c34072_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role05_FinalFinish_RearPanelC_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role07_FinalFinish_Wheel09TireRolling.emat",
+          "sha256": "7bb847affef8ed1bf95392e111cdafc7b96493a39af1577e1e6bd72794637808",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role07_FinalFinish_Wheel09TireRolling_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role07_FinalFinish_Wheel09TireRolling_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role08_FinalFinish_Wheel09TireSidewall.emat",
+          "sha256": "218a0ac8e545b6bdb81cfc437e2aef8e3acf352fa3968e65a03dcc6d900fa44a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role08_FinalFinish_Wheel09TireSidewall_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role08_FinalFinish_Wheel09TireSidewall_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role09_RearOptic_Amber_Unlit.emat",
+          "sha256": "d0734652d4dcd9b58cf7fbc268bd94f6a20e5cd89e97b34c59c7e4f084267720",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role09_RearOptic_Amber_Unlit_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role09_RearOptic_Amber_Unlit_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role10_RearOptic_Amber_Unlit_LOD3.emat",
+          "sha256": "13b9a778c0ce4afc3de3c872e567c5b927a51c8c662d198f325f1663b76362fb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role10_RearOptic_Amber_Unlit_LOD3_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role10_RearOptic_Amber_Unlit_LOD3_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role11_RearOptic_Red_Unlit.emat",
+          "sha256": "4325757e21165165a2c3349f3d70dd6b38bb1119f0950cb7b7978e2b5bfa9fab",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role11_RearOptic_Red_Unlit_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role11_RearOptic_Red_Unlit_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role12_RearOptic_Red_Unlit_LOD3.emat",
+          "sha256": "fea3b5d7559106ef79a0a7f2007738d0bc40aac79f7eb486b6d85f4b608625f9",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role12_RearOptic_Red_Unlit_LOD3_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role12_RearOptic_Red_Unlit_LOD3_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role13_RearOptic_White_Unlit.emat",
+          "sha256": "8431996400959a1916874a89532e255e59a7bf53fc9ecfa2028ffc237354205b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role13_RearOptic_White_Unlit_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role13_RearOptic_White_Unlit_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role14_RearOptic_White_Unlit_LOD3.emat",
+          "sha256": "b663e0671110af8f4e92018583e113b573b18c8b203e21e5d30fdd6cca858a4c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role14_RearOptic_White_Unlit_LOD3_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role14_RearOptic_White_Unlit_LOD3_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage.emat",
+          "sha256": "75128161d4626aee3e105f32db1fb69e8019699901d3c9733d22227d92d326b1",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/CabinPanels.emat",
+          "sha256": "25c1c21d6992b17781d5b4b7220c5f0af92cb2bb03cafea7649127020cc0bee0",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/CabinPanels_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/CabinPanels_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/CabinShell.emat",
+          "sha256": "62094e082cd4c0ce064045a4112b3d3dfa19b7c6ff2dce73a5ad24f87a9ca9fa",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/CabinShell_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/CabinShell_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/ConsoleArtwork.emat",
+          "sha256": "70fb6da542d57ad87e2ad6fd37d0585bb17f8b4d7f8c60ec6a2c0add7fab8520",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/ConsoleArtwork_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/ConsoleArtwork_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/ConsoleArtwork_EM.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/DriverArtwork.emat",
+          "sha256": "279244ea61d1f8268851c173bef388f65759ee72ea79e2a66098cbf019881d00",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/DriverArtwork_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/DriverArtwork_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/DriverArtwork_EM.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/DriverStatus.emat",
+          "sha256": "2c7d9616e4132c4b5f330d003ba6bd6aa14c81ceca19c16ad1e30b3bf9e3fe6d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/DriverStatus_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/DriverStatus_EM.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/IndicatorAmber.emat",
+          "sha256": "949a5ab400d19bec31193a45d6aea72a8a7ebb4d87bd96868ed65889eba7d6cd",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/InstrumentWhite_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/IndicatorGreen.emat",
+          "sha256": "31df4d632526606ac731b9ea4a31a52acdca8bd2edc7b20c52d79a97882bdc7b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/InstrumentWhite_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/IndicatorRed.emat",
+          "sha256": "e83259e49dce280c0c09852e248c149d4314e646e9bab07418086069b7b4b592",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/InstrumentWhite_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/InstrumentNeedle.emat",
+          "sha256": "4ce2421c7a9ee9d547c4d6f7b7d84c4a26a68fcf4328dd74a4ebf0e59b17831f",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/InstrumentWhite_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/PodRight.emat",
+          "sha256": "c090288f19002a1d1de9f50c4fed07310ded0901f5d16dc8febc160b6ee718e2",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_6711b96998_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/PodRight_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Finish/Turret.emat",
+          "sha256": "e7e92b66a19882e26d31fb8d449da947f8f5c43098ba69e436ac2b307b76ea33",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_961d0d9ed3_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/Turret_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FrontBatch660/GEP_DriverCoaming_PaintedMetal.emat",
+          "sha256": "92af3dc5adcd77bcd0287e41996c9776082a2efcea5e481b0ca63f1434b045d1",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FrontBatch660/GEP_DriverLid_FittingPaint.emat",
+          "sha256": "92af3dc5adcd77bcd0287e41996c9776082a2efcea5e481b0ca63f1434b045d1",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FrontBatch660/GEP_FrontAssembly_CanopyPaint.emat",
+          "sha256": "92af3dc5adcd77bcd0287e41996c9776082a2efcea5e481b0ca63f1434b045d1",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FrontBatch660/GEP_FrontDeckDetail_JoinSupportPigment_FlatNormal.emat",
+          "sha256": "28dab584499d8fe0843e0511ab87437e94eb118f7f6294b6ce455034ab5cf8ee",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_508a4e2fa3_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FrontBatch660/GEP_FrontDeckDetail_Paint.emat",
+          "sha256": "92af3dc5adcd77bcd0287e41996c9776082a2efcea5e481b0ca63f1434b045d1",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/FrontBatch660/GEP_FrontDeckDetail_SupportPigment_FlatNormal.emat",
+          "sha256": "211c5fd706bd5a8a2398244e0903c78a4c1c651b4b11ee8609e4643b9445d669",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_8c316345b0_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/020ab27cd01f.emat",
+          "sha256": "ff5ec220f331ad498e616854bee1f6fdd99f9d47d8ca7ca3f235b35fdc56b73d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0b6f608a76f2_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role05_FinalFinish_RearPanelC_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/05e7fc30e945.emat",
+          "sha256": "f119e4ea265140a79a04361ef96f4913dd9a673d72c68d23e301e5696cf32921",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e270d1a3924b_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/Turret_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/088a56ab9cf5.emat",
+          "sha256": "7299d364f6679f682a5cb0dfdcb1eef74519147b77d05bbd1fa3c592a3dcfb52",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/701377ab5f21_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/0986c298d2c7.emat",
+          "sha256": "61264b9f286c9d39481663b220b4a5477d17ba99ae699e9c4ae25d22a8e8e85d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/44535184980d_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/0b248cf1fd4d.emat",
+          "sha256": "8affbe30dab6965fb6c2737fb2e9707499183f715f70b1e42576c885ade4c39a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/fd7a85fa7567_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_BackingCaps_NMO_TARGET_TRIAL.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/0c00d2a1afb2.emat",
+          "sha256": "d42fb835bf04ad4c473ae6354482cbe3d1c90fbb6fee0547147fad9a32d77529",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/cd8bb109eaf2_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GunPodCasings614/CasingLeft_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/102ca5cec226.emat",
+          "sha256": "4fde986f911015a796a927a83d2798354d6f2f9517e51031b3822d255a478dd8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/854e65e5e0fb_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/1298fa5daad0.emat",
+          "sha256": "899905cd11581013354ae17713ad337cd51e6977197e03eb48318369cce177d0",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1a6362684080_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/TurretChin614/ChinServiceB_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/169b1cf35126.emat",
+          "sha256": "5cf4bb76a9e724e7b8b410f6abc62d87f81be5c4157189867be54c6db0fb2e6d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/52754b36af63_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/18336e265596.emat",
+          "sha256": "f7859a90e386014b188c5971ed0eddcf5a2730b762e2c5eec11baac2eed5af49",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b0b473ca883e_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/TurretRearBand589/RearBand_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/1bb2d6fcf803.emat",
+          "sha256": "fb5cea1faac1191d08f6ea2783be687451ad0ce293b9d057c9d23d749e3d6cc6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/881d3e526b8a_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FullWidthApron606/FrontApron_FullWidth_Coating_Left_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/1c3df24cafd0.emat",
+          "sha256": "4fde986f911015a796a927a83d2798354d6f2f9517e51031b3822d255a478dd8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/854e65e5e0fb_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/24ea9fa1a6ac.emat",
+          "sha256": "9153976713e17015264ee4957563182d3ce4ea167635188c7bfd30fcc2b2f571",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/bc1334ca76ef_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/2bd602c9a9a9.emat",
+          "sha256": "3f0fc7c3a714e4f9dfc08221a79e28bfc12eb6ef74a7366325191cd8c87957a8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/08dbf2678303_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GunPodCasings614/CasingRight_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/2ccdc0ca60aa.emat",
+          "sha256": "c9b0aa6f51fc9ea736d8a4ebb0a87c807ff2dcec5a8e2c3491c3bc0ccd1bb285",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a6fec48e6625_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/2f45283c4f45.emat",
+          "sha256": "9f74eb40477a0d2c1f56889bcdcc7ab5814005f256c558a7bbca85ca45120604",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/268013dcc030_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/31d95ba7f9da.emat",
+          "sha256": "da52fec72847622223ef07c188d2d762b026d6503be988240a846affe4aec73e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/dd7e865b84f0_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_EngineTops_NMO_TARGET_TRIAL.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/361672852acb.emat",
+          "sha256": "a514f0ea6084f64d111902b9aa5b43511bed2f3b8a3842ba25efbf449b6a2688",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/00655602853e_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/3dba6e0f7111.emat",
+          "sha256": "f790255e25e9300311d6be53af277a7e10894c0002c65c3f010d29119b4ca852",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6cd09ffdd763_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FullWidthApron606/FrontApron_FullWidth_Coating_Right_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/40dd79a14231.emat",
+          "sha256": "3635bf163a4b03ab8a31d8bb8da721065abe3cd76cf9123e1b89512c4a637711",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b88a9592ef33_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/41c0b9c7153a.emat",
+          "sha256": "8457185f01b9f1afc44ea1545e5263b4e6dee50e7690d24b98416bc1089204bc",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/88191ac56cc5_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/TurretServiceB604/TurretShell_ServiceBRefined_20261017_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/4699432e0efb.emat",
+          "sha256": "941e9258e6ec144c5005294ac365883257095210fa44483ed9196be3e51d1d48",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a7c86117a985_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FullWidthApron606/FrontApron_FullWidth_Coating_Left_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat",
+          "sha256": "44a9ca2932dd741dcf4d9cf0802e8d13ecf37526c3ce1c9f3ae13d3de5e323fd",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1d8b31a774f6_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardHull_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+          "sha256": "df6188db5bd9128af16b7b2f173670d461ec28bcabf9bc4da5ca261120e3ab69",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/9d86f2cc323f_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/grille_paint_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/49e9ab156d14.emat",
+          "sha256": "43d5a9ac76c5b5a0a425ea46d8b30d7abeb19f0a246e536ea41a0ad217b21bd2",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1155c8d0b63e_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/SearchBase624/SearchBase_CastService_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/5053aafe90c4.emat",
+          "sha256": "66cb43a504bb8eaa5f8db459d9e52a2c2a63a20a0a65526aaf509efdc6a3134b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/d1e75c37f627_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/529eca88f4de.emat",
+          "sha256": "0dcbed80f4801ab32d5d4a8c75c2f9bf53f7f77447432051c8cc644bd0d3896e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/88834ae601ee_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/radar_dielectric_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/53379c03154d.emat",
+          "sha256": "03435decb9e0966ceeac9bc9190c20917700173811e272f4a536564745c7c653",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/326604efc848_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/57e7c826739a.emat",
+          "sha256": "4fde986f911015a796a927a83d2798354d6f2f9517e51031b3822d255a478dd8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/854e65e5e0fb_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/59e80cb6daf7.emat",
+          "sha256": "4fde986f911015a796a927a83d2798354d6f2f9517e51031b3822d255a478dd8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/854e65e5e0fb_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/5cbce2351fb3.emat",
+          "sha256": "7f703b0470d3ae87fb76b329523331aa13fa1f780954980927be17b44918a7c5",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/565444e1e2c4_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/5d76baab52cd.emat",
+          "sha256": "efd770b1a44e204e04d15e6a71c383c670e9f2f70d1f91ce5abab7d16cae8c5c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/44169d07b9b1_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/PodRight_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/5dce92a4338e.emat",
+          "sha256": "eb325bbb142be640787e05d4432d9dee1cb96148777c9d595ba0d74cc3f840eb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6d91255b2780_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/6155a1390dd0.emat",
+          "sha256": "84d4a564cd4cb6e574b1e13ae8d1db535ce16730fb0319df9a47217a1ed7742a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f692805078c0_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role04_FinalFinish_RearHardwareSuccessor_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/61b40334a493.emat",
+          "sha256": "1dc58426fd65439ba453da06e0200b65b0ecc3189a352734f9785add482e2544",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/3d42095aac3c_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/656bd99b85a3.emat",
+          "sha256": "a9425743f32d80f0f1fa725448149f247c07ff788ca551a5ccb8f5e8f4d5657c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/197208f066c2_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/66282ffb5bb1.emat",
+          "sha256": "d2ecedaad8609e8d137a523336bcf5fb5e9e50f78a9cf9785d291b1837c3ea24",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/de9e939839f6_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardTrackingBase_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/681fc81007ae.emat",
+          "sha256": "35bcb1dc7d2ff5f6d344d83b4d91f1576778484528497c025ba5881b8693f02a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/46fcaad0e793_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/6c32f248f7b1.emat",
+          "sha256": "4a34dbc37d51cba1bdc13585153e4f546d04843b3074ef3d60b34a1dc4fa26c4",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e3943d93afc4_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/AntiSlip673/BoxLidAggregate673_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/75d55508b3fe.emat",
+          "sha256": "104e71905cae477bfcfac113306f8d4c70c4e66e62079cc0925237642f8eed1d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/fab2a0ea80c9_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/75f553f90903.emat",
+          "sha256": "0b22a4e2ad77610c6e0d68cb28321df3ff858c8e21bc069588173e744b3bf939",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0b913bed3ccc_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/SearchBase624/SearchBase_CastService_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/76b92e1dbf50.emat",
+          "sha256": "db4e4629993b0d88cb1e057571d87e40056ed3f4390dfee8af5b4515e2c7b2d3",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/be2835f81c46_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardGunLeft_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/77077fa3f29a.emat",
+          "sha256": "88fe743a1d45df48839d7077b020286700a9ccc6ba701057477932fd874231b7",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6b9b67054e4b_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/7d5ddd1ddf3b.emat",
+          "sha256": "ebd93015dfe19ed257b694e3295fd022a2acbd324c89ad5ac7993631ab2cfbe5",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b36f03797e69_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/8212ff982752.emat",
+          "sha256": "6e19352b6e1309fca4e7414aac287d62da8f286779b344299611c8782ff4c424",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/21e5b3cdc814_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_NatoOutward_NMO_TARGET_TRIAL.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/879d7e559a19.emat",
+          "sha256": "940af26a59c7937d3f4bae87b2206e81c853493f7d375020aa51593c6b98371d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/9d3c68738a14_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardSearchBase_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/8899ecf324d1.emat",
+          "sha256": "987130b95af037e2e018f1e9333839ccccd2d34733b2b289af7bc186c96f3fdf",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/28661750e395_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/898cfbc09ae6.emat",
+          "sha256": "d5789d3c6e12fae4c5c94b713fccf7fc9fc512b8413346e47af0b9e4547e7c6b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/194014a6d393_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/92b0c8249144.emat",
+          "sha256": "3635bf163a4b03ab8a31d8bb8da721065abe3cd76cf9123e1b89512c4a637711",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b88a9592ef33_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/944a5de838d6.emat",
+          "sha256": "88fe743a1d45df48839d7077b020286700a9ccc6ba701057477932fd874231b7",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6b9b67054e4b_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/975db2cf4f7d.emat",
+          "sha256": "c98772ceb4fa84c80434ecf932f324b05161d5cc71ff009d08436a0d52823940",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/07ff4d5b5ccd_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role00_FinalFinish_FlankB_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/a651ea9fb268.emat",
+          "sha256": "1ba79ff28672a2c5a4745f7f1cff866813c3a102c164291afc8246412238ffcb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/4f5c2d94abc7_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Underpod225635/Underpod225_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/a676856f5df6.emat",
+          "sha256": "3521226f7b3d8bbbf39f1a1b154e8800cfb8e804a14b9c2fb83e3e738a5525e2",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/173cc801a905_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/CrewRoof621/CrewRoof_ServiceB_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/ae9695c48890.emat",
+          "sha256": "f691824a408cadb731026d8839670b3fab1762c0259ed560bfe45da9372c1afb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/14866cbda897_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardHull_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/b0d6eed00c40.emat",
+          "sha256": "d87dca455f1e2366449fd74bdf4330502d7c49adba06c7a6e919744373082bda",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/3f702088036d_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Underpod225635/Underpod225_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/b27aa5819735.emat",
+          "sha256": "1dbbd5b392a432ac8a2a2bd1a4f5dbc67d7b749f042231732969ccf9d70b4c09",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/18ac2a764cd2_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role05_FinalFinish_RearPanelC_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+          "sha256": "d4b44189a665204cadccec3dacb615dbae88bfa22110aafdf288ea849fd7d2e6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e7ba4be9b9cd_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/c1c79ae8f08a.emat",
+          "sha256": "85985bb1c77b408af16c83ba4beae019499a39cafb61bec512f10b570cf2ebd2",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/64d0ea4b8036_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/c4c003557554.emat",
+          "sha256": "e1dbc916e273cd5b64895aae00e35efd2a1c5588711b34dbc44f7c61f334304b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f5d14eaa07a3_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FullWidthApron606/FrontApron_FullWidth_Coating_Right_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/c8c68b02c92a.emat",
+          "sha256": "99a8badd87f46ad1f8eeef39b04520e0ed8219e1f8696fe9c68d2d84eb5ea845",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/01580a4127bc_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/cb6ee142ef9f.emat",
+          "sha256": "b6f560b1119a11aebad17aa4d82b5dc483e8402b25f1a2d743fc8391d94e8436",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/3d67122b08b8_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/PrincipalCoating/PrincipalHull_Coating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/ce6c45851113.emat",
+          "sha256": "88fe743a1d45df48839d7077b020286700a9ccc6ba701057477932fd874231b7",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6b9b67054e4b_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/d679c9e966bb.emat",
+          "sha256": "5e56e4aafda64f2dd9351ac3e63a9bd1a82435e7cf48a4d5c72255dd59d89b88",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/c462f30c3360_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/d6a3321b2692.emat",
+          "sha256": "3521226f7b3d8bbbf39f1a1b154e8800cfb8e804a14b9c2fb83e3e738a5525e2",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/173cc801a905_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/CrewRoof621/CrewRoof_ServiceB_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/dbd23d9d19d8.emat",
+          "sha256": "71789e32542888f309744bbe752708c78d85d2da97179703d1fce30719552483",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/54dfad443eea_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/dc373c830ff1.emat",
+          "sha256": "d4b44189a665204cadccec3dacb615dbae88bfa22110aafdf288ea849fd7d2e6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e7ba4be9b9cd_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/e76d87db4957.emat",
+          "sha256": "0d5d2fec44fcfe1b830da06da91f0d18f545e69019e092d09623460f5f8c295c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a5a2239ab619_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role02_FinalFinish_Hub14B_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/e86abadff894.emat",
+          "sha256": "c6ad7f2729b6da1a6db968599b6fe78deebedbc8e29bc1f397f4b796e62181b9",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/5dbaa412da93_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/eb253b96725f.emat",
+          "sha256": "7f6266a082a00a1aa436e2dddd08dcfbd40ac2a0b8f6b03a2c23573a38682cc6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/235c4bad191a_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/TurretRearBand589/RearBand_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/ed8712e35f95.emat",
+          "sha256": "e923d4c4bc92ea531a8e7517752b6805956ca8a7d1359f93efb52f79c1ae1f8c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/c923cfa1ff99_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_VentOutward_NMO_TARGET_TRIAL.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/f3a2be60e196.emat",
+          "sha256": "9162ffe4d1b70d0aa6989f1ac8d690d0b4ef9dbce37fc884f2f54381e6889a20",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/2610097e39a4_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/f6266e5e7d51.emat",
+          "sha256": "fd46497c05a3b56d9356b2ff2e7abece2a7d110d5e886558905d7a8b2eeb38d8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/22c6037205a4_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GEP018/NeutralBaseV2/f9dca3bda6c1.emat",
+          "sha256": "cb2bd9a54c9292dc147b5e29357dac7bc2aa46a469a1455f37cb26a0d7dd4ff0",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/75c085431e6d_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role06_FinalFinish_Wheel09Coating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GunConstruction581/GunLeft.emat",
+          "sha256": "44ade277b7d1aaccdbb871e8c2b5dc4dd6bd6d3f3338158c47447ce704cfb151",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GunConstruction581/GunLeft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GunConstruction581/GunLeft_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/GunConstruction581/GunRight.emat",
+          "sha256": "401397a748e2110c59fa2ba36bdda1f58efbd8288ef2ead0f0da7558f5531ba0",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GunConstruction581/GunRight_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GunConstruction581/GunRight_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/HullExterior622/FrontTowPin_ServiceContact.emat",
+          "sha256": "d9d2107724e0c4e297667f4e5558943702ff936210aa7d316fd647302a8024a8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/HullExterior622/FrontTowPin_ServiceContact_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/HullExterior622/FrontTowPin_ServiceContact_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/HullExterior622/RearHull_DoorSeam20300.emat",
+          "sha256": "316ecd4a6dc7816eb84893e0f7d8febfa7bd85fa2c99d6b29dacbc7f8ae246d1",
+          "references": [
+            {
+              "resource": "Assets/Gepard/HullExterior622/RearHull_DoorSeam20300_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/HullExterior622/RearHull_DoorSeam20300_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Interior/CabinAmberOff.emat",
+          "sha256": "0a8cdbe15298b45a81d19ac3135c967e28ff00d91d2cfb34bff53fc64cfe2567",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Interior/CabinAmberOff_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinAmberOff_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Interior/CabinEquipment.emat",
+          "sha256": "45c32408a072126ca3d1c49de91a3e4d223e716b0e69d404a4e0681eb8928db3",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Interior/CabinEquipment_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinEquipment_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Interior/CabinGlassOff.emat",
+          "sha256": "243c0512b4529441c1bf98f791dae5152444068e20141a73cb4ec40763005548",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Interior/CabinGlassOff_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinGlassOff_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Interior/CabinMetal.emat",
+          "sha256": "0e18ef7e9c95c42d44753bb3df01952dacb3581e3d69ac2855934a7f1ff71413",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Interior/CabinMetal_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinMetal_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Interior/CabinPale.emat",
+          "sha256": "bbcf9d8ceac7c0ed2fcea007fc9a46025f1ea7f84aa79dd508f72c57891fd9cb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Interior/CabinPale_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinPale_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Interior/CabinRubber.emat",
+          "sha256": "2366f424d732c213b9a9069246a87a3fdaadf95ab5b9c19e012143ee562ab849",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Interior/CabinRubber_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinRubber_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/OpticsFinish592/Front07_Bulb.emat",
+          "sha256": "6d52a2b79108a4c8f2f6f2d3d274464c1490c322858d6b43f7bf0c0fd90ca2a9",
+          "references": [
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Bulb_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Bulb_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Bulb_Emissive.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/OpticsFinish592/Front07_Lens.emat",
+          "sha256": "ec066b6820dd5a546b13c044a29b192366ac99abb2798a755d1acb72778ff892",
+          "references": [
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Lens_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Lens_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Lens_Opacity.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/OpticsFinish592/Front07_Reflector.emat",
+          "sha256": "7ea5b43856ce0004b6c8cebeb8dab7ada6e5047f213accb48caeccf005f8bbd6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Reflector_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Reflector_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Reflector_Emissive.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/OpticsFinish592/Front07_Seal.emat",
+          "sha256": "2b813c413b77c611bae1754c91cc29c8ea310b9bad676abc4af13edbcfdf9453",
+          "references": [
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Seal_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/OpticsFinish592/Front07_Seal_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RearCover671/GEP671_Seam.emat",
+          "sha256": "1de81c12cccc0ab4899ef25fb9bc5f61c9d827561c3b878662872b390ccbbbf4",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/GearRecess522_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RearCover671/GEP671_ShieldPaint.emat",
+          "sha256": "f4148654565c5b8c3a98ceef250379c02bba05a12d7a6644f7fe7db70d23f444",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RearCover671/ShieldPaint671_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RearPaint666/Rear663_AllLODs_BackingCaps_BasicTrial.emat",
+          "sha256": "86f9d16ddd0a649d2d9d875032bd6d96ad9d6f25c0ef3869e0435429cbbd6511",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_BackingCaps_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_BackingCaps_NMO_TARGET_TRIAL.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RearPaint666/Rear663_AllLODs_EngineTops_BasicTrial.emat",
+          "sha256": "3a647c436efda3ed7d726aaacbc17ca50e2712d94a8e6b6542b9c55d44bdc360",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_EngineTops_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_EngineTops_NMO_TARGET_TRIAL.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RearPaint666/Rear663_AllLODs_NatoOutward_BasicTrial.emat",
+          "sha256": "3a3163f8112dbead56b0ca2c19880930edbbe717d300aeb403b352106ba7b8fc",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_NatoOutward_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_NatoOutward_NMO_TARGET_TRIAL.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RearPaint666/Rear663_AllLODs_VentOutward_BasicTrial.emat",
+          "sha256": "394d4dc7bf57658f5b3bcc0493d079088cdac4ad74b7086b27ddcf1be3b13655",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_VentOutward_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RearPaint666/Rear663_AllLODs_VentOutward_NMO_TARGET_TRIAL.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ReceiverRegistered581/ReceiverLeft.emat",
+          "sha256": "50330bb0da3ed6477cf29cd626c913cfd38c2a4d12685287ac1d0f3b4c6b3b0c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_950c0f65ba_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardGunLeft_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ReferenceFittings668/GEP668_CoverLeft.emat",
+          "sha256": "2040b59889bb4a7ae8893d9e1716d21b331b3c8d9b3e81667ce071cf39f78969",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_06f34cace3_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ReferenceFittings668/GEP668_CoverRight.emat",
+          "sha256": "c459baacd151d818fab5402e84c144497f1e7b1c4eb68b1ba2b23e747efb826e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_63941ab408_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ReferenceFittings668/GEP668_FenderLeft.emat",
+          "sha256": "6fe6e58207430960a370fa2e566777ec778bd2996cce09fe39f4d130af394d69",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_bacade8b87_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ReferenceFittings668/GEP668_FenderRight.emat",
+          "sha256": "3b4f97ba77039c4cd7952a29d34b3c2c12688324cd00dd75a0fa57a543355f8d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_daf31de258_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RemainingExterior669/GEP669_GuardPaint.emat",
+          "sha256": "1628c931d3abd10178115cf104ebf11078b765210d162ce3d14f62abb318d835",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/grille_paint_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RemainingExterior669/GEP669_GuardRecess.emat",
+          "sha256": "1de81c12cccc0ab4899ef25fb9bc5f61c9d827561c3b878662872b390ccbbbf4",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/GearRecess522_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RemainingExterior669/GEP669_RoofPaint.emat",
+          "sha256": "0f70f57ea8c9938bca75d09df77801096565adf67180bbf15eea4a7f2fdee429",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_f25582f131_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FrontBatch660/NewGeometry_Flat_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ReturnRoller648/BearingSeal.emat",
+          "sha256": "79d2e58edcacef1b3338d6826a8ca627708e97ad213374eab1cc23393841e99a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/rubber_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/rubber_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ReturnRoller648/PaintedFace.emat",
+          "sha256": "3e869d6108782201ab3f1940ff51f7c15d220a802c0b11c8aae52029e51e79c4",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ReturnRoller648/RR648_PaintedFace_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ReturnRoller648/PaintedSupport.emat",
+          "sha256": "d1ce4776b1de22764c1e67ed70bac78c86916e21ab91b48bc04e2ba519c081e8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RoadRubber648/RoadRubber648_Rolling.emat",
+          "sha256": "fe8544b728012345b75b685a5f9afb1e2da787c63c12403b89525199d4047fd7",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RoadRubber648/RoadRubber648_Rolling_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RoadRubber648/RoadRubber648_Rolling_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RoadRubber648/RoadRubber648_Sidewall.emat",
+          "sha256": "cab4ba63c7d372e3c82fa9ca437645dcad5d8c8f73bd4c7db013df99cd293e0f",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RoadRubber648/RoadRubber648_Sidewall_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RoadRubber648/RoadRubber648_Sidewall_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/RunningGear540/TrackAssembly540.emat",
+          "sha256": "ec3bffd8edb9d76ebfdd88f29a9f883a456b54b8e7346d0ffe7bcb483be60a85",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RunningGear540/TrackAssembly540_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/RunningGear540/TrackAssembly540_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/SearchBase624/SearchBase_CastService.emat",
+          "sha256": "5e4a2b1a9f62dd73cb5e1d239f61c073bd3db9aacbace881fc9d5c0c4e3b4a72",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_eb5d7635b3_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/SearchBase624/SearchBase_CastService_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Engine21300_QualifiedTops_Heavier.emat",
+          "sha256": "117aab2a77eccb10dbab69b0465c08e6671d57133d2a9c66b082c6fbcbd85f2a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Engine21300_QualifiedTops_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Flap1565_LOD0_Rear_Heavier.emat",
+          "sha256": "2700eb5badca2e0be572559d6143d38d48a384c57a90f712a3f30e4a263cc892",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Flap1565_LOD0_Rear_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Flap1565_LOD1_Rear_Heavier.emat",
+          "sha256": "cbed44e62fc32299d5e5473755e14c9e33200dbd68ccf58eda12b53ceaa0a739",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Flap1565_LOD1_Rear_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Flap1565_LOD2_Rear_Heavier.emat",
+          "sha256": "83b1a4b05cf2ab3638f59c60959c87a3069c5e6fe787308191ac9527688625da",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Flap1565_LOD2_Rear_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Flap1565_LOD3_Rear_Heavier.emat",
+          "sha256": "eeb1c154876229ccc822250045d475526c3d1a94f69ca88698cab9dafba7a466",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Flap1565_LOD3_Rear_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Flap771_LOD0_Rear_Heavier.emat",
+          "sha256": "c9936cad393c3ac806204cb947b82afa5c1412dcc9ce78cca84f3cc096c6b830",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Flap771_LOD0_Rear_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Flap771_LOD1_Rear_Heavier.emat",
+          "sha256": "1ecce22f83eb544445d0f0678b590d9b4f447e2657cda6b1ef1e17d5bcaccbb6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Flap771_LOD1_Rear_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Flap771_LOD2_Rear_Heavier.emat",
+          "sha256": "0f8c5b23fecbe67b3a9001de38527270f200ecb7981683427af844231b278f23",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Flap771_LOD2_Rear_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/Flap771_LOD3_Rear_Heavier.emat",
+          "sha256": "e3603ca988454d0871d1cc6d08b2e21963d9bd316f4c56cb73ad967618e5cdb9",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/Flap771_LOD3_Rear_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role03_FinalFinish_RearFlapCoating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/HoodSkin_Heavier.emat",
+          "sha256": "03ae993f5903cafe3962b04ca2e9f85230810b9a1864d5da217a271da62d2825",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_a6e5f5aca3_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardHull_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/RearPanel_Heavier.emat",
+          "sha256": "1f237949628dec77fc6c8cfe3a726a9e84427a671e95ec30deabfc8da89db363",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_667a2d2aea_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role05_FinalFinish_RearPanelC_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/SearchBase_Heavier.emat",
+          "sha256": "1b1f8dd0ab53cfc78f2f6e7fa7847e523bb06f715c7d49b4f54375525440174d",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_b364f147a1_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/SearchBase624/SearchBase_CastService_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceCoat641/TrackerCover_Heavier.emat",
+          "sha256": "5dd1c2f9c9dac499d454ff738f52ed6ef01b2639c8392aa4d97b9cafd14e87b6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ServiceCoat641/TrackerCover_Heavier_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceDry644/Wheel09Coating_Dry130.emat",
+          "sha256": "ce9f2265cd65b1236db63513965aaa24a294a411ade2fef6692f3b1e7fb79440",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role06_FinalFinish_Wheel09Coating_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role06_FinalFinish_Wheel09Coating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_08e170c59a_Service.emat",
+          "sha256": "e84badbcf80d9c9f277b2be3cd4ee9c9e7d1a141243544cde7055ed75d5ac230",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_08e170c59a_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/TurretChin614/ChinServiceB_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_1e39c20792_Service.emat",
+          "sha256": "193c36077b060ed4588f8e42c830f3b35e64288e568dbd65da02a7359837b168",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_1e39c20792_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/CrewRoof621/CrewRoof_ServiceB_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_26e18304b1_Service.emat",
+          "sha256": "bb39a7d7a0233b19731a92ba972c73e52f82817abd2886c045c16a6c08b2cc16",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_26e18304b1_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role00_FinalFinish_FlankB_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_8bb6e0cb99_Service.emat",
+          "sha256": "193c36077b060ed4588f8e42c830f3b35e64288e568dbd65da02a7359837b168",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_1e39c20792_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/CrewRoof621/CrewRoof_ServiceB_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_8c316345b0_Service.emat",
+          "sha256": "eb7c4b8dbeb3bfd76743987daa59928cf37753c3d5e4252a36c8a28717c0118e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_8c316345b0_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/PrincipalCoating/PrincipalHull_Coating_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_8f02775532_Service.emat",
+          "sha256": "031fb67ba58f4d27e018b75d946158e7668225ece1f456c4adc4446adf7fc211",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_8f02775532_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FullWidthApron606/FrontApron_FullWidth_Coating_Right_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_bacade8b87_Service.emat",
+          "sha256": "41a30ce591bfaa303605fbead27532d5b9a97a364573ae612e5f132649a2faff",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_bacade8b87_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FullWidthApron606/FrontApron_FullWidth_Coating_Left_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_d9647a990d_Service.emat",
+          "sha256": "9c8e7649eafdf548195114b1f2fb44df44ce67124324b2b67ea12bc42076a439",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_d9647a990d_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FullWidthApron606/FrontApron_FullWidth_Coating_Left_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_daf31de258_Service.emat",
+          "sha256": "dc13f385b03415c671d31fc1a1419cb6a5f31f15b9172503e1ae5dd7e8d4d63b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_daf31de258_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FullWidthApron606/FrontApron_FullWidth_Coating_Right_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/ServiceWear656/MAT_deef85e30c_Service.emat",
+          "sha256": "40de34cf109058d8e92ae7f27622f0b8fd9c3c94b864c627819635f4a762b007",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_deef85e30c_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/TurretRearBand589/RearBand_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/StorageRearService/ExtensionHardware.emat",
+          "sha256": "28512de87e773e94e9072690e9f2e5c7c39acf97a834936cc4ab317cd5d2d96e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/StorageRearService/ExtensionHardware_HeavierServiceAge_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role16_StowageSeated_SelectedStowage_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/StorageRearService/RearOriginalBoxes.emat",
+          "sha256": "dc6d79862a030b8f60e5eeebe8c8658d88c953e2246728f9de7ec77a6df33734",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_4f1d19b3a7_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/TurretRearBand589/RearBand_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/AmberLens.emat",
+          "sha256": "1bc74bc1f8a680f807db0d1b0052130a281f844ad1fe8e514d0f983c5bfcaefd",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/AmberLens_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/AmberLens_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/grille_paint.emat",
+          "sha256": "e5bdf334747eae27c5b398766be1aa0d5fb0ad56c10e141e86242bc15600ec12",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/grille_paint_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/grille_paint_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/nato_green.emat",
+          "sha256": "d1ce4776b1de22764c1e67ed70bac78c86916e21ab91b48bc04e2ba519c081e8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/nato_green_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/OpticalGlass.emat",
+          "sha256": "a0595b00eabd4996ebdcd61e5886b4cca792a50fac87f2094ea94425a3762bd2",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/OpticalGlass_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/OpticalGlass_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/radar_dielectric.emat",
+          "sha256": "a0c0746430a16a7b1eca7627092079ab387a859a4bec5503d27b271392216acd",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/radar_dielectric_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/radar_dielectric_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/RedLens.emat",
+          "sha256": "65c094d52bb0ed79b8cd60eeaa9f2880dbbb736af3c9aa3b46a5e198bdbed04e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/RedLens_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/RedLens_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/rubber.emat",
+          "sha256": "79d2e58edcacef1b3338d6826a8ca627708e97ad213374eab1cc23393841e99a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/rubber_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/rubber_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/Skin_GepardHull.emat",
+          "sha256": "cefdbe4a62027a0842c9b60dd122c3655e2ee9ebca532bdc8e6672abbb2f3653",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_508a4e2fa3_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardHull_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/Skin_GepardSearchBase.emat",
+          "sha256": "419f63e6bdb95809529e00dd109946e70ba718c49822c19ab432d00b8ced0e2c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_7c5cd31df3_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardSearchBase_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/Skin_GepardTrackingBase.emat",
+          "sha256": "2a8e75b64dc8c1c7cebe9bf24e447b80503dd8eaf74c0d57abc862e12230d552",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_3e70523ccf_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/Skin_GepardTrackingBase_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/track_oxide.emat",
+          "sha256": "261d64a49ceba869417ca95ffdfdf08ea6e4917de1b98afc2ad579193d7c1fed",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/track_oxide_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/track_oxide_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/track_steel.emat",
+          "sha256": "454feab554672d7f9f4a8e7c292ff3664478ceea4bb3b1d453c0d6226039bc07",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/track_steel_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/track_steel_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/WhiteLens.emat",
+          "sha256": "ba255ed050f9d082c9d34900653c07126b6add28a4b3b55cff07b60b4da35cb2",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/WhiteLens_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Surface/WhiteLens_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Surface/Wreck526.emat",
+          "sha256": "51a62b88c463007223219d4bde6fd1b7631248229ee741d802c5ed1b1d73dca4",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Surface/Wreck526_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Underpod225635/GEP_Underpod225_DarkFastener.emat",
+          "sha256": "7dc0fbd5757a539b26d5dfdf6d6fc1331bb388be364ea0b0f4a2c6270a743253",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Underpod225635/Underpod225_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Underpod225635/Underpod225_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Assets/Gepard/Underpod225635/GEP_Underpod225_ServicePaint.emat",
+          "sha256": "7c37ca3bf3906b4a71db05b849faaf8d18a1c9e09acd95e4cb653a8e5d9e9e9c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/SoftPaint662/MAT_659bd41d0f_Soft_BCR.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Underpod225635/Underpod225_NMO.edds",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardAuxLampHardware672.et",
+          "sha256": "031d9b07eb8a12a22b31c742148bb94aade8311c44f30673f0d6b575e01b96dc",
+          "references": [
+            {
+              "resource": "Assets/Gepard/AuxFittings672/AuxLampHardware672.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardBearingBosses.et",
+          "sha256": "d3f3d66035bcd412052e1e13ef5348f0b177ce06aa95253f16f4076adaceaca1",
+          "references": [
+            {
+              "resource": "Assets/Gepard/BearingBosses/GepardBearingBosses.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardCabin.et",
+          "sha256": "6c76096437b93dc91882497d36448b6d7cd68ef9e996a5d576a4720276442f20",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardCabin.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardCommanderHatch569.et",
+          "sha256": "e77fd98d805280792f6b06be50ec7d5c122e6ee44e53edfff1cb66d2a33867a7",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardCommanderHatch569.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardCoverLeft668.et",
+          "sha256": "e5e1f328e003b3a8b659e0717298c8898b20e843388932e080e13d6137019f74",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ReferenceFittings668/CoverLeft668.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardCoverRight668.et",
+          "sha256": "04d36d125362b1f59dbfac43689d46c0e6b2bb58a9f062d367ef7eb1050d4441",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ReferenceFittings668/CoverRight668.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardDriverHatch.et",
+          "sha256": "e1cdbde2310c9f2d471fba337b28c89f2f2f7b5610df1b86a7d2ff18530ce6e4",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardDriverHatch.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardDriverLidHardware660.et",
+          "sha256": "e1e0bb73555898fe1b6756f4b1acddf826553dbe774106a92ae26125db07b88b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/FrontBatch660/DriverLidHardware660.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardFenderDetails668.et",
+          "sha256": "2cb39a61a3141034e7560e9c745401d4f04d39b2ee34c5afa7cc010d22a72f01",
+          "references": [
+            {
+              "resource": "Assets/Gepard/ReferenceFittings668/FenderDetails668.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardFront07Left592.et",
+          "sha256": "163ac57adc17ad889476276974279c758a30da63346a9ef4e825ee42ff4b055a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardFront07Left592.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardFront07Right592.et",
+          "sha256": "8a8a619963333a67d6e4c10b2ef1b0a8fea190efcd5ce3bcac79b349f23c3845",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardFront07Right592.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardFullWidthApron606.et",
+          "sha256": "47ff7091ae98c4f7d7bdca2734394810c4d84c8f1a189f1dcd65b7dc0dbbf53b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardFullWidthApron606.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardGunnerHatch569.et",
+          "sha256": "8e4e80aef5bc2830b6188b86f39d903ace35c8d852910582fe628cfce16758ef",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardGunnerHatch569.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardHullOnly.et",
+          "sha256": "83cbf2a8aa54a0be24edaa2cec6ff7a3103ecd39a7c985ad6bc7300c5081f054",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardHull.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardLeftServiceShield603.et",
+          "sha256": "3e708abf2d84877fdeecdaa40f680a7785bd855e1f61161d26b27dd8ef7933e8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RemainingExterior669/LeftRolledGuard669.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardRightRearShieldCover671.et",
+          "sha256": "ecf497218fcaec1ea36b673ae6e40178cf4c2d8c091af7a21ab2ca5614a5b6ad",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RearCover671/RightShieldCover671.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardRoofEyes669.et",
+          "sha256": "857aa5197ced80d594651a84d9878af7e40cab2c54d379355382317268635ec8",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RemainingExterior669/RoofEyes669.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardSearchBase.et",
+          "sha256": "144ef08bcf417fb1686aba0c3c71fc15a925a74d38924bb97ad35550747fbebe",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardSearchBase.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardSearchHead.et",
+          "sha256": "810747c363b650b0add138bb8c91a28308c6e1f28216b94a5c47833061c26c03",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardSearchHead.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardSearchYawSupport.et",
+          "sha256": "d96e01650e7104a1edb1a9f7c0066dce3c50badb68b13a49a38faa146c11438a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardSearchYawSupport.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardSteeringWheel.et",
+          "sha256": "ba19d105710add672809014f1205fec0ad1c2385e00bd067f352284213950f37",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardSteeringWheel.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardStowageSeated591.et",
+          "sha256": "dd96786e0735febb15c4bdab6244b5a10d48c31d60642e746a66bae9e8a3be39",
+          "references": [
+            {
+              "resource": "Assets/Gepard/RemainingExterior669/RightStorage669.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardTrackingBase.et",
+          "sha256": "da0c592b06605c11e8667f275abf917cf858f69ade6eb2bc698756681b698a57",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardTrackingBase.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Art/GepardTrackingHead.et",
+          "sha256": "92a0d64b1b3363f012f4730db0a4743b502497355389d92372c371ed94d4b406",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardTrackingHead.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Camo/GEP_35_GunLeftV11.et",
+          "sha256": "eb9d8397ed680dfa9e45cf52c34db2f02e78587fc429507ab597c532baee9617",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Gepard/GepardGunLeft.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Camo/GEP_35_GunRightV11.et",
+          "sha256": "4b8dda6289cf28de4e261f97dd730febe0e19ab3c2cafcd91135fc8cbe625e68",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Gepard/GepardGunRight.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+          "sha256": "02daa1931848a63ff9e957758b0e02a2fdc90ebf40631ccb4d8b95485ddb0e26",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Mobility/MobilityRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Camo/GEP_VehicleTurretV11.et",
+          "sha256": "7b3c764fed0b91ef4ad64afe8d2e7741b2152d9c3b22914762013a22622675c5",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Gepard/GepardTurretRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Camo/GepardStowageV11.et",
+          "sha256": "b0e931185fdb55eaba59138a9d937164d79161d822726728857c5290e160a63d",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Charcoal/GEP_35_GunLeftV11.et",
+          "sha256": "e86c0dd9188e1ff1e591f2d20f394a87c00fe099ecb88b8b26c01ca67d9df89f",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Gepard/GepardGunLeft.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Charcoal/GEP_35_GunRightV11.et",
+          "sha256": "c8c8f2d03c7cb421cfe7498bfa508a6650d18d229507adb5b67317156b9a18dc",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Gepard/GepardGunRight.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et",
+          "sha256": "52ad361f0dfa702ed04d9d1af849d2b6cf23d1e716de93c7e5713c9fe464db34",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Mobility/MobilityRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/8899ecf324d1.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/dc373c830ff1.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/cb6ee142ef9f.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/975db2cf4f7d.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e76d87db4957.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f6266e5e7d51.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6155a1390dd0.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b27aa5819735.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f9dca3bda6c1.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/088a56ab9cf5.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/5053aafe90c4.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/c8c68b02c92a.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f3a2be60e196.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0986c298d2c7.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/75d55508b3fe.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e86abadff894.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/61b40334a493.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/24ea9fa1a6ac.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/ae9695c48890.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/020ab27cd01f.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/57e7c826739a.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1c3df24cafd0.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/361672852acb.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/59e80cb6daf7.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/656bd99b85a3.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0b248cf1fd4d.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/31d95ba7f9da.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/ed8712e35f95.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/8212ff982752.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a651ea9fb268.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Charcoal/GEP_VehicleTurretV11.et",
+          "sha256": "2119337b8bf19f9c795c289263badb4d565b1a7d36b435d79fa2116ecd1057f8",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Gepard/GepardTurretRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtV11/Charcoal/GepardStowageV11.et",
+          "sha256": "0939dcc4c641205374ca17578b3339261d9836f077c4276a1f938060f2cf1b9f",
+          "references": [
+            {
+              "resource": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardAuxLampHardware672.et",
+          "sha256": "13ddac282ce26f1ff73dc5a8fa34134d532af33e1cc2bfd9ac4a156ffc2ab638",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/40dd79a14231.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/77077fa3f29a.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardBearingBosses.et",
+          "sha256": "7f214aef5df97907f02cee126060ab397249848be3f78149e2449d3993b44965",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/05e7fc30e945.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCabin.et",
+          "sha256": "2f9ec8ad7ca69c172e1d5e9a0175f5a3c929c14f239b6ff04bc72ee0ce2ff76e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCommanderHatch569.et",
+          "sha256": "78ddc3f27273ff0d4e175bbbd262b79b03de3a82b3f59388ea1e0dce28b94aea",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/d6a3321b2692.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCoverLeft668.et",
+          "sha256": "3c0b4f07e3d07003de63a54a6a81a5829b0f5e6489b689b1d8e96c8e425c285b",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/5dce92a4338e.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCoverRight668.et",
+          "sha256": "3a37dc84be5a6ca028a7449540cc9696215fe24cb2f74d009f35a08bb9d130de",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/c1c79ae8f08a.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardDriverHatch.et",
+          "sha256": "d9e3057540436592db6fbd6551e904789a1ef2b048f96c737da056e2241a1db0",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardDriverLidHardware660.et",
+          "sha256": "c4028fe484877d2fffa075ce616279e681b8e83d9c7b44ea7cf777a880327278",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/102ca5cec226.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFenderDetails668.et",
+          "sha256": "bbb18a044241f9079078a5ff4708d7706ed89091f8c99591ac05c7d170188127",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/d679c9e966bb.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/681fc81007ae.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFront07Left592.et",
+          "sha256": "c3ccf961b7dafc65a27439d88e9e88a5f6c75880afe5a1865fb438ce8c4e08f6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFront07Right592.et",
+          "sha256": "fbf8b9240f5b29bc1ca5d205031571e4398054932b12b04225fa3b3f41532862",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFullWidthApron606.et",
+          "sha256": "69fbdd300e2c713d53ec3127025ee9df16991e07285621ce00623a3b20b653f9",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1bb2d6fcf803.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/3dba6e0f7111.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/4699432e0efb.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/c4c003557554.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardGunnerHatch569.et",
+          "sha256": "c7394f87f12a631c9bb7899edfe588bbc0cf6a2dcb293f0528f3b402db7479fc",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/d6a3321b2692.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardLeftServiceShield603.et",
+          "sha256": "ae670152b7d871ad6efbe372bed17f5a364e820e9bb4fdbb6708af5657546161",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/92b0c8249144.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/944a5de838d6.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardRightRearShieldCover671.et",
+          "sha256": "389c2c9d4588a096e260f201660bd3c418beb3a686ed3f8ba943c5411d624ac6",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/dbd23d9d19d8.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/ce6c45851113.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardRoofEyes669.et",
+          "sha256": "0710b2898665f77e2f8ae68fdc0587768dc661e236a86092d13be879004a3a5c",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/2ccdc0ca60aa.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardSearchBase.et",
+          "sha256": "a68eb171ccab4cdde1fdd39da86ce360ca9eaeed04d23cda2735fb7041969fbb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/879d7e559a19.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/75f553f90903.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/49e9ab156d14.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardSearchHead.et",
+          "sha256": "e94e9ca6cc50ac20aeafb391d61f4cea2412aacba63d54bdec0185e540682e64",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardSearchYawSupport.et",
+          "sha256": "2a18acbeab791d1de96dd87eb756083436f737ef739579d2701e732698a22525",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardStowageSeated591.et",
+          "sha256": "50c30506cbaa927d731a199945ce789b17aa88ee59e20740217eba1e6f8f7c50",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6c32f248f7b1.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/898cfbc09ae6.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/5cbce2351fb3.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/7d5ddd1ddf3b.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/169b1cf35126.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/2f45283c4f45.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingBase.et",
+          "sha256": "d7b36ebc894d8e4c2b2c4d3d53e0b8ed2d3bea8144abc05e75849ff8f30831fc",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/66282ffb5bb1.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingHead.et",
+          "sha256": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/529eca88f4de.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/53379c03154d.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+          "sha256": "73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/8899ecf324d1.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/dc373c830ff1.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/cb6ee142ef9f.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/975db2cf4f7d.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e76d87db4957.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f6266e5e7d51.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6155a1390dd0.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b27aa5819735.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f9dca3bda6c1.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/088a56ab9cf5.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/5053aafe90c4.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/c8c68b02c92a.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f3a2be60e196.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0986c298d2c7.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/75d55508b3fe.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e86abadff894.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/61b40334a493.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/24ea9fa1a6ac.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/ae9695c48890.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/020ab27cd01f.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/57e7c826739a.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1c3df24cafd0.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/361672852acb.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/59e80cb6daf7.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/656bd99b85a3.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0b248cf1fd4d.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/31d95ba7f9da.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/ed8712e35f95.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/8212ff982752.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunLeft.et",
+          "sha256": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0c00d2a1afb2.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/76b92e1dbf50.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunRight.et",
+          "sha256": "a1dd80a8e06fbb47eefb7f6b3e004101115fe924b9f22b044df482c274aba4fb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/2bd602c9a9a9.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/5d76baab52cd.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_VehicleTurret.et",
+          "sha256": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1298fa5daad0.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/41c0b9c7153a.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/18336e265596.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/05e7fc30e945.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a676856f5df6.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/eb253b96725f.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b0d6eed00c40.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a651ea9fb268.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Vehicles/GEP_MobileCarrier.et",
+          "sha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardWreck526.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Vehicles/GEP_TrackedMobility.et",
+          "sha256": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521",
+          "references": [
+            {
+              "resource": "Assets/Mobility/MobilityRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Vehicles/GEP_WheeledMobility101.et",
+          "sha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912",
+          "references": [
+            {
+              "resource": "Assets/Mobility/MobilityRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Weapons/GEP_35_GunLeft.et",
+          "sha256": "bbd850167ec6f3a0ba161bf5190e0cce72abaea2eea92daf5b7cd36c364d3ebb",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardGunLeft.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Weapons/GEP_35_GunRight.et",
+          "sha256": "7752f70ac772eac267d31de11fe85ed0214cadf860d8e6d65415fb72fc0927f1",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardGunRight.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/Weapons/GEP_StationaryTurret.et",
+          "sha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55",
+          "references": [
+            {
+              "resource": "Assets/Gepard/GepardTurretRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "scripts/Game/GEP/GEP_Instruments494.c",
+          "sha256": "3c1d2198aa4230aeb6f35926f5da5b5be05781d786ad66aca17cdc7de0692f6a",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Finish/InstrumentNeedle.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/IndicatorRed.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/IndicatorGreen.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/IndicatorAmber.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Finish/DriverStatus.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "scripts/Game/GEP/GEP_Optical444.c",
+          "sha256": "d959eb33c94e1688d4664930cba9f7135fa95e9836787e3edc429612d48ee1d2",
+          "references": [
+            {
+              "resource": "Assets/Gepard/Optics/GEP_Night444.emat",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "failed-proof-integration10",
+      "pak": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-package-build-10\\integration\\data.pak",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\adopted\\SourceManifest-integration.json",
+      "root": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10\\single\\integration",
+      "manifestSHA256": "20770ddd3050e3c7e145e6fb1e5143227f41ac77ae1acff548bd2f22461d80f0",
+      "pakSHA256": "3540663192f25e94689d95b67cb4f665f7ba5b14cb28ec1595f9a7999a9e531b",
+      "indexSHA256": "d10d31536d9f131a4bac94622a188eb92b117352ddbe8c528a11b6e6324a7fb0",
+      "indexCount": 25,
+      "extensionCounts": {
+        ".xob": 8,
+        ".et": 17
+      },
+      "sourceTXOCount": 8,
+      "companions": [
+        {
+          "txo": "Assets/ArtApproved20261022/Gepard/GepardGunLeft.txo",
+          "sourceTXOSHA256": "b7379ede9a1ce56f7aeca5f21f9e6c7afaeed928cf3822f804a0278617bac620",
+          "txoInPak": false,
+          "xob": "Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+            "offset": 56,
+            "storedBytes": 441844,
+            "rawBytes": 441844,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtApproved20261022/Gepard/GepardGunRight.txo",
+          "sourceTXOSHA256": "d727849db9f3a1570100ee865a7f124305ccb7a0b5b4b6e687bdc33e9d6a5236",
+          "txoInPak": false,
+          "xob": "Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+            "offset": 441900,
+            "storedBytes": 443771,
+            "rawBytes": 443771,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.txo",
+          "sourceTXOSHA256": "56c25f327421e1e12e3be7f03f005782588ab964cebde0824ff970d3f50e5f88",
+          "txoInPak": false,
+          "xob": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+            "offset": 885671,
+            "storedBytes": 2213295,
+            "rawBytes": 2213295,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.txo",
+          "sourceTXOSHA256": "50f9cc8699acb5a2c7ddc85b845f2c4e55b642757bfbc51a88d38520f760c5f6",
+          "txoInPak": false,
+          "xob": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+            "offset": 3098966,
+            "storedBytes": 92334,
+            "rawBytes": 92334,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.txo",
+          "sourceTXOSHA256": "12397d3c098681e556b16ba9af65d4c5faa896e6ebb07d21b9c0e359c1852924",
+          "txoInPak": false,
+          "xob": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+            "offset": 3191300,
+            "storedBytes": 27281,
+            "rawBytes": 27281,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.txo",
+          "sourceTXOSHA256": "57a8e51f45f3e34f9ae90e9da64f08969a619ce14eb3a749737f4e06a3367486",
+          "txoInPak": false,
+          "xob": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+            "offset": 3218581,
+            "storedBytes": 26961,
+            "rawBytes": 26961,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.txo",
+          "sourceTXOSHA256": "4a8fc6fae32b734471f026ebb5286e658bf3c0f5699702c158aa5908e662ba9e",
+          "txoInPak": false,
+          "xob": "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtApproved20261022/Gepard/RemainingExterior669/RightStorage669.xob",
+            "offset": 3245542,
+            "storedBytes": 630880,
+            "rawBytes": 630880,
+            "method": "00000000"
+          }
+        },
+        {
+          "txo": "Assets/ArtApproved20261022/Mobility/MobilityRig.txo",
+          "sourceTXOSHA256": "452796eae4239da959c5c38d9e9838232b95fbf6bf4bc126a4bcfd4031c6086a",
+          "txoInPak": false,
+          "xob": "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+          "xobInSource": true,
+          "xobInPak": true,
+          "xobEntry": {
+            "resource": "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+            "offset": 3876422,
+            "storedBytes": 23018084,
+            "rawBytes": 23018084,
+            "method": "00000000"
+          }
+        }
+      ],
+      "textReferences": [
+        {
+          "file": "Prefabs/ArtApproved20261022/Camo/GepardCoverLeft668.et",
+          "sha256": "9bc685a129c1073bb103c85ff8ae50f8e56be2f9fca4e001472c0167d35009b0",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Camo/GepardCoverRight668.et",
+          "sha256": "e0343f8156064cf3ddcc108abdf1487383c6589db54cdb4cc2ee7cca3f88c14f",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Camo/GepardRightRearShieldCover671.et",
+          "sha256": "bd6748315cf10a8ca24df7759d9a318904aaecc59ea185bbd1ee3b7bcef65ae1",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Camo/GEP_35_GunLeft.et",
+          "sha256": "77b6e0396ee550b028abbcb18f6b522240d7922fa039efaa4531187e16685e7c",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Camo/GEP_35_GunRight.et",
+          "sha256": "8d6a1e34e82182b07a58b519dcce205a81e5a315ecbc751ca91ef6902b5da38e",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+          "sha256": "e88ec6f9c7e8c7ba74940ec5b3dd5e096ceb5abc0fa41cbcae645eb4a96b8a83",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Camo/GEP_VehicleTurret.et",
+          "sha256": "3a626abb70734079dcb5a6ef6fe1fc0e5f16ca4243ae1a6a41f51bf89241fcbd",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Charcoal/GepardCoverLeft668.et",
+          "sha256": "e2159c05b8896a04b76f84a69a4d32eebda13529af8c86967cfc9fcb5cea0e10",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverLeft668.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/5dce92a4338e.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Charcoal/GepardCoverRight668.et",
+          "sha256": "89f3d9c32384c036873c275783f38df20dc97abc8c8a80c338b88e3034d26d2c",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/ReferenceFittings668/CoverRight668.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/c1c79ae8f08a.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Charcoal/GepardRightRearShieldCover671.et",
+          "sha256": "6eb1882aab85a9d3f181da5ae5bdff0f96e5087b552a6209a7408b332220b535",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/ce6c45851113.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/dbd23d9d19d8.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunLeft.et",
+          "sha256": "9223f5a8410c6ca7680165f7edf0cbfc3e611a286cf1f7359e60a7c1fb9ff315",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GunConstruction581/GunLeft.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0c00d2a1afb2.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/76b92e1dbf50.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunRight.et",
+          "sha256": "844824bf1650c4d93b01b1fe6dfd49e68490c61371154311d977ff3c092ae49d",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/GepardGunRight.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/5d76baab52cd.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/2bd602c9a9a9.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GunConstruction581/GunRight.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et",
+          "sha256": "c364f574f094d4735299fc8a59da0654717aa122930f7eef04c2b7fb56bf0c3d",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinAmberOff.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinEquipment.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinGlassOff.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinMetal.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinPale.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Interior/CabinRubber.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/57e7c826739a.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/975db2cf4f7d.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/e76d87db4957.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f6266e5e7d51.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/6155a1390dd0.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b27aa5819735.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/f9dca3bda6c1.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Finish/DriverArtwork.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1c3df24cafd0.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/cb6ee142ef9f.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/ReturnRoller648/BearingSeal.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/8899ecf324d1.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/dc373c830ff1.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/HullExterior622/RearHull_DoorSeam20300.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role09_RearOptic_Amber_Unlit.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role11_RearOptic_Red_Unlit.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/FinalFinish591/Role13_RearOptic_White_Unlit.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/RoadRubber648/RoadRubber648_Rolling.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/RoadRubber648/RoadRubber648_Sidewall.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/088a56ab9cf5.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/ae9695c48890.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/020ab27cd01f.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/RunningGear540/TrackAssembly540.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a651ea9fb268.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Surface/rubber.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Surface/track_steel.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/0b248cf1fd4d.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/31d95ba7f9da.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/8212ff982752.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            }
+          ]
+        },
+        {
+          "file": "Prefabs/ArtApproved20261022/Charcoal/GEP_VehicleTurret.et",
+          "sha256": "27c34e73e4100b0ec656ce9cf988635914ffe781d8e5cf83dd02e7bdb4380b95",
+          "references": [
+            {
+              "resource": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+              "inOwnSource": true,
+              "inOwnPak": true
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a676856f5df6.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/05e7fc30e945.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Surface/OpticalGlass.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/eb253b96725f.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/1298fa5daad0.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/18336e265596.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/41c0b9c7153a.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/a651ea9fb268.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/GEP018/NeutralBaseV2/b0d6eed00c40.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            },
+            {
+              "resource": "Assets/Gepard/Surface/rubber.emat",
+              "inOwnSource": false,
+              "inOwnPak": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priorQualifiedProof": {
+    "role": "gepard",
+    "guid": "D561AD08932E7B40",
+    "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard-pack\\package-proof.json",
+    "proofSHA256": "39b9bf182dccb0eec73069c60f7bf17075cc34ce5b452adf708d8d6c0a90ca4a",
+    "trio": [
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\Gepard.gproj",
+        "bytes": 666,
+        "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\resourceDatabase.rdb",
+        "bytes": 49774,
+        "sha256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\data.pak",
+        "bytes": 254101614,
+        "sha256": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519"
+      }
+    ]
+  },
+  "failure": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\FAILURE.json",
+    "sha256": "b2a6a29681d1034ec2941184fb4c5fc2827df91d20975724b184745cd3d8010f",
+    "raw": {
+      "leaseRetained": true,
+      "reason": "Same-build trio/content verification failed; no following step",
+      "noFollowingStep": true,
+      "currentNativePid": 31628,
+      "forceTerminationPerformed": false,
+      "completedSteps": [
+        {
+          "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+          "diagnosticsReportSHA256": "e933bed42774e573a89763cbd6e12626eb29f1c1c68a4f91ee9fbab75d25bb7e",
+          "role": "integration",
+          "strictNativeVerdict": "FAIL",
+          "verifiedExited": true,
+          "nativeErrorCount": 27,
+          "stepRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\integration-validate",
+          "console": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\integration\\logs\\validate\\console.log",
+          "exitCode": 0,
+          "diagnosticsReport": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\integration-validate\\native-diagnostics.json",
+          "step": "validate"
+        }
+      ],
+      "status": "NOT_TESTED_OR_FAILED_PRESERVED",
+      "published": false
+    }
+  },
+  "release": {
+    "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\native-runs\\private-pack-10\\POST-FAILURE-RELEASE.json",
+    "sha256": "36a6b7a81c13c5331ce0b903ec32332da17617ce1d66745fd68c910e225b2eff",
+    "raw": {
+      "reason": "Exact owned natural exit and repeated fresh native absence",
+      "released": true,
+      "strictFailurePreserved": true,
+      "eligible": true,
+      "nativeStopped": false,
+      "exitCode": 0
+    }
+  },
+  "noDWrite": true,
+  "noNative": true
+}

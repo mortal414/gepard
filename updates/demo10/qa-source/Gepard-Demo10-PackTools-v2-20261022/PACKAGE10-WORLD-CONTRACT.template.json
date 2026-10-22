@@ -1,0 +1,83 @@
+{
+  "status": "PENDING_ROOT_FINAL_DEMO10_WORLD_SOURCE_BINDING",
+  "worldCandidate": "PENDING_ROOT_FINAL_WORLD_SOURCE_RECEIPT",
+  "sourceManifestSHA256": "PENDING_ROOT_FINAL_WORLD_SOURCE_HASH",
+  "stageRoot": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\private-demo-source10",
+  "registryHash": "PENDING_ROOT_64HEX",
+  "runtimeHash": "PENDING_ROOT_64HEX",
+  "expectedOwnedObjects": 34,
+  "ownedCountDerivation": "layout direct5 + targets2 + stockService5 + damage(2subjects+5static+4*3loop)=19 + smokeService3 =34",
+  "expectedBoards": 24,
+  "boardCountDerivation": "6original station boards +4pads +8route +3audio +2targets +1smoke-service =24",
+  "requiredReadyMarker": "GPG_READY staged=1 resourceFailure=0 objects=34 nativeBehaviorAcceptance=NOT_TESTED",
+  "newOwnedObjects": [
+    {
+      "id": "SmokeStationCamo",
+      "entityName": "GPG_SmokeStationCamo",
+      "group": "smoke-service",
+      "prefab": "{ECB8E313DFBD3415}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et",
+      "pad": [
+        606,
+        0,
+        2622
+      ],
+      "spawnGroundClearance": 0
+    },
+    {
+      "id": "SmokeStationCharcoal",
+      "entityName": "GPG_SmokeStationCharcoal",
+      "group": "smoke-service",
+      "prefab": "{ECB8E313DFBD3415}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et",
+      "pad": [
+        626,
+        0,
+        2622
+      ],
+      "spawnGroundClearance": 0
+    },
+    {
+      "id": "SmokeSupply",
+      "entityName": "GPG_SmokeSupply",
+      "group": "smoke-service",
+      "prefab": "{D07C2D4844753F76}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_storage.et",
+      "pad": [
+        610,
+        0,
+        2622
+      ],
+      "spawnGroundClearance": 0.1
+    }
+  ],
+  "newBoard": {
+    "id": "smoke-service",
+    "entityName": "GPG_Board_smoke-service",
+    "title": "07 FINITE WCS SMOKE REARM / SHARED8",
+    "boardPad": [
+      610,
+      0,
+      2640
+    ],
+    "spawnGroundClearance": 0.15,
+    "resetGroup": "smoke-service"
+  },
+  "initialFiniteMarkerOnce": "GPG_SMOKE_STOCK id=SmokeSupply epoch=0 supplies=8 maximum=8 initializationOnly=1 worldStartOrExplicitReset=1",
+  "serviceMarkerOnce": "GPG_SMOKE_SERVICE stations=2 sharedCrate=1 initialSupplies=8 stationSupplyWrites=0 actualReachAndSharedQueueAcceptance=NOT_TESTED",
+  "forbiddenFailurePrefix": "GPG_SMOKE_SUPPLY_FAIL",
+  "originLimit": "Existing GPG_OBJECT/GPG_STATION log origins describe Ground(pad) default0.1, not actual native entity origin. Check exactXZ; nativeY/readback separately. Do not infer actual reach from these markers.",
+  "explicitResetManualExpectation": "Only three smoke-service objects replaced in Camo/Charcoal/SmokeSupply order; each epoch increments. SmokeSupply emits newepoch supplies8/maximum8 before its GPG_RESET. No vehicle/other-source replacement or automatic refill. Startup probe need not invoke reset.",
+  "preserveExistingContract": "All existing OLD/NEWwrapper/route/target/source identity and reset-admission guards remain; add only the three sources/one board and exact34/24 expectations.",
+  "manualPending": [
+    "actual bank reach",
+    "both-station shared queue/accounting",
+    "full refill",
+    "role/full/depleted/range negatives",
+    "explicit reset feel"
+  ],
+  "strictNativeErrors": "RETAIN_NO_WHITELIST",
+  "worldAndPackageAcceptance": "NOT_TESTED_REQUIRES_ROOT_ACTUAL_NATIVE_AND_PACKAGE_RUN",
+  "nativeInvoked": false,
+  "newWrappers": {
+    "NEW-CAMO": "{A76A420022100002}Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et",
+    "NEW-CHARCOAL": "{A76A420022100004}Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et"
+  }
+}

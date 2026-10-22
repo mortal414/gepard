@@ -1,0 +1,21 @@
+{
+  "status": "BOUNDED_FAR_REAR_VIEW_AND_FRESH_PATH_SUCCESSOR",
+  "v1SourceSealSHA256": "761e573b39d74a2f211ba22eb464fec02fb0637491ce4d913595721417e5561b",
+  "v1ReadySHA256": "22dea0e2f52a6a39f692815265e2f06a4438101d7de7731b0871f8f31f7f0d1e",
+  "sceneInverseExactOtherBytes": true,
+  "observerInverseExactOtherBytes": true,
+  "unchangedFiles": [
+    "source/GEPArtNativeSceneQA.gproj",
+    "source/Worlds/GEPArtNativeSceneQA.ent",
+    "source/Worlds/GEPArtNativeSceneQA.ent.meta",
+    "source/Worlds/GEPArtNativeSceneQA_default.layer",
+    "adapter.py",
+    "adoption.py",
+    "lease_read.py",
+    "evidence.py",
+    "MARKER-CONTRACT.json",
+    "prepare_after_compile.py"
+  ],
+  "nativeStarted": false,
+  "DWritten": false
+}

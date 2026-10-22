@@ -1,0 +1,24 @@
+{
+  "status": "ROOT_PRIVATE_DEMO10_SOURCE_ADMITTED",
+  "explicitPack10Requested": true,
+  "strictNativeFailuresPreserved": true,
+  "dependenciesWCSAndSpaceCoreConfirmed": true,
+  "noBradley": true,
+  "noPublication": true,
+  "authorizationScope": "Parent directed private Demo10 packaging preparation/contract/plan from actual admitted inputs; root exclusively owns all native execution and final acceptance.",
+  "approvedArtScope": [
+    "V15R1",
+    "V17",
+    "V18R1"
+  ],
+  "excludedArt": [
+    "V16",
+    "unreviewed active proposals"
+  ],
+  "nativeBuild": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\Gepard-Demo10-Integration-20261022\\ART-NATIVE-REBUILD-RESULT.json",
+  "nativeBuildSHA256": "1afa2206a12429af6f43582f5a3e45ce79bbcf9b58b35a1c6765dee7e5c5cdfd",
+  "currentBothSkinGameplay": "PENDING_ROOT_NATIVE_QA",
+  "manualAudioArtAndMPAcceptance": "PENDING",
+  "newAcceptedCheckboxes": 0,
+  "rootTaskEvidence": "Final compile closed PASS actual0/nativeabsent/released. Root actual adoption P/adopted/ACTUAL-COMPILE-ADOPTION.json verified exact compiler project+argv; final manifests under P/adopted/SourceManifest-{role}.json. Core1152 and smoke14 byte-identical, deps3each exact; only integrationRDB regenerated and worldRDBadded. Integration68/world11. RootAdmission may state authorized privatecandidate, scriptcompile8modelnativebuild observed, gameplaypending and no publication."
+}

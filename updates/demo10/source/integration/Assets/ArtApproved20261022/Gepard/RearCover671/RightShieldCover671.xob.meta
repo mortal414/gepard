@@ -1,0 +1,38 @@
+MetaFileClass {
+ Name "{C23AF0E6361BFB2C}Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "RightShieldCover671.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{F1948F0C18D64A23}" {
+     SourceMaterial "GEP671_ShieldPaint"
+     AssignedMaterial "{17B923963BF74535}Assets/Gepard/RearCover671/GEP671_ShieldPaint.emat"
+    }
+    MaterialAssignClass "{701F4BAE892D461B}" {
+     SourceMaterial "GEP671_Seam"
+     AssignedMaterial "{917472038E824376}Assets/Gepard/RearCover671/GEP671_Seam.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GEP671_RightShieldCover {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

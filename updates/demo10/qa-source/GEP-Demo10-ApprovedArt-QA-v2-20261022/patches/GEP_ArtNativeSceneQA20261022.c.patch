@@ -1,0 +1,57 @@
+--- D:\ArmaProjects\Gepard-Consolidated-20261022\native-stage\artNativeQA\scripts\Game\GEPArtNativeSceneQA\GEP_ArtNativeSceneQA20261022.c
++++ source/scripts/Game/GEPArtNativeSceneQA/GEP_ArtNativeSceneQA20261022.c
+@@ -13,11 +13,11 @@
+ {
+  protected ref GEP_ArtNativeQualification20261022 m_Observer = new GEP_ArtNativeQualification20261022();
+  protected ref array<ResourceName> m_Prefabs = {
+-  "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+-  "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et"
++  "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
++  "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et"
+  };
+  protected ref array<string> m_Skins = {"Camo", "Charcoal"};
+- protected ref array<string> m_Views = {"front3q", "rear3q", "left", "right", "guns", "reargrille"};
++ protected ref array<string> m_Views = {"front3q", "rear3q", "left", "right", "guns", "reargrille", "rearfar"};
+  protected ref array<vector> m_Positions = {"592 0 2600", "608 0 2620"};
+  protected ref array<IEntity> m_Subjects = {};
+  protected ref array<vector> m_PreviousOrigins = {};
+@@ -136,6 +136,8 @@
+   if (viewIndex == 3) { offset = "9 0 0"; right = "0 0 1"; forward = "-1 0 0"; }
+   if (viewIndex == 4) { offset = "4 0 6"; right = "-0.8320503 0 0.5547002"; up = "0.1482499 0.9636241 0.2223748"; forward = "-0.5345225 0.2672612 -0.8017837"; }
+   if (viewIndex == 5) { offset = "3 0 -6"; right = "0.8944272 0 0.4472136"; forward = "-0.4472136 0 0.8944272"; }
++  // Same rear3q basis, four times horizontal distance; avoids the adjacent other subject; image evidence only.
++  if (viewIndex == 6) { offset = "28 0 -40"; right = "0.8192319 0 0.5734623"; up = "0 1 0"; forward = "-0.5734623 0 0.8192319"; }
+   vector point = subjectMatrix[3] + offset;
+   point[1] = GetGame().GetWorld().GetSurfaceY(point[0], point[2]) + 0.1;
+   EntitySpawnParams params = new EntitySpawnParams(); params.TransformMode = ETransformMode.WORLD;
+@@ -192,7 +194,7 @@
+    if (!Bootstrap()) return;
+    m_StartMs = GetGame().GetWorld().GetWorldTime(); m_BootstrapPhase = 5;
+    PrintFormat("GEP_ART_SCENE bootstrapPhase=QUALIFIED playerReady=1 timeScale=%1 worldMs=%2 clockStarted=1", GetGame().GetWorld().GetTimeScale(), m_StartMs);
+-   Print("GEP_ART_SCENE begin=1 actualFunctionalSubjects=2 plannedViews=12 staticDisplays=0 vehicleInputs=0");
++   Print("GEP_ART_SCENE begin=1 actualFunctionalSubjects=2 plannedViews=14 staticDisplays=0 vehicleInputs=0");
+   }
+   float now = GetGame().GetWorld().GetWorldTime();
+   m_Age = (now - m_StartMs) / 1000.0;
+@@ -209,7 +211,7 @@
+   }
+   if (!m_ViewStaged)
+   {
+-   int skinIndex = m_Case / 6; int viewIndex = m_Case % 6;
++   int skinIndex = m_Case / 7; int viewIndex = m_Case % 7;
+    if (!PlaceView(skinIndex, viewIndex)) { Fail("view-placement-or-binding-failed"); return; }
+    m_ViewStartMs = now; m_ViewStaged = true; return;
+   }
+@@ -220,10 +222,10 @@
+   if (now - m_ViewStartMs < 5000) return;
+   if (!m_Observer.TryCapture()) return;
+   m_Case++; m_ViewStaged = false;
+-  if (m_Case == 12)
++  if (m_Case == 14)
+   {
+    m_Done = true;
+-   PrintFormat("GEP_ART_SCENE terminal=CAPTURE_REQUESTS_COMPLETE actualFunctionalSubjects=2 completedViews=12 worldSeconds=%1 pixelsValidation=PENDING artAcceptance=PENDING dynamicGameplay=NOT_TESTED newPadsBound=0 wrapperOwnsClose=1", m_Age);
++   PrintFormat("GEP_ART_SCENE terminal=CAPTURE_REQUESTS_COMPLETE actualFunctionalSubjects=2 completedViews=14 worldSeconds=%1 pixelsValidation=PENDING artAcceptance=PENDING dynamicGameplay=NOT_TESTED newPadsBound=0 wrapperOwnsClose=1", m_Age);
+   }
+  }
+ }
