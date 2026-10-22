@@ -1,0 +1,25 @@
+{
+  "runtimeHold": "User00:47; no native until explicit resume",
+  "status": "SOURCE_ONLY_ANALYZER_REARM_AND_SUPPLY_MODE_CONTRACT",
+  "files": {
+    "analyze_wcs_smoke.py": "90019bc332dfa06c6aee5e143d269796314ca25a7d12ffbf8640efd2ecef5d4a",
+    "ANALYZER_TESTS.json": "8220bdca9b1c0928eeaec85ab242d08f5a6b6669721b64cc934c44107190445a",
+    "inspect_rearm_reference.mjs": "985c118addefbc8c75bf4bcdf0e0ec00e5d1d702282fab21505707a9f638ddb7",
+    "inspect_supply_mode.mjs": "77d5b43445128421b831e600b243727fd1397ae075acc67b794d1034720e764c",
+    "NO_EVIDENCE_NEGATIVE_CONTROL.json": "790dd0cee68822146aef50bbb411c0c602e8db579bde243a9738604ecb5adf4f",
+    "README.md": "0bdcca6d19e80517ca2b1295fd1a779a2688eb978baa9ce30c667a70be8426ef",
+    "REARM_REFERENCE_CONTRACT.json": "9a90a692f60d3210c555cf0b38d86525cd2c88a161c419b8d5b3845e9608686d",
+    "REARM-WORLD-CONTRACT.md": "6f6c4df3456922b62c85680b88d0db751a96168e933d357b57bfaa1f2e6d1658",
+    "SOURCE_ONLY_MANIFEST.v1.json": "9fc4c7c730b5c9823ca0bec07dde0261525f33eed995b7ca483f2adee593340e",
+    "SUPPLIES_ENABLEMENT.json": "72db5ae6a7fcc38ab2bf8e8eef79fa28533526a1612ba68cfba101c5e110bca6",
+    "test_analyzer.py": "3ee765b0ea90bd0d93fb48d644c53abb3aeeb62eba174aac3b1461aad0020684"
+  },
+  "priorManifestSHA256": "9fc4c7c730b5c9823ca0bec07dde0261525f33eed995b7ca483f2adee593340e",
+  "frozenCandidateChanged": false,
+  "compiledCachesExcluded": true,
+  "syntheticTests": 16,
+  "nativeActionsTaken": false,
+  "revision": 2,
+  "worldFilesEdited": false,
+  "schema": 1
+}

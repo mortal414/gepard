@@ -15,8 +15,8 @@
     "nativeOwner": "Parent integrator only",
     "template": "audio",
     "routeContract": "ROUTE-INTERFACE.json#GEP033_SAME_ROUTE",
-    "project": null,
-    "world": null,
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+    "world": "{A76A420022000002}Worlds/GPG_Arland.ent",
     "adapterOrBinding": null,
     "resolvedSourceBuildManifest": null,
     "maximumConcurrentGepardGuidCopies": 1,
@@ -25,8 +25,13 @@
       "root": "D:/ArmaProjects/Gepard-OpticApproved-20261022",
       "commitAtRequirementsRead": "66bcb81ea7aec6d98478a0b2fbab26863e9bcc6f",
       "compileAtRequirementsRead": "PENDING",
-      "limit": "Integrator must replace this reference with actual frozen validated final stage pins; common HUD code means baseline is not byte-identical released1.0.2"
-    }
+      "limit": "Integrator must replace this reference with actual frozen validated final stage pins; common HUD code means baseline is not byte-identical released1.0.2",
+      "resolvedRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022",
+      "sourceCheckpoint": "347f58e140af8898d082ecdeeaceef098c962205",
+      "sharedAddonSHA256": "13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d",
+      "sourceOnly": true
+    },
+    "resolvedSourceManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\SOURCE-CLOSURES.json"
   },
   "variants": {
     "baseline": {
@@ -41,29 +46,110 @@
       "leftWheelAcp": null,
       "rightWheelAcp": null,
       "status": "EXCLUDE_UNTIL_NATIVE_TRACE_AUTHORING_COMPILE_AND_AUDIBLE_QUALIFICATION",
-      "mustRetainEvents": ["SOUND_TIRE_SKID_LP", "SOUND_DAMPER_IMPACT", "SOUND_DAMPER_COMPRESS", "SOUND_DAMPER_ABRUPT_MOVE"],
+      "mustRetainEvents": [
+        "SOUND_TIRE_SKID_LP",
+        "SOUND_DAMPER_IMPACT",
+        "SOUND_DAMPER_COMPRESS",
+        "SOUND_DAMPER_ABRUPT_MOVE"
+      ],
       "frozenThreeBandStudyAllowed": false
     }
   },
   "passes": [
-    {"id": "A033_BASE_CABIN", "variant": "baseline", "view": "ordinary-cabin", "route": "GEP033_SAME_ROUTE", "phases": "COMMON_SEQUENCE", "status": "NOT_TESTED"},
-    {"id": "A033_NEW_CABIN", "variant": "adapted", "view": "ordinary-cabin", "route": "GEP033_SAME_ROUTE", "phases": "COMMON_SEQUENCE", "status": "BLOCKED_NO_QUALIFIED_ADAPTED_PREFAB"},
-    {"id": "A033_BASE_EXTERIOR", "variant": "baseline", "view": "ordinary-third-person", "route": "GEP033_SAME_ROUTE", "phases": "COMMON_SEQUENCE", "status": "NOT_TESTED"},
-    {"id": "A033_NEW_EXTERIOR", "variant": "adapted", "view": "ordinary-third-person", "route": "GEP033_SAME_ROUTE", "phases": "COMMON_SEQUENCE", "status": "BLOCKED_NO_QUALIFIED_ADAPTED_PREFAB"}
+    {
+      "id": "A033_BASE_CABIN",
+      "variant": "baseline",
+      "view": "ordinary-cabin",
+      "route": "GEP033_SAME_ROUTE",
+      "phases": "COMMON_SEQUENCE",
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "A033_NEW_CABIN",
+      "variant": "adapted",
+      "view": "ordinary-cabin",
+      "route": "GEP033_SAME_ROUTE",
+      "phases": "COMMON_SEQUENCE",
+      "status": "BLOCKED_NO_QUALIFIED_ADAPTED_PREFAB"
+    },
+    {
+      "id": "A033_BASE_EXTERIOR",
+      "variant": "baseline",
+      "view": "ordinary-third-person",
+      "route": "GEP033_SAME_ROUTE",
+      "phases": "COMMON_SEQUENCE",
+      "status": "NOT_TESTED"
+    },
+    {
+      "id": "A033_NEW_EXTERIOR",
+      "variant": "adapted",
+      "view": "ordinary-third-person",
+      "route": "GEP033_SAME_ROUTE",
+      "phases": "COMMON_SEQUENCE",
+      "status": "BLOCKED_NO_QUALIFIED_ADAPTED_PREFAB"
+    }
   ],
   "COMMON_SEQUENCE": [
-    {"phase": "sync-and-settle", "minimumWorldSeconds": 6, "instruction": "Existing ordinary engine start transition as visible/audible sync landmark; record actual onset and settle, no custom tone or playback event"},
-    {"phase": "parked-idle", "minimumWorldSeconds": 10, "instruction": "Grounded stationary engine idle; record raw wheel motion and listen for unintended rolling"},
-    {"phase": "parked-throttle", "minimumWorldSeconds": 4, "instruction": "Ordinary stationary throttle blip only if qualified input/restraint keeps subject stationary; otherwise NOT_TESTED, never a physics/velocity hold"},
-    {"phase": "low-forward", "minimumWorldSeconds": 8, "instruction": "Steady low-speed passage through the marked window; actual speed controls clip selection, requested throttle is not speed evidence"},
-    {"phase": "cruise-forward", "minimumWorldSeconds": 8, "instruction": "Steady faster passage within the route's safe admitted envelope; capture same actual speed bin in both variants"},
-    {"phase": "coast", "minimumWorldSeconds": 5, "instruction": "Release driving action; record continuing actual motion. Optional ordinary engine-off coast is separately marked and requires safe existing input path"},
-    {"phase": "stop-forward", "minimumWorldSeconds": 5, "instruction": "Ordinary braking to complete grounded stop; listen through full dwell"},
-    {"phase": "reverse", "minimumWorldSeconds": 8, "instruction": "Use accepted native reverse controls; compare matched absolute body/wheel speeds and raw sign with forward, without changing R settings"},
-    {"phase": "rolling-left", "minimumWorldSeconds": 6, "instruction": "Rolling turn through the marked same-surface window; record left/right wheel rates, yaw and actual path"},
-    {"phase": "rolling-right", "minimumWorldSeconds": 6, "instruction": "Opposite rolling turn under matched conditions"},
-    {"phase": "bump-or-surface-transition", "minimumWorldSeconds": 8, "instruction": "Same modest marked bump/transition; retain skid and suspension transients, no artificial damage/teleport during measurement"},
-    {"phase": "final-stop", "minimumWorldSeconds": 5, "instruction": "Grounded terminal dwell and rolling-tail check; end pass before qualified fresh reset"}
+    {
+      "phase": "sync-and-settle",
+      "minimumWorldSeconds": 6,
+      "instruction": "Existing ordinary engine start transition as visible/audible sync landmark; record actual onset and settle, no custom tone or playback event"
+    },
+    {
+      "phase": "parked-idle",
+      "minimumWorldSeconds": 10,
+      "instruction": "Grounded stationary engine idle; record raw wheel motion and listen for unintended rolling"
+    },
+    {
+      "phase": "parked-throttle",
+      "minimumWorldSeconds": 4,
+      "instruction": "Ordinary stationary throttle blip only if qualified input/restraint keeps subject stationary; otherwise NOT_TESTED, never a physics/velocity hold"
+    },
+    {
+      "phase": "low-forward",
+      "minimumWorldSeconds": 8,
+      "instruction": "Steady low-speed passage through the marked window; actual speed controls clip selection, requested throttle is not speed evidence"
+    },
+    {
+      "phase": "cruise-forward",
+      "minimumWorldSeconds": 8,
+      "instruction": "Steady faster passage within the route's safe admitted envelope; capture same actual speed bin in both variants"
+    },
+    {
+      "phase": "coast",
+      "minimumWorldSeconds": 5,
+      "instruction": "Release driving action; record continuing actual motion. Optional ordinary engine-off coast is separately marked and requires safe existing input path"
+    },
+    {
+      "phase": "stop-forward",
+      "minimumWorldSeconds": 5,
+      "instruction": "Ordinary braking to complete grounded stop; listen through full dwell"
+    },
+    {
+      "phase": "reverse",
+      "minimumWorldSeconds": 8,
+      "instruction": "Use accepted native reverse controls; compare matched absolute body/wheel speeds and raw sign with forward, without changing R settings"
+    },
+    {
+      "phase": "rolling-left",
+      "minimumWorldSeconds": 6,
+      "instruction": "Rolling turn through the marked same-surface window; record left/right wheel rates, yaw and actual path"
+    },
+    {
+      "phase": "rolling-right",
+      "minimumWorldSeconds": 6,
+      "instruction": "Opposite rolling turn under matched conditions"
+    },
+    {
+      "phase": "bump-or-surface-transition",
+      "minimumWorldSeconds": 8,
+      "instruction": "Same modest marked bump/transition; retain skid and suspension transients, no artificial damage/teleport during measurement"
+    },
+    {
+      "phase": "final-stop",
+      "minimumWorldSeconds": 5,
+      "instruction": "Grounded terminal dwell and rolling-tail check; end pass before qualified fresh reset"
+    }
   ],
   "comparisonRules": {
     "speedWindows": "Integrator selects safe low/cruise actual speed windows from baseline control and freezes them before variant comparison; no prototype three-band thresholds imposed",
@@ -74,23 +160,113 @@
   },
   "telemetry": {
     "sampleClock": "Native worldMs, actual timeScale1, increasing integer sample, phase and pass ID; align host UTC at phase boundaries to recorder log and visible/audible sync landmark",
-    "baselineProtocolReused": ["QA_DRIVE_STATE", "QA_DRIVE_MOTION", "QA_DRIVE_CONTROL", "QA_DRIVE_WHEELS", "QA_DRIVE_ADMISSION"],
+    "baselineProtocolReused": [
+      "QA_DRIVE_STATE",
+      "QA_DRIVE_MOTION",
+      "QA_DRIVE_CONTROL",
+      "QA_DRIVE_WHEELS",
+      "QA_DRIVE_ADMISSION"
+    ],
     "existingProtocolLimits": "Historical GEP_DamageScenario683 is VehicleTrackedSimulation; reuse record categories/reviewer only, never transplant its tracked controller, two-index wheel getters or world",
-    "requiredBody": ["vehicle/actor/seat identity", "position_m", "forward_unit_vector", "physics_velocity_world_mps", "horizontal_speed_mps", "forward_signed_speed_mps=dot(velocity,forward)", "physics_yaw_rate_radps", "native_worldMs", "timeScale", "engine_on", "engine_rpm", "engine_load", "gear"],
-    "requiredInput": ["controlled-and-driver-occupied", "actual accepted action values before physics", "raw solver throttle/brake separately, without clamping or treating unknown ranges as input proof"],
-    "requiredWheel": ["actual VehicleWheeledSimulation component class", "native wheel count", "resolved wheel index/name/side/position mapping", "WheelGetAngularSpeed(index) signed rad/s", "WheelGetRadius(index) metres and WheelGetRadiusState(index) if available", "WheelHasContact(index)", "actual surface/material resource identity and contact position when available", "all mapped driven wheels preferred; clearly label any representative-wheel subset"],
-    "diagnosticsOnly": ["rpm=omega_radps*60/(2*pi)", "rimSpeed_mps=omega_radps*radius_m", "compare signed rim/body rates on grounded straight windows", "do not call this true belt slip/contact/friction acceptance"],
-    "requiredAudioSignal": ["actual rolling graph and selected node IDs", "actual native signal input name including wheel index/suffix", "raw runtime value and native observation route", "semantic unit/source proof or explicit UNRESOLVED", "static dB/semitone properties separate from dynamic gain/pitch scaling ports", "signal value at parked throttle, low/cruise forward, reverse, rolling turn, coast and stop", "source/signal resource GUIDs and compiled dependency closure", "native event/trigger lifetime and handle state where observable; unavailable readback remains NOT_TESTED"],
+    "requiredBody": [
+      "vehicle/actor/seat identity",
+      "position_m",
+      "forward_unit_vector",
+      "physics_velocity_world_mps",
+      "horizontal_speed_mps",
+      "forward_signed_speed_mps=dot(velocity,forward)",
+      "physics_yaw_rate_radps",
+      "native_worldMs",
+      "timeScale",
+      "engine_on",
+      "engine_rpm",
+      "engine_load",
+      "gear"
+    ],
+    "requiredInput": [
+      "controlled-and-driver-occupied",
+      "actual accepted action values before physics",
+      "raw solver throttle/brake separately, without clamping or treating unknown ranges as input proof"
+    ],
+    "requiredWheel": [
+      "actual VehicleWheeledSimulation component class",
+      "native wheel count",
+      "resolved wheel index/name/side/position mapping",
+      "WheelGetAngularSpeed(index) signed rad/s",
+      "WheelGetRadius(index) metres and WheelGetRadiusState(index) if available",
+      "WheelHasContact(index)",
+      "actual surface/material resource identity and contact position when available",
+      "all mapped driven wheels preferred; clearly label any representative-wheel subset"
+    ],
+    "diagnosticsOnly": [
+      "rpm=omega_radps*60/(2*pi)",
+      "rimSpeed_mps=omega_radps*radius_m",
+      "compare signed rim/body rates on grounded straight windows",
+      "do not call this true belt slip/contact/friction acceptance"
+    ],
+    "requiredAudioSignal": [
+      "actual rolling graph and selected node IDs",
+      "actual native signal input name including wheel index/suffix",
+      "raw runtime value and native observation route",
+      "semantic unit/source proof or explicit UNRESOLVED",
+      "static dB/semitone properties separate from dynamic gain/pitch scaling ports",
+      "signal value at parked throttle, low/cruise forward, reverse, rolling turn, coast and stop",
+      "source/signal resource GUIDs and compiled dependency closure",
+      "native event/trigger lifetime and handle state where observable; unavailable readback remains NOT_TESTED"
+    ],
     "unitCalibration": "Do not equate character Speed m/s documentation with vehicle audio Speed. Compare native raw values with measured body speed and mapped wheel omega/radius over forward/reverse/contact states, then retain proven conversion or mark unresolved",
-    "listener": ["camera/view/compartment", "listener world position", "emitter wheel sound point position", "actual distance_m", "hatch/coverage state", "actual audio output endpoint", "game and OS gain settings"],
+    "listener": [
+      "camera/view/compartment",
+      "listener world position",
+      "emitter wheel sound point position",
+      "actual distance_m",
+      "hatch/coverage state",
+      "actual audio output endpoint",
+      "game and OS gain settings"
+    ],
     "captureRate": "Existing half-second joined motion samples are adequate steady-window evidence; transient/event-onset timestamps need separate native event records or synchronized visible/audio evidence. Do not claim subframe onset from0.5s samples",
     "emissionStatus": "Contract only: no new telemetry emitter/controller authored in this package"
   },
   "optionalSameSession": [
-    {"case": "A033_DISTANCE", "instruction": "Baseline/adapted matched rolling pass by on-foot5/30/100m side observers using qualified existing driver control; record actual varying distance; NOT_TESTED if control path unavailable"},
-    {"case": "A033_LIFECYCLE", "instruction": "Out of range/return, crew exit/reentry and qualified subject reset/delete; no remaining previous loop, no interrupted user actor; use world's admitted reset"}
+    {
+      "case": "A033_DISTANCE",
+      "instruction": "Baseline/adapted matched rolling pass by on-foot5/30/100m side observers using qualified existing driver control; record actual varying distance; NOT_TESTED if control path unavailable"
+    },
+    {
+      "case": "A033_LIFECYCLE",
+      "instruction": "Out of range/return, crew exit/reentry and qualified subject reset/delete; no remaining previous loop, no interrupted user actor; use world's admitted reset"
+    }
   ],
-  "requiredEvidence": ["final project/world/source+build/dependency pins", "complete raw native console and normal ownership/lifecycle receipt", "native stock rolling trace and eventual adapted graph diff/load result", "route/surface/actual pose pins", "joined body/input/wheel/signal/listener records or explicit missing measurements", "one continuous finalized stereo loopback plus recorder console", "synchronized native video with actual timestamps and sync offset", "phase clip ledger with common gain", "Marco sound judgement recorded separately"],
-  "requiredAssertions": ["fixture.ready", "audio.provenance", "audio.native-event", "audio.cadence", "audio.distance", "audio.tail", "audio.crew-view", "audio.transients-retained", "audio.no-double-rolling", "audio.audition-accepted"],
-  "currentResults": {"sourceManifest": "READY_INTERFACE", "nativeCompile": "NOT_TESTED", "nativeLoad": "NOT_TESTED", "nativeListening": "NOT_TESTED", "humanAcceptance": "NOT_TESTED", "mpJip": "NOT_TESTED", "gep033Complete": false}
+  "requiredEvidence": [
+    "final project/world/source+build/dependency pins",
+    "complete raw native console and normal ownership/lifecycle receipt",
+    "native stock rolling trace and eventual adapted graph diff/load result",
+    "route/surface/actual pose pins",
+    "joined body/input/wheel/signal/listener records or explicit missing measurements",
+    "one continuous finalized stereo loopback plus recorder console",
+    "synchronized native video with actual timestamps and sync offset",
+    "phase clip ledger with common gain",
+    "Marco sound judgement recorded separately"
+  ],
+  "requiredAssertions": [
+    "fixture.ready",
+    "audio.provenance",
+    "audio.native-event",
+    "audio.cadence",
+    "audio.distance",
+    "audio.tail",
+    "audio.crew-view",
+    "audio.transients-retained",
+    "audio.no-double-rolling",
+    "audio.audition-accepted"
+  ],
+  "currentResults": {
+    "sourceManifest": "WORLD_SOURCE_BOUND_NATIVE_SURFACE_AND_ADAPTATION_PENDING",
+    "nativeCompile": "NOT_TESTED",
+    "nativeLoad": "NOT_TESTED",
+    "nativeListening": "NOT_TESTED",
+    "humanAcceptance": "NOT_TESTED",
+    "mpJip": "NOT_TESTED",
+    "gep033Complete": false
+  }
 }

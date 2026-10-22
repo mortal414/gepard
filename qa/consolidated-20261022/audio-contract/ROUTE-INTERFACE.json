@@ -5,18 +5,67 @@
   "provingGroundRoot": "D:/ArmaProjects/Gepard-ProvingGround-20261022",
   "requirementsSource": "D:/ArmaProjects/Gepard-ProvingGround-20261022/FUNCTIONAL-INTEGRATION-REQUIREMENTS.json",
   "worldOwnerFills": {
-    "project": null,
-    "world": null,
-    "worldAddonGuid": null,
-    "routeResourceOrMarkerIds": null,
-    "spawnWorldPosition": null,
-    "spawnHeadingDegrees": null,
-    "routePointPositions": null,
-    "surfaceResourceIdentities": null,
-    "bumpOrTransitionMarkerId": null,
-    "observerMarkerIds": null,
-    "resetCaseInput": null,
-    "worldSourceManifest": null
+    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+    "world": "{A76A420022000002}Worlds/GPG_Arland.ent",
+    "worldAddonGuid": "A76A420022000001",
+    "routeResourceOrMarkerIds": [
+      "GPG_Board_G01 START",
+      "GPG_Board_G02 50m REVERSE LIMIT",
+      "GPG_Board_G03 150m BRAKE",
+      "GPG_Board_G04 200m STOP / RIGHT",
+      "GPG_Board_G09 RETURN"
+    ],
+    "spawnWorldPosition": {
+      "x": 600,
+      "z": 2660,
+      "y": "native GetSurfaceY(600,2660)+0.7; record actual rested pose"
+    },
+    "spawnHeadingDegrees": 0,
+    "routePointPositions": [
+      [
+        600,
+        0,
+        2660
+      ],
+      [
+        600,
+        0,
+        2710
+      ],
+      [
+        600,
+        0,
+        2810
+      ],
+      [
+        600,
+        0,
+        2860
+      ]
+    ],
+    "surfaceResourceIdentities": "NOT_TESTED; native moving wheel contact/material survey required before audio pair admission",
+    "bumpOrTransitionMarkerId": "G07 TERRAIN SPUR / G09 RETURN candidates; NOT_TESTED actual transition",
+    "observerMarkerIds": {
+      "cabin": "ordinary player camera",
+      "exterior": "ordinary third-person",
+      "GPG_Board_AUDIO-5m": [
+        605,
+        0,
+        2750
+      ],
+      "GPG_Board_AUDIO-30m": [
+        630,
+        0,
+        2750
+      ],
+      "GPG_Board_AUDIO-100m": [
+        700,
+        0,
+        2750
+      ]
+    },
+    "resetCaseInput": "Station02 drive board Reset this station replaces owned ROUTE-SUBJECT at600/2660/yaw0 if empty/stopped/returned near pad. registry/variants.json routeSubjectSlot selects the qualified same-art variant. Regenerate/freeze before each changed source. Keep all bay/support engines off.",
+    "worldSourceManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\world-source-manifest.json"
   },
   "requestedRoute": {
     "spawn": "One common flat grounded start pose and heading; use fresh baseline/adapted subjects sequentially at that exact pose",
@@ -36,5 +85,9 @@
     "No world implementation or native action in this audio lane"
   ],
   "returnContract": "World owner supplies actual values through WORLD-TO-FUNCTIONAL-HANDOFF.json; integrator binds these into LISTENING-MANIFEST.json before admission",
-  "status": "READY_INTERFACE_PENDING_WORLD_BINDING"
+  "status": "WORLD_SOURCE_BOUND_NATIVE_SURFACE_AND_ADAPTATION_NOT_QUALIFIED",
+  "worldOwnerCommit": "d42a569e46ee63c0e676361814a67394f7695d9f",
+  "sourceCheckpoint": "347f58e140af8898d082ecdeeaceef098c962205",
+  "worldSourceManifestSHA256": "ffb2df35599329b875d8e45edc9f15054fcb546f6490c642310d700849e76dac",
+  "nativeRuntime": "NOT_TESTED"
 }
