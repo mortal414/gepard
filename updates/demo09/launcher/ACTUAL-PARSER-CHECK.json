@@ -1,0 +1,12 @@
+{
+  "status": "CORRECTED_PURE_PARSER_ACTUAL_OLD_LOG_PASS",
+  "observed": {
+    "loggedOrigins": "authored Ground descriptors, XZ checked; actualY/reach/shared queue NOT_TESTED",
+    "bindings": true,
+    "pass": true,
+    "boards": 24,
+    "finiteInitial": true,
+    "objects": 34
+  },
+  "nativeStarted": false
+}

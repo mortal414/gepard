@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons",
+  "files": {
+    "D561AD08932E7B40/addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D561AD08932E7B40/resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119",
+    "D561AD08932E7B40/data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+    "7E0150C026101500/addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "7E0150C026101500/resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "7E0150C026101500/data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+    "A76A420022000001/addon.gproj": "ac6136b5ef4e4153ec38a078c9bc6a8e5e34b609c99fa526931c1f411599ba34",
+    "A76A420022000001/resourceDatabase.rdb": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c",
+    "A76A420022000001/data.pak": "516e16efdea95990fd95cddd31392ff9744e8805fdce50683a89acfe285a2cc3"
+  },
+  "packPlanSHA256": "6848a989a1e9bba58fca828a12b2e028fbfee3bae5a25bda8f220eb66f0ee53f",
+  "packages": [
+    {
+      "role": "gepard",
+      "guid": "D561AD08932E7B40",
+      "reused": true,
+      "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard-pack\\package-proof.json",
+      "proofSHA256": "39b9bf182dccb0eec73069c60f7bf17075cc34ce5b452adf708d8d6c0a90ca4a",
+      "trio": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\addon.gproj",
+          "bytes": 666,
+          "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\resourceDatabase.rdb",
+          "bytes": 49774,
+          "sha256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\data.pak",
+          "bytes": 254101614,
+          "sha256": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519"
+        }
+      ]
+    },
+    {
+      "role": "wcsSmoke",
+      "guid": "7E0150C026101500",
+      "reused": false,
+      "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\wcsSmoke-pack\\package-proof.json",
+      "proofSHA256": "b8e923aefc96e71a87c5384be92348f25dd601c8de85726697a03b8183947e26",
+      "trio": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\GEP_WCSSmoke215.gproj",
+          "bytes": 295,
+          "sha256": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\resourceDatabase.rdb",
+          "bytes": 746,
+          "sha256": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\data.pak",
+          "bytes": 9144,
+          "sha256": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f"
+        }
+      ]
+    },
+    {
+      "role": "provingGround",
+      "guid": "A76A420022000001",
+      "reused": false,
+      "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\provingGround-pack\\package-proof.json",
+      "proofSHA256": "b0509a40be492474322f3baa59ec35a75b5031ce3b270444e1a379ce5dbce411",
+      "trio": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\provingGround\\GepardProvingGround.gproj",
+          "bytes": 272,
+          "sha256": "ac6136b5ef4e4153ec38a078c9bc6a8e5e34b609c99fa526931c1f411599ba34"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\provingGround\\resourceDatabase.rdb",
+          "bytes": 537,
+          "sha256": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\provingGround\\data.pak",
+          "bytes": 14062,
+          "sha256": "516e16efdea95990fd95cddd31392ff9744e8805fdce50683a89acfe285a2cc3"
+        }
+      ]
+    }
+  ],
+  "packDiagnostics": {
+    "operationalVerdict": "PASS",
+    "strictNativeVerdict": "FAIL",
+    "rawNativeErrorCount": 104,
+    "rows": [
+      {
+        "role": "wcsSmoke",
+        "step": "validate",
+        "rawErrorCount": 26,
+        "strictNativeVerdict": "FAIL",
+        "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+        "consoleSHA256": "c533a47cfa493b63dade72945a0bfc24402b3761ddd5196a600cfe2bb5b3d391",
+        "diagnosticsReportSHA256": "d9564f19f60b78e1c3f0e98f911ab00b814ee2c31bcf9311bdaa5e3575f06525"
+      },
+      {
+        "role": "wcsSmoke",
+        "step": "pack",
+        "rawErrorCount": 26,
+        "strictNativeVerdict": "FAIL",
+        "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+        "consoleSHA256": "13c1f943ab5131eaaf7225393b9a0b9d4ae6e0a1c54692fe56f50cfd1d33b28c",
+        "diagnosticsReportSHA256": "498a3edf49e20bbf6ff04b4954de3a34479b864937e1654d81e81b8409a40655"
+      },
+      {
+        "role": "provingGround",
+        "step": "validate",
+        "rawErrorCount": 26,
+        "strictNativeVerdict": "FAIL",
+        "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+        "consoleSHA256": "2ae870c64a4a122477878ada0c30ed1e17ce22dd48e605475f75efd01bf2e80d",
+        "diagnosticsReportSHA256": "13d7761b7a1a009fd6f1725792cf8754e1f469fbf0375e2ca59b8718fe24de65"
+      },
+      {
+        "role": "provingGround",
+        "step": "pack",
+        "rawErrorCount": 26,
+        "strictNativeVerdict": "FAIL",
+        "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+        "consoleSHA256": "abcc9ed9a0b49092a0c1cfe9357b6ebefa7f0a162a3a631e408f449873dfcb10",
+        "diagnosticsReportSHA256": "b3386e1456750bee5afcf6dc7a626d067ac57700ad26e437bebc34a9025c9f38"
+      }
+    ],
+    "meaning": "Actual validation/package success and closed ownership; known errors remain strictFAIL, no clean-health/gameplay claim"
+  },
+  "WCSCopiedIntoOwnPayload": false,
+  "nativeStarted": false,
+  "metadataBytesChanged": false,
+  "privateQAAdded": false
+}

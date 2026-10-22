@@ -24,7 +24,11 @@
       "observedSubcriteria": "Actual ordinary-v6 compile06, private pack08 operational PASS with100strict pack errors retained; installed08 exact trios and closed rendered ordinary start verified. No clean-native or human gameplay acceptance.",
       "remainingGates": [
         "Physical consolidated human session"
-      ]
+      ],
+      "currentDemo": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\RESULT.json",
+        "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
+      }
     },
     {
       "id": "A02-world",
@@ -39,7 +43,11 @@
       "observedSubcriteria": "Measured final geometry:31roots/23boards/8routegates/2targets. Package07 actual layout matches and owned screenshot shows real player/grass/world. V3 independent source-bound observation: 23 boards with component/Station/Rpl/context and five actions each; 115 native owner-equality booleans. Registered bay read/reset/reset reaches the original Director; four replacements, 228 old IDs absent, 27 unrelated roots preserved and all 31 stable under debounce. Original adapter/aggregate NOT_TESTED from malformed inline-ID telemetry is retained; no ID normalization or waiver.",
       "remainingGates": [
         "Physical route/board usability and target impacts"
-      ]
+      ],
+      "currentDemo": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\RESULT.json",
+        "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
+      }
     },
     {
       "id": "A03-services",
@@ -133,7 +141,11 @@
         "Positive target range acquisition/accuracy",
         "Other aspects/design judgment",
         "Night/low-light cycle judgment remains pending"
-      ]
+      ],
+      "currentDemo": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\RESULT.json",
+        "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
+      }
     },
     {
       "id": "A08-HUD-lifecycle",
@@ -149,7 +161,11 @@
       "remainingGates": [
         "Broad repeated and damaged-seat lifecycle",
         "Night/low-light cycle judgment remains pending"
-      ]
+      ],
+      "currentDemo": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\RESULT.json",
+        "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
+      }
     },
     {
       "id": "A09-driving",
@@ -167,30 +183,36 @@
     {
       "id": "A10-survivingcrew",
       "criterion": "Nearbyexplosion withactualdamage/survivorstate followedby exit/reentry/traverse/refire;no claimrealisticprotectionfromone matrix.",
-      "outcome": "automated pass",
+      "outcome": "manual judgment pending",
       "evidence": [
         "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-native\\FRAGMENT-PAIR-REVIEWED.json"
       ],
-      "manualJudgment": "Physical user experience remains separately pending; bounded native criterion observed in both skins."
+      "manualJudgment": "Physical user experience remains separately pending; bounded native criterion observed in both skins.",
+      "currentStackScope": "Prior Package08 fragment/survivor pass retained; WCS stack healthy exit/reentry/refire verified, post-blast under WCS not rerun."
     },
     {
       "id": "A11-smoke",
       "criterion": "Conditionalonly:actualalignedlaunch/flight/fuse/visiblecloud/ammo/full/empty/genuinerearm/dependencycompatibility;coveragehumanjudgmentseparate.",
-      "outcome": "not tested",
+      "outcome": "manual judgment pending",
       "evidence": [
         "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-native-rearm-05\\RESULT.json",
         "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-current-v11-02\\RESULT.json",
         "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-full-visual-07\\RESULT.json"
       ],
       "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
-      "observedSubcriteria": "Smoke stays excluded from stable08 pending final optional build qualification. Generic mechanism fixture rearm05 observed a genuine native held action: original right-bank tube0/bank/total0-to1, exact finite crate8-to7, other observed source0 unchanged, controls released and normal0 closure. StrictFAIL58 retained. Both currentV11 skins separately passed8-flight/empty and zero-pose port correspondence; final currentV11 service, full8 refill/depleted/full/range negatives, articulated fit, dependency-stack regression, optional world/package and human screening remain open. No active smoke access denial.",
+      "observedSubcriteria": "Experimental demo: both currentV11 skins8-flight/empty and zero-pose ports; visible clouds with forward gap; one generic finite native refill verified. Shared-world rearm/full refill/negatives/reset, rotated fit, controls and usefulness need user test.",
       "remainingGates": [
-        "Genuine finite WCS_REARM transfer and ordinary access",
-        "Nonzero turret/hull and visual clearance",
-        "Current dependency-stack HUD/crew/cannon/driving compatibility",
-        "Ordinary smoke controls/roles/cooldown and manual screening judgment",
-        "Optional world/package integration and MP/JIP/dedicated"
-      ]
+        "Shared-world full refill/finite debit/full-empty-role-range negatives/reset usability",
+        "Actual ordinary smoke controls and cooldown",
+        "Nonzero hull/turret port fit and visual clearance",
+        "Human useful screening judgment with observed forward gap",
+        "MP/JIP/dedicated; whole GEP acceptance remains unchecked"
+      ],
+      "currentDemo": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\RESULT.json",
+        "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
+      },
+      "demoInclusion": "EXPERIMENTAL_NEEDS_USER_TEST"
     },
     {
       "id": "A12-trackaudio",
@@ -208,7 +230,11 @@
       "criterion": "One station-based finalsession;Marco judges optic/art/smoke/audio asactuallyincluded.",
       "outcome": "not tested",
       "evidence": [],
-      "manualJudgment": "pending"
+      "manualJudgment": "pending",
+      "currentDemo": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\RESULT.json",
+        "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
+      }
     },
     {
       "id": "A14-cleanbuild",
@@ -225,15 +251,20 @@
       "remainingGates": [
         "Strict native diagnostics remain FAIL",
         "Human session judgment"
-      ]
+      ],
+      "currentDemo": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\RESULT.json",
+        "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
+      }
     }
   ],
   "sourceEvidenceIsNotBehaviorPass": true,
   "excluded": [
-    "unqualifiedsmoke/audiountilruntimepass",
-    "disabledstabilization/ballisticcorrectionstretchonlyaftercore",
-    "customcannonaudio",
-    "Isfahan"
+    "New track audio: separate authoring permission pending; no audible implementation included",
+    "Stabilization and ballistic correction remain disabled/deferred",
+    "Custom cannon audio",
+    "Isfahan",
+    "Smoke whole-service/MP acceptance is excluded; experimental smoke itself is included in demo09"
   ],
   "newAcceptance": 0,
   "publication": false,
@@ -313,7 +344,7 @@
       }
     }
   },
-  "updatedUtc": "2026-10-22T12:14:21.274374+00:00",
+  "updatedUtc": "2026-10-22T12:46:40.291179+00:00",
   "nativeCheckpoints": {
     "ordinarySource": "private-demo-source-v6; actual compile06 PASS",
     "packages": "pack08 operational PASS; strict100 errors retained; installed08 two verified trios",
@@ -757,6 +788,95 @@
       "mainPackage08Modified": false,
       "publication": false,
       "newAcceptedCheckboxes": 0
+    },
+    "playableDemo09": {
+      "status": "PRIVATE_PACKAGE09_PLAYABLE_MANUAL_DEMO_READY_WITH_EXPLICIT_LIMITS",
+      "createdUtc": "2026-10-22T12:46:40.291179+00:00",
+      "entrypoint": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd",
+        "sha256": "44ef2e80b836be44ad1e027426957f33031fe0c27a516fc9ec2e1988e2155c52"
+      },
+      "launcher": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\Launch-Gepard-Private-Demo09.ps1",
+        "sha256": "9969ed9b9d79ae30238c245c39790a76ffb697af45e00a4af4b130374bb84898"
+      },
+      "manualGuide": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\PLAYTEST-NEW-FEATURES.md",
+        "sha256": "562b0db93ec95cd8d76d234e50b5bf6047cef16f93a850be8993ca688a2fc962"
+      },
+      "ownedSourceSnapshot": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\OWNED-SOURCE-MANIFEST.json",
+        "sha256": "d15806678f60ef009796a85995a29bb0e8ec72c6181c2a4c3430c91d000652c6"
+      },
+      "compile": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-smoke-demo-01\\RESULT.json",
+        "sha256": "a4d2faa8dd6f4a0ce3bc724549c827b32da7b73a788db98717c58efe5c8f16f0"
+      },
+      "pack": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\RESULT.json",
+        "sha256": "9ccb0ccf703ba07e85a6fcb120add542034c9d8b19506ff0fd2eeae8163927ac"
+      },
+      "installedClosure": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\INSTALLED-PACKAGE-CLOSURE.json",
+        "sha256": "b12afb6d35a77c14109322e944e04547ee0593520ebdf3965079e6c8b6f32967"
+      },
+      "core08TrioReusedExact": true,
+      "ownPackageFiles": 9,
+      "WCS": {
+        "package": "629B2BA37EFFD577",
+        "version": "8.4.0",
+        "separateDependency": true,
+        "redistributedInsideOwnAddons": false,
+        "closure": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\SEPARATE-WCS-CLOSURE.json",
+          "sha256": "10662285c63a847c98382d36411fa28b21b820a7026de57d63b685103fb3640d"
+        }
+      },
+      "nativeStartup": {
+        "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0",
+        "exit": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\exit.json",
+          "sha256": "20b3bd3450d7becd4ee4484700ed9c211ac17c9f4b48db97a6734d0271c43e90"
+        },
+        "rawResult": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\RESULT.json",
+          "sha256": "a7bb05e4f869ee855893d4c02cca6b2e62cb5f2c52489db6cc6c9796c9eb3756"
+        },
+        "independentReanalysis": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\PACKAGE-STARTUP-REANALYSIS.json",
+          "sha256": "bd56ad3ecea1234927c06fe5e9afcb98365497af77ef7f806f880296bbdfb796"
+        },
+        "functionalObservation": "PASS_INDEPENDENT_DELIMITER_AWARE_REANALYSIS",
+        "objects": 34,
+        "boards": 24,
+        "finiteInitialSupplies": 8,
+        "normal0Released": true,
+        "rawCollectorBoardCount": 16,
+        "rawOriginalFailureRetained": true,
+        "strictNativeErrors": 60,
+        "strictNativeVerdict": "FAIL"
+      },
+      "coreCompatibilityBothSkins": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\CORE-COMPATIBILITY-PAIR.json",
+        "sha256": "8f28a1b28a8d447d5756f1b01fdb9da35414851848cd64392a0cd3546d404d19"
+      },
+      "renderedScene": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\package09-owned-printwindow.png",
+        "sha256": "8a3b4ae115fa74190e2997ced72644a900cf983c8ed55ba9ea1d7b5b5e492d7f"
+      },
+      "renderReview": "Actual ground-level grass/sky, Gepards and boards with Quick slots UI; no blank/loading/menu view. No scene geometry/human usability acceptance.",
+      "smokeScope": "Experimental demo: both currentV11 skins8-flight/empty and zero-pose ports; visible clouds with forward gap; one generic finite native refill verified. Shared-world rearm/full refill/negatives/reset, rotated fit, controls and usefulness need user test.",
+      "remainingManual": [
+        "V11 exterior/moving clearance/hatches/LODs",
+        "Optic design/positive ranging/lighting/aspects",
+        "Ordinary smoke controls/roles/cooldown and useful screening",
+        "Both shared-world maintenance points, finite/full/empty/refill/reset behavior",
+        "MP/JIP/dedicated outside current demo"
+      ],
+      "strictPackDiagnostics": 104,
+      "newAcceptedGepCheckboxes": 0,
+      "published": false,
+      "rollbackEntry": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd"
     }
   },
   "latestService": {

@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "template": "startup",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\qaCore\\GEP_SmokeCoreCompatQA.gproj",
+  "world": "Worlds/GEP_GunRange.ent",
+  "sourceRoots": [
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\gepard",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\wcsSmoke",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\dependencies\\WCS_Armaments",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\qaCore"
+  ],
+  "addonRoots": [
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\dependencies",
+    "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons"
+  ],
+  "requiredFiles": [
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\adapter.py",
+      "sha256": "c6916abeaa20d2785a6bba58e343c9b97d89c1568cab683e13cd4483d792045f"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\lease_read.py",
+      "sha256": "a56e0307d68ccbde1417da89086c65ed671cac888b886116652ebc2ae03baedf"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\evidence.py",
+      "sha256": "a196b88aa542cd39e5a68822607881bc8f0354e0ad549e4ea355bae5812a1447"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\core_evidence.py",
+      "sha256": "f8dc6bc5aeee2920afcf7547f039d10cc5d20f4faeab03fdb6883f4d1299769b"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\damage-adapter683.ts",
+      "sha256": "3d9b2de769b0a7eded49c01d2e2c76476b4aa756a4b67cde46737f7233a795b6"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\package.json",
+      "sha256": "609158e6c5fbc237939fa3ddf7faab80ab690bdc0c8d584414a885130103c4e8"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\tools\\Scene.ps1",
+      "sha256": "81f6ee8760bfd93e1291d7da24d43abd554f6e000921f21528c62ee759fb1a9a"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\SOURCE-CLOSURES.json",
+      "sha256": "02222c30d0122ad5fb1aed96e12b47235405ba3dcbd3861b94fd4dd91373e069"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\GEPARD-MANIFEST.json",
+      "sha256": "c3787b435a9cc1cc49411bd810cc1e72075163e6b46c3351fa1d3a387e6e29d8"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\manifests\\gepard.json",
+      "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\manifests\\wcsSmoke.json",
+      "sha256": "37388e45e737728fa95f217a1a94154b027342798879c58ccbd9eed4a66f0eb8"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\manifests\\WCS_Armaments.json",
+      "sha256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\manifests\\qaCore.json",
+      "sha256": "c3787b435a9cc1cc49411bd810cc1e72075163e6b46c3351fa1d3a387e6e29d8"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\cases\\v11-healthy.json",
+      "sha256": "7cecd25080edde1b778edec15f014b84cac464cab8d75498b0b6d38e7b7450dd"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\vehicles\\v11-camo.json",
+      "sha256": "5b3e830cadd527f3b8e2561cb24d02cf9ba2688779ad0f34ea017282db3be927"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\vehicles\\v11-charcoal.json",
+      "sha256": "a6a783fab187aa4f6043df28118ae14283fb46b8e84a1d0ae9c0f48e7520e3de"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\gepard.json",
+      "sha256": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\wcsSmoke.json",
+      "sha256": "f883dca866a49ac7f0688db2666a0b9f8c57402c7acddf3e71515aaa52059dfe"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\WCS_Armaments.json",
+      "sha256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\qaCore.json",
+      "sha256": "de785de20b03dc7fb4e7bb9c065a49438de4306b1bb77d888156d3ec47ce85c8"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\SOURCE-CLOSURES.json",
+      "sha256": "cd539ca92beaa5d21f707a649cb6910a1cf959c31040096192652e815a170016"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\COMPILE-ADOPTION.json",
+      "sha256": "f3cbf163d1f7094c255119d48af2f928b778d24c43b6d75e205186ce5fce9be1"
+    }
+  ],
+  "requiredClasses": [
+    "GEP_DamageScenario683",
+    "GEP_CoreWheeledCourse20261022",
+    "GEP_ManualSpawnLogic"
+  ],
+  "capabilities": [
+    "isolated-reset",
+    "owned-lifecycle",
+    "native-load",
+    "native-damage"
+  ],
+  "adapter": {
+    "executable": "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "script": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\adapter.py",
+    "args": [
+      "{script}",
+      "{request}",
+      "{result}",
+      "{cancel}"
+    ]
+  },
+  "cases": [
+    {
+      "id": "v11-healthy-v11-camo",
+      "parameters": {
+        "nativeCase": "v11-healthy",
+        "vehicle": "v11-camo",
+        "caseFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\cases\\v11-healthy.json",
+        "vehicleFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\vehicles\\v11-camo.json",
+        "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\tools\\Scene.ps1",
+        "wrapperSHA256": "81f6ee8760bfd93e1291d7da24d43abd554f6e000921f21528c62ee759fb1a9a",
+        "powerShell": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "closures": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\SOURCE-CLOSURES.json",
+        "closurePinSHA256": "cd539ca92beaa5d21f707a649cb6910a1cf959c31040096192652e815a170016",
+        "completeManifestPins": {
+          "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\gepard.json": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+          "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\wcsSmoke.json": "f883dca866a49ac7f0688db2666a0b9f8c57402c7acddf3e71515aaa52059dfe",
+          "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\WCS_Armaments.json": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+          "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\qaCore.json": "de785de20b03dc7fb4e7bb9c065a49438de4306b1bb77d888156d3ec47ce85c8"
+        },
+        "compileAdoption": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\COMPILE-ADOPTION.json",
+        "addonId": "A9F84D1626102251",
+        "addonSearchPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single,D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "seconds": 105,
+        "screenWidth": 1280,
+        "screenHeight": 720,
+        "adapterDeadlineSeconds": 125,
+        "childLogLimitBytes": 4194304,
+        "collector": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\damage-adapter683.ts",
+        "healthyControl": true,
+        "qaManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\qaCore.json",
+        "boundJob": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\core-native-job.json"
+      },
+      "assertions": [
+        "fixture.ready",
+        "world.loaded",
+        "native.errors",
+        "native.case-result",
+        "addons.exact-stack",
+        "smoke.not-triggered",
+        "input.positive-control",
+        "post-hit.traverse",
+        "post-hit.elevation",
+        "post-hit.fire",
+        "crew.exit",
+        "crew.reentry",
+        "post-reentry.fire"
+      ]
+    },
+    {
+      "id": "v11-healthy-v11-charcoal",
+      "parameters": {
+        "nativeCase": "v11-healthy",
+        "vehicle": "v11-charcoal",
+        "caseFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\cases\\v11-healthy.json",
+        "vehicleFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\vehicles\\v11-charcoal.json",
+        "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\tools\\Scene.ps1",
+        "wrapperSHA256": "81f6ee8760bfd93e1291d7da24d43abd554f6e000921f21528c62ee759fb1a9a",
+        "powerShell": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "closures": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\SOURCE-CLOSURES.json",
+        "closurePinSHA256": "cd539ca92beaa5d21f707a649cb6910a1cf959c31040096192652e815a170016",
+        "completeManifestPins": {
+          "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\gepard.json": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+          "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\wcsSmoke.json": "f883dca866a49ac7f0688db2666a0b9f8c57402c7acddf3e71515aaa52059dfe",
+          "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\WCS_Armaments.json": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+          "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\qaCore.json": "de785de20b03dc7fb4e7bb9c065a49438de4306b1bb77d888156d3ec47ce85c8"
+        },
+        "compileAdoption": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\COMPILE-ADOPTION.json",
+        "addonId": "A9F84D1626102251",
+        "addonSearchPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single,D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\dependencies,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "seconds": 105,
+        "screenWidth": 1280,
+        "screenHeight": 720,
+        "adapterDeadlineSeconds": 125,
+        "childLogLimitBytes": 4194304,
+        "collector": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\damage-adapter683.ts",
+        "healthyControl": true,
+        "qaManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\qaCore.json",
+        "boundJob": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\core-native-job.json"
+      },
+      "assertions": [
+        "fixture.ready",
+        "world.loaded",
+        "native.errors",
+        "native.case-result",
+        "addons.exact-stack",
+        "smoke.not-triggered",
+        "input.positive-control",
+        "post-hit.traverse",
+        "post-hit.elevation",
+        "post-hit.fire",
+        "crew.exit",
+        "crew.reentry",
+        "post-reentry.fire"
+      ]
+    }
+  ],
+  "timeoutSeconds": 180,
+  "closeGraceSeconds": 35,
+  "notes": "Actual source-bound compile adoption with exact complete postcompile closure; only original healthy pair. All native E/F and historical failures retained; no smoke program, physical input or HUD acceptance claim."
+}

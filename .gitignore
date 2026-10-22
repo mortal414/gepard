@@ -39,3 +39,6 @@ downloads/
 /native-gpg-service-fuel-v*/
 
 /native-gpg-service-repair-v*/
+
+# Private compiled source/dependency copies; owned demo sources live in updates/demo09.
+/private-smoke-demo-source*/

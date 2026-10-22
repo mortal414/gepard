@@ -1,0 +1,21 @@
+{
+  "status": "INSTALLED_ROOT_ENTRYPOINT_PLAN_ONLY_PASS",
+  "entrypoint": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd",
+    "sha256": "44ef2e80b836be44ad1e027426957f33031fe0c27a516fc9ec2e1988e2155c52"
+  },
+  "installedLauncher": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\Launch-Gepard-Private-Demo09.ps1",
+    "sha256": "9969ed9b9d79ae30238c245c39790a76ffb697af45e00a4af4b130374bb84898"
+  },
+  "freshUntimedPlan": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\session-plans\\manual-8517d0f9-c16c-428f-aeea-f526001b35cc\\MANUAL-UNTIMED-PLAN.json",
+    "sha256": "099029f83846ae47553a1d767b9938ac9f89c63e60d6c4079c5ce6306e440749"
+  },
+  "nativeStarted": false,
+  "freshCimInventorySucceededEmpty": true,
+  "leaseStatus": "released_gepard_private_package",
+  "lastNativeNormalExitUtc": "2026-10-22T12:37:15.7662927Z",
+  "wholeGepAcceptance": false,
+  "published": false
+}

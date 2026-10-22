@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "status": "SCRIPT_COMPILE_PASS_ADOPTED",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\qaCore\\GEP_SmokeCoreCompatQA.gproj",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-core-compat-01",
+  "compilerResultSHA256": "c10cad967ae7380b4b91265589a8363a6e640ab61e6963f99f26f05ad3fd85ae",
+  "compilerConsoleSHA256": "75a9c375f6383e27d717f037cc2898c7512ec15824b246b44f8e3a1f248bb44b",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\gepard.json",
+      "sha256": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\wcsSmoke",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\wcsSmoke.json",
+      "sha256": "f883dca866a49ac7f0688db2666a0b9f8c57402c7acddf3e71515aaa52059dfe",
+      "files": 14
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\dependencies\\WCS_Armaments",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\WCS_Armaments.json",
+      "sha256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+      "files": 3
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\qaCore",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\qaCore.json",
+      "sha256": "de785de20b03dc7fb4e7bb9c065a49438de4306b1bb77d888156d3ec47ce85c8",
+      "files": 12
+    }
+  ],
+  "precompileClosures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\gepard",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\manifests\\gepard.json",
+      "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\wcsSmoke",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\manifests\\wcsSmoke.json",
+      "sha256": "37388e45e737728fa95f217a1a94154b027342798879c58ccbd9eed4a66f0eb8",
+      "files": 13
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\dependencies\\WCS_Armaments",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\manifests\\WCS_Armaments.json",
+      "sha256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+      "files": 3
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\qaCore",
+      "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-v2-20261022\\manifests\\qaCore.json",
+      "sha256": "c3787b435a9cc1cc49411bd810cc1e72075163e6b46c3351fa1d3a387e6e29d8",
+      "files": 11
+    }
+  ],
+  "explicitDerivedIndexAdditions": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\wcsSmoke",
+      "path": "resourceDatabase.rdb",
+      "sha256": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+      "bytes": 746,
+      "scope": "New engine-generated index only; no original source mutation admitted"
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\qaCore",
+      "path": "resourceDatabase.rdb",
+      "sha256": "0d636090d920134e202ca64976f05920f53e4e2e7ed089d9059a1fe32a84c795",
+      "bytes": 751,
+      "scope": "New engine-generated index only; no original source mutation admitted"
+    }
+  ],
+  "core1152Unchanged": true,
+  "dependency3Unchanged": true,
+  "nativeGameplay": "NOT_TESTED"
+}

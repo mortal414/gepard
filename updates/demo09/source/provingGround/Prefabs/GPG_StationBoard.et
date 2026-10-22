@@ -1,0 +1,42 @@
+GenericEntity : "{CCCC784526173F16}Prefabs/Structures/Signs/Military/Sign_FiringRange_US_01.et" {
+ ID "A76A420022000003"
+ components {
+  GPG_BoardComponent "{A76A420022000020}" {}
+  ActionsManagerComponent "{A76A420022000021}" {
+   ActionContexts {
+    UserActionContext "{A76A420022000022}" {
+     ContextName "gpg_board"
+     Position PointInfo { Offset 0 1.2 0 }
+     Radius 2 Height 3
+    }
+   }
+   additionalActions {
+    GPG_BoardAction "{A76A420022000023}" {
+     ParentContextList { "gpg_board" } VisibilityRange 8
+     UIInfo SCR_ActionUIInfo { Name "Read station / identity / distances" }
+     Operation "read"
+    }
+    GPG_BoardAction "{A76A420022000024}" {
+     ParentContextList { "gpg_board" } VisibilityRange 8
+     UIInfo SCR_ActionUIInfo { Name "Reset this station (owned fixtures only)" }
+     Operation "reset"
+    }
+    GPG_BoardAction "{A76A420022000025}" {
+     ParentContextList { "gpg_board" } VisibilityRange 8
+     UIInfo SCR_ActionUIInfo { Name "Arm optional hostile cell (qualified only)" }
+     Operation "arm"
+    }
+    GPG_BoardAction "{A76A420022000026}" {
+     ParentContextList { "gpg_board" } VisibilityRange 8
+     UIInfo SCR_ActionUIInfo { Name "STOP optional hostile encounter" }
+     Operation "stop"
+    }
+    GPG_BoardAction "{A76A420022000027}" {
+     ParentContextList { "gpg_board" } VisibilityRange 8
+     UIInfo SCR_ActionUIInfo { Name "Respawn on foot here (only after death)" }
+     Operation "respawn"
+    }
+   }
+  }
+ }
+}

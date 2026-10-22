@@ -1,6 +1,6 @@
 {
-  "schema": 2,
-  "status": "CURRENT_PRIVATE_CANDIDATE_EVIDENCE_WITH_HUMAN_GATES_OPEN",
+  "schema": 3,
+  "status": "PRIVATE_PACKAGE09_READY_FOR_MANUAL_NEW_FEATURE_TEST",
   "createdUtc": "2026-10-22T08:16:42.266860+00:00",
   "baselineRelease": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
   "sourceRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022",
@@ -1202,205 +1202,148 @@
       "provingGround/Worlds/GPG_Arland.ent": "eb1959b7c17f18e0c1a13b8b8346cc2b798109024e20e22edd364674590c3a58",
       "provingGround/Worlds/GPG_Arland.ent.meta": "28a297bbdb97d8a9554056937afc520ac8f42a92e7bbd94bd165e787251e7c50",
       "provingGround/Worlds/GPG_Arland_default.layer": "a51f85bc36837652a8de74eb97265877fbdaba6eeaefefa504dc7a7c30fc87a9"
-    }
+    },
+    "scope": "Preserved canonical core/Package08 source provenance. Active09 world/optional snapshot and compiled closure are in activeCandidate; canonical rollback bytes unchanged."
   },
   "world": {
-    "worldCLI": "Worlds/GPG_Arland.ent",
-    "addonId": "A76A420022000001",
-    "objects": 31,
-    "boards": 23,
-    "routeGateCount": 8,
-    "targets": [
-      {
-        "id": "T100",
-        "pad": [
-          999.9390827019096,
-          0.0,
-          2673.48994967025
-        ],
-        "nominal": 100
+    "sourceSnapshot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\source\\provingGround",
+    "world": "Worlds/GPG_Arland.ent",
+    "objects": 34,
+    "boards": 24,
+    "registryHash": "b2cd1adaaeea41792f302e14b9fb7c56956413592a548f9d4798f208b671429d",
+    "runtimeHash": "7c0a454389c9ba50413c72fa3a06dee8ca060a067654399a3474b6b03044721b",
+    "startup": {
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0",
+      "exit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\exit.json",
+        "sha256": "20b3bd3450d7becd4ee4484700ed9c211ac17c9f4b48db97a6734d0271c43e90"
       },
-      {
-        "id": "T300",
-        "pad": [
-          1200.0,
-          0.0,
-          2670.0
-        ],
-        "nominal": 300
-      }
-    ],
-    "boundSlots": [
-      "OLD-CAMO",
-      "OLD-CHARCOAL",
-      "NEW-CAMO",
-      "NEW-CHARCOAL"
-    ],
-    "unboundSlots": [],
-    "comparisonScope": "OLD is exterior comparison only; OLD/NEW share current scripts and optic, not independent released-code runtimes.",
-    "hostiles": "OFF/qualification locked",
-    "USServiceProvider": "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et",
-    "DamageAmmoProvider": "Unchanged stock Ural",
-    "USServiceResetQualification": "Not separately repeated; retained v5 service-reset evidence used prior provider."
+      "rawResult": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\RESULT.json",
+        "sha256": "a7bb05e4f869ee855893d4c02cca6b2e62cb5f2c52489db6cc6c9796c9eb3756"
+      },
+      "independentReanalysis": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\PACKAGE-STARTUP-REANALYSIS.json",
+        "sha256": "bd56ad3ecea1234927c06fe5e9afcb98365497af77ef7f806f880296bbdfb796"
+      },
+      "functionalObservation": "PASS_INDEPENDENT_DELIMITER_AWARE_REANALYSIS",
+      "objects": 34,
+      "boards": 24,
+      "finiteInitialSupplies": 8,
+      "normal0Released": true,
+      "rawCollectorBoardCount": 16,
+      "rawOriginalFailureRetained": true,
+      "strictNativeErrors": 60,
+      "strictNativeVerdict": "FAIL"
+    },
+    "manualAcceptance": "PENDING"
   },
   "ordinarySource": {
-    "schema": 1,
-    "status": "ROOT_FINAL_SOURCE_READY_FOR_PRIVATE_PACK",
-    "sourceAddonRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6",
-    "coreAddonRoot": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
-    "runRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08",
-    "outputRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08",
-    "projects": [
-      {
-        "role": "gepard",
-        "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\gepard\\Gepard.gproj",
-        "sourceManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json",
-        "sourceManifestSHA256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
-        "outputName": "gepard",
-        "requiredPackageResources": [
-          "Prefabs/Vehicles/GEP_MobileCarrier.et",
-          "Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
-          "Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et",
-          "scripts/Game/GEP/GEP_GunStatus.c"
-        ]
-      },
-      {
-        "role": "provingGround",
-        "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\provingGround\\GepardProvingGround.gproj",
-        "sourceManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-provingGround.json",
-        "sourceManifestSHA256": "593b20c11c708d04ba7468b5c36c49390b2813d9ad443de67e9b89e24fc3b2de",
-        "outputName": "provingGround",
-        "requiredPackageResources": [
-          "Worlds/GPG_Arland.ent",
-          "Worlds/GPG_Arland_default.layer",
-          "scripts/Game/GPG_Director.c",
-          "scripts/Game/GPG_Layout.c",
-          "scripts/Game/GPG_Resources.c",
-          "Prefabs/GPG_StationBoard.et"
-        ]
-      }
-    ],
-    "allowGeneratedResourceDatabaseOnly": true,
-    "actualCompileReceipt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\COMPILE-ADOPTION-RECEIPT.json",
-    "actualCompileReceiptSHA256": "2162584d833731de11681868d42dd6241313981ea30e61cf65a12aff50d38841"
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-smoke-demo-source-v2",
+    "compiledContract": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\ROOT-COMPILED-SOURCE-CONTRACT.json",
+      "sha256": "876d8db3ba71977af812120c53022f8791a1bfd8ec6ed1a325f5cbf940d741d3"
+    },
+    "ownedSourceSnapshot": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\OWNED-SOURCE-MANIFEST.json",
+      "sha256": "d15806678f60ef009796a85995a29bb0e8ec72c6181c2a4c3430c91d000652c6"
+    }
   },
   "compile": {
-    "schema": 1,
-    "status": "SUCCESSFUL_NATIVE_COMPILE_CURRENT_CLOSURES_REVIEWED",
-    "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\provingGround\\GepardProvingGround.gproj",
-    "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-demo-06",
-    "compilerResultSHA256": "35cb75ee7934bc63d531679e59980c5861a5200fe20c2b7124a25609fe442c83",
-    "compilerConsoleSHA256": "465ca731617e07fc6802d99900018990a348a7a81dcd1af6d352d9d9d20e85bf",
-    "compilerIdentitySHA256": "b6bc3004160e38fa0abe93eb5085bc5c9427fb55aa2d9984161d4082a579513a",
-    "launcherExitSHA256": "503b2384eea22b4358a4293acf1ad8c865e2100d7354ac092d6ce8dc609587d4",
-    "compilerOwnerProjectVerified": true,
-    "nativeRuntime": "NOT_TESTED",
-    "nativeGameplay": "NOT_TESTED",
-    "originalClosures": [
-      {
-        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\gepard",
-        "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\SourceManifest-gepard.json",
-        "sha256": "4b4ad6ae433db8996dad977e62687ef85ee6b7798f765bce8c4212dde6ab53fa",
-        "files": 1152
-      },
-      {
-        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\provingGround",
-        "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\SourceManifest-provingGround.json",
-        "sha256": "22b76d68ef6295561c561acece9b9b89851608b4ebd192274c3634a478b3be07",
-        "files": 10
-      }
-    ],
-    "closures": [
-      {
-        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\gepard",
-        "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-gepard.json",
-        "sha256": "27034b480c00f7640607d35cd00d43a226febb0148bf92df6d37aa3bd5db1b09",
-        "files": 1152
-      },
-      {
-        "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-demo-source-v6\\provingGround",
-        "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\private-final-source-v6\\CurrentSourceManifest-provingGround.json",
-        "sha256": "593b20c11c708d04ba7468b5c36c49390b2813d9ad443de67e9b89e24fc3b2de",
-        "files": 11
-      }
-    ],
-    "generatedChangesAfterCompile": {
-      "gepard": [
-        {
-          "relative": "resourceDatabase.rdb",
-          "originalSHA256": "7ee0c09284788b5f865a6cfd22ed2aa2a133b2da25508dc0c10142049ac7735c",
-          "currentSHA256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
-        }
-      ],
-      "provingGround": [
-        {
-          "relative": "resourceDatabase.rdb",
-          "originalSHA256": null,
-          "currentSHA256": "b482544c42a028cc0b7168ae7e044dd23d6217c68764285a681eb5319d679d8c"
-        }
-      ]
+    "result": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-smoke-demo-01\\RESULT.json",
+      "sha256": "a4d2faa8dd6f4a0ce3bc724549c827b32da7b73a788db98717c58efe5c8f16f0"
     },
-    "sourceCodeChangedDuringCompile": false,
-    "precompileArchivesPreserved": true,
-    "ordinarySourceOnly": true
+    "nativeCompile": "PASS",
+    "strictErrors": 26,
+    "gameplayAcceptance": false
   },
   "package": {
     "installedClosure": {
       "schema": 1,
-      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons",
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons",
       "files": {
         "D561AD08932E7B40/addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
         "D561AD08932E7B40/resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119",
         "D561AD08932E7B40/data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
-        "A76A420022000001/addon.gproj": "561a6370a828266d5df2039ed30a803138c51727b576e118c9cc10b654cfcbe4",
-        "A76A420022000001/resourceDatabase.rdb": "b482544c42a028cc0b7168ae7e044dd23d6217c68764285a681eb5319d679d8c",
-        "A76A420022000001/data.pak": "a63681487f900dd5b47747573d1accb25a977d28e7a494a85154ba86932fcd3d"
+        "7E0150C026101500/addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+        "7E0150C026101500/resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+        "7E0150C026101500/data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+        "A76A420022000001/addon.gproj": "ac6136b5ef4e4153ec38a078c9bc6a8e5e34b609c99fa526931c1f411599ba34",
+        "A76A420022000001/resourceDatabase.rdb": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c",
+        "A76A420022000001/data.pak": "516e16efdea95990fd95cddd31392ff9744e8805fdce50683a89acfe285a2cc3"
       },
-      "packPlanSHA256": "2e45452dc101d9cd1e9e9f2a81ce4fee8a21ea7d79c6c973d96e9e740242ea44",
+      "packPlanSHA256": "6848a989a1e9bba58fca828a12b2e028fbfee3bae5a25bda8f220eb66f0ee53f",
       "packages": [
         {
           "role": "gepard",
           "guid": "D561AD08932E7B40",
+          "reused": true,
           "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\gepard-pack\\package-proof.json",
           "proofSHA256": "39b9bf182dccb0eec73069c60f7bf17075cc34ce5b452adf708d8d6c0a90ca4a",
           "trio": [
             {
-              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\Gepard.gproj",
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\addon.gproj",
               "bytes": 666,
               "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
             },
             {
-              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\resourceDatabase.rdb",
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\resourceDatabase.rdb",
               "bytes": 49774,
               "sha256": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
             },
             {
-              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\gepard\\data.pak",
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-08\\addons\\D561AD08932E7B40\\data.pak",
               "bytes": 254101614,
               "sha256": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519"
             }
           ]
         },
         {
-          "role": "provingGround",
-          "guid": "A76A420022000001",
-          "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-08\\provingGround-pack\\package-proof.json",
-          "proofSHA256": "89b9953cedef89b40be8bbf93d74295786bdb736078d15bfc9d35e1f53f030ba",
+          "role": "wcsSmoke",
+          "guid": "7E0150C026101500",
+          "reused": false,
+          "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\wcsSmoke-pack\\package-proof.json",
+          "proofSHA256": "b8e923aefc96e71a87c5384be92348f25dd601c8de85726697a03b8183947e26",
           "trio": [
             {
-              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\provingGround\\GepardProvingGround.gproj",
-              "bytes": 253,
-              "sha256": "561a6370a828266d5df2039ed30a803138c51727b576e118c9cc10b654cfcbe4"
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\GEP_WCSSmoke215.gproj",
+              "bytes": 295,
+              "sha256": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7"
             },
             {
-              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\provingGround\\resourceDatabase.rdb",
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\resourceDatabase.rdb",
+              "bytes": 746,
+              "sha256": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5"
+            },
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\wcsSmoke\\data.pak",
+              "bytes": 9144,
+              "sha256": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f"
+            }
+          ]
+        },
+        {
+          "role": "provingGround",
+          "guid": "A76A420022000001",
+          "reused": false,
+          "proofPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\provingGround-pack\\package-proof.json",
+          "proofSHA256": "b0509a40be492474322f3baa59ec35a75b5031ce3b270444e1a379ce5dbce411",
+          "trio": [
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\provingGround\\GepardProvingGround.gproj",
+              "bytes": 272,
+              "sha256": "ac6136b5ef4e4153ec38a078c9bc6a8e5e34b609c99fa526931c1f411599ba34"
+            },
+            {
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\provingGround\\resourceDatabase.rdb",
               "bytes": 537,
-              "sha256": "b482544c42a028cc0b7168ae7e044dd23d6217c68764285a681eb5319d679d8c"
+              "sha256": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c"
             },
             {
-              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-08\\provingGround\\data.pak",
-              "bytes": 13062,
-              "sha256": "a63681487f900dd5b47747573d1accb25a977d28e7a494a85154ba86932fcd3d"
+              "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-package-build-09\\provingGround\\data.pak",
+              "bytes": 14062,
+              "sha256": "516e16efdea95990fd95cddd31392ff9744e8805fdce50683a89acfe285a2cc3"
             }
           ]
         }
@@ -1408,334 +1351,81 @@
       "packDiagnostics": {
         "operationalVerdict": "PASS",
         "strictNativeVerdict": "FAIL",
-        "rawNativeErrorCount": 100,
+        "rawNativeErrorCount": 104,
         "rows": [
           {
-            "role": "gepard",
+            "role": "wcsSmoke",
             "step": "validate",
-            "rawErrorCount": 25,
+            "rawErrorCount": 26,
             "strictNativeVerdict": "FAIL",
             "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
-            "diagnosticsReportSHA256": "ff770d2502655414af377a49613b2e13233b9e9520313a701226bd0eb821ed31",
-            "consoleSHA256": "2a91fc4f1a2f923a395142a326221e108c12836967883c75ab1d97650a841fe9"
+            "consoleSHA256": "c533a47cfa493b63dade72945a0bfc24402b3761ddd5196a600cfe2bb5b3d391",
+            "diagnosticsReportSHA256": "d9564f19f60b78e1c3f0e98f911ab00b814ee2c31bcf9311bdaa5e3575f06525"
           },
           {
-            "role": "gepard",
+            "role": "wcsSmoke",
             "step": "pack",
-            "rawErrorCount": 25,
+            "rawErrorCount": 26,
             "strictNativeVerdict": "FAIL",
             "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
-            "diagnosticsReportSHA256": "54a9eb271d8212962857520a4fcec0bf2eca3d93df735a57952a31be6bdc42e3",
-            "consoleSHA256": "4955427e6a849bc6ce29a6c2da90a2d01d3292adbdc7b05b9ed5b2efcc4c0c9f"
+            "consoleSHA256": "13c1f943ab5131eaaf7225393b9a0b9d4ae6e0a1c54692fe56f50cfd1d33b28c",
+            "diagnosticsReportSHA256": "498a3edf49e20bbf6ff04b4954de3a34479b864937e1654d81e81b8409a40655"
           },
           {
             "role": "provingGround",
             "step": "validate",
-            "rawErrorCount": 25,
+            "rawErrorCount": 26,
             "strictNativeVerdict": "FAIL",
             "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
-            "diagnosticsReportSHA256": "7ee31e0e1627aa4e3f49943541afbc03e158ccfb3229490cc2dab036d2c013d2",
-            "consoleSHA256": "faaeaf2548a63d3824bfd09e5599a027e4bbabaa198ba1bb196faa8a598eaac8"
+            "consoleSHA256": "2ae870c64a4a122477878ada0c30ed1e17ce22dd48e605475f75efd01bf2e80d",
+            "diagnosticsReportSHA256": "13d7761b7a1a009fd6f1725792cf8754e1f469fbf0375e2ca59b8718fe24de65"
           },
           {
             "role": "provingGround",
             "step": "pack",
-            "rawErrorCount": 25,
+            "rawErrorCount": 26,
             "strictNativeVerdict": "FAIL",
             "operationalVerdict": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
-            "diagnosticsReportSHA256": "3e29c55aa110546ccd7d258706385941185acfe9778bc8c1bafb52fbc7c41d30",
-            "consoleSHA256": "80849c534e6405313bf8333abb0482a89aa3a7401ea4f4e9cf0ab73c25dd3a0b"
+            "consoleSHA256": "abcc9ed9a0b49092a0c1cfe9357b6ebefa7f0a162a3a631e408f449873dfcb10",
+            "diagnosticsReportSHA256": "b3386e1456750bee5afcf6dc7a626d067ac57700ad26e437bebc34a9025c9f38"
           }
         ],
-        "meaning": "Known teardown retained; operational package gates pass. This is not a clean native aggregate or gameplay acceptance."
+        "meaning": "Actual validation/package success and closed ownership; known errors remain strictFAIL, no clean-health/gameplay claim"
       },
+      "WCSCopiedIntoOwnPayload": false,
       "nativeStarted": false,
       "metadataBytesChanged": false,
-      "privateQAAdded": false,
-      "profilesAdded": false
+      "privateQAAdded": false
     },
-    "operationalVerdict": "PASS",
-    "strictNativeVerdict": "FAIL",
-    "rawPackErrorCount": 100,
-    "ordinaryProbe": {
-      "leaseReleased": true,
-      "status": "PACKAGE_ONLY_ORDINARY_STARTUP_PROOF_FAIL",
-      "fourComparisonBays": true,
-      "humanMovement": "NOT_TESTED",
-      "ordinaryReady": true,
-      "humanFiring": "NOT_TESTED",
-      "actualLayoutHashes": true,
-      "exitCode": 0,
-      "sourcePackOperationalVerdict": "PASS",
-      "privateQA": false,
-      "nativeAbsent": true,
-      "humanHUD": "NOT_TESTED",
-      "visualAcceptance": "NEEDS_USER_TEST",
-      "sourcePackRawErrorCount": 100,
-      "twoRangeSurveys": true,
-      "published": false,
-      "sourcePackStrictNativeVerdict": "FAIL",
-      "game": true,
-      "rawErrorCount": 59,
-      "probeSeconds": 75
+    "pack": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\RESULT.json",
+      "sha256": "9ccb0ccf703ba07e85a6fcb120add542034c9d8b19506ff0fd2eeae8163927ac"
     },
-    "ordinaryProbeExit": {
-      "exitCode": 0,
-      "utc": "2026-10-22T08:07:06.6150178Z",
-      "closeMethod": "explicit-bounded-probe-owned-normal-window-close",
-      "leaseReleased": true,
-      "verifiedExited": true
+    "startup": {
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0",
+      "exit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\exit.json",
+        "sha256": "20b3bd3450d7becd4ee4484700ed9c211ac17c9f4b48db97a6734d0271c43e90"
+      },
+      "rawResult": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\RESULT.json",
+        "sha256": "a7bb05e4f869ee855893d4c02cca6b2e62cb5f2c52489db6cc6c9796c9eb3756"
+      },
+      "independentReanalysis": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\PACKAGE-STARTUP-REANALYSIS.json",
+        "sha256": "bd56ad3ecea1234927c06fe5e9afcb98365497af77ef7f806f880296bbdfb796"
+      },
+      "functionalObservation": "PASS_INDEPENDENT_DELIMITER_AWARE_REANALYSIS",
+      "objects": 34,
+      "boards": 24,
+      "finiteInitialSupplies": 8,
+      "normal0Released": true,
+      "rawCollectorBoardCount": 16,
+      "rawOriginalFailureRetained": true,
+      "strictNativeErrors": 60,
+      "strictNativeVerdict": "FAIL"
     },
-    "allRawProbeErrors": [
-      {
-        "line": 109,
-        "text": "03:05:51.472   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
-      },
-      {
-        "line": 163,
-        "text": "03:05:59.891           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
-      },
-      {
-        "line": 170,
-        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
-      },
-      {
-        "line": 171,
-        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
-      },
-      {
-        "line": 178,
-        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
-      },
-      {
-        "line": 179,
-        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
-      },
-      {
-        "line": 180,
-        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
-      },
-      {
-        "line": 181,
-        "text": "03:05:59.926           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
-      },
-      {
-        "line": 371,
-        "text": "03:07:06.052 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!"
-      },
-      {
-        "line": 372,
-        "text": "03:07:06.055 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!"
-      },
-      {
-        "line": 374,
-        "text": "03:07:06.233 RESOURCES (E): ==== Resource leaks ===="
-      },
-      {
-        "line": 375,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
-      },
-      {
-        "line": 376,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
-      },
-      {
-        "line": 377,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
-      },
-      {
-        "line": 378,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
-      },
-      {
-        "line": 379,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
-      },
-      {
-        "line": 380,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
-      },
-      {
-        "line": 381,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
-      },
-      {
-        "line": 382,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
-      },
-      {
-        "line": 383,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
-      },
-      {
-        "line": 384,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
-      },
-      {
-        "line": 385,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
-      },
-      {
-        "line": 386,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
-      },
-      {
-        "line": 387,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
-      },
-      {
-        "line": 388,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
-      },
-      {
-        "line": 389,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
-      },
-      {
-        "line": 390,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
-      },
-      {
-        "line": 391,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
-      },
-      {
-        "line": 392,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
-      },
-      {
-        "line": 393,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
-      },
-      {
-        "line": 394,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
-      },
-      {
-        "line": 395,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
-      },
-      {
-        "line": 396,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
-      },
-      {
-        "line": 397,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
-      },
-      {
-        "line": 398,
-        "text": "03:07:06.233 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
-      },
-      {
-        "line": 399,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
-      },
-      {
-        "line": 400,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
-      },
-      {
-        "line": 401,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
-      },
-      {
-        "line": 402,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
-      },
-      {
-        "line": 403,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
-      },
-      {
-        "line": 404,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
-      },
-      {
-        "line": 405,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
-      },
-      {
-        "line": 406,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
-      },
-      {
-        "line": 407,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
-      },
-      {
-        "line": 408,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
-      },
-      {
-        "line": 409,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
-      },
-      {
-        "line": 410,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
-      },
-      {
-        "line": 411,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
-      },
-      {
-        "line": 412,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
-      },
-      {
-        "line": 413,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
-      },
-      {
-        "line": 414,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
-      },
-      {
-        "line": 415,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
-      },
-      {
-        "line": 416,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
-      },
-      {
-        "line": 417,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
-      },
-      {
-        "line": 418,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
-      },
-      {
-        "line": 419,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
-      },
-      {
-        "line": 420,
-        "text": "03:07:06.233 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
-      },
-      {
-        "line": 421,
-        "text": "03:07:06.233 RESOURCES (E): UI/Imagesets/default.edds   1"
-      },
-      {
-        "line": 422,
-        "text": "03:07:06.233 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
-      }
-    ],
-    "independentReview": {
-      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Package08-Independent-ReadOnly-Review-20261022\\INDEPENDENT-REVIEW.json",
-      "bytes": 36831,
-      "sha256": "0f00633fd894df33e08f90958d582de39d041ea84fee83f3b42e805354aeaaa7"
-    },
-    "screenshot": {
-      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\package08-owned-printwindow.png",
-      "bytes": 1283111,
-      "sha256": "34a926f49c9dfc12af702cf02d56674b9d009b439f1c93f77465a4801650e6f3"
-    },
-    "screenshotReview": "Ground-level rendered grass/sky/nearby Gepards and station boards, Quick slots UI; no menu/blank/loading screen",
-    "sourceIdentity": "ordinary-v6 / compile06 / pack08 / installed08"
+    "sourceIdentity": "qualified ordinary-v6 core08 reused exact / optional smoke13 / worldV2 / fresh private09"
   },
   "observations": {
     "HUD": "Both 1280x720 and 1920x1080 passed eight frozen narrow HUD assertions, with 15 phase snapshots/captures each. Sample pixels: 5 of 15 at 720p and 3 of 15 at 1080p reviewed (16:9 only). Positive range acquisition/accuracy, other aspects and design acceptance remain pending. Original strict FAIL retained. Daytime 16:9 evidence only; night/low-light cycle judgment remains pending.",
@@ -2175,10 +1865,102 @@
       "mainPackage08Modified": false,
       "publication": false,
       "newAcceptedCheckboxes": 0
+    },
+    "playableDemo09": {
+      "status": "PRIVATE_PACKAGE09_PLAYABLE_MANUAL_DEMO_READY_WITH_EXPLICIT_LIMITS",
+      "createdUtc": "2026-10-22T12:46:40.291179+00:00",
+      "entrypoint": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd",
+        "sha256": "44ef2e80b836be44ad1e027426957f33031fe0c27a516fc9ec2e1988e2155c52"
+      },
+      "launcher": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\Launch-Gepard-Private-Demo09.ps1",
+        "sha256": "9969ed9b9d79ae30238c245c39790a76ffb697af45e00a4af4b130374bb84898"
+      },
+      "manualGuide": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\PLAYTEST-NEW-FEATURES.md",
+        "sha256": "562b0db93ec95cd8d76d234e50b5bf6047cef16f93a850be8993ca688a2fc962"
+      },
+      "ownedSourceSnapshot": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\OWNED-SOURCE-MANIFEST.json",
+        "sha256": "d15806678f60ef009796a85995a29bb0e8ec72c6181c2a4c3430c91d000652c6"
+      },
+      "compile": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-private-smoke-demo-01\\RESULT.json",
+        "sha256": "a4d2faa8dd6f4a0ce3bc724549c827b32da7b73a788db98717c58efe5c8f16f0"
+      },
+      "pack": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-pack-09\\RESULT.json",
+        "sha256": "9ccb0ccf703ba07e85a6fcb120add542034c9d8b19506ff0fd2eeae8163927ac"
+      },
+      "installedClosure": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\INSTALLED-PACKAGE-CLOSURE.json",
+        "sha256": "b12afb6d35a77c14109322e944e04547ee0593520ebdf3965079e6c8b6f32967"
+      },
+      "core08TrioReusedExact": true,
+      "ownPackageFiles": 9,
+      "WCS": {
+        "package": "629B2BA37EFFD577",
+        "version": "8.4.0",
+        "separateDependency": true,
+        "redistributedInsideOwnAddons": false,
+        "closure": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\SEPARATE-WCS-CLOSURE.json",
+          "sha256": "10662285c63a847c98382d36411fa28b21b820a7026de57d63b685103fb3640d"
+        }
+      },
+      "nativeStartup": {
+        "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0",
+        "exit": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\exit.json",
+          "sha256": "20b3bd3450d7becd4ee4484700ed9c211ac17c9f4b48db97a6734d0271c43e90"
+        },
+        "rawResult": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\RESULT.json",
+          "sha256": "a7bb05e4f869ee855893d4c02cca6b2e62cb5f2c52489db6cc6c9796c9eb3756"
+        },
+        "independentReanalysis": {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\PACKAGE-STARTUP-REANALYSIS.json",
+          "sha256": "bd56ad3ecea1234927c06fe5e9afcb98365497af77ef7f806f880296bbdfb796"
+        },
+        "functionalObservation": "PASS_INDEPENDENT_DELIMITER_AWARE_REANALYSIS",
+        "objects": 34,
+        "boards": 24,
+        "finiteInitialSupplies": 8,
+        "normal0Released": true,
+        "rawCollectorBoardCount": 16,
+        "rawOriginalFailureRetained": true,
+        "strictNativeErrors": 60,
+        "strictNativeVerdict": "FAIL"
+      },
+      "coreCompatibilityBothSkins": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\CORE-COMPATIBILITY-PAIR.json",
+        "sha256": "8f28a1b28a8d447d5756f1b01fdb9da35414851848cd64392a0cd3546d404d19"
+      },
+      "renderedScene": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\package09-owned-printwindow.png",
+        "sha256": "8a3b4ae115fa74190e2997ced72644a900cf983c8ed55ba9ea1d7b5b5e492d7f"
+      },
+      "renderReview": "Actual ground-level grass/sky, Gepards and boards with Quick slots UI; no blank/loading/menu view. No scene geometry/human usability acceptance.",
+      "smokeScope": "Experimental demo: both currentV11 skins8-flight/empty and zero-pose ports; visible clouds with forward gap; one generic finite native refill verified. Shared-world rearm/full refill/negatives/reset, rotated fit, controls and usefulness need user test.",
+      "remainingManual": [
+        "V11 exterior/moving clearance/hatches/LODs",
+        "Optic design/positive ranging/lighting/aspects",
+        "Ordinary smoke controls/roles/cooldown and useful screening",
+        "Both shared-world maintenance points, finite/full/empty/refill/reset behavior",
+        "MP/JIP/dedicated outside current demo"
+      ],
+      "strictPackDiagnostics": 104,
+      "newAcceptedGepCheckboxes": 0,
+      "published": false,
+      "rollbackEntry": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd"
+    },
+    "WCSCoreCompatibilityPair": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\CORE-COMPATIBILITY-PAIR.json",
+      "sha256": "8f28a1b28a8d447d5756f1b01fdb9da35414851848cd64392a0cd3546d404d19"
     }
   },
   "excluded": {
-    "smoke": "Smoke stays excluded from stable08 pending final optional build qualification. Generic mechanism fixture rearm05 observed a genuine native held action: original right-bank tube0/bank/total0-to1, exact finite crate8-to7, other observed source0 unchanged, controls released and normal0 closure. StrictFAIL58 retained. Both currentV11 skins separately passed8-flight/empty and zero-pose port correspondence; final currentV11 service, full8 refill/depleted/full/range negatives, articulated fit, dependency-stack regression, optional world/package and human screening remain open. No active smoke access denial.",
     "newTrackAudio": "Excluded. Stock graph trace and authoring compile retained; bounded authoring approval remains pending. No audible implementation/playback acceptance; earlier protected-read/authoring declines retained separately.",
     "stabilization": "Released hard-disable retained; deferred actualmotionqualification",
     "ballisticCorrection": "Released hard-disable retained; no impactcorrectionacceptance",
@@ -2187,30 +1969,19 @@
     "Isfahan": "Separate task"
   },
   "entrypoint": {
-    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd",
-    "shim": {
-      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd",
-      "bytes": 230,
-      "sha256": "d3940d6d3d741970b266a1f03c222cae7071181fb81e3adbc48e19d58d7e05df"
+    "cmd": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd",
+      "sha256": "44ef2e80b836be44ad1e027426957f33031fe0c27a516fc9ec2e1988e2155c52"
     },
-    "underlyingGuardedLauncher": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-Private-Demo.ps1",
-    "sealedOriginal": {
-      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-v6-Pack08-ObservedTransfer-Preparation-20261022\\Launch-Gepard-Private-Demo.ps1",
-      "bytes": 2677,
-      "sha256": "91f0eb0ffe086f67dec485a570024400b3e8e548246852b9d60e249f544556d6"
+    "launcher": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\updates\\demo09\\launcher\\Launch-Gepard-Private-Demo09.ps1",
+      "sha256": "9969ed9b9d79ae30238c245c39790a76ffb697af45e00a4af4b130374bb84898"
     },
-    "default": "Untimed human session, fresh owned UUIDprofile/run; PlanOnly/probe options in unchanged launcher.",
-    "installation": "Root atomically applies exact08 launcher with metadata only after actual08 render gate, preserving old07 exact bytes. Same CMD invokes the underlying PS1 unchanged.",
-    "previous07Launcher": {
-      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\ledger-history\\final-package08-20261022\\Launch-Gepard-Private-Demo.ps1",
-      "bytes": 2660,
-      "sha256": "e15b2df2060314c84aa65333208e6b2d6b200d72b1872111fb1ea4183799dac5"
+    "guide": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\PLAYTEST-NEW-FEATURES.md",
+      "sha256": "562b0db93ec95cd8d76d234e50b5bf6047cef16f93a850be8993ca688a2fc962"
     },
-    "manualGuide": {
-      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\MANUAL-TEST-GUIDE-PACKAGE08.md",
-      "bytes": 3693,
-      "sha256": "e5d6dc8e6615d71169bc30106e140b7a8054a9a0d6843a95f0905177daa7c209"
-    }
+    "default": "Untimed human local session; fresh UUID/profile per invocation"
   },
   "evidence": {
     "boards": {
@@ -2393,14 +2164,18 @@
     "nativeSmokeRearm05": {
       "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-native-rearm-05\\RESULT.json",
       "sha256": "e6656ecd989c9965457f35e078993a29e293fcbddf9eb6a57559305a7abf4ad5"
+    },
+    "playableDemo09": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\playable-demo09\\RESULT.json",
+      "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
     }
   },
   "serviceFinalReportProvided": true,
   "packageIndependentReportProvided": true,
   "metadataFinalReady": true,
-  "physicalAndWholeGepAcceptance": "PENDING; zero new trackercheckboxes",
+  "physicalAndWholeGepAcceptance": "Needs user test; no new checkboxes",
   "historicalArtifacts": "Old ledgers/readmes preserved in C preview originals and D ledger-history at explicit root apply. Historical native receipts, manifests and raw failures are never rewritten.",
-  "updatedUtc": "2026-10-22T12:14:21.274374+00:00",
+  "updatedUtc": "2026-10-22T12:46:40.291179+00:00",
   "predecessor": {
     "checkpoint": "5a06259",
     "manifest": {
@@ -2482,5 +2257,20 @@
         "sha256": "dd9dfe4a82fc06aba9cf26812308857dcd7d71cb2afef75d311059855c1350b7"
       }
     }
+  },
+  "predecessor08": {
+    "manifest": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\ledger-history\\playable-demo09\\CURRENT-CANDIDATE-MANIFEST.json",
+      "sha256": "124a6dfe129a1915547eab2b64a204a1e7a0feef36d074e07547caa4fa296031"
+    },
+    "entrypoint": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-ProvingGround.cmd",
+    "preserved": true
+  },
+  "activeCandidate": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\DEMO09-MANIFEST.json",
+    "sha256": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0"
+  },
+  "includedExperimental": {
+    "smoke": "Experimental demo: both currentV11 skins8-flight/empty and zero-pose ports; visible clouds with forward gap; one generic finite native refill verified. Shared-world rearm/full refill/negatives/reset, rotated fit, controls and usefulness need user test."
   }
 }

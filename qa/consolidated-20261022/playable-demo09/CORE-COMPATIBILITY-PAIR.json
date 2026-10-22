@@ -1,0 +1,1458 @@
+{
+  "status": "INDEPENDENT_NARROW_CORE_COMPATIBILITY_PAIR_OBSERVED_ORIGINAL_STRICT_FAILS_RETAINED",
+  "cases": [
+    {
+      "skin": "camo",
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo",
+      "runId": "bfd86fce-da65-4dd8-bb45-927dba0c9a52",
+      "nonce": "0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5",
+      "originalNormalizedStatus": "FAIL_RETAINED",
+      "originalNativeResult": "PASS_RETAINED_WITH_NARROW_SCOPE",
+      "functionalStatus": "PASS_NARROW_ACTUAL_NATIVE_CORE_COMPATIBILITY",
+      "functionalMeasurements": {
+        "subjectPrefab": "{7E0150C026103002}Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et",
+        "rightYawDegreesQA": 105.47484588,
+        "leftYawDegreesQA": 48.28440856,
+        "upElevationDegreesQA": 10.60542392,
+        "downElevationDegreesQA": -7.73421335,
+        "leftRoundsUsedQA": 4,
+        "rightRoundsUsedQA": 4,
+        "publicReentryCompletedQA": true,
+        "reentryLeftRoundsUsedQA": 11,
+        "reentryRightRoundsUsedQA": 11,
+        "issued": 0,
+        "damageCallbacks": 0
+      },
+      "lifecycle": {
+        "exitCode": 0,
+        "nativeTerminalSeen": true,
+        "utc": "2026-10-22T12:22:21.1796074Z",
+        "verifiedExited": true,
+        "cancelRequested": false,
+        "closeMethod": "owned-normal-window-close",
+        "leaseReleased": true
+      },
+      "loadedAddonBlock": {
+        "status": "PASS_INDEPENDENT_LOADED_BLOCK_SCOPE_ONLY",
+        "markerLine": 44,
+        "markerRaw": "07:21:45.626  ENGINE       : Loaded addons:",
+        "contiguousRows": [
+          {
+            "line": 45,
+            "project": "D:/SteamLibrary/steamapps/common/Arma Reforger/addons/core/core.gproj",
+            "id": "5614BBCCBB55ED1C",
+            "raw": "07:21:45.626   ENGINE       : gproj: 'D:/SteamLibrary/steamapps/common/Arma Reforger/addons/core/core.gproj' guid: '5614BBCCBB55ED1C'"
+          },
+          {
+            "line": 46,
+            "project": "D:/SteamLibrary/steamapps/common/Arma Reforger/addons/data/ArmaReforger.gproj",
+            "id": "58D0FB3206B6F859",
+            "raw": "07:21:45.626   ENGINE       : gproj: 'D:/SteamLibrary/steamapps/common/Arma Reforger/addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'"
+          },
+          {
+            "line": 47,
+            "project": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/gepard/Gepard.gproj",
+            "id": "D561AD08932E7B40",
+            "raw": "07:21:45.626   ENGINE       : gproj: 'D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/gepard/Gepard.gproj' guid: 'D561AD08932E7B40'"
+          },
+          {
+            "line": 48,
+            "project": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/dependencies/WCS_Armaments/addon.gproj",
+            "id": "629B2BA37EFFD577",
+            "raw": "07:21:45.626   ENGINE       : gproj: 'D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/dependencies/WCS_Armaments/addon.gproj' guid: '629B2BA37EFFD577'"
+          },
+          {
+            "line": 49,
+            "project": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/wcsSmoke/GEP_WCSSmoke215.gproj",
+            "id": "7E0150C026101500",
+            "raw": "07:21:45.626   ENGINE       : gproj: 'D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/wcsSmoke/GEP_WCSSmoke215.gproj' guid: '7E0150C026101500'"
+          },
+          {
+            "line": 50,
+            "project": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/qaCore/GEP_SmokeCoreCompatQA.gproj",
+            "id": "A9F84D1626102251",
+            "raw": "07:21:45.626   ENGINE       : gproj: 'D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/qaCore/GEP_SmokeCoreCompatQA.gproj' guid: 'A9F84D1626102251'"
+          }
+        ],
+        "blindDeduplication": false
+      },
+      "originalCollectorAllGprojRows": [
+        {
+          "line": 16,
+          "id": "D561AD08932E7B40"
+        },
+        {
+          "line": 17,
+          "id": "A9F84D1626102251"
+        },
+        {
+          "line": 18,
+          "id": "7E0150C026101500"
+        },
+        {
+          "line": 19,
+          "id": "629B2BA37EFFD577"
+        },
+        {
+          "line": 20,
+          "id": "5614BBCCBB55ED1C"
+        },
+        {
+          "line": 21,
+          "id": "58D0FB3206B6F859"
+        },
+        {
+          "line": 45,
+          "id": "5614BBCCBB55ED1C"
+        },
+        {
+          "line": 46,
+          "id": "58D0FB3206B6F859"
+        },
+        {
+          "line": 47,
+          "id": "D561AD08932E7B40"
+        },
+        {
+          "line": 48,
+          "id": "629B2BA37EFFD577"
+        },
+        {
+          "line": 49,
+          "id": "7E0150C026101500"
+        },
+        {
+          "line": 50,
+          "id": "A9F84D1626102251"
+        }
+      ],
+      "collectorScopeFinding": "Regex collected both Available addons and Loaded addons listings. Independent single-marker contiguous Loaded block contains the exact expected six once; no blind deduplication and no original result mutation.",
+      "nativeErrors": {
+        "status": "FAIL_RETAINED",
+        "count": 58,
+        "byChannelSeverity": {
+          "RESOURCES.E": 50,
+          "GUI.E": 1,
+          "WORLD.E": 7
+        },
+        "rows": [
+          {
+            "line": 53,
+            "raw": "07:21:45.626   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\""
+          },
+          {
+            "line": 121,
+            "raw": "07:21:46.510   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+          },
+          {
+            "line": 177,
+            "raw": "07:21:48.530             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+          },
+          {
+            "line": 188,
+            "raw": "07:21:48.624               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+          },
+          {
+            "line": 189,
+            "raw": "07:21:48.624               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+          },
+          {
+            "line": 190,
+            "raw": "07:21:48.625               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+          },
+          {
+            "line": 191,
+            "raw": "07:21:48.625               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+          },
+          {
+            "line": 200,
+            "raw": "07:21:48.629             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+          },
+          {
+            "line": 201,
+            "raw": "07:21:48.629             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+          },
+          {
+            "line": 345,
+            "raw": "07:22:20.631 RESOURCES (E): ==== Resource leaks ===="
+          },
+          {
+            "line": 346,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+          },
+          {
+            "line": 347,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+          },
+          {
+            "line": 348,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+          },
+          {
+            "line": 349,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+          },
+          {
+            "line": 350,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+          },
+          {
+            "line": 351,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+          },
+          {
+            "line": 352,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+          },
+          {
+            "line": 353,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+          },
+          {
+            "line": 354,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+          },
+          {
+            "line": 355,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+          },
+          {
+            "line": 356,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+          },
+          {
+            "line": 357,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+          },
+          {
+            "line": 358,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+          },
+          {
+            "line": 359,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+          },
+          {
+            "line": 360,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+          },
+          {
+            "line": 361,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+          },
+          {
+            "line": 362,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+          },
+          {
+            "line": 363,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+          },
+          {
+            "line": 364,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+          },
+          {
+            "line": 365,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+          },
+          {
+            "line": 366,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+          },
+          {
+            "line": 367,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+          },
+          {
+            "line": 368,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+          },
+          {
+            "line": 369,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+          },
+          {
+            "line": 370,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+          },
+          {
+            "line": 371,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+          },
+          {
+            "line": 372,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+          },
+          {
+            "line": 373,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+          },
+          {
+            "line": 374,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+          },
+          {
+            "line": 375,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+          },
+          {
+            "line": 376,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+          },
+          {
+            "line": 377,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+          },
+          {
+            "line": 378,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+          },
+          {
+            "line": 379,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+          },
+          {
+            "line": 380,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+          },
+          {
+            "line": 381,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+          },
+          {
+            "line": 382,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+          },
+          {
+            "line": 383,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+          },
+          {
+            "line": 384,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+          },
+          {
+            "line": 385,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+          },
+          {
+            "line": 386,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+          },
+          {
+            "line": 387,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+          },
+          {
+            "line": 388,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+          },
+          {
+            "line": 389,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+          },
+          {
+            "line": 390,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+          },
+          {
+            "line": 391,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+          },
+          {
+            "line": 392,
+            "raw": "07:22:20.631 RESOURCES (E): UI/Imagesets/default.edds   1"
+          },
+          {
+            "line": 393,
+            "raw": "07:22:20.631 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+          }
+        ],
+        "omitted": 0,
+        "waivers": []
+      },
+      "currentSourceClosure": [
+        {
+          "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\gepard",
+          "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\gepard.json",
+          "sha256": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+          "files": 1152
+        },
+        {
+          "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\wcsSmoke",
+          "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\wcsSmoke.json",
+          "sha256": "f883dca866a49ac7f0688db2666a0b9f8c57402c7acddf3e71515aaa52059dfe",
+          "files": 14
+        },
+        {
+          "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\dependencies\\WCS_Armaments",
+          "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\WCS_Armaments.json",
+          "sha256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+          "files": 3
+        },
+        {
+          "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\qaCore",
+          "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\qaCore.json",
+          "sha256": "de785de20b03dc7fb4e7bb9c065a49438de4306b1bb77d888156d3ec47ce85c8",
+          "files": 12
+        }
+      ],
+      "core1152MatchesAdmittedOrdinaryV6": true,
+      "onlyTwoDerivedNewRDBs": true,
+      "nativeReadyDoneLines": {
+        "ready": [
+          284
+        ],
+        "done": [
+          333
+        ]
+      },
+      "actualConsoleEvents": [
+        {
+          "line": 290,
+          "raw": "07:22:07.491   SCRIPT       : QA_INPUT_READY controlled=1 camera=1 ads=1 turretContext=1"
+        },
+        {
+          "line": 305,
+          "raw": "07:22:13.163   ENGINE       : Screenshot successfully saved into $profile:CoreQA-burst-012 (1280x720)"
+        },
+        {
+          "line": 309,
+          "raw": "07:22:13.363   ENGINE       : Screenshot successfully saved into $profile:CoreQA-burst-032 (1280x720)"
+        },
+        {
+          "line": 313,
+          "raw": "07:22:13.624   SCRIPT       : GEP_CORE_COMPAT_HULL case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=first_burst_complete owner=11 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,39.7,2600>"
+        },
+        {
+          "line": 314,
+          "raw": "07:22:13.624   SCRIPT       : GEP_CORE_COMPAT_SEAT_ENTITY case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=first_burst_complete owner=32 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,41.3,2600.15>"
+        },
+        {
+          "line": 315,
+          "raw": "07:22:13.624   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=first_burst_complete x=<0.796729,0,-0.604336> y=<-0.0149917,0.999692,-0.0197644> z=<0.60415,0.024807,0.796484> pos=<600.814,42.74,2600.51> yawHull=37.1811 elevationHull=1.42148"
+        },
+        {
+          "line": 316,
+          "raw": "07:22:13.625   SCRIPT       : QA_POSTHIT_FIRE leftUsed=4 rightUsed=4 physicalInput=0"
+        },
+        {
+          "line": 323,
+          "raw": "07:22:18.491   SCRIPT       : QA_REENTRY_INPUT ads=1 context=1 occupied=1"
+        },
+        {
+          "line": 326,
+          "raw": "07:22:19.992   SCRIPT       : GEP_CORE_COMPAT_HULL case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=reentry_burst_complete owner=11 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,39.7,2600>"
+        },
+        {
+          "line": 327,
+          "raw": "07:22:19.992   SCRIPT       : GEP_CORE_COMPAT_SEAT_ENTITY case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=reentry_burst_complete owner=32 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,41.3,2600.15>"
+        },
+        {
+          "line": 328,
+          "raw": "07:22:19.992   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=reentry_burst_complete x=<0.79688,0,-0.604137> y=<-0.0152626,0.999681,-0.020132> z=<0.603945,0.0252635,0.796626> pos=<600.814,42.74,2600.51> yawHull=37.1668 elevationHull=1.44765"
+        },
+        {
+          "line": 329,
+          "raw": "07:22:19.992   SCRIPT       : QA_REENTRY_FIRE leftUsed=11 rightUsed=11 physicalInput=0"
+        },
+        {
+          "line": 330,
+          "raw": "07:22:19.999   ENGINE       : Screenshot successfully saved into $profile:DamageHarness-after (1280x720)"
+        },
+        {
+          "line": 331,
+          "raw": "07:22:19.999   SCRIPT       : GEP_DAMAGE683_FRAME|bfd86fce-da65-4dd8-bb45-927dba0c9a52|0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5|after|requested=1|cameraSelected=1|file=$profile:DamageHarness-after"
+        }
+      ],
+      "captures": [
+        {
+          "nativeBMP": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\CoreQA-burst-012.bmp",
+            "sha256": "f9f75ea3d64457218f50d20f6a3b1306878f65f1a8944e853d900744af3584ab",
+            "bytes": 2764854
+          },
+          "reviewPNG": {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-Pair-IndependentReview-20261022\\camo\\CoreQA-burst-012.png",
+            "sha256": "41722ed7e121c84d0f9c4dd65233eb9ca46ad700389d33475618878170386b68",
+            "bytes": 519292
+          },
+          "pixels": [
+            1280,
+            720
+          ],
+          "association": "first_native_firing_burst_before_public_exit",
+          "losslessConversionOnly": true,
+          "independentlyViewed": true,
+          "pixelObservations": {
+            "feeds": [
+              320,
+              320
+            ],
+            "phase": "first burst .12s capture request"
+          }
+        },
+        {
+          "nativeBMP": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\CoreQA-burst-032.bmp",
+            "sha256": "78a14454c50af5185d9fa0a24d66751a8e19776dc950b8181bd0b0b234752296",
+            "bytes": 2764854
+          },
+          "reviewPNG": {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-Pair-IndependentReview-20261022\\camo\\CoreQA-burst-032.png",
+            "sha256": "8ee416b487f7380a375c12862eecb69cac59abb9053e3ae86cbe03a99faffc56",
+            "bytes": 532628
+          },
+          "pixels": [
+            1280,
+            720
+          ],
+          "association": "first_native_firing_burst_before_public_exit",
+          "losslessConversionOnly": true,
+          "independentlyViewed": true,
+          "pixelObservations": {
+            "feeds": [
+              318,
+              318
+            ],
+            "phase": "first burst .32s capture request, before public exit/reentry"
+          }
+        },
+        {
+          "nativeBMP": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\DamageHarness-after.bmp",
+            "sha256": "f509e5235e95f2bead3623630008e47251653986313ae0411fdf11264ca95fcc",
+            "bytes": 2764854
+          },
+          "reviewPNG": {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-Pair-IndependentReview-20261022\\camo\\DamageHarness-after.png",
+            "sha256": "0b3af85b163435f1f268418a29eb3aac6b693c99d6ebb938af7a55cb7b9b1a2e",
+            "bytes": 529861
+          },
+          "pixels": [
+            1280,
+            720
+          ],
+          "association": "post_reentry_refire_completion",
+          "losslessConversionOnly": true,
+          "independentlyViewed": true,
+          "pixelObservations": {
+            "feeds": [
+              303,
+              303
+            ],
+            "phase": "after public reentry/refire completion"
+          }
+        },
+        {
+          "nativeBMP": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\DamageHarness-before.bmp",
+            "sha256": "4bece67104f1bb8c1ef27f87f627f552efb537a2cbb29f4fa95acae656c3b376",
+            "bytes": 2764854
+          },
+          "reviewPNG": {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-Pair-IndependentReview-20261022\\camo\\DamageHarness-before.png",
+            "sha256": "10944cbbb9708ad0b2506bbdcf6d4391c4d2802f1bee45de81aa09c20e8fd11b",
+            "bytes": 1008956
+          },
+          "pixels": [
+            1280,
+            720
+          ],
+          "association": "pre_operation_external_control",
+          "losslessConversionOnly": true,
+          "independentlyViewed": true,
+          "pixelObservations": {
+            "phase": "external pre-operation frame; HUD is not expected in this camera"
+          }
+        }
+      ],
+      "evidencePins": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\request.json",
+          "sha256": "bbb6a6d1239dd4e6bf116828262428aec599acada62c65f85792fde6a2a4c2cd",
+          "bytes": 3762
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\result.json",
+          "sha256": "cf91b9dddd9bf0d1b0986d98ff6cffa0ea73779013dc5ff39d48f768e5b30f15",
+          "bytes": 8991
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\adapter-result.json",
+          "sha256": "68b7506dd822965c9a6d5d483c512673cf4be155e980052f673bfa7deaedafcb",
+          "bytes": 7244
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-job.json",
+          "sha256": "9e9018287dea69059a98618cc4355d52b9bfd206cc9032a2de4c6faae65a84e8",
+          "bytes": 716
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\bridge-plan.json",
+          "sha256": "d9167952d05c1f557c928a8683ce9dcb4983b2e6854337becd9dfcf81b1953b4",
+          "bytes": 3335
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\ALL-DOMAIN-NATIVE-ERRORS.json",
+          "sha256": "344dd992b330682c99d72d53a75b9ee46a59351bf1674827f257e3be1fc8abd7",
+          "bytes": 8193
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\result.json",
+          "sha256": "33deca9b8436329ad510e25bac9f43369c907ef81ce70d8948e2b33880eaa359",
+          "bytes": 28814
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\exit.json",
+          "sha256": "69581a2d9be7431cd19d55220c5a5d5bb91b7869057ca362fb4a0ed2f52f13b0",
+          "bytes": 223
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\owner.json",
+          "sha256": "cad4708b62cc26e1e3557acdbae9ce3438c94e27c74f5b1c2e0265bc6e83858f",
+          "bytes": 1694
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\owner-private.json",
+          "sha256": "bb75f8275d2a5f7341270e8351708b4d4a199cfb1896f22596dd0f9e4745b913",
+          "bytes": 523
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\plan.json",
+          "sha256": "416201ff7f2e9f32635b49f807443ce8bc0f2f2b3a9550b50d27c45ec3f0d302",
+          "bytes": 1672
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\legacy-collect-plan.json",
+          "sha256": "c3826e35c2a2bb1b6ce7b1d542d127addbca8a46fd33de9e139b1c41646009b0",
+          "bytes": 7036
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\profile\\profile\\DamageHarness-result683.json",
+          "sha256": "6a590e669f79bde85bf578eb155a6356ac0887f170cbd4031379d7463477f799",
+          "bytes": 15690
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-camo-01\\v11-healthy-v11-camo\\native-run\\logs\\console.log",
+          "sha256": "d015924dd926e9e9c044d741eb20fb48f8d614e72d24f2296a35dd00e6f94896",
+          "bytes": 41148
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\SOURCE-CLOSURES.json",
+          "sha256": "cd539ca92beaa5d21f707a649cb6910a1cf959c31040096192652e815a170016",
+          "bytes": 1472
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\COMPILE-ADOPTION.json",
+          "sha256": "f3cbf163d1f7094c255119d48af2f928b778d24c43b6d75e205186ce5fce9be1",
+          "bytes": 4422
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-core-compat-01\\RESULT.json",
+          "sha256": "c10cad967ae7380b4b91265589a8363a6e640ab61e6963f99f26f05ad3fd85ae",
+          "bytes": 337
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-core-compat-01\\logs\\validate\\console.log",
+          "sha256": "75a9c375f6383e27d717f037cc2898c7512ec15824b246b44f8e3a1f248bb44b",
+          "bytes": 32743
+        }
+      ],
+      "poseObservation": {
+        "actualNativeMatrixAndSightsRows": [
+          {
+            "line": 313,
+            "raw": "07:22:13.624   SCRIPT       : GEP_CORE_COMPAT_HULL case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=first_burst_complete owner=11 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,39.7,2600>"
+          },
+          {
+            "line": 314,
+            "raw": "07:22:13.624   SCRIPT       : GEP_CORE_COMPAT_SEAT_ENTITY case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=first_burst_complete owner=32 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,41.3,2600.15>"
+          },
+          {
+            "line": 315,
+            "raw": "07:22:13.624   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=first_burst_complete x=<0.796729,0,-0.604336> y=<-0.0149917,0.999692,-0.0197644> z=<0.60415,0.024807,0.796484> pos=<600.814,42.74,2600.51> yawHull=37.1811 elevationHull=1.42148"
+          },
+          {
+            "line": 326,
+            "raw": "07:22:19.992   SCRIPT       : GEP_CORE_COMPAT_HULL case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=reentry_burst_complete owner=11 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,39.7,2600>"
+          },
+          {
+            "line": 327,
+            "raw": "07:22:19.992   SCRIPT       : GEP_CORE_COMPAT_SEAT_ENTITY case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=reentry_burst_complete owner=32 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,41.3,2600.15>"
+          },
+          {
+            "line": 328,
+            "raw": "07:22:19.992   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=0be5aacf632c81a96cdcf089f01859cf51ea5b5af618b1113eca13b5a02481c5 phase=reentry_burst_complete x=<0.79688,0,-0.604137> y=<-0.0152626,0.999681,-0.020132> z=<0.603945,0.0252635,0.796626> pos=<600.814,42.74,2600.51> yawHull=37.1668 elevationHull=1.44765"
+          }
+        ],
+        "scope": "Hull and seat entity matrices remain world-axis aligned; actual sights yaw/elevation is nonzero. This is not a bone/port/clearance or articulated-smoke qualification."
+      },
+      "narrowHUDPixelReceipt": {
+        "status": "OBSERVED_1280x720_DAY_16x9_ONLY",
+        "viewedFrames": {
+          "CoreQA-burst-012": {
+            "feeds": [
+              320,
+              320
+            ],
+            "phase": "first burst .12s capture request"
+          },
+          "CoreQA-burst-032": {
+            "feeds": [
+              318,
+              318
+            ],
+            "phase": "first burst .32s capture request, before public exit/reentry"
+          },
+          "DamageHarness-after": {
+            "feeds": [
+              303,
+              303
+            ],
+            "phase": "after public reentry/refire completion"
+          },
+          "DamageHarness-before": {
+            "phase": "external pre-operation frame; HUD is not expected in this camera"
+          }
+        },
+        "actualOwnHUD": "German GEPARD ZIELVISIER, LINKS/RECHTS, ENTFERNUNG --m, TAG 2,0x, central reticle and lower panels visibly rendered. No own developer-status/footer text seen. Engine diagnostic FPS/version overlay and ordinary Open/Close door prompt remain visible in private diagnostic captures.",
+        "finalHUDNumbers": {
+          "feedLeft": 303,
+          "feedRight": 303,
+          "turretDegrees": 37,
+          "elevationDegrees": 1
+        },
+        "lifecycleScope": "First native firing burst and final post-reentry/refire snapshot only. No proof every intermediate cleanup/frame or menu/seat/damage lifecycle behaved correctly.",
+        "earlierPassiveADS0Scope": "Earlier passive WCS visual fixture remained ADS0/widgets absent; it is preserved separately and is not rewritten by this different active core-compatibility fixture.",
+        "positiveRange": "NOT_TESTED: --m is visible; no positive range measurement in this case",
+        "nightLowlightOtherAspectsPhysicalDesign": "NOT_TESTED"
+      }
+    },
+    {
+      "skin": "charcoal",
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal",
+      "runId": "e593927b-9e73-4c9e-80eb-37f2ee684efb",
+      "nonce": "74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b",
+      "originalNormalizedStatus": "FAIL_RETAINED",
+      "originalNativeResult": "PASS_RETAINED_WITH_NARROW_SCOPE",
+      "functionalStatus": "PASS_NARROW_ACTUAL_NATIVE_CORE_COMPATIBILITY",
+      "functionalMeasurements": {
+        "subjectPrefab": "{7E0150C026103004}Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et",
+        "rightYawDegreesQA": 102.79455566,
+        "leftYawDegreesQA": 48.36605072,
+        "upElevationDegreesQA": 10.60598087,
+        "downElevationDegreesQA": -7.03997373,
+        "leftRoundsUsedQA": 5,
+        "rightRoundsUsedQA": 5,
+        "publicReentryCompletedQA": true,
+        "reentryLeftRoundsUsedQA": 11,
+        "reentryRightRoundsUsedQA": 11,
+        "issued": 0,
+        "damageCallbacks": 0
+      },
+      "lifecycle": {
+        "leaseReleased": true,
+        "cancelRequested": false,
+        "verifiedExited": true,
+        "exitCode": 0,
+        "nativeTerminalSeen": true,
+        "utc": "2026-10-22T12:24:55.3728970Z",
+        "closeMethod": "owned-normal-window-close"
+      },
+      "loadedAddonBlock": {
+        "status": "PASS_INDEPENDENT_LOADED_BLOCK_SCOPE_ONLY",
+        "markerLine": 44,
+        "markerRaw": "07:24:19.776  ENGINE       : Loaded addons:",
+        "contiguousRows": [
+          {
+            "line": 45,
+            "project": "D:/SteamLibrary/steamapps/common/Arma Reforger/addons/core/core.gproj",
+            "id": "5614BBCCBB55ED1C",
+            "raw": "07:24:19.776   ENGINE       : gproj: 'D:/SteamLibrary/steamapps/common/Arma Reforger/addons/core/core.gproj' guid: '5614BBCCBB55ED1C'"
+          },
+          {
+            "line": 46,
+            "project": "D:/SteamLibrary/steamapps/common/Arma Reforger/addons/data/ArmaReforger.gproj",
+            "id": "58D0FB3206B6F859",
+            "raw": "07:24:19.776   ENGINE       : gproj: 'D:/SteamLibrary/steamapps/common/Arma Reforger/addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'"
+          },
+          {
+            "line": 47,
+            "project": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/gepard/Gepard.gproj",
+            "id": "D561AD08932E7B40",
+            "raw": "07:24:19.776   ENGINE       : gproj: 'D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/gepard/Gepard.gproj' guid: 'D561AD08932E7B40'"
+          },
+          {
+            "line": 48,
+            "project": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/dependencies/WCS_Armaments/addon.gproj",
+            "id": "629B2BA37EFFD577",
+            "raw": "07:24:19.776   ENGINE       : gproj: 'D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/dependencies/WCS_Armaments/addon.gproj' guid: '629B2BA37EFFD577'"
+          },
+          {
+            "line": 49,
+            "project": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/wcsSmoke/GEP_WCSSmoke215.gproj",
+            "id": "7E0150C026101500",
+            "raw": "07:24:19.776   ENGINE       : gproj: 'D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/wcsSmoke/GEP_WCSSmoke215.gproj' guid: '7E0150C026101500'"
+          },
+          {
+            "line": 50,
+            "project": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/qaCore/GEP_SmokeCoreCompatQA.gproj",
+            "id": "A9F84D1626102251",
+            "raw": "07:24:19.776   ENGINE       : gproj: 'D:/ArmaProjects/Gepard-Consolidated-20261022/native-smoke-core-compat-stage-v2/single/qaCore/GEP_SmokeCoreCompatQA.gproj' guid: 'A9F84D1626102251'"
+          }
+        ],
+        "blindDeduplication": false
+      },
+      "originalCollectorAllGprojRows": [
+        {
+          "line": 16,
+          "id": "D561AD08932E7B40"
+        },
+        {
+          "line": 17,
+          "id": "A9F84D1626102251"
+        },
+        {
+          "line": 18,
+          "id": "7E0150C026101500"
+        },
+        {
+          "line": 19,
+          "id": "629B2BA37EFFD577"
+        },
+        {
+          "line": 20,
+          "id": "5614BBCCBB55ED1C"
+        },
+        {
+          "line": 21,
+          "id": "58D0FB3206B6F859"
+        },
+        {
+          "line": 45,
+          "id": "5614BBCCBB55ED1C"
+        },
+        {
+          "line": 46,
+          "id": "58D0FB3206B6F859"
+        },
+        {
+          "line": 47,
+          "id": "D561AD08932E7B40"
+        },
+        {
+          "line": 48,
+          "id": "629B2BA37EFFD577"
+        },
+        {
+          "line": 49,
+          "id": "7E0150C026101500"
+        },
+        {
+          "line": 50,
+          "id": "A9F84D1626102251"
+        }
+      ],
+      "collectorScopeFinding": "Regex collected both Available addons and Loaded addons listings. Independent single-marker contiguous Loaded block contains the exact expected six once; no blind deduplication and no original result mutation.",
+      "nativeErrors": {
+        "status": "FAIL_RETAINED",
+        "count": 58,
+        "byChannelSeverity": {
+          "RESOURCES.E": 50,
+          "GUI.E": 1,
+          "WORLD.E": 7
+        },
+        "rows": [
+          {
+            "line": 53,
+            "raw": "07:24:19.778   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\""
+          },
+          {
+            "line": 121,
+            "raw": "07:24:20.658   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+          },
+          {
+            "line": 177,
+            "raw": "07:24:22.697             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+          },
+          {
+            "line": 188,
+            "raw": "07:24:22.792               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+          },
+          {
+            "line": 189,
+            "raw": "07:24:22.792               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+          },
+          {
+            "line": 190,
+            "raw": "07:24:22.792               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+          },
+          {
+            "line": 191,
+            "raw": "07:24:22.792               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+          },
+          {
+            "line": 200,
+            "raw": "07:24:22.797             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+          },
+          {
+            "line": 201,
+            "raw": "07:24:22.797             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+          },
+          {
+            "line": 345,
+            "raw": "07:24:54.808 RESOURCES (E): ==== Resource leaks ===="
+          },
+          {
+            "line": 346,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+          },
+          {
+            "line": 347,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+          },
+          {
+            "line": 348,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+          },
+          {
+            "line": 349,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+          },
+          {
+            "line": 350,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+          },
+          {
+            "line": 351,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+          },
+          {
+            "line": 352,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+          },
+          {
+            "line": 353,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+          },
+          {
+            "line": 354,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+          },
+          {
+            "line": 355,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+          },
+          {
+            "line": 356,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+          },
+          {
+            "line": 357,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+          },
+          {
+            "line": 358,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+          },
+          {
+            "line": 359,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+          },
+          {
+            "line": 360,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+          },
+          {
+            "line": 361,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+          },
+          {
+            "line": 362,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+          },
+          {
+            "line": 363,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+          },
+          {
+            "line": 364,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+          },
+          {
+            "line": 365,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+          },
+          {
+            "line": 366,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+          },
+          {
+            "line": 367,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+          },
+          {
+            "line": 368,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+          },
+          {
+            "line": 369,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+          },
+          {
+            "line": 370,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+          },
+          {
+            "line": 371,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+          },
+          {
+            "line": 372,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+          },
+          {
+            "line": 373,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+          },
+          {
+            "line": 374,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+          },
+          {
+            "line": 375,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+          },
+          {
+            "line": 376,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+          },
+          {
+            "line": 377,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+          },
+          {
+            "line": 378,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+          },
+          {
+            "line": 379,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+          },
+          {
+            "line": 380,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+          },
+          {
+            "line": 381,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+          },
+          {
+            "line": 382,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+          },
+          {
+            "line": 383,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+          },
+          {
+            "line": 384,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+          },
+          {
+            "line": 385,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+          },
+          {
+            "line": 386,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+          },
+          {
+            "line": 387,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+          },
+          {
+            "line": 388,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+          },
+          {
+            "line": 389,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+          },
+          {
+            "line": 390,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+          },
+          {
+            "line": 391,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+          },
+          {
+            "line": 392,
+            "raw": "07:24:54.808 RESOURCES (E): UI/Imagesets/default.edds   1"
+          },
+          {
+            "line": 393,
+            "raw": "07:24:54.808 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+          }
+        ],
+        "omitted": 0,
+        "waivers": []
+      },
+      "currentSourceClosure": [
+        {
+          "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\gepard",
+          "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\gepard.json",
+          "sha256": "0439c63751bfbe42abc8e3ad9683f6560675f36f6bfe71bafeedb600b3c1f4dd",
+          "files": 1152
+        },
+        {
+          "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\wcsSmoke",
+          "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\wcsSmoke.json",
+          "sha256": "f883dca866a49ac7f0688db2666a0b9f8c57402c7acddf3e71515aaa52059dfe",
+          "files": 14
+        },
+        {
+          "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\dependencies\\WCS_Armaments",
+          "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\WCS_Armaments.json",
+          "sha256": "5e254d497e6f39ffe0d5294587fd04ddd8cbea8db94a58015da8d27e1050ffa6",
+          "files": 3
+        },
+        {
+          "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-core-compat-stage-v2\\single\\qaCore",
+          "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\qaCore.json",
+          "sha256": "de785de20b03dc7fb4e7bb9c065a49438de4306b1bb77d888156d3ec47ce85c8",
+          "files": 12
+        }
+      ],
+      "core1152MatchesAdmittedOrdinaryV6": true,
+      "onlyTwoDerivedNewRDBs": true,
+      "nativeReadyDoneLines": {
+        "ready": [
+          284
+        ],
+        "done": [
+          333
+        ]
+      },
+      "actualConsoleEvents": [
+        {
+          "line": 290,
+          "raw": "07:24:41.641   SCRIPT       : QA_INPUT_READY controlled=1 camera=1 ads=1 turretContext=1"
+        },
+        {
+          "line": 305,
+          "raw": "07:24:47.246   ENGINE       : Screenshot successfully saved into $profile:CoreQA-burst-012 (1280x720)"
+        },
+        {
+          "line": 309,
+          "raw": "07:24:47.447   ENGINE       : Screenshot successfully saved into $profile:CoreQA-burst-032 (1280x720)"
+        },
+        {
+          "line": 313,
+          "raw": "07:24:47.741   SCRIPT       : GEP_CORE_COMPAT_HULL case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=first_burst_complete owner=11 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,39.7,2600>"
+        },
+        {
+          "line": 314,
+          "raw": "07:24:47.741   SCRIPT       : GEP_CORE_COMPAT_SEAT_ENTITY case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=first_burst_complete owner=32 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,41.3,2600.15>"
+        },
+        {
+          "line": 315,
+          "raw": "07:24:47.741   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=first_burst_complete x=<0.825046,0,-0.565066> y=<-0.0205558,0.999338,-0.0300133> z=<0.564692,0.0363778,0.8245> pos=<600.796,42.74,2600.55> yawHull=34.4069 elevationHull=2.08475"
+        },
+        {
+          "line": 316,
+          "raw": "07:24:47.741   SCRIPT       : QA_POSTHIT_FIRE leftUsed=5 rightUsed=5 physicalInput=0"
+        },
+        {
+          "line": 323,
+          "raw": "07:24:52.708   SCRIPT       : QA_REENTRY_INPUT ads=1 context=1 occupied=1"
+        },
+        {
+          "line": 326,
+          "raw": "07:24:54.208   SCRIPT       : GEP_CORE_COMPAT_HULL case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=reentry_burst_complete owner=11 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,39.7,2600>"
+        },
+        {
+          "line": 327,
+          "raw": "07:24:54.208   SCRIPT       : GEP_CORE_COMPAT_SEAT_ENTITY case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=reentry_burst_complete owner=32 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,41.3,2600.15>"
+        },
+        {
+          "line": 328,
+          "raw": "07:24:54.208   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=reentry_burst_complete x=<0.825187,0,-0.56486> y=<-0.0208061,0.999321,-0.0303951> z=<0.564477,0.0368342,0.824627> pos=<600.795,42.74,2600.55> yawHull=34.3926 elevationHull=2.11092"
+        },
+        {
+          "line": 329,
+          "raw": "07:24:54.208   SCRIPT       : QA_REENTRY_FIRE leftUsed=11 rightUsed=11 physicalInput=0"
+        },
+        {
+          "line": 330,
+          "raw": "07:24:54.213   ENGINE       : Screenshot successfully saved into $profile:DamageHarness-after (1280x720)"
+        },
+        {
+          "line": 331,
+          "raw": "07:24:54.213   SCRIPT       : GEP_DAMAGE683_FRAME|e593927b-9e73-4c9e-80eb-37f2ee684efb|74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b|after|requested=1|cameraSelected=1|file=$profile:DamageHarness-after"
+        }
+      ],
+      "captures": [
+        {
+          "nativeBMP": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\CoreQA-burst-012.bmp",
+            "sha256": "2133fa9e4a3df9acb48f9bd3333d0c31914c2738a3f87e2fdad47ceabfafabb4",
+            "bytes": 2764854
+          },
+          "reviewPNG": {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-Pair-IndependentReview-20261022\\charcoal\\CoreQA-burst-012.png",
+            "sha256": "72f6cc0def8d069038a30b4cd53c9eea39d6d1e09ad5125f4405a21e4f8bd620",
+            "bytes": 428912
+          },
+          "pixels": [
+            1280,
+            720
+          ],
+          "association": "first_native_firing_burst_before_public_exit",
+          "losslessConversionOnly": true,
+          "independentlyViewed": false
+        },
+        {
+          "nativeBMP": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\CoreQA-burst-032.bmp",
+            "sha256": "5e81f9acb139fa4e724df0cfe70117b54b32a2636200b7a925272b3776920461",
+            "bytes": 2764854
+          },
+          "reviewPNG": {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-Pair-IndependentReview-20261022\\charcoal\\CoreQA-burst-032.png",
+            "sha256": "8487db7287f20335233d04557d2d2d19894ba07c222ad45fe3d1f0806ff26925",
+            "bytes": 445375
+          },
+          "pixels": [
+            1280,
+            720
+          ],
+          "association": "first_native_firing_burst_before_public_exit",
+          "losslessConversionOnly": true,
+          "independentlyViewed": true,
+          "pixelObservations": {
+            "feeds": [
+              318,
+              318
+            ],
+            "phase": "first burst .32s capture request, before public exit/reentry"
+          }
+        },
+        {
+          "nativeBMP": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\DamageHarness-after.bmp",
+            "sha256": "409d39f935735b06bac2f633528087a1df436240a307d116b5d3884be00c3a2f",
+            "bytes": 2764854
+          },
+          "reviewPNG": {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-Pair-IndependentReview-20261022\\charcoal\\DamageHarness-after.png",
+            "sha256": "a081ee83e66832cd979ae6578e46060ca5dc464ebd20389647baf8a82807c7f3",
+            "bytes": 432565
+          },
+          "pixels": [
+            1280,
+            720
+          ],
+          "association": "post_reentry_refire_completion",
+          "losslessConversionOnly": true,
+          "independentlyViewed": true,
+          "pixelObservations": {
+            "feeds": [
+              303,
+              303
+            ],
+            "phase": "after public reentry/refire completion"
+          }
+        },
+        {
+          "nativeBMP": {
+            "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\DamageHarness-before.bmp",
+            "sha256": "1090e7b008b7a8a286b2f40a983d54b0a2ecff7feefb56708a0f5db54ca302c2",
+            "bytes": 2764854
+          },
+          "reviewPNG": {
+            "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-CoreCompatibility-Pair-IndependentReview-20261022\\charcoal\\DamageHarness-before.png",
+            "sha256": "de4691a9f314e229cff2d45c921c651bc331b15843796e9e22fd9d36b0b5a02a",
+            "bytes": 1003823
+          },
+          "pixels": [
+            1280,
+            720
+          ],
+          "association": "pre_operation_external_control",
+          "losslessConversionOnly": true,
+          "independentlyViewed": false
+        }
+      ],
+      "evidencePins": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\request.json",
+          "sha256": "062328b7fd962f277b375385fc5f84272f82e37a3c3464c7d1491b47ad84ba9a",
+          "bytes": 3782
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\result.json",
+          "sha256": "cd64fa3013e4eb6a1958521e2a68b8bc3d3e1331f83dced0fa41eb07e7d5e411",
+          "bytes": 9098
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\adapter-result.json",
+          "sha256": "f134953f2b09cfd60857f697586be8f5068a40e7431617f87c6d0b514c0c10d2",
+          "bytes": 7352
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-job.json",
+          "sha256": "e3253a13186a280e7b49a8024a6a9a9127b3370e6ab4f1b2551012b876c2b13e",
+          "bytes": 724
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\bridge-plan.json",
+          "sha256": "5439145fe966e39d9a6bce74e77e1c3ca43e94910c6b3df462063c3dda84fcae",
+          "bytes": 3355
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\ALL-DOMAIN-NATIVE-ERRORS.json",
+          "sha256": "8e476777bc526587162937b876127b56aff856ae1b1e60982c52713537af64c1",
+          "bytes": 8201
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\result.json",
+          "sha256": "967ab432597a6f72f19d2b607af743c1dbd7e5bf0e6ede14eff127d0e4d968dc",
+          "bytes": 29156
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\exit.json",
+          "sha256": "d0fda4be8305754bcf9122a780e60d254fab185a59a804635e1c98615a986ae4",
+          "bytes": 223
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\owner.json",
+          "sha256": "9de111ccd9eabd1187a3343160350f30f658c6de621bc51a499b8b40ec6b1e69",
+          "bytes": 1726
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\owner-private.json",
+          "sha256": "5a64ba7969198986d63e99cf4705a7e9047c0e81b08c950f95b034729b91d193",
+          "bytes": 531
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\plan.json",
+          "sha256": "dfa0a65c58f3487181e944f521ce9ec423e010aa598c17e760021b77009a05a4",
+          "bytes": 1696
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\legacy-collect-plan.json",
+          "sha256": "d6885113eca0d96bf7886b124f51a2b04790dec2340cde1f80edef4262266045",
+          "bytes": 7120
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\profile\\profile\\DamageHarness-result683.json",
+          "sha256": "dc22356a8746453fd260fdc1c45968e943536f65c9d7b59a19d9999d2e2d30ed",
+          "bytes": 15964
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-healthy-charcoal-01\\v11-healthy-v11-charcoal\\native-run\\logs\\console.log",
+          "sha256": "ffd0dd9a67249a6c2cb6f2b3007fb5602a107bea401b3d93a8ca780430e6aa3a",
+          "bytes": 41241
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\postcompile\\SOURCE-CLOSURES.json",
+          "sha256": "cd539ca92beaa5d21f707a649cb6910a1cf959c31040096192652e815a170016",
+          "bytes": 1472
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\COMPILE-ADOPTION.json",
+          "sha256": "f3cbf163d1f7094c255119d48af2f928b778d24c43b6d75e205186ce5fce9be1",
+          "bytes": 4422
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-core-compat-01\\RESULT.json",
+          "sha256": "c10cad967ae7380b4b91265589a8363a6e640ab61e6963f99f26f05ad3fd85ae",
+          "bytes": 337
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-core-compat-01\\logs\\validate\\console.log",
+          "sha256": "75a9c375f6383e27d717f037cc2898c7512ec15824b246b44f8e3a1f248bb44b",
+          "bytes": 32743
+        }
+      ],
+      "poseObservation": {
+        "actualNativeMatrixAndSightsRows": [
+          {
+            "line": 313,
+            "raw": "07:24:47.741   SCRIPT       : GEP_CORE_COMPAT_HULL case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=first_burst_complete owner=11 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,39.7,2600>"
+          },
+          {
+            "line": 314,
+            "raw": "07:24:47.741   SCRIPT       : GEP_CORE_COMPAT_SEAT_ENTITY case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=first_burst_complete owner=32 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,41.3,2600.15>"
+          },
+          {
+            "line": 315,
+            "raw": "07:24:47.741   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=first_burst_complete x=<0.825046,0,-0.565066> y=<-0.0205558,0.999338,-0.0300133> z=<0.564692,0.0363778,0.8245> pos=<600.796,42.74,2600.55> yawHull=34.4069 elevationHull=2.08475"
+          },
+          {
+            "line": 326,
+            "raw": "07:24:54.208   SCRIPT       : GEP_CORE_COMPAT_HULL case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=reentry_burst_complete owner=11 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,39.7,2600>"
+          },
+          {
+            "line": 327,
+            "raw": "07:24:54.208   SCRIPT       : GEP_CORE_COMPAT_SEAT_ENTITY case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=reentry_burst_complete owner=32 x=<1,0,0> y=<0,1,0> z=<0,0,1> pos=<600,41.3,2600.15>"
+          },
+          {
+            "line": 328,
+            "raw": "07:24:54.208   SCRIPT       : GEP_CORE_COMPAT_SIGHTS case=v11-healthy nonce=74ac3ac5367b1d9ccbdca535d08fec0f7b2f3452beb2c93e1e2ed5e78a2b306b phase=reentry_burst_complete x=<0.825187,0,-0.56486> y=<-0.0208061,0.999321,-0.0303951> z=<0.564477,0.0368342,0.824627> pos=<600.795,42.74,2600.55> yawHull=34.3926 elevationHull=2.11092"
+          }
+        ],
+        "scope": "Hull and seat entity matrices remain world-axis aligned; actual sights yaw/elevation is nonzero. This is not a bone/port/clearance or articulated-smoke qualification."
+      },
+      "narrowHUDPixelReceipt": {
+        "status": "OBSERVED_1280x720_DAY_16x9_ONLY",
+        "viewedFrames": {
+          "CoreQA-burst-032": {
+            "feeds": [
+              318,
+              318
+            ],
+            "phase": "first burst .32s capture request, before public exit/reentry"
+          },
+          "DamageHarness-after": {
+            "feeds": [
+              303,
+              303
+            ],
+            "phase": "after public reentry/refire completion"
+          }
+        },
+        "actualOwnHUD": "German GEPARD ZIELVISIER, LINKS/RECHTS, ENTFERNUNG --m, TAG 2,0x, central reticle and lower panels visibly rendered. No own developer-status/footer text seen. Engine diagnostic FPS/version overlay and ordinary Open/Close door prompt remain visible in private diagnostic captures.",
+        "finalHUDNumbers": {
+          "feedLeft": 303,
+          "feedRight": 303,
+          "turretDegrees": 34,
+          "elevationDegrees": 2
+        },
+        "lifecycleScope": "First native firing burst and final post-reentry/refire snapshot only. No proof every intermediate cleanup/frame or menu/seat/damage lifecycle behaved correctly.",
+        "earlierPassiveADS0Scope": "Earlier passive WCS visual fixture remained ADS0/widgets absent; it is preserved separately and is not rewritten by this different active core-compatibility fixture.",
+        "positiveRange": "NOT_TESTED: --m is visible; no positive range measurement in this case",
+        "nightLowlightOtherAspectsPhysicalDesign": "NOT_TESTED"
+      }
+    }
+  ],
+  "loadedScopeMethod": "Exactly one ENGINE Loaded addons marker, immediately following contiguous gproj lines, require exactly6 rows and6distinct IDs equal declared set. No scan-wide dedup.",
+  "implementationChanges": false,
+  "nativeStarted": false,
+  "DWritten": false,
+  "boundQAChanged": false,
+  "rawResultsChanged": false,
+  "newAcceptedCheckboxes": 0,
+  "remainingGates": [
+    "Physical boarding/F/periscope/hatch/seat controls and commander view/prompt judgment",
+    "Full HUD lifecycle/repeated exit and seat switches/damage, positive range, other aspect ratios and night/lowlight",
+    "Accepted physical R/drive/reverse/brake/steer on this dependency stack",
+    "Fragment-survivor regression on this exact optional stack",
+    "Articulated smoke port fit/clearance/nonzero hull yaw and actual smoke launch at nonzero turret pose",
+    "Genuine WCS smoke rearm, optical/tactical screening judgment, repeatability and MP/JIP/dedicated"
+  ]
+}

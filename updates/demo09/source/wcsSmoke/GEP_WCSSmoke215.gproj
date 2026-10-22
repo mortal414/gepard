@@ -1,0 +1,7 @@
+GameProject {
+ ID "GEP_WCSSmoke215"
+ GUID "7E0150C026101500"
+ TITLE "Gepard current V11 optional WCS full-ripple smoke - source candidate"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" "629B2BA37EFFD577" }
+ Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} }
+}

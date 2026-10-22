@@ -1,0 +1,320 @@
+{
+  "status": "INDEPENDENT_FUNCTIONAL_STARTUP_OBSERVATION_PASS_ORIGINAL_STRICT_FAIL_RETAINED",
+  "originalRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0",
+  "inputs": {
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\plan.json": "e8670c840ccb94a5a566018591040b9d326ff83c3b70dba4b2a49b777ac648a5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\RESULT.json": "a7bb05e4f869ee855893d4c02cca6b2e62cb5f2c52489db6cc6c9796c9eb3756",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\exit.json": "20b3bd3450d7becd4ee4484700ed9c211ac17c9f4b48db97a6734d0271c43e90",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\private-demo-09-sessions\\probe-992c651f-d5c7-42f9-b200-d69afb54cdb0\\logs\\console.log": "fb616a500ee467029c9ab79a8c94a2633ad9db9d2f02898a3d420053ea9e4971",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-ProvingGround-OptionalV11-v2-20261022\\addon\\scripts\\Game\\GPG_Layout.c": "ef6935db897e1ee5300b455dde15c710b198577aaf617aace53a6d8b1d28c0a9",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\SOURCE-MANIFEST.json": "7b34b31bde1396e89db6712442b52fba91d22aa7c9e9bc6eaa0889b53e9ce99b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\INSTALLED-PACKAGE-CLOSURE.json": "b12afb6d35a77c14109322e944e04547ee0593520ebdf3965079e6c8b6f32967",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\SEPARATE-WCS-CLOSURE.json": "10662285c63a847c98382d36411fa28b21b820a7026de57d63b685103fb3640d"
+  },
+  "parserCause": "Whitespace-delimited board IDs excluded eight route IDs containing spaces. Delimiter-aware parser matches exactly24 unique original source IDs.",
+  "sourceBoardIDs": [
+    "bay",
+    "drive",
+    "service",
+    "smoke-service",
+    "range",
+    "damage",
+    "hostile",
+    "pad-OLD-CAMO",
+    "pad-OLD-CHARCOAL",
+    "pad-NEW-CAMO",
+    "pad-NEW-CHARCOAL",
+    "G01 START EAST",
+    "G02 50m REVERSE LIMIT",
+    "G03 60m BRAKE",
+    "G04 80m STOP / NORTH",
+    "G05 25m NORTH / WEST",
+    "G06 WEST RETURN",
+    "G07 SOUTH RETURN",
+    "G08 SERVICE CONNECTOR",
+    "AUDIO-5m",
+    "AUDIO-30m",
+    "AUDIO-100m",
+    "T100",
+    "T300"
+  ],
+  "actualBoardIDs": [
+    "bay",
+    "drive",
+    "service",
+    "smoke-service",
+    "range",
+    "damage",
+    "hostile",
+    "pad-OLD-CAMO",
+    "pad-OLD-CHARCOAL",
+    "pad-NEW-CAMO",
+    "pad-NEW-CHARCOAL",
+    "G01 START EAST",
+    "G02 50m REVERSE LIMIT",
+    "G03 60m BRAKE",
+    "G04 80m STOP / NORTH",
+    "G05 25m NORTH / WEST",
+    "G06 WEST RETURN",
+    "G07 SOUTH RETURN",
+    "G08 SERVICE CONNECTOR",
+    "AUDIO-5m",
+    "AUDIO-30m",
+    "AUDIO-100m",
+    "T100",
+    "T300"
+  ],
+  "oldParserBoards": 16,
+  "correctedBoards": 24,
+  "matchedExactSourceSet": true,
+  "objects": 34,
+  "originalFunctionalStartupObserved": false,
+  "independentFunctionalStartupObserved": true,
+  "originalResultPreserved": true,
+  "strictNativeVerdict": "FAIL",
+  "rawAllEF": [
+    {
+      "line": 53,
+      "text": "07:35:59.867   RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\""
+    },
+    {
+      "line": 121,
+      "text": "07:36:00.700   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+    },
+    {
+      "line": 177,
+      "text": "07:36:09.969             WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+    },
+    {
+      "line": 188,
+      "text": "07:36:10.004               WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+    },
+    {
+      "line": 189,
+      "text": "07:36:10.004               WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+    },
+    {
+      "line": 190,
+      "text": "07:36:10.004               WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+    },
+    {
+      "line": 191,
+      "text": "07:36:10.004               WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+    },
+    {
+      "line": 200,
+      "text": "07:36:10.008             WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+    },
+    {
+      "line": 201,
+      "text": "07:36:10.008             WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+    },
+    {
+      "line": 397,
+      "text": "07:37:15.145 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!"
+    },
+    {
+      "line": 398,
+      "text": "07:37:15.148 SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!"
+    },
+    {
+      "line": 400,
+      "text": "07:37:15.315 RESOURCES (E): ==== Resource leaks ===="
+    },
+    {
+      "line": 401,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+    },
+    {
+      "line": 402,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+    },
+    {
+      "line": 403,
+      "text": "07:37:15.315 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+    },
+    {
+      "line": 404,
+      "text": "07:37:15.315 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+    },
+    {
+      "line": 405,
+      "text": "07:37:15.315 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+    },
+    {
+      "line": 406,
+      "text": "07:37:15.315 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+    },
+    {
+      "line": 407,
+      "text": "07:37:15.315 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 408,
+      "text": "07:37:15.315 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+    },
+    {
+      "line": 409,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+    },
+    {
+      "line": 410,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 411,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+    },
+    {
+      "line": 412,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+    },
+    {
+      "line": 413,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+    },
+    {
+      "line": 414,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+    },
+    {
+      "line": 415,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 416,
+      "text": "07:37:15.315 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+    },
+    {
+      "line": 417,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 418,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+    },
+    {
+      "line": 419,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+    },
+    {
+      "line": 420,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+    },
+    {
+      "line": 421,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+    },
+    {
+      "line": 422,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+    },
+    {
+      "line": 423,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+    },
+    {
+      "line": 424,
+      "text": "07:37:15.315 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+    },
+    {
+      "line": 425,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+    },
+    {
+      "line": 426,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 427,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 428,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+    },
+    {
+      "line": 429,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+    },
+    {
+      "line": 430,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+    },
+    {
+      "line": 431,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+    },
+    {
+      "line": 432,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 433,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+    },
+    {
+      "line": 434,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+    },
+    {
+      "line": 435,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+    },
+    {
+      "line": 436,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 437,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+    },
+    {
+      "line": 438,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+    },
+    {
+      "line": 439,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+    },
+    {
+      "line": 440,
+      "text": "07:37:15.315 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+    },
+    {
+      "line": 441,
+      "text": "07:37:15.315 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+    },
+    {
+      "line": 442,
+      "text": "07:37:15.316 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+    },
+    {
+      "line": 443,
+      "text": "07:37:15.316 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+    },
+    {
+      "line": 444,
+      "text": "07:37:15.316 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+    },
+    {
+      "line": 445,
+      "text": "07:37:15.316 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+    },
+    {
+      "line": 446,
+      "text": "07:37:15.316 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+    },
+    {
+      "line": 447,
+      "text": "07:37:15.316 RESOURCES (E): UI/Imagesets/default.edds   1"
+    },
+    {
+      "line": 448,
+      "text": "07:37:15.316 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+    }
+  ],
+  "wholeGameplayAcceptance": false,
+  "nativeRerunRequiredForParser": false,
+  "nativeStarted": false
+}

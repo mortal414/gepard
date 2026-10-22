@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "bindings": {
+    "gepard-current-wcs-core-compat-v2": {
+      "job": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-core-compat-v2\\core-native-job.json",
+      "description": "Private optional-stack healthy compatibility pair; actual fresh compile required.",
+      "outputRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-core-compat-healthy-pair-01"
+    }
+  }
+}

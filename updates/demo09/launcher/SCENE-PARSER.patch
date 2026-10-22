@@ -1,0 +1,30 @@
+--- C:\Users\marco\Documents\Codex\2026-10-21\task\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\PackageOnlyScene09.ps1
++++ PackageOnlyScene09.ps1
+@@ -8,6 +8,9 @@
+ # Existing scene ownership/identity guards; default zero is untimed human exit.
+ Set-StrictMode -Version Latest
+ $ErrorActionPreference='Stop'
++$parserSeal=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'SOURCE-MANIFEST.json') -Raw|ConvertFrom-Json -AsHashtable
++if((Get-FileHash -LiteralPath $PSCommandPath -Algorithm SHA256).Hash.ToLowerInvariant() -cne $parserSeal.files['PackageOnlyScene09.ps1']){throw 'Frozen parser successor differs'}
++
+ $slot='C:\Users\marco\Documents\Codex\2026-10-12\task\RUNTIME_SLOT.json'
+ $proof=$null;$game=$null;$attached=$false;$claimed=$false;$owner=$null;$RunRoot=$null
+ function Save($name,$value){[IO.File]::WriteAllText((Join-Path $RunRoot $name),($value|ConvertTo-Json -Depth 20))}
+@@ -100,7 +103,7 @@
+ function AssertPackageClosure {
+  if((Get-FileHash -LiteralPath $PlanFile -Algorithm SHA256).Hash.ToLowerInvariant() -cne $PlanSHA256){throw 'Manual plan changed'}
+  if((Get-FileHash -LiteralPath $plan.installedClosure -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.installedClosureSHA256){throw 'Installed closure pin changed'}
+- if($plan.worldContract -cne (Join-Path $PSScriptRoot 'PACKAGE09-WORLD-CONTRACT.json') -or (Get-FileHash -LiteralPath $plan.worldContract -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.worldContractSHA256){throw 'Exact V2 world startup contract changed'}
++ if($plan.worldContract -cne 'C:\Users\marco\Documents\Codex\2026-10-21\task\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\PACKAGE09-WORLD-CONTRACT.json' -or (Get-FileHash -LiteralPath $plan.worldContract -Algorithm SHA256).Hash.ToLowerInvariant() -cne $plan.worldContractSHA256){throw 'Exact V2 world startup contract changed'}
+  $closure=Get-Content -LiteralPath $plan.installedClosure -Raw|ConvertFrom-Json
+  $pins=Get-Content -LiteralPath $plan.installedClosure -Raw|ConvertFrom-Json -AsHashtable
+  $files=@(Get-ChildItem -LiteralPath $closure.root -File -Recurse)
+@@ -119,7 +122,7 @@
+  # Startup interval only: human explicit resets later do not alter initial proof.
+  $startup=$text.Substring(0,$first.Index+$first.Length)
+  $objects=@([regex]::Matches($startup,'GPG_OBJECT id=([^\s]+) station='))
+- $boards=@([regex]::Matches($startup,'GPG_STATION id=([^\s]+) board='))
++ $boards=@([regex]::Matches($startup,'GPG_STATION id=([^\r\n]+?) board='))
+  $uniqueObjects=@($objects|ForEach-Object {$_.Groups[1].Value}|Sort-Object -Unique)
+  $uniqueBoards=@($boards|ForEach-Object {$_.Groups[1].Value}|Sort-Object -Unique)
+  $bindings=$true

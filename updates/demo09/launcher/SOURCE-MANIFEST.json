@@ -1,0 +1,23 @@
+{
+  "originalPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\package_launch.mjs": "812f14377bf988b79032ee24d1717f1b39998e74459cf4a1505a3e4208c2f9f6",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\SEPARATE-WCS-CLOSURE.json": "10662285c63a847c98382d36411fa28b21b820a7026de57d63b685103fb3640d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\pack_tools09.mjs": "c3819ca025fcac230209dc29393e381d590ca6e3b29b38ad64ae75b5dab7010b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\PackageOnlyScene09.ps1": "32dffba9b935b9a3dcd4df7fb5c571c23bb2cff5cceed926b17650c00a387d4b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\SOURCE-MANIFEST.json": "7b34b31bde1396e89db6712442b52fba91d22aa7c9e9bc6eaa0889b53e9ce99b",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\INSTALLED-PACKAGE-CLOSURE.json": "b12afb6d35a77c14109322e944e04547ee0593520ebdf3965079e6c8b6f32967",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\PACKAGE09-WORLD-CONTRACT.json": "55b622fef3e261b668ed85ae21f810ee8c067c87eeef1ce7a55a78adb034659d",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Private-Demo-Pack09-Smoke-Preparation-20261022\\ROOT-PACK-PLAN-09.json": "6848a989a1e9bba58fca828a12b2e028fbfee3bae5a25bda8f220eb66f0ee53f"
+  },
+  "files": {
+    "ACTUAL-PARSER-CHECK.json": "814fa6e3abbb071ed4462f5e43775ba71c92fdcee9ff832325c8619014bc89fc",
+    "ORIGINAL-SOURCE-BINDING.json": "80ad820765f6be0dee2ab298163bc2297d64878f2cd103890d635b815dca0cf4",
+    "SCENE-PARSER.patch": "642cc146cb7cf8a26fc6b545deae7eeb86e4b403ab8829ad1c04e0ceec398744",
+    "INDEPENDENT-PROBE-REANALYSIS.json": "bd56ad3ecea1234927c06fe5e9afcb98365497af77ef7f806f880296bbdfb796",
+    "PackageOnlyScene09.ps1": "0d83e7023c3acddabed63bbe7345e25ed4bf9fd6dc36714313b5242df3c33518",
+    "Launch-Gepard-Private-Demo09.ps1": "9969ed9b9d79ae30238c245c39790a76ffb697af45e00a4af4b130374bb84898",
+    "README.md": "5f6b1a927caaa099f48efdc7b962d497220a94afc3e76638b1a8d81fbce51517"
+  },
+  "status": "FROZEN_SAME_INSTALLED09_LAUNCHER_PARSER_SUCCESSOR",
+  "nativeStarted": false
+}

@@ -36,14 +36,16 @@
       "status": "Needs user test",
       "reason": "German HUD: both1280x720/1920x1080 passed eight narrow data assertions;5sampled720p+3sampled1080p pixels reviewed. Human design/other aspects/positive range accuracy unfinished; whole task unchecked.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "currentDependencyStackObservation": "Both healthy V11/WCS cases retained ADS/aiming/cannon/exit/reentry/refire; actual final303/303 German HUD visible720p/day. Full design/lighting/range/physical lifecycle remain user tests."
     },
     {
       "id": "GEP-006",
       "status": "Needs user test",
       "reason": "HUD V3 actual15phase transitions/captures per resolution include hide-on-exit/single restore-on-return; native/widget angles and groups/zooms agree. Broad repeated seat/damage lifecycle and human judgment remain unfinished.",
       "doneAcceptedBeforeSprint": false,
-      "newlyCompleted": false
+      "newlyCompleted": false,
+      "currentDependencyStackObservation": "Both healthy V11/WCS cases retained ADS/aiming/cannon/exit/reentry/refire; actual final303/303 German HUD visible720p/day. Full design/lighting/range/physical lifecycle remain user tests."
     },
     {
       "id": "GEP-007",
@@ -115,13 +117,13 @@
     },
     {
       "id": "GEP-015",
-      "status": "Blocked",
-      "reason": "Smoke stays excluded from stable08 pending final optional build qualification. Generic mechanism fixture rearm05 observed a genuine native held action: original right-bank tube0/bank/total0-to1, exact finite crate8-to7, other observed source0 unchanged, controls released and normal0 closure. StrictFAIL58 retained. Both currentV11 skins separately passed8-flight/empty and zero-pose port correspondence; final currentV11 service, full8 refill/depleted/full/range negatives, articulated fit, dependency-stack regression, optional world/package and human screening remain open. No active smoke access denial.",
+      "status": "Needs user test",
+      "reason": "Experimental demo: both currentV11 skins8-flight/empty and zero-pose ports; visible clouds with forward gap; one generic finite native refill verified. Shared-world rearm/full refill/negatives/reset, rotated fit, controls and usefulness need user test.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
-      "genuineBlocker": true,
-      "blocker": "Final optional world/package, current V11 service and dependency-stack compatibility pending; one generic finite refill is observed, full-service/user acceptance remains open.",
-      "blockingState": "FEATURE_EXCLUDED_PENDING_QUALIFICATION_NOT_ACCESS_DENIED"
+      "genuineBlocker": false,
+      "blocker": null,
+      "blockingState": "EXPERIMENTAL_PLAYABLE_DEMO_WHOLE_ACCEPTANCE_PENDING"
     },
     {
       "id": "GEP-016",
@@ -278,7 +280,7 @@
     "Needs verification": "Existing release evidence passes; one named verification remains",
     "Blocked": "A named inclusion gate remains unsatisfied: feature runtime qualification for015, separate bounded authoring permission for033. Deferred work is not globally blocked."
   },
-  "updatedUtc": "2026-10-22T12:14:21.274374+00:00",
+  "updatedUtc": "2026-10-22T12:46:40.291179+00:00",
   "candidate": "ordinary source v6 / compile06 / pack08 / installed08; one left refill observed, whole services pending",
   "nativeCompile": "Actual ordinary-v6 compile06 PASS; historical board V3 compile/native observation retained separately. Compilation alone is not gameplay acceptance.",
   "nativeGameplay": "Package08 ordinary start and US provider observed; strict probe FAIL retained. Separate narrow left-refill observation does not mark services accepted.",

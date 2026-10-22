@@ -1,0 +1,12 @@
+{
+  "sameInstalled09": true,
+  "repack": false,
+  "recompile": false,
+  "rerunForReanalysis": false,
+  "originalSourceSealSHA256": "7b34b31bde1396e89db6712442b52fba91d22aa7c9e9bc6eaa0889b53e9ce99b",
+  "originalClosureSHA256": "b12afb6d35a77c14109322e944e04547ee0593520ebdf3965079e6c8b6f32967",
+  "originalPackPlanSHA256": "6848a989a1e9bba58fca828a12b2e028fbfee3bae5a25bda8f220eb66f0ee53f",
+  "semanticParserDelta": "GPG_STATION id=([^\\s]+) board= -> GPG_STATION id=([^\\r\\n]+?) board=",
+  "nativeOwnershipBodies": "unchanged",
+  "nativeStarted": false
+}
