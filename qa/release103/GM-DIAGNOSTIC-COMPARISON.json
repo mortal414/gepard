@@ -1,0 +1,13 @@
+{
+  "oldCount": 74,
+  "newCount": 74,
+  "added": {
+    "RESOURCES (E): Wrong GUID/name for resource @\"{41FA2A08B6971D4C}Language/wcs_armament_localization.st\" in property \"StringTableSource\"": 1,
+    "RESOURCES (E): Wrong GUID/name for resource @\"{84270E09F7A4A7A0}Language/wcs_spacecore_localization.st\" in property \"StringTableSource\"": 1
+  },
+  "removed": {
+    "RESOURCES (E): Wrong GUID/name for resource @\"{2F07D6CD2F5EC5FF}Language/GEP_GM102_localization.st\" in property \"StringTableSource\"": 1,
+    "SCRIPT    (E): Cannot find editor component 'SCR_MenuLayoutEditorComponent', local instance of editor manager not found!": 1
+  },
+  "rawStrictVerdict": "FAIL"
+}

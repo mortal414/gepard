@@ -1,0 +1,93 @@
+{
+  "status": "PUBLISHED_PROCESSED_PUBLIC_VERSION_AND_EXACT_UPLOADED_TRIO_VERIFIED",
+  "item": "D561AD08932E7B40",
+  "version": "1.0.3",
+  "uploadUTC": "2026-10-22T23:15:50.467Z",
+  "processingUTC": "2026-10-22T23:16:25.314Z",
+  "consoleSHA256": "253f693f7e6c6390f5cec23d535e564db7aab31259e071b7fc3183259014296c",
+  "exactNotes": [
+    "Updated the gunner optic HUD.",
+    "Added tracked-vehicle movement audio."
+  ],
+  "trio": {
+    "data.pak": {
+      "sha256": "7e3e4e3024a4268c463039960b7d28d297613137f43ddc3ede76e86a5fa8d700",
+      "bytes": 281024837
+    },
+    "Gepard.gproj": {
+      "sha256": "21a795090e6d609d995de809c8a5c3fb0ec6af22129f3421adaa2802e6f1a5bb",
+      "bytes": 680
+    },
+    "resourceDatabase.rdb": {
+      "sha256": "0382cb251691839704babc0a0026cb6496a9e4eb0c1ef57f5f98f0904d3e7902",
+      "bytes": 52624
+    }
+  },
+  "nativeAbsent": true,
+  "leaseReleased": true,
+  "osExitCode": null,
+  "osExitCodeExplanation": "Original wrapper stopped on CRLF watcher predicate; attached watcher process exited normally before final read. Do not invent a lost OS code. Actual terminal log has processing success and Game destroyed; census/lease verify absence.",
+  "submissionCount": 1,
+  "originalWatcherFailuresPreserved": true,
+  "raceReconciliation": "Read final console after observed process absence. Original watcher RESULT remains unmodified.",
+  "sameTestedPAKAndGproj": true,
+  "publisherRegeneratedResourceDB": true,
+  "uploadedTrioGM": "PASS_NATIVE_BROWSER_FILTER_CARD_AND_PLACEMENT_WITH_DIRECT_NATIVE_PIXELS",
+  "publicWebsite": "INDEPENDENTLY_VERIFIED_1.0.3_APPROVED_PUBLISHED_PROCESSING_SUCCESS",
+  "dependencies": {
+    "5E389BB9F58B79A6": {
+      "name": "WCS_SpaceCore",
+      "version": "8.4.0"
+    },
+    "629B2BA37EFFD577": {
+      "name": "WCS_Armaments",
+      "version": "8.4.0"
+    }
+  },
+  "sourceCodeCommit": "7d302c250c874fb94c5fea979f06b6885b04d4d3",
+  "packageOnlyGM": {
+    "searchCards": 2,
+    "relevantFilters": 2,
+    "nativePlacements": 3,
+    "serverAcknowledgements": 3,
+    "ownerAcknowledgements": 3,
+    "consoleSHA256": "5356ae762cffdf36a88d83a11b295dd50c2d084c85256e5f4e00551a01f229e1",
+    "nativeImageSHA256": "aee3e5b76ef9e82443171211367e04b1ffc05c0ffc647c7de471f5b6650c013a",
+    "directNativePixelReview": "Both full vehicles/skins visible with stock M998; no obvious missing/purple/fallback geometry at this camera",
+    "exit": {
+      "closeMethod": "owned-normal-window-close",
+      "exitCode": 0,
+      "leaseReleased": true,
+      "verifiedExited": true,
+      "utc": "2026-10-22T23:19:06.3099742Z"
+    },
+    "physicalMouseKeyboard": "NOT_NEWLY_TESTED",
+    "strictNativeVerdict": "FAIL",
+    "rawDiagnosticCount": 75
+  },
+  "publicNotes": [
+    "Updated the gunner optic HUD.",
+    "Added tracked-vehicle movement audio."
+  ],
+  "smoke": "EXPLICITLY_RETAINED_UNRESOLVED_UNADVERTISED_NOT_ACCEPTED",
+  "noLaterArt": true,
+  "releaseScopeUserAccepted": [
+    "Gunner optic change",
+    "Tracked-vehicle movement audio direction"
+  ],
+  "wholeGEPTasksNewlyClosed": 0,
+  "noNewTermsAccepted": true,
+  "metadataAndMedia": "Previous title/description/summary/license/visibility/media preserved; notes changed exactly as authorized; dependencies declared in project and confirmed publicly",
+  "websiteProof": {
+    "versionJSONSHA256": "cb10697b3f6c3e93372c3ea7cc8e67ea43053b4682ba304615b41657f809ab0d",
+    "changelogJSONSHA256": "4cbcd7e6c6b442ac906a18bf80efd2d08e893ea023fdc5dd600a86fd819fecb1",
+    "url": "https://reforger.armaplatform.com/workshop/D561AD08932E7B40-Gepard35mmSPAA"
+  },
+  "limitations": [
+    "Smoke deployment unsuccessful for Marco; no accepted smoke claim",
+    "Full model articulation/clearance/collision/LOD and distance/mix/delete/reset audio tails not blanket-qualified",
+    "Fuel/repair transfer, stabilization/ballistics/radar/protection and broader MP/JIP/dedicated/console remain unfinished",
+    "Existing Workshop description still contains its older stock-assets sentence; unchanged metadata policy retained; new track dependency and exact two-line notes are public",
+    "User primary Workshop install was not modified; package-only uploaded-trio regression is distinct from a fresh Workshop download"
+  ]
+}

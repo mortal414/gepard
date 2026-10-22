@@ -1,0 +1,99 @@
+{
+  "item": "D561AD08932E7B40",
+  "version": {
+    "version": "1.0.3",
+    "approved": true,
+    "published": true,
+    "gameVersion": "1.8.0.13",
+    "minGameVersion": 1,
+    "platformCompatibility": 110111,
+    "totalFileSize": 281078141,
+    "meta": null,
+    "milestone": false,
+    "createdAt": "2026-10-22T23:13:57.000Z",
+    "updatedAt": "2026-10-22T23:16:24.000Z",
+    "assetId": "D561AD08932E7B40",
+    "scenariosCount": 0,
+    "dependenciesCount": 2
+  },
+  "dependencies": [
+    {
+      "dependencies": [],
+      "version": "8.4.0",
+      "blocked": false,
+      "private": false,
+      "published": true,
+      "totalFileSize": 26107607,
+      "asset": {
+        "id": "5E389BB9F58B79A6",
+        "name": "WCS_SpaceCore"
+      }
+    },
+    {
+      "dependencies": [],
+      "version": "8.4.0",
+      "blocked": false,
+      "private": false,
+      "published": true,
+      "totalFileSize": 442520006,
+      "asset": {
+        "id": "629B2BA37EFFD577",
+        "name": "WCS_Armaments"
+      }
+    }
+  ],
+  "changelog": {
+    "platformCompatibilityValue": "255",
+    "id": "2279900",
+    "version": "1.0.3",
+    "processing": "SUCCESS",
+    "changelog": "Updated the gunner optic HUD.\r\nAdded tracked-vehicle movement audio.",
+    "approved": true,
+    "published": true,
+    "gameVersion": "1.8.0.13",
+    "minGameVersion": 1,
+    "platformCompatibility": 110111,
+    "totalFileSize": 281078141,
+    "totalDeduplicatedFileSize": 54159791,
+    "stolenContentPercentageEstimate": 0.000276101,
+    "scenarios": [],
+    "meta": null,
+    "milestone": false,
+    "createdAt": "2026-10-22T23:13:57.000Z",
+    "updatedAt": "2026-10-22T23:16:24.000Z",
+    "assetId": "D561AD08932E7B40",
+    "dependencyTree": {
+      "platformCompatibilityValue": 255,
+      "access": "000001",
+      "accessValue": 1,
+      "assetId": "D561AD08932E7B40",
+      "assetVersionId": 2279900,
+      "version": "1.0.3",
+      "gameVersion": "1.2.1.169",
+      "platformCompatibility": "110111",
+      "deletedAt": null,
+      "unlisted": false,
+      "private": false,
+      "blocked": false,
+      "dependencies": [
+        "5E389BB9F58B79A6",
+        "629B2BA37EFFD577"
+      ],
+      "dependenciesFull": [
+        {
+          "id": "5E389BB9F58B79A6",
+          "layer": 0,
+          "version": null
+        },
+        {
+          "id": "629B2BA37EFFD577",
+          "layer": 1,
+          "version": null
+        }
+      ]
+    }
+  },
+  "url": "https://reforger.armaplatform.com/workshop/D561AD08932E7B40-Gepard35mmSPAA",
+  "queriedAfterProcessing": true,
+  "initialCachedReadPreserved": "First read remained1.0.2; later authoritative page/changelog showed1.0.3 and SUCCESS"
+}

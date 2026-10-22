@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "name": "data.pak",
+      "size": 281024837,
+      "contentType": "application/enfusion-pak",
+      "sha256": "7e3e4e3024a4268c463039960b7d28d297613137f43ddc3ede76e86a5fa8d700"
+    },
+    {
+      "name": "Gepard.gproj",
+      "size": 680,
+      "contentType": "application/enfusion-gproj",
+      "sha256": "21a795090e6d609d995de809c8a5c3fb0ec6af22129f3421adaa2802e6f1a5bb"
+    },
+    {
+      "name": "resourceDatabase.rdb",
+      "size": 52624,
+      "contentType": "application/enfusion-rdb",
+      "sha256": "0382cb251691839704babc0a0026cb6496a9e4eb0c1ef57f5f98f0904d3e7902"
+    },
+    {
+      "name": "previewImage.png",
+      "size": 1007219,
+      "contentType": "image/png",
+      "sha256": "7aa26925e5d6b7c4b1942d0c3de1c409031661c1d3f031b9ee0a5225126e1680"
+    },
+    {
+      "name": "screenshot0.jpg",
+      "size": 4242587,
+      "contentType": "image/jpeg",
+      "sha256": "be7481a55b87b5cbd49d82d357f3865aaaa717d84773f4d61b83d90764be928b"
+    },
+    {
+      "name": "screenshot1.jpg",
+      "size": 4142140,
+      "contentType": "image/jpeg",
+      "sha256": "9954b461ce906d05db4e74c5d27ecfab578fab76806340ea66bedfee99a06d1d"
+    },
+    {
+      "name": "screenshot2.jpg",
+      "size": 4699030,
+      "contentType": "image/jpeg",
+      "sha256": "c9eaa0354e0af534d8fb8492de08b20ea9b1f42e4f72b0ccf51a27d7d42fae5b"
+    },
+    {
+      "name": "screenshot3.jpg",
+      "size": 4241800,
+      "contentType": "image/jpeg",
+      "sha256": "587ff5d78ab91de65f97648157c4c12ba57d8b456e14aa1cee741d19ffb4ab00"
+    },
+    {
+      "name": "screenshot4.jpg",
+      "size": 3992359,
+      "contentType": "image/jpeg",
+      "sha256": "d59c889615e5eed446f36ffca312c530932828b49cfcd25d2ce3fd4cf21d68ee"
+    }
+  ],
+  "asset": {
+    "id": "D561AD08932E7B40",
+    "version": "1.0.3",
+    "name": "Gepard 35 mm SPAA",
+    "bundledAt": "2026-10-22T18:13:54.884Z",
+    "type": "addon",
+    "totalFileSize": 303403276,
+    "platformCompatibility": 1,
+    "gameVersion": "1.8.0.13",
+    "minGameVersion": 1,
+    "private": false,
+    "unlisted": false,
+    "previews": [
+      "previewImage.png"
+    ],
+    "description": "Gepard 35 mm SPAA - Early WIP\nAn early playable Gepard project for Arma Reforger. Several functions are unfinished and improvements are planned.\nKnown limitations\nCrew can still be injured or killed by fragments and nearby outside explosions. Crew protection is unfinished.\nIndependent destruction of the mounted default turret hit zone is temporarily disabled while the hull is alive. Hull, crew and other component damage remain active.\nRadar deployment and sweep are cosmetic. Radar sensing, search and radar tracking are unavailable.\nBallistics, aiming correction and stabilization are unfinished. Armor and ballistic behaviour are not presented as a validated realistic simulation.\nMultiplayer, join-in-progress, dedicated-server and console behaviour are not fully qualified.\nSounds currently use stock game assets.\nFeedback and source\nBug reports and visual feedback: https://github.com/mortal414/gepard/issues/new?template=bug_report.yml\nRelease source: https://github.com/mortal414/gepard\nPlease include the game/mod version, steps to reproduce, other enabled mods and useful screenshots or logs. Remove private information before posting.\nDevelopment tools\nBuilt with heavy use of OpenAI Codex and Reforger Agent Harness. The generic tools are available separately under Apache-2.0:\nhttps://github.com/mortal414/reforger-agent-harness\nTooling feedback: https://github.com/mortal414/reforger-agent-harness/issues\nCredits\nNative game content remains under Bohemia Interactive\u2019s terms. The limited Kiichi tracked-guide MIT notice is retained in the release source and package.",
+    "summary": "Early WIP Gepard self-propelled anti-aircraft vehicle with twin 35 mm guns.",
+    "changelog": "Updated the gunner optic HUD.\r\nAdded tracked-vehicle movement audio.\r\n",
+    "license": "Arma Public License (APL)",
+    "tags": [
+      "VEHICLES"
+    ],
+    "screenshots": [
+      "screenshot0.jpg",
+      "screenshot1.jpg",
+      "screenshot2.jpg",
+      "screenshot3.jpg",
+      "screenshot4.jpg"
+    ],
+    "dependencies": [
+      {
+        "assetId": "5E389BB9F58B79A6",
+        "version": null
+      },
+      {
+        "assetId": "629B2BA37EFFD577",
+        "version": null
+      }
+    ]
+  }
+}

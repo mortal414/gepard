@@ -1,0 +1,7 @@
+GameProject {
+ ID "GEP_GMProbe102"
+ GUID "D561AD1020AA0001"
+ TITLE "Private normal GM browser validation"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" }
+ Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} }
+}
