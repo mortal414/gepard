@@ -8,7 +8,11 @@
   },
   "guide": {
     "path": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\PLAYTEST-DEMO10.md",
-    "sha256": "fcc4d6a363e7b53839b5b3f40dcdf6f1af82a16d2c1aaaad80d9c94bfccd186a"
+    "sha256": "a863b679e918b88c5e35d009e5002a451ddcce50ebf358ccd58d29ada492094f",
+    "originalSHA256": "fcc4d6a363e7b53839b5b3f40dcdf6f1af82a16d2c1aaaad80d9c94bfccd186a",
+    "operationalReference": "D:\\ArmaProjects\\Gepard-Demo10-TrackArt-20261022\\PLAYTEST-OPERATIONS-DEMO10.md",
+    "operationalReferenceSHA256": "fcc4d6a363e7b53839b5b3f40dcdf6f1af82a16d2c1aaaad80d9c94bfccd186a",
+    "revision": "User requested concise GEP-only test points after Demo10 review; original operating guide retained separately."
   },
   "branch": "sprint/demo10-track-art-20261022",
   "baseCommit": "eacbab07aa7b6bf54f1873d4b78c006a43cd10d6",
