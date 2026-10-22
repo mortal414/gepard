@@ -1,0 +1,71 @@
+{
+  "createdUtc": "2026-10-22T11:50:59.242137+00:00",
+  "status": "RECOVERABLE_QA_FAILURES_PRESERVED_SUCCESSORS_PENDING",
+  "runs": [
+    {
+      "case": "smoke-native-rearm-one",
+      "rawResult": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-04\\smoke-native-rearm-one\\result.json",
+        "sha256": "d173fcdced355e47f99eeac17db164504de7e81b1eeef657017d9d2289e3c19a"
+      },
+      "exit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-04\\smoke-native-rearm-one\\native-run\\exit.json",
+        "sha256": "e3d59f2482d5f98f3b51a2908c454fa56f5418869a7203a129548da7b3ebf4f2"
+      },
+      "reason": "AssertionError: Native fixture stopped before qualification: reason=bounded_native_walk_not_arrived; sequence=9 stage=5 worldMs=23411.771484375 programCount=1 boardRequested=True exitRequested=True downSent=False upSent=False"
+    },
+    {
+      "case": "smoke-current-v11-camo",
+      "rawResult": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-camo-01\\smoke-current-v11-camo\\result.json",
+        "sha256": "128bac653761f747acb588eaaaad8f924fdb8167174289191eaa21d84720630e"
+      },
+      "exit": {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-current-v11-camo-01\\smoke-current-v11-camo\\native-run\\exit.json",
+        "sha256": "17befddf8910c52a479e8810e19210bd8e4ed84b46ef6047cfc644bf49138d12"
+      },
+      "reason": "Missing/excessive lifecycle samples"
+    }
+  ],
+  "rearm04": {
+    "readiness": "PASS_TWO_DISTINCT_FRAMES",
+    "program": "ACTUAL_EIGHT_TO_ZERO",
+    "crew": "BOARD_AND_EXIT_OBSERVED",
+    "nativeRearm": "NOT_TESTED_NO_DOWN_OR_UP_SENT",
+    "stop": "bounded_native_walk_not_arrived",
+    "actorOrigin": [
+      601.5963134765625,
+      39.0,
+      2601.31591796875
+    ],
+    "contextOrigin": [
+      598.860595703125,
+      41.83543395996094,
+      2601.412841796875
+    ],
+    "suppliesUnchanged": 8,
+    "mainPacket": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-04\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-rearm-9.json",
+      "sha256": "7ec2aead2e9d7703e073b364b76ab2539fab062b94019757893faf0b24ef9876"
+    },
+    "readinessPacket": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-native-rearm-04\\smoke-native-rearm-one\\native-run\\profile\\profile\\GEP215-wcs-native-ready-3.json",
+      "sha256": "dffcce6f08373338a1d2103d8b9a17fee0a648edaf5a2e6db773583bf770eeea"
+    }
+  },
+  "currentV11Camo01": {
+    "wrapperAndCrew": "EXACT_CURRENT_V11_RESOURCE_AND_SETTLED_GUNNER_OBSERVED",
+    "program": "NOT_ATTEMPTED",
+    "defect": "QA expected globally unique0..7 IDs; native uses bank-local0..3, two distinct owners. Composite ownerID/localTubeID successor required.",
+    "charcoal": "NOT_LAUNCHED_SAME_KNOWN_FIXTURE_DEFECT"
+  },
+  "next": [
+    "Read-only diagnosis of rearm physical context/ground reach; keep finite transfer gates unchanged",
+    "Fresh QA-only composite tube-identity successor compile and both skin runtime tests"
+  ],
+  "mainPackage08": "UNCHANGED_SINGLE_RUNNABLE_ROLLBACK",
+  "audioAuthoring": "PENDING_SEPARATE_USER_APPROVAL_NO_RETRY",
+  "newAcceptedGepCheckboxes": 0,
+  "publication": false,
+  "rawEvidenceRewritten": false
+}
