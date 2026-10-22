@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "status": "INSTALLED_SOURCE_SERIALIZATION_CONTRACT_NATIVE_READBACK_PENDING",
+  "checkedUTC": "2026-10-22T01:00:56.156Z",
+  "rootClass": "SCR_BaseGameMode",
+  "serializedField": "m_aDisabledResourceTypes",
+  "type": "array<EResourceType>",
+  "declaration": "protected ref array<EResourceType> m_aDisabledResourceTypes;",
+  "editor": "Attribute SearchComboBox from EResourceType;RplProp OnResourceTypeEnabledChanged",
+  "meaning": "Entries are disabled resource types;SUPPLIES must be absent to enable supplies. There is no separate enableSupplies boolean.",
+  "enum": {
+    "INVALID": -1,
+    "SUPPLIES": 0,
+    "ELECTRICITY": 1
+  },
+  "stockEnabledSourceReference": {
+    "guid": "B00D51315A1C7150",
+    "path": "Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Automatic.et",
+    "chain": [
+      {
+        "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+        "packBytes": 1994525893,
+        "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+        "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+        "indexBytes": 1931975,
+        "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+        "resource": "Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Automatic.et",
+        "offset": 1457881353,
+        "storedBytes": 143,
+        "rawBytes": 143,
+        "method": "00000000",
+        "sourceSha256": "4f5f5ef1500754dc155d037761a96d105fe350f26875c16e2486331a12319ac2",
+        "firstLine": "SCR_BaseGameMode : \"{888DF221E7026820}Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Base.et\" {",
+        "authoredDisabledResourceList": null
+      },
+      {
+        "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+        "packBytes": 1994525893,
+        "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+        "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+        "indexBytes": 1931975,
+        "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+        "resource": "Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Base.et",
+        "offset": 1457881496,
+        "storedBytes": 436,
+        "rawBytes": 436,
+        "method": "00000000",
+        "sourceSha256": "e00a58ed7f8d8551382ee784d267d16ae2bcb882a7eb9bff721d09291db27819",
+        "firstLine": "SCR_BaseGameMode : \"{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et\" {",
+        "authoredDisabledResourceList": null
+      },
+      {
+        "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+        "packBytes": 1994525893,
+        "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+        "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+        "indexBytes": 1931975,
+        "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+        "resource": "Prefabs/MP/Modes/GameMode_Base.et",
+        "offset": 1457889413,
+        "storedBytes": 16491,
+        "rawBytes": 16491,
+        "method": "00000000",
+        "sourceSha256": "ae2e166f704ef86e7c466b0b35bc5efa220683a689cb39a70f311f53040a03e9",
+        "firstLine": "SCR_BaseGameMode {",
+        "authoredDisabledResourceList": null
+      }
+    ],
+    "sourceConclusion": "Automatic -> Deathmatch_Base -> GameMode_Base contains no authored disabled-resource list. Expected source default is supplies enabled;mission/header/native state still requires actual IsResourceTypeEnabled(SUPPLIES) readback."
+  },
+  "explicitDisabledCounterexample": {
+    "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+    "packBytes": 1994525893,
+    "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+    "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+    "indexBytes": 1931975,
+    "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+    "resource": "Prefabs/MP/Modes/Editor/GameMode_Editor.et",
+    "offset": 1457882189,
+    "storedBytes": 5848,
+    "rawBytes": 5848,
+    "method": "00000000",
+    "sourceSha256": "8bf60a487d741541e357656032014c9df7e0b356b2af8108cc3b1ea8ebf4414d",
+    "rootClass": "SCR_GameModeEditor",
+    "authoredField": "m_aDisabledResourceTypes { 0 }",
+    "meaning": "Explicitly disables SUPPLIES because installed enum SUPPLIES=0."
+  },
+  "originalWorldAuthoring": "Use the existing stock Automatic Deathmatch parent chain with SUPPLIES absent from the owning game-mode disabled list. If a private child world authors its own list,an empty m_aDisabledResourceTypes {} expresses no disabled types;do not claim inherited-list replacement until serialized native load/readback verifies it.",
+  "startupRequiredAssertions": [
+    "gameMode.IsResourceTypeEnabled(EResourceType.SUPPLIES)==true",
+    "station.AreSuppliesEnabled()==true",
+    "station.GetResourceConsumer()!=null",
+    "finite station.GetMaxAvailableSupplies()>0",
+    "actual native resource container value decreases with each accepted rearm iteration"
+  ],
+  "sourceProvenance": {
+    "baseGameMode": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/GameMode/SCR_BaseGameMode.c",
+      "offset": 1489150107,
+      "storedBytes": 18174,
+      "rawBytes": 86089,
+      "method": "00000106",
+      "sourceSha256": "fff38d126c333b55d5c26427a3b61ec60d13fc0b016d8ba38d4d5fc19117b4df"
+    },
+    "resourceEnum": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/Sandbox/Resources/Container/SCR_ResourceContainer.c",
+      "offset": 1490633038,
+      "storedBytes": 4897,
+      "rawBytes": 33583,
+      "method": "00000106",
+      "sourceSha256": "93aef83faf2ec6f9dc03604f69b23d50178d29f4be861c30ac6c2d73459cd6a3"
+    }
+  },
+  "addonBoundary": "Core proving-ground world and supplies enablement use base Reforger+Gepard only. WCS-specific class references/checks belong in optional WCS QA addon or guarded source;stock maintenance GUID gains WCS override only when WCS selected.",
+  "nativeCompile": "NOT_TESTED",
+  "nativeSerializedListOverride": "NOT_TESTED",
+  "nativeSupplyReadback": "NOT_TESTED",
+  "runtimeHold": "User00:47,no native/session/UI/lease action",
+  "setterInvoked": false,
+  "readerRecovery": "A one-off source read had a JavaScript brace syntax error before execution;corrected bounded read succeeded;no native action was attempted."
+}
