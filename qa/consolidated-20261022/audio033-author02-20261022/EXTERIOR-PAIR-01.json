@@ -1,0 +1,2344 @@
+{
+  "status": "PAIRED_MOTION_REVIEW_AUDIO_ACCEPTANCE_PENDING",
+  "stock": {
+    "status": "MOTION_QUALIFIED_AUDIO_JUDGMENT_PENDING",
+    "job": {
+      "schema": 1,
+      "stimulus": "none",
+      "resource": "",
+      "position": "600 0.7 2600",
+      "targetLocal": "1.050971 2.3 -0.14",
+      "incoming": "1 0 0",
+      "range": 25,
+      "standoff": 2,
+      "settleSeconds": 10,
+      "sampleSeconds": 3,
+      "maxGameSeconds": 110,
+      "shotCount": 1,
+      "shotInterval": 0.3,
+      "requestScriptedEgress": false,
+      "crewRole": "driver",
+      "seedRequest": -1,
+      "capture": true,
+      "caseId": "v11-wheeled-course",
+      "vehicleId": "audio-stock",
+      "prefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "runId": "e1124510-209f-4995-bb52-6b4d95b9a963",
+      "nonce": "70c4427f2dcbafa5f5a3b25d228370561eaa33892bfba1bb7e288b4c179e3409",
+      "audioView": "exterior",
+      "audioDistanceMeters": 0
+    },
+    "sourceClosures": [
+      {
+        "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition-stage\\gepard",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition\\COMMON-MANIFEST.json",
+        "sha256": "38c90ee069d5b3898c81813bb093806b59aa101f2676b9bb79f6cc201fdac726",
+        "files": 1158
+      },
+      {
+        "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition-stage\\audioQA",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition\\QA-MANIFEST.json",
+        "sha256": "14f2f93a18c3e70502bea0ce39ec3a267e599eca23701a6974ae749577941a8b",
+        "files": 17
+      }
+    ],
+    "nativeCaseStatus": "NOT_TESTED",
+    "nativeExit": {
+      "utc": "2026-10-22T13:55:38.2165910Z",
+      "exitCode": 0,
+      "cancelRequested": false,
+      "closeMethod": "owned-normal-window-close",
+      "leaseReleased": true,
+      "verifiedExited": true,
+      "nativeTerminalSeen": true
+    },
+    "protocol": {
+      "readyCount": 1,
+      "doneCount": 1,
+      "rowsAfterFirstDone": 0,
+      "firstDone": {
+        "case": "v11-wheeled-course",
+        "nonce": "70c4427f2dcbafa5f5a3b25d228370561eaa33892bfba1bb7e288b4c179e3409",
+        "samples": "256",
+        "completed": "1",
+        "reason": "wheeled_course_samples_collected_review_required",
+        "physical": "0",
+        "thresholdAcceptance": "NOT_TESTED"
+      },
+      "sampleCountBeforeDone": 256
+    },
+    "motionChecks": [
+      {
+        "name": "timeScale.control.assistance",
+        "status": "PASS",
+        "actual": {
+          "timeScales": [
+            1.0
+          ],
+          "assistance": [
+            "2"
+          ]
+        },
+        "contract": "timeScale exactly1, controlled seated alive, unchanged assistance"
+      },
+      {
+        "name": "sample.cadence",
+        "status": "PASS",
+        "actual": {
+          "maximumGapSeconds": 0.26810000000000583
+        },
+        "contract": "monotonic world time, gaps at most1s"
+      },
+      {
+        "name": "forward_default.coverage",
+        "status": "PASS",
+        "actual": 45,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "service_brake.coverage",
+        "status": "PASS",
+        "actual": 15,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "reverse.coverage",
+        "status": "PASS",
+        "actual": 30,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "left.coverage",
+        "status": "PASS",
+        "actual": 19,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "right.coverage",
+        "status": "PASS",
+        "actual": 19,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "final_service_brake.coverage",
+        "status": "PASS",
+        "actual": 15,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "public_stop_observe.coverage",
+        "status": "PASS",
+        "actual": 11,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "forward_default.powered-contact",
+        "status": "PASS",
+        "actual": {
+          "eligible": 44,
+          "samples": 45,
+          "maxContinuousSeconds": 5.8665
+        },
+        "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+      },
+      {
+        "name": "forward_default.signed-motion",
+        "status": "PASS",
+        "actual": {
+          "samples": 45,
+          "seconds": 11.733699999999997,
+          "signedDisplacementMeters": 76.78000031112227,
+          "pathMeters": 76.79121276994033,
+          "maxSpeedMetersPerSecond": 11.13522078023714,
+          "minContacts": 8,
+          "yawRadians": 0.03827082914686369,
+          "terminalSpeedMetersPerSecond": 11.13522078023714
+        },
+        "contract": "signed displacement at least1m along frozen phase-start facing, heading change<=15degrees"
+      },
+      {
+        "name": "forward_default.powered-motion-interval",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 2
+        },
+        "contract": "continuous actual powered contact interval>=.5s with signed motion>=1m within that same interval"
+      },
+      {
+        "name": "reverse.powered-contact",
+        "status": "PASS",
+        "actual": {
+          "eligible": 25,
+          "samples": 30,
+          "maxContinuousSeconds": 6.400599999999999
+        },
+        "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+      },
+      {
+        "name": "reverse.signed-motion",
+        "status": "PASS",
+        "actual": {
+          "samples": 30,
+          "seconds": 7.7335,
+          "signedDisplacementMeters": -18.719634303960035,
+          "pathMeters": 18.736008852452795,
+          "maxSpeedMetersPerSecond": 2.8195933622129172,
+          "minContacts": 8,
+          "yawRadians": -0.002591488246678247,
+          "terminalSpeedMetersPerSecond": 2.819342677314848
+        },
+        "contract": "signed displacement at least1m along frozen phase-start facing, heading change<=15degrees"
+      },
+      {
+        "name": "reverse.powered-motion-interval",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 1
+        },
+        "contract": "continuous actual powered contact interval>=.5s with signed motion>=1m within that same interval"
+      },
+      {
+        "name": "left.powered-contact",
+        "status": "PASS",
+        "actual": {
+          "eligible": 17,
+          "samples": 19,
+          "maxContinuousSeconds": 2.4001999999999972
+        },
+        "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+      },
+      {
+        "name": "left.powered-turn",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 2,
+          "yawRadians": 1.0041028578744025
+        },
+        "contract": "powered contact interval>=.5s, path>=.5m, absolute yaw>=.1rad; opposed measured signs checked separately, physical left/right convention unqualified"
+      },
+      {
+        "name": "left.moving-radius",
+        "status": "PASS",
+        "actual": {
+          "qualifiedSamples": 16
+        },
+        "contract": "horizontal speed>=.25m/s and |native yawRate|>=.01rad/s; radius is observed speed/|yawRate|, not tuning acceptance"
+      },
+      {
+        "name": "right.powered-contact",
+        "status": "PASS",
+        "actual": {
+          "eligible": 19,
+          "samples": 19,
+          "maxContinuousSeconds": 4.799699999999997
+        },
+        "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+      },
+      {
+        "name": "right.powered-turn",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 1,
+          "yawRadians": -2.0456679876915658
+        },
+        "contract": "powered contact interval>=.5s, path>=.5m, absolute yaw>=.1rad; opposed measured signs checked separately, physical left/right convention unqualified"
+      },
+      {
+        "name": "right.moving-radius",
+        "status": "PASS",
+        "actual": {
+          "qualifiedSamples": 19
+        },
+        "contract": "horizontal speed>=.25m/s and |native yawRate|>=.01rad/s; radius is observed speed/|yawRate|, not tuning acceptance"
+      },
+      {
+        "name": "opposed-measured-turn-yaw",
+        "status": "PASS",
+        "actual": [
+          1.0041028578744025,
+          -2.0456679876915658
+        ],
+        "contract": "two commanded turn phases produce opposite measured yaw signs, each>=.1rad; no assumed native steering-axis sign"
+      },
+      {
+        "name": "service_brake.action-to-stop",
+        "status": "PASS",
+        "actual": {
+          "movingNativeBrakeActionObserved": true,
+          "terminalSpeed": 0.0
+        },
+        "contract": "actual native brake action overlaps motion/contact and ends speed<=.25m/s; getter units/tuning not inferred"
+      },
+      {
+        "name": "final_service_brake.action-to-stop",
+        "status": "PASS",
+        "actual": {
+          "movingNativeBrakeActionObserved": true,
+          "terminalSpeed": 0.0
+        },
+        "contract": "actual native brake action overlaps motion/contact and ends speed<=.25m/s; getter units/tuning not inferred"
+      },
+      {
+        "name": "grounded-terminal-stop-dwell",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 1,
+          "maximumDwellSeconds": 2.6662000000000114
+        },
+        "contract": "terminal phase real contacts,3Dspeed<=.25m/s,drift<=.1m for>=1.5worldseconds"
+      }
+    ],
+    "phaseSummaries": {
+      "forward_default": {
+        "samples": 45,
+        "seconds": 11.733699999999997,
+        "signedDisplacementMeters": 76.78000031112227,
+        "pathMeters": 76.79121276994033,
+        "maxSpeedMetersPerSecond": 11.13522078023714,
+        "minContacts": 8,
+        "yawRadians": 0.03827082914686369,
+        "terminalSpeedMetersPerSecond": 11.13522078023714
+      },
+      "reverse": {
+        "samples": 30,
+        "seconds": 7.7335,
+        "signedDisplacementMeters": -18.719634303960035,
+        "pathMeters": 18.736008852452795,
+        "maxSpeedMetersPerSecond": 2.8195933622129172,
+        "minContacts": 8,
+        "yawRadians": -0.002591488246678247,
+        "terminalSpeedMetersPerSecond": 2.819342677314848
+      },
+      "left": {
+        "samples": 19,
+        "seconds": 4.800299999999996,
+        "signedDisplacementMeters": 7.883057706586982,
+        "pathMeters": 9.621574345397395,
+        "maxSpeedMetersPerSecond": 3.3260693589968,
+        "minContacts": 8,
+        "yawRadians": 1.0041028578744025,
+        "terminalSpeedMetersPerSecond": 3.3260693589968,
+        "radiusEstimatesMeters": [
+          9.06258195664498,
+          9.537963528359244,
+          9.345883191297473,
+          9.669312221652866,
+          9.583332918104817,
+          9.499499469128006,
+          9.37178793938335,
+          9.05374421992418,
+          9.101651511766965,
+          9.11507759563836,
+          9.250464631769606,
+          9.226627503368917,
+          9.430824661030835,
+          9.188098537347413,
+          9.072674712359047,
+          9.051366040372827
+        ]
+      },
+      "right": {
+        "samples": 19,
+        "seconds": 4.799699999999997,
+        "signedDisplacementMeters": 8.224835074394665,
+        "pathMeters": 18.75208554469527,
+        "maxSpeedMetersPerSecond": 5.0491989384194405,
+        "minContacts": 8,
+        "yawRadians": -2.0456679876915658,
+        "terminalSpeedMetersPerSecond": 5.0491989384194405,
+        "radiusEstimatesMeters": [
+          10.41237262626807,
+          8.915662103561203,
+          9.156408368620461,
+          9.143732928070355,
+          9.08222895275718,
+          9.111403598348515,
+          8.936924312847577,
+          9.198795878189545,
+          9.144914141680445,
+          9.157794152844346,
+          9.405395607631842,
+          9.616131023769267,
+          8.7556607728523,
+          9.029376677833707,
+          9.776719893995063,
+          9.583488824382803,
+          9.338769151776278,
+          9.410104712519514,
+          9.045132168627669
+        ]
+      },
+      "service_brake": {
+        "samples": 15,
+        "seconds": 3.732199999999997,
+        "signedDisplacementMeters": 3.5373944605997467,
+        "pathMeters": 3.539776481089456,
+        "maxSpeedMetersPerSecond": 9.401032518188043,
+        "minContacts": 8,
+        "yawRadians": -0.05935979805570165,
+        "terminalSpeedMetersPerSecond": 0.0
+      },
+      "final_service_brake": {
+        "samples": 15,
+        "seconds": 3.732800000000003,
+        "signedDisplacementMeters": 0.10040407800001397,
+        "pathMeters": 0.11857641454991949,
+        "maxSpeedMetersPerSecond": 0.7957542615273953,
+        "minContacts": 7,
+        "yawRadians": -0.033145845073575354,
+        "terminalSpeedMetersPerSecond": 0.0
+      },
+      "public_stop_observe": {
+        "samples": 11,
+        "seconds": 2.6662000000000114,
+        "signedDisplacementMeters": 0.0,
+        "pathMeters": 0.0,
+        "maxSpeedMetersPerSecond": 0.0,
+        "minContacts": 8,
+        "yawRadians": 0.0,
+        "terminalSpeedMetersPerSecond": 0.0
+      }
+    },
+    "movingListener": {
+      "samples": 114,
+      "selectedAll": true,
+      "carContextAll": true,
+      "actualSubjectOriginDistanceMeters": {
+        "count": 114,
+        "min": 5.30296,
+        "median": 5.425115,
+        "max": 5.67757
+      },
+      "thirdPerson": [
+        true
+      ]
+    },
+    "strictRawErrors": {
+      "status": "FAIL",
+      "count": 57,
+      "rows": [
+        {
+          "line": 109,
+          "text": "08:54:10.005   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 163,
+          "text": "08:54:12.038           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+        },
+        {
+          "line": 170,
+          "text": "08:54:12.137           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+        },
+        {
+          "line": 171,
+          "text": "08:54:12.137           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+        },
+        {
+          "line": 178,
+          "text": "08:54:12.138           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+        },
+        {
+          "line": 179,
+          "text": "08:54:12.138           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+        },
+        {
+          "line": 180,
+          "text": "08:54:12.138           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+        },
+        {
+          "line": 181,
+          "text": "08:54:12.138           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+        },
+        {
+          "line": 5295,
+          "text": "08:55:37.917 RESOURCES (E): ==== Resource leaks ===="
+        },
+        {
+          "line": 5296,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+        },
+        {
+          "line": 5297,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+        },
+        {
+          "line": 5298,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+        },
+        {
+          "line": 5299,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+        },
+        {
+          "line": 5300,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+        },
+        {
+          "line": 5301,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+        },
+        {
+          "line": 5302,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+        },
+        {
+          "line": 5303,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+        },
+        {
+          "line": 5304,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+        },
+        {
+          "line": 5305,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+        },
+        {
+          "line": 5306,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+        },
+        {
+          "line": 5307,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+        },
+        {
+          "line": 5308,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+        },
+        {
+          "line": 5309,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+        },
+        {
+          "line": 5310,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+        },
+        {
+          "line": 5311,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+        },
+        {
+          "line": 5312,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+        },
+        {
+          "line": 5313,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+        },
+        {
+          "line": 5314,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+        },
+        {
+          "line": 5315,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+        },
+        {
+          "line": 5316,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+        },
+        {
+          "line": 5317,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+        },
+        {
+          "line": 5318,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+        },
+        {
+          "line": 5319,
+          "text": "08:55:37.917 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+        },
+        {
+          "line": 5320,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+        },
+        {
+          "line": 5321,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+        },
+        {
+          "line": 5322,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+        },
+        {
+          "line": 5323,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+        },
+        {
+          "line": 5324,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+        },
+        {
+          "line": 5325,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+        },
+        {
+          "line": 5326,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+        },
+        {
+          "line": 5327,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+        },
+        {
+          "line": 5328,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+        },
+        {
+          "line": 5329,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+        },
+        {
+          "line": 5330,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+        },
+        {
+          "line": 5331,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+        },
+        {
+          "line": 5332,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+        },
+        {
+          "line": 5333,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+        },
+        {
+          "line": 5334,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+        },
+        {
+          "line": 5335,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+        },
+        {
+          "line": 5336,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+        },
+        {
+          "line": 5337,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+        },
+        {
+          "line": 5338,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+        },
+        {
+          "line": 5339,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+        },
+        {
+          "line": 5340,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+        },
+        {
+          "line": 5341,
+          "text": "08:55:37.917 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+        },
+        {
+          "line": 5342,
+          "text": "08:55:37.917 RESOURCES (E): UI/Imagesets/default.edds   1"
+        },
+        {
+          "line": 5343,
+          "text": "08:55:37.917 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+        }
+      ]
+    },
+    "graphLoadEvidence": {
+      "candidateSubjectSpawnObserved": false,
+      "explicitGraphPathOrGuidObserved": false,
+      "audioRelatedRawErrors": [],
+      "limit": "Spawn/source binding and absence of logged graph errors do not establish graph playback"
+    },
+    "audio": {
+      "durationSeconds": 92.1,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "finalized": true,
+      "gain": "No OS/game/playback gain or normalization changes; fresh ordinary profile",
+      "subjectiveAudition": "NOT_TESTED",
+      "timelineAlignment": "No recorder/world timestamp mapping inferred by this analyzer"
+    },
+    "evidence": [
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-exterior-native-camera-01\\profile\\profile\\DamageHarness-job683.json",
+        "sha256": "ad584a6f430e018c56778e7239c9aa3cfee35e884f518a9394ffd8da8fcb3f7c"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-exterior-native-camera-01\\profile\\profile\\DamageHarness-result683.json",
+        "sha256": "dd31fd414470641d4a82255c3493929eed02d74bac68dd2f3b161f82b6464965"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-exterior-native-camera-01\\logs\\console.log",
+        "sha256": "adaa7d1972ad8063b312dea9ac712f07dcdff0ad1deb4b899de67ab784f92e70"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-exterior-native-camera-01\\exit.json",
+        "sha256": "2c2f092a182030baa5c5240b438e350d86c8eece690c8c62a09e0155ddc70c78"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-exterior-native-camera-01\\plan.json",
+        "sha256": "d7013934270c3d3fb15f6f17a3e04215abcda6f465808a5853666f71f434e6d3"
+      },
+      {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition\\QA-MANIFEST.json",
+        "sha256": "14f2f93a18c3e70502bea0ce39ec3a267e599eca23701a6974ae749577941a8b"
+      },
+      {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\LEDGER.json",
+        "sha256": "d457a519515b75b2f2d655c75cae4ada84e3bbba544f812d078bb557b54aef61"
+      },
+      {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\system-output.wav",
+        "sha256": "a305c2b7de724a6834f935dc7f6e308cf7ad2dec6dbb138d576e0060c9aafd42"
+      }
+    ],
+    "originalResultsOverwritten": false,
+    "nativeStarted": false
+  },
+  "candidate": {
+    "status": "MOTION_QUALIFIED_AUDIO_JUDGMENT_PENDING",
+    "job": {
+      "schema": 1,
+      "stimulus": "none",
+      "resource": "",
+      "position": "600 0.7 2600",
+      "targetLocal": "1.050971 2.3 -0.14",
+      "incoming": "1 0 0",
+      "range": 25,
+      "standoff": 2,
+      "settleSeconds": 10,
+      "sampleSeconds": 3,
+      "maxGameSeconds": 110,
+      "shotCount": 1,
+      "shotInterval": 0.3,
+      "requestScriptedEgress": false,
+      "crewRole": "driver",
+      "seedRequest": -1,
+      "capture": true,
+      "caseId": "v11-wheeled-course",
+      "vehicleId": "audio-candidate",
+      "prefab": "{BC01AF3E731DAA3B}Prefabs/Vehicles/GEP_MobileCarrier_TrackRolling033.et",
+      "runId": "e3a624ee-62a9-4c68-a324-42a873650880",
+      "nonce": "f7a78785164b1129053d5ac677aa7e3738ff227a12ab0e3d80e0f3a621a8b993",
+      "audioView": "exterior",
+      "audioDistanceMeters": 0
+    },
+    "sourceClosures": [
+      {
+        "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition-stage\\gepard",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition\\COMMON-MANIFEST.json",
+        "sha256": "38c90ee069d5b3898c81813bb093806b59aa101f2676b9bb79f6cc201fdac726",
+        "files": 1158
+      },
+      {
+        "root": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition-stage\\audioQA",
+        "manifest": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition\\QA-MANIFEST.json",
+        "sha256": "14f2f93a18c3e70502bea0ce39ec3a267e599eca23701a6974ae749577941a8b",
+        "files": 17
+      }
+    ],
+    "nativeCaseStatus": "NOT_TESTED",
+    "nativeExit": {
+      "verifiedExited": true,
+      "cancelRequested": false,
+      "closeMethod": "owned-normal-window-close",
+      "leaseReleased": true,
+      "nativeTerminalSeen": true,
+      "exitCode": 0,
+      "utc": "2026-10-22T13:58:00.3034963Z"
+    },
+    "protocol": {
+      "readyCount": 1,
+      "doneCount": 1,
+      "rowsAfterFirstDone": 0,
+      "firstDone": {
+        "case": "v11-wheeled-course",
+        "nonce": "f7a78785164b1129053d5ac677aa7e3738ff227a12ab0e3d80e0f3a621a8b993",
+        "samples": "256",
+        "completed": "1",
+        "reason": "wheeled_course_samples_collected_review_required",
+        "physical": "0",
+        "thresholdAcceptance": "NOT_TESTED"
+      },
+      "sampleCountBeforeDone": 256
+    },
+    "motionChecks": [
+      {
+        "name": "timeScale.control.assistance",
+        "status": "PASS",
+        "actual": {
+          "timeScales": [
+            1.0
+          ],
+          "assistance": [
+            "2"
+          ]
+        },
+        "contract": "timeScale exactly1, controlled seated alive, unchanged assistance"
+      },
+      {
+        "name": "sample.cadence",
+        "status": "PASS",
+        "actual": {
+          "maximumGapSeconds": 0.271
+        },
+        "contract": "monotonic world time, gaps at most1s"
+      },
+      {
+        "name": "forward_default.coverage",
+        "status": "PASS",
+        "actual": 45,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "service_brake.coverage",
+        "status": "PASS",
+        "actual": 15,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "reverse.coverage",
+        "status": "PASS",
+        "actual": 30,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "left.coverage",
+        "status": "PASS",
+        "actual": 19,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "right.coverage",
+        "status": "PASS",
+        "actual": 19,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "final_service_brake.coverage",
+        "status": "PASS",
+        "actual": 15,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "public_stop_observe.coverage",
+        "status": "PASS",
+        "actual": 11,
+        "contract": "at least6 complete samples per measured phase"
+      },
+      {
+        "name": "forward_default.powered-contact",
+        "status": "PASS",
+        "actual": {
+          "eligible": 44,
+          "samples": 45,
+          "maxContinuousSeconds": 5.867299999999999
+        },
+        "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+      },
+      {
+        "name": "forward_default.signed-motion",
+        "status": "PASS",
+        "actual": {
+          "samples": 45,
+          "seconds": 11.733699999999997,
+          "signedDisplacementMeters": 76.77000033586562,
+          "pathMeters": 76.78127245104302,
+          "maxSpeedMetersPerSecond": 11.1300719944145,
+          "minContacts": 8,
+          "yawRadians": 0.03811496470791412,
+          "terminalSpeedMetersPerSecond": 11.1300719944145
+        },
+        "contract": "signed displacement at least1m along frozen phase-start facing, heading change<=15degrees"
+      },
+      {
+        "name": "forward_default.powered-motion-interval",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 2
+        },
+        "contract": "continuous actual powered contact interval>=.5s with signed motion>=1m within that same interval"
+      },
+      {
+        "name": "reverse.powered-contact",
+        "status": "PASS",
+        "actual": {
+          "eligible": 25,
+          "samples": 30,
+          "maxContinuousSeconds": 6.401099999999999
+        },
+        "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+      },
+      {
+        "name": "reverse.signed-motion",
+        "status": "PASS",
+        "actual": {
+          "samples": 30,
+          "seconds": 7.7333000000000025,
+          "signedDisplacementMeters": -18.791530966439748,
+          "pathMeters": 18.80853044781558,
+          "maxSpeedMetersPerSecond": 2.824278621842443,
+          "minContacts": 8,
+          "yawRadians": -0.0015598808064805688,
+          "terminalSpeedMetersPerSecond": 2.8196493106077627
+        },
+        "contract": "signed displacement at least1m along frozen phase-start facing, heading change<=15degrees"
+      },
+      {
+        "name": "reverse.powered-motion-interval",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 1
+        },
+        "contract": "continuous actual powered contact interval>=.5s with signed motion>=1m within that same interval"
+      },
+      {
+        "name": "left.powered-contact",
+        "status": "PASS",
+        "actual": {
+          "eligible": 19,
+          "samples": 19,
+          "maxContinuousSeconds": 4.8
+        },
+        "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+      },
+      {
+        "name": "left.powered-turn",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 1,
+          "yawRadians": 1.0160972039729235
+        },
+        "contract": "powered contact interval>=.5s, path>=.5m, absolute yaw>=.1rad; opposed measured signs checked separately, physical left/right convention unqualified"
+      },
+      {
+        "name": "left.moving-radius",
+        "status": "PASS",
+        "actual": {
+          "qualifiedSamples": 16
+        },
+        "contract": "horizontal speed>=.25m/s and |native yawRate|>=.01rad/s; radius is observed speed/|yawRate|, not tuning acceptance"
+      },
+      {
+        "name": "right.powered-contact",
+        "status": "PASS",
+        "actual": {
+          "eligible": 19,
+          "samples": 19,
+          "maxContinuousSeconds": 4.8
+        },
+        "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+      },
+      {
+        "name": "right.powered-turn",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 1,
+          "yawRadians": -2.0438597947175334
+        },
+        "contract": "powered contact interval>=.5s, path>=.5m, absolute yaw>=.1rad; opposed measured signs checked separately, physical left/right convention unqualified"
+      },
+      {
+        "name": "right.moving-radius",
+        "status": "PASS",
+        "actual": {
+          "qualifiedSamples": 19
+        },
+        "contract": "horizontal speed>=.25m/s and |native yawRate|>=.01rad/s; radius is observed speed/|yawRate|, not tuning acceptance"
+      },
+      {
+        "name": "opposed-measured-turn-yaw",
+        "status": "PASS",
+        "actual": [
+          1.0160972039729235,
+          -2.0438597947175334
+        ],
+        "contract": "two commanded turn phases produce opposite measured yaw signs, each>=.1rad; no assumed native steering-axis sign"
+      },
+      {
+        "name": "service_brake.action-to-stop",
+        "status": "PASS",
+        "actual": {
+          "movingNativeBrakeActionObserved": true,
+          "terminalSpeed": 0.0
+        },
+        "contract": "actual native brake action overlaps motion/contact and ends speed<=.25m/s; getter units/tuning not inferred"
+      },
+      {
+        "name": "final_service_brake.action-to-stop",
+        "status": "PASS",
+        "actual": {
+          "movingNativeBrakeActionObserved": true,
+          "terminalSpeed": 0.0
+        },
+        "contract": "actual native brake action overlaps motion/contact and ends speed<=.25m/s; getter units/tuning not inferred"
+      },
+      {
+        "name": "grounded-terminal-stop-dwell",
+        "status": "PASS",
+        "actual": {
+          "qualifyingIntervals": 1,
+          "maximumDwellSeconds": 2.6642999999999883
+        },
+        "contract": "terminal phase real contacts,3Dspeed<=.25m/s,drift<=.1m for>=1.5worldseconds"
+      }
+    ],
+    "phaseSummaries": {
+      "forward_default": {
+        "samples": 45,
+        "seconds": 11.733699999999997,
+        "signedDisplacementMeters": 76.77000033586562,
+        "pathMeters": 76.78127245104302,
+        "maxSpeedMetersPerSecond": 11.1300719944145,
+        "minContacts": 8,
+        "yawRadians": 0.03811496470791412,
+        "terminalSpeedMetersPerSecond": 11.1300719944145
+      },
+      "reverse": {
+        "samples": 30,
+        "seconds": 7.7333000000000025,
+        "signedDisplacementMeters": -18.791530966439748,
+        "pathMeters": 18.80853044781558,
+        "maxSpeedMetersPerSecond": 2.824278621842443,
+        "minContacts": 8,
+        "yawRadians": -0.0015598808064805688,
+        "terminalSpeedMetersPerSecond": 2.8196493106077627
+      },
+      "left": {
+        "samples": 19,
+        "seconds": 4.8,
+        "signedDisplacementMeters": 7.938383651950124,
+        "pathMeters": 9.685722312501092,
+        "maxSpeedMetersPerSecond": 3.3414984704615294,
+        "minContacts": 8,
+        "yawRadians": 1.0160972039729235,
+        "terminalSpeedMetersPerSecond": 3.3414984704615294,
+        "radiusEstimatesMeters": [
+          8.6236122297696,
+          9.503894086183431,
+          9.32552380056669,
+          9.665992739815207,
+          9.574527094084308,
+          9.487644153377873,
+          9.32560082164691,
+          9.055279449360098,
+          9.10470213439207,
+          9.160481351660366,
+          9.24436527136611,
+          9.225241089608039,
+          9.448463414680415,
+          9.164014838327011,
+          9.03402709558687,
+          9.052901707381814
+        ]
+      },
+      "right": {
+        "samples": 19,
+        "seconds": 4.8,
+        "signedDisplacementMeters": 8.241711938220448,
+        "pathMeters": 18.749619152104234,
+        "maxSpeedMetersPerSecond": 5.0456929100995636,
+        "minContacts": 8,
+        "yawRadians": -2.0438597947175334,
+        "terminalSpeedMetersPerSecond": 5.0456929100995636,
+        "radiusEstimatesMeters": [
+          10.536713632192296,
+          9.01381420094976,
+          9.147560188789248,
+          9.133422234973946,
+          9.080288786592051,
+          9.124544389821782,
+          8.976849917261426,
+          9.199959053030863,
+          9.272439821607739,
+          9.14524806897647,
+          9.368629904313671,
+          9.58260046507494,
+          8.804376501863148,
+          8.967526145733215,
+          9.681668718849203,
+          9.52645883658107,
+          9.326299067155842,
+          9.455004873767802,
+          9.095154545902096
+        ]
+      },
+      "service_brake": {
+        "samples": 15,
+        "seconds": 3.7325,
+        "signedDisplacementMeters": 3.577555223479707,
+        "pathMeters": 3.5802486865573493,
+        "maxSpeedMetersPerSecond": 9.390433547122145,
+        "minContacts": 8,
+        "yawRadians": -0.06617414180390384,
+        "terminalSpeedMetersPerSecond": 0.0
+      },
+      "final_service_brake": {
+        "samples": 15,
+        "seconds": 3.7342000000000044,
+        "signedDisplacementMeters": 0.11111979559997612,
+        "pathMeters": 0.13081934658637923,
+        "maxSpeedMetersPerSecond": 0.9115677236416447,
+        "minContacts": 7,
+        "yawRadians": -0.03532484224745318,
+        "terminalSpeedMetersPerSecond": 0.0
+      },
+      "public_stop_observe": {
+        "samples": 11,
+        "seconds": 2.6642999999999883,
+        "signedDisplacementMeters": 0.0,
+        "pathMeters": 0.0,
+        "maxSpeedMetersPerSecond": 0.0,
+        "minContacts": 8,
+        "yawRadians": 0.0,
+        "terminalSpeedMetersPerSecond": 0.0
+      }
+    },
+    "movingListener": {
+      "samples": 115,
+      "selectedAll": true,
+      "carContextAll": true,
+      "actualSubjectOriginDistanceMeters": {
+        "count": 115,
+        "min": 5.30739,
+        "median": 5.42502,
+        "max": 5.67739
+      },
+      "thirdPerson": [
+        true
+      ]
+    },
+    "strictRawErrors": {
+      "status": "FAIL",
+      "count": 57,
+      "rows": [
+        {
+          "line": 109,
+          "text": "08:56:31.888   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 163,
+          "text": "08:56:33.821           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+        },
+        {
+          "line": 170,
+          "text": "08:56:33.919           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+        },
+        {
+          "line": 171,
+          "text": "08:56:33.919           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+        },
+        {
+          "line": 178,
+          "text": "08:56:33.921           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+        },
+        {
+          "line": 179,
+          "text": "08:56:33.921           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+        },
+        {
+          "line": 180,
+          "text": "08:56:33.921           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+        },
+        {
+          "line": 181,
+          "text": "08:56:33.921           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+        },
+        {
+          "line": 5297,
+          "text": "08:57:59.783 RESOURCES (E): ==== Resource leaks ===="
+        },
+        {
+          "line": 5298,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+        },
+        {
+          "line": 5299,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+        },
+        {
+          "line": 5300,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+        },
+        {
+          "line": 5301,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+        },
+        {
+          "line": 5302,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+        },
+        {
+          "line": 5303,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+        },
+        {
+          "line": 5304,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+        },
+        {
+          "line": 5305,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+        },
+        {
+          "line": 5306,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+        },
+        {
+          "line": 5307,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+        },
+        {
+          "line": 5308,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+        },
+        {
+          "line": 5309,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+        },
+        {
+          "line": 5310,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+        },
+        {
+          "line": 5311,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+        },
+        {
+          "line": 5312,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+        },
+        {
+          "line": 5313,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+        },
+        {
+          "line": 5314,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+        },
+        {
+          "line": 5315,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+        },
+        {
+          "line": 5316,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+        },
+        {
+          "line": 5317,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+        },
+        {
+          "line": 5318,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+        },
+        {
+          "line": 5319,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+        },
+        {
+          "line": 5320,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+        },
+        {
+          "line": 5321,
+          "text": "08:57:59.783 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+        },
+        {
+          "line": 5322,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+        },
+        {
+          "line": 5323,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+        },
+        {
+          "line": 5324,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+        },
+        {
+          "line": 5325,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+        },
+        {
+          "line": 5326,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+        },
+        {
+          "line": 5327,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+        },
+        {
+          "line": 5328,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+        },
+        {
+          "line": 5329,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+        },
+        {
+          "line": 5330,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+        },
+        {
+          "line": 5331,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+        },
+        {
+          "line": 5332,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+        },
+        {
+          "line": 5333,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+        },
+        {
+          "line": 5334,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+        },
+        {
+          "line": 5335,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+        },
+        {
+          "line": 5336,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+        },
+        {
+          "line": 5337,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+        },
+        {
+          "line": 5338,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+        },
+        {
+          "line": 5339,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+        },
+        {
+          "line": 5340,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+        },
+        {
+          "line": 5341,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+        },
+        {
+          "line": 5342,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+        },
+        {
+          "line": 5343,
+          "text": "08:57:59.783 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+        },
+        {
+          "line": 5344,
+          "text": "08:57:59.783 RESOURCES (E): UI/Imagesets/default.edds   1"
+        },
+        {
+          "line": 5345,
+          "text": "08:57:59.783 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+        }
+      ]
+    },
+    "graphLoadEvidence": {
+      "candidateSubjectSpawnObserved": true,
+      "explicitGraphPathOrGuidObserved": false,
+      "audioRelatedRawErrors": [],
+      "limit": "Spawn/source binding and absence of logged graph errors do not establish graph playback"
+    },
+    "audio": {
+      "durationSeconds": 92.4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "finalized": true,
+      "gain": "No OS/game/playback gain or normalization changes; fresh ordinary profile",
+      "subjectiveAudition": "NOT_TESTED",
+      "timelineAlignment": "No recorder/world timestamp mapping inferred by this analyzer"
+    },
+    "evidence": [
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-candidate-exterior-native-camera-01\\profile\\profile\\DamageHarness-job683.json",
+        "sha256": "7f2073e40239b3d35cb81fd75f77b1563029941b2707bdd67d06ebf4f71972f6"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-candidate-exterior-native-camera-01\\profile\\profile\\DamageHarness-result683.json",
+        "sha256": "6d067d8598d1df4c763e4e141c79859813d91347037ab6647ed2040233138b10"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-candidate-exterior-native-camera-01\\logs\\console.log",
+        "sha256": "268327dcb6d02c38990ef02ea8b797bbd940be71d15f334bedf24b5b6b00c51a"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-candidate-exterior-native-camera-01\\exit.json",
+        "sha256": "5c1520f5b0a9e11c330b4b22526c829b989b8d95d34392b98dd54cdf7b80f107"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-candidate-exterior-native-camera-01\\plan.json",
+        "sha256": "1171131be31fe63c494c5a63ebd2b31da295348da05a73d97205ac2ca0c5107a"
+      },
+      {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-camera-audition\\QA-MANIFEST.json",
+        "sha256": "14f2f93a18c3e70502bea0ce39ec3a267e599eca23701a6974ae749577941a8b"
+      },
+      {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\candidate-exterior-native-camera-01\\LEDGER.json",
+        "sha256": "60e38ca50ff89d3bb6cbf21d988c5dce70336b97ea9e91e15065f5530406d37c"
+      },
+      {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\candidate-exterior-native-camera-01\\system-output.wav",
+        "sha256": "95b0c67f48efb9d3f8c22ae8407a5bedfad2494d12766a5414285f8671570b51"
+      }
+    ],
+    "originalResultsOverwritten": false,
+    "nativeStarted": false
+  },
+  "bins": {
+    "forward_default": {
+      "frozenFromStockOnly": true,
+      "speedBoundsMetersPerSecond": [
+        0.5,
+        5.735190015687467,
+        8.72697311420943,
+        null
+      ],
+      "meaning": "Trajectory bins; no steady-speed claim",
+      "stockEligibleSamples": 42,
+      "candidateEligibleSamples": 42,
+      "stockSpeed": {
+        "count": 42,
+        "min": 1.1510400655495858,
+        "median": 7.386225626099041,
+        "max": 11.13522078023714
+      },
+      "candidateSpeed": {
+        "count": 42,
+        "min": 1.2129100035055558,
+        "median": 7.386880607880169,
+        "max": 11.1300719944145
+      }
+    },
+    "reverse": {
+      "frozenFromStockOnly": true,
+      "speedBoundsMetersPerSecond": [
+        0.5,
+        2.738284465273365,
+        2.771299697706116,
+        null
+      ],
+      "meaning": "Trajectory bins; no steady-speed claim",
+      "stockEligibleSamples": 28,
+      "candidateEligibleSamples": 28,
+      "stockSpeed": {
+        "count": 28,
+        "min": 0.5253409151504669,
+        "median": 2.75438650591709,
+        "max": 2.8195933622129172
+      },
+      "candidateSpeed": {
+        "count": 28,
+        "min": 0.6114297526076484,
+        "median": 2.75573183411721,
+        "max": 2.824278621842443
+      }
+    }
+  },
+  "matchedSamples": {
+    "forward_default": [
+      {
+        "name": "low",
+        "lowerInclusive": 0.5,
+        "upperExclusive": 5.735190015687467,
+        "pairsWithinPoint25MetersPerSecond": [
+          {
+            "stockSample": 35,
+            "candidateSample": 35,
+            "stockWorldMs": 25150.0,
+            "candidateWorldMs": 25185.1,
+            "stockSpeed": 1.1510400655495858,
+            "candidateSpeed": 1.2129100035055558,
+            "stockWheelRpm": 29.8873,
+            "candidateWheelRpm": 31.57115,
+            "stockListenerDistance": 5.35186,
+            "candidateListenerDistance": 5.35197
+          },
+          {
+            "stockSample": 36,
+            "candidateSample": 36,
+            "stockWorldMs": 25417.2,
+            "candidateWorldMs": 25451.8,
+            "stockSpeed": 2.1241400094788956,
+            "candidateSpeed": 2.1241400095538947,
+            "stockWheelRpm": 56.2841,
+            "candidateWheelRpm": 56.2842,
+            "stockListenerDistance": 5.38336,
+            "candidateListenerDistance": 5.38357
+          },
+          {
+            "stockSample": 37,
+            "candidateSample": 37,
+            "stockWorldMs": 25683.4,
+            "candidateWorldMs": 25718.8,
+            "stockSpeed": 2.741590038989934,
+            "candidateSpeed": 2.7415900390966055,
+            "stockWheelRpm": 74.66825,
+            "candidateWheelRpm": 74.6683,
+            "stockListenerDistance": 5.40718,
+            "candidateListenerDistance": 5.40701
+          },
+          {
+            "stockSample": 38,
+            "candidateSample": 38,
+            "stockWorldMs": 25950.6,
+            "candidateWorldMs": 25984.6,
+            "stockSpeed": 2.775020159764949,
+            "candidateSpeed": 2.7782101710646154,
+            "stockWheelRpm": 75.7166,
+            "candidateWheelRpm": 75.80795,
+            "stockListenerDistance": 5.40735,
+            "candidateListenerDistance": 5.40737
+          },
+          {
+            "stockSample": 39,
+            "candidateSample": 39,
+            "stockWorldMs": 26216.7,
+            "candidateWorldMs": 26251.6,
+            "stockSpeed": 2.7577500103146035,
+            "candidateSpeed": 2.7597400099791276,
+            "stockWheelRpm": 75.28035,
+            "candidateWheelRpm": 75.3622,
+            "stockListenerDistance": 5.40648,
+            "candidateListenerDistance": 5.40663
+          },
+          {
+            "stockSample": 40,
+            "candidateSample": 40,
+            "stockWorldMs": 26483.6,
+            "candidateWorldMs": 26519.8,
+            "stockSpeed": 3.1590501726395233,
+            "candidateSpeed": 3.158780169489479,
+            "stockWheelRpm": 85.33035000000001,
+            "candidateWheelRpm": 85.30795,
+            "stockListenerDistance": 5.41914,
+            "candidateListenerDistance": 5.41901
+          },
+          {
+            "stockSample": 41,
+            "candidateSample": 41,
+            "stockWorldMs": 26750.4,
+            "candidateWorldMs": 26784.5,
+            "stockSpeed": 3.750420095546141,
+            "candidateSpeed": 3.75534010934927,
+            "stockWheelRpm": 101.282,
+            "candidateWheelRpm": 101.415,
+            "stockListenerDistance": 5.44035,
+            "candidateListenerDistance": 5.44054
+          },
+          {
+            "stockSample": 42,
+            "candidateSample": 42,
+            "stockWorldMs": 27017.2,
+            "candidateWorldMs": 27051.6,
+            "stockSpeed": 4.083110012768744,
+            "candidateSpeed": 4.0854400163003115,
+            "stockWheelRpm": 110.805,
+            "candidateWheelRpm": 110.875,
+            "stockListenerDistance": 5.45235,
+            "candidateListenerDistance": 5.4531
+          },
+          {
+            "stockSample": 43,
+            "candidateSample": 43,
+            "stockWorldMs": 27283.9,
+            "candidateWorldMs": 27318.0,
+            "stockSpeed": 4.146660050887364,
+            "candidateSpeed": 4.146640063463218,
+            "stockWheelRpm": 113.07749999999999,
+            "candidateWheelRpm": 113.17949999999999,
+            "stockListenerDistance": 5.45486,
+            "candidateListenerDistance": 5.45507
+          },
+          {
+            "stockSample": 44,
+            "candidateSample": 44,
+            "stockWorldMs": 27550.5,
+            "candidateWorldMs": 27584.6,
+            "stockSpeed": 4.116610046810117,
+            "candidateSpeed": 4.117550052946752,
+            "stockWheelRpm": 112.384,
+            "candidateWheelRpm": 112.4805,
+            "stockListenerDistance": 5.45409,
+            "candidateListenerDistance": 5.45431
+          },
+          {
+            "stockSample": 45,
+            "candidateSample": 45,
+            "stockWorldMs": 27817.3,
+            "candidateWorldMs": 27851.4,
+            "stockSpeed": 4.256240006553645,
+            "candidateSpeed": 4.2494900061724925,
+            "stockWheelRpm": 115.5675,
+            "candidateWheelRpm": 115.394,
+            "stockListenerDistance": 5.45739,
+            "candidateListenerDistance": 5.45717
+          },
+          {
+            "stockSample": 46,
+            "candidateSample": 46,
+            "stockWorldMs": 28083.8,
+            "candidateWorldMs": 28118.4,
+            "stockSpeed": 4.754070333308706,
+            "candidateSpeed": 4.742340323808114,
+            "stockWheelRpm": 128.88049999999998,
+            "candidateWheelRpm": 128.5675,
+            "stockListenerDistance": 5.47539,
+            "candidateListenerDistance": 5.47503
+          },
+          {
+            "stockSample": 47,
+            "candidateSample": 47,
+            "stockWorldMs": 28350.5,
+            "candidateWorldMs": 28384.7,
+            "stockSpeed": 5.261540483649733,
+            "candidateSpeed": 5.248610476944206,
+            "stockWheelRpm": 142.63850000000002,
+            "candidateWheelRpm": 142.28750000000002,
+            "stockListenerDistance": 5.49157,
+            "candidateListenerDistance": 5.49233
+          }
+        ]
+      },
+      {
+        "name": "middle",
+        "lowerInclusive": 5.735190015687467,
+        "upperExclusive": 8.72697311420943,
+        "pairsWithinPoint25MetersPerSecond": [
+          {
+            "stockSample": 48,
+            "candidateSample": 48,
+            "stockWorldMs": 28617.0,
+            "candidateWorldMs": 28651.6,
+            "stockSpeed": 5.735190015687467,
+            "candidateSpeed": 5.755310015760831,
+            "stockWheelRpm": 156.539,
+            "candidateWheelRpm": 156.094,
+            "stockListenerDistance": 5.50919,
+            "candidateListenerDistance": 5.5096
+          },
+          {
+            "stockSample": 49,
+            "candidateSample": 50,
+            "stockWorldMs": 28883.8,
+            "candidateWorldMs": 29185.3,
+            "stockSpeed": 5.895990047266869,
+            "candidateSpeed": 5.893480048882734,
+            "stockWheelRpm": 160.7955,
+            "candidateWheelRpm": 160.707,
+            "stockListenerDistance": 5.51642,
+            "candidateListenerDistance": 5.51493
+          },
+          {
+            "stockSample": 50,
+            "candidateSample": 49,
+            "stockWorldMs": 29150.8,
+            "candidateWorldMs": 28917.9,
+            "stockSpeed": 5.901770047131901,
+            "candidateSpeed": 5.88755004723541,
+            "stockWheelRpm": 160.93400000000003,
+            "candidateWheelRpm": 160.6655,
+            "stockListenerDistance": 5.51552,
+            "candidateListenerDistance": 5.51601
+          },
+          {
+            "stockSample": 51,
+            "candidateSample": 51,
+            "stockWorldMs": 29417.5,
+            "candidateWorldMs": 29451.6,
+            "stockSpeed": 6.1947202268996175,
+            "candidateSpeed": 6.186790215631131,
+            "stockWheelRpm": 168.4885,
+            "candidateWheelRpm": 168.272,
+            "stockListenerDistance": 5.52561,
+            "candidateListenerDistance": 5.52541
+          },
+          {
+            "stockSample": 52,
+            "candidateSample": 52,
+            "stockWorldMs": 29683.4,
+            "candidateWorldMs": 29717.7,
+            "stockSpeed": 6.551830102961752,
+            "candidateSpeed": 6.5442701044416305,
+            "stockWheelRpm": 178.0935,
+            "candidateWheelRpm": 177.8865,
+            "stockListenerDistance": 5.53722,
+            "candidateListenerDistance": 5.5379
+          },
+          {
+            "stockSample": 53,
+            "candidateSample": 53,
+            "stockWorldMs": 29950.7,
+            "candidateWorldMs": 29985.6,
+            "stockSpeed": 6.91758035067002,
+            "candidateSpeed": 6.910260338089788,
+            "stockWheelRpm": 188.113,
+            "candidateWheelRpm": 187.91250000000002,
+            "stockListenerDistance": 5.55049,
+            "candidateListenerDistance": 5.55023
+          },
+          {
+            "stockSample": 54,
+            "candidateSample": 54,
+            "stockWorldMs": 30216.9,
+            "candidateWorldMs": 30251.7,
+            "stockSpeed": 7.280970304671193,
+            "candidateSpeed": 7.273850276828799,
+            "stockWheelRpm": 198.04149999999998,
+            "candidateWheelRpm": 197.846,
+            "stockListenerDistance": 5.56344,
+            "candidateListenerDistance": 5.5631
+          },
+          {
+            "stockSample": 55,
+            "candidateSample": 55,
+            "stockWorldMs": 30483.6,
+            "candidateWorldMs": 30519.0,
+            "stockSpeed": 7.390440698591224,
+            "candidateSpeed": 7.391120679456724,
+            "stockWheelRpm": 201.64999999999998,
+            "candidateWheelRpm": 201.5985,
+            "stockListenerDistance": 5.56845,
+            "candidateListenerDistance": 5.56871
+          },
+          {
+            "stockSample": 56,
+            "candidateSample": 56,
+            "stockWorldMs": 30750.8,
+            "candidateWorldMs": 30784.5,
+            "stockSpeed": 7.3820105536068565,
+            "candidateSpeed": 7.382640536303615,
+            "stockWheelRpm": 201.28250000000003,
+            "candidateWheelRpm": 201.35649999999998,
+            "stockListenerDistance": 5.56668,
+            "candidateListenerDistance": 5.56723
+          },
+          {
+            "stockSample": 57,
+            "candidateSample": 57,
+            "stockWorldMs": 31016.9,
+            "candidateWorldMs": 31051.4,
+            "stockSpeed": 7.577670071829433,
+            "candidateSpeed": 7.578320070216912,
+            "stockWheelRpm": 206.448,
+            "candidateWheelRpm": 206.466,
+            "stockListenerDistance": 5.57342,
+            "candidateListenerDistance": 5.57404
+          },
+          {
+            "stockSample": 58,
+            "candidateSample": 58,
+            "stockWorldMs": 31283.9,
+            "candidateWorldMs": 31318.0,
+            "stockSpeed": 7.809600932706677,
+            "candidateSpeed": 7.810240908829134,
+            "stockWheelRpm": 212.6345,
+            "candidateWheelRpm": 212.65300000000002,
+            "stockListenerDistance": 5.58224,
+            "candidateListenerDistance": 5.58266
+          },
+          {
+            "stockSample": 59,
+            "candidateSample": 59,
+            "stockWorldMs": 31550.5,
+            "candidateWorldMs": 31585.2,
+            "stockSpeed": 8.040451272791605,
+            "candidateSpeed": 8.041091268130364,
+            "stockWheelRpm": 218.94400000000002,
+            "candidateWheelRpm": 218.9605,
+            "stockListenerDistance": 5.58965,
+            "candidateListenerDistance": 5.58989
+          },
+          {
+            "stockSample": 60,
+            "candidateSample": 60,
+            "stockWorldMs": 31818.3,
+            "candidateWorldMs": 31851.3,
+            "stockSpeed": 8.27028252123084,
+            "candidateSpeed": 8.27091248658286,
+            "stockWheelRpm": 225.26749999999998,
+            "candidateWheelRpm": 225.285,
+            "stockListenerDistance": 5.59789,
+            "candidateListenerDistance": 5.59798
+          },
+          {
+            "stockSample": 61,
+            "candidateSample": 61,
+            "stockWorldMs": 32083.5,
+            "candidateWorldMs": 32118.0,
+            "stockSpeed": 8.49912192331279,
+            "candidateSpeed": 8.49976192200688,
+            "stockWheelRpm": 231.517,
+            "candidateWheelRpm": 231.535,
+            "stockListenerDistance": 5.60563,
+            "candidateListenerDistance": 5.60605
+          }
+        ]
+      },
+      {
+        "name": "high",
+        "lowerInclusive": 8.72697311420943,
+        "upperExclusive": null,
+        "pairsWithinPoint25MetersPerSecond": [
+          {
+            "stockSample": 62,
+            "candidateSample": 62,
+            "stockWorldMs": 32350.6,
+            "candidateWorldMs": 32385.0,
+            "stockSpeed": 8.72697311420943,
+            "candidateSpeed": 8.727603097036075,
+            "stockWheelRpm": 237.6975,
+            "candidateWheelRpm": 237.71499999999997,
+            "stockListenerDistance": 5.61436,
+            "candidateListenerDistance": 5.61428
+          },
+          {
+            "stockSample": 63,
+            "candidateSample": 63,
+            "stockWorldMs": 32617.6,
+            "candidateWorldMs": 32651.7,
+            "stockSpeed": 8.953793821516959,
+            "candidateSpeed": 8.954413829311296,
+            "stockWheelRpm": 243.8935,
+            "candidateWheelRpm": 243.9105,
+            "stockListenerDistance": 5.62177,
+            "candidateListenerDistance": 5.62205
+          },
+          {
+            "stockSample": 64,
+            "candidateSample": 64,
+            "stockWorldMs": 32884.2,
+            "candidateWorldMs": 32917.8,
+            "stockSpeed": 9.179575628649074,
+            "candidateSpeed": 9.180205602289622,
+            "stockWheelRpm": 250.084,
+            "candidateWheelRpm": 250.102,
+            "stockListenerDistance": 5.62983,
+            "candidateListenerDistance": 5.62999
+          },
+          {
+            "stockSample": 65,
+            "candidateSample": 65,
+            "stockWorldMs": 33150.8,
+            "candidateWorldMs": 33184.8,
+            "stockSpeed": 9.404376726693576,
+            "candidateSpeed": 9.40499675936497,
+            "stockWheelRpm": 256.1515,
+            "candidateWheelRpm": 256.168,
+            "stockListenerDistance": 5.63749,
+            "candidateListenerDistance": 5.63765
+          },
+          {
+            "stockSample": 66,
+            "candidateSample": 66,
+            "stockWorldMs": 33417.5,
+            "candidateWorldMs": 33451.4,
+            "stockSpeed": 9.628094951233264,
+            "candidateSpeed": 9.62871497023467,
+            "stockWheelRpm": 262.369,
+            "candidateWheelRpm": 262.38599999999997,
+            "stockListenerDistance": 5.64499,
+            "candidateListenerDistance": 5.64545
+          },
+          {
+            "stockSample": 67,
+            "candidateSample": 67,
+            "stockWorldMs": 33683.8,
+            "candidateWorldMs": 33718.6,
+            "stockSpeed": 9.850842453114987,
+            "candidateSpeed": 9.85146244477194,
+            "stockWheelRpm": 268.3465,
+            "candidateWheelRpm": 268.3645,
+            "stockListenerDistance": 5.65365,
+            "candidateListenerDistance": 5.65375
+          },
+          {
+            "stockSample": 68,
+            "candidateSample": 68,
+            "stockWorldMs": 33950.2,
+            "candidateWorldMs": 33985.7,
+            "stockSpeed": 9.99843164520933,
+            "candidateSpeed": 10.006101678327116,
+            "stockWheelRpm": 272.6955,
+            "candidateWheelRpm": 272.90700000000004,
+            "stockListenerDistance": 5.65931,
+            "candidateListenerDistance": 5.65973
+          },
+          {
+            "stockSample": 69,
+            "candidateSample": 69,
+            "stockWorldMs": 34217.3,
+            "candidateWorldMs": 34252.0,
+            "stockSpeed": 9.956320064687237,
+            "candidateSpeed": 9.96271006305688,
+            "stockWheelRpm": 271.673,
+            "candidateWheelRpm": 271.8705,
+            "stockListenerDistance": 5.65755,
+            "candidateListenerDistance": 5.65794
+          },
+          {
+            "stockSample": 70,
+            "candidateSample": 70,
+            "stockWorldMs": 34484.1,
+            "candidateWorldMs": 34517.9,
+            "stockSpeed": 10.0268011231016,
+            "candidateSpeed": 10.024801121480026,
+            "stockWheelRpm": 273.425,
+            "candidateWheelRpm": 273.36850000000004,
+            "stockListenerDistance": 5.65955,
+            "candidateListenerDistance": 5.65959
+          },
+          {
+            "stockSample": 71,
+            "candidateSample": 71,
+            "stockWorldMs": 34750.2,
+            "candidateWorldMs": 34784.7,
+            "stockSpeed": 10.168704503250767,
+            "candidateSpeed": 10.16670454135776,
+            "stockWheelRpm": 277.149,
+            "candidateWheelRpm": 277.0965,
+            "stockListenerDistance": 5.66499,
+            "candidateListenerDistance": 5.66505
+          },
+          {
+            "stockSample": 72,
+            "candidateSample": 72,
+            "stockWorldMs": 35017.0,
+            "candidateWorldMs": 35051.7,
+            "stockSpeed": 10.309808757805003,
+            "candidateSpeed": 10.307807729819839,
+            "stockWheelRpm": 281.0875,
+            "candidateWheelRpm": 281.036,
+            "stockListenerDistance": 5.66916,
+            "candidateListenerDistance": 5.6691
+          },
+          {
+            "stockSample": 73,
+            "candidateSample": 73,
+            "stockWorldMs": 35283.7,
+            "candidateWorldMs": 35318.4,
+            "stockSpeed": 10.455749189478247,
+            "candidateSpeed": 10.45372980085075,
+            "stockWheelRpm": 283.879,
+            "candidateWheelRpm": 283.82550000000003,
+            "stockListenerDistance": 5.67388,
+            "candidateListenerDistance": 5.67357
+          },
+          {
+            "stockSample": 74,
+            "candidateSample": 74,
+            "stockWorldMs": 35550.5,
+            "candidateWorldMs": 35585.3,
+            "stockSpeed": 10.632891915463464,
+            "candidateSpeed": 10.629354166930568,
+            "stockWheelRpm": 287.8295,
+            "candidateWheelRpm": 287.74199999999996,
+            "stockListenerDistance": 5.66771,
+            "candidateListenerDistance": 5.66779
+          },
+          {
+            "stockSample": 75,
+            "candidateSample": 75,
+            "stockWorldMs": 35817.3,
+            "candidateWorldMs": 35852.2,
+            "stockSpeed": 10.870013579135263,
+            "candidateSpeed": 10.866330760957354,
+            "stockWheelRpm": 296.09450000000004,
+            "candidateWheelRpm": 295.962,
+            "stockListenerDistance": 5.66903,
+            "candidateListenerDistance": 5.66867
+          },
+          {
+            "stockSample": 76,
+            "candidateSample": 76,
+            "stockWorldMs": 36084.1,
+            "candidateWorldMs": 36118.1,
+            "stockSpeed": 11.13522078023714,
+            "candidateSpeed": 11.1300719944145,
+            "stockWheelRpm": 302.67650000000003,
+            "candidateWheelRpm": 302.57399999999996,
+            "stockListenerDistance": 5.67757,
+            "candidateListenerDistance": 5.67739
+          }
+        ]
+      }
+    ],
+    "reverse": [
+      {
+        "name": "low",
+        "lowerInclusive": 0.5,
+        "upperExclusive": 2.738284465273365,
+        "pairsWithinPoint25MetersPerSecond": [
+          {
+            "stockSample": 102,
+            "candidateSample": 102,
+            "stockWorldMs": 43017.1,
+            "candidateWorldMs": 43050.9,
+            "stockSpeed": 0.5253409151504669,
+            "candidateSpeed": 0.6114297526076484,
+            "stockWheelRpm": 12.731950000000001,
+            "candidateWheelRpm": 15.007100000000001,
+            "stockListenerDistance": 5.30296,
+            "candidateListenerDistance": 5.30739
+          },
+          {
+            "stockSample": 103,
+            "candidateSample": 103,
+            "stockWorldMs": 43283.1,
+            "candidateWorldMs": 43317.7,
+            "stockSpeed": 1.1924806365698775,
+            "candidateSpeed": 1.2658480308181745,
+            "stockWheelRpm": 32.710350000000005,
+            "candidateWheelRpm": 34.65855,
+            "stockListenerDistance": 5.32885,
+            "candidateListenerDistance": 5.33142
+          },
+          {
+            "stockSample": 104,
+            "candidateSample": 104,
+            "stockWorldMs": 43550.5,
+            "candidateWorldMs": 43584.5,
+            "stockSpeed": 1.7624604305346574,
+            "candidateSpeed": 1.7600138103791716,
+            "stockWheelRpm": 45.981,
+            "candidateWheelRpm": 48.35445,
+            "stockListenerDistance": 5.34825,
+            "candidateListenerDistance": 5.35075
+          },
+          {
+            "stockSample": 105,
+            "candidateSample": 105,
+            "stockWorldMs": 43816.4,
+            "candidateWorldMs": 43851.1,
+            "stockSpeed": 2.1845422708505686,
+            "candidateSpeed": 2.2514975673174176,
+            "stockWheelRpm": 59.959649999999996,
+            "candidateWheelRpm": 61.7669,
+            "stockListenerDistance": 5.36556,
+            "candidateListenerDistance": 5.36804
+          },
+          {
+            "stockSample": 106,
+            "candidateSample": 106,
+            "stockWorldMs": 44083.2,
+            "candidateWorldMs": 44117.9,
+            "stockSpeed": 2.608152727827793,
+            "candidateSpeed": 2.64329325854394,
+            "stockWheelRpm": 71.41665,
+            "candidateWheelRpm": 72.3569,
+            "stockListenerDistance": 5.38343,
+            "candidateListenerDistance": 5.38342
+          },
+          {
+            "stockSample": 107,
+            "candidateSample": 107,
+            "stockWorldMs": 44350.3,
+            "candidateWorldMs": 44385.3,
+            "stockSpeed": 2.721407622479984,
+            "candidateSpeed": 2.7225978275391687,
+            "stockWheelRpm": 73.7764,
+            "candidateWheelRpm": 74.09725,
+            "stockListenerDistance": 5.38778,
+            "candidateListenerDistance": 5.38802
+          },
+          {
+            "stockSample": 108,
+            "candidateSample": 109,
+            "stockWorldMs": 44616.3,
+            "candidateWorldMs": 44918.0,
+            "stockSpeed": 2.72563601015261,
+            "candidateSpeed": 2.732776312736081,
+            "stockWheelRpm": 74.7587,
+            "candidateWheelRpm": 74.86855,
+            "stockListenerDistance": 5.38861,
+            "candidateListenerDistance": 5.3885
+          },
+          {
+            "stockSample": 110,
+            "candidateSample": 112,
+            "stockWorldMs": 45150.3,
+            "candidateWorldMs": 45718.4,
+            "stockSpeed": 2.7348605211721053,
+            "candidateSpeed": 2.7339573491366487,
+            "stockWheelRpm": 74.86815,
+            "candidateWheelRpm": 74.9317,
+            "stockListenerDistance": 5.38877,
+            "candidateListenerDistance": 5.38927
+          }
+        ]
+      },
+      {
+        "name": "middle",
+        "lowerInclusive": 2.738284465273365,
+        "upperExclusive": 2.771299697706116,
+        "pairsWithinPoint25MetersPerSecond": [
+          {
+            "stockSample": 109,
+            "candidateSample": 108,
+            "stockWorldMs": 44883.3,
+            "candidateWorldMs": 44650.7,
+            "stockSpeed": 2.738284465273365,
+            "candidateSpeed": 2.7397541405494694,
+            "stockWheelRpm": 74.53195,
+            "candidateWheelRpm": 74.56465,
+            "stockListenerDistance": 5.38889,
+            "candidateListenerDistance": 5.38827
+          },
+          {
+            "stockSample": 111,
+            "candidateSample": 110,
+            "stockWorldMs": 45416.7,
+            "candidateWorldMs": 45184.3,
+            "stockSpeed": 2.7407452499743497,
+            "candidateSpeed": 2.7399630302761917,
+            "stockWheelRpm": 74.5995,
+            "candidateWheelRpm": 74.51435000000001,
+            "stockListenerDistance": 5.38966,
+            "candidateListenerDistance": 5.38897
+          },
+          {
+            "stockSample": 112,
+            "candidateSample": 111,
+            "stockWorldMs": 45683.6,
+            "candidateWorldMs": 45450.8,
+            "stockSpeed": 2.7455674295063743,
+            "candidateSpeed": 2.7473291899545655,
+            "stockWheelRpm": 74.75059999999999,
+            "candidateWheelRpm": 74.7308,
+            "stockListenerDistance": 5.38985,
+            "candidateListenerDistance": 5.38941
+          },
+          {
+            "stockSample": 114,
+            "candidateSample": 116,
+            "stockWorldMs": 46216.7,
+            "candidateWorldMs": 46784.5,
+            "stockSpeed": 2.7527263602331944,
+            "candidateSpeed": 2.7529564850421013,
+            "stockWheelRpm": 75.06075,
+            "candidateWheelRpm": 75.14305,
+            "stockListenerDistance": 5.3926,
+            "candidateListenerDistance": 5.3951
+          },
+          {
+            "stockSample": 115,
+            "candidateSample": 118,
+            "stockWorldMs": 46483.5,
+            "candidateWorldMs": 47318.3,
+            "stockSpeed": 2.756046651600985,
+            "candidateSpeed": 2.7557635787899946,
+            "stockWheelRpm": 74.89465,
+            "candidateWheelRpm": 74.95355,
+            "stockListenerDistance": 5.39452,
+            "candidateListenerDistance": 5.4004
+          },
+          {
+            "stockSample": 116,
+            "candidateSample": 115,
+            "stockWorldMs": 46750.7,
+            "candidateWorldMs": 46517.6,
+            "stockSpeed": 2.7509365817774936,
+            "candidateSpeed": 2.755700089444425,
+            "stockWheelRpm": 75.1199,
+            "candidateWheelRpm": 74.85815,
+            "stockListenerDistance": 5.39456,
+            "candidateListenerDistance": 5.39455
+          },
+          {
+            "stockSample": 117,
+            "candidateSample": 117,
+            "stockWorldMs": 47017.6,
+            "candidateWorldMs": 47050.9,
+            "stockSpeed": 2.7665810899572074,
+            "candidateSpeed": 2.7663913583249227,
+            "stockWheelRpm": 74.96735000000001,
+            "candidateWheelRpm": 74.98225,
+            "stockListenerDistance": 5.39828,
+            "candidateListenerDistance": 5.39873
+          },
+          {
+            "stockSample": 118,
+            "candidateSample": 114,
+            "stockWorldMs": 47283.2,
+            "candidateWorldMs": 46250.7,
+            "stockSpeed": 2.760325183479021,
+            "candidateSpeed": 2.7578577357693344,
+            "stockWheelRpm": 75.11760000000001,
+            "candidateWheelRpm": 74.78475,
+            "stockListenerDistance": 5.40042,
+            "candidateListenerDistance": 5.39315
+          },
+          {
+            "stockSample": 120,
+            "candidateSample": 113,
+            "stockWorldMs": 47816.9,
+            "candidateWorldMs": 45984.5,
+            "stockSpeed": 2.769862996490332,
+            "candidateSpeed": 2.7431997065047615,
+            "stockWheelRpm": 75.3309,
+            "candidateWheelRpm": 74.5437,
+            "stockListenerDistance": 5.40452,
+            "candidateListenerDistance": 5.38978
+          }
+        ]
+      },
+      {
+        "name": "high",
+        "lowerInclusive": 2.771299697706116,
+        "upperExclusive": null,
+        "pairsWithinPoint25MetersPerSecond": [
+          {
+            "stockSample": 119,
+            "candidateSample": 120,
+            "stockWorldMs": 47550.4,
+            "candidateWorldMs": 47852.0,
+            "stockSpeed": 2.7718374938846995,
+            "candidateSpeed": 2.7741960870659184,
+            "stockWheelRpm": 75.41805,
+            "candidateWheelRpm": 75.33455000000001,
+            "stockListenerDistance": 5.4003,
+            "candidateListenerDistance": 5.40473
+          },
+          {
+            "stockSample": 121,
+            "candidateSample": 119,
+            "stockWorldMs": 48083.5,
+            "candidateWorldMs": 47584.7,
+            "stockSpeed": 2.771299697706116,
+            "candidateSpeed": 2.774375259262822,
+            "stockWheelRpm": 75.48655,
+            "candidateWheelRpm": 75.08234999999999,
+            "stockListenerDistance": 5.4043,
+            "candidateListenerDistance": 5.40111
+          },
+          {
+            "stockSample": 122,
+            "candidateSample": 121,
+            "stockWorldMs": 48350.3,
+            "candidateWorldMs": 48117.9,
+            "stockSpeed": 2.7837618380820817,
+            "candidateSpeed": 2.777399167562842,
+            "stockWheelRpm": 75.47540000000001,
+            "candidateWheelRpm": 75.4374,
+            "stockListenerDistance": 5.4071,
+            "candidateListenerDistance": 5.40481
+          },
+          {
+            "stockSample": 123,
+            "candidateSample": 123,
+            "stockWorldMs": 48616.6,
+            "candidateWorldMs": 48650.9,
+            "stockSpeed": 2.7874639764722287,
+            "candidateSpeed": 2.7918208076210407,
+            "stockWheelRpm": 75.91499999999999,
+            "candidateWheelRpm": 76.06139999999999,
+            "stockListenerDistance": 5.41026,
+            "candidateListenerDistance": 5.41048
+          },
+          {
+            "stockSample": 124,
+            "candidateSample": 122,
+            "stockWorldMs": 48883.2,
+            "candidateWorldMs": 48385.2,
+            "stockSpeed": 2.796830551593809,
+            "candidateSpeed": 2.7931930058710406,
+            "stockWheelRpm": 76.0812,
+            "candidateWheelRpm": 75.4786,
+            "stockListenerDistance": 5.40922,
+            "candidateListenerDistance": 5.40776
+          },
+          {
+            "stockSample": 125,
+            "candidateSample": 125,
+            "stockWorldMs": 49150.6,
+            "candidateWorldMs": 49185.4,
+            "stockSpeed": 2.8022377381907533,
+            "candidateSpeed": 2.8014472348335304,
+            "stockWheelRpm": 76.24244999999999,
+            "candidateWheelRpm": 76.31445,
+            "stockListenerDistance": 5.41152,
+            "candidateListenerDistance": 5.41124
+          },
+          {
+            "stockSample": 126,
+            "candidateSample": 126,
+            "stockWorldMs": 49416.7,
+            "candidateWorldMs": 49451.5,
+            "stockSpeed": 2.807783337937744,
+            "candidateSpeed": 2.811476478836244,
+            "stockWheelRpm": 76.67925,
+            "candidateWheelRpm": 76.84094999999999,
+            "stockListenerDistance": 5.41078,
+            "candidateListenerDistance": 5.41082
+          },
+          {
+            "stockSample": 127,
+            "candidateSample": 129,
+            "stockWorldMs": 49683.3,
+            "candidateWorldMs": 50250.9,
+            "stockSpeed": 2.8122544900717683,
+            "candidateSpeed": 2.8196493106077627,
+            "stockWheelRpm": 76.61070000000001,
+            "candidateWheelRpm": 77.02115,
+            "stockListenerDistance": 5.41005,
+            "candidateListenerDistance": 5.4103
+          },
+          {
+            "stockSample": 128,
+            "candidateSample": 128,
+            "stockWorldMs": 49950.2,
+            "candidateWorldMs": 49984.7,
+            "stockSpeed": 2.8195933622129172,
+            "candidateSpeed": 2.823701567196876,
+            "stockWheelRpm": 76.88845,
+            "candidateWheelRpm": 76.9508,
+            "stockListenerDistance": 5.41155,
+            "candidateListenerDistance": 5.41166
+          },
+          {
+            "stockSample": 129,
+            "candidateSample": 127,
+            "stockWorldMs": 50216.9,
+            "candidateWorldMs": 49718.0,
+            "stockSpeed": 2.819342677314848,
+            "candidateSpeed": 2.824278621842443,
+            "stockWheelRpm": 76.88845,
+            "candidateWheelRpm": 76.84094999999999,
+            "stockListenerDistance": 5.41027,
+            "candidateListenerDistance": 5.41069
+          }
+        ]
+      }
+    ]
+  },
+  "reuseParser": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Core-Wheeled-Review-20261022\\review.py",
+    "sha256": "590103d76b265b7946f4a5c3dd96add6bcfea1b4f472c463fcd5087957e31655"
+  },
+  "acceptance": {
+    "audibleRollingScalesWithSpeed": "NOT_TESTED",
+    "stopsAtRest": "NOT_TESTED",
+    "engineStopHang": "NOT_TESTED",
+    "exitDeletionHang": "NOT_TESTED",
+    "engineWeaponsBalance": "NOT_TESTED",
+    "interiorExteriorDistance": "NOT_TESTED"
+  },
+  "jobAndQASourceMatched": true,
+  "gainEvidence": "Recorder ledgers retain the unchanged-gain declaration; waveform metrics cannot verify perceived balance",
+  "nativeStarted": false
+}

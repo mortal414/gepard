@@ -1,0 +1,40 @@
+{
+  "status": "PLAN_ONLY_VERIFIED_SAME_FROZEN_WRAPPER_AND_COURSE_ALREADY_EXECUTED",
+  "defaultEntry": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\Launch-TrackAudio-Audition.cmd",
+  "defaultVariant": "candidate",
+  "defaultView": "exterior",
+  "selection": "Launch-TrackAudio-Audition.cmd [stock|candidate] [cabin|exterior]",
+  "duration": "Automatic course68.2worldseconds after startup/settling; native wrapper ceiling120wallseconds, normal-close grace15seconds. This is timed automation, not an untimed manual game.",
+  "examples": {
+    "candidateExterior": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\Launch-TrackAudio-Audition.cmd",
+    "stockExterior": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\Launch-TrackAudio-Audition.cmd stock exterior",
+    "candidateCabin": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\Launch-TrackAudio-Audition.cmd candidate cabin",
+    "stockCabin": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\Launch-TrackAudio-Audition.cmd stock cabin"
+  },
+  "newRunIdentityEveryLaunch": true,
+  "nativeRunLaunchedDuringPlanVerification": false,
+  "files": [
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\Launch-TrackAudio-Audition.cmd",
+      "sha256": "0c3023404881bd355c7f14fe321597322c6064c93a0c11566d5b881a687148aa"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\Launch-TrackAudio-Audition.ps1",
+      "sha256": "e8497720cebe970f22187f721b39a21bdc6a50c56bc9966e93725e821bb2a112"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\sprint-tools\\launch_track_audio_audition.py",
+      "sha256": "b9083b03dccaa27ab9195902a3fc97ecf687fc2ec637a5bdfdd456f9ce37ec06"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\sprint-tools\\record_owned_audio_pass.py",
+      "sha256": "4cae5bc5473933f38419edf8e4486f76244ce82014683d692db88bc1d596009d"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\sprint-tools\\review_recorded_track_pass.py",
+      "sha256": "0a169c60a183c35aad7c35ef27637a988bb1c8ff59ce8cb8dc2a2140cf4fd3bf"
+    }
+  ],
+  "Demo09Unchanged": true,
+  "published": false
+}

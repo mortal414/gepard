@@ -1,0 +1,44 @@
+{
+  "status": "NATIVE_AUTHORED_SOURCE_PRESERVATION_VERIFIED_PLAYBACK_PENDING",
+  "candidatePrefab": "{BC01AF3E731DAA3B}Prefabs/Vehicles/GEP_MobileCarrier_TrackRolling033.et",
+  "baselinePrefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+  "overlay": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\candidate-overlay",
+  "graphSources": [
+    {
+      "side": "left",
+      "baseline": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-authoring-output\\stock-wheel-left-native.acp",
+      "baselineSha256": "057bdc50c13732d0e851454652b754993acc247f573d7f0714b83fb05a92164d",
+      "candidate": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-authoring-stage\\stockRollCandidate\\Sounds\\Vehicles\\Gepard\\TrackRolling033\\GEP_Tracks_Left033.acp",
+      "candidateSha256": "4f8a5d770f7509dc43c09ac46c5f7e6968051725020bf4aea8d0443f56bf490d",
+      "metaSha256": "3fe21b401a2e4cf0278a051df581a21ce79782fcae35f3440af770fb7a512d96",
+      "resource": "{39DBB21F25582AD6}Sounds/Vehicles/Gepard/TrackRolling033/GEP_Tracks_Left033.acp",
+      "onlyEightSampleTokensDiffer": true
+    },
+    {
+      "side": "right",
+      "baseline": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-authoring-output\\stock-wheel-right-native.acp",
+      "baselineSha256": "26c4646946a404f51817f00dc697439229bd06b2cfdbf200c42ceeab2bc4d1f4",
+      "candidate": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\native-authoring-stage\\stockRollCandidate\\Sounds\\Vehicles\\Gepard\\TrackRolling033\\GEP_Tracks_Right033.acp",
+      "candidateSha256": "463e44e62e01fe1aa3bec2c94e25220e62e22f4d6c80ee5323210038e80fd729",
+      "metaSha256": "0089e39073c46d06781eb13149ba763f88ed65c1f10df5038927d2edad42126c",
+      "resource": "{8DF560B0D8B3A8FE}Sounds/Vehicles/Gepard/TrackRolling033/GEP_Tracks_Right033.acp",
+      "onlyEightSampleTokensDiffer": true
+    }
+  ],
+  "overlaySourceManifest": {
+    "Prefabs/Vehicles/GEP_MobileCarrier_TrackRolling033.et": "bf7eab72179c52a81c84abd21149e4bc2d84e8ff0dee3b81df7e99f98b9687fc",
+    "Prefabs/Vehicles/GEP_MobileCarrier_TrackRolling033.et.meta": "f9a14af55cdf78528c22beadbdd78a494be12038dfab9935decbcdc88e20cc83",
+    "Sounds/Vehicles/Gepard/TrackRolling033/GEP_Tracks_Left033.acp": "4f8a5d770f7509dc43c09ac46c5f7e6968051725020bf4aea8d0443f56bf490d",
+    "Sounds/Vehicles/Gepard/TrackRolling033/GEP_Tracks_Left033.acp.meta": "3fe21b401a2e4cf0278a051df581a21ce79782fcae35f3440af770fb7a512d96",
+    "Sounds/Vehicles/Gepard/TrackRolling033/GEP_Tracks_Right033.acp": "463e44e62e01fe1aa3bec2c94e25220e62e22f4d6c80ee5323210038e80fd729",
+    "Sounds/Vehicles/Gepard/TrackRolling033/GEP_Tracks_Right033.acp.meta": "0089e39073c46d06781eb13149ba763f88ed65c1f10df5038927d2edad42126c"
+  },
+  "authorConsole": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\stock-roll-author-02\\logs\\console.log",
+  "authorConsoleSha256": "f5ef2329de2cfc6ed24fa78bea5b1c817d18f9d6d4e9cc19a94a9ccd1906c9db",
+  "authorExit": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\stock-roll-author-02\\exit.json",
+  "authorExitSha256": "eee25ac6b8d382681f4ed447f1912dc59c5b64638bb48a856e817057052cfe89",
+  "audibleAcceptance": "NOT_TESTED",
+  "nativePrefabLoad": "NOT_TESTED",
+  "drivetrainChanged": false,
+  "cannonChanged": false
+}

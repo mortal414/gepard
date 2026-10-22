@@ -1,0 +1,21 @@
+{
+  "files": {
+    "AUTHORING-RESULT.json": "1543435e273be95c291362525d47555813ec7f55acc46e23a69c66baf34a330a",
+    "CABIN-PAIR-02.json": "f095287e30e019c61c9913216c1fe4987b7643534d1616d4af989ebb1226f15d",
+    "candidate-cabin-5m-REVIEW.json": "da095ff951db62ad5ffd9d677d3a5e259ea5f6e59c551cf4d1976ebdc98d39a1",
+    "candidate-exterior-native-camera-REVIEW.json": "eb192afbf8037820ea55ee95b30118fb08993085c562f55357f5610ac1fec8e5",
+    "EXTERIOR-PAIR-01.json": "e95cb91593aa0d3256773bc2865a448828a106d3b835b76f06e2849ab5b1d5a1",
+    "GRAPH-PRESERVATION.json": "4ac3bb93b26c6556fe895a6bc04c68b089a5f7d542fdbbee4be728faff375e3f",
+    "PREVIOUS-ACCEPTANCE-MATRIX.json": "7ebb2e78a29edc74d7294edcccdb71aa21177bffffd482463ec7dc337f383a97",
+    "PREVIOUS-STATUS-PER-GEP.json": "738bf4f687d9a62a91ffc81c2648a32fd7dea686a5a97c3e02012e78883cf88d",
+    "README.md": "437cf24a6141245fb9d15f786d1301478abc7fc55efed8e3b5794694f714e036",
+    "RESULT.json": "919597a90bb00725d2a13b36caec79f79f35f29fe393ff5a994d685e30f83985",
+    "stock-cabin-5m-REVIEW.json": "7b531c73772ada56909ae6aba6cd8378c10f875a24fd4f844b1c6f985a770e02",
+    "stock-exterior-native-camera-REVIEW.json": "c95427e933f4358a92fed5ae5f110fdb1bb4787af4de8da91dd7e126635e5142",
+    "USER-AUDITION-LAUNCHER.json": "7d1967746ce8990aaea0fe8fdcb060dfbbee978cfe87b542cca5495abc3ff295",
+    "USER-AUDITION-PLAN-ONLY.json": "e20644e845bac6099822e260f0c1ff68279d91cf7d000e661ac59e5f38d595b7"
+  },
+  "Demo09ProtectedFilesUnchanged": 12,
+  "updatedUtc": "2026-10-22T14:07:07.951683+00:00",
+  "published": false
+}

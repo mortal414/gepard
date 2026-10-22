@@ -1,0 +1,141 @@
+{
+  "status": "NATIVE_AUTHORING_AND_MATCHED_MOTION_VERIFIED_AUDIBLE_FEATURE_NOT_TESTED",
+  "updatedUtc": "2026-10-22T14:03:58.177949+00:00",
+  "GEP": "GEP-033",
+  "ownerPermission": "Resolved: exact previously requested authoring bundle approved13:20UTC; Yes to All invoked once for pinned script. No unrelated security setting changed.",
+  "sourceSupplierCommit": "04110881b85f63e871d4bc342e66f75de55e0c17",
+  "authorRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\stock-roll-author-02",
+  "authoringExit": {
+    "exitCodeReadSucceeded": true,
+    "exitCode": 0,
+    "forceTermination": false,
+    "authoringComplete": true,
+    "approvalGranted": true,
+    "verifiedExited": true,
+    "closeMethod": "owned-normal-window-close-after-approved-authoring-terminal",
+    "utc": "2026-10-22T13:25:34.3807377Z",
+    "audibleAcceptance": "NOT_TESTED",
+    "leaseReleased": true
+  },
+  "baselineCandidateGraphChanges": "Exactly8sample Filename substitutions per side; complete native token equality otherwise verified",
+  "validatedAdditiveFiles": 6,
+  "additiveZip": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\stock-roll-candidate\\TRACK-ROLLING033-ADDITIVE-6FILES.zip",
+    "sha256": "4072c071cf29f8bcf09315649b9f8147f47ba262a13cd1b04c0c7dbac38abc57"
+  },
+  "passes": {
+    "stock-cabin-5m": {
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-cabin-5m-01",
+      "recordingDirectory": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-cabin-5m-01",
+      "nativeExit": {
+        "closeMethod": "owned-normal-window-close",
+        "cancelRequested": false,
+        "utc": "2026-10-22T13:46:20.8785911Z",
+        "leaseReleased": true,
+        "exitCode": 0,
+        "nativeTerminalSeen": true,
+        "verifiedExited": true
+      },
+      "sourceConsoleSHA256": "ce7b52cfd325d9fe6229ebea5c4c7ff56be9c7105db67bea0537587a5ff43948",
+      "wavSHA256": "a261af4542d8532956afbe0cf28230b033ea7264d58b315467ba39cdf55baee1",
+      "motionChecks": 25,
+      "completionGuard": true,
+      "samples": 256,
+      "strictNativeErrors": 57,
+      "strictVerdict": "FAIL",
+      "subjectiveAudioAcceptance": "NOT_TESTED"
+    },
+    "candidate-cabin-5m": {
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-candidate-cabin-5m-01",
+      "recordingDirectory": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\candidate-cabin-5m-01",
+      "nativeExit": {
+        "verifiedExited": true,
+        "closeMethod": "owned-normal-window-close",
+        "utc": "2026-10-22T13:49:20.4359826Z",
+        "nativeTerminalSeen": true,
+        "cancelRequested": false,
+        "exitCode": 0,
+        "leaseReleased": true
+      },
+      "sourceConsoleSHA256": "256b72931523ba32f0f71871a1df815c98e05b6fe0adf18ca888aa8e81aae502",
+      "wavSHA256": "70af628b3796e7739410054921b9cb3ec51c9909f81b7af231a89d28b96aa258",
+      "motionChecks": 25,
+      "completionGuard": true,
+      "samples": 256,
+      "strictNativeErrors": 57,
+      "strictVerdict": "FAIL",
+      "subjectiveAudioAcceptance": "NOT_TESTED"
+    },
+    "stock-exterior-native-camera": {
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-exterior-native-camera-01",
+      "recordingDirectory": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01",
+      "nativeExit": {
+        "utc": "2026-10-22T13:55:38.2165910Z",
+        "exitCode": 0,
+        "cancelRequested": false,
+        "closeMethod": "owned-normal-window-close",
+        "leaseReleased": true,
+        "verifiedExited": true,
+        "nativeTerminalSeen": true
+      },
+      "sourceConsoleSHA256": "adaa7d1972ad8063b312dea9ac712f07dcdff0ad1deb4b899de67ab784f92e70",
+      "wavSHA256": "a305c2b7de724a6834f935dc7f6e308cf7ad2dec6dbb138d576e0060c9aafd42",
+      "motionChecks": 25,
+      "completionGuard": true,
+      "samples": 256,
+      "strictNativeErrors": 57,
+      "strictVerdict": "FAIL",
+      "subjectiveAudioAcceptance": "NOT_TESTED"
+    },
+    "candidate-exterior-native-camera": {
+      "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-candidate-exterior-native-camera-01",
+      "recordingDirectory": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\candidate-exterior-native-camera-01",
+      "nativeExit": {
+        "verifiedExited": true,
+        "cancelRequested": false,
+        "closeMethod": "owned-normal-window-close",
+        "leaseReleased": true,
+        "nativeTerminalSeen": true,
+        "exitCode": 0,
+        "utc": "2026-10-22T13:58:00.3034963Z"
+      },
+      "sourceConsoleSHA256": "268327dcb6d02c38990ef02ea8b797bbd940be71d15f334bedf24b5b6b00c51a",
+      "wavSHA256": "95b0c67f48efb9d3f8c22ae8407a5bedfad2494d12766a5414285f8671570b51",
+      "motionChecks": 25,
+      "completionGuard": true,
+      "samples": 256,
+      "strictNativeErrors": 57,
+      "strictVerdict": "FAIL",
+      "subjectiveAudioAcceptance": "NOT_TESTED"
+    }
+  },
+  "comparisons": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\listening-comparisons\\MANIFEST.json",
+  "failedFixturePreserved": {
+    "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-exterior-5m-01",
+    "reason": "Selecting free observer camera disabled CarContext and stock motion. Later supported native third-person successor restored actual input/motion. This does not demonstrate an audio implementation failure."
+  },
+  "actualExteriorCameraSubjectDistanceMeters": {
+    "stockRange": [
+      5.30296,
+      5.67757
+    ],
+    "candidateRange": [
+      5.30739,
+      5.67739
+    ],
+    "meaning": "Native camera to subject origin, not independent wheel-emitter distance."
+  },
+  "inDemo09": false,
+  "Demo09ProtectedFilesUnchanged": 12,
+  "modelAudioInput": "UNAVAILABLE: tool explicitly omitted audio content because model does not support audio input. Waveforms and source/log identities cannot substitute for hearing the feature.",
+  "remainingGates": [
+    "Human confirmation that track-specific motion layer is actually audible, natural and speed-linked, with no clicks/doubling/stop tails",
+    "Actual30/100m and out-of-range/return playback",
+    "Exit/reentry and delete/reset/respawn loop lifecycle",
+    "Engine and unchanged stock cannon sound balance under actual firing",
+    "Source-current V11/smoke integration and package verification only after audible mechanism qualifies"
+  ],
+  "wholeFeatureAcceptance": "NOT_TESTED",
+  "newGepCheckboxes": 0,
+  "published": false
+}

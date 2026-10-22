@@ -218,11 +218,17 @@
       "id": "A12-trackaudio",
       "criterion": "Conditionalonly:understoodselectiverollinggraph;actualaudible speed/coast/stop/idle behavior,retainedskid/dampers/lifecycle;qualityjudgmentseparate.",
       "outcome": "not tested",
-      "evidence": [],
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\audio033-author02-20261022\\RESULT.json"
+      ],
       "manualJudgment": "Pending for whole criterion where stated; narrow observations do not mark a GEP task complete.",
-      "observedSubcriteria": "Excluded. Stock graph trace and authoring compile retained; bounded authoring approval remains pending. No audible implementation/playback acceptance; earlier protected-read/authoring declines retained separately.",
+      "observedSubcriteria": "Authoring permission resolved. Full native graph preservation verified; both cabin and native exterior stock/candidate recorded with256samples and26 motion/completion checks per case. Each retains57rawE/F and strictFAIL. Audible identity/quality not established by model or metrics; no whole feature acceptance.",
       "remainingGates": [
-        "Authoring approval and audible implementation"
+        "Human confirmation that track-specific motion layer is actually audible, natural and speed-linked, with no clicks/doubling/stop tails",
+        "Actual30/100m and out-of-range/return playback",
+        "Exit/reentry and delete/reset/respawn loop lifecycle",
+        "Engine and unchanged stock cannon sound balance under actual firing",
+        "Source-current V11/smoke integration and package verification only after audible mechanism qualifies"
       ]
     },
     {
@@ -260,7 +266,7 @@
   ],
   "sourceEvidenceIsNotBehaviorPass": true,
   "excluded": [
-    "New track audio: separate authoring permission pending; no audible implementation included",
+    "New track audio remains separate from Demo09; permission resolved and candidate recorded; audible mechanism/quality,far-distance,lifecycle and balance unqualified",
     "Stabilization and ballistic correction remain disabled/deferred",
     "Custom cannon audio",
     "Isfahan",
@@ -344,7 +350,7 @@
       }
     }
   },
-  "updatedUtc": "2026-10-22T12:46:40.291179+00:00",
+  "updatedUtc": "2026-10-22T14:03:58.177949+00:00",
   "nativeCheckpoints": {
     "ordinarySource": "private-demo-source-v6; actual compile06 PASS",
     "packages": "pack08 operational PASS; strict100 errors retained; installed08 two verified trios",
@@ -471,7 +477,7 @@
       }
     },
     "smoke": "Excluded from stable08. Documentation-only provenance mismatch reconciled without source change. Actual smoke-angle-03: one payload/ammo8\u21927;49position samples show49.587m travel and42.271m horizontal displacement; normal exit0/released. Narrow launch/flight PASS; strict case FAIL57 preserved. Capture intentionally off: cloud/fuse/coverage/alignment/full-empty/rearm/roles/dependency compatibility remain unqualified. No active smoke permission denial.",
-    "audio": "Separate boundedauthoring approval pending; excluded",
+    "audio": "Author02nativeexport/import and4matched motion/camera recordings complete; subjective listening/far/lifecycle pending. No unresolved authoring permission. Excluded from Demo09.",
     "diagnosticSeverity08": "Source audit: GUI1+stock catalog WORLD7; shutdown SCRIPT2; postdestroy RESOURCES49. Four pack tails25each exact released1.0.2 signatures. No demonstrated live demo blocker; strictFAIL59/100 unchanged.",
     "smokeVisual04": {
       "status": "ISOLATED_SINGLE_PAYLOAD_VISIBLE_CLOUD_OBSERVED_EXCLUDED_FROM_PACKAGE08",

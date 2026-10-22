@@ -11,3 +11,6 @@
 - [All earlier index entries](qa/consolidated-20261022/ledger-history/playable-demo09/EVIDENCE-INDEX.md)
 
 No compilation or package/startup result is whole gameplay acceptance. Audio authoring remains pending its separate permission; no publication occurred.
+
+
+GEP033 after Demo09: [authoring, structural and matched-motion checkpoint](qa/consolidated-20261022/audio033-author02-20261022/README.md). Authoring permission is resolved; audible feature acceptance remains NOT_TESTED and audio remains separate from Demo09.

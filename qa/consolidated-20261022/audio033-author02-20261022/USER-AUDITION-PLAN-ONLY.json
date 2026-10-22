@@ -1,0 +1,22 @@
+{
+  "status": "SOURCE_MATCHED_AUTOMATIC_AUDITION_PLAN_ONLY",
+  "variant": "candidate",
+  "view": "exterior",
+  "nativeJob": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\repeatable-audition-plans\\41c4169f-f7b7-45b3-b989-8cb78bb42deb\\native-job.json",
+  "command": [
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\sprint-tools\\record_owned_audio_pass.py",
+    "--command",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\repeatable-audition-plans\\41c4169f-f7b7-45b3-b989-8cb78bb42deb\\command.json",
+    "--output",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\user-candidate-exterior-native-camera-41c4169f-f7b7-45b3-b989-8cb78bb42deb",
+    "--execute"
+  ],
+  "recording": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\user-candidate-exterior-native-camera-41c4169f-f7b7-45b3-b989-8cb78bb42deb",
+  "nativeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-listening-candidate-exterior-native-camera-41c4169f-f7b7-45b3-b989-8cb78bb42deb",
+  "duration": "Automatic course68.2worldseconds after startup/settling; native wrapper ceiling120wallseconds, normal-close grace15seconds. This is timed automation, not an untimed manual game.",
+  "next": "Listen only; do not steer during the automatic course. Native wrapper refuses an active game/Workbench or user hold.",
+  "Demo09Changed": false,
+  "nativeLaunched": false,
+  "audioAccepted": false
+}

@@ -1,0 +1,567 @@
+{
+  "status": "ACTUAL_MOTION_DIAGNOSTICS_PASS_AUDIO_JUDGMENT_PENDING",
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\track-audition-stock-exterior-native-camera-01",
+  "nativeJob": {
+    "schema": 1,
+    "stimulus": "none",
+    "resource": "",
+    "position": "600 0.7 2600",
+    "targetLocal": "1.050971 2.3 -0.14",
+    "incoming": "1 0 0",
+    "range": 25,
+    "standoff": 2,
+    "settleSeconds": 10,
+    "sampleSeconds": 3,
+    "maxGameSeconds": 110,
+    "shotCount": 1,
+    "shotInterval": 0.3,
+    "requestScriptedEgress": false,
+    "crewRole": "driver",
+    "seedRequest": -1,
+    "capture": true,
+    "caseId": "v11-wheeled-course",
+    "vehicleId": "audio-stock",
+    "prefab": "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et",
+    "runId": "e1124510-209f-4995-bb52-6b4d95b9a963",
+    "nonce": "70c4427f2dcbafa5f5a3b25d228370561eaa33892bfba1bb7e288b4c179e3409",
+    "audioView": "exterior",
+    "audioDistanceMeters": 0
+  },
+  "nativeExit": {
+    "utc": "2026-10-22T13:55:38.2165910Z",
+    "exitCode": 0,
+    "cancelRequested": false,
+    "closeMethod": "owned-normal-window-close",
+    "leaseReleased": true,
+    "verifiedExited": true,
+    "nativeTerminalSeen": true
+  },
+  "protocol": {
+    "readyCount": 1,
+    "doneCount": 1,
+    "rowsAfterFirstDone": 0,
+    "firstDone": {
+      "case": "v11-wheeled-course",
+      "nonce": "70c4427f2dcbafa5f5a3b25d228370561eaa33892bfba1bb7e288b4c179e3409",
+      "samples": "256",
+      "completed": "1",
+      "reason": "wheeled_course_samples_collected_review_required",
+      "physical": "0",
+      "thresholdAcceptance": "NOT_TESTED"
+    },
+    "sampleCountBeforeDone": 256
+  },
+  "motionChecks": [
+    {
+      "name": "timeScale.control.assistance",
+      "status": "PASS",
+      "actual": {
+        "timeScales": [
+          1.0
+        ],
+        "assistance": [
+          "2"
+        ]
+      },
+      "contract": "timeScale exactly1, controlled seated alive, unchanged assistance"
+    },
+    {
+      "name": "sample.cadence",
+      "status": "PASS",
+      "actual": {
+        "maximumGapSeconds": 0.26810000000000583
+      },
+      "contract": "monotonic world time, gaps at most1s"
+    },
+    {
+      "name": "forward_default.coverage",
+      "status": "PASS",
+      "actual": 45,
+      "contract": "at least6 complete samples per measured phase"
+    },
+    {
+      "name": "service_brake.coverage",
+      "status": "PASS",
+      "actual": 15,
+      "contract": "at least6 complete samples per measured phase"
+    },
+    {
+      "name": "reverse.coverage",
+      "status": "PASS",
+      "actual": 30,
+      "contract": "at least6 complete samples per measured phase"
+    },
+    {
+      "name": "left.coverage",
+      "status": "PASS",
+      "actual": 19,
+      "contract": "at least6 complete samples per measured phase"
+    },
+    {
+      "name": "right.coverage",
+      "status": "PASS",
+      "actual": 19,
+      "contract": "at least6 complete samples per measured phase"
+    },
+    {
+      "name": "final_service_brake.coverage",
+      "status": "PASS",
+      "actual": 15,
+      "contract": "at least6 complete samples per measured phase"
+    },
+    {
+      "name": "public_stop_observe.coverage",
+      "status": "PASS",
+      "actual": 11,
+      "contract": "at least6 complete samples per measured phase"
+    },
+    {
+      "name": "forward_default.powered-contact",
+      "status": "PASS",
+      "actual": {
+        "eligible": 44,
+        "samples": 45,
+        "maxContinuousSeconds": 5.8665
+      },
+      "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+    },
+    {
+      "name": "forward_default.signed-motion",
+      "status": "PASS",
+      "actual": {
+        "samples": 45,
+        "seconds": 11.733699999999997,
+        "signedDisplacementMeters": 76.78000031112227,
+        "pathMeters": 76.79121276994033,
+        "maxSpeedMetersPerSecond": 11.13522078023714,
+        "minContacts": 8,
+        "yawRadians": 0.03827082914686369,
+        "terminalSpeedMetersPerSecond": 11.13522078023714
+      },
+      "contract": "signed displacement at least1m along frozen phase-start facing, heading change<=15degrees"
+    },
+    {
+      "name": "forward_default.powered-motion-interval",
+      "status": "PASS",
+      "actual": {
+        "qualifyingIntervals": 2
+      },
+      "contract": "continuous actual powered contact interval>=.5s with signed motion>=1m within that same interval"
+    },
+    {
+      "name": "reverse.powered-contact",
+      "status": "PASS",
+      "actual": {
+        "eligible": 25,
+        "samples": 30,
+        "maxContinuousSeconds": 6.400599999999999
+      },
+      "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+    },
+    {
+      "name": "reverse.signed-motion",
+      "status": "PASS",
+      "actual": {
+        "samples": 30,
+        "seconds": 7.7335,
+        "signedDisplacementMeters": -18.719634303960035,
+        "pathMeters": 18.736008852452795,
+        "maxSpeedMetersPerSecond": 2.8195933622129172,
+        "minContacts": 8,
+        "yawRadians": -0.002591488246678247,
+        "terminalSpeedMetersPerSecond": 2.819342677314848
+      },
+      "contract": "signed displacement at least1m along frozen phase-start facing, heading change<=15degrees"
+    },
+    {
+      "name": "reverse.powered-motion-interval",
+      "status": "PASS",
+      "actual": {
+        "qualifyingIntervals": 1
+      },
+      "contract": "continuous actual powered contact interval>=.5s with signed motion>=1m within that same interval"
+    },
+    {
+      "name": "left.powered-contact",
+      "status": "PASS",
+      "actual": {
+        "eligible": 17,
+        "samples": 19,
+        "maxContinuousSeconds": 2.4001999999999972
+      },
+      "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+    },
+    {
+      "name": "left.powered-turn",
+      "status": "PASS",
+      "actual": {
+        "qualifyingIntervals": 2,
+        "yawRadians": 1.0041028578744025
+      },
+      "contract": "powered contact interval>=.5s, path>=.5m, absolute yaw>=.1rad; opposed measured signs checked separately, physical left/right convention unqualified"
+    },
+    {
+      "name": "left.moving-radius",
+      "status": "PASS",
+      "actual": {
+        "qualifiedSamples": 16
+      },
+      "contract": "horizontal speed>=.25m/s and |native yawRate|>=.01rad/s; radius is observed speed/|yawRate|, not tuning acceptance"
+    },
+    {
+      "name": "right.powered-contact",
+      "status": "PASS",
+      "actual": {
+        "eligible": 19,
+        "samples": 19,
+        "maxContinuousSeconds": 4.799699999999997
+      },
+      "contract": "at least half phase samples engineon/rpm>=500/load>.05/actual native driving and steering action/all8 real wheel contacts on this flat course"
+    },
+    {
+      "name": "right.powered-turn",
+      "status": "PASS",
+      "actual": {
+        "qualifyingIntervals": 1,
+        "yawRadians": -2.0456679876915658
+      },
+      "contract": "powered contact interval>=.5s, path>=.5m, absolute yaw>=.1rad; opposed measured signs checked separately, physical left/right convention unqualified"
+    },
+    {
+      "name": "right.moving-radius",
+      "status": "PASS",
+      "actual": {
+        "qualifiedSamples": 19
+      },
+      "contract": "horizontal speed>=.25m/s and |native yawRate|>=.01rad/s; radius is observed speed/|yawRate|, not tuning acceptance"
+    },
+    {
+      "name": "opposed-measured-turn-yaw",
+      "status": "PASS",
+      "actual": [
+        1.0041028578744025,
+        -2.0456679876915658
+      ],
+      "contract": "two commanded turn phases produce opposite measured yaw signs, each>=.1rad; no assumed native steering-axis sign"
+    },
+    {
+      "name": "service_brake.action-to-stop",
+      "status": "PASS",
+      "actual": {
+        "movingNativeBrakeActionObserved": true,
+        "terminalSpeed": 0.0
+      },
+      "contract": "actual native brake action overlaps motion/contact and ends speed<=.25m/s; getter units/tuning not inferred"
+    },
+    {
+      "name": "final_service_brake.action-to-stop",
+      "status": "PASS",
+      "actual": {
+        "movingNativeBrakeActionObserved": true,
+        "terminalSpeed": 0.0
+      },
+      "contract": "actual native brake action overlaps motion/contact and ends speed<=.25m/s; getter units/tuning not inferred"
+    },
+    {
+      "name": "grounded-terminal-stop-dwell",
+      "status": "PASS",
+      "actual": {
+        "qualifyingIntervals": 1,
+        "maximumDwellSeconds": 2.6662000000000114
+      },
+      "contract": "terminal phase real contacts,3Dspeed<=.25m/s,drift<=.1m for>=1.5worldseconds"
+    }
+  ],
+  "phaseSummaries": {
+    "forward_default": {
+      "samples": 45,
+      "seconds": 11.733699999999997,
+      "signedDisplacementMeters": 76.78000031112227,
+      "pathMeters": 76.79121276994033,
+      "maxSpeedMetersPerSecond": 11.13522078023714,
+      "minContacts": 8,
+      "yawRadians": 0.03827082914686369,
+      "terminalSpeedMetersPerSecond": 11.13522078023714
+    },
+    "reverse": {
+      "samples": 30,
+      "seconds": 7.7335,
+      "signedDisplacementMeters": -18.719634303960035,
+      "pathMeters": 18.736008852452795,
+      "maxSpeedMetersPerSecond": 2.8195933622129172,
+      "minContacts": 8,
+      "yawRadians": -0.002591488246678247,
+      "terminalSpeedMetersPerSecond": 2.819342677314848
+    },
+    "left": {
+      "samples": 19,
+      "seconds": 4.800299999999996,
+      "signedDisplacementMeters": 7.883057706586982,
+      "pathMeters": 9.621574345397395,
+      "maxSpeedMetersPerSecond": 3.3260693589968,
+      "minContacts": 8,
+      "yawRadians": 1.0041028578744025,
+      "terminalSpeedMetersPerSecond": 3.3260693589968,
+      "radiusEstimatesMeters": [
+        9.06258195664498,
+        9.537963528359244,
+        9.345883191297473,
+        9.669312221652866,
+        9.583332918104817,
+        9.499499469128006,
+        9.37178793938335,
+        9.05374421992418,
+        9.101651511766965,
+        9.11507759563836,
+        9.250464631769606,
+        9.226627503368917,
+        9.430824661030835,
+        9.188098537347413,
+        9.072674712359047,
+        9.051366040372827
+      ]
+    },
+    "right": {
+      "samples": 19,
+      "seconds": 4.799699999999997,
+      "signedDisplacementMeters": 8.224835074394665,
+      "pathMeters": 18.75208554469527,
+      "maxSpeedMetersPerSecond": 5.0491989384194405,
+      "minContacts": 8,
+      "yawRadians": -2.0456679876915658,
+      "terminalSpeedMetersPerSecond": 5.0491989384194405,
+      "radiusEstimatesMeters": [
+        10.41237262626807,
+        8.915662103561203,
+        9.156408368620461,
+        9.143732928070355,
+        9.08222895275718,
+        9.111403598348515,
+        8.936924312847577,
+        9.198795878189545,
+        9.144914141680445,
+        9.157794152844346,
+        9.405395607631842,
+        9.616131023769267,
+        8.7556607728523,
+        9.029376677833707,
+        9.776719893995063,
+        9.583488824382803,
+        9.338769151776278,
+        9.410104712519514,
+        9.045132168627669
+      ]
+    },
+    "service_brake": {
+      "samples": 15,
+      "seconds": 3.732199999999997,
+      "signedDisplacementMeters": 3.5373944605997467,
+      "pathMeters": 3.539776481089456,
+      "maxSpeedMetersPerSecond": 9.401032518188043,
+      "minContacts": 8,
+      "yawRadians": -0.05935979805570165,
+      "terminalSpeedMetersPerSecond": 0.0
+    },
+    "final_service_brake": {
+      "samples": 15,
+      "seconds": 3.732800000000003,
+      "signedDisplacementMeters": 0.10040407800001397,
+      "pathMeters": 0.11857641454991949,
+      "maxSpeedMetersPerSecond": 0.7957542615273953,
+      "minContacts": 7,
+      "yawRadians": -0.033145845073575354,
+      "terminalSpeedMetersPerSecond": 0.0
+    },
+    "public_stop_observe": {
+      "samples": 11,
+      "seconds": 2.6662000000000114,
+      "signedDisplacementMeters": 0.0,
+      "pathMeters": 0.0,
+      "maxSpeedMetersPerSecond": 0.0,
+      "minContacts": 8,
+      "yawRadians": 0.0,
+      "terminalSpeedMetersPerSecond": 0.0
+    }
+  },
+  "consoleSHA256": "adaa7d1972ad8063b312dea9ac712f07dcdff0ad1deb4b899de67ab784f92e70",
+  "wavSHA256": "a305c2b7de724a6834f935dc7f6e308cf7ad2dec6dbb138d576e0060c9aafd42",
+  "audioRate": 48000,
+  "audioDuration": 92.1,
+  "phaseClips": {
+    "public_start_observe": {
+      "startSeconds": 26.959,
+      "endSeconds": 30.427,
+      "samples": 14,
+      "medianBodySpeedMps": 0.0,
+      "speedRangeMps": [
+        0.0,
+        3.26007
+      ],
+      "RMS": 0.004021161272507467,
+      "peak": 0.02703857421875,
+      "clip": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\clips\\public_start_observe.wav",
+      "clipSHA256": "acfe7b396c68e567298b5529aab460990ebc34526a63246def8406c0c08e56b6",
+      "noGainChange": true
+    },
+    "forward_default": {
+      "startSeconds": 30.961,
+      "endSeconds": 42.694,
+      "samples": 45,
+      "medianBodySpeedMps": 7.280970304671193,
+      "speedRangeMps": [
+        0.00019391100000021931,
+        11.13522078023714
+      ],
+      "RMS": 0.01351858123652588,
+      "peak": 0.056640625,
+      "clip": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\clips\\forward_default.wav",
+      "clipSHA256": "9775badd82d866fb111d74a00ed4c0443e56ad8e224249125645035a6fdeeaf7",
+      "noGainChange": true
+    },
+    "service_brake": {
+      "startSeconds": 42.959,
+      "endSeconds": 46.693,
+      "samples": 15,
+      "medianBodySpeedMps": 0.01137385876061137,
+      "speedRangeMps": [
+        0.0,
+        9.401032518188043
+      ],
+      "RMS": 0.005955321301187248,
+      "peak": 0.0399169921875,
+      "clip": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\clips\\service_brake.wav",
+      "clipSHA256": "8d9bf7c0eca2a61c1da329e441554e3fa2ea40cd960f1d53f25692906fa75332",
+      "noGainChange": true
+    },
+    "reverse": {
+      "startSeconds": 49.094,
+      "endSeconds": 56.827,
+      "samples": 30,
+      "medianBodySpeedMps": 2.751831471005344,
+      "speedRangeMps": [
+        0.0,
+        2.8195933622129172
+      ],
+      "RMS": 0.01411763248171813,
+      "peak": 0.05694580078125,
+      "clip": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\clips\\reverse.wav",
+      "clipSHA256": "3290bcf382806e70a9c2bc1fe8bf8333902ba15007df9e9547f19ef38d54c822",
+      "noGainChange": true
+    },
+    "left": {
+      "startSeconds": 58.961,
+      "endSeconds": 63.761,
+      "samples": 19,
+      "medianBodySpeedMps": 2.352289501772011,
+      "speedRangeMps": [
+        0.012107919474126884,
+        3.3260693589968
+      ],
+      "RMS": 0.01111958305106309,
+      "peak": 0.040740966796875,
+      "clip": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\clips\\left.wav",
+      "clipSHA256": "47b46ac3c1fb801e512c85618b2786f31733340ad9979530584c2442f07d6ae2",
+      "noGainChange": true
+    },
+    "right": {
+      "startSeconds": 64.027,
+      "endSeconds": 68.827,
+      "samples": 19,
+      "medianBodySpeedMps": 3.805416748805299,
+      "speedRangeMps": [
+        3.1698093190807564,
+        5.0491989384194405
+      ],
+      "RMS": 0.011663334256789181,
+      "peak": 0.042266845703125,
+      "clip": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\clips\\right.wav",
+      "clipSHA256": "e638fd13f6bd9db3bbe96158222c0feec2b2991e061225e5ea5f52fff57da5a0",
+      "noGainChange": true
+    },
+    "public_stop_observe": {
+      "startSeconds": 88.027,
+      "endSeconds": 90.693,
+      "samples": 11,
+      "medianBodySpeedMps": 0.0,
+      "speedRangeMps": [
+        0.0,
+        0.0
+      ],
+      "RMS": 0.0002786546594657233,
+      "peak": 0.00128173828125,
+      "clip": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-Audio-Authorized-Author02-20261022\\recordings\\stock-exterior-native-camera-01\\clips\\public_stop_observe.wav",
+      "clipSHA256": "1745b727af9e130e90850bc5937a9d19f1802cad71f8a789e9714950b5df9414",
+      "noGainChange": true
+    }
+  },
+  "selectedCameraRows": 256,
+  "allReportedSelected": true,
+  "strictNativeErrors": 57,
+  "strictVerdict": "FAIL",
+  "strictErrors": [
+    "08:54:10.005   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+    "08:54:12.038           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+    "08:54:12.137           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+    "08:54:12.137           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+    "08:54:12.138           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+    "08:54:12.138           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+    "08:54:12.138           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+    "08:54:12.138           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+    "08:55:37.917 RESOURCES (E): ==== Resource leaks ====",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/debugUI.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1",
+    "08:55:37.917 RESOURCES (E): UI/Imagesets/default.edds   1",
+    "08:55:37.917 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+  ],
+  "audioTimeMapping": "Windows local-time console timestamps converted using host DST rules to UTC and recorder UTC; same world samples linked by nonce/sample. Frame/loopback scheduling uncertainty remains; no subframe synchronization claimed.",
+  "subjectiveTrackCharacter": "NOT_TESTED",
+  "cabinExteriorMix": "Needs direct native pixel/audio review; view labels alone do not qualify",
+  "distanceMeaning": "Camera-to-subject-origin only; independent emitter matrices not measured",
+  "gain": "No normalization/EQ/settings changes",
+  "physicalControls": "NOT_TESTED",
+  "MPJIP": "NOT_TESTED"
+}
