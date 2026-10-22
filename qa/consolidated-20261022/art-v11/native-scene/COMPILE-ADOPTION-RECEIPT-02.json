@@ -1,0 +1,27 @@
+{
+  "status": "SUCCESSFUL_NATIVE_COMPILE_CURRENT_CLOSURES_REVIEWED",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-art-native-02",
+  "compilerResultSHA256": "0d0893b21c0f4c2b884d1b4d5ed78c718a23b678031aa91997293952d2f3c0c4",
+  "compilerConsoleSHA256": "28986b79dcdc50f82f815519267c66a10e1768eefb0f4b7f7d78d18ffe62cef6",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\artNativeQA\\GEPArtNativeSceneQA.gproj",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\native-scene\\GEPARD-MANIFEST.json",
+      "sha256": "1bc770fdfd425ca6e94a8091e994c44d97d20f1687b4bbf6f874d3de5dc7623c",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\artNativeQA",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\native-scene\\ARTQA-MANIFEST.json",
+      "sha256": "a0d26b6d0078d37ec093ac2328a6039e2a44442a8008888e11e412a6b07e7ebc",
+      "files": 7
+    }
+  ],
+  "generatedChangesAfterCompile": {
+    "gepard": [],
+    "artNativeQA": []
+  },
+  "nativeGameplay": "NOT_TESTED",
+  "sourceCodeChangedDuringCompile": false
+}

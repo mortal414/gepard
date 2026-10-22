@@ -1,0 +1,7 @@
+{
+  "status": "SOURCE_SUCCESSOR_ONLY_NATIVE_STAGE_FROZEN",
+  "repair": "Reset supply initialization matches original Ammo/Repair/DamageAmmo providers; no invented Fuel or wrench supply backing",
+  "newDirectorSHA256": "50649e009b4171b7df8bb499472367567d8d4bfa8e4e98e241f63aae8eab3ef7",
+  "nativeReset": "NOT_TESTED",
+  "nativeCompile": "PENDING_SECURITY_SLOT"
+}

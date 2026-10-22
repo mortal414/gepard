@@ -1,0 +1,27 @@
+{
+  "status": "SUCCESSFUL_NATIVE_COMPILE_CURRENT_CLOSURES_REVIEWED",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-hud-native-02",
+  "compilerResultSHA256": "dfdcf237540a7a5e6e69bd7ee6fb78102dcb4eec891eb7921f265d987f6dd883",
+  "compilerConsoleSHA256": "ac0be71cab0f8b66a0f00a056c3f59330f85e0c689f020980fe265216b406aa8",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\hudQA\\GEP_ApprovedHUD705_QA.gproj",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-native\\GEPARD-MANIFEST.json",
+      "sha256": "1bc770fdfd425ca6e94a8091e994c44d97d20f1687b4bbf6f874d3de5dc7623c",
+      "files": 1152
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\hudQA",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\hud-native\\HUDQA-MANIFEST.json",
+      "sha256": "5b97af9ddbcc28af7100eb96a7ea7e772e62b714b9b1b021e4e02f06b6ea47dc",
+      "files": 10
+    }
+  ],
+  "generatedChangesAfterCompile": {
+    "gepard": [],
+    "hudQA": []
+  },
+  "nativeGameplay": "NOT_TESTED",
+  "sourceCodeChangedDuringCompile": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "AUTOMATED_BOUNDED_SURVIVING_CREW_PASS",
+  "updatedUtc": "2026-10-22T03:59:48.882687+00:00",
+  "proofs": [
+    {
+      "appearance": "camo",
+      "summary": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\core-fragment-camo-02\\summary.json",
+      "summarySHA256": "03ed44cb3f8b0b74a036e7b81ce847a9d9d30cc220f5b4f32b4b22e2024c69e7",
+      "exit": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\core-fragment-camo-02\\v11-fragment-survivor-v11-camo\\native-run\\exit.json"
+    },
+    {
+      "appearance": "charcoal",
+      "summary": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\core-fragment-charcoal-01\\summary.json",
+      "summarySHA256": "c43c1f1a551bfcb33a3c824a3af26d9d6d9cdcaae020b7e28acfe8401243ea57",
+      "exit": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\core-fragment-charcoal-01\\v11-fragment-survivor-v11-charcoal\\native-run\\exit.json"
+    }
+  ],
+  "limits": "Native 2m fragment stimulus and surviving original crew only; no realistic armor or universal survival claim; physical controls and human judgment separate."
+}

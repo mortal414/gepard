@@ -76,9 +76,11 @@
     {
       "id": "A10-survivingcrew",
       "criterion": "Nearbyexplosion withactualdamage/survivorstate followedby exit/reentry/traverse/refire;no claimrealisticprotectionfromone matrix.",
-      "outcome": "not tested",
-      "evidence": [],
-      "manualJudgment": "separate where needed"
+      "outcome": "automated pass",
+      "evidence": [
+        "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-native\\FRAGMENT-PAIR-REVIEWED.json"
+      ],
+      "manualJudgment": "Physical user experience remains separately pending; bounded native criterion observed in both skins."
     },
     {
       "id": "A11-smoke",
@@ -125,7 +127,7 @@
     "startup-core-01": "CENSORED_ADAPTER_LEASE_READ_RACE;GPG_READY32RESOURCEFAILURE0;OWNED_NORMAL_EXIT0",
     "compile-stock-roll-01": "FAILED_PROBE_ATTRIBUTE_GRAPH;TRACE_NOT_RUN"
   },
-  "updatedUtc": "2026-10-22T02:46:06.373421+00:00",
+  "updatedUtc": "2026-10-22T03:59:48.882687+00:00",
   "nativeCheckpoints": {
     "coreCompile": "compile-core-02 PASS; compile-core-qa-02 PASS isolatedfixtures",
     "smokeCompile": "compile-smoke-single-03 PASS afterprivateQAonlyrepairs",
@@ -133,6 +135,10 @@
     "artQACompile": "compile-art-native-01 PASS",
     "startup": "startup-core-02 telemetry/lifecyclepass;strict7WORLDerrorsFAIL;all7matchreleasedstockresourcechains retainedlegacyreport",
     "smokeRuntime": "smoke-mechanism-01 IN_PROGRESS",
-    "audioCompile": "compile-stock-roll-01 FAILED Attribute/Graph APIerrors;rawreturnedtosupplier"
+    "audioCompile": "compile-stock-roll-01 FAILED Attribute/Graph APIerrors;rawreturnedtosupplier",
+    "healthyV11": "Camo02 andCharcoal01 V2 normalizedPASS infrastructure/lifecyclePASS nativefunctionPASS",
+    "artInspection": "ART4 twoENDcomplete1+12actualBMP+normalexit0; strictnativeerrorcaseFAILretainedlegacybaseline plusshutdown diagnostics; scopedreviewpending",
+    "fragment": "Fresh V3 camo02 and charcoal01 normalized PASS, infrastructure/lifecycle PASS, normal exit0 and released leases; earlier orchestration failure preserved.",
+    "audio": "nativecompile02PASS;ReadLoadContainerNo2targets knownnotexecuted;normalclose0; optionalfeatureblockednotglobal"
   }
 }

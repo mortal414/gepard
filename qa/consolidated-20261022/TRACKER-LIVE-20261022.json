@@ -1,0 +1,449 @@
+{
+  "readUtc": "2026-10-22 03:45:52 UTC",
+  "readOnly": true,
+  "metadata": {
+    "spreadsheetId": "1SV-tctG8u23Vbi4UkVHYMd4x7qua26AawjPqkYWCUcQ",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1SV-tctG8u23Vbi4UkVHYMd4x7qua26AawjPqkYWCUcQ/edit",
+    "properties": {
+      "title": "Gepard living checklist",
+      "locale": "en_US",
+      "timeZone": "America/Los_Angeles"
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 233706265,
+          "title": "Backlog",
+          "index": 0,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26,
+            "frozenRowCount": 1,
+            "frozenColumnCount": 2,
+            "rowGroupControlAfter": true,
+            "columnGroupControlAfter": true
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 2003208735,
+          "title": "Sprint plan",
+          "index": 1,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 40,
+            "columnCount": 7,
+            "frozenRowCount": 1
+          }
+        }
+      }
+    ]
+  },
+  "backlog": {
+    "range": "Backlog!A1:G35",
+    "majorDimension": "ROWS",
+    "values": [
+      [
+        "Done",
+        "ID",
+        "Area",
+        "Task",
+        "Priority",
+        "Workflow",
+        "Acceptance / verification"
+      ],
+      [
+        "TRUE",
+        "GEP-001",
+        "Driving",
+        "Find the drivetrain root cause",
+        "Complete",
+        "Accepted",
+        "Compare baseline, known-good tracked vehicles and a few controlled variants on one fixed route."
+      ],
+      [
+        "TRUE",
+        "GEP-002",
+        "Driving",
+        "Fix reverse mobility",
+        "Complete",
+        "Accepted",
+        "Reverse starts and remains usable on flat ground and the fixed test route."
+      ],
+      [
+        "TRUE",
+        "GEP-003",
+        "Driving",
+        "Fix turning and uphill traction",
+        "Complete",
+        "Accepted",
+        "Repeat turns and uphill starts on the same route without abnormal loss of traction."
+      ],
+      [
+        "TRUE",
+        "GEP-004",
+        "Driving",
+        "Verify braking behavior",
+        "Complete",
+        "Accepted",
+        "Check braking from speed, low-speed stopping and holding on a slope."
+      ],
+      [
+        "FALSE",
+        "GEP-005",
+        "Gunner",
+        "Redesign HUD for readability",
+        "Today",
+        "Accepted",
+        "Range, weapon state and aiming information remain clear against bright and dark scenes."
+      ],
+      [
+        "FALSE",
+        "GEP-006",
+        "Gunner",
+        "Harden HUD lifecycle",
+        "Today",
+        "Needs test",
+        "Enter, exit and re-enter. Range and fire. Switch seats and repeat after damage without stale or missing HUD."
+      ],
+      [
+        "FALSE",
+        "GEP-007",
+        "Gunner",
+        "Test gun stabilization",
+        "Next",
+        "Needs test",
+        "Compare stationary and moving aim, including turns and slopes. Record any drift or interruption."
+      ],
+      [
+        "FALSE",
+        "GEP-008",
+        "Gunner",
+        "Regress rangefinder display",
+        "Next",
+        "Needs test",
+        "Acquire multiple ranges and verify the displayed value after seat changes and re-entry."
+      ],
+      [
+        "FALSE",
+        "GEP-009",
+        "Gunner",
+        "Finish ballistic elevation correction",
+        "Next",
+        "Active",
+        "Confirm measured range changes gun elevation correctly and verify impact at several distances."
+      ],
+      [
+        "FALSE",
+        "GEP-010",
+        "Controls",
+        "Match familiar WCS controls",
+        "Today",
+        "Needs test",
+        "Check expected bindings, prompts and gunner interactions in actual play."
+      ],
+      [
+        "FALSE",
+        "GEP-011",
+        "Damage",
+        "Tune armor and crew protection",
+        "Later",
+        "Not started",
+        "Verify realistic crew outcomes from small arms, fragmentation and nearby explosions."
+      ],
+      [
+        "FALSE",
+        "GEP-012",
+        "Damage",
+        "Restore independent turret damage",
+        "Next",
+        "Not started",
+        "Damage or disable the turret independently while the hull remains alive."
+      ],
+      [
+        "FALSE",
+        "GEP-013",
+        "Crew",
+        "Keep surviving crew able to exit and enter",
+        "Next",
+        "Needs test",
+        "After hull and turret damage, surviving crew can leave and re-enter valid seats."
+      ],
+      [
+        "FALSE",
+        "GEP-014",
+        "Radar",
+        "Implement real radar sensing and tracking",
+        "Later",
+        "Not started",
+        "Validate actual search, target detection and tracking behavior."
+      ],
+      [
+        "FALSE",
+        "GEP-015",
+        "Systems",
+        "Add smoke launchers",
+        "Next",
+        "Active",
+        "Verify launch action, effect, ammunition and multiplayer behavior."
+      ],
+      [
+        "FALSE",
+        "GEP-016",
+        "Interior",
+        "Redesign interior and review cabin lighting",
+        "Later",
+        "Not started",
+        "Review cabin geometry, materials, visibility and lighting from each occupied seat."
+      ],
+      [
+        "FALSE",
+        "GEP-017",
+        "Exterior",
+        "Refine model, materials and details",
+        "Later",
+        "Active",
+        "Compare against references and resolve visible geometry, material and detail mismatches."
+      ],
+      [
+        "FALSE",
+        "GEP-018",
+        "Exterior",
+        "Add another camouflage skin",
+        "Today",
+        "Accepted",
+        "Create the additional camouflage and inspect coverage, materials and selection in game."
+      ],
+      [
+        "FALSE",
+        "GEP-019",
+        "Audio",
+        "Create custom twin 35 mm cannon audio",
+        "Later",
+        "Deferred",
+        "Check near, distant and twin-cannon firing sound, including transitions and overlap. Include a distinct inside-cabin gunshot and acceptable close-range audio, separate from the distant firing sound."
+      ],
+      [
+        "FALSE",
+        "GEP-020",
+        "Crew",
+        "Regress seats, hatches and periscopes",
+        "Today",
+        "Needs test",
+        "Repeat seat entry, exit, switching, hatch actions and periscope use to reproduce intermittent lockups."
+      ],
+      [
+        "FALSE",
+        "GEP-021",
+        "Crew",
+        "Recheck commander interaction actions",
+        "Today",
+        "Needs test",
+        "Verify hold-F behavior, prompts and hidden periscope actions in the current build."
+      ],
+      [
+        "FALSE",
+        "GEP-022",
+        "Crew",
+        "Confirm commander position alignment",
+        "Today",
+        "Needs test",
+        "Inspect commander position and view alignment in the current build."
+      ],
+      [
+        "FALSE",
+        "GEP-023",
+        "Systems",
+        "Verify refuel point side",
+        "Today",
+        "Needs test",
+        "Locate and use the refuel point in game. Confirm the intended side and interaction reach."
+      ],
+      [
+        "FALSE",
+        "GEP-024",
+        "Release",
+        "Remove debug HUD text",
+        "Today",
+        "Needs test",
+        "Inspect release-facing HUD in every relevant seat and lifecycle state for debug text."
+      ],
+      [
+        "FALSE",
+        "GEP-025",
+        "Qualification",
+        "Qualify multiplayer, JIP and dedicated server",
+        "Later",
+        "Needs test",
+        "Record join-in-progress, seat/HUD, weapon, damage and replication results on a dedicated server."
+      ],
+      [
+        "FALSE",
+        "GEP-026",
+        "Qualification",
+        "Qualify console behavior",
+        "Later",
+        "Needs test",
+        "Verify controller controls, performance and core vehicle interactions on console."
+      ],
+      [
+        "FALSE",
+        "GEP-027",
+        "Release",
+        "Verify packaged release and Workshop publication",
+        "Today",
+        "Active",
+        "Check packaged artifact and Workshop page/version separately. Record the actual published version if present."
+      ],
+      [
+        "TRUE",
+        "GEP-028",
+        "Exterior",
+        "Fix gun mount connector gap",
+        "Complete",
+        "Accepted",
+        "Accepted by user. Recheck if related geometry changes."
+      ],
+      [
+        "TRUE",
+        "GEP-029",
+        "Exterior",
+        "Finish auxiliary lamp fittings",
+        "Complete",
+        "Accepted",
+        "Accepted by user. Recheck if related geometry changes."
+      ],
+      [
+        "TRUE",
+        "GEP-030",
+        "Exterior",
+        "Finish anti-slip surface",
+        "Complete",
+        "Accepted",
+        "Accepted by user. Recheck if materials change."
+      ],
+      [
+        "TRUE",
+        "GEP-031",
+        "Lighting",
+        "Fix brake lights",
+        "Complete",
+        "Accepted",
+        "Accepted by user. Regress after relevant driving or lighting changes."
+      ],
+      [
+        "TRUE",
+        "GEP-032",
+        "Driving",
+        "Fix R engine stop and restart",
+        "Complete",
+        "Accepted",
+        "From the driver seat, the normal R action turns this vehicle's engine off and restarts it. Repeat after seat changes, exit/re-entry and view cycles; preserve unrelated vehicle controls."
+      ],
+      [
+        "FALSE",
+        "GEP-033",
+        "Audio",
+        "Add speed-synced track movement sounds",
+        "Next",
+        "Active",
+        "Verify speed-synced sound at idle, slow/fast travel, reverse, coast and stop; check distance and interior behavior as available. No movement loop while stopped."
+      ]
+    ]
+  },
+  "sprint": {
+    "range": "'Sprint plan'!A1:G12",
+    "majorDimension": "ROWS",
+    "values": [
+      [
+        "Track",
+        "Sprint backlog IDs",
+        "Owner / assignment",
+        "Dependencies",
+        "Planned evidence",
+        "Marco's later test",
+        "Integration gate"
+      ],
+      [
+        "Driving",
+        "GEP-001, GEP-002, GEP-003, GEP-004, GEP-032",
+        "Driving task accepted complete: GEP-001–004 and GEP-032, confirmed by Marco at 00:16 UTC, including brakes and physical R stop/restart.",
+        "E explicitly calibrates native controller RPM: C inherited upshift/clutch-couple 2500 versus redline 2300 RPM. Power/mass/gear ratios/tires/brakes unchanged. Original tracked root cause is separate; no drop-in WCS parity assumed.",
+        "E 9040101fca50c3bce5077fe32042a18ba12513e1: bounded course 39 km/h within 12 s, six forward gears, 19.3 m reverse in 8 s; turns/stopping passed that interval. 00:16 UTC final user acceptance: 'Yes that is fixed also. Brakes too, GEP 1-4 are good.' R physical input confirmed. Historical limits retained; broader MP/damage qualification separate.",
+        "User acceptance complete for GEP-001–004 and GEP-032. Regression after integration, not further driving tuning. Broader qualification stays in its separate tasks.",
+        "Freeze accepted E driving/input settings. One integrator preserves them and performs integration regression; no further tuning without a new issue."
+      ],
+      [
+        "Gunner HUD / optics",
+        "GEP-005, GEP-006, GEP-007, GEP-008, GEP-009, GEP-010",
+        "2026-10-21 23:33 UTC: New bold HUD A/B options in source/offline testing; native pending. Prior shipped HUD increment remains accepted, not completed.",
+        "Preserve accepted HUD baseline. GEP-007 stabilization and GEP-009 ballistic correction are source research only, not gameplay implemented or qualified.",
+        "New A/B source/offline checks reported; no new native or user pass. Historical release compile/gunner tests and prior HUD acceptance remain valid only for that increment.",
+        "Once native-ready, compare NEW A/B sights in bright/dark scenes, range/ammo readability and German labels. Do not repeat the old HUD tour as new progress.",
+        "Native compile/runtime readiness, clearly labeled A/B, then Marco's selection and targeted lifecycle regression before integration."
+      ],
+      [
+        "Smoke",
+        "GEP-015",
+        "2026-10-21 23:33 UTC: GEP-015 active native qualification continuing; no new acceptance.",
+        "Original stock-only candidate; preserve prior release. Existing WCS-dependent candidate is not cleared for publication.",
+        "Earlier launcher travel/fuse failures and throw-control pass are historical. Current flight/fuse/cloud/ammo/rearm gates must pass; no new native pass asserted.",
+        "New smoke candidate only when ready: launch direction, cloud coverage/duration, ammunition and rearm. Explicitly note multiplayer gaps.",
+        "Do not merge until native qualification and Marco's new-feature test pass."
+      ],
+      [
+        "Exterior / model and skin",
+        "GEP-017, GEP-018",
+        "2026-10-21 23:33 UTC: Cumulative V11 old/new isolated game integration staging; not ready. Prior charcoal increment remains accepted and unfinished.",
+        "Preserve existing camouflage/charcoal and accepted release geometry. V11 staging must not imply installation in the user's active session.",
+        "Prior charcoal repair/acceptance remains historical. V10 was Blender-only; V11 native rendering, materials, clearance and performance readiness still pending.",
+        "When ready, compare labeled old/new model views at close and normal gameplay distances, both skins, moving guns and hatches. Do not retest unchanged charcoal as a new feature.",
+        "Confirm exact loaded V11 build, screenshots and runtime checks before offering comparison; retain rollback baseline."
+      ],
+      [
+        "Audio",
+        "GEP-019",
+        "Audio task. Deferred by Marco until tomorrow; attempted, not done.",
+        "Paused by user decision. Keep stock game sounds tonight. No automatic restart or reminder scheduled.",
+        "User listening feedback: A Pressurefront far range okay; close sounds rejected. Distinct inside-cabin gunshot required. Offline validation does not establish final acceptance or native behavior.",
+        "Revisit tomorrow when resumed with Marco. Improve close sound and add a distinct cabin shot; preserve the acceptable distant A direction.",
+        "Custom audio excluded from tonight's integration. Preserve stock game sounds and existing candidate assets."
+      ],
+      [
+        "Regression / release",
+        "GEP-013, GEP-020, GEP-021, GEP-022, GEP-023, GEP-024, GEP-027",
+        "2026-10-21 23:33 UTC: Support NEW-feature integration, not another standalone old-controls regression tour.",
+        "Keep accepted driving/skin/HUD increments and user feedback. New feature owners must provide exact build and ready receipt.",
+        "Prior 1.0.2 upload/server processing and packaged GM spawn checks retained; public website visibility separately unconfirmed. No new release readiness claimed.",
+        "Spend user testing first on ready V11, new HUD A/B, smoke and track sound. Only run short regression checks relevant to changes being accepted.",
+        "Integrate only tested new increments; verify package and actual Workshop version separately. No checkbox changes without specific acceptance."
+      ],
+      [
+        "Track movement audio",
+        "GEP-033",
+        "2026-10-21 23:33 UTC: GEP-033 active native qualification continuing; no new listening acceptance.",
+        "Separate from deferred GEP-019 cannon audio. Preserve stock gun audio and accepted driving.",
+        "Earlier signal-only candidate had no audible graph. Current native audible speed/mute qualification is pending; do not imply a new pass.",
+        "Once audible-ready: stopped, slow/fast, reverse/coast/stop, inside/outside and distance. No movement loop while stopped.",
+        "Require native audio readiness and Marco's listening judgment before integrating; keep stock fallback."
+      ],
+      [],
+      [
+        "Plan rules",
+        "2026-10-21 23:33 UTC: Tonight's NEW-feature queue: GEP-017 V11 old/new integration, GEP-005 bold HUD A/B, GEP-015 smoke, GEP-033 track sounds. Test whichever passes readiness first. Existing priorities and checkboxes unchanged; prior release acceptance preserved."
+      ],
+      [
+        "Before parallel execution",
+        "Coordinate isolated builds and native sessions. Verify actual session contents and readiness before handing off; never infer availability from source/offline completion."
+      ],
+      [
+        "Integration owner",
+        "One integration owner preserves accepted release baseline and combines only qualified new increments. Confirm exact build, native checks, user acceptance, package and publication separately."
+      ]
+    ]
+  },
+  "latestUserDirectionsSupersedeOlderPlanNotes": true,
+  "changedCells": 0
+}

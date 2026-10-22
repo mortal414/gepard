@@ -131,7 +131,7 @@ def verify(lock):
     report = {"status":"PASS_SOURCE_CHECKS_ONLY", "nativeStatus":"NOT_TESTED", "damageBaySeparationMetres":separation,
               "targetHorizontalDistances":"PASS", "subjectMutationSettersAbsent":True,
               "hostileQualificationGate":True, "slotsBound":sum(bool(s["prefab"]) for s in lock["slots"]),
-              "unboundSlots":lock["unboundSlots"], "nativeBlocker":"User runtime hold and no delegated runtime slot"}
+              "unboundSlots":lock["unboundSlots"], "nativeBlocker":"Source checks do not qualify native behavior; consult coordinator runtime lease and evidence"}
     (ROOT / "checks/source-checks.json").write_text(json.dumps(report,indent=2)+"\n")
     manifest = {p.relative_to(ROOT).as_posix():digest(p) for p in sorted((ROOT / "addon").rglob("*")) if p.is_file() and p.name!='resourceDatabase.rdb'}
     (ROOT / "checks/world-source-manifest.json").write_text(json.dumps({"sha256":hashlib.sha256(canon(manifest)).hexdigest(),"files":manifest},indent=2)+"\n")

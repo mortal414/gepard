@@ -1,0 +1,13 @@
+{
+  "status": "SOURCE_SUCCESSOR_ONLY_NATIVE_STAGE_FROZEN",
+  "files": [
+    "scripts/Game/GEP/GEP_GunStatus.c",
+    "scripts/Game/GEP/GEP_Presentation680.c"
+  ],
+  "candidateManifestSHA256": "3b257b72201cc83eafa620dfc973249e12a23c5be66369ebc17eee1c215c43bc",
+  "sourceChecks": 25,
+  "nativeCompile": "PENDING_SECURITY_SLOT",
+  "nativeRender": "NOT_TESTED",
+  "productionLogicReticleLayoutUnchanged": true,
+  "nativeStageModified": false
+}

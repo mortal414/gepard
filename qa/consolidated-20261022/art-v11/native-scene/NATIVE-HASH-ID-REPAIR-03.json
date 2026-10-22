@@ -1,0 +1,12 @@
+{
+  "failureRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-03",
+  "repair": "Enumerated TNodeId values are signed name hashes, not ordinalindices. Invoke real bool-returning matrix getters regardlesssign; retainfalsegetterfailures",
+  "officialLocalAPI": "ArmaReforgerScriptAPIPublic/html/group__EntityAPI.html",
+  "changes": {
+    "gepard": [],
+    "artNativeQA": [
+      "scripts/Game/GEPArtNativeQA/GEP_ArtNativeQualification20261022.c"
+    ]
+  },
+  "native": "NOT_TESTED"
+}

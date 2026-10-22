@@ -171,7 +171,7 @@ class GPG_Director : GenericEntity
    if(item.Entity)item.Entity.SetName("GPG_"+item.Id);
    SCR_FiringRangeTarget pop;if(item.Entity)pop=SCR_FiringRangeTarget.Cast(item.Entity);
    if(pop){pop.SetAutoResetTarget(false);pop.SetState(ETargetState.TARGET_UP);}
-   if(station=="service" || item.Id=="DamageAmmo")Supplies(item.Entity);
+   if(item.Id=="Ammo" || item.Id=="Repair" || item.Id=="DamageAmmo")Supplies(item.Entity);
    PrintFormat("GPG_RESET id=%1 epoch=%2 prefab=%3 fullReplacement=1",item.Id,item.Epoch,item.Prefab);count++;
   }
   LastReset=Clock;Hint("Fresh owned objects: "+count.ToString()+". Record the new epoch before another trial.","EXPLICIT RESET");

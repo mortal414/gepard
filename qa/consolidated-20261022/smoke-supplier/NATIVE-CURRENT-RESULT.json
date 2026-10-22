@@ -10,5 +10,27 @@
   "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-single-03",
   "shutdown": "VM Abort then owned ordinary CloseMainWindow, exit verified lease released, exitCode unknown",
   "noWCSImplementationEdits": true,
-  "status": "COMPILE_PASS_RUNTIME_FIXTURE_FAILED_BEFORE_MECHANISM"
+  "status": "COMPILE_PASS_RUNTIME_FIXTURE_FAILED_BEFORE_MECHANISM",
+  "finalPostAbortEvidence": {
+    "diagnosis": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Smoke-Camera-Diagnosis-20261022\\HANDOFF.md",
+    "livePositions": 2,
+    "payloadEntities": 1,
+    "identityJSON": "0x4000000000000078 {}",
+    "identityConsole": "120",
+    "preflightAmmo": 8,
+    "programs": 1,
+    "motionGateOneMetre": "NOT_MET",
+    "terminalAmmo": 7,
+    "observedTravelMetres": 0.275966946,
+    "rawSamples": 146
+  },
+  "pixelReview": {
+    "observed": "Both show gunner cabin, not requested external near/far view; external camera selection not proven; no cloud conclusion",
+    "actualImagesRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-mechanism-01\\smoke-mechanism-control\\native-run\\profile\\profile",
+    "reviewed": [
+      "GEP215-wcs-pair-3-near.bmp",
+      "GEP215-wcs-pair-8-far.bmp"
+    ]
+  },
+  "sourceFixStatus": "No camera source fix applied; external supplier owns diagnosis. Existing compiled fixes only internal Sequence names, Ammo local int, EntityID strings."
 }

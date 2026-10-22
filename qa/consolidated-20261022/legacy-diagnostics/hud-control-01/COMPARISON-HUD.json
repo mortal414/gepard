@@ -1,0 +1,1958 @@
+{
+  "auditUtc": "2026-10-22T03:12:44.905957+00:00",
+  "scope": "C-only separate extension; no D: mutation, collector/whitelist change or native action",
+  "controlConsole": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-render-control-01\\hud-render-startup\\native-run\\logs\\console.log",
+    "bytes": 32754,
+    "sha256": "b4a8da3be11d703b96d8f0cafcddd343295569b308cb79595da976003313b73b"
+  },
+  "guiSignature": {
+    "channel": "GUI",
+    "kind": "Unknown class",
+    "class": "SCR_WidgetExportRuleRoot",
+    "offsetDecimal": 282,
+    "offsetHex": "0x11a",
+    "enclosingResource": "{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout"
+  },
+  "currentGui": [
+    {
+      "line": 112,
+      "raw": "22:05:43.525   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 109,
+          "raw": "22:05:43.525 PROFILING    : Compiling GameLib scripts took: 24.133700 ms"
+        },
+        {
+          "line": 110,
+          "raw": "22:05:43.525 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 111,
+          "raw": "22:05:43.525  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 112,
+          "raw": "22:05:43.525   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 113,
+          "raw": "22:05:43.612  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 114,
+          "raw": "22:05:44.192 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    }
+  ],
+  "exactHistoricalMatches": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-baseline-01\\logs\\console.log",
+      "consoleSha256": "cc480056a3113b58f4a27e69aa3239f777557f196d9f3fc4090573c361261561",
+      "line": 108,
+      "raw": "23:10:03.514   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 105,
+          "raw": "23:10:03.514 PROFILING    : Compiling GameLib scripts took: 22.651700 ms"
+        },
+        {
+          "line": 106,
+          "raw": "23:10:03.514 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:10:03.514  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 108,
+          "raw": "23:10:03.514   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 109,
+          "raw": "23:10:03.603  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 110,
+          "raw": "23:10:04.165 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-catalogless-01\\logs\\console.log",
+      "consoleSha256": "27f98b01a1e3dee35d77a41be3a6864d0cdf48792127558c420541487dcabe18",
+      "line": 108,
+      "raw": "23:16:12.291   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 105,
+          "raw": "23:16:12.290 PROFILING    : Compiling GameLib scripts took: 22.839200 ms"
+        },
+        {
+          "line": 106,
+          "raw": "23:16:12.291 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:16:12.291  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 108,
+          "raw": "23:16:12.291   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 109,
+          "raw": "23:16:12.379  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 110,
+          "raw": "23:16:12.937 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-package-01\\logs\\console.log",
+      "consoleSha256": "bf6f7c7b5b3375d128996c0e27bf6c887377ed153f89dbed611651a3fb1b1558",
+      "line": 108,
+      "raw": "23:14:24.989   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 105,
+          "raw": "23:14:24.989 PROFILING    : Compiling GameLib scripts took: 22.562600 ms"
+        },
+        {
+          "line": 106,
+          "raw": "23:14:24.989 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:14:24.989  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 108,
+          "raw": "23:14:24.989   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 109,
+          "raw": "23:14:25.078  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 110,
+          "raw": "23:14:25.636 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-01\\logs\\console.log",
+      "consoleSha256": "9e52ec221ffe82be915211f8bcd90a0cc51c0bef778d480da3623b654545094f",
+      "line": 108,
+      "raw": "23:01:49.511   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 105,
+          "raw": "23:01:49.511 PROFILING    : Compiling GameLib scripts took: 24.135600 ms"
+        },
+        {
+          "line": 106,
+          "raw": "23:01:49.511 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:01:49.511  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 108,
+          "raw": "23:01:49.511   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 109,
+          "raw": "23:01:49.604  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 110,
+          "raw": "23:01:50.169 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-02\\logs\\console.log",
+      "consoleSha256": "3cafebf54278108b8fb774e5323098d82d3d5c3d8c84c948ffddad80630d0038",
+      "line": 108,
+      "raw": "23:08:19.440   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 105,
+          "raw": "23:08:19.440 PROFILING    : Compiling GameLib scripts took: 35.012100 ms"
+        },
+        {
+          "line": 106,
+          "raw": "23:08:19.440 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:08:19.440  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 108,
+          "raw": "23:08:19.440   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 109,
+          "raw": "23:08:19.596  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 110,
+          "raw": "23:08:20.287 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-uploaded-01\\logs\\console.log",
+      "consoleSha256": "aae7d33e8124ac3173e6cd64f9a52252fa11d4b61d7fed3610c2dcb2bc01ad3c",
+      "line": 111,
+      "raw": "23:26:33.142   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 108,
+          "raw": "23:26:33.142 PROFILING    : Compiling GameLib scripts took: 22.361000 ms"
+        },
+        {
+          "line": 109,
+          "raw": "23:26:33.142 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 110,
+          "raw": "23:26:33.142  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 111,
+          "raw": "23:26:33.142   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 112,
+          "raw": "23:26:33.230  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 113,
+          "raw": "23:26:33.777 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\new-optic-user-01\\logs\\console.log",
+      "consoleSha256": "7e2d2b34fa54aa3a5f5f0a94f03a5260d3def8a9fbf7aba95465ee77fb219508",
+      "line": 105,
+      "raw": "18:49:39.518   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 102,
+          "raw": "18:49:39.518 PROFILING    : Compiling GameLib scripts took: 22.989800 ms"
+        },
+        {
+          "line": 103,
+          "raw": "18:49:39.518 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:49:39.518  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 105,
+          "raw": "18:49:39.518   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 106,
+          "raw": "18:49:39.609  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 107,
+          "raw": "18:49:40.194 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\optic-render-01\\logs\\console.log",
+      "consoleSha256": "13bc34341a217c7669fa8aef24a0c3038d7348cd1efc3707e85a1d155a8af332",
+      "line": 105,
+      "raw": "18:42:48.766   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 102,
+          "raw": "18:42:48.766 PROFILING    : Compiling GameLib scripts took: 22.987100 ms"
+        },
+        {
+          "line": 103,
+          "raw": "18:42:48.766 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:42:48.766  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 105,
+          "raw": "18:42:48.766   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 106,
+          "raw": "18:42:48.860  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 107,
+          "raw": "18:42:49.452 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-drive-20261020T231546Z-9bc1e8\\user-failure-console.log",
+      "consoleSha256": "8d28d58584d661aac5e644102d13033f23f37b54c7c620699f3bc3f9a2208da4",
+      "line": 105,
+      "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 102,
+          "raw": "18:15:49.102 PROFILING    : Compiling GameLib scripts took: 24.097000 ms"
+        },
+        {
+          "line": 103,
+          "raw": "18:15:49.105 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:15:49.105  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 105,
+          "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 106,
+          "raw": "18:15:49.236  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 107,
+          "raw": "18:15:49.840 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-drive-20261020T231546Z-9bc1e8\\logs\\console.log",
+      "consoleSha256": "1445cb89dc6c4ffdd3fd090962a8cd7bab38633dfe8d4213f37ed2d3158ebc69",
+      "line": 105,
+      "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 102,
+          "raw": "18:15:49.102 PROFILING    : Compiling GameLib scripts took: 24.097000 ms"
+        },
+        {
+          "line": 103,
+          "raw": "18:15:49.105 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:15:49.105  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 105,
+          "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 106,
+          "raw": "18:15:49.236  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 107,
+          "raw": "18:15:49.840 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-drive-20261020T232728Z-b4ddd0\\logs\\console.log",
+      "consoleSha256": "f406f9c34b6c8c1a1a685cfdec2583653b5480a4c9e428883baa52dbeba0ecdd",
+      "line": 105,
+      "raw": "18:27:30.928   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 102,
+          "raw": "18:27:30.928 PROFILING    : Compiling GameLib scripts took: 23.748600 ms"
+        },
+        {
+          "line": 103,
+          "raw": "18:27:30.928 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:27:30.928  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 105,
+          "raw": "18:27:30.928   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 106,
+          "raw": "18:27:31.037  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 107,
+          "raw": "18:27:31.644 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-release101-20261021T005124Z-eb6dae\\logs\\console.log",
+      "consoleSha256": "50a4c295cba446a11bfd75d6d197bdaa21e81205c51857e12d94f87e475bad51",
+      "line": 105,
+      "raw": "19:51:28.209   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 102,
+          "raw": "19:51:28.208 PROFILING    : Compiling GameLib scripts took: 24.292600 ms"
+        },
+        {
+          "line": 103,
+          "raw": "19:51:28.209 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "19:51:28.209  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 105,
+          "raw": "19:51:28.209   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 106,
+          "raw": "19:51:28.305  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 107,
+          "raw": "19:51:28.897 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-wheel-e-20261021T001123Z-641c47\\logs\\console.log",
+      "consoleSha256": "b535867d130a8ebe6c683a3dc6805da3376e43b89138c727da85cf97e3e85043",
+      "line": 105,
+      "raw": "19:11:25.942   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 102,
+          "raw": "19:11:25.942 PROFILING    : Compiling GameLib scripts took: 24.444500 ms"
+        },
+        {
+          "line": 103,
+          "raw": "19:11:25.942 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "19:11:25.942  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 105,
+          "raw": "19:11:25.942   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 106,
+          "raw": "19:11:26.059  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 107,
+          "raw": "19:11:26.660 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-wheel-e-usability-01\\logs\\console.log",
+      "consoleSha256": "d69bb3cefc04437d0883722453ef15d161d6b6b6afa96f1fe148c9004369856a",
+      "line": 105,
+      "raw": "19:06:05.143   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+      "context": [
+        {
+          "line": 102,
+          "raw": "19:06:05.142 PROFILING    : Compiling GameLib scripts took: 24.782000 ms"
+        },
+        {
+          "line": 103,
+          "raw": "19:06:05.143 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "19:06:05.143  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 105,
+          "raw": "19:06:05.143   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        },
+        {
+          "line": 106,
+          "raw": "19:06:05.236  SCRIPT       : SCRIPT       : Compiling Game scripts"
+        },
+        {
+          "line": 107,
+          "raw": "19:06:05.825 SCRIPT       : Compiling Game scripts"
+        }
+      ]
+    }
+  ],
+  "historicalLogsScanned": 25,
+  "logsWithExactGuiSignature": 14,
+  "guiClassificationProposal": "LEGACY_EXACT_BASELINE_MATCH_IN_STOCK_INTRO_SPLASH_LAYOUT",
+  "worldErrors": [
+    {
+      "line": 166,
+      "raw": "22:05:45.543           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+      "enclosingPrefab": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+      "signature": [
+        "keyword/data",
+        "SlidingTrackMaterial",
+        19441,
+        "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+      ],
+      "priorStartupMatchingLines": [
+        164
+      ],
+      "classification": "LEGACY_EXACT_BASELINE_MATCH"
+    },
+    {
+      "line": 173,
+      "raw": "22:05:45.637           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+      "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+      "signature": [
+        "keyword/data",
+        "Parent",
+        35955,
+        "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+      ],
+      "priorStartupMatchingLines": [
+        171
+      ],
+      "classification": "LEGACY_EXACT_BASELINE_MATCH"
+    },
+    {
+      "line": 174,
+      "raw": "22:05:45.637           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+      "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+      "signature": [
+        "keyword/data",
+        "Parent",
+        36915,
+        "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+      ],
+      "priorStartupMatchingLines": [
+        172
+      ],
+      "classification": "LEGACY_EXACT_BASELINE_MATCH"
+    },
+    {
+      "line": 181,
+      "raw": "22:05:45.638           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+      "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+      "signature": [
+        "keyword/data",
+        "Parent",
+        42646,
+        "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+      ],
+      "priorStartupMatchingLines": [
+        179
+      ],
+      "classification": "LEGACY_EXACT_BASELINE_MATCH"
+    },
+    {
+      "line": 182,
+      "raw": "22:05:45.638           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+      "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+      "signature": [
+        "keyword/data",
+        "Parent",
+        43645,
+        "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+      ],
+      "priorStartupMatchingLines": [
+        180
+      ],
+      "classification": "LEGACY_EXACT_BASELINE_MATCH"
+    },
+    {
+      "line": 183,
+      "raw": "22:05:45.638           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+      "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+      "signature": [
+        "keyword/data",
+        "Parent",
+        44617,
+        "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+      ],
+      "priorStartupMatchingLines": [
+        181
+      ],
+      "classification": "LEGACY_EXACT_BASELINE_MATCH"
+    },
+    {
+      "line": 184,
+      "raw": "22:05:45.638           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+      "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+      "signature": [
+        "keyword/data",
+        "Parent",
+        45590,
+        "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+      ],
+      "priorStartupMatchingLines": [
+        182
+      ],
+      "classification": "LEGACY_EXACT_BASELINE_MATCH"
+    }
+  ],
+  "sourceScan": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon",
+      "textSourceFiles": 123,
+      "files": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Configs\\Editor\\PlaceableEntities\\GEP_Vehicles102.conf",
+          "sha256": "68cab5ae1c4954308eade83fa826e471e7e62ef0da4cc1aec46ee923d5dbe8eb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Configs\\EntityCatalog\\GEP_35_Ammo.conf",
+          "sha256": "242fff66d31c5901aa89f22ae2359594d6c8cb29717d7bcbfad73384f6744a7d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Configs\\EntityCatalog\\GEP_CharcoalVehicle018.conf",
+          "sha256": "a7294d92a9262b35e072a1c6b569a354f2cdd24d72c0faa948333aef3eee8d25"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Configs\\EntityCatalog\\GEP_Vehicle.conf",
+          "sha256": "35dd1afdb59e3f72ea034631d2cccbef817ac41ade94e95a48d3e4902bb17523"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Configs\\System\\chimeraInputCommon.conf",
+          "sha256": "2a902cefabf0dce25cb80182bd1d830c1aa785ad565b2912320eba56159a6aeb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Configs\\System\\keyBindingMenu.conf",
+          "sha256": "c9845e004369c8d412332aa4bc7119f70337427047b996d89381ff99006be016"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Configs\\Weapons\\GEP_35_HEIT.conf",
+          "sha256": "c04bd80d939edb98018c90cde7824cb4a582b01a5e959fe9c6f76585181ffe79"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Gepard.gproj",
+          "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Language\\GEP_GM102_localization.en_us.conf",
+          "sha256": "be4ade3cd4a2b85809c331ba83e506fa0fdd421a7d6bff5ca3714ad1eb884fa5"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GEP_BrakeLight572.et",
+          "sha256": "dfcb9d283f5a3e4b996b048f2b4c80ce0bc638638ab1f1dd42165752a24769fd"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GEP_HeadLight572.et",
+          "sha256": "defad8230cff9033f4ceca2ede6826a7c1d8dde1b6521c2fa7f44f6e55af7467"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GEP_RearLight572.et",
+          "sha256": "04048c8c79937ff5ac78317e3e8d7415160549a683d002bc6b3e336b524b0a9d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GEP_ReverseLight572.et",
+          "sha256": "4ffa913234cddac72881d821c000c4844d587485b5ded6010d53ac483c91333f"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardAuxLampHardware672.et",
+          "sha256": "031d9b07eb8a12a22b31c742148bb94aade8311c44f30673f0d6b575e01b96dc"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardBearingBosses.et",
+          "sha256": "d3f3d66035bcd412052e1e13ef5348f0b177ce06aa95253f16f4076adaceaca1"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardCabin.et",
+          "sha256": "6c76096437b93dc91882497d36448b6d7cd68ef9e996a5d576a4720276442f20"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardCabinLight.et",
+          "sha256": "e1dc944f0ff9174ef21efd47688a516f4b9535f371ec4ddab62f701ffcbdaad4"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardCommanderHatch569.et",
+          "sha256": "e77fd98d805280792f6b06be50ec7d5c122e6ee44e53edfff1cb66d2a33867a7"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardCoverLeft668.et",
+          "sha256": "e5e1f328e003b3a8b659e0717298c8898b20e843388932e080e13d6137019f74"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardCoverRight668.et",
+          "sha256": "04d36d125362b1f59dbfac43689d46c0e6b2bb58a9f062d367ef7eb1050d4441"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardDriverHatch.et",
+          "sha256": "e1cdbde2310c9f2d471fba337b28c89f2f2f7b5610df1b86a7d2ff18530ce6e4"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardDriverLidHardware660.et",
+          "sha256": "e1e0bb73555898fe1b6756f4b1acddf826553dbe774106a92ae26125db07b88b"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardFenderDetails668.et",
+          "sha256": "2cb39a61a3141034e7560e9c745401d4f04d39b2ee34c5afa7cc010d22a72f01"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardFront07Left592.et",
+          "sha256": "163ac57adc17ad889476276974279c758a30da63346a9ef4e825ee42ff4b055a"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardFront07Right592.et",
+          "sha256": "8a8a619963333a67d6e4c10b2ef1b0a8fea190efcd5ce3bcac79b349f23c3845"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardFullWidthApron606.et",
+          "sha256": "47ff7091ae98c4f7d7bdca2734394810c4d84c8f1a189f1dcd65b7dc0dbbf53b"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardGunnerHatch569.et",
+          "sha256": "8e4e80aef5bc2830b6188b86f39d903ace35c8d852910582fe628cfce16758ef"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardHullOnly.et",
+          "sha256": "83cbf2a8aa54a0be24edaa2cec6ff7a3103ecd39a7c985ad6bc7300c5081f054"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardLeftServiceShield603.et",
+          "sha256": "3e708abf2d84877fdeecdaa40f680a7785bd855e1f61161d26b27dd8ef7933e8"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardRightRearShieldCover671.et",
+          "sha256": "ecf497218fcaec1ea36b673ae6e40178cf4c2d8c091af7a21ab2ca5614a5b6ad"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardRoofEyes669.et",
+          "sha256": "857aa5197ced80d594651a84d9878af7e40cab2c54d379355382317268635ec8"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardSearchBase.et",
+          "sha256": "144ef08bcf417fb1686aba0c3c71fc15a925a74d38924bb97ad35550747fbebe"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardSearchHead.et",
+          "sha256": "810747c363b650b0add138bb8c91a28308c6e1f28216b94a5c47833061c26c03"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardSearchYawSupport.et",
+          "sha256": "d96e01650e7104a1edb1a9f7c0066dce3c50badb68b13a49a38faa146c11438a"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardSteeringWheel.et",
+          "sha256": "ba19d105710add672809014f1205fec0ad1c2385e00bd067f352284213950f37"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardStowageSeated591.et",
+          "sha256": "dd96786e0735febb15c4bdab6244b5a10d48c31d60642e746a66bae9e8a3be39"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardTrackingBase.et",
+          "sha256": "da0c592b06605c11e8667f275abf917cf858f69ade6eb2bc698756681b698a57"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Art\\GepardTrackingHead.et",
+          "sha256": "92a0d64b1b3363f012f4730db0a4743b502497355389d92372c371ed94d4b406"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Camo\\GEP_35_GunLeftV11.et",
+          "sha256": "eb9d8397ed680dfa9e45cf52c34db2f02e78587fc429507ab597c532baee9617"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Camo\\GEP_35_GunRightV11.et",
+          "sha256": "4b8dda6289cf28de4e261f97dd730febe0e19ab3c2cafcd91135fc8cbe625e68"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Camo\\GEP_MobileCarrierV11.et",
+          "sha256": "02daa1931848a63ff9e957758b0e02a2fdc90ebf40631ccb4d8b95485ddb0e26"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Camo\\GEP_VehicleTurretV11.et",
+          "sha256": "7b3c764fed0b91ef4ad64afe8d2e7741b2152d9c3b22914762013a22622675c5"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Camo\\GepardStowageV11.et",
+          "sha256": "b0e931185fdb55eaba59138a9d937164d79161d822726728857c5290e160a63d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Charcoal\\GEP_35_GunLeftV11.et",
+          "sha256": "e86c0dd9188e1ff1e591f2d20f394a87c00fe099ecb88b8b26c01ca67d9df89f"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Charcoal\\GEP_35_GunRightV11.et",
+          "sha256": "c8c8f2d03c7cb421cfe7498bfa508a6650d18d229507adb5b67317156b9a18dc"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Charcoal\\GEP_MobileCarrierV11.et",
+          "sha256": "52ad361f0dfa702ed04d9d1af849d2b6cf23d1e716de93c7e5713c9fe464db34"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Charcoal\\GEP_VehicleTurretV11.et",
+          "sha256": "2119337b8bf19f9c795c289263badb4d565b1a7d36b435d79fa2116ecd1057f8"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\ArtV11\\Charcoal\\GepardStowageV11.et",
+          "sha256": "0939dcc4c641205374ca17578b3339261d9836f077c4276a1f938060f2cf1b9f"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Editor\\Modes\\EditorModeEdit.et",
+          "sha256": "90b3cc883e141a7f38b6583266e7aad50066c28fe05210e09c619ecedd8f1b17"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardAuxLampHardware672.et",
+          "sha256": "13ddac282ce26f1ff73dc5a8fa34134d532af33e1cc2bfd9ac4a156ffc2ab638"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardBearingBosses.et",
+          "sha256": "7f214aef5df97907f02cee126060ab397249848be3f78149e2449d3993b44965"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardCabin.et",
+          "sha256": "2f9ec8ad7ca69c172e1d5e9a0175f5a3c929c14f239b6ff04bc72ee0ce2ff76e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardCommanderHatch569.et",
+          "sha256": "78ddc3f27273ff0d4e175bbbd262b79b03de3a82b3f59388ea1e0dce28b94aea"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardCoverLeft668.et",
+          "sha256": "3c0b4f07e3d07003de63a54a6a81a5829b0f5e6489b689b1d8e96c8e425c285b"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardCoverRight668.et",
+          "sha256": "3a37dc84be5a6ca028a7449540cc9696215fe24cb2f74d009f35a08bb9d130de"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardDriverHatch.et",
+          "sha256": "d9e3057540436592db6fbd6551e904789a1ef2b048f96c737da056e2241a1db0"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardDriverLidHardware660.et",
+          "sha256": "c4028fe484877d2fffa075ce616279e681b8e83d9c7b44ea7cf777a880327278"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardFenderDetails668.et",
+          "sha256": "bbb18a044241f9079078a5ff4708d7706ed89091f8c99591ac05c7d170188127"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardFront07Left592.et",
+          "sha256": "c3ccf961b7dafc65a27439d88e9e88a5f6c75880afe5a1865fb438ce8c4e08f6"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardFront07Right592.et",
+          "sha256": "fbf8b9240f5b29bc1ca5d205031571e4398054932b12b04225fa3b3f41532862"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardFullWidthApron606.et",
+          "sha256": "69fbdd300e2c713d53ec3127025ee9df16991e07285621ce00623a3b20b653f9"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardGunnerHatch569.et",
+          "sha256": "c7394f87f12a631c9bb7899edfe588bbc0cf6a2dcb293f0528f3b402db7479fc"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardLeftServiceShield603.et",
+          "sha256": "ae670152b7d871ad6efbe372bed17f5a364e820e9bb4fdbb6708af5657546161"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardRightRearShieldCover671.et",
+          "sha256": "389c2c9d4588a096e260f201660bd3c418beb3a686ed3f8ba943c5411d624ac6"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardRoofEyes669.et",
+          "sha256": "0710b2898665f77e2f8ae68fdc0587768dc661e236a86092d13be879004a3a5c"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardSearchBase.et",
+          "sha256": "a68eb171ccab4cdde1fdd39da86ce360ca9eaeed04d23cda2735fb7041969fbb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardSearchHead.et",
+          "sha256": "e94e9ca6cc50ac20aeafb391d61f4cea2412aacba63d54bdec0185e540682e64"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardSearchYawSupport.et",
+          "sha256": "2a18acbeab791d1de96dd87eb756083436f737ef739579d2701e732698a22525"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardStowageSeated591.et",
+          "sha256": "50c30506cbaa927d731a199945ce789b17aa88ee59e20740217eba1e6f8f7c50"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardTrackingBase.et",
+          "sha256": "d7b36ebc894d8e4c2b2c4d3d53e0b8ed2d3bea8144abc05e75849ff8f30831fc"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardTrackingHead.et",
+          "sha256": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Vehicles\\GEP_MobileCarrier.et",
+          "sha256": "73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Weapons\\GEP_35_GunLeft.et",
+          "sha256": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Weapons\\GEP_35_GunRight.et",
+          "sha256": "a1dd80a8e06fbb47eefb7f6b3e004101115fe924b9f22b044df482c274aba4fb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Weapons\\GEP_VehicleTurret.et",
+          "sha256": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Vehicles\\GEP_MobileCarrier.et",
+          "sha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Vehicles\\GEP_TrackedMobility.et",
+          "sha256": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Vehicles\\GEP_WheeledMobility101.et",
+          "sha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Weapons\\GEP_35_GunLeft.et",
+          "sha256": "bbd850167ec6f3a0ba161bf5190e0cce72abaea2eea92daf5b7cd36c364d3ebb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Weapons\\GEP_35_GunRight.et",
+          "sha256": "7752f70ac772eac267d31de11fe85ed0214cadf860d8e6d65415fb72fc0927f1"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Weapons\\GEP_35_HEIT_Belt320.et",
+          "sha256": "ee9f3c34ffeca34062a1d0f3ce3059df7579cbc7e19add82b15a7b89c65d7e35"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Weapons\\GEP_35_HEIT_Projectile.et",
+          "sha256": "f59ca1ff4cb08b86ce5054bff8802cdee9265acdc0188d09e321c2b5ca7a0614"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Weapons\\GEP_35_HEIT_Warhead.et",
+          "sha256": "1c8a869079e2b63a31ba9d471f8bb8d0d42e09e3c98f44dc5324d200a10889bd"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Weapons\\GEP_StationaryTurret.et",
+          "sha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\Prefabs\\Weapons\\GEP_VehicleTurret.et",
+          "sha256": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_AmmoCatalogue.c",
+          "sha256": "0ba6876a14e421ac4435dca8761edf152cbe53097fd3f56280ccfb779cd9400d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_CharcoalCatalogue018.c",
+          "sha256": "9df051ef091008e60c372a78c05e6345579a4d3b6c930e2771bee0eaf18b898e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_ComponentDamageSetup.c",
+          "sha256": "602287146cbc28cd6a6c19febf7da0d56fa96705099a9d0506bc337b45cea099"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_ControlHints580.c",
+          "sha256": "8646ee2a904667358c57aafca1e90593dc10b2f0cf35165a54421806e7eb4086"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_CrewActions579.c",
+          "sha256": "01c4ecf44cb537685fc8a93d32baa2c9e0d7598a5368e7fc59f2427d797fc4cf"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_CrewControls569.c",
+          "sha256": "75311e4b8a405037a02cc6cd1d7e5b28b3041b9efc8f9462495e6b6fc99c749d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_DriverStation.c",
+          "sha256": "8c85b7a7d32e53952659635dc723afa83887c35da440fedbf44bebbfa70a5468"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_EngagementModel.c",
+          "sha256": "2e71d43b3e17a53dc0ceadc2c4cf67abe3789477f450a77fd7e85c38b57274e9"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_ExteriorLights572.c",
+          "sha256": "dea8b49cadb59b5b0e4316e159ac2117822e381d53f0a9c08f42a7aaa9156495"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_FireControl.c",
+          "sha256": "096af48745c5d35568867883bbdd11cc1eee98664be61071a957dd21cd1def52"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_FireControlGeometry.c",
+          "sha256": "04903420941333fb61f41b61ce0283fcec92c0f95bcddabb2e11b6f3a771ab8e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_GunnerSnapshot583.c",
+          "sha256": "dc27281455549c6f0e85ac5b0fc17e62da4cf9874d0b05bd3dad72347ca9e27e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_GunStatus.c",
+          "sha256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_Instruments494.c",
+          "sha256": "3c1d2198aa4230aeb6f35926f5da5b5be05781d786ad66aca17cdc7de0692f6a"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_LampDamage584.c",
+          "sha256": "97b4ea30f582d8453b81ec9965252644cba9a5ba8b8a5c2141bec9b8d5901a97"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_MagazineWell.c",
+          "sha256": "69480e5e679768587b994edcfeace3298830938694227837bf110cdfd9fcea0a"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_Optical444.c",
+          "sha256": "d959eb33c94e1688d4664930cba9f7135fa95e9836787e3edc429612d48ee1d2"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_OpticEvidence679.c",
+          "sha256": "1c98bec615aaa7aa932c49a85478db120fb052e39bfc5c7a078620ae6abc418c"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_PlainSight680.c",
+          "sha256": "4fac0ae37b8a4ccbc8992d4162c0f571f46642162b9c89d6caadbc6f0c144097"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_Presentation680.c",
+          "sha256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_RadarActions.c",
+          "sha256": "01add44865ce80b267f1e8b946d4b80219fb5070422121ce6b9bbecf34ab1e54"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_RadarDisplay.c",
+          "sha256": "2869eb7b04e1abc1d3d1ac5c6a90d1f861465c6e52a11056ab26fe3701ff19a3"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_RadarSystem.c",
+          "sha256": "24f447ee879c324c8e511ca9457e722cb56f2cef2289d6cc909900fca4322368"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_Range676.c",
+          "sha256": "f4f81ea1bbbb0b665bdc8d850042ac4f05a36b7eb712e25ed0ca7e1d0c3e6cb5"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_RearBelt580.c",
+          "sha256": "bebfa21cbd22c33a2dc77d88f494e5a41622bd46548905df09bfe960c39cb907"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_RearDriveRepair582.c",
+          "sha256": "a03595091eca9437f6beb17b8143a05dddb18738f9f71abe4506ecdc9cf8160c"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_RoofSights438.c",
+          "sha256": "a0fe7042a8e953c3d705dbdf539537f46ff459d2ede0bf83f8de4eb020dd49c0"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_RunningGear.c",
+          "sha256": "ddda21d5cff73b83d4aa275290af2df7c1d8c8d54a2ba065ba6eb1e7a5b32c12"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_SteeringWheelVisual.c",
+          "sha256": "5736ee869178db9b065defdefc2f15fe46762ce77ebb2bd580364ace553fa5d1"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_SwitchSeatAction.c",
+          "sha256": "5c4eb995cfb653e70f46024375990dfac4a6b8eddbeea7403a55de268a184417"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_TrackedDamageManager396.c",
+          "sha256": "4ee2a479bb2cb6ef50e136acb0cf1bdb0e5c06140983ab5365d5f018bcc68bb3"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_TurretDrive410.c",
+          "sha256": "01416df0c6d3b77c6897da9086d5f8121b6517590e3aa13e1d7ef5ecff1183fd"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_VehicleInventoryInfo533.c",
+          "sha256": "5f45a005e18e8fcd4715bfff44172413d52508bc875180f133131f86b3ae6703"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEP\\GEP_WIPTurretHitZone692.c",
+          "sha256": "f4947f88decca14e0da2e0b46d1256b2906bdb54b72e93ac06b24e0ffa027dd2"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEPWheelDrive\\GEP_ExteriorLights572_Wheeled101.c",
+          "sha256": "6bd51fe30a221d327d4179030091f7038b3dc79ab9e642db064fd0c58bca4494"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEPWheelDrive\\GEP_Instruments494_Wheeled101.c",
+          "sha256": "932464dd316fc38e3cffe6ee3ce3645b9ee820d249312eafff42cc49cf3d9fe1"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEPWheelDrive\\GEP_RunningGear_Wheeled101.c",
+          "sha256": "c12353e4346226d68fc9628c919bfcf6f5c9679e36a9369fe399f44a503306a3"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon\\scripts\\Game\\GEPWheelDrive\\GEP_SteeringWheelVisual_Wheeled101.c",
+          "sha256": "6166f71db7067f5061e695b5642b60f91312921a96574e0e76d5e4d44c1f2deb"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+      "textSourceFiles": 123,
+      "files": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Configs\\Editor\\PlaceableEntities\\GEP_Vehicles102.conf",
+          "sha256": "68cab5ae1c4954308eade83fa826e471e7e62ef0da4cc1aec46ee923d5dbe8eb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Configs\\EntityCatalog\\GEP_35_Ammo.conf",
+          "sha256": "242fff66d31c5901aa89f22ae2359594d6c8cb29717d7bcbfad73384f6744a7d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Configs\\EntityCatalog\\GEP_CharcoalVehicle018.conf",
+          "sha256": "a7294d92a9262b35e072a1c6b569a354f2cdd24d72c0faa948333aef3eee8d25"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Configs\\EntityCatalog\\GEP_Vehicle.conf",
+          "sha256": "35dd1afdb59e3f72ea034631d2cccbef817ac41ade94e95a48d3e4902bb17523"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Configs\\System\\chimeraInputCommon.conf",
+          "sha256": "2a902cefabf0dce25cb80182bd1d830c1aa785ad565b2912320eba56159a6aeb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Configs\\System\\keyBindingMenu.conf",
+          "sha256": "c9845e004369c8d412332aa4bc7119f70337427047b996d89381ff99006be016"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Configs\\Weapons\\GEP_35_HEIT.conf",
+          "sha256": "c04bd80d939edb98018c90cde7824cb4a582b01a5e959fe9c6f76585181ffe79"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Gepard.gproj",
+          "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Language\\GEP_GM102_localization.en_us.conf",
+          "sha256": "be4ade3cd4a2b85809c331ba83e506fa0fdd421a7d6bff5ca3714ad1eb884fa5"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GEP_BrakeLight572.et",
+          "sha256": "dfcb9d283f5a3e4b996b048f2b4c80ce0bc638638ab1f1dd42165752a24769fd"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GEP_HeadLight572.et",
+          "sha256": "defad8230cff9033f4ceca2ede6826a7c1d8dde1b6521c2fa7f44f6e55af7467"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GEP_RearLight572.et",
+          "sha256": "04048c8c79937ff5ac78317e3e8d7415160549a683d002bc6b3e336b524b0a9d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GEP_ReverseLight572.et",
+          "sha256": "4ffa913234cddac72881d821c000c4844d587485b5ded6010d53ac483c91333f"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardAuxLampHardware672.et",
+          "sha256": "031d9b07eb8a12a22b31c742148bb94aade8311c44f30673f0d6b575e01b96dc"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardBearingBosses.et",
+          "sha256": "d3f3d66035bcd412052e1e13ef5348f0b177ce06aa95253f16f4076adaceaca1"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardCabin.et",
+          "sha256": "6c76096437b93dc91882497d36448b6d7cd68ef9e996a5d576a4720276442f20"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardCabinLight.et",
+          "sha256": "e1dc944f0ff9174ef21efd47688a516f4b9535f371ec4ddab62f701ffcbdaad4"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardCommanderHatch569.et",
+          "sha256": "e77fd98d805280792f6b06be50ec7d5c122e6ee44e53edfff1cb66d2a33867a7"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardCoverLeft668.et",
+          "sha256": "e5e1f328e003b3a8b659e0717298c8898b20e843388932e080e13d6137019f74"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardCoverRight668.et",
+          "sha256": "04d36d125362b1f59dbfac43689d46c0e6b2bb58a9f062d367ef7eb1050d4441"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardDriverHatch.et",
+          "sha256": "e1cdbde2310c9f2d471fba337b28c89f2f2f7b5610df1b86a7d2ff18530ce6e4"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardDriverLidHardware660.et",
+          "sha256": "e1e0bb73555898fe1b6756f4b1acddf826553dbe774106a92ae26125db07b88b"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardFenderDetails668.et",
+          "sha256": "2cb39a61a3141034e7560e9c745401d4f04d39b2ee34c5afa7cc010d22a72f01"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardFront07Left592.et",
+          "sha256": "163ac57adc17ad889476276974279c758a30da63346a9ef4e825ee42ff4b055a"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardFront07Right592.et",
+          "sha256": "8a8a619963333a67d6e4c10b2ef1b0a8fea190efcd5ce3bcac79b349f23c3845"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardFullWidthApron606.et",
+          "sha256": "47ff7091ae98c4f7d7bdca2734394810c4d84c8f1a189f1dcd65b7dc0dbbf53b"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardGunnerHatch569.et",
+          "sha256": "8e4e80aef5bc2830b6188b86f39d903ace35c8d852910582fe628cfce16758ef"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardHullOnly.et",
+          "sha256": "83cbf2a8aa54a0be24edaa2cec6ff7a3103ecd39a7c985ad6bc7300c5081f054"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardLeftServiceShield603.et",
+          "sha256": "3e708abf2d84877fdeecdaa40f680a7785bd855e1f61161d26b27dd8ef7933e8"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardRightRearShieldCover671.et",
+          "sha256": "ecf497218fcaec1ea36b673ae6e40178cf4c2d8c091af7a21ab2ca5614a5b6ad"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardRoofEyes669.et",
+          "sha256": "857aa5197ced80d594651a84d9878af7e40cab2c54d379355382317268635ec8"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardSearchBase.et",
+          "sha256": "144ef08bcf417fb1686aba0c3c71fc15a925a74d38924bb97ad35550747fbebe"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardSearchHead.et",
+          "sha256": "810747c363b650b0add138bb8c91a28308c6e1f28216b94a5c47833061c26c03"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardSearchYawSupport.et",
+          "sha256": "d96e01650e7104a1edb1a9f7c0066dce3c50badb68b13a49a38faa146c11438a"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardSteeringWheel.et",
+          "sha256": "ba19d105710add672809014f1205fec0ad1c2385e00bd067f352284213950f37"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardStowageSeated591.et",
+          "sha256": "dd96786e0735febb15c4bdab6244b5a10d48c31d60642e746a66bae9e8a3be39"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardTrackingBase.et",
+          "sha256": "da0c592b06605c11e8667f275abf917cf858f69ade6eb2bc698756681b698a57"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Art\\GepardTrackingHead.et",
+          "sha256": "92a0d64b1b3363f012f4730db0a4743b502497355389d92372c371ed94d4b406"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Camo\\GEP_35_GunLeftV11.et",
+          "sha256": "eb9d8397ed680dfa9e45cf52c34db2f02e78587fc429507ab597c532baee9617"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Camo\\GEP_35_GunRightV11.et",
+          "sha256": "4b8dda6289cf28de4e261f97dd730febe0e19ab3c2cafcd91135fc8cbe625e68"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Camo\\GEP_MobileCarrierV11.et",
+          "sha256": "02daa1931848a63ff9e957758b0e02a2fdc90ebf40631ccb4d8b95485ddb0e26"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Camo\\GEP_VehicleTurretV11.et",
+          "sha256": "7b3c764fed0b91ef4ad64afe8d2e7741b2152d9c3b22914762013a22622675c5"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Camo\\GepardStowageV11.et",
+          "sha256": "b0e931185fdb55eaba59138a9d937164d79161d822726728857c5290e160a63d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Charcoal\\GEP_35_GunLeftV11.et",
+          "sha256": "e86c0dd9188e1ff1e591f2d20f394a87c00fe099ecb88b8b26c01ca67d9df89f"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Charcoal\\GEP_35_GunRightV11.et",
+          "sha256": "c8c8f2d03c7cb421cfe7498bfa508a6650d18d229507adb5b67317156b9a18dc"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Charcoal\\GEP_MobileCarrierV11.et",
+          "sha256": "52ad361f0dfa702ed04d9d1af849d2b6cf23d1e716de93c7e5713c9fe464db34"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Charcoal\\GEP_VehicleTurretV11.et",
+          "sha256": "2119337b8bf19f9c795c289263badb4d565b1a7d36b435d79fa2116ecd1057f8"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\ArtV11\\Charcoal\\GepardStowageV11.et",
+          "sha256": "0939dcc4c641205374ca17578b3339261d9836f077c4276a1f938060f2cf1b9f"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Editor\\Modes\\EditorModeEdit.et",
+          "sha256": "90b3cc883e141a7f38b6583266e7aad50066c28fe05210e09c619ecedd8f1b17"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardAuxLampHardware672.et",
+          "sha256": "13ddac282ce26f1ff73dc5a8fa34134d532af33e1cc2bfd9ac4a156ffc2ab638"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardBearingBosses.et",
+          "sha256": "7f214aef5df97907f02cee126060ab397249848be3f78149e2449d3993b44965"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardCabin.et",
+          "sha256": "2f9ec8ad7ca69c172e1d5e9a0175f5a3c929c14f239b6ff04bc72ee0ce2ff76e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardCommanderHatch569.et",
+          "sha256": "78ddc3f27273ff0d4e175bbbd262b79b03de3a82b3f59388ea1e0dce28b94aea"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardCoverLeft668.et",
+          "sha256": "3c0b4f07e3d07003de63a54a6a81a5829b0f5e6489b689b1d8e96c8e425c285b"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardCoverRight668.et",
+          "sha256": "3a37dc84be5a6ca028a7449540cc9696215fe24cb2f74d009f35a08bb9d130de"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardDriverHatch.et",
+          "sha256": "d9e3057540436592db6fbd6551e904789a1ef2b048f96c737da056e2241a1db0"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardDriverLidHardware660.et",
+          "sha256": "c4028fe484877d2fffa075ce616279e681b8e83d9c7b44ea7cf777a880327278"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardFenderDetails668.et",
+          "sha256": "bbb18a044241f9079078a5ff4708d7706ed89091f8c99591ac05c7d170188127"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardFront07Left592.et",
+          "sha256": "c3ccf961b7dafc65a27439d88e9e88a5f6c75880afe5a1865fb438ce8c4e08f6"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardFront07Right592.et",
+          "sha256": "fbf8b9240f5b29bc1ca5d205031571e4398054932b12b04225fa3b3f41532862"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardFullWidthApron606.et",
+          "sha256": "69fbdd300e2c713d53ec3127025ee9df16991e07285621ce00623a3b20b653f9"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardGunnerHatch569.et",
+          "sha256": "c7394f87f12a631c9bb7899edfe588bbc0cf6a2dcb293f0528f3b402db7479fc"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardLeftServiceShield603.et",
+          "sha256": "ae670152b7d871ad6efbe372bed17f5a364e820e9bb4fdbb6708af5657546161"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardRightRearShieldCover671.et",
+          "sha256": "389c2c9d4588a096e260f201660bd3c418beb3a686ed3f8ba943c5411d624ac6"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardRoofEyes669.et",
+          "sha256": "0710b2898665f77e2f8ae68fdc0587768dc661e236a86092d13be879004a3a5c"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardSearchBase.et",
+          "sha256": "a68eb171ccab4cdde1fdd39da86ce360ca9eaeed04d23cda2735fb7041969fbb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardSearchHead.et",
+          "sha256": "e94e9ca6cc50ac20aeafb391d61f4cea2412aacba63d54bdec0185e540682e64"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardSearchYawSupport.et",
+          "sha256": "2a18acbeab791d1de96dd87eb756083436f737ef739579d2701e732698a22525"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardStowageSeated591.et",
+          "sha256": "50c30506cbaa927d731a199945ce789b17aa88ee59e20740217eba1e6f8f7c50"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardTrackingBase.et",
+          "sha256": "d7b36ebc894d8e4c2b2c4d3d53e0b8ed2d3bea8144abc05e75849ff8f30831fc"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Art\\GepardTrackingHead.et",
+          "sha256": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Vehicles\\GEP_MobileCarrier.et",
+          "sha256": "73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Weapons\\GEP_35_GunLeft.et",
+          "sha256": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Weapons\\GEP_35_GunRight.et",
+          "sha256": "a1dd80a8e06fbb47eefb7f6b3e004101115fe924b9f22b044df482c274aba4fb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Variants\\Charcoal018\\Prefabs\\Weapons\\GEP_VehicleTurret.et",
+          "sha256": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Vehicles\\GEP_MobileCarrier.et",
+          "sha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Vehicles\\GEP_TrackedMobility.et",
+          "sha256": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Vehicles\\GEP_WheeledMobility101.et",
+          "sha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_35_GunLeft.et",
+          "sha256": "bbd850167ec6f3a0ba161bf5190e0cce72abaea2eea92daf5b7cd36c364d3ebb"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_35_GunRight.et",
+          "sha256": "7752f70ac772eac267d31de11fe85ed0214cadf860d8e6d65415fb72fc0927f1"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_35_HEIT_Belt320.et",
+          "sha256": "ee9f3c34ffeca34062a1d0f3ce3059df7579cbc7e19add82b15a7b89c65d7e35"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_35_HEIT_Projectile.et",
+          "sha256": "f59ca1ff4cb08b86ce5054bff8802cdee9265acdc0188d09e321c2b5ca7a0614"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_35_HEIT_Warhead.et",
+          "sha256": "1c8a869079e2b63a31ba9d471f8bb8d0d42e09e3c98f44dc5324d200a10889bd"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_StationaryTurret.et",
+          "sha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Prefabs\\Weapons\\GEP_VehicleTurret.et",
+          "sha256": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_AmmoCatalogue.c",
+          "sha256": "0ba6876a14e421ac4435dca8761edf152cbe53097fd3f56280ccfb779cd9400d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_CharcoalCatalogue018.c",
+          "sha256": "9df051ef091008e60c372a78c05e6345579a4d3b6c930e2771bee0eaf18b898e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_ComponentDamageSetup.c",
+          "sha256": "602287146cbc28cd6a6c19febf7da0d56fa96705099a9d0506bc337b45cea099"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_ControlHints580.c",
+          "sha256": "8646ee2a904667358c57aafca1e90593dc10b2f0cf35165a54421806e7eb4086"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_CrewActions579.c",
+          "sha256": "01c4ecf44cb537685fc8a93d32baa2c9e0d7598a5368e7fc59f2427d797fc4cf"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_CrewControls569.c",
+          "sha256": "75311e4b8a405037a02cc6cd1d7e5b28b3041b9efc8f9462495e6b6fc99c749d"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_DriverStation.c",
+          "sha256": "8c85b7a7d32e53952659635dc723afa83887c35da440fedbf44bebbfa70a5468"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_EngagementModel.c",
+          "sha256": "2e71d43b3e17a53dc0ceadc2c4cf67abe3789477f450a77fd7e85c38b57274e9"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_ExteriorLights572.c",
+          "sha256": "dea8b49cadb59b5b0e4316e159ac2117822e381d53f0a9c08f42a7aaa9156495"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_FireControl.c",
+          "sha256": "096af48745c5d35568867883bbdd11cc1eee98664be61071a957dd21cd1def52"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_FireControlGeometry.c",
+          "sha256": "04903420941333fb61f41b61ce0283fcec92c0f95bcddabb2e11b6f3a771ab8e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_GunnerSnapshot583.c",
+          "sha256": "dc27281455549c6f0e85ac5b0fc17e62da4cf9874d0b05bd3dad72347ca9e27e"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_GunStatus.c",
+          "sha256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_Instruments494.c",
+          "sha256": "3c1d2198aa4230aeb6f35926f5da5b5be05781d786ad66aca17cdc7de0692f6a"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_LampDamage584.c",
+          "sha256": "97b4ea30f582d8453b81ec9965252644cba9a5ba8b8a5c2141bec9b8d5901a97"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_MagazineWell.c",
+          "sha256": "69480e5e679768587b994edcfeace3298830938694227837bf110cdfd9fcea0a"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_Optical444.c",
+          "sha256": "d959eb33c94e1688d4664930cba9f7135fa95e9836787e3edc429612d48ee1d2"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_OpticEvidence679.c",
+          "sha256": "1c98bec615aaa7aa932c49a85478db120fb052e39bfc5c7a078620ae6abc418c"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_PlainSight680.c",
+          "sha256": "4fac0ae37b8a4ccbc8992d4162c0f571f46642162b9c89d6caadbc6f0c144097"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_Presentation680.c",
+          "sha256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_RadarActions.c",
+          "sha256": "01add44865ce80b267f1e8b946d4b80219fb5070422121ce6b9bbecf34ab1e54"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_RadarDisplay.c",
+          "sha256": "2869eb7b04e1abc1d3d1ac5c6a90d1f861465c6e52a11056ab26fe3701ff19a3"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_RadarSystem.c",
+          "sha256": "24f447ee879c324c8e511ca9457e722cb56f2cef2289d6cc909900fca4322368"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_Range676.c",
+          "sha256": "f4f81ea1bbbb0b665bdc8d850042ac4f05a36b7eb712e25ed0ca7e1d0c3e6cb5"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_RearBelt580.c",
+          "sha256": "bebfa21cbd22c33a2dc77d88f494e5a41622bd46548905df09bfe960c39cb907"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_RearDriveRepair582.c",
+          "sha256": "a03595091eca9437f6beb17b8143a05dddb18738f9f71abe4506ecdc9cf8160c"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_RoofSights438.c",
+          "sha256": "a0fe7042a8e953c3d705dbdf539537f46ff459d2ede0bf83f8de4eb020dd49c0"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_RunningGear.c",
+          "sha256": "ddda21d5cff73b83d4aa275290af2df7c1d8c8d54a2ba065ba6eb1e7a5b32c12"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_SteeringWheelVisual.c",
+          "sha256": "5736ee869178db9b065defdefc2f15fe46762ce77ebb2bd580364ace553fa5d1"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_SwitchSeatAction.c",
+          "sha256": "5c4eb995cfb653e70f46024375990dfac4a6b8eddbeea7403a55de268a184417"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_TrackedDamageManager396.c",
+          "sha256": "4ee2a479bb2cb6ef50e136acb0cf1bdb0e5c06140983ab5365d5f018bcc68bb3"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_TurretDrive410.c",
+          "sha256": "01416df0c6d3b77c6897da9086d5f8121b6517590e3aa13e1d7ef5ecff1183fd"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_VehicleInventoryInfo533.c",
+          "sha256": "5f45a005e18e8fcd4715bfff44172413d52508bc875180f133131f86b3ae6703"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_WIPTurretHitZone692.c",
+          "sha256": "f4947f88decca14e0da2e0b46d1256b2906bdb54b72e93ac06b24e0ffa027dd2"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEPWheelDrive\\GEP_ExteriorLights572_Wheeled101.c",
+          "sha256": "6bd51fe30a221d327d4179030091f7038b3dc79ab9e642db064fd0c58bca4494"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEPWheelDrive\\GEP_Instruments494_Wheeled101.c",
+          "sha256": "932464dd316fc38e3cffe6ee3ce3645b9ee820d249312eafff42cc49cf3d9fe1"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEPWheelDrive\\GEP_RunningGear_Wheeled101.c",
+          "sha256": "c12353e4346226d68fc9628c919bfcf6f5c9679e36a9369fe399f44a503306a3"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEPWheelDrive\\GEP_SteeringWheelVisual_Wheeled101.c",
+          "sha256": "6166f71db7067f5061e695b5642b60f91312921a96574e0e76d5e4d44c1f2deb"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\hudQA",
+      "textSourceFiles": 3,
+      "files": [
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\hudQA\\GEP_ApprovedHUD705_QA.gproj",
+          "sha256": "e6ebdc66ba5c3cb010bea790056633066304e04588c48ec71e92b9672d96b779"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\hudQA\\scripts\\Game\\GEPApproved705\\GEP_Approved705Scene.c",
+          "sha256": "6250328e9b5725ad678265a6a1289af598bb454c78de19287e9a5d1f35b79bb2"
+        },
+        {
+          "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\hudQA\\scripts\\Game\\GEPApproved705\\GEP_ApprovedRenderProbe705.c",
+          "sha256": "c21eec0baa5973a37dc9ee1cd97f568a3c0bc1825180c70dbba15a4786767880"
+        }
+      ]
+    }
+  ],
+  "newQAOrGepardDefinitionsOrReferences": [],
+  "nativeMarkers": {
+    "world": 138,
+    "game": 236,
+    "scene": 251,
+    "player": 264,
+    "boarding": 275,
+    "ads": 278,
+    "data": 281,
+    "widgets": 282,
+    "capture": 284,
+    "terminal": 285
+  },
+  "strictRunStatusRetained": "FAIL",
+  "strictNativeErrorsStatusRetained": "FAIL",
+  "recordedAssertions": {
+    "fixture.ready": "PASS",
+    "world.loaded": "PASS",
+    "hud.scripted-ads": "PASS",
+    "hud.capture-file": "PASS",
+    "hud.actual-data": "PASS",
+    "scripts.compiled": "PASS",
+    "native.errors": "FAIL",
+    "visual.approved": "NOT_TESTED",
+    "glyphs.reviewed": "NOT_TESTED",
+    "input.physical": "NOT_TESTED",
+    "hud.selection": "NOT_TESTED",
+    "hud.range-transition": "NOT_TESTED",
+    "hud.zoom-transition": "NOT_TESTED",
+    "hud.lifecycle": "NOT_TESTED",
+    "hud.firing": "NOT_TESTED"
+  },
+  "allRawErrorLinesOutsideClassificationAlsoRetained": [
+    {
+      "line": 112,
+      "raw": "22:05:43.525   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+    },
+    {
+      "line": 166,
+      "raw": "22:05:45.543           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+    },
+    {
+      "line": 173,
+      "raw": "22:05:45.637           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+    },
+    {
+      "line": 174,
+      "raw": "22:05:45.637           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+    },
+    {
+      "line": 181,
+      "raw": "22:05:45.638           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+    },
+    {
+      "line": 182,
+      "raw": "22:05:45.638           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+    },
+    {
+      "line": 183,
+      "raw": "22:05:45.638           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+    },
+    {
+      "line": 184,
+      "raw": "22:05:45.638           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+    },
+    {
+      "line": 297,
+      "raw": "22:06:58.357 RESOURCES (E): ==== Resource leaks ===="
+    },
+    {
+      "line": 298,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-48_atlas.edds   1"
+    },
+    {
+      "line": 299,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1"
+    },
+    {
+      "line": 300,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1"
+    },
+    {
+      "line": 301,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1"
+    },
+    {
+      "line": 302,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1"
+    },
+    {
+      "line": 303,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1"
+    },
+    {
+      "line": 304,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1"
+    },
+    {
+      "line": 305,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1"
+    },
+    {
+      "line": 306,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1"
+    },
+    {
+      "line": 307,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 308,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1"
+    },
+    {
+      "line": 309,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 310,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1"
+    },
+    {
+      "line": 311,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1"
+    },
+    {
+      "line": 312,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1"
+    },
+    {
+      "line": 313,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1"
+    },
+    {
+      "line": 314,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1"
+    },
+    {
+      "line": 315,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1"
+    },
+    {
+      "line": 316,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1"
+    },
+    {
+      "line": 317,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1"
+    },
+    {
+      "line": 318,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1"
+    },
+    {
+      "line": 319,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1"
+    },
+    {
+      "line": 320,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1"
+    },
+    {
+      "line": 321,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1"
+    },
+    {
+      "line": 322,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1"
+    },
+    {
+      "line": 323,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 324,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   1"
+    },
+    {
+      "line": 325,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1"
+    },
+    {
+      "line": 326,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   1"
+    },
+    {
+      "line": 327,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   1"
+    },
+    {
+      "line": 328,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   1"
+    },
+    {
+      "line": 329,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 330,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   1"
+    },
+    {
+      "line": 331,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   1"
+    },
+    {
+      "line": 332,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   1"
+    },
+    {
+      "line": 333,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   1"
+    },
+    {
+      "line": 334,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   1"
+    },
+    {
+      "line": 335,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   1"
+    },
+    {
+      "line": 336,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   1"
+    },
+    {
+      "line": 337,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   1"
+    },
+    {
+      "line": 338,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1"
+    },
+    {
+      "line": 339,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1"
+    },
+    {
+      "line": 340,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1"
+    },
+    {
+      "line": 341,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1"
+    },
+    {
+      "line": 342,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/debugUI.edds   1"
+    },
+    {
+      "line": 343,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1"
+    },
+    {
+      "line": 344,
+      "raw": "22:06:58.357 RESOURCES (E): UI/Imagesets/default.edds   1"
+    },
+    {
+      "line": 345,
+      "raw": "22:06:58.357 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1"
+    }
+  ],
+  "recipePins": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-render-control-01\\plan.json",
+      "bytes": 10562,
+      "sha256": "7d89111a8b394b15f93564a2e49dd8dd75dc24aeb1e876731cf8e7f99bd17757"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-render-control-01\\summary.json",
+      "bytes": 1157,
+      "sha256": "895c595153ae6979c2cf1af63624d0882eef92423a696f72a37effefb439822b"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-render-control-01\\hud-render-startup\\result.json",
+      "bytes": 14384,
+      "sha256": "cf69f411aa393a5d611e7e27369363fa2ef8dbd386bbf01d8f8ee9d4752741fc"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-render-control-01\\hud-render-startup\\native-review.json",
+      "bytes": 10206,
+      "sha256": "ade8fd5bd5090ccd3174cf903655bb4bc9644df9f0314bfa95c8ae0453fd041d"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\hud-render-control-01\\hud-render-startup\\native-run\\logs\\console.log",
+      "bytes": 32754,
+      "sha256": "b4a8da3be11d703b96d8f0cafcddd343295569b308cb79595da976003313b73b"
+    }
+  ],
+  "priorReportPins": {
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\compare_legacy.py": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\compare_legacy.py",
+      "bytes": 7991,
+      "sha256": "2305d9fa619ff53e7fde31abe5e76c75f70e0986aab55ef67111f0960abaa586"
+    },
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\COMPARISON.json": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\COMPARISON.json",
+      "bytes": 157114,
+      "sha256": "579c9a4e2f8f659005bca60e3b0c626c5d3f332f9a728b0daf5a09f0d59362b3"
+    },
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\INPUT-PINS.json": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\INPUT-PINS.json",
+      "bytes": 5379,
+      "sha256": "05d26e2b65daec75f0dc23013a1ef6e55eed44e6b65b3263f352e7462c678e8b"
+    },
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\inventory.py": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\inventory.py",
+      "bytes": 1504,
+      "sha256": "f61e9fff931a9a0988fb816514cfdbfef096c34718d55ba16e926a4aba0d1459"
+    },
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\render_report.py": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\render_report.py",
+      "bytes": 7546,
+      "sha256": "3bc2e1a96f09bcfe9a98aed5e1ff114b12aaf4bd6f3c909bcccbe4ecd58b7f15"
+    },
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\REPORT.md": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\REPORT.md",
+      "bytes": 8318,
+      "sha256": "c7fab27249293d65dad2d5bd1f04781c1b1508442b7640d8c2eecafdb01a4402"
+    },
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\VERIFICATION.json": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\legacy-diagnostics-20261022\\VERIFICATION.json",
+      "bytes": 201,
+      "sha256": "48719d11b969df95beda2786195e1715cd485458a7ab1fe2a8138dd5247a56c5"
+    }
+  },
+  "limits": [
+    "No broad Unknown class waiver is proposed; matching requires exact channel, class, offset and stock layout GUID/name.",
+    "Literal stock layout payload and historical full PAK byte identity were not decoded/established; attribution uses exact native load evidence and repeated baseline signature.",
+    "Layout load precedes Game-script compilation; this is stock startup parsing, not execution of a new QA component. Absence of these identifiers in scanned QA/Gepard sources is corroboration.",
+    "Resource leak messages during shutdown are retained separately and receive no classification here.",
+    "Reported ADS/data/capture assertion passes are not new visual/physical/gameplay acceptance. Native.errors and run FAIL remain unchanged."
+  ]
+}

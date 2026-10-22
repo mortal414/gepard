@@ -1,0 +1,12 @@
+{
+  "failureRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-02",
+  "repair": "Finish normal Stage/player/camera/loading bootstrap before starting qualification clock; keep actualtimescale1 gate and strictpoststart",
+  "changes": {
+    "gepard": [],
+    "artNativeQA": [
+      "scripts/Game/GEPArtNativeSceneQA/GEP_ArtNativeSceneQA20261022.c"
+    ]
+  },
+  "setterAdded": false,
+  "native": "NOT_TESTED"
+}

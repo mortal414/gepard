@@ -1,0 +1,17 @@
+{
+  "patch": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\deliverables\\camera-repair\\01-camera-and-identity-fixture.patch",
+  "patchSHA256": "759932626a03055341be7baa95e6917b1629bcf34dea5c4384604b18bbbe8715",
+  "postimageSHA256": "63eece16ff2003d1db9507e491cb72d87882a7ea9c380f702aa154ffa4c6e8c8",
+  "source": "supplier fbddc18",
+  "changes": {
+    "qaSmoke": [
+      "scripts/Game/GEP215WCSQA/GEP215_WCSProbe.c"
+    ],
+    "wcsSmoke": [],
+    "gepard": [],
+    "WCS_Armaments": []
+  },
+  "captureEnabled": false,
+  "angleOrderPatchApplied": false,
+  "native": "NOT_TESTED"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "priorReportFilesPreserved": 7,
+  "changedPriorReportFiles": [],
+  "historicalLogPinsRechecked": 25,
+  "changedLogs": [],
+  "changedScannedSourceFiles": [],
+  "productionWrites": false,
+  "collectorChanges": false,
+  "nativeActions": false,
+  "strictRunStatus": "FAIL",
+  "strictNativeErrors": "FAIL"
+}

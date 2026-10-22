@@ -1,0 +1,86 @@
+[
+  {
+    "class": "QMessageBox",
+    "enabled": true,
+    "name": "Script Authorization Required",
+    "hwnd": 238881266,
+    "type": "ControlType.Window"
+  },
+  {
+    "class": "",
+    "enabled": true,
+    "name": "Script Authorization Required",
+    "hwnd": 0,
+    "type": "ControlType.TitleBar"
+  },
+  {
+    "class": "",
+    "enabled": true,
+    "name": "System Menu Bar",
+    "hwnd": 0,
+    "type": "ControlType.MenuBar"
+  },
+  {
+    "class": "",
+    "enabled": true,
+    "name": "System",
+    "hwnd": 0,
+    "type": "ControlType.MenuItem"
+  },
+  {
+    "class": "",
+    "enabled": true,
+    "name": "Close",
+    "hwnd": 0,
+    "type": "ControlType.Button"
+  },
+  {
+    "class": "QLabel",
+    "enabled": true,
+    "name": "",
+    "hwnd": 0,
+    "type": "ControlType.Image"
+  },
+  {
+    "class": "QLabel",
+    "enabled": true,
+    "name": "Allow script 'scripts/WorkbenchGame/GEP033/GEP033_TraceStockRollingPlugin.c:195'\nto access potentially dangerous\nmethod 'BaseContainerTools.LoadContainer'?",
+    "hwnd": 0,
+    "type": "ControlType.Text"
+  },
+  {
+    "class": "QDialogButtonBox",
+    "enabled": true,
+    "name": "",
+    "hwnd": 0,
+    "type": "ControlType.Group"
+  },
+  {
+    "class": "QPushButton",
+    "enabled": true,
+    "name": "Yes",
+    "hwnd": 0,
+    "type": "ControlType.Button"
+  },
+  {
+    "class": "QPushButton",
+    "enabled": true,
+    "name": "Yes to All",
+    "hwnd": 0,
+    "type": "ControlType.Button"
+  },
+  {
+    "class": "QPushButton",
+    "enabled": true,
+    "name": "No",
+    "hwnd": 0,
+    "type": "ControlType.Button"
+  },
+  {
+    "class": "QPushButton",
+    "enabled": true,
+    "name": "No to All",
+    "hwnd": 0,
+    "type": "ControlType.Button"
+  }
+]

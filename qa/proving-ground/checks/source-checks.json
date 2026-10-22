@@ -10,5 +10,5 @@
     "NEW-CAMO",
     "NEW-CHARCOAL"
   ],
-  "nativeBlocker": "User runtime hold and no delegated runtime slot"
+  "nativeBlocker": "Source checks do not qualify native behavior; consult coordinator runtime lease and evidence"
 }

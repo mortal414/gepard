@@ -1,0 +1,19 @@
+OPTIONAL AUDIO READS DECLINED; OWNED SESSION CLOSED
+
+Exact dialog:
+Allow script 'scripts/WorkbenchGame/GEP033/GEP033_TraceStockRollingPlugin.c:195'
+to access potentially dangerous
+method 'BaseContainerTools.LoadContainer'?
+
+Options: Yes | Yes to All | No | No to All.
+Source call: Resource loaded = BaseContainerTools.LoadContainer(resourceName);
+
+Fixed targets:
+{A9997E455F672798}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_l_1.acp
+{5CEAEF266CBBF0F1}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_r_1.acp
+
+Yes scope: UNKNOWN. The observed dialog and installed API documentation do not specify one-call versus session/persistent permission. No Yes or Yes to All was selected.
+
+One No was selected separately for each distinct left/right request. Both returned unavailable, terminal complete=0. Owned PID23096 then closed normally, cached exit code0, matching lease released03:35:08.467UTC. Original failed normal-close evidence and recovery receipts are preserved. No force termination, retry or alternate protected read.
+
+Only this optional metadata operation is denied. Unrelated core native qualification resumed and both V11 fragment-survivor cases subsequently passed. Track audibility remains NOT_TESTED and the feature remains excluded. A materially new relevant authorization is required before reconsidering either declined protected read.

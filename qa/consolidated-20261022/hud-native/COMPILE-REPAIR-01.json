@@ -1,0 +1,14 @@
+{
+  "failureRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-hud-native-01",
+  "repair": "Hoist nested snapshot expressions to typed locals; exact PrintFormat log fields/order retained",
+  "oldProbeSHA256": "2ea0dcb84764034bf36ba509e2d529c0b09c1c96aa58dd7b7a84df2ac283607b",
+  "newProbeSHA256": "c21eec0baa5973a37dc9ee1cd97f568a3c0bc1825180c70dbba15a4786767880",
+  "reviewedChanges": {
+    "gepard": [],
+    "hudQA": [
+      "resourceDatabase.rdb",
+      "scripts/Game/GEPApproved705/GEP_ApprovedRenderProbe705.c"
+    ]
+  },
+  "native": "NOT_TESTED"
+}

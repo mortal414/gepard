@@ -1,0 +1,42 @@
+{
+  "status": "OPTIONAL_AUDIO_READS_DECLINED_SESSION_CLOSED",
+  "action": "Read stock audio AudioClass graph with BaseContainerTools.LoadContainer(resourceName)",
+  "target": "scripts/WorkbenchGame/GEP033/GEP033_TraceStockRollingPlugin.c:195",
+  "pid": 23096,
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-audio-stage\\stockRollTrace\\GEP_StockRollTrace033.gproj",
+  "runRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\stock-roll-trace-01",
+  "dialog": "Script Authorization Required",
+  "options": [
+    "Yes",
+    "Yes to All",
+    "No",
+    "No to All"
+  ],
+  "decisionTaken": true,
+  "forceTermination": false,
+  "nativeScheduling": "RESUMED_UNRELATED_CORE_TESTS",
+  "compileStatus": "SCRIPT_COMPILE_PASS",
+  "metadataOutcome": "BOTH_FIXED_GRAPHS_UNAVAILABLE_AFTER_EXPLICIT_NO; END complete=0",
+  "utc": "2026-10-22T03:25:41.060988+00:00",
+  "selectedOptions": [
+    "No for left",
+    "No for right"
+  ],
+  "approvalGranted": false,
+  "scope": "Dialog exposes script+method, not permission persistence; Yes/YesToAll scope unverified",
+  "protectedOperationRetry": "FORBIDDEN_WITHOUT_NEW_RELEVANT_APPROVAL",
+  "globalNativeScheduling": "RESUMED_UNRELATED_CORE_TESTS",
+  "closure": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\stock-roll-trace-01\\exit-recovered.json",
+  "nativeExitCode": 0,
+  "updatedUtc": "2026-10-22T04:02:27.092847+00:00",
+  "currentNativePid": null,
+  "formerProbePid": 23096,
+  "dialogText": "Allow script 'scripts/WorkbenchGame/GEP033/GEP033_TraceStockRollingPlugin.c:195'\nto access potentially dangerous\nmethod 'BaseContainerTools.LoadContainer'?",
+  "sourceCall": "Resource loaded = BaseContainerTools.LoadContainer(resourceName);",
+  "fixedReadTargets": [
+    "{A9997E455F672798}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_l_1.acp",
+    "{5CEAEF266CBBF0F1}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_r_1.acp"
+  ],
+  "permissionPersistence": "UNKNOWN: neither dialog nor inspected installed API documentation states whether Yes is one-call, session or persistent. No claim is made about Yes to All persistence.",
+  "probeScope": "Read-only graph/container metadata; two fixed LoadContainer calls, maximum512nodes, no bank writes/copy/playback. Both declined protected calls remain unexecuted; no alternate read attempted."
+}

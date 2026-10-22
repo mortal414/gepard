@@ -1,0 +1,839 @@
+{
+  "scope": "Bounded gm-* hotfix consoles and HUD/optic/human/healthy-release native consoles in named historical roots",
+  "logs": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-baseline-01\\logs\\console.log",
+      "bytes": 32969,
+      "sha256": "cc480056a3113b58f4a27e69aa3239f777557f196d9f3fc4090573c361261561",
+      "hits": [
+        {
+          "line": 108,
+          "raw": "23:10:03.514   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 105,
+              "raw": "23:10:03.514 PROFILING    : Compiling GameLib scripts took: 22.651700 ms"
+            },
+            {
+              "line": 106,
+              "raw": "23:10:03.514 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 107,
+              "raw": "23:10:03.514  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 108,
+              "raw": "23:10:03.514   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 109,
+              "raw": "23:10:03.603  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 110,
+              "raw": "23:10:04.165 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 106,
+          "raw": "23:10:03.514 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:10:03.514  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 108,
+          "raw": "23:10:03.514   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-catalogless-01\\logs\\console.log",
+      "bytes": 38114,
+      "sha256": "27f98b01a1e3dee35d77a41be3a6864d0cdf48792127558c420541487dcabe18",
+      "hits": [
+        {
+          "line": 108,
+          "raw": "23:16:12.291   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 105,
+              "raw": "23:16:12.290 PROFILING    : Compiling GameLib scripts took: 22.839200 ms"
+            },
+            {
+              "line": 106,
+              "raw": "23:16:12.291 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 107,
+              "raw": "23:16:12.291  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 108,
+              "raw": "23:16:12.291   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 109,
+              "raw": "23:16:12.379  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 110,
+              "raw": "23:16:12.937 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 106,
+          "raw": "23:16:12.291 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:16:12.291  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 108,
+          "raw": "23:16:12.291   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-package-01\\logs\\console.log",
+      "bytes": 38858,
+      "sha256": "bf6f7c7b5b3375d128996c0e27bf6c887377ed153f89dbed611651a3fb1b1558",
+      "hits": [
+        {
+          "line": 108,
+          "raw": "23:14:24.989   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 105,
+              "raw": "23:14:24.989 PROFILING    : Compiling GameLib scripts took: 22.562600 ms"
+            },
+            {
+              "line": 106,
+              "raw": "23:14:24.989 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 107,
+              "raw": "23:14:24.989  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 108,
+              "raw": "23:14:24.989   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 109,
+              "raw": "23:14:25.078  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 110,
+              "raw": "23:14:25.636 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 106,
+          "raw": "23:14:24.989 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:14:24.989  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 108,
+          "raw": "23:14:24.989   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-01\\logs\\console.log",
+      "bytes": 34411,
+      "sha256": "9e52ec221ffe82be915211f8bcd90a0cc51c0bef778d480da3623b654545094f",
+      "hits": [
+        {
+          "line": 108,
+          "raw": "23:01:49.511   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 105,
+              "raw": "23:01:49.511 PROFILING    : Compiling GameLib scripts took: 24.135600 ms"
+            },
+            {
+              "line": 106,
+              "raw": "23:01:49.511 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 107,
+              "raw": "23:01:49.511  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 108,
+              "raw": "23:01:49.511   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 109,
+              "raw": "23:01:49.604  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 110,
+              "raw": "23:01:50.169 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 106,
+          "raw": "23:01:49.511 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:01:49.511  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 108,
+          "raw": "23:01:49.511   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-02\\logs\\console.log",
+      "bytes": 38635,
+      "sha256": "3cafebf54278108b8fb774e5323098d82d3d5c3d8c84c948ffddad80630d0038",
+      "hits": [
+        {
+          "line": 108,
+          "raw": "23:08:19.440   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 105,
+              "raw": "23:08:19.440 PROFILING    : Compiling GameLib scripts took: 35.012100 ms"
+            },
+            {
+              "line": 106,
+              "raw": "23:08:19.440 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 107,
+              "raw": "23:08:19.440  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 108,
+              "raw": "23:08:19.440   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 109,
+              "raw": "23:08:19.596  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 110,
+              "raw": "23:08:20.287 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 106,
+          "raw": "23:08:19.440 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 107,
+          "raw": "23:08:19.440  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 108,
+          "raw": "23:08:19.440   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-uploaded-01\\logs\\console.log",
+      "bytes": 39433,
+      "sha256": "aae7d33e8124ac3173e6cd64f9a52252fa11d4b61d7fed3610c2dcb2bc01ad3c",
+      "hits": [
+        {
+          "line": 111,
+          "raw": "23:26:33.142   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 108,
+              "raw": "23:26:33.142 PROFILING    : Compiling GameLib scripts took: 22.361000 ms"
+            },
+            {
+              "line": 109,
+              "raw": "23:26:33.142 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 110,
+              "raw": "23:26:33.142  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 111,
+              "raw": "23:26:33.142   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 112,
+              "raw": "23:26:33.230  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 113,
+              "raw": "23:26:33.777 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 109,
+          "raw": "23:26:33.142 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 110,
+          "raw": "23:26:33.142  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 43,
+          "raw": "23:26:32.249   RESOURCES (E): Wrong GUID/name for resource @\"{2F07D6CD2F5EC5FF}Language/GEP_GM102_localization.st\" in property \"StringTableSource\""
+        },
+        {
+          "line": 111,
+          "raw": "23:26:33.142   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\new-optic-user-01\\logs\\console.log",
+      "bytes": 58582,
+      "sha256": "7e2d2b34fa54aa3a5f5f0a94f03a5260d3def8a9fbf7aba95465ee77fb219508",
+      "hits": [
+        {
+          "line": 105,
+          "raw": "18:49:39.518   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 102,
+              "raw": "18:49:39.518 PROFILING    : Compiling GameLib scripts took: 22.989800 ms"
+            },
+            {
+              "line": 103,
+              "raw": "18:49:39.518 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 104,
+              "raw": "18:49:39.518  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 105,
+              "raw": "18:49:39.518   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 106,
+              "raw": "18:49:39.609  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 107,
+              "raw": "18:49:40.194 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 103,
+          "raw": "18:49:39.518 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:49:39.518  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 105,
+          "raw": "18:49:39.518   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\optic-compare-compile-01\\logs\\validate\\console.log",
+      "bytes": 29373,
+      "sha256": "a3ecf8cffec15f7b0fdb82240853123f90044116922830b209792fedcfafb278",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\optic-render-01\\logs\\console.log",
+      "bytes": 33546,
+      "sha256": "13bc34341a217c7669fa8aef24a0c3038d7348cd1efc3707e85a1d155a8af332",
+      "hits": [
+        {
+          "line": 105,
+          "raw": "18:42:48.766   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 102,
+              "raw": "18:42:48.766 PROFILING    : Compiling GameLib scripts took: 22.987100 ms"
+            },
+            {
+              "line": 103,
+              "raw": "18:42:48.766 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 104,
+              "raw": "18:42:48.766  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 105,
+              "raw": "18:42:48.766   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 106,
+              "raw": "18:42:48.860  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 107,
+              "raw": "18:42:49.452 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 103,
+          "raw": "18:42:48.766 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:42:48.766  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 105,
+          "raw": "18:42:48.766   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\native-runs\\optic-render-compile-01\\logs\\validate\\console.log",
+      "bytes": 29367,
+      "sha256": "b23eb3acb1e7cce4377b890a13cf3bfe937bd718d800fe4dbed482a7d27adf22",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\hud-current-human-compile-01\\logs\\validate\\console.log",
+      "bytes": 18727,
+      "sha256": "8d2ffd4f0bba444b8feb6ed7a3384027a4cf6f13213cdfd2932824fc010eb99a",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\hud-current-human-compile-02\\logs\\validate\\console.log",
+      "bytes": 29124,
+      "sha256": "237a59ff5d038348271721f2c3bc0b3399cabb6f3eed557ef43ab67878c4f6a4",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\hud-current-sight-compile-01\\logs\\validate\\console.log",
+      "bytes": 58295,
+      "sha256": "72b06ce80f01425859c3dbea6d91701a73f6c5e7feb1067ce18a8029f5ab6319",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\hud-current-sight-compile-02\\logs\\validate\\console.log",
+      "bytes": 29316,
+      "sha256": "7cf350686d93fed79ea2b49214dc2c33ff6d98bf9f8cbb4e0d132af17caebd59",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\hud-functional-compile-01\\logs\\validate\\console.log",
+      "bytes": 29242,
+      "sha256": "342f388b31f930f58f6175dc152c7d20df3766c201f1f38b9853cc0de2560811",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\hud-runtime-compile-01\\logs\\validate\\console.log",
+      "bytes": 29224,
+      "sha256": "5b6e6e8257488834389a96ddcf8f3c0f0e454a6ca14a2a4000decd17a8a08bce",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-drive-20261020T231546Z-9bc1e8\\user-failure-console.log",
+      "bytes": 23373086,
+      "sha256": "8d28d58584d661aac5e644102d13033f23f37b54c7c620699f3bc3f9a2208da4",
+      "hits": [
+        {
+          "line": 105,
+          "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 102,
+              "raw": "18:15:49.102 PROFILING    : Compiling GameLib scripts took: 24.097000 ms"
+            },
+            {
+              "line": 103,
+              "raw": "18:15:49.105 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 104,
+              "raw": "18:15:49.105  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 105,
+              "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 106,
+              "raw": "18:15:49.236  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 107,
+              "raw": "18:15:49.840 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 103,
+          "raw": "18:15:49.105 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:15:49.105  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 105,
+          "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-drive-20261020T231546Z-9bc1e8\\logs\\console.log",
+      "bytes": 23379782,
+      "sha256": "1445cb89dc6c4ffdd3fd090962a8cd7bab38633dfe8d4213f37ed2d3158ebc69",
+      "hits": [
+        {
+          "line": 105,
+          "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 102,
+              "raw": "18:15:49.102 PROFILING    : Compiling GameLib scripts took: 24.097000 ms"
+            },
+            {
+              "line": 103,
+              "raw": "18:15:49.105 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 104,
+              "raw": "18:15:49.105  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 105,
+              "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 106,
+              "raw": "18:15:49.236  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 107,
+              "raw": "18:15:49.840 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 103,
+          "raw": "18:15:49.105 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:15:49.105  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 105,
+          "raw": "18:15:49.105   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-drive-20261020T232728Z-b4ddd0\\logs\\console.log",
+      "bytes": 1136779,
+      "sha256": "f406f9c34b6c8c1a1a685cfdec2583653b5480a4c9e428883baa52dbeba0ecdd",
+      "hits": [
+        {
+          "line": 105,
+          "raw": "18:27:30.928   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 102,
+              "raw": "18:27:30.928 PROFILING    : Compiling GameLib scripts took: 23.748600 ms"
+            },
+            {
+              "line": 103,
+              "raw": "18:27:30.928 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 104,
+              "raw": "18:27:30.928  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 105,
+              "raw": "18:27:30.928   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 106,
+              "raw": "18:27:31.037  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 107,
+              "raw": "18:27:31.644 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 103,
+          "raw": "18:27:30.928 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "18:27:30.928  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 105,
+          "raw": "18:27:30.928   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-release101-20261021T005124Z-eb6dae\\logs\\console.log",
+      "bytes": 30662,
+      "sha256": "50a4c295cba446a11bfd75d6d197bdaa21e81205c51857e12d94f87e475bad51",
+      "hits": [
+        {
+          "line": 105,
+          "raw": "19:51:28.209   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 102,
+              "raw": "19:51:28.208 PROFILING    : Compiling GameLib scripts took: 24.292600 ms"
+            },
+            {
+              "line": 103,
+              "raw": "19:51:28.209 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 104,
+              "raw": "19:51:28.209  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 105,
+              "raw": "19:51:28.209   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 106,
+              "raw": "19:51:28.305  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 107,
+              "raw": "19:51:28.897 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 103,
+          "raw": "19:51:28.209 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "19:51:28.209  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 105,
+          "raw": "19:51:28.209   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-wheel-e-20261021T001123Z-641c47\\logs\\console.log",
+      "bytes": 3599839,
+      "sha256": "b535867d130a8ebe6c683a3dc6805da3376e43b89138c727da85cf97e3e85043",
+      "hits": [
+        {
+          "line": 105,
+          "raw": "19:11:25.942   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 102,
+              "raw": "19:11:25.942 PROFILING    : Compiling GameLib scripts took: 24.444500 ms"
+            },
+            {
+              "line": 103,
+              "raw": "19:11:25.942 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 104,
+              "raw": "19:11:25.942  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 105,
+              "raw": "19:11:25.942   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 106,
+              "raw": "19:11:26.059  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 107,
+              "raw": "19:11:26.660 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 103,
+          "raw": "19:11:25.942 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "19:11:25.942  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 105,
+          "raw": "19:11:25.942   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-wheel-e-compile-01\\logs\\validate\\console.log",
+      "bytes": 29132,
+      "sha256": "3ce0c6f4a7212cdca1c3ce4ef1130824fcd620f5f27271417be94c0bcffc5e66",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\human-wheel-e-usability-01\\logs\\console.log",
+      "bytes": 205367,
+      "sha256": "d69bb3cefc04437d0883722453ef15d161d6b6b6afa96f1fe148c9004369856a",
+      "hits": [
+        {
+          "line": 105,
+          "raw": "19:06:05.143   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)",
+          "context": [
+            {
+              "line": 102,
+              "raw": "19:06:05.142 PROFILING    : Compiling GameLib scripts took: 24.782000 ms"
+            },
+            {
+              "line": 103,
+              "raw": "19:06:05.143 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 104,
+              "raw": "19:06:05.143  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+            },
+            {
+              "line": 105,
+              "raw": "19:06:05.143   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+            },
+            {
+              "line": 106,
+              "raw": "19:06:05.236  SCRIPT       : SCRIPT       : Compiling Game scripts"
+            },
+            {
+              "line": 107,
+              "raw": "19:06:05.825 SCRIPT       : Compiling Game scripts"
+            }
+          ]
+        }
+      ],
+      "introLoads": [
+        {
+          "line": 103,
+          "raw": "19:06:05.143 RESOURCES    : GetResourceObject @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        },
+        {
+          "line": 104,
+          "raw": "19:06:05.143  GUI          : Layout load @\"{1C71B463B3B66BAB}UI/layouts/Menus/MainMenu/IntroSplashScreen.layout\""
+        }
+      ],
+      "guiErrors": [
+        {
+          "line": 105,
+          "raw": "19:06:05.143   GUI       (E): Unknown class 'SCR_WidgetExportRuleRoot' at offset 282(0x11a)"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\smoke-human-compile-01\\logs\\validate\\console.log",
+      "bytes": 18707,
+      "sha256": "454cef5113310940cb075770b8043c0c853d42c637f02408c06305d35c7a156e",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-DriveHud-Update-20261020\\native-runs\\smoke-human-compile-02\\logs\\validate\\console.log",
+      "bytes": 29104,
+      "sha256": "167b9b0a0935a30fcf502f0d76105d3085885403d9376090f478ca465c2d6b07",
+      "hits": [],
+      "introLoads": [],
+      "guiErrors": []
+    }
+  ]
+}

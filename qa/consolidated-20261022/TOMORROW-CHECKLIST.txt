@@ -1,10 +1,12 @@
-One consolidated session — provisional NEW-feature checklist, not a ready-to-launch claim.
+ONE CONSOLIDATED SESSION — provisional until final launch gates pass
 
-Start at the labeled version row. Labels must state exactly which exterior, optic, smoke/audio modules and source commit each subject contains.
-1. OLD versus V11: judge casing/detail/materials in both skins, then inspect the functional NEW turret/guns/hatches after automated dynamic checks pass.
-2. Approved optic: overall match/readability and target view at normal zoom steps; actual cannon selection/count/bar, range and relative turret/elevation instruments.
-3. Smoke only if qualified/included: deployment pattern, concealment and duration, then the genuine rearm stop; exclude failed prototype cases explicitly.
-4. Track audio only if audible/qualified/included: matched short baseline/NEW route, cabin/exterior, coast and stop; judge cadence/tone.
-5. Use the reusable course, targets, damage weapons and fuel/repair/rearm/reset stations as needed; routine regression chores are automated beforehand.
+1. Version row: compare OLD exterior with functional V11 NEW in camouflage and charcoal. Judge silhouette, close detail, materials and moving turret/guns/hatches. Labels state the exact exterior and shared functional build; OLD is not a second full released script version.
+2. Approved German optic: judge larger reticle, lower instrument panels and unobstructed view at normal zooms. Check live feed selection/count/bar, range and relative turret/elevation indicators. German ASCII glyph repair must have a fresh rendered pass before this session.
+3. Proving ground: one short driving loop, target fan and service stop. Routine regressions run automatically first. Check whether boards, station placement and ordinary interaction/reach feel clear.
+4. Reset: use only the labeled reset after leaving the vehicle and clearing the marked pad; the build must first pass its native known-state and occupied/near-player safeguards.
+5. Optional smoke: appears only after actual launch/flight/cloud/empty/rearm/dependency checks pass. Judge coverage and duration. Failed smoke experiments remain absent from the ordinary demo.
+6. Optional track audio: currently excluded. Both protected stock-graph reads were declined; no audible candidate or completed feature is claimed.
 
-No native session starts until the user explicitly resumes. No update is published tonight. Whole task acceptance remains pending.
+Automated evidence: both V11 skins passed healthy operation and bounded nearby-fragment survivor exit/re-entry/refire cases. Human visual quality and whole-task acceptance remain pending. No realistic armor claim follows from these cases.
+
+Runtime was authorized to resume at 01:52 UTC. Only the two declined optional audio reads remain permission-blocked; they will not be retried without new relevant approval. No publication tonight.

@@ -179,7 +179,7 @@ class GEP_GunStatus : ScriptComponent
  {
   ClearPresentation702();
   if(Root)Root.SetVisible(false);
-  string fault="ANZEIGE NICHT VERFÜGBAR";string reason;
+  string fault="ANZEIGE NICHT VERFUEGBAR";string reason;
   if(!GEP_GunnerSnapshot583.Evaluate679(GetOwner(),reason))fault=GEP_Presentation680.DisabledLabel(GetOwner(),reason);
   if(Plain680)Plain680.Show(fault);
  }
@@ -547,7 +547,7 @@ class GEP_GunStatus : ScriptComponent
  }
  string FeedTypeDE704(GEP_GunnerFeed583 feed)
  {
-  if(!feed || feed.State==0)return "NICHT VERFÜGBAR";
+  if(!feed || feed.State==0)return "NICHT VERFUEGBAR";
   if(feed.State==1)return "KEIN MAGAZIN";
   if(feed.Ammunition=="HEI-T")return "HEI-T";
   return "UNBEKANNT";
@@ -555,7 +555,7 @@ class GEP_GunStatus : ScriptComponent
  string OperationalFeedbackDE704()
  {
   if(!Snapshot.Crew)return GEP_Presentation680.DisabledLabel(GetOwner(),Snapshot.OperationalReason680);
-  if(Snapshot.DriveValid && Snapshot.DriveFault)return "TURMANTRIEB GESTÖRT";
+  if(Snapshot.DriveValid && Snapshot.DriveFault)return "TURMANTRIEB GESTOERT";
   // Do not forward raw FireControl development status or claim unavailable assists.
   return "";
  }
@@ -605,7 +605,7 @@ class GEP_GunStatus : ScriptComponent
  {
   Put(Header,"GEPARD  |  ZIELVISIER");
   string mode="--";if(Snapshot.OpticsValid){mode="TAG";if(Snapshot.Night)mode="RESTLICHT";}Put(OpticalMode,mode);
-  string zoom="--×";if(Snapshot.ZoomValid)zoom=NumberDE704(Snapshot.Magnification)+"×";Put(Zoom,zoom);
+  string zoom="--x";if(Snapshot.ZoomValid)zoom=NumberDE704(Snapshot.Magnification)+"x";Put(Zoom,zoom);
   Put(LeftTitle,"LINKS");Put(RightTitle,"RECHTS");
   Put(LeftCount,FeedCountDE704(Snapshot.Left));Put(RightCount,FeedCountDE704(Snapshot.Right));
   Put(LeftType,FeedTypeDE704(Snapshot.Left));Put(RightType,FeedTypeDE704(Snapshot.Right));
@@ -617,14 +617,14 @@ class GEP_GunStatus : ScriptComponent
   string distance="-- m";string measured="ENTFERNUNG";
   if(Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeMetres676>0 && Snapshot.RangeAge676>=0)distance=Math.Round(Snapshot.RangeMetres676).ToString()+" m";
   else if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN)distance="KEIN MESSWERT";
-  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)distance="MESSUNG NICHT VERFÜGBAR";
+  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)distance="MESSUNG NICHT VERFUEGBAR";
   if(Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeAge676>10)measured="ENTFERNUNG / VERALTET";
   Put(Range676,distance);Put(Reference,measured);
   int rangeInk=0xffeee9cd;if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN || Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE || Snapshot.RangeAge676>10)rangeInk=WARN583;
   Range676.SetColor(Color.FromInt(rangeInk));Reference.SetColor(Color.FromInt(rangeInk));
-  Put(Group,"TURM");Put(Drive,"HÖHE");
-  string turret="--°";string elevation="--°";
-  if(Snapshot.AimValid){turret=NumberDE704(Snapshot.HullAzimuth,0)+"°";elevation=NumberDE704(Snapshot.GunElevation,0)+"°";}
+  Put(Group,"TURM GR.");Put(Drive,"HOEHE GR.");
+  string turret="--";string elevation="--";
+  if(Snapshot.AimValid){turret=NumberDE704(Snapshot.HullAzimuth,0)+"";elevation=NumberDE704(Snapshot.GunElevation,0)+"";}
   Put(SightAngles,turret);Put(TurretAngles,elevation);
   string operational=OperationalFeedbackDE704();Put(Feedback,operational);Feedback.SetVisible(operational!="");Feedback.SetColor(Color.FromInt(WARN583));
  }

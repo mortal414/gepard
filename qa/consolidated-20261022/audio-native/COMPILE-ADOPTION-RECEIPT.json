@@ -1,0 +1,20 @@
+{
+  "status": "SUCCESSFUL_NATIVE_COMPILE_CURRENT_CLOSURES_REVIEWED",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-stock-roll-02",
+  "compilerResultSHA256": "0c9505ec179bf1a4f7386a675a13ba609cc72764201731a36af1c47e61a7dd3a",
+  "compilerConsoleSHA256": "0b13bf8e7d66b9fb93c195b70216debf67974f95694893beae2808c4ca40e024",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-audio-stage\\stockRollTrace\\GEP_StockRollTrace033.gproj",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-audio-stage\\stockRollTrace",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\audio-native\\TRACE-MANIFEST.json",
+      "sha256": "a49edaee4cff5f8b2ed4ba85370fff38a653ff55b96128f0d603899a6adda84e",
+      "files": 4
+    }
+  ],
+  "generatedChangesAfterCompile": {
+    "stockRollTrace": []
+  },
+  "nativeGameplay": "NOT_TESTED",
+  "sourceCodeChangedDuringCompile": false
+}

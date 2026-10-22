@@ -1,0 +1,12 @@
+{
+  "failureRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\art-native-batch-01",
+  "failure": "Initial loading frame timescale0 before Stage",
+  "repair": "Await running game mode and timeScale1 before starting case clock; preserve poststart strictguard; no timeScale setter",
+  "changes": {
+    "gepard": [],
+    "artNativeQA": [
+      "scripts/Game/GEPArtNativeSceneQA/GEP_ArtNativeSceneQA20261022.c"
+    ]
+  },
+  "native": "NOT_TESTED"
+}
