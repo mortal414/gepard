@@ -1,0 +1,22 @@
+{
+  "GEP_WCSSmoke215.gproj": "80d326e290cc630aab98d12fc39da5206040f3b9c94cf1239d731745c8180ab3",
+  "Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et": "d23f9a1446cc50d9d79d159bf70d4044c789cd5ffb0365deed88018c0b36f112",
+  "Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et.meta": "77be384c4e8e7bb4854e53d489d17a641d465e7741a74b4704a3a6947f9a7645",
+  "Prefabs/ArtV11Smoke/Camo/GEP_VehicleTurretV11Smoke.et": "02459e7f650ec43278ebc50eed3e46c68229853e1b63118a2a270293019621f5",
+  "Prefabs/ArtV11Smoke/Camo/GEP_VehicleTurretV11Smoke.et.meta": "83b5134611bebbdd632322819525b30a7b1551e209e31fc91e971fedf6497365",
+  "Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et": "f2f96f880e174abe77a451051575b519530718e41c25a245857e81e269ad75fe",
+  "Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et.meta": "214a73563c18a0cb5930a3ebf006096bb276e45c5f6e0e5ab51db9693815ca97",
+  "Prefabs/ArtV11Smoke/Charcoal/GEP_VehicleTurretV11Smoke.et": "cd71f2909f36eba2df32b0074c5c3d58a13ca930ff726caf9d7985a0b09bfc87",
+  "Prefabs/ArtV11Smoke/Charcoal/GEP_VehicleTurretV11Smoke.et.meta": "3d4a4fbd88f1a004e10e08ba2ec0a365f67d4c43535593532ead1ffcc6fab5cd",
+  "Prefabs/Vehicles/GEP_MobileCarrier_WCSSmoke215.et": "c4f21a1bec8ff775121d81a1f84f1359028a6dc3fafaac4bc249f0cbbed4314c",
+  "Prefabs/Vehicles/GEP_MobileCarrier_WCSSmoke215.et.meta": "539f0d533bb127e2aa25a10ebd62f91aecacb1954bd9efbc0753c356d4ad2426",
+  "Prefabs/Weapons/GEP_VehicleTurret_WCSSmoke215.et": "1e7669f5aa4c904b4bb1104630d7a2714ad4eb5d46d1c8a96f9b85f911a771e5",
+  "Prefabs/Weapons/GEP_VehicleTurret_WCSSmoke215.et.meta": "22d0f1bab53cde26845b8dfc1555d01dfaaeb0c0ba14b015c82034e1c9283fb9",
+  "Prefabs/Weapons/GEP_WCSSmokeBankLeft215.et": "23f7d9e98f81379530d01e8a431ce5a7c650de9f4dbad9cc0e814b80c8799fea",
+  "Prefabs/Weapons/GEP_WCSSmokeBankLeft215.et.meta": "9cfd5ae8fa57b25031368fa76f81443c2761f1cc916b70da41cb0e2d18469673",
+  "Prefabs/Weapons/GEP_WCSSmokeBankRight215.et": "c4a8161a3d2a05cd713189c8abf5093381ef208a562cbdde06f0ca15f1a7fc38",
+  "Prefabs/Weapons/GEP_WCSSmokeBankRight215.et.meta": "6c45b22f9ecbed604553fa586baeb719b81f5d654ea50579142406daf82e38c3",
+  "resourceDatabase.rdb": "4e5669ec462c0c86e17be2884be01e6b9ce8fc457d469432d4f0c5f42c025326",
+  "scripts/Game/GEP215WCS/GEP_WCSSmoke215Audit.c": "a40197bc73d34803705bed8055878f1638876b02605188451e018a7b17eb1725",
+  "scripts/Game/GEP215WCS/GEP_WCSSmoke215Audit.c.meta": "eaa4df6428d4516a8091af1949fd921aed31f0e1c3eccce92ef5d28add970eb5"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PRIVATE_SINGLE_MECHANISM_STAGE_CREATED_PENDING_COOKED_OVERLAY_ADOPTION_AND_COMPILE",
+  "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\single",
+  "sourceSupplier": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-4\\smoke-supplier",
+  "sourceCommit": "ba31ee1",
+  "coreBaselineFiles": 1112,
+  "overlaySourceFiles": 35,
+  "WCSPrivateLocalCopy": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\dependencies\\WCS_Armaments",
+  "redistributedOrBundledInRelease": false,
+  "nativeCompile": "NOT_TESTED",
+  "nativeSmoke": "NOT_TESTED",
+  "sourceCopiesOnly": true
+}

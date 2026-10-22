@@ -1,5 +1,5 @@
 {
-  "status": "PENDING_NATIVE_REBUILD_AND_REGISTRATION_NOT_BOUND",
+  "status": "NATIVE_REBUILT5_REGISTRATION_PENDING_NOT_BOUND",
   "bindings": {
     "NEW-CAMO": "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
     "NEW-CHARCOAL": "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et"
@@ -62,7 +62,9 @@
     }
   ],
   "actualRegistryUnbound": true,
-  "seedModelsAreBaselineNotV11": true,
+  "seedModelsAreBaselineNotV11": false,
   "gate": "check_rebuild.py must PASS with authentic native rebuild/adoption and bones/material/part evidence; explicit user resume required first",
-  "humanArtAcceptance": "PENDING"
+  "humanArtAcceptance": "PENDING",
+  "nativeRebuildReceipt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\COOKED-MODELS.json",
+  "sourceRegistrationSeedsRetainedInGit": true
 }

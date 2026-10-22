@@ -24,7 +24,7 @@
       ],
       "sourceIncluded": true,
       "sourceChecks": 72,
-      "nativeCompile": "NOT_TESTED",
+      "nativeCompile": "SCRIPT_COMPILE_PASS_shared_core_compile02",
       "nativeRender": "NOT_TESTED",
       "userAcceptance": "PENDING"
     },
@@ -39,11 +39,13 @@
       "dynamicChecks": "NOT_TESTED",
       "userAcceptance": "PENDING",
       "cookedModelStatus": "FIVE_BASELINE_REGISTRATION_SEEDS_NOT_V11_REBUILT",
-      "nativeRebuild": "NOT_TESTED",
+      "nativeRebuild": "FIVE_MODEL_BUILD_PASS_EXIT0_COOK02",
       "actualNEWBindings": "PENDING_NOT_APPLIED",
       "pendingBindings": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\PENDING-BINDINGS.json",
       "nativeGate": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\REBUILD-PLAN.json",
-      "overlayManifestSHA256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce"
+      "overlayManifestSHA256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce",
+      "nativeInspectionCompile": "SCRIPT_COMPILE_PASS_art_native01",
+      "nativeInspection": "QUEUED"
     },
     "smoke": {
       "GEP": [
@@ -109,7 +111,7 @@
   "releaseFilesChanged": false,
   "published": false,
   "newAcceptedCheckboxes": 0,
-  "updatedUtc": "2026-10-22T01:21:20.759388+00:00",
+  "updatedUtc": "2026-10-22T02:46:06.371917+00:00",
   "sourceCodeBaselineCommit": "09e75342f5bd7f3fda3b40617104c956d150d316",
   "nativeBridge": {
     "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\native-bridge-source",
@@ -167,5 +169,14 @@
     "startupAttempt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-01",
     "startupOwnership": "Verified normal owned close exit0/released02:06:57UTC; adapter result staysNOT_TESTED",
     "stockTrace": "Compile failed Attribute/Graph calls;raw diagnostic sharedsupplier,no trace/playback"
-  }
+  },
+  "qualificationQueue": [
+    "smoke-mechanism-01 current75s native",
+    "art-native-inspection180s",
+    "corehealthypositivecontrols then fragment survivors then acceptedWHEELED",
+    "approvedHUD rendered and lifecycle",
+    "service/reset/world validation",
+    "audio gate requires supplier compile repair"
+  ],
+  "publication": "NOT_AUTHORIZED"
 }

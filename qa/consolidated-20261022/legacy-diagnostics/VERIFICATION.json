@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checkedPins": 16,
+  "changedInputs": [],
+  "productionWrites": false,
+  "nativeActions": false,
+  "collectorChanges": false,
+  "strictStartupStatusRetained": "FAIL"
+}

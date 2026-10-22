@@ -1,0 +1,14 @@
+[
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\native-scene\\GEPARD-MANIFEST.json",
+    "sha256": "1bc770fdfd425ca6e94a8091e994c44d97d20f1687b4bbf6f874d3de5dc7623c",
+    "files": 1152
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\artNativeQA",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\native-scene\\ARTQA-MANIFEST.json",
+    "sha256": "9ed45278b5fecfbb72b4b905d5150ac6a0222f13dbe6cead80d0021b49aa68cd",
+    "files": 7
+  }
+]

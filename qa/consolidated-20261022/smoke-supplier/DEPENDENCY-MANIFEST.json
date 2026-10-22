@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "dependency": {
+    "id": "629B2BA37EFFD577",
+    "name": "WCS_Armaments",
+    "version": "8.4.0",
+    "installedRoot": "C:\\Users\\marco\\Documents\\My Games\\ArmaReforger\\addons\\WCS_Armaments_629B2BA37EFFD577",
+    "gprojSHA256": "e6ffcf559a2e7898848349c090300ea8eca8cb2e13ecef456a108bcc82efc8b1",
+    "pakSHA256": "e18ab4bb3f390dd6116d8c7e686fe21349c6c993a77b7ea6361d4027d7683788",
+    "rdbSHA256": "92f6c40aeebab4c2148173ff61d4312340111a2e7b675b9e4bbced2814ed2154",
+    "bundled": false
+  },
+  "base": {
+    "id": "D561AD08932E7B40",
+    "originalCommit": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
+    "referenceRoot": "D:\\ArmaProjects\\Gepard-WCSSmoke-20261022\\dependencies\\gepard",
+    "manifest": "6eff50da004e5a5ca3eb6db89274d7afa20dc69062e2febac1577d2f9b5da244"
+  },
+  "optionalId": "7E0150C026101500",
+  "qaId": "7E0150C026102500",
+  "mechanismReviewCommit": "b2360a0",
+  "sourceOnly": true,
+  "wcsImplementationOrBinaryCopied": false,
+  "authorContacted": false,
+  "published": false,
+  "nativeCompatibility": "NOT_TESTED"
+}

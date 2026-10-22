@@ -1,0 +1,57 @@
+{
+  "status": "ALL5_NATIVE_REBUILT_HASH_CHANGED_EXIT0_REGISTRATION_PENDING",
+  "nativeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\cook-v11-02",
+  "models": [
+    {
+      "resource": "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob",
+      "relative": "Assets/ArtV11/Mobility/MobilityRig.xob",
+      "sha256": "7490fcff9d9e2ee387ad08972c75aecb1e4d8f601c0fba62b7a9cb8e2b1374f1",
+      "seedSHA256": "29b11eb0b809be7268c92201049dfd6795b939de8701354ba90aa04c5637e801",
+      "fbxSHA256": "760d8e00f322351442116e55f536b2b26923d3f4bf48f34160c3f048ed847aa6",
+      "metaSHA256": "bff96fb264f012b3b7e4e6ddea6a6108ed6596d61c550241e3e2160b48544ef2"
+    },
+    {
+      "resource": "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob",
+      "relative": "Assets/ArtV11/Gepard/GepardTurretRig.xob",
+      "sha256": "79ccacd0ca36a5a60a3c4be398d5170d1a6f46d776c1ee853a77c8d7aec932c2",
+      "seedSHA256": "29c40f92026bb0eabdabed27e135b6545613855ea43605c04d3aac8b2eeed198",
+      "fbxSHA256": "5dc53fdc3d0c7f9df0dfa5c5a5d8d2933cfa6d640b43173cbcf97b174dca3cd8",
+      "metaSHA256": "7c25e3ffa8510f2b6b873560e29b3c4529d2225cb1939fcf391f147ee255d237"
+    },
+    {
+      "resource": "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+      "relative": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+      "sha256": "3131f0cce258caabe4a3560cb3ef9a934f5e68a05cb4939ad24611f33ddd2ad3",
+      "seedSHA256": "4160a30b33b64dda89ad509047953c6c761af8355b5eaeff901241eb71d4831b",
+      "fbxSHA256": "21994af72fa5681ca8e2794b3e736b5486e2b5f66fd642d5972e3421e5c604a9",
+      "metaSHA256": "ad90ba8d7a6eb42a73d0a52ae57bb4db2928e95d08b08919341e6b0d3d5dacdb"
+    },
+    {
+      "resource": "{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob",
+      "relative": "Assets/ArtV11/Gepard/GepardGunLeft.xob",
+      "sha256": "23ecfc6d4a976ccebfccfaee17a4db4068d4970f2f1349ed9c807b6dea128499",
+      "seedSHA256": "dd12be49219736787710173276b39ddbd9d75d21e0fa4cd8fd83fdbdef4f824b",
+      "fbxSHA256": "d621501bf806a36b7a10a9f60720aa613c2f767ec84f06aacd767845edb8e949",
+      "metaSHA256": "e68ccb01cb22c1ea87c741f8263c3b9dc0a9d8eeda7970088cbdaea2a632c75c"
+    },
+    {
+      "resource": "{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob",
+      "relative": "Assets/ArtV11/Gepard/GepardGunRight.xob",
+      "sha256": "7cac0dcaa1aede8111a3c887deeffdfba62129904c751e47e83c2cf9e8a926e7",
+      "seedSHA256": "420f3f76163233483a77569bf488c726405b34f60c1eb4b6515a64e7185cd2fc",
+      "fbxSHA256": "4a337b9a69704b702ae8a0df375bf391bc8b51cfc4df5a9c621b172781c5ff3a",
+      "metaSHA256": "1c3f2ee6b3d5b99786ac24399149b79e3ae517a2952756f5a2c5a23781e133e4"
+    }
+  ],
+  "exit": {
+    "verifiedExited": true,
+    "closeMethod": "owned-normal-window-close-after5-builds",
+    "utc": "2026-10-22T02:24:00.9608894Z",
+    "exitCode": 0,
+    "leaseReleased": true
+  },
+  "rawConsoleSHA256": "9686763e428206be4bff07acccf89ebc0a0680280b63909809a9abf8527f5f14",
+  "warning": "Priorcook01 informational deletedWheel09TireRolling/Sidewall warning retained;actualrender/materialregistration pending",
+  "boneMaterialPartRegistration": "NOT_TESTED",
+  "NEWBound": false
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\single\\qaSmoke",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-supplier\\QASMOKE-MANIFEST.json",
+    "sha256": "5415343e6c84c648945e3d84f22fc1b66bc43beb6f637217ab5791ab4ded45d4",
+    "files": 30
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\single\\wcsSmoke",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-supplier\\WCSSMOKE-MANIFEST.json",
+    "sha256": "e322141f2e31d8db5e8f209e2981ab9e82d276b1ebd524ececae2adb065eb96d",
+    "files": 20
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\single\\gepard",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-supplier\\GEPARD-MANIFEST.json",
+    "sha256": "7e8d31f8c7f2acfaf7c74c48e6b45ba35c600b13540c0fc23bebac5d74e552a3",
+    "files": 1147
+  },
+  {
+    "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-smoke-stage\\dependencies\\WCS_Armaments",
+    "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\smoke-supplier\\WCS-PACKAGE-MANIFEST.json",
+    "sha256": "0798f4cb2db122147e17bed6e280b2d3fc520a849e6ecba1c2cfbec203f9ba69",
+    "files": 3
+  }
+]

@@ -1,0 +1,3389 @@
+{
+  "auditUtc": "2026-10-22T02:44:01.376522+00:00",
+  "scope": "C-only read-only comparison of retained logs and source manifests; no native, collector, whitelist or production change",
+  "startup": {
+    "console": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\gpg-startup-survey\\native-run\\logs\\console.log",
+      "bytes": 66280,
+      "sha256": "0878b21f1d9b0450732d20abbc765b7168039aaf9a4466643e71ae6b0b39dc45"
+    },
+    "worldErrorCount": 7,
+    "errors": [
+      {
+        "line": 164,
+        "raw": "21:12:09.430           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+        "enclosingPrefab": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+        "context": [
+          {
+            "line": 161,
+            "raw": "21:12:09.430        WORLD        : Entity prefab load @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\""
+          },
+          {
+            "line": 162,
+            "raw": "21:12:09.430         RESOURCES    : GetResourceObject @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+          },
+          {
+            "line": 163,
+            "raw": "21:12:09.430          WORLD        : Entity prefab load @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+          },
+          {
+            "line": 164,
+            "raw": "21:12:09.430           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+          },
+          {
+            "line": 165,
+            "raw": "21:12:09.467     RESOURCES    : GetResourceObject @\"{F7B9B434FCFF00B3}Prefabs/Vehicles/Wheeled/Conflict_Variants/BRDM2_Conflict.et\""
+          }
+        ],
+        "kind": "keyword/data",
+        "keyword": "SlidingTrackMaterial",
+        "offsetDecimal": 19441,
+        "offsetHex": "0x4bf1",
+        "signature": [
+          "keyword/data",
+          "SlidingTrackMaterial",
+          19441,
+          "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+        ],
+        "matchingBaselines": {
+          "gm-baseline-01": [
+            162
+          ],
+          "gm-source-01": [
+            162
+          ],
+          "gm-source-02": [
+            162
+          ],
+          "gm-package-01": [
+            162
+          ],
+          "gm-uploaded-01": [
+            165
+          ],
+          "gm-catalogless-01": [
+            162
+          ]
+        },
+        "classificationProposal": "LEGACY_EXACT_BASELINE_MATCH"
+      },
+      {
+        "line": 171,
+        "raw": "21:12:09.467           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+        "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+        "context": [
+          {
+            "line": 168,
+            "raw": "21:12:09.467        WORLD        : Entity prefab load @\"{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et\""
+          },
+          {
+            "line": 169,
+            "raw": "21:12:09.467         RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+          },
+          {
+            "line": 170,
+            "raw": "21:12:09.467          WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+          },
+          {
+            "line": 171,
+            "raw": "21:12:09.467           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+          },
+          {
+            "line": 172,
+            "raw": "21:12:09.467           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+          }
+        ],
+        "kind": "keyword/data",
+        "keyword": "Parent",
+        "offsetDecimal": 35955,
+        "offsetHex": "0x8c73",
+        "signature": [
+          "keyword/data",
+          "Parent",
+          35955,
+          "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+        ],
+        "matchingBaselines": {
+          "gm-baseline-01": [
+            167
+          ],
+          "gm-source-01": [
+            167
+          ],
+          "gm-source-02": [
+            167
+          ],
+          "gm-package-01": [
+            167
+          ],
+          "gm-uploaded-01": [
+            170
+          ],
+          "gm-catalogless-01": [
+            167
+          ]
+        },
+        "classificationProposal": "LEGACY_EXACT_BASELINE_MATCH"
+      },
+      {
+        "line": 172,
+        "raw": "21:12:09.467           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+        "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+        "context": [
+          {
+            "line": 169,
+            "raw": "21:12:09.467         RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+          },
+          {
+            "line": 170,
+            "raw": "21:12:09.467          WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+          },
+          {
+            "line": 171,
+            "raw": "21:12:09.467           WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+          },
+          {
+            "line": 172,
+            "raw": "21:12:09.467           WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+          },
+          {
+            "line": 173,
+            "raw": "21:12:09.468     RESOURCES    : GetResourceObject @\"{BD75A18920BD1278}Prefabs/Vehicles/Wheeled/Conflict_Variants/BTR70_Conflict.et\""
+          }
+        ],
+        "kind": "keyword/data",
+        "keyword": "Parent",
+        "offsetDecimal": 36915,
+        "offsetHex": "0x9033",
+        "signature": [
+          "keyword/data",
+          "Parent",
+          36915,
+          "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+        ],
+        "matchingBaselines": {
+          "gm-baseline-01": [
+            168
+          ],
+          "gm-source-01": [
+            168
+          ],
+          "gm-source-02": [
+            168
+          ],
+          "gm-package-01": [
+            168
+          ],
+          "gm-uploaded-01": [
+            171
+          ],
+          "gm-catalogless-01": [
+            168
+          ]
+        },
+        "classificationProposal": "LEGACY_EXACT_BASELINE_MATCH"
+      },
+      {
+        "line": 179,
+        "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+        "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+        "context": [
+          {
+            "line": 176,
+            "raw": "21:12:09.468        WORLD        : Entity prefab load @\"{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et\""
+          },
+          {
+            "line": 177,
+            "raw": "21:12:09.468         RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+          },
+          {
+            "line": 178,
+            "raw": "21:12:09.468          WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+          },
+          {
+            "line": 179,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+          },
+          {
+            "line": 180,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+          }
+        ],
+        "kind": "keyword/data",
+        "keyword": "Parent",
+        "offsetDecimal": 42646,
+        "offsetHex": "0xa696",
+        "signature": [
+          "keyword/data",
+          "Parent",
+          42646,
+          "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+        ],
+        "matchingBaselines": {
+          "gm-baseline-01": [
+            173
+          ],
+          "gm-source-01": [
+            173
+          ],
+          "gm-source-02": [
+            173
+          ],
+          "gm-package-01": [
+            173
+          ],
+          "gm-uploaded-01": [
+            176
+          ],
+          "gm-catalogless-01": [
+            173
+          ]
+        },
+        "classificationProposal": "LEGACY_EXACT_BASELINE_MATCH"
+      },
+      {
+        "line": 180,
+        "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+        "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+        "context": [
+          {
+            "line": 177,
+            "raw": "21:12:09.468         RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+          },
+          {
+            "line": 178,
+            "raw": "21:12:09.468          WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+          },
+          {
+            "line": 179,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+          },
+          {
+            "line": 180,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+          },
+          {
+            "line": 181,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+          }
+        ],
+        "kind": "keyword/data",
+        "keyword": "Parent",
+        "offsetDecimal": 43645,
+        "offsetHex": "0xaa7d",
+        "signature": [
+          "keyword/data",
+          "Parent",
+          43645,
+          "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+        ],
+        "matchingBaselines": {
+          "gm-baseline-01": [
+            174
+          ],
+          "gm-source-01": [
+            174
+          ],
+          "gm-source-02": [
+            174
+          ],
+          "gm-package-01": [
+            174
+          ],
+          "gm-uploaded-01": [
+            177
+          ],
+          "gm-catalogless-01": [
+            174
+          ]
+        },
+        "classificationProposal": "LEGACY_EXACT_BASELINE_MATCH"
+      },
+      {
+        "line": 181,
+        "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+        "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+        "context": [
+          {
+            "line": 178,
+            "raw": "21:12:09.468          WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+          },
+          {
+            "line": 179,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+          },
+          {
+            "line": 180,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+          },
+          {
+            "line": 181,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+          },
+          {
+            "line": 182,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+          }
+        ],
+        "kind": "keyword/data",
+        "keyword": "Parent",
+        "offsetDecimal": 44617,
+        "offsetHex": "0xae49",
+        "signature": [
+          "keyword/data",
+          "Parent",
+          44617,
+          "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+        ],
+        "matchingBaselines": {
+          "gm-baseline-01": [
+            175
+          ],
+          "gm-source-01": [
+            175
+          ],
+          "gm-source-02": [
+            175
+          ],
+          "gm-package-01": [
+            175
+          ],
+          "gm-uploaded-01": [
+            178
+          ],
+          "gm-catalogless-01": [
+            175
+          ]
+        },
+        "classificationProposal": "LEGACY_EXACT_BASELINE_MATCH"
+      },
+      {
+        "line": 182,
+        "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+        "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+        "context": [
+          {
+            "line": 179,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+          },
+          {
+            "line": 180,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+          },
+          {
+            "line": 181,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+          },
+          {
+            "line": 182,
+            "raw": "21:12:09.468           WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+          },
+          {
+            "line": 183,
+            "raw": "21:12:09.507     WORLD        : WORLD        : NotifyBeforeEntitiesInitialized"
+          }
+        ],
+        "kind": "keyword/data",
+        "keyword": "Parent",
+        "offsetDecimal": 45590,
+        "offsetHex": "0xb216",
+        "signature": [
+          "keyword/data",
+          "Parent",
+          45590,
+          "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+        ],
+        "matchingBaselines": {
+          "gm-baseline-01": [
+            176
+          ],
+          "gm-source-01": [
+            176
+          ],
+          "gm-source-02": [
+            176
+          ],
+          "gm-package-01": [
+            176
+          ],
+          "gm-uploaded-01": [
+            179
+          ],
+          "gm-catalogless-01": [
+            176
+          ]
+        },
+        "classificationProposal": "LEGACY_EXACT_BASELINE_MATCH"
+      }
+    ],
+    "metadata": [
+      {
+        "line": 6,
+        "raw": "21:12:04.257 ENGINE       : FileSystem: Current working directory: 'D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\'"
+      },
+      {
+        "line": 7,
+        "raw": "21:12:04.258 ENGINE       : Initializing engine, version 192142"
+      },
+      {
+        "line": 21,
+        "raw": "21:12:04.327 ENGINE       : FileSystem: Adding package 'D:/SteamLibrary/steamapps/common/Arma Reforger/addons/data/' (pak count: 14) to filesystem under name ArmaReforger"
+      },
+      {
+        "line": 22,
+        "raw": "21:12:04.329 ENGINE       : FileSystem: Adding package 'D:/SteamLibrary/steamapps/common/Arma Reforger/addons/core/' (pak count: 2) to filesystem under name core"
+      },
+      {
+        "line": 36,
+        "raw": "21:12:04.489 ENGINE       : GameProject load"
+      }
+    ]
+  },
+  "baselines": {
+    "gm-baseline-01": {
+      "console": {
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-baseline-01\\logs\\console.log",
+        "bytes": 32969,
+        "sha256": "cc480056a3113b58f4a27e69aa3239f777557f196d9f3fc4090573c361261561"
+      },
+      "worldErrorCount": 8,
+      "errors": [
+        {
+          "line": 162,
+          "raw": "23:10:07.725           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+          "enclosingPrefab": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+          "context": [
+            {
+              "line": 159,
+              "raw": "23:10:07.725        WORLD        : Entity prefab load @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\""
+            },
+            {
+              "line": 160,
+              "raw": "23:10:07.725         RESOURCES    : GetResourceObject @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 161,
+              "raw": "23:10:07.725          WORLD        : Entity prefab load @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 162,
+              "raw": "23:10:07.725           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+            },
+            {
+              "line": 163,
+              "raw": "23:10:07.758     RESOURCES    : GetResourceObject @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "SlidingTrackMaterial",
+          "offsetDecimal": 19441,
+          "offsetHex": "0x4bf1",
+          "signature": [
+            "keyword/data",
+            "SlidingTrackMaterial",
+            19441,
+            "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+          ]
+        },
+        {
+          "line": 167,
+          "raw": "23:10:07.758         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 164,
+              "raw": "23:10:07.758      WORLD        : Entity prefab load @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            },
+            {
+              "line": 165,
+              "raw": "23:10:07.758       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:10:07.758        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:10:07.758         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:10:07.758         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 35955,
+          "offsetHex": "0x8c73",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            35955,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 168,
+          "raw": "23:10:07.758         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 165,
+              "raw": "23:10:07.758       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:10:07.758        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:10:07.758         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:10:07.758         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            },
+            {
+              "line": 169,
+              "raw": "23:10:07.759     RESOURCES    : GetResourceObject @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 36915,
+          "offsetHex": "0x9033",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            36915,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 173,
+          "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 170,
+              "raw": "23:10:07.759      WORLD        : Entity prefab load @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            },
+            {
+              "line": 171,
+              "raw": "23:10:07.759       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:10:07.759        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 42646,
+          "offsetHex": "0xa696",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            42646,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 174,
+          "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 171,
+              "raw": "23:10:07.759       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:10:07.759        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 43645,
+          "offsetHex": "0xaa7d",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            43645,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 175,
+          "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 172,
+              "raw": "23:10:07.759        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 44617,
+          "offsetHex": "0xae49",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            44617,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 176,
+          "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 173,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:10:07.759         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            },
+            {
+              "line": 177,
+              "raw": "23:10:07.813     WORLD        : WORLD        : NotifyBeforeEntitiesInitialized"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 45590,
+          "offsetHex": "0xb216",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            45590,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 252,
+          "raw": "23:10:09.013       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)",
+          "enclosingPrefab": "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et",
+          "context": [
+            {
+              "line": 249,
+              "raw": "23:10:09.013    WORLD        : Entity prefab load @\"{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et\""
+            },
+            {
+              "line": 250,
+              "raw": "23:10:09.013     RESOURCES    : GetResourceObject @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 251,
+              "raw": "23:10:09.013      WORLD        : Entity prefab load @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 252,
+              "raw": "23:10:09.013       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)"
+            },
+            {
+              "line": 253,
+              "raw": "23:10:09.968 RESOURCES    : GetResourceObject @\"{64BA84B7B89FB1B9}UI/layouts/Editor/Modes/Mode_Edit.layout\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "m_bShowDebugShape",
+          "offsetDecimal": 2307,
+          "offsetHex": "0x903",
+          "signature": [
+            "keyword/data",
+            "m_bShowDebugShape",
+            2307,
+            "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et"
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "line": 6,
+          "raw": "23:10:02.374 ENGINE       : FileSystem: Current working directory: 'D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\'"
+        },
+        {
+          "line": 7,
+          "raw": "23:10:02.375 ENGINE       : Initializing engine, version 192142"
+        },
+        {
+          "line": 19,
+          "raw": "23:10:02.393 ENGINE       : FileSystem: Adding package 'D:/ArmaProjects/Gepard-GM-Hotfix-1.0.2-20261021/baseline-stage/gepard/' (pak count: 1) to filesystem under name Gepard"
+        },
+        {
+          "line": 20,
+          "raw": "23:10:02.460 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 14) to filesystem under name ArmaReforger"
+        },
+        {
+          "line": 21,
+          "raw": "23:10:02.462 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 2) to filesystem under name core"
+        },
+        {
+          "line": 35,
+          "raw": "23:10:02.616 ENGINE       : GameProject load"
+        }
+      ]
+    },
+    "gm-source-01": {
+      "console": {
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-01\\logs\\console.log",
+        "bytes": 34411,
+        "sha256": "9e52ec221ffe82be915211f8bcd90a0cc51c0bef778d480da3623b654545094f"
+      },
+      "worldErrorCount": 8,
+      "errors": [
+        {
+          "line": 162,
+          "raw": "23:01:58.103           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+          "enclosingPrefab": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+          "context": [
+            {
+              "line": 159,
+              "raw": "23:01:58.103        WORLD        : Entity prefab load @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\""
+            },
+            {
+              "line": 160,
+              "raw": "23:01:58.103         RESOURCES    : GetResourceObject @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 161,
+              "raw": "23:01:58.103          WORLD        : Entity prefab load @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 162,
+              "raw": "23:01:58.103           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+            },
+            {
+              "line": 163,
+              "raw": "23:01:58.138     RESOURCES    : GetResourceObject @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "SlidingTrackMaterial",
+          "offsetDecimal": 19441,
+          "offsetHex": "0x4bf1",
+          "signature": [
+            "keyword/data",
+            "SlidingTrackMaterial",
+            19441,
+            "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+          ]
+        },
+        {
+          "line": 167,
+          "raw": "23:01:58.138         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 164,
+              "raw": "23:01:58.138      WORLD        : Entity prefab load @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            },
+            {
+              "line": 165,
+              "raw": "23:01:58.138       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:01:58.138        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:01:58.138         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:01:58.138         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 35955,
+          "offsetHex": "0x8c73",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            35955,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 168,
+          "raw": "23:01:58.138         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 165,
+              "raw": "23:01:58.138       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:01:58.138        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:01:58.138         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:01:58.138         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            },
+            {
+              "line": 169,
+              "raw": "23:01:58.139     RESOURCES    : GetResourceObject @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 36915,
+          "offsetHex": "0x9033",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            36915,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 173,
+          "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 170,
+              "raw": "23:01:58.139      WORLD        : Entity prefab load @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            },
+            {
+              "line": 171,
+              "raw": "23:01:58.139       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:01:58.139        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 42646,
+          "offsetHex": "0xa696",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            42646,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 174,
+          "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 171,
+              "raw": "23:01:58.139       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:01:58.139        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 43645,
+          "offsetHex": "0xaa7d",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            43645,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 175,
+          "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 172,
+              "raw": "23:01:58.139        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 44617,
+          "offsetHex": "0xae49",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            44617,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 176,
+          "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 173,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:01:58.139         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            },
+            {
+              "line": 177,
+              "raw": "23:01:58.191     WORLD        : WORLD        : NotifyBeforeEntitiesInitialized"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 45590,
+          "offsetHex": "0xb216",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            45590,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 252,
+          "raw": "23:01:59.420       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)",
+          "enclosingPrefab": "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et",
+          "context": [
+            {
+              "line": 249,
+              "raw": "23:01:59.420    WORLD        : Entity prefab load @\"{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et\""
+            },
+            {
+              "line": 250,
+              "raw": "23:01:59.420     RESOURCES    : GetResourceObject @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 251,
+              "raw": "23:01:59.420      WORLD        : Entity prefab load @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 252,
+              "raw": "23:01:59.420       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)"
+            },
+            {
+              "line": 253,
+              "raw": "23:02:00.328 RESOURCES    : GetResourceObject @\"{64BA84B7B89FB1B9}UI/layouts/Editor/Modes/Mode_Edit.layout\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "m_bShowDebugShape",
+          "offsetDecimal": 2307,
+          "offsetHex": "0x903",
+          "signature": [
+            "keyword/data",
+            "m_bShowDebugShape",
+            2307,
+            "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et"
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "line": 6,
+          "raw": "23:01:48.341 ENGINE       : FileSystem: Current working directory: 'D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\'"
+        },
+        {
+          "line": 7,
+          "raw": "23:01:48.341 ENGINE       : Initializing engine, version 192142"
+        },
+        {
+          "line": 20,
+          "raw": "23:01:48.411 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 14) to filesystem under name ArmaReforger"
+        },
+        {
+          "line": 21,
+          "raw": "23:01:48.413 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 2) to filesystem under name core"
+        },
+        {
+          "line": 35,
+          "raw": "23:01:48.569 ENGINE       : GameProject load"
+        }
+      ]
+    },
+    "gm-source-02": {
+      "console": {
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-02\\logs\\console.log",
+        "bytes": 38635,
+        "sha256": "3cafebf54278108b8fb774e5323098d82d3d5c3d8c84c948ffddad80630d0038"
+      },
+      "worldErrorCount": 8,
+      "errors": [
+        {
+          "line": 162,
+          "raw": "23:08:30.509           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+          "enclosingPrefab": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+          "context": [
+            {
+              "line": 159,
+              "raw": "23:08:30.509        WORLD        : Entity prefab load @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\""
+            },
+            {
+              "line": 160,
+              "raw": "23:08:30.509         RESOURCES    : GetResourceObject @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 161,
+              "raw": "23:08:30.509          WORLD        : Entity prefab load @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 162,
+              "raw": "23:08:30.509           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+            },
+            {
+              "line": 163,
+              "raw": "23:08:30.548     RESOURCES    : GetResourceObject @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "SlidingTrackMaterial",
+          "offsetDecimal": 19441,
+          "offsetHex": "0x4bf1",
+          "signature": [
+            "keyword/data",
+            "SlidingTrackMaterial",
+            19441,
+            "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+          ]
+        },
+        {
+          "line": 167,
+          "raw": "23:08:30.548         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 164,
+              "raw": "23:08:30.548      WORLD        : Entity prefab load @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            },
+            {
+              "line": 165,
+              "raw": "23:08:30.548       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:08:30.548        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:08:30.548         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:08:30.548         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 35955,
+          "offsetHex": "0x8c73",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            35955,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 168,
+          "raw": "23:08:30.548         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 165,
+              "raw": "23:08:30.548       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:08:30.548        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:08:30.548         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:08:30.548         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            },
+            {
+              "line": 169,
+              "raw": "23:08:30.549     RESOURCES    : GetResourceObject @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 36915,
+          "offsetHex": "0x9033",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            36915,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 173,
+          "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 170,
+              "raw": "23:08:30.549      WORLD        : Entity prefab load @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            },
+            {
+              "line": 171,
+              "raw": "23:08:30.549       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:08:30.549        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 42646,
+          "offsetHex": "0xa696",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            42646,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 174,
+          "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 171,
+              "raw": "23:08:30.549       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:08:30.549        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 43645,
+          "offsetHex": "0xaa7d",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            43645,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 175,
+          "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 172,
+              "raw": "23:08:30.549        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 44617,
+          "offsetHex": "0xae49",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            44617,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 176,
+          "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 173,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:08:30.549         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            },
+            {
+              "line": 177,
+              "raw": "23:08:30.606     WORLD        : WORLD        : NotifyBeforeEntitiesInitialized"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 45590,
+          "offsetHex": "0xb216",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            45590,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 252,
+          "raw": "23:08:32.000       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)",
+          "enclosingPrefab": "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et",
+          "context": [
+            {
+              "line": 249,
+              "raw": "23:08:32.000    WORLD        : Entity prefab load @\"{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et\""
+            },
+            {
+              "line": 250,
+              "raw": "23:08:32.000     RESOURCES    : GetResourceObject @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 251,
+              "raw": "23:08:32.000      WORLD        : Entity prefab load @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 252,
+              "raw": "23:08:32.000       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)"
+            },
+            {
+              "line": 253,
+              "raw": "23:08:32.871 RESOURCES    : GetResourceObject @\"{64BA84B7B89FB1B9}UI/layouts/Editor/Modes/Mode_Edit.layout\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "m_bShowDebugShape",
+          "offsetDecimal": 2307,
+          "offsetHex": "0x903",
+          "signature": [
+            "keyword/data",
+            "m_bShowDebugShape",
+            2307,
+            "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et"
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "line": 6,
+          "raw": "23:08:18.081 ENGINE       : FileSystem: Current working directory: 'D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\'"
+        },
+        {
+          "line": 7,
+          "raw": "23:08:18.082 ENGINE       : Initializing engine, version 192142"
+        },
+        {
+          "line": 20,
+          "raw": "23:08:18.160 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 14) to filesystem under name ArmaReforger"
+        },
+        {
+          "line": 21,
+          "raw": "23:08:18.163 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 2) to filesystem under name core"
+        },
+        {
+          "line": 35,
+          "raw": "23:08:18.338 ENGINE       : GameProject load"
+        }
+      ]
+    },
+    "gm-package-01": {
+      "console": {
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-package-01\\logs\\console.log",
+        "bytes": 38858,
+        "sha256": "bf6f7c7b5b3375d128996c0e27bf6c887377ed153f89dbed611651a3fb1b1558"
+      },
+      "worldErrorCount": 8,
+      "errors": [
+        {
+          "line": 162,
+          "raw": "23:14:29.202           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+          "enclosingPrefab": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+          "context": [
+            {
+              "line": 159,
+              "raw": "23:14:29.202        WORLD        : Entity prefab load @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\""
+            },
+            {
+              "line": 160,
+              "raw": "23:14:29.202         RESOURCES    : GetResourceObject @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 161,
+              "raw": "23:14:29.202          WORLD        : Entity prefab load @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 162,
+              "raw": "23:14:29.202           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+            },
+            {
+              "line": 163,
+              "raw": "23:14:29.235     RESOURCES    : GetResourceObject @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "SlidingTrackMaterial",
+          "offsetDecimal": 19441,
+          "offsetHex": "0x4bf1",
+          "signature": [
+            "keyword/data",
+            "SlidingTrackMaterial",
+            19441,
+            "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+          ]
+        },
+        {
+          "line": 167,
+          "raw": "23:14:29.235         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 164,
+              "raw": "23:14:29.235      WORLD        : Entity prefab load @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            },
+            {
+              "line": 165,
+              "raw": "23:14:29.235       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:14:29.235        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:14:29.235         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:14:29.235         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 35955,
+          "offsetHex": "0x8c73",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            35955,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 168,
+          "raw": "23:14:29.235         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 165,
+              "raw": "23:14:29.235       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:14:29.235        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:14:29.235         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:14:29.235         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            },
+            {
+              "line": 169,
+              "raw": "23:14:29.236     RESOURCES    : GetResourceObject @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 36915,
+          "offsetHex": "0x9033",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            36915,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 173,
+          "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 170,
+              "raw": "23:14:29.236      WORLD        : Entity prefab load @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            },
+            {
+              "line": 171,
+              "raw": "23:14:29.236       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:14:29.236        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 42646,
+          "offsetHex": "0xa696",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            42646,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 174,
+          "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 171,
+              "raw": "23:14:29.236       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:14:29.236        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 43645,
+          "offsetHex": "0xaa7d",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            43645,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 175,
+          "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 172,
+              "raw": "23:14:29.236        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 44617,
+          "offsetHex": "0xae49",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            44617,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 176,
+          "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 173,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:14:29.236         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            },
+            {
+              "line": 177,
+              "raw": "23:14:29.292     WORLD        : WORLD        : NotifyBeforeEntitiesInitialized"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 45590,
+          "offsetHex": "0xb216",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            45590,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 252,
+          "raw": "23:14:30.488       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)",
+          "enclosingPrefab": "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et",
+          "context": [
+            {
+              "line": 249,
+              "raw": "23:14:30.488    WORLD        : Entity prefab load @\"{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et\""
+            },
+            {
+              "line": 250,
+              "raw": "23:14:30.488     RESOURCES    : GetResourceObject @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 251,
+              "raw": "23:14:30.488      WORLD        : Entity prefab load @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 252,
+              "raw": "23:14:30.488       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)"
+            },
+            {
+              "line": 253,
+              "raw": "23:14:31.340 RESOURCES    : GetResourceObject @\"{64BA84B7B89FB1B9}UI/layouts/Editor/Modes/Mode_Edit.layout\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "m_bShowDebugShape",
+          "offsetDecimal": 2307,
+          "offsetHex": "0x903",
+          "signature": [
+            "keyword/data",
+            "m_bShowDebugShape",
+            2307,
+            "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et"
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "line": 6,
+          "raw": "23:14:23.790 ENGINE       : FileSystem: Current working directory: 'D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\'"
+        },
+        {
+          "line": 7,
+          "raw": "23:14:23.791 ENGINE       : Initializing engine, version 192142"
+        },
+        {
+          "line": 19,
+          "raw": "23:14:23.869 ENGINE       : FileSystem: Adding package 'D:/ArmaProjects/Gepard-GM-Hotfix-1.0.2-20261021/packed-stage/gepard/' (pak count: 1) to filesystem under name Gepard"
+        },
+        {
+          "line": 20,
+          "raw": "23:14:23.937 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 14) to filesystem under name ArmaReforger"
+        },
+        {
+          "line": 21,
+          "raw": "23:14:23.940 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 2) to filesystem under name core"
+        },
+        {
+          "line": 35,
+          "raw": "23:14:24.098 ENGINE       : GameProject load"
+        }
+      ]
+    },
+    "gm-uploaded-01": {
+      "console": {
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-uploaded-01\\logs\\console.log",
+        "bytes": 39433,
+        "sha256": "aae7d33e8124ac3173e6cd64f9a52252fa11d4b61d7fed3610c2dcb2bc01ad3c"
+      },
+      "worldErrorCount": 8,
+      "errors": [
+        {
+          "line": 165,
+          "raw": "23:26:37.304           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+          "enclosingPrefab": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+          "context": [
+            {
+              "line": 162,
+              "raw": "23:26:37.304        WORLD        : Entity prefab load @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\""
+            },
+            {
+              "line": 163,
+              "raw": "23:26:37.304         RESOURCES    : GetResourceObject @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 164,
+              "raw": "23:26:37.304          WORLD        : Entity prefab load @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 165,
+              "raw": "23:26:37.304           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+            },
+            {
+              "line": 166,
+              "raw": "23:26:37.356     RESOURCES    : GetResourceObject @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "SlidingTrackMaterial",
+          "offsetDecimal": 19441,
+          "offsetHex": "0x4bf1",
+          "signature": [
+            "keyword/data",
+            "SlidingTrackMaterial",
+            19441,
+            "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+          ]
+        },
+        {
+          "line": 170,
+          "raw": "23:26:37.356         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 167,
+              "raw": "23:26:37.356      WORLD        : Entity prefab load @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            },
+            {
+              "line": 168,
+              "raw": "23:26:37.356       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 169,
+              "raw": "23:26:37.356        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 170,
+              "raw": "23:26:37.356         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 171,
+              "raw": "23:26:37.356         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 35955,
+          "offsetHex": "0x8c73",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            35955,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 171,
+          "raw": "23:26:37.356         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 168,
+              "raw": "23:26:37.356       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 169,
+              "raw": "23:26:37.356        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 170,
+              "raw": "23:26:37.356         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 171,
+              "raw": "23:26:37.356         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            },
+            {
+              "line": 172,
+              "raw": "23:26:37.357     RESOURCES    : GetResourceObject @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 36915,
+          "offsetHex": "0x9033",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            36915,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 176,
+          "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 173,
+              "raw": "23:26:37.357      WORLD        : Entity prefab load @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            },
+            {
+              "line": 174,
+              "raw": "23:26:37.357       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 175,
+              "raw": "23:26:37.357        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 176,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 177,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 42646,
+          "offsetHex": "0xa696",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            42646,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 177,
+          "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 174,
+              "raw": "23:26:37.357       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 175,
+              "raw": "23:26:37.357        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 176,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 177,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 178,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 43645,
+          "offsetHex": "0xaa7d",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            43645,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 178,
+          "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 175,
+              "raw": "23:26:37.357        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 176,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 177,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 178,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 179,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 44617,
+          "offsetHex": "0xae49",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            44617,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 179,
+          "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 176,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 177,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 178,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 179,
+              "raw": "23:26:37.357         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            },
+            {
+              "line": 180,
+              "raw": "23:26:37.410     WORLD        : WORLD        : NotifyBeforeEntitiesInitialized"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 45590,
+          "offsetHex": "0xb216",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            45590,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 255,
+          "raw": "23:26:38.623       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)",
+          "enclosingPrefab": "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et",
+          "context": [
+            {
+              "line": 252,
+              "raw": "23:26:38.623    WORLD        : Entity prefab load @\"{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et\""
+            },
+            {
+              "line": 253,
+              "raw": "23:26:38.623     RESOURCES    : GetResourceObject @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 254,
+              "raw": "23:26:38.623      WORLD        : Entity prefab load @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 255,
+              "raw": "23:26:38.623       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)"
+            },
+            {
+              "line": 256,
+              "raw": "23:26:39.493 RESOURCES    : GetResourceObject @\"{64BA84B7B89FB1B9}UI/layouts/Editor/Modes/Mode_Edit.layout\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "m_bShowDebugShape",
+          "offsetDecimal": 2307,
+          "offsetHex": "0x903",
+          "signature": [
+            "keyword/data",
+            "m_bShowDebugShape",
+            2307,
+            "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et"
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "line": 6,
+          "raw": "23:26:31.937 ENGINE       : FileSystem: Current working directory: 'D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\'"
+        },
+        {
+          "line": 7,
+          "raw": "23:26:31.938 ENGINE       : Initializing engine, version 192142"
+        },
+        {
+          "line": 19,
+          "raw": "23:26:32.026 ENGINE       : FileSystem: Adding package 'D:/ArmaProjects/Gepard-GM-Hotfix-1.0.2-20261021/uploaded-stage/gepard/' (pak count: 1) to filesystem under name Gepard"
+        },
+        {
+          "line": 20,
+          "raw": "23:26:32.093 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 14) to filesystem under name ArmaReforger"
+        },
+        {
+          "line": 21,
+          "raw": "23:26:32.096 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 2) to filesystem under name core"
+        },
+        {
+          "line": 35,
+          "raw": "23:26:32.248 ENGINE       : GameProject load"
+        },
+        {
+          "line": 41,
+          "raw": "23:26:32.249 ENGINE       : GameProject load"
+        },
+        {
+          "line": 42,
+          "raw": "23:26:32.249  INIT         : GameProject load project data @\"D:/ArmaProjects/Gepard-GM-Hotfix-1.0.2-20261021/uploaded-stage/gepard/Gepard.gproj\""
+        }
+      ]
+    },
+    "gm-catalogless-01": {
+      "console": {
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-catalogless-01\\logs\\console.log",
+        "bytes": 38114,
+        "sha256": "27f98b01a1e3dee35d77a41be3a6864d0cdf48792127558c420541487dcabe18"
+      },
+      "worldErrorCount": 9,
+      "errors": [
+        {
+          "line": 162,
+          "raw": "23:16:20.767           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)",
+          "enclosingPrefab": "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et",
+          "context": [
+            {
+              "line": 159,
+              "raw": "23:16:20.767        WORLD        : Entity prefab load @\"{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et\""
+            },
+            {
+              "line": 160,
+              "raw": "23:16:20.767         RESOURCES    : GetResourceObject @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 161,
+              "raw": "23:16:20.767          WORLD        : Entity prefab load @\"{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et\""
+            },
+            {
+              "line": 162,
+              "raw": "23:16:20.767           WORLD     (E): Unknown keyword/data 'SlidingTrackMaterial' at offset 19441(0x4bf1)"
+            },
+            {
+              "line": 163,
+              "raw": "23:16:20.800     RESOURCES    : GetResourceObject @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "SlidingTrackMaterial",
+          "offsetDecimal": 19441,
+          "offsetHex": "0x4bf1",
+          "signature": [
+            "keyword/data",
+            "SlidingTrackMaterial",
+            19441,
+            "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+          ]
+        },
+        {
+          "line": 167,
+          "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 164,
+              "raw": "23:16:20.800      WORLD        : Entity prefab load @\"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et\""
+            },
+            {
+              "line": 165,
+              "raw": "23:16:20.800       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:16:20.800        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 35955,
+          "offsetHex": "0x8c73",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            35955,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 168,
+          "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)",
+          "enclosingPrefab": "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et",
+          "context": [
+            {
+              "line": 165,
+              "raw": "23:16:20.800       RESOURCES    : GetResourceObject @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 166,
+              "raw": "23:16:20.800        WORLD        : Entity prefab load @\"{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et\""
+            },
+            {
+              "line": 167,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 35955(0x8c73)"
+            },
+            {
+              "line": 168,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 36915(0x9033)"
+            },
+            {
+              "line": 169,
+              "raw": "23:16:20.800     RESOURCES    : GetResourceObject @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 36915,
+          "offsetHex": "0x9033",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            36915,
+            "{532B5F3CF8496E59}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_base.et"
+          ]
+        },
+        {
+          "line": 173,
+          "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 170,
+              "raw": "23:16:20.800      WORLD        : Entity prefab load @\"{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et\""
+            },
+            {
+              "line": 171,
+              "raw": "23:16:20.800       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:16:20.800        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 42646,
+          "offsetHex": "0xa696",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            42646,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 174,
+          "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 171,
+              "raw": "23:16:20.800       RESOURCES    : GetResourceObject @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 172,
+              "raw": "23:16:20.800        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 43645,
+          "offsetHex": "0xaa7d",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            43645,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 175,
+          "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 172,
+              "raw": "23:16:20.800        WORLD        : Entity prefab load @\"{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et\""
+            },
+            {
+              "line": 173,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 44617,
+          "offsetHex": "0xae49",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            44617,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 176,
+          "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)",
+          "enclosingPrefab": "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et",
+          "context": [
+            {
+              "line": 173,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 42646(0xa696)"
+            },
+            {
+              "line": 174,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 43645(0xaa7d)"
+            },
+            {
+              "line": 175,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 44617(0xae49)"
+            },
+            {
+              "line": 176,
+              "raw": "23:16:20.800         WORLD     (E): Unknown keyword/data 'Parent' at offset 45590(0xb216)"
+            },
+            {
+              "line": 177,
+              "raw": "23:16:20.857     WORLD        : WORLD        : NotifyBeforeEntitiesInitialized"
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "Parent",
+          "offsetDecimal": 45590,
+          "offsetHex": "0xb216",
+          "signature": [
+            "keyword/data",
+            "Parent",
+            45590,
+            "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
+          ]
+        },
+        {
+          "line": 226,
+          "raw": "23:16:21.595     WORLD     (E): Unknown class 'SCR_PlaceableEntitiesRegistryFromCatalog' at offset 7583(0x1d9f)",
+          "enclosingPrefab": "{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et",
+          "context": [
+            {
+              "line": 223,
+              "raw": "23:16:21.595  WORLD        : Entity prefab load @\"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et\""
+            },
+            {
+              "line": 224,
+              "raw": "23:16:21.595   RESOURCES    : GetResourceObject @\"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et\""
+            },
+            {
+              "line": 225,
+              "raw": "23:16:21.595    WORLD        : Entity prefab load @\"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et\""
+            },
+            {
+              "line": 226,
+              "raw": "23:16:21.595     WORLD     (E): Unknown class 'SCR_PlaceableEntitiesRegistryFromCatalog' at offset 7583(0x1d9f)"
+            },
+            {
+              "line": 227,
+              "raw": "23:16:21.598 SCRIPT       : 2026-10-21 04:16:21 voteEnd: SCR_VotingResultData{flag_vote_success=1}"
+            }
+          ],
+          "kind": "class",
+          "keyword": "SCR_PlaceableEntitiesRegistryFromCatalog",
+          "offsetDecimal": 7583,
+          "offsetHex": "0x1d9f",
+          "signature": [
+            "class",
+            "SCR_PlaceableEntitiesRegistryFromCatalog",
+            7583,
+            "{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+          ]
+        },
+        {
+          "line": 257,
+          "raw": "23:16:22.029       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)",
+          "enclosingPrefab": "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et",
+          "context": [
+            {
+              "line": 254,
+              "raw": "23:16:22.029    WORLD        : Entity prefab load @\"{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et\""
+            },
+            {
+              "line": 255,
+              "raw": "23:16:22.029     RESOURCES    : GetResourceObject @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 256,
+              "raw": "23:16:22.029      WORLD        : Entity prefab load @\"{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et\""
+            },
+            {
+              "line": 257,
+              "raw": "23:16:22.029       WORLD     (E): Unknown keyword/data 'm_bShowDebugShape' at offset 2307(0x903)"
+            },
+            {
+              "line": 258,
+              "raw": "23:16:22.842 RESOURCES    : GetResourceObject @\"{64BA84B7B89FB1B9}UI/layouts/Editor/Modes/Mode_Edit.layout\""
+            }
+          ],
+          "kind": "keyword/data",
+          "keyword": "m_bShowDebugShape",
+          "offsetDecimal": 2307,
+          "offsetHex": "0x903",
+          "signature": [
+            "keyword/data",
+            "m_bShowDebugShape",
+            2307,
+            "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et"
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "line": 6,
+          "raw": "23:16:11.164 ENGINE       : FileSystem: Current working directory: 'D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\'"
+        },
+        {
+          "line": 7,
+          "raw": "23:16:11.165 ENGINE       : Initializing engine, version 192142"
+        },
+        {
+          "line": 19,
+          "raw": "23:16:11.184 ENGINE       : FileSystem: Adding package 'D:/ArmaProjects/Gepard-GM-Hotfix-1.0.2-20261021/catalogless-stage/gepard/' (pak count: 1) to filesystem under name Gepard"
+        },
+        {
+          "line": 20,
+          "raw": "23:16:11.250 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 14) to filesystem under name ArmaReforger"
+        },
+        {
+          "line": 21,
+          "raw": "23:16:11.253 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 2) to filesystem under name core"
+        },
+        {
+          "line": 35,
+          "raw": "23:16:11.402 ENGINE       : GameProject load"
+        }
+      ]
+    }
+  },
+  "classificationProposal": "7_LEGACY_EXACT_BASELINE_MATCHES_NO_NEW_WORLD_ERROR_SIGNATURE",
+  "strictRecordedStatusUnchanged": "FAIL",
+  "sourceComparison": {
+    "originalETCount": 66,
+    "nonidenticalET": [],
+    "missingET": [],
+    "originalETRows": [
+      {
+        "relativePath": "Prefabs/Art/GEP_BrakeLight572.et",
+        "releaseSha256": "dfcb9d283f5a3e4b996b048f2b4c80ce0bc638638ab1f1dd42165752a24769fd",
+        "releaseManifestSha256": "dfcb9d283f5a3e4b996b048f2b4c80ce0bc638638ab1f1dd42165752a24769fd",
+        "startupPinnedSha256": "dfcb9d283f5a3e4b996b048f2b4c80ce0bc638638ab1f1dd42165752a24769fd",
+        "stageSha256": "dfcb9d283f5a3e4b996b048f2b4c80ce0bc638638ab1f1dd42165752a24769fd",
+        "productionSourceSha256": "dfcb9d283f5a3e4b996b048f2b4c80ce0bc638638ab1f1dd42165752a24769fd",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GEP_HeadLight572.et",
+        "releaseSha256": "defad8230cff9033f4ceca2ede6826a7c1d8dde1b6521c2fa7f44f6e55af7467",
+        "releaseManifestSha256": "defad8230cff9033f4ceca2ede6826a7c1d8dde1b6521c2fa7f44f6e55af7467",
+        "startupPinnedSha256": "defad8230cff9033f4ceca2ede6826a7c1d8dde1b6521c2fa7f44f6e55af7467",
+        "stageSha256": "defad8230cff9033f4ceca2ede6826a7c1d8dde1b6521c2fa7f44f6e55af7467",
+        "productionSourceSha256": "defad8230cff9033f4ceca2ede6826a7c1d8dde1b6521c2fa7f44f6e55af7467",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GEP_RearLight572.et",
+        "releaseSha256": "04048c8c79937ff5ac78317e3e8d7415160549a683d002bc6b3e336b524b0a9d",
+        "releaseManifestSha256": "04048c8c79937ff5ac78317e3e8d7415160549a683d002bc6b3e336b524b0a9d",
+        "startupPinnedSha256": "04048c8c79937ff5ac78317e3e8d7415160549a683d002bc6b3e336b524b0a9d",
+        "stageSha256": "04048c8c79937ff5ac78317e3e8d7415160549a683d002bc6b3e336b524b0a9d",
+        "productionSourceSha256": "04048c8c79937ff5ac78317e3e8d7415160549a683d002bc6b3e336b524b0a9d",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GEP_ReverseLight572.et",
+        "releaseSha256": "4ffa913234cddac72881d821c000c4844d587485b5ded6010d53ac483c91333f",
+        "releaseManifestSha256": "4ffa913234cddac72881d821c000c4844d587485b5ded6010d53ac483c91333f",
+        "startupPinnedSha256": "4ffa913234cddac72881d821c000c4844d587485b5ded6010d53ac483c91333f",
+        "stageSha256": "4ffa913234cddac72881d821c000c4844d587485b5ded6010d53ac483c91333f",
+        "productionSourceSha256": "4ffa913234cddac72881d821c000c4844d587485b5ded6010d53ac483c91333f",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardAuxLampHardware672.et",
+        "releaseSha256": "031d9b07eb8a12a22b31c742148bb94aade8311c44f30673f0d6b575e01b96dc",
+        "releaseManifestSha256": "031d9b07eb8a12a22b31c742148bb94aade8311c44f30673f0d6b575e01b96dc",
+        "startupPinnedSha256": "031d9b07eb8a12a22b31c742148bb94aade8311c44f30673f0d6b575e01b96dc",
+        "stageSha256": "031d9b07eb8a12a22b31c742148bb94aade8311c44f30673f0d6b575e01b96dc",
+        "productionSourceSha256": "031d9b07eb8a12a22b31c742148bb94aade8311c44f30673f0d6b575e01b96dc",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardBearingBosses.et",
+        "releaseSha256": "d3f3d66035bcd412052e1e13ef5348f0b177ce06aa95253f16f4076adaceaca1",
+        "releaseManifestSha256": "d3f3d66035bcd412052e1e13ef5348f0b177ce06aa95253f16f4076adaceaca1",
+        "startupPinnedSha256": "d3f3d66035bcd412052e1e13ef5348f0b177ce06aa95253f16f4076adaceaca1",
+        "stageSha256": "d3f3d66035bcd412052e1e13ef5348f0b177ce06aa95253f16f4076adaceaca1",
+        "productionSourceSha256": "d3f3d66035bcd412052e1e13ef5348f0b177ce06aa95253f16f4076adaceaca1",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardCabin.et",
+        "releaseSha256": "6c76096437b93dc91882497d36448b6d7cd68ef9e996a5d576a4720276442f20",
+        "releaseManifestSha256": "6c76096437b93dc91882497d36448b6d7cd68ef9e996a5d576a4720276442f20",
+        "startupPinnedSha256": "6c76096437b93dc91882497d36448b6d7cd68ef9e996a5d576a4720276442f20",
+        "stageSha256": "6c76096437b93dc91882497d36448b6d7cd68ef9e996a5d576a4720276442f20",
+        "productionSourceSha256": "6c76096437b93dc91882497d36448b6d7cd68ef9e996a5d576a4720276442f20",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardCabinLight.et",
+        "releaseSha256": "e1dc944f0ff9174ef21efd47688a516f4b9535f371ec4ddab62f701ffcbdaad4",
+        "releaseManifestSha256": "e1dc944f0ff9174ef21efd47688a516f4b9535f371ec4ddab62f701ffcbdaad4",
+        "startupPinnedSha256": "e1dc944f0ff9174ef21efd47688a516f4b9535f371ec4ddab62f701ffcbdaad4",
+        "stageSha256": "e1dc944f0ff9174ef21efd47688a516f4b9535f371ec4ddab62f701ffcbdaad4",
+        "productionSourceSha256": "e1dc944f0ff9174ef21efd47688a516f4b9535f371ec4ddab62f701ffcbdaad4",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardCommanderHatch569.et",
+        "releaseSha256": "e77fd98d805280792f6b06be50ec7d5c122e6ee44e53edfff1cb66d2a33867a7",
+        "releaseManifestSha256": "e77fd98d805280792f6b06be50ec7d5c122e6ee44e53edfff1cb66d2a33867a7",
+        "startupPinnedSha256": "e77fd98d805280792f6b06be50ec7d5c122e6ee44e53edfff1cb66d2a33867a7",
+        "stageSha256": "e77fd98d805280792f6b06be50ec7d5c122e6ee44e53edfff1cb66d2a33867a7",
+        "productionSourceSha256": "e77fd98d805280792f6b06be50ec7d5c122e6ee44e53edfff1cb66d2a33867a7",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardCoverLeft668.et",
+        "releaseSha256": "e5e1f328e003b3a8b659e0717298c8898b20e843388932e080e13d6137019f74",
+        "releaseManifestSha256": "e5e1f328e003b3a8b659e0717298c8898b20e843388932e080e13d6137019f74",
+        "startupPinnedSha256": "e5e1f328e003b3a8b659e0717298c8898b20e843388932e080e13d6137019f74",
+        "stageSha256": "e5e1f328e003b3a8b659e0717298c8898b20e843388932e080e13d6137019f74",
+        "productionSourceSha256": "e5e1f328e003b3a8b659e0717298c8898b20e843388932e080e13d6137019f74",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardCoverRight668.et",
+        "releaseSha256": "04d36d125362b1f59dbfac43689d46c0e6b2bb58a9f062d367ef7eb1050d4441",
+        "releaseManifestSha256": "04d36d125362b1f59dbfac43689d46c0e6b2bb58a9f062d367ef7eb1050d4441",
+        "startupPinnedSha256": "04d36d125362b1f59dbfac43689d46c0e6b2bb58a9f062d367ef7eb1050d4441",
+        "stageSha256": "04d36d125362b1f59dbfac43689d46c0e6b2bb58a9f062d367ef7eb1050d4441",
+        "productionSourceSha256": "04d36d125362b1f59dbfac43689d46c0e6b2bb58a9f062d367ef7eb1050d4441",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardDriverHatch.et",
+        "releaseSha256": "e1cdbde2310c9f2d471fba337b28c89f2f2f7b5610df1b86a7d2ff18530ce6e4",
+        "releaseManifestSha256": "e1cdbde2310c9f2d471fba337b28c89f2f2f7b5610df1b86a7d2ff18530ce6e4",
+        "startupPinnedSha256": "e1cdbde2310c9f2d471fba337b28c89f2f2f7b5610df1b86a7d2ff18530ce6e4",
+        "stageSha256": "e1cdbde2310c9f2d471fba337b28c89f2f2f7b5610df1b86a7d2ff18530ce6e4",
+        "productionSourceSha256": "e1cdbde2310c9f2d471fba337b28c89f2f2f7b5610df1b86a7d2ff18530ce6e4",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardDriverLidHardware660.et",
+        "releaseSha256": "e1e0bb73555898fe1b6756f4b1acddf826553dbe774106a92ae26125db07b88b",
+        "releaseManifestSha256": "e1e0bb73555898fe1b6756f4b1acddf826553dbe774106a92ae26125db07b88b",
+        "startupPinnedSha256": "e1e0bb73555898fe1b6756f4b1acddf826553dbe774106a92ae26125db07b88b",
+        "stageSha256": "e1e0bb73555898fe1b6756f4b1acddf826553dbe774106a92ae26125db07b88b",
+        "productionSourceSha256": "e1e0bb73555898fe1b6756f4b1acddf826553dbe774106a92ae26125db07b88b",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardFenderDetails668.et",
+        "releaseSha256": "2cb39a61a3141034e7560e9c745401d4f04d39b2ee34c5afa7cc010d22a72f01",
+        "releaseManifestSha256": "2cb39a61a3141034e7560e9c745401d4f04d39b2ee34c5afa7cc010d22a72f01",
+        "startupPinnedSha256": "2cb39a61a3141034e7560e9c745401d4f04d39b2ee34c5afa7cc010d22a72f01",
+        "stageSha256": "2cb39a61a3141034e7560e9c745401d4f04d39b2ee34c5afa7cc010d22a72f01",
+        "productionSourceSha256": "2cb39a61a3141034e7560e9c745401d4f04d39b2ee34c5afa7cc010d22a72f01",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardFront07Left592.et",
+        "releaseSha256": "163ac57adc17ad889476276974279c758a30da63346a9ef4e825ee42ff4b055a",
+        "releaseManifestSha256": "163ac57adc17ad889476276974279c758a30da63346a9ef4e825ee42ff4b055a",
+        "startupPinnedSha256": "163ac57adc17ad889476276974279c758a30da63346a9ef4e825ee42ff4b055a",
+        "stageSha256": "163ac57adc17ad889476276974279c758a30da63346a9ef4e825ee42ff4b055a",
+        "productionSourceSha256": "163ac57adc17ad889476276974279c758a30da63346a9ef4e825ee42ff4b055a",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardFront07Right592.et",
+        "releaseSha256": "8a8a619963333a67d6e4c10b2ef1b0a8fea190efcd5ce3bcac79b349f23c3845",
+        "releaseManifestSha256": "8a8a619963333a67d6e4c10b2ef1b0a8fea190efcd5ce3bcac79b349f23c3845",
+        "startupPinnedSha256": "8a8a619963333a67d6e4c10b2ef1b0a8fea190efcd5ce3bcac79b349f23c3845",
+        "stageSha256": "8a8a619963333a67d6e4c10b2ef1b0a8fea190efcd5ce3bcac79b349f23c3845",
+        "productionSourceSha256": "8a8a619963333a67d6e4c10b2ef1b0a8fea190efcd5ce3bcac79b349f23c3845",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardFullWidthApron606.et",
+        "releaseSha256": "47ff7091ae98c4f7d7bdca2734394810c4d84c8f1a189f1dcd65b7dc0dbbf53b",
+        "releaseManifestSha256": "47ff7091ae98c4f7d7bdca2734394810c4d84c8f1a189f1dcd65b7dc0dbbf53b",
+        "startupPinnedSha256": "47ff7091ae98c4f7d7bdca2734394810c4d84c8f1a189f1dcd65b7dc0dbbf53b",
+        "stageSha256": "47ff7091ae98c4f7d7bdca2734394810c4d84c8f1a189f1dcd65b7dc0dbbf53b",
+        "productionSourceSha256": "47ff7091ae98c4f7d7bdca2734394810c4d84c8f1a189f1dcd65b7dc0dbbf53b",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardGunnerHatch569.et",
+        "releaseSha256": "8e4e80aef5bc2830b6188b86f39d903ace35c8d852910582fe628cfce16758ef",
+        "releaseManifestSha256": "8e4e80aef5bc2830b6188b86f39d903ace35c8d852910582fe628cfce16758ef",
+        "startupPinnedSha256": "8e4e80aef5bc2830b6188b86f39d903ace35c8d852910582fe628cfce16758ef",
+        "stageSha256": "8e4e80aef5bc2830b6188b86f39d903ace35c8d852910582fe628cfce16758ef",
+        "productionSourceSha256": "8e4e80aef5bc2830b6188b86f39d903ace35c8d852910582fe628cfce16758ef",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardHullOnly.et",
+        "releaseSha256": "83cbf2a8aa54a0be24edaa2cec6ff7a3103ecd39a7c985ad6bc7300c5081f054",
+        "releaseManifestSha256": "83cbf2a8aa54a0be24edaa2cec6ff7a3103ecd39a7c985ad6bc7300c5081f054",
+        "startupPinnedSha256": "83cbf2a8aa54a0be24edaa2cec6ff7a3103ecd39a7c985ad6bc7300c5081f054",
+        "stageSha256": "83cbf2a8aa54a0be24edaa2cec6ff7a3103ecd39a7c985ad6bc7300c5081f054",
+        "productionSourceSha256": "83cbf2a8aa54a0be24edaa2cec6ff7a3103ecd39a7c985ad6bc7300c5081f054",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardLeftServiceShield603.et",
+        "releaseSha256": "3e708abf2d84877fdeecdaa40f680a7785bd855e1f61161d26b27dd8ef7933e8",
+        "releaseManifestSha256": "3e708abf2d84877fdeecdaa40f680a7785bd855e1f61161d26b27dd8ef7933e8",
+        "startupPinnedSha256": "3e708abf2d84877fdeecdaa40f680a7785bd855e1f61161d26b27dd8ef7933e8",
+        "stageSha256": "3e708abf2d84877fdeecdaa40f680a7785bd855e1f61161d26b27dd8ef7933e8",
+        "productionSourceSha256": "3e708abf2d84877fdeecdaa40f680a7785bd855e1f61161d26b27dd8ef7933e8",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardRightRearShieldCover671.et",
+        "releaseSha256": "ecf497218fcaec1ea36b673ae6e40178cf4c2d8c091af7a21ab2ca5614a5b6ad",
+        "releaseManifestSha256": "ecf497218fcaec1ea36b673ae6e40178cf4c2d8c091af7a21ab2ca5614a5b6ad",
+        "startupPinnedSha256": "ecf497218fcaec1ea36b673ae6e40178cf4c2d8c091af7a21ab2ca5614a5b6ad",
+        "stageSha256": "ecf497218fcaec1ea36b673ae6e40178cf4c2d8c091af7a21ab2ca5614a5b6ad",
+        "productionSourceSha256": "ecf497218fcaec1ea36b673ae6e40178cf4c2d8c091af7a21ab2ca5614a5b6ad",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardRoofEyes669.et",
+        "releaseSha256": "857aa5197ced80d594651a84d9878af7e40cab2c54d379355382317268635ec8",
+        "releaseManifestSha256": "857aa5197ced80d594651a84d9878af7e40cab2c54d379355382317268635ec8",
+        "startupPinnedSha256": "857aa5197ced80d594651a84d9878af7e40cab2c54d379355382317268635ec8",
+        "stageSha256": "857aa5197ced80d594651a84d9878af7e40cab2c54d379355382317268635ec8",
+        "productionSourceSha256": "857aa5197ced80d594651a84d9878af7e40cab2c54d379355382317268635ec8",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardSearchBase.et",
+        "releaseSha256": "144ef08bcf417fb1686aba0c3c71fc15a925a74d38924bb97ad35550747fbebe",
+        "releaseManifestSha256": "144ef08bcf417fb1686aba0c3c71fc15a925a74d38924bb97ad35550747fbebe",
+        "startupPinnedSha256": "144ef08bcf417fb1686aba0c3c71fc15a925a74d38924bb97ad35550747fbebe",
+        "stageSha256": "144ef08bcf417fb1686aba0c3c71fc15a925a74d38924bb97ad35550747fbebe",
+        "productionSourceSha256": "144ef08bcf417fb1686aba0c3c71fc15a925a74d38924bb97ad35550747fbebe",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardSearchHead.et",
+        "releaseSha256": "810747c363b650b0add138bb8c91a28308c6e1f28216b94a5c47833061c26c03",
+        "releaseManifestSha256": "810747c363b650b0add138bb8c91a28308c6e1f28216b94a5c47833061c26c03",
+        "startupPinnedSha256": "810747c363b650b0add138bb8c91a28308c6e1f28216b94a5c47833061c26c03",
+        "stageSha256": "810747c363b650b0add138bb8c91a28308c6e1f28216b94a5c47833061c26c03",
+        "productionSourceSha256": "810747c363b650b0add138bb8c91a28308c6e1f28216b94a5c47833061c26c03",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardSearchYawSupport.et",
+        "releaseSha256": "d96e01650e7104a1edb1a9f7c0066dce3c50badb68b13a49a38faa146c11438a",
+        "releaseManifestSha256": "d96e01650e7104a1edb1a9f7c0066dce3c50badb68b13a49a38faa146c11438a",
+        "startupPinnedSha256": "d96e01650e7104a1edb1a9f7c0066dce3c50badb68b13a49a38faa146c11438a",
+        "stageSha256": "d96e01650e7104a1edb1a9f7c0066dce3c50badb68b13a49a38faa146c11438a",
+        "productionSourceSha256": "d96e01650e7104a1edb1a9f7c0066dce3c50badb68b13a49a38faa146c11438a",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardSteeringWheel.et",
+        "releaseSha256": "ba19d105710add672809014f1205fec0ad1c2385e00bd067f352284213950f37",
+        "releaseManifestSha256": "ba19d105710add672809014f1205fec0ad1c2385e00bd067f352284213950f37",
+        "startupPinnedSha256": "ba19d105710add672809014f1205fec0ad1c2385e00bd067f352284213950f37",
+        "stageSha256": "ba19d105710add672809014f1205fec0ad1c2385e00bd067f352284213950f37",
+        "productionSourceSha256": "ba19d105710add672809014f1205fec0ad1c2385e00bd067f352284213950f37",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardStowageSeated591.et",
+        "releaseSha256": "dd96786e0735febb15c4bdab6244b5a10d48c31d60642e746a66bae9e8a3be39",
+        "releaseManifestSha256": "dd96786e0735febb15c4bdab6244b5a10d48c31d60642e746a66bae9e8a3be39",
+        "startupPinnedSha256": "dd96786e0735febb15c4bdab6244b5a10d48c31d60642e746a66bae9e8a3be39",
+        "stageSha256": "dd96786e0735febb15c4bdab6244b5a10d48c31d60642e746a66bae9e8a3be39",
+        "productionSourceSha256": "dd96786e0735febb15c4bdab6244b5a10d48c31d60642e746a66bae9e8a3be39",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardTrackingBase.et",
+        "releaseSha256": "da0c592b06605c11e8667f275abf917cf858f69ade6eb2bc698756681b698a57",
+        "releaseManifestSha256": "da0c592b06605c11e8667f275abf917cf858f69ade6eb2bc698756681b698a57",
+        "startupPinnedSha256": "da0c592b06605c11e8667f275abf917cf858f69ade6eb2bc698756681b698a57",
+        "stageSha256": "da0c592b06605c11e8667f275abf917cf858f69ade6eb2bc698756681b698a57",
+        "productionSourceSha256": "da0c592b06605c11e8667f275abf917cf858f69ade6eb2bc698756681b698a57",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Art/GepardTrackingHead.et",
+        "releaseSha256": "92a0d64b1b3363f012f4730db0a4743b502497355389d92372c371ed94d4b406",
+        "releaseManifestSha256": "92a0d64b1b3363f012f4730db0a4743b502497355389d92372c371ed94d4b406",
+        "startupPinnedSha256": "92a0d64b1b3363f012f4730db0a4743b502497355389d92372c371ed94d4b406",
+        "stageSha256": "92a0d64b1b3363f012f4730db0a4743b502497355389d92372c371ed94d4b406",
+        "productionSourceSha256": "92a0d64b1b3363f012f4730db0a4743b502497355389d92372c371ed94d4b406",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Editor/Modes/EditorModeEdit.et",
+        "releaseSha256": "90b3cc883e141a7f38b6583266e7aad50066c28fe05210e09c619ecedd8f1b17",
+        "releaseManifestSha256": "90b3cc883e141a7f38b6583266e7aad50066c28fe05210e09c619ecedd8f1b17",
+        "startupPinnedSha256": "90b3cc883e141a7f38b6583266e7aad50066c28fe05210e09c619ecedd8f1b17",
+        "stageSha256": "90b3cc883e141a7f38b6583266e7aad50066c28fe05210e09c619ecedd8f1b17",
+        "productionSourceSha256": "90b3cc883e141a7f38b6583266e7aad50066c28fe05210e09c619ecedd8f1b17",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardAuxLampHardware672.et",
+        "releaseSha256": "13ddac282ce26f1ff73dc5a8fa34134d532af33e1cc2bfd9ac4a156ffc2ab638",
+        "releaseManifestSha256": "13ddac282ce26f1ff73dc5a8fa34134d532af33e1cc2bfd9ac4a156ffc2ab638",
+        "startupPinnedSha256": "13ddac282ce26f1ff73dc5a8fa34134d532af33e1cc2bfd9ac4a156ffc2ab638",
+        "stageSha256": "13ddac282ce26f1ff73dc5a8fa34134d532af33e1cc2bfd9ac4a156ffc2ab638",
+        "productionSourceSha256": "13ddac282ce26f1ff73dc5a8fa34134d532af33e1cc2bfd9ac4a156ffc2ab638",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardBearingBosses.et",
+        "releaseSha256": "7f214aef5df97907f02cee126060ab397249848be3f78149e2449d3993b44965",
+        "releaseManifestSha256": "7f214aef5df97907f02cee126060ab397249848be3f78149e2449d3993b44965",
+        "startupPinnedSha256": "7f214aef5df97907f02cee126060ab397249848be3f78149e2449d3993b44965",
+        "stageSha256": "7f214aef5df97907f02cee126060ab397249848be3f78149e2449d3993b44965",
+        "productionSourceSha256": "7f214aef5df97907f02cee126060ab397249848be3f78149e2449d3993b44965",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCabin.et",
+        "releaseSha256": "2f9ec8ad7ca69c172e1d5e9a0175f5a3c929c14f239b6ff04bc72ee0ce2ff76e",
+        "releaseManifestSha256": "2f9ec8ad7ca69c172e1d5e9a0175f5a3c929c14f239b6ff04bc72ee0ce2ff76e",
+        "startupPinnedSha256": "2f9ec8ad7ca69c172e1d5e9a0175f5a3c929c14f239b6ff04bc72ee0ce2ff76e",
+        "stageSha256": "2f9ec8ad7ca69c172e1d5e9a0175f5a3c929c14f239b6ff04bc72ee0ce2ff76e",
+        "productionSourceSha256": "2f9ec8ad7ca69c172e1d5e9a0175f5a3c929c14f239b6ff04bc72ee0ce2ff76e",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCommanderHatch569.et",
+        "releaseSha256": "78ddc3f27273ff0d4e175bbbd262b79b03de3a82b3f59388ea1e0dce28b94aea",
+        "releaseManifestSha256": "78ddc3f27273ff0d4e175bbbd262b79b03de3a82b3f59388ea1e0dce28b94aea",
+        "startupPinnedSha256": "78ddc3f27273ff0d4e175bbbd262b79b03de3a82b3f59388ea1e0dce28b94aea",
+        "stageSha256": "78ddc3f27273ff0d4e175bbbd262b79b03de3a82b3f59388ea1e0dce28b94aea",
+        "productionSourceSha256": "78ddc3f27273ff0d4e175bbbd262b79b03de3a82b3f59388ea1e0dce28b94aea",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCoverLeft668.et",
+        "releaseSha256": "3c0b4f07e3d07003de63a54a6a81a5829b0f5e6489b689b1d8e96c8e425c285b",
+        "releaseManifestSha256": "3c0b4f07e3d07003de63a54a6a81a5829b0f5e6489b689b1d8e96c8e425c285b",
+        "startupPinnedSha256": "3c0b4f07e3d07003de63a54a6a81a5829b0f5e6489b689b1d8e96c8e425c285b",
+        "stageSha256": "3c0b4f07e3d07003de63a54a6a81a5829b0f5e6489b689b1d8e96c8e425c285b",
+        "productionSourceSha256": "3c0b4f07e3d07003de63a54a6a81a5829b0f5e6489b689b1d8e96c8e425c285b",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardCoverRight668.et",
+        "releaseSha256": "3a37dc84be5a6ca028a7449540cc9696215fe24cb2f74d009f35a08bb9d130de",
+        "releaseManifestSha256": "3a37dc84be5a6ca028a7449540cc9696215fe24cb2f74d009f35a08bb9d130de",
+        "startupPinnedSha256": "3a37dc84be5a6ca028a7449540cc9696215fe24cb2f74d009f35a08bb9d130de",
+        "stageSha256": "3a37dc84be5a6ca028a7449540cc9696215fe24cb2f74d009f35a08bb9d130de",
+        "productionSourceSha256": "3a37dc84be5a6ca028a7449540cc9696215fe24cb2f74d009f35a08bb9d130de",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardDriverHatch.et",
+        "releaseSha256": "d9e3057540436592db6fbd6551e904789a1ef2b048f96c737da056e2241a1db0",
+        "releaseManifestSha256": "d9e3057540436592db6fbd6551e904789a1ef2b048f96c737da056e2241a1db0",
+        "startupPinnedSha256": "d9e3057540436592db6fbd6551e904789a1ef2b048f96c737da056e2241a1db0",
+        "stageSha256": "d9e3057540436592db6fbd6551e904789a1ef2b048f96c737da056e2241a1db0",
+        "productionSourceSha256": "d9e3057540436592db6fbd6551e904789a1ef2b048f96c737da056e2241a1db0",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardDriverLidHardware660.et",
+        "releaseSha256": "c4028fe484877d2fffa075ce616279e681b8e83d9c7b44ea7cf777a880327278",
+        "releaseManifestSha256": "c4028fe484877d2fffa075ce616279e681b8e83d9c7b44ea7cf777a880327278",
+        "startupPinnedSha256": "c4028fe484877d2fffa075ce616279e681b8e83d9c7b44ea7cf777a880327278",
+        "stageSha256": "c4028fe484877d2fffa075ce616279e681b8e83d9c7b44ea7cf777a880327278",
+        "productionSourceSha256": "c4028fe484877d2fffa075ce616279e681b8e83d9c7b44ea7cf777a880327278",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFenderDetails668.et",
+        "releaseSha256": "bbb18a044241f9079078a5ff4708d7706ed89091f8c99591ac05c7d170188127",
+        "releaseManifestSha256": "bbb18a044241f9079078a5ff4708d7706ed89091f8c99591ac05c7d170188127",
+        "startupPinnedSha256": "bbb18a044241f9079078a5ff4708d7706ed89091f8c99591ac05c7d170188127",
+        "stageSha256": "bbb18a044241f9079078a5ff4708d7706ed89091f8c99591ac05c7d170188127",
+        "productionSourceSha256": "bbb18a044241f9079078a5ff4708d7706ed89091f8c99591ac05c7d170188127",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFront07Left592.et",
+        "releaseSha256": "c3ccf961b7dafc65a27439d88e9e88a5f6c75880afe5a1865fb438ce8c4e08f6",
+        "releaseManifestSha256": "c3ccf961b7dafc65a27439d88e9e88a5f6c75880afe5a1865fb438ce8c4e08f6",
+        "startupPinnedSha256": "c3ccf961b7dafc65a27439d88e9e88a5f6c75880afe5a1865fb438ce8c4e08f6",
+        "stageSha256": "c3ccf961b7dafc65a27439d88e9e88a5f6c75880afe5a1865fb438ce8c4e08f6",
+        "productionSourceSha256": "c3ccf961b7dafc65a27439d88e9e88a5f6c75880afe5a1865fb438ce8c4e08f6",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFront07Right592.et",
+        "releaseSha256": "fbf8b9240f5b29bc1ca5d205031571e4398054932b12b04225fa3b3f41532862",
+        "releaseManifestSha256": "fbf8b9240f5b29bc1ca5d205031571e4398054932b12b04225fa3b3f41532862",
+        "startupPinnedSha256": "fbf8b9240f5b29bc1ca5d205031571e4398054932b12b04225fa3b3f41532862",
+        "stageSha256": "fbf8b9240f5b29bc1ca5d205031571e4398054932b12b04225fa3b3f41532862",
+        "productionSourceSha256": "fbf8b9240f5b29bc1ca5d205031571e4398054932b12b04225fa3b3f41532862",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardFullWidthApron606.et",
+        "releaseSha256": "69fbdd300e2c713d53ec3127025ee9df16991e07285621ce00623a3b20b653f9",
+        "releaseManifestSha256": "69fbdd300e2c713d53ec3127025ee9df16991e07285621ce00623a3b20b653f9",
+        "startupPinnedSha256": "69fbdd300e2c713d53ec3127025ee9df16991e07285621ce00623a3b20b653f9",
+        "stageSha256": "69fbdd300e2c713d53ec3127025ee9df16991e07285621ce00623a3b20b653f9",
+        "productionSourceSha256": "69fbdd300e2c713d53ec3127025ee9df16991e07285621ce00623a3b20b653f9",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardGunnerHatch569.et",
+        "releaseSha256": "c7394f87f12a631c9bb7899edfe588bbc0cf6a2dcb293f0528f3b402db7479fc",
+        "releaseManifestSha256": "c7394f87f12a631c9bb7899edfe588bbc0cf6a2dcb293f0528f3b402db7479fc",
+        "startupPinnedSha256": "c7394f87f12a631c9bb7899edfe588bbc0cf6a2dcb293f0528f3b402db7479fc",
+        "stageSha256": "c7394f87f12a631c9bb7899edfe588bbc0cf6a2dcb293f0528f3b402db7479fc",
+        "productionSourceSha256": "c7394f87f12a631c9bb7899edfe588bbc0cf6a2dcb293f0528f3b402db7479fc",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardLeftServiceShield603.et",
+        "releaseSha256": "ae670152b7d871ad6efbe372bed17f5a364e820e9bb4fdbb6708af5657546161",
+        "releaseManifestSha256": "ae670152b7d871ad6efbe372bed17f5a364e820e9bb4fdbb6708af5657546161",
+        "startupPinnedSha256": "ae670152b7d871ad6efbe372bed17f5a364e820e9bb4fdbb6708af5657546161",
+        "stageSha256": "ae670152b7d871ad6efbe372bed17f5a364e820e9bb4fdbb6708af5657546161",
+        "productionSourceSha256": "ae670152b7d871ad6efbe372bed17f5a364e820e9bb4fdbb6708af5657546161",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardRightRearShieldCover671.et",
+        "releaseSha256": "389c2c9d4588a096e260f201660bd3c418beb3a686ed3f8ba943c5411d624ac6",
+        "releaseManifestSha256": "389c2c9d4588a096e260f201660bd3c418beb3a686ed3f8ba943c5411d624ac6",
+        "startupPinnedSha256": "389c2c9d4588a096e260f201660bd3c418beb3a686ed3f8ba943c5411d624ac6",
+        "stageSha256": "389c2c9d4588a096e260f201660bd3c418beb3a686ed3f8ba943c5411d624ac6",
+        "productionSourceSha256": "389c2c9d4588a096e260f201660bd3c418beb3a686ed3f8ba943c5411d624ac6",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardRoofEyes669.et",
+        "releaseSha256": "0710b2898665f77e2f8ae68fdc0587768dc661e236a86092d13be879004a3a5c",
+        "releaseManifestSha256": "0710b2898665f77e2f8ae68fdc0587768dc661e236a86092d13be879004a3a5c",
+        "startupPinnedSha256": "0710b2898665f77e2f8ae68fdc0587768dc661e236a86092d13be879004a3a5c",
+        "stageSha256": "0710b2898665f77e2f8ae68fdc0587768dc661e236a86092d13be879004a3a5c",
+        "productionSourceSha256": "0710b2898665f77e2f8ae68fdc0587768dc661e236a86092d13be879004a3a5c",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardSearchBase.et",
+        "releaseSha256": "a68eb171ccab4cdde1fdd39da86ce360ca9eaeed04d23cda2735fb7041969fbb",
+        "releaseManifestSha256": "a68eb171ccab4cdde1fdd39da86ce360ca9eaeed04d23cda2735fb7041969fbb",
+        "startupPinnedSha256": "a68eb171ccab4cdde1fdd39da86ce360ca9eaeed04d23cda2735fb7041969fbb",
+        "stageSha256": "a68eb171ccab4cdde1fdd39da86ce360ca9eaeed04d23cda2735fb7041969fbb",
+        "productionSourceSha256": "a68eb171ccab4cdde1fdd39da86ce360ca9eaeed04d23cda2735fb7041969fbb",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardSearchHead.et",
+        "releaseSha256": "e94e9ca6cc50ac20aeafb391d61f4cea2412aacba63d54bdec0185e540682e64",
+        "releaseManifestSha256": "e94e9ca6cc50ac20aeafb391d61f4cea2412aacba63d54bdec0185e540682e64",
+        "startupPinnedSha256": "e94e9ca6cc50ac20aeafb391d61f4cea2412aacba63d54bdec0185e540682e64",
+        "stageSha256": "e94e9ca6cc50ac20aeafb391d61f4cea2412aacba63d54bdec0185e540682e64",
+        "productionSourceSha256": "e94e9ca6cc50ac20aeafb391d61f4cea2412aacba63d54bdec0185e540682e64",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardSearchYawSupport.et",
+        "releaseSha256": "2a18acbeab791d1de96dd87eb756083436f737ef739579d2701e732698a22525",
+        "releaseManifestSha256": "2a18acbeab791d1de96dd87eb756083436f737ef739579d2701e732698a22525",
+        "startupPinnedSha256": "2a18acbeab791d1de96dd87eb756083436f737ef739579d2701e732698a22525",
+        "stageSha256": "2a18acbeab791d1de96dd87eb756083436f737ef739579d2701e732698a22525",
+        "productionSourceSha256": "2a18acbeab791d1de96dd87eb756083436f737ef739579d2701e732698a22525",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardStowageSeated591.et",
+        "releaseSha256": "50c30506cbaa927d731a199945ce789b17aa88ee59e20740217eba1e6f8f7c50",
+        "releaseManifestSha256": "50c30506cbaa927d731a199945ce789b17aa88ee59e20740217eba1e6f8f7c50",
+        "startupPinnedSha256": "50c30506cbaa927d731a199945ce789b17aa88ee59e20740217eba1e6f8f7c50",
+        "stageSha256": "50c30506cbaa927d731a199945ce789b17aa88ee59e20740217eba1e6f8f7c50",
+        "productionSourceSha256": "50c30506cbaa927d731a199945ce789b17aa88ee59e20740217eba1e6f8f7c50",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingBase.et",
+        "releaseSha256": "d7b36ebc894d8e4c2b2c4d3d53e0b8ed2d3bea8144abc05e75849ff8f30831fc",
+        "releaseManifestSha256": "d7b36ebc894d8e4c2b2c4d3d53e0b8ed2d3bea8144abc05e75849ff8f30831fc",
+        "startupPinnedSha256": "d7b36ebc894d8e4c2b2c4d3d53e0b8ed2d3bea8144abc05e75849ff8f30831fc",
+        "stageSha256": "d7b36ebc894d8e4c2b2c4d3d53e0b8ed2d3bea8144abc05e75849ff8f30831fc",
+        "productionSourceSha256": "d7b36ebc894d8e4c2b2c4d3d53e0b8ed2d3bea8144abc05e75849ff8f30831fc",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingHead.et",
+        "releaseSha256": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68",
+        "releaseManifestSha256": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68",
+        "startupPinnedSha256": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68",
+        "stageSha256": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68",
+        "productionSourceSha256": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+        "releaseSha256": "73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528",
+        "releaseManifestSha256": "73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528",
+        "startupPinnedSha256": "73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528",
+        "stageSha256": "73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528",
+        "productionSourceSha256": "73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunLeft.et",
+        "releaseSha256": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e",
+        "releaseManifestSha256": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e",
+        "startupPinnedSha256": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e",
+        "stageSha256": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e",
+        "productionSourceSha256": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunRight.et",
+        "releaseSha256": "a1dd80a8e06fbb47eefb7f6b3e004101115fe924b9f22b044df482c274aba4fb",
+        "releaseManifestSha256": "a1dd80a8e06fbb47eefb7f6b3e004101115fe924b9f22b044df482c274aba4fb",
+        "startupPinnedSha256": "a1dd80a8e06fbb47eefb7f6b3e004101115fe924b9f22b044df482c274aba4fb",
+        "stageSha256": "a1dd80a8e06fbb47eefb7f6b3e004101115fe924b9f22b044df482c274aba4fb",
+        "productionSourceSha256": "a1dd80a8e06fbb47eefb7f6b3e004101115fe924b9f22b044df482c274aba4fb",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_VehicleTurret.et",
+        "releaseSha256": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e",
+        "releaseManifestSha256": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e",
+        "startupPinnedSha256": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e",
+        "stageSha256": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e",
+        "productionSourceSha256": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Vehicles/GEP_MobileCarrier.et",
+        "releaseSha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543",
+        "releaseManifestSha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543",
+        "startupPinnedSha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543",
+        "stageSha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543",
+        "productionSourceSha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Vehicles/GEP_TrackedMobility.et",
+        "releaseSha256": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521",
+        "releaseManifestSha256": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521",
+        "startupPinnedSha256": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521",
+        "stageSha256": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521",
+        "productionSourceSha256": "6b539cb6e8377d7214113233e9f41fd49ed9a642477c8f66a11c2c92412e6521",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Vehicles/GEP_WheeledMobility101.et",
+        "releaseSha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912",
+        "releaseManifestSha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912",
+        "startupPinnedSha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912",
+        "stageSha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912",
+        "productionSourceSha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Weapons/GEP_35_GunLeft.et",
+        "releaseSha256": "bbd850167ec6f3a0ba161bf5190e0cce72abaea2eea92daf5b7cd36c364d3ebb",
+        "releaseManifestSha256": "bbd850167ec6f3a0ba161bf5190e0cce72abaea2eea92daf5b7cd36c364d3ebb",
+        "startupPinnedSha256": "bbd850167ec6f3a0ba161bf5190e0cce72abaea2eea92daf5b7cd36c364d3ebb",
+        "stageSha256": "bbd850167ec6f3a0ba161bf5190e0cce72abaea2eea92daf5b7cd36c364d3ebb",
+        "productionSourceSha256": "bbd850167ec6f3a0ba161bf5190e0cce72abaea2eea92daf5b7cd36c364d3ebb",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Weapons/GEP_35_GunRight.et",
+        "releaseSha256": "7752f70ac772eac267d31de11fe85ed0214cadf860d8e6d65415fb72fc0927f1",
+        "releaseManifestSha256": "7752f70ac772eac267d31de11fe85ed0214cadf860d8e6d65415fb72fc0927f1",
+        "startupPinnedSha256": "7752f70ac772eac267d31de11fe85ed0214cadf860d8e6d65415fb72fc0927f1",
+        "stageSha256": "7752f70ac772eac267d31de11fe85ed0214cadf860d8e6d65415fb72fc0927f1",
+        "productionSourceSha256": "7752f70ac772eac267d31de11fe85ed0214cadf860d8e6d65415fb72fc0927f1",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Weapons/GEP_35_HEIT_Belt320.et",
+        "releaseSha256": "ee9f3c34ffeca34062a1d0f3ce3059df7579cbc7e19add82b15a7b89c65d7e35",
+        "releaseManifestSha256": "ee9f3c34ffeca34062a1d0f3ce3059df7579cbc7e19add82b15a7b89c65d7e35",
+        "startupPinnedSha256": "ee9f3c34ffeca34062a1d0f3ce3059df7579cbc7e19add82b15a7b89c65d7e35",
+        "stageSha256": "ee9f3c34ffeca34062a1d0f3ce3059df7579cbc7e19add82b15a7b89c65d7e35",
+        "productionSourceSha256": "ee9f3c34ffeca34062a1d0f3ce3059df7579cbc7e19add82b15a7b89c65d7e35",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Weapons/GEP_35_HEIT_Projectile.et",
+        "releaseSha256": "f59ca1ff4cb08b86ce5054bff8802cdee9265acdc0188d09e321c2b5ca7a0614",
+        "releaseManifestSha256": "f59ca1ff4cb08b86ce5054bff8802cdee9265acdc0188d09e321c2b5ca7a0614",
+        "startupPinnedSha256": "f59ca1ff4cb08b86ce5054bff8802cdee9265acdc0188d09e321c2b5ca7a0614",
+        "stageSha256": "f59ca1ff4cb08b86ce5054bff8802cdee9265acdc0188d09e321c2b5ca7a0614",
+        "productionSourceSha256": "f59ca1ff4cb08b86ce5054bff8802cdee9265acdc0188d09e321c2b5ca7a0614",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Weapons/GEP_35_HEIT_Warhead.et",
+        "releaseSha256": "1c8a869079e2b63a31ba9d471f8bb8d0d42e09e3c98f44dc5324d200a10889bd",
+        "releaseManifestSha256": "1c8a869079e2b63a31ba9d471f8bb8d0d42e09e3c98f44dc5324d200a10889bd",
+        "startupPinnedSha256": "1c8a869079e2b63a31ba9d471f8bb8d0d42e09e3c98f44dc5324d200a10889bd",
+        "stageSha256": "1c8a869079e2b63a31ba9d471f8bb8d0d42e09e3c98f44dc5324d200a10889bd",
+        "productionSourceSha256": "1c8a869079e2b63a31ba9d471f8bb8d0d42e09e3c98f44dc5324d200a10889bd",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Weapons/GEP_StationaryTurret.et",
+        "releaseSha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55",
+        "releaseManifestSha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55",
+        "startupPinnedSha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55",
+        "stageSha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55",
+        "productionSourceSha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      },
+      {
+        "relativePath": "Prefabs/Weapons/GEP_VehicleTurret.et",
+        "releaseSha256": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed",
+        "releaseManifestSha256": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed",
+        "startupPinnedSha256": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed",
+        "stageSha256": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed",
+        "productionSourceSha256": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed",
+        "releaseManifestMatches": true,
+        "exactAtStartup": true,
+        "exactInCurrentStage": true,
+        "exactInCurrentProductionSource": true
+      }
+    ],
+    "matchingKeywordFieldsInGepardET": [],
+    "commonCoreFilesAtStartup": 1112,
+    "nonidenticalCommonCoreFilesAtStartup": [
+      {
+        "path": "resourceDatabase.rdb",
+        "releaseSha256": "7ee0c09284788b5f865a6cfd22ed2aa2a133b2da25508dc0c10142049ac7735c",
+        "startupSha256": "0e51cf4c21216fada1c52103b74950d1617568588ea0fc1793bf979308f6005c"
+      },
+      {
+        "path": "scripts/Game/GEP/GEP_ControlHints580.c",
+        "releaseSha256": "f5ce48d587781cdac3a8303e083213151958f7553d399480fb472a26d1de9701",
+        "startupSha256": "8646ee2a904667358c57aafca1e90593dc10b2f0cf35165a54421806e7eb4086"
+      },
+      {
+        "path": "scripts/Game/GEP/GEP_CrewActions579.c",
+        "releaseSha256": "f040c80799971035469173aff1ed459730f02ba690745dfca5b83a32b12e139e",
+        "startupSha256": "01c4ecf44cb537685fc8a93d32baa2c9e0d7598a5368e7fc59f2427d797fc4cf"
+      },
+      {
+        "path": "scripts/Game/GEP/GEP_DriverStation.c",
+        "releaseSha256": "293b240525fc0a811d8476d7701b058e1254a6ccdd6669dc5f7c4a15bd71b48b",
+        "startupSha256": "8c85b7a7d32e53952659635dc723afa83887c35da440fedbf44bebbfa70a5468"
+      },
+      {
+        "path": "scripts/Game/GEP/GEP_GunStatus.c",
+        "releaseSha256": "5cdfc9c3407a036c026b6b24a1dcd8c5a287af320257998b293f8d24e605c476",
+        "startupSha256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966"
+      },
+      {
+        "path": "scripts/Game/GEP/GEP_PlainSight680.c",
+        "releaseSha256": "889103b7149c9237c279c66d8869e2283a3c71a58e5e0d7d475f2e61d24af9ac",
+        "startupSha256": "4fac0ae37b8a4ccbc8992d4162c0f571f46642162b9c89d6caadbc6f0c144097"
+      },
+      {
+        "path": "scripts/Game/GEP/GEP_Presentation680.c",
+        "releaseSha256": "e5eefef4e2789a38f30cd9f5700d7a5d7c694920d400cdc707b856fbe5566014",
+        "startupSha256": "bb7dd41acefa9d3c6266eb22127fecd6241c9fa84c1f3eed621eb1fa62d85fca"
+      },
+      {
+        "path": "scripts/Game/GEP/GEP_RadarSystem.c",
+        "releaseSha256": "7795dec6e5e5fefeca989bc8edc979e9993a0fb68777c4f595273c302820130c",
+        "startupSha256": "24f447ee879c324c8e511ca9457e722cb56f2cef2289d6cc909900fca4322368"
+      }
+    ]
+  },
+  "sourceRecipe": {
+    "startupGepardRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+    "startupGepardManifest": {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\GEPARD_SOURCE_MANIFEST.json",
+      "bytes": 146969,
+      "sha256": "2af0052f5f726504f438aeca8cdc726ba809391145c3b2ffbd90a5ec11818c7e"
+    },
+    "releaseSourceRoot": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\public-source\\addon",
+    "releaseSourceManifest": {
+      "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\public-source\\SOURCE_MANIFEST.json",
+      "bytes": 162263,
+      "sha256": "c5bbc4d425a57592a133ce20be3b326d59a66ea53fab2de3c45b7ad3b7f2436a"
+    },
+    "recipePins": [
+      {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\SOURCE-CLOSURES.json",
+        "bytes": 482,
+        "sha256": "214fb850f5530a30fad246719c75cf2e2b6822ac03beb7e349957507120e8b55"
+      },
+      {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\COMPILE-ADOPTION.json",
+        "bytes": 1723,
+        "sha256": "e557ad98482016ae4ce0fe87b40abc7e6498d7607a2a88542d9bb306bba329b7"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\plan.json",
+        "bytes": 14684,
+        "sha256": "8e7f2c3f20928862a8358deae131bce7e29ef630b036e7645b3940172cc6560a"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\summary.json",
+        "bytes": 1156,
+        "sha256": "bd41b97692c59291084f9b4ebcc639995dfab7307411f9bdbaeab2f0d5621a63"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\gpg-startup-survey\\result.json",
+        "bytes": 29565,
+        "sha256": "a7772b63a1a5d6b3999a64e7ce0436b9edb0d2c59c4324a46d5f79b66c217d26"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\checks\\FINAL_RESULT.json",
+        "bytes": 3036,
+        "sha256": "8238c36c6e139763019d55500fbfabc2c6e962dc214177c2d4cb06cdfefa524f"
+      },
+      {
+        "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-uploaded-01\\plan.json",
+        "bytes": 1292,
+        "sha256": "ef51e1830ef429a5b585930349d4ba2923943c1a0d05523e291b6ed8cfd4ed00"
+      }
+    ],
+    "stockCurrentGprojPins": {
+      "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\core\\core.gproj": {
+        "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\core\\core.gproj",
+        "bytes": 2356,
+        "sha256": "d27c2324743cb3c63839ce22f0b371347bdf0aa90e17067a0da8f40a75047dec"
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\ArmaReforger.gproj": {
+        "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\ArmaReforger.gproj",
+        "bytes": 47588,
+        "sha256": "4afb075b47d57d1a8af8b1b2bd7a76e65d456074aeafcd8bdcd92c98fb48a85c"
+      }
+    }
+  },
+  "limits": [
+    "The seven parser diagnostics remain actual WORLD(E) errors; baseline matching does not prove harmlessness or gameplay acceptance.",
+    "Stock-prefab attribution is direct enclosing resource-load evidence plus identical keyword/offset/resource signatures across retained runs, not a decoded stock PAK field inspection.",
+    "No retained old stock PAK/executable byte hash was found in the compared launch plans; engine version192142 and stock GUID/path/package counts match, but historical full stock binary identity is not claimed.",
+    "Original Gepard ET bytes and startup-manifest pins are checked directly; this cannot establish unseen stock ET payload contents.",
+    "Legacy m_bShowDebugShape and catalogless unknown-class diagnostics are retained separately and are not included in this seven-signature proposal.",
+    "Any changed keyword, offset, enclosing resource or extra WORLD(E) line remains NEW_OR_UNEXPLAINED; no broad Parent/SlidingTrackMaterial exemption is authorized."
+  ]
+}

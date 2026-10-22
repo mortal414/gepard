@@ -11,3 +11,7 @@ downloads/
 /native-runs/
 
 /native-import-stage/
+
+/native-smoke-stage/
+
+/native-core-stage/

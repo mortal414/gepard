@@ -1,0 +1,19 @@
+{
+  "status": "SUCCESSFUL_NATIVE_COMPILE_CURRENT_CLOSURES_REVIEWED",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-core-qa-02",
+  "compilerResultSHA256": "6d44d8008253b7f099df402281cf0d800fe09c46e06759d9ad151118daeb3d75",
+  "compilerConsoleSHA256": "f405afcb47917388ebc50aa9517c42e869127185880119fccee2b15cd0b93e2d",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-core-stage\\gepard\\Gepard.gproj",
+  "closures": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-core-stage\\gepard",
+      "manifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\core-native\\GEPARD-MANIFEST.json",
+      "sha256": "42a42823f3eb3f4f52df73b43d7a567b9112ed5fb9a3641ce6b34c3ea3192ca6",
+      "files": 1162
+    }
+  ],
+  "generatedChangesAfterCompile": {
+    "gepard": []
+  },
+  "nativeGameplay": "NOT_TESTED"
+}

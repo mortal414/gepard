@@ -1,0 +1,19 @@
+{
+  "failureRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-single-02",
+  "status": "PRIVATE_QA_NATIVE_TYPE_REPAIRS_PENDING_RECOMPILE",
+  "repairs": [
+    "Assign existing public WCS int getter to local before return; verified installed public signature",
+    "Serialize EntityID with string.Format instead of invalid int coercion; preserves stable console/JSON token",
+    "Rename inherited Sequence field uses in private manual probe"
+  ],
+  "changes": {
+    "qaSmoke": [
+      "scripts/Game/GEP215WCSQA/GEP215_WCSManualProbe.c",
+      "scripts/Game/GEP215WCSQA/GEP215_WCSProbe.c"
+    ],
+    "wcsSmoke": [],
+    "gepard": [],
+    "WCS_Armaments": []
+  },
+  "runtime": "NOT_TESTED"
+}

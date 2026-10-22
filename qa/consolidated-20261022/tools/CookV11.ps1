@@ -54,7 +54,7 @@ function AssertIdentity {
  for($i=0;$i -lt $nativeArgs.Count;$i++){if($actual[$i+1] -cne $nativeArgs[$i]){throw 'Native arguments differ'}}
  return $true
 }
-if(!$Execute){@{status='NOT_TESTED';dryRun=$true;nativeStarted=$false;leaseMutated=$false;project=$Project;plugin=$Plugin;manifest=$Manifest;runRoot=$RunRoot;durableOutput='Fresh per-run profile; locate unique GEP033-RESOLVER.json recursively after native exit';requiredAdmission='Parent explicit native handback plus fresh atomic census/lease claim'}|ConvertTo-Json -Depth 6;exit 0}
+if(!$Execute){@{status='NOT_TESTED';dryRun=$true;nativeStarted=$false;leaseMutated=$false;project=$Project;plugin=$Plugin;manifest=$Manifest;runRoot=$RunRoot;durableOutput='Fresh raw resource-build console, five changed cooked hashes and exact owned normal-close receipts';requiredAdmission='User explicit overnight resume plus fresh atomic census/lease claim'}|ConvertTo-Json -Depth 6;exit 0}
 
 if(HoldActive (Get-Content -LiteralPath $slot -Raw|ConvertFrom-Json)){throw 'User runtime hold active'}
 if(Test-Path -LiteralPath $RunRoot){throw 'Fresh run root required'}

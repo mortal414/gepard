@@ -1,0 +1,11 @@
+{
+  "failureRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-core-qa-01",
+  "repair": "Private optional readback method Tree renamed ReadServiceTree to avoid native Tree class/constructor collision",
+  "changes": {
+    "gepard": [
+      "resourceDatabase.rdb",
+      "scripts/Game/GEP/GEP_CoreServiceReadback20261022.c"
+    ]
+  },
+  "runtime": "NOT_TESTED"
+}

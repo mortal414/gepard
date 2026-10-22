@@ -1,0 +1,18 @@
+{
+  "status": "PRIVATE_NATIVE_CORE_FIXTURE_STAGED_NOT_TESTED",
+  "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-core-stage\\gepard",
+  "sourcePackage": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Core-Qualification-20261022",
+  "frozenManifestSHA256": "3919a7cb17e825da3fcf574182319008c830c4595c32346a49c0fbdf275d7317",
+  "overlayAdded": [
+    "scripts/Game/GEP/GEP683_PassiveImpact.c",
+    "scripts/Game/GEP/GEP_CoreManualSpawn20261022.c",
+    "scripts/Game/GEP/GEP_CoreServiceReadback20261022.c",
+    "scripts/Game/GEP/GEP_CoreWheeledCourse20261022.c",
+    "scripts/Game/GEP/GEP_DamageRecords683.c",
+    "scripts/Game/GEP/GEP_DamageScenario683.c",
+    "scripts/Game/GEP/GEP_NativeStimulus683.c",
+    "Worlds/GEP_GunRange.ent",
+    "Worlds/GEP_GunRange.ent.meta",
+    "Worlds/GEP_GunRange_default.layer"
+  ]
+}

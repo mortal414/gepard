@@ -1,0 +1,82 @@
+{
+  "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\gpg-startup-survey\\native-run\\logs\\console.log": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\gpg-startup-survey\\native-run\\logs\\console.log",
+    "bytes": 66280,
+    "sha256": "0878b21f1d9b0450732d20abbc765b7168039aaf9a4466643e71ae6b0b39dc45"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-baseline-01\\logs\\console.log": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-baseline-01\\logs\\console.log",
+    "bytes": 32969,
+    "sha256": "cc480056a3113b58f4a27e69aa3239f777557f196d9f3fc4090573c361261561"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-01\\logs\\console.log": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-01\\logs\\console.log",
+    "bytes": 34411,
+    "sha256": "9e52ec221ffe82be915211f8bcd90a0cc51c0bef778d480da3623b654545094f"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-02\\logs\\console.log": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-source-02\\logs\\console.log",
+    "bytes": 38635,
+    "sha256": "3cafebf54278108b8fb774e5323098d82d3d5c3d8c84c948ffddad80630d0038"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-package-01\\logs\\console.log": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-package-01\\logs\\console.log",
+    "bytes": 38858,
+    "sha256": "bf6f7c7b5b3375d128996c0e27bf6c887377ed153f89dbed611651a3fb1b1558"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-uploaded-01\\logs\\console.log": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-uploaded-01\\logs\\console.log",
+    "bytes": 39433,
+    "sha256": "aae7d33e8124ac3173e6cd64f9a52252fa11d4b61d7fed3610c2dcb2bc01ad3c"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-catalogless-01\\logs\\console.log": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-catalogless-01\\logs\\console.log",
+    "bytes": 38114,
+    "sha256": "27f98b01a1e3dee35d77a41be3a6864d0cdf48792127558c420541487dcabe18"
+  },
+  "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\GEPARD_SOURCE_MANIFEST.json": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\GEPARD_SOURCE_MANIFEST.json",
+    "bytes": 146969,
+    "sha256": "2af0052f5f726504f438aeca8cdc726ba809391145c3b2ffbd90a5ec11818c7e"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\public-source\\SOURCE_MANIFEST.json": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\public-source\\SOURCE_MANIFEST.json",
+    "bytes": 162263,
+    "sha256": "c5bbc4d425a57592a133ce20be3b326d59a66ea53fab2de3c45b7ad3b7f2436a"
+  },
+  "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\SOURCE-CLOSURES.json": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\SOURCE-CLOSURES.json",
+    "bytes": 482,
+    "sha256": "214fb850f5530a30fad246719c75cf2e2b6822ac03beb7e349957507120e8b55"
+  },
+  "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\COMPILE-ADOPTION.json": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-Startup-Retry-QA-20261022\\COMPILE-ADOPTION.json",
+    "bytes": 1723,
+    "sha256": "e557ad98482016ae4ce0fe87b40abc7e6498d7607a2a88542d9bb306bba329b7"
+  },
+  "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\plan.json": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\plan.json",
+    "bytes": 14684,
+    "sha256": "8e7f2c3f20928862a8358deae131bce7e29ef630b036e7645b3940172cc6560a"
+  },
+  "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\summary.json": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\summary.json",
+    "bytes": 1156,
+    "sha256": "bd41b97692c59291084f9b4ebcc639995dfab7307411f9bdbaeab2f0d5621a63"
+  },
+  "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\gpg-startup-survey\\result.json": {
+    "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-02\\gpg-startup-survey\\result.json",
+    "bytes": 29565,
+    "sha256": "a7772b63a1a5d6b3999a64e7ce0436b9edb0d2c59c4324a46d5f79b66c217d26"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\checks\\FINAL_RESULT.json": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\checks\\FINAL_RESULT.json",
+    "bytes": 3036,
+    "sha256": "8238c36c6e139763019d55500fbfabc2c6e962dc214177c2d4cb06cdfefa524f"
+  },
+  "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-uploaded-01\\plan.json": {
+    "path": "D:\\ArmaProjects\\Gepard-GM-Hotfix-1.0.2-20261021\\native-runs\\gm-uploaded-01\\plan.json",
+    "bytes": 1292,
+    "sha256": "ef51e1830ef429a5b585930349d4ba2923943c1a0d05523e291b6ed8cfd4ed00"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "COMPILE_FIXTURE_NAME_REPAIRED_SOURCE_ONLY",
+  "failureRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-single-01",
+  "rawConsole": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-single-01\\logs\\validate\\console.log",
+  "repair": "Renamed private internal member Sequence toSmokeSampleSequence only;lowercasesequenceJSON andseqconsolekeys unchanged",
+  "scope": "CoordinatorprivateQA stageonly; supplier code/optionalintegration/baseline untouched",
+  "reviewedStageChanges": {
+    "qaSmoke": [
+      "scripts/Game/GEP215WCSQA/GEP215_WCSProbe.c",
+      "resourceDatabase.rdb"
+    ],
+    "wcsSmoke": [
+      "resourceDatabase.rdb"
+    ],
+    "gepard": [
+      "resourceDatabase.rdb"
+    ],
+    "WCS_Armaments": []
+  },
+  "runtimeSmoke": "NOT_TESTED"
+}

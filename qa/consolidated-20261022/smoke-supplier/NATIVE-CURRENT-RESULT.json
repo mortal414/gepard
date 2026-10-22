@@ -1,0 +1,14 @@
+{
+  "cloud": "NOT_TESTED",
+  "recoveryReceipt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-mechanism-01\\smoke-mechanism-control\\native-run\\exit-recovered.json",
+  "failure": "VM null Camera in private QA View line142 before program observations",
+  "rearm": "NOT_TESTED",
+  "runtimeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-mechanism-01",
+  "rawConsole": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\smoke-mechanism-01\\smoke-mechanism-control\\native-run\\logs\\console.log",
+  "mechanism": "NOT_TESTED",
+  "next": "Repair only QA camera using known working fixture; root native slot currently art180s",
+  "compileRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-smoke-single-03",
+  "shutdown": "VM Abort then owned ordinary CloseMainWindow, exit verified lease released, exitCode unknown",
+  "noWCSImplementationEdits": true,
+  "status": "COMPILE_PASS_RUNTIME_FIXTURE_FAILED_BEFORE_MECHANISM"
+}

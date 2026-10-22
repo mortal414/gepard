@@ -1,0 +1,19 @@
+{
+  "status": "OWNED_NORMAL_EXIT0_VERIFIED_SOURCE_UNCHANGED_ATTEMPT_REMAINS_CENSORED",
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-01\\gpg-startup-survey\\native-run",
+  "exit": {
+    "verifiedExited": true,
+    "utc": "2026-10-22T02:06:57.8311562Z",
+    "cancelRequested": false,
+    "leaseReleased": true,
+    "closeMethod": "owned-normal-window-close",
+    "exitCode": 0
+  },
+  "sourceChanges": {
+    "gepard": [],
+    "provingGround": []
+  },
+  "adapterVerdict": "NOT_TESTED_FILE_SHARING_RACE",
+  "observed": "GPG_READY32objects/resourceFailure0;notacceptedgameplay",
+  "nativeErrors": "RetainedWORLD unknownSlidingTrackMaterial/Parent;investigatebaselinebeforeclassification"
+}
