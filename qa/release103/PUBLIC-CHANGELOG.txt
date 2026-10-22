@@ -1,0 +1,2 @@
+Updated the gunner optic HUD.
+Added tracked-vehicle movement audio.

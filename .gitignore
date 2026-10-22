@@ -42,3 +42,11 @@ downloads/
 
 # Private compiled source/dependency copies; owned demo sources live in updates/demo09.
 /private-smoke-demo-source*/
+
+/native-release-source/
+
+/packed-verification/
+
+/package-build-*/
+
+/published-bundle-*/

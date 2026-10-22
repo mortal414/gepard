@@ -1,0 +1,19 @@
+// Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
+Turret : "{7E0150C026103003}Prefabs/ArtV11Smoke/Charcoal/GEP_VehicleTurretV11Smoke.et" { components {
+MeshObject "{51ACD09C4E0B7D16}" { Object "{4D7043CCA2E8BD79}Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob" Materials {
+MaterialAssignClass "{483C146EFCE3102E}" { SourceMaterial "GEP_CrewRoof_Coaming_ServiceB_20261017" AssignedMaterial "{B8CF489351E9FED0}Assets/Gepard/GEP018/NeutralBaseV2/a676856f5df6.emat" }
+MaterialAssignClass "{5B8B1ACBC2A8846D}" { SourceMaterial "GEP_Finish_Turret" AssignedMaterial "{E38A963C10FEE263}Assets/Gepard/GEP018/NeutralBaseV2/05e7fc30e945.emat" }
+MaterialAssignClass "{6B766DD263181CD5}" { SourceMaterial "GEP_OpticPane_D" AssignedMaterial "{D561AD08932E6001}Assets/Gepard/Surface/OpticalGlass.emat" }
+MaterialAssignClass "{31E1D385D0AE1C77}" { SourceMaterial "GEP_StorageRearService_RearOriginalBoxes" AssignedMaterial "{D5ED0CD3F07CEB6B}Assets/Gepard/GEP018/NeutralBaseV2/eb253b96725f.emat" }
+MaterialAssignClass "{2EAF93C97924EE7D}" { SourceMaterial "GEP_TurretLowerChin_ServiceB_20261017" AssignedMaterial "{04FCC6EF5A08F55E}Assets/Gepard/GEP018/NeutralBaseV2/1298fa5daad0.emat" }
+MaterialAssignClass "{F46EB943579C36B5}" { SourceMaterial "GEP_TurretRearBand_20261017" AssignedMaterial "{2B3860494E5C917E}Assets/Gepard/GEP018/NeutralBaseV2/18336e265596.emat" }
+MaterialAssignClass "{FF16E232572D9C05}" { SourceMaterial "GEP_TurretShell_ServiceBRefined_20261017" AssignedMaterial "{4E4AA24D2AF0F555}Assets/Gepard/GEP018/NeutralBaseV2/41c0b9c7153a.emat" }
+MaterialAssignClass "{B204E739AD10141C}" { SourceMaterial "GEP_Underpod225_DarkFastener" AssignedMaterial "{B988428109582DD9}Assets/Gepard/GEP018/NeutralBaseV2/a651ea9fb268.emat" }
+MaterialAssignClass "{B521B5CF9820E8AA}" { SourceMaterial "GEP_Underpod225_ServicePaint" AssignedMaterial "{008E1BE818C7C6A4}Assets/Gepard/GEP018/NeutralBaseV2/b0d6eed00c40.emat" }
+MaterialAssignClass "{3A17BB6FB82D0F11}" { SourceMaterial "GEP_rubber" AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat" }
+}
+ }
+WeaponSlotComponent "{51ACD09C6BFEEE6A}" { WeaponTemplate "{194AB2DC3D43B4B4}Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunLeft.et" }
+WeaponSlotComponent "{D561AD08932E5310}" { WeaponTemplate "{01879BF605F8DE2E}Prefabs/ArtApproved20261022/Charcoal/GEP_35_GunRight.et" }
+SlotManagerComponent "{D561AD08932E5340}" { Slots { EntitySlotInfo GEP668CoverLeft { Prefab "{AD94594F8254905E}Prefabs/ArtApproved20261022/Charcoal/GepardCoverLeft668.et" } EntitySlotInfo GEP668CoverRight { Prefab "{DA8E9D7291B681BC}Prefabs/ArtApproved20261022/Charcoal/GepardCoverRight668.et" } } }
+} }

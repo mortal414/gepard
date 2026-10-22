@@ -1,0 +1,135 @@
+{
+  "status": "PASS_ACTUAL_RELEASE_SOURCE_GRAPH_AND_COMPONENT_MATERIAL_INVARIANCE_STATIC_ONLY",
+  "root": "addon",
+  "sourceFiles": 1234,
+  "unchangedUnionFiles": 1224,
+  "changedExistingFiles": [
+    "Gepard.gproj",
+    "Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+    "Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et",
+    "Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+    "Prefabs/Vehicles/GEP_MobileCarrier.et"
+  ],
+  "newFiles": [
+    "Prefabs/Release103Base/Camo/GEP_MobileCarrier.et",
+    "Prefabs/Release103Base/Camo/GEP_MobileCarrier.et.meta",
+    "Prefabs/Release103Base/Charcoal/GEP_MobileCarrier.et",
+    "Prefabs/Release103Base/Charcoal/GEP_MobileCarrier.et.meta",
+    "resourceDatabase.rdb"
+  ],
+  "publicPromotion": [
+    {
+      "skin": "Camo",
+      "publicGUID": "D561AD08932E5480",
+      "publicPath": "Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "internalGUID": "A103202610220001",
+      "internalPath": "Prefabs/Release103Base/Camo/GEP_MobileCarrier.et",
+      "final": "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et"
+    },
+    {
+      "skin": "Charcoal",
+      "publicGUID": "BEF5FEB0ECCBC01D",
+      "publicPath": "Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "internalGUID": "A103202610220002",
+      "internalPath": "Prefabs/Release103Base/Charcoal/GEP_MobileCarrier.et",
+      "final": "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et"
+    }
+  ],
+  "chains": {
+    "Camo": [
+      {
+        "resource": "Prefabs/Vehicles/GEP_MobileCarrier.et",
+        "guid": "2150FC6F1E081188",
+        "parent": "Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et"
+      },
+      {
+        "resource": "Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et",
+        "guid": "A76A420022100002",
+        "parent": "Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et"
+      },
+      {
+        "resource": "Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et",
+        "guid": "7E0150C026103002",
+        "parent": "Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et"
+      },
+      {
+        "resource": "Prefabs/ArtV11Smoke/Camo/GEP_MobileCarrierV11Smoke.et",
+        "guid": "9EF02C309F7E7929",
+        "parent": "Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et"
+      },
+      {
+        "resource": "Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+        "guid": "A103202610220001",
+        "parent": "Prefabs/Release103Base/Camo/GEP_MobileCarrier.et"
+      },
+      {
+        "resource": "Prefabs/Release103Base/Camo/GEP_MobileCarrier.et",
+        "guid": "AAA9681CD6A2546C",
+        "parent": "Prefabs/Vehicles/GEP_WheeledMobility101.et"
+      },
+      {
+        "resource": "Prefabs/Vehicles/GEP_WheeledMobility101.et",
+        "guid": "62F416029692CE40",
+        "parent": "Prefabs/Vehicles/Core/Wheeled_Base.et"
+      }
+    ],
+    "Charcoal": [
+      {
+        "resource": "Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+        "guid": "8095474EC9806D0D",
+        "parent": "Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et"
+      },
+      {
+        "resource": "Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et",
+        "guid": "A76A420022100004",
+        "parent": "Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et"
+      },
+      {
+        "resource": "Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et",
+        "guid": "7E0150C026103004",
+        "parent": "Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et"
+      },
+      {
+        "resource": "Prefabs/ArtV11Smoke/Charcoal/GEP_MobileCarrierV11Smoke.et",
+        "guid": "231917C79EBEFDDE",
+        "parent": "Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et"
+      },
+      {
+        "resource": "Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et",
+        "guid": "A103202610220002",
+        "parent": "Prefabs/Release103Base/Charcoal/GEP_MobileCarrier.et"
+      },
+      {
+        "resource": "Prefabs/Release103Base/Charcoal/GEP_MobileCarrier.et",
+        "guid": "A103202610220001",
+        "parent": "Prefabs/Release103Base/Camo/GEP_MobileCarrier.et"
+      },
+      {
+        "resource": "Prefabs/Release103Base/Camo/GEP_MobileCarrier.et",
+        "guid": "AAA9681CD6A2546C",
+        "parent": "Prefabs/Vehicles/GEP_WheeledMobility101.et"
+      },
+      {
+        "resource": "Prefabs/Vehicles/GEP_WheeledMobility101.et",
+        "guid": "62F416029692CE40",
+        "parent": "Prefabs/Vehicles/Core/Wheeled_Base.et"
+      }
+    ]
+  },
+  "resourceGuidCollisions": 0,
+  "parentCycles": false,
+  "internalSnapshotsExactOriginalTextWithDeclaredCharcoalParentOnly": true,
+  "V11ChangesParentOnly": true,
+  "allApprovedArtSmokeAudioAndOriginalFunctionalScriptBytesUnchanged": true,
+  "projectChangedDependenciesOnly": true,
+  "twoPublicMetaAndThreeGMRegistryCatalogConfigsByteExact": true,
+  "materialComponentBodyRecordsUntouched": true,
+  "compile": {
+    "path": "D:\\ArmaProjects\\Gepard-Release-1.0.3-20261022\\native-runs\\compile-release-01\\RESULT.json",
+    "sha256": "3bb3511bc41399117ca2eb2b6b6425698fccd790c5fc3a3fc25ae67ed40189b0",
+    "status": "SCRIPT_COMPILE_PASS",
+    "nativeGameplay": "NOT_TESTED"
+  },
+  "nativeStartedByLane": false,
+  "DWrittenByLane": false
+}

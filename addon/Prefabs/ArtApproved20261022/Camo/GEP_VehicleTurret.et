@@ -1,0 +1,7 @@
+// Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
+Turret : "{7E0150C026103001}Prefabs/ArtV11Smoke/Camo/GEP_VehicleTurretV11Smoke.et" { components {
+MeshObject "{51ACD09C4E0B7D16}" { Object "{4D7043CCA2E8BD79}Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob"  }
+WeaponSlotComponent "{51ACD09C6BFEEE6A}" { WeaponTemplate "{BE9DB25A2F88B5EE}Prefabs/ArtApproved20261022/Camo/GEP_35_GunLeft.et" }
+WeaponSlotComponent "{D561AD08932E5310}" { WeaponTemplate "{4A36915DE1A29BE2}Prefabs/ArtApproved20261022/Camo/GEP_35_GunRight.et" }
+SlotManagerComponent "{D561AD08932E5340}" { Slots { EntitySlotInfo GEP668CoverLeft { Prefab "{2F50C597F5FB2760}Prefabs/ArtApproved20261022/Camo/GepardCoverLeft668.et" } EntitySlotInfo GEP668CoverRight { Prefab "{630DAA67E412F29E}Prefabs/ArtApproved20261022/Camo/GepardCoverRight668.et" } } }
+} }

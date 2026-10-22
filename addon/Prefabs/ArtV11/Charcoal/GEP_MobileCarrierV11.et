@@ -1,5 +1,5 @@
 // Private NEW art comparison child. No physics, crew, scripts, input or driving changes.
-Vehicle : "{BEF5FEB0ECCBC01D}Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et" {
+Vehicle : "{A103202610220002}Prefabs/Release103Base/Charcoal/GEP_MobileCarrier.et" {
  components {
   MeshObject "{51DAA09FEFBFC0E7}" { Object "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob"
    Materials {

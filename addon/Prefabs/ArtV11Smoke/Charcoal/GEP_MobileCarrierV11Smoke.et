@@ -1,0 +1,12 @@
+// Additive optional smoke vehicle; preserves complete V11 skin and core inheritance.
+Vehicle : "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunRig {
+     Prefab "{7E0150C026103003}Prefabs/ArtV11Smoke/Charcoal/GEP_VehicleTurretV11Smoke.et"
+    }
+   }
+  }
+ }
+}

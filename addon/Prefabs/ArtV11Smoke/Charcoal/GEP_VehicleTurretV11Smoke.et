@@ -1,0 +1,34 @@
+// Original additive smoke config; inherits exact current cooked V11 parent.
+Turret : "{E3B445A3061AD5A5}Prefabs/ArtV11/Charcoal/GEP_VehicleTurretV11.et" {
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment { CompartmentUniqueName "gep015_gunner" }
+    CargoCompartmentSlot Commander { CompartmentUniqueName "gep015_commander" }
+   }
+  }
+  WCS_Armament_DispenserManagerComponent "{7E0150C026101510}" {
+   m_SmokeInfo WCS_Armament_DispenserSmokeInfo "{7E0150C026101511}" {
+    m_aActionEnabledCompartments { "gep015_gunner" "gep015_commander" }
+    m_FireInputActionTrigger DOWN
+    m_FireModes {
+     WCS_Armament_DispenserFullRippleFireMode "{7E0150C026101512}" {}
+    }
+   }
+  }
+  SlotManagerComponent "{D561AD08932E5340}" {
+   Slots {
+    WCS_Armament_DispenserSlotInfo GEP015SmokeLeft {
+     PivotID "GEP_TurretYaw" Offset -1.139399774 0.535434631 1.087903585
+     MergePhysics 0 DisablePhysicsInteraction 1
+     Prefab "{7E0150C026101503}Prefabs/Weapons/GEP_WCSSmokeBankLeft215.et"
+    }
+    WCS_Armament_DispenserSlotInfo GEP015SmokeRight {
+     PivotID "GEP_TurretYaw" Offset 1.139399773 0.535434631 1.087903583
+     MergePhysics 0 DisablePhysicsInteraction 1
+     Prefab "{7E0150C026101504}Prefabs/Weapons/GEP_WCSSmokeBankRight215.et"
+    }
+   }
+  }
+ }
+}

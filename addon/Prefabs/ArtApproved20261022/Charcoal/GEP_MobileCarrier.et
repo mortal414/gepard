@@ -1,0 +1,45 @@
+// Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
+Vehicle : "{A76A420022100004}Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et" { components {
+MeshObject "{51DAA09FEFBFC0E7}" { Object "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob" Materials {
+MaterialAssignClass "{3EC60E85CDD36C6F}" { SourceMaterial "CabinAmberOff" AssignedMaterial "{D561AD08932E7005}Assets/Gepard/Interior/CabinAmberOff.emat" }
+MaterialAssignClass "{94A357586A3BB6D7}" { SourceMaterial "CabinEquipment" AssignedMaterial "{D561AD08932E7001}Assets/Gepard/Interior/CabinEquipment.emat" }
+MaterialAssignClass "{A97D0CDD1944E6BF}" { SourceMaterial "CabinGlassOff" AssignedMaterial "{D561AD08932E7003}Assets/Gepard/Interior/CabinGlassOff.emat" }
+MaterialAssignClass "{A015CBBE9AF88336}" { SourceMaterial "CabinMetal" AssignedMaterial "{D561AD08932E7004}Assets/Gepard/Interior/CabinMetal.emat" }
+MaterialAssignClass "{52FCE2DAEA208E0F}" { SourceMaterial "CabinPale" AssignedMaterial "{D561AD08932E7000}Assets/Gepard/Interior/CabinPale.emat" }
+MaterialAssignClass "{1D5D8324568BB8CB}" { SourceMaterial "CabinRubber" AssignedMaterial "{D561AD08932E7002}Assets/Gepard/Interior/CabinRubber.emat" }
+MaterialAssignClass "{A5A5D2946C7C1221}" { SourceMaterial "GEP_DriverCoaming_PaintedMetal" AssignedMaterial "{32B6D11D2AD19385}Assets/Gepard/GEP018/NeutralBaseV2/57e7c826739a.emat" }
+MaterialAssignClass "{C4ADF624363092D8}" { SourceMaterial "GEP_FinalFinish_FlankB" AssignedMaterial "{8BF208B9E2C57BB3}Assets/Gepard/GEP018/NeutralBaseV2/975db2cf4f7d.emat" }
+MaterialAssignClass "{C875B66B3DC83CD0}" { SourceMaterial "GEP_FinalFinish_Hub14B" AssignedMaterial "{9A457F8F8CA892A8}Assets/Gepard/GEP018/NeutralBaseV2/e76d87db4957.emat" }
+MaterialAssignClass "{BCC74B36F32D662C}" { SourceMaterial "GEP_FinalFinish_RearFlapCoating" AssignedMaterial "{CCDE6A5BECAFB598}Assets/Gepard/GEP018/NeutralBaseV2/f6266e5e7d51.emat" }
+MaterialAssignClass "{B1C757F45697221F}" { SourceMaterial "GEP_FinalFinish_RearHardwareSuccessor" AssignedMaterial "{F8A459EF23C4138A}Assets/Gepard/GEP018/NeutralBaseV2/6155a1390dd0.emat" }
+MaterialAssignClass "{5F1C3A92CDE22E9E}" { SourceMaterial "GEP_FinalFinish_RearPanelC" AssignedMaterial "{1EC0C527F5B0F44D}Assets/Gepard/GEP018/NeutralBaseV2/b27aa5819735.emat" }
+MaterialAssignClass "{A53E1542B38D3EF3}" { SourceMaterial "GEP_FinalFinish_Wheel09Coating" AssignedMaterial "{0B4ABF7FD2B643E5}Assets/Gepard/GEP018/NeutralBaseV2/f9dca3bda6c1.emat" }
+MaterialAssignClass "{DA55704F7A03B94E}" { SourceMaterial "GEP_Finish_DriverArtwork" AssignedMaterial "{A83C4721B62F1005}Assets/Gepard/Finish/DriverArtwork.emat" }
+MaterialAssignClass "{147DFD0D2FA70642}" { SourceMaterial "GEP_FrontAssembly_CanopyPaint" AssignedMaterial "{4D272D94D28ACC22}Assets/Gepard/GEP018/NeutralBaseV2/1c3df24cafd0.emat" }
+MaterialAssignClass "{800B451E1F2150C0}" { SourceMaterial "GEP_PrincipalHull_Coating" AssignedMaterial "{6ED8C49AFA7C91FC}Assets/Gepard/GEP018/NeutralBaseV2/cb6ee142ef9f.emat" }
+MaterialAssignClass "{0F456E9F7C4084BC}" { SourceMaterial "GEP_RR642_NEW_BearingSeal" AssignedMaterial "{D6483025B2468218}Assets/Gepard/ReturnRoller648/BearingSeal.emat" }
+MaterialAssignClass "{F7386039D4D16BA8}" { SourceMaterial "GEP_RR642_NEW_PaintedFace" AssignedMaterial "{DE7EF9FEC949E259}Assets/Gepard/GEP018/NeutralBaseV2/8899ecf324d1.emat" }
+MaterialAssignClass "{7083FE5A6378AD20}" { SourceMaterial "GEP_RR642_NEW_PaintedSupport" AssignedMaterial "{6FC4EF5791EDD74F}Assets/Gepard/GEP018/NeutralBaseV2/dc373c830ff1.emat" }
+MaterialAssignClass "{1D419B2DA28A3D8F}" { SourceMaterial "GEP_RearHull_DoorSeam20300" AssignedMaterial "{BB152B20D8C64989}Assets/Gepard/HullExterior622/RearHull_DoorSeam20300.emat" }
+MaterialAssignClass "{774D695DB55D2DE8}" { SourceMaterial "GEP_RearOptic_Amber_Unlit" AssignedMaterial "{87B7CA161CA64570}Assets/Gepard/FinalFinish591/Role09_RearOptic_Amber_Unlit.emat" }
+MaterialAssignClass "{BD3A80F72A029FBB}" { SourceMaterial "GEP_RearOptic_Red_Unlit" AssignedMaterial "{AA60EBBBA65A4D88}Assets/Gepard/FinalFinish591/Role11_RearOptic_Red_Unlit.emat" }
+MaterialAssignClass "{805AD88C889648DF}" { SourceMaterial "GEP_RearOptic_White_Unlit" AssignedMaterial "{307D142AA9214EA4}Assets/Gepard/FinalFinish591/Role13_RearOptic_White_Unlit.emat" }
+MaterialAssignClass "{2FB58E2C32605189}" { SourceMaterial "GEP_RoadRubber648_Rolling" AssignedMaterial "{0199E647674BF16D}Assets/Gepard/RoadRubber648/RoadRubber648_Rolling.emat" }
+MaterialAssignClass "{D9EEB1CD6E58CB94}" { SourceMaterial "GEP_RoadRubber648_Sidewall" AssignedMaterial "{74C4FF6B82EFDFA8}Assets/Gepard/RoadRubber648/RoadRubber648_Sidewall.emat" }
+MaterialAssignClass "{1595C05D0A05E9D9}" { SourceMaterial "GEP_Service641_Engine21300_QualifiedTops" AssignedMaterial "{8AC8DDADE97129AD}Assets/Gepard/GEP018/NeutralBaseV2/088a56ab9cf5.emat" }
+MaterialAssignClass "{3B7575FB1B08AD6E}" { SourceMaterial "GEP_Service641_HoodSkin" AssignedMaterial "{43992EEB2ADA3733}Assets/Gepard/GEP018/NeutralBaseV2/ae9695c48890.emat" }
+MaterialAssignClass "{24AFCC04A625C0A9}" { SourceMaterial "GEP_Service641_RearPanel" AssignedMaterial "{E3D8CC08A6692741}Assets/Gepard/GEP018/NeutralBaseV2/020ab27cd01f.emat" }
+MaterialAssignClass "{6D08BB2411370AF7}" { SourceMaterial "GEP_Skin_GepardHull" AssignedMaterial "{BFE3B10AAAE45177}Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat" }
+MaterialAssignClass "{F7BD967CDE007465}" { SourceMaterial "GEP_TrackAssembly540" AssignedMaterial "{D561AD08932E9560}Assets/Gepard/RunningGear540/TrackAssembly540.emat" }
+MaterialAssignClass "{6E70A449305CF7CC}" { SourceMaterial "GEP_Underpod225_DarkFastener" AssignedMaterial "{B988428109582DD9}Assets/Gepard/GEP018/NeutralBaseV2/a651ea9fb268.emat" }
+MaterialAssignClass "{5936D10A53143405}" { SourceMaterial "GEP_grille_paint" AssignedMaterial "{2538429B396DB655}Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat" }
+MaterialAssignClass "{6BBB0BEB6730B8F2}" { SourceMaterial "GEP_nato_green" AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat" }
+MaterialAssignClass "{84C1A4F314BC07A4}" { SourceMaterial "GEP_rubber" AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat" }
+MaterialAssignClass "{E19233E54ED83EBC}" { SourceMaterial "GEP_track_steel" AssignedMaterial "{D561AD08932E6009}Assets/Gepard/Surface/track_steel.emat" }
+MaterialAssignClass "{D23990546B4FE540}" { SourceMaterial "Rear663_AllLODs_BackingCaps_BasicTrial" AssignedMaterial "{66CFCB1310FFB1CA}Assets/Gepard/GEP018/NeutralBaseV2/0b248cf1fd4d.emat" }
+MaterialAssignClass "{56F3530F0ABA5581}" { SourceMaterial "Rear663_AllLODs_EngineTops_BasicTrial" AssignedMaterial "{63D2CB398012894A}Assets/Gepard/GEP018/NeutralBaseV2/31d95ba7f9da.emat" }
+MaterialAssignClass "{320EC72D0FB4C554}" { SourceMaterial "Rear663_AllLODs_NatoOutward_BasicTrial" AssignedMaterial "{A572A4B42647A12E}Assets/Gepard/GEP018/NeutralBaseV2/8212ff982752.emat" }
+}
+ }
+SlotManagerComponent "{55BCE45E438E4CFF}" { Slots { RegisteringComponentSlotInfo GunRig { Prefab "{C799D9FE57618AC7}Prefabs/ArtApproved20261022/Charcoal/GEP_VehicleTurret.et" } EntitySlotInfo GEP671RightRearCover { Prefab "{E81A5578F95C5EB0}Prefabs/ArtApproved20261022/Charcoal/GepardRightRearShieldCover671.et" } } }
+} }

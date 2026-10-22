@@ -1,0 +1,5 @@
+// Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
+Vehicle : "{A76A420022100002}Prefabs/Demo10/Camo/GEP_MobileCarrierDemo10.et" { components {
+MeshObject "{51DAA09FEFBFC0E7}" { Object "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob"  }
+SlotManagerComponent "{55BCE45E438E4CFF}" { Slots { RegisteringComponentSlotInfo GunRig { Prefab "{66A1C21DD2B5C275}Prefabs/ArtApproved20261022/Camo/GEP_VehicleTurret.et" } EntitySlotInfo GEP671RightRearCover { Prefab "{03418E702656CF3D}Prefabs/ArtApproved20261022/Camo/GepardRightRearShieldCover671.et" } } }
+} }

@@ -1,5 +1,5 @@
 // Private NEW art comparison child. No physics, crew, scripts, input or driving changes.
-Vehicle : "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et" {
+Vehicle : "{A103202610220001}Prefabs/Release103Base/Camo/GEP_MobileCarrier.et" {
  components {
   MeshObject "{51DAA09FEFBFC0E7}" { Object "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob" }
   SlotManagerComponent "{55BCE45E438E4CFF}" { Slots {

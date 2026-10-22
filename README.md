@@ -1,15 +1,28 @@
-# Gepard private new-feature demo09
+# Gepard 35 mm SPAA — 1.0.3
 
-Double-click [Launch-Gepard-NewFeatures.cmd](Launch-Gepard-NewFeatures.cmd). One untimed local session opens; exit normally. Nothing is published.
+Early WIP Gepard for Arma Reforger. Release source is in `addon/`; the existing Workshop item is **D561AD08932E7B40**.
 
-The demo combines the approved German optic, OLD/NEW V11 vehicles in both skins, proving-ground driving/target/damage stations, stock services and **experimental WCS smoke** with two native maintenance points and one shared eight-supply crate.
+## Changes
 
-Use [PLAYTEST-NEW-FEATURES.md](PLAYTEST-NEW-FEATURES.md) for the short art / optic / smoke-service review. Whole GEP tasks remain unchecked. Screening has an observed forward gap; shared-world rearm/reset, physical controls and broader fit remain manual checks. Track audio and stabilization/ballistic correction are excluded.
+- Updated the gunner optic HUD.
+- Added tracked-vehicle movement audio.
 
-[Demo manifest](DEMO09-MANIFEST.json) | [Evidence index](EVIDENCE-INDEX.md) | [Exact GEP statuses](qa/consolidated-20261022/STATUS-PER-GEP.json)
+## Dependencies
 
-Both currentV11 skins passed narrow smoke8-flight/empty and healthy ADS/aiming/cannon/exit/reentry/refire observations. One isolated native refill conserved0-to1 smoke /8-to7 supplies. Installed09 ordinary startup/render was observed. Strict diagnostic and original collector FAILs remain preserved:60 in09 startup,104 across its four pack steps. The delimiter-aware independent reanalysis confirms34objects/24boards without rewriting the old16-board result.
+The project declares the stock game, **SpaceCore (5E389BB9F58B79A6)** and **WCS Armaments (629B2BA37EFFD577)**. The tested external dependency packages were version 8.4.0. They are installed separately through Workshop; their code/audio/assets are not redistributed in this repository or Gepard's package. Bradley is not required. Cannon and engine audio assets and accepted driving/reverse/braking/R controls are unchanged.
 
-The core08 package trio is reused byte-exact. WCS Armaments629B2BA37EFFD5778.4.0 is a separate installed dependency, never copied inside the three own addon payloads. [Committed owned demo source](updates/demo09/OWNED-SOURCE-MANIFEST.json) contains only original world/config/launcher material.
+## Known limitations
 
-Rollback remains [Launch-Gepard-ProvingGround.cmd](Launch-Gepard-ProvingGround.cmd). Frozen08/source/guide files are unchanged. Historical previous README is under [the09 ledger backup](qa/consolidated-20261022/ledger-history/playable-demo09/README.md).
+Crew protection, independent turret damage, stabilization, ballistic correction, radar sensing, interior details and wider multiplayer/JIP/dedicated/console qualification remain unfinished. Radar deployment and sweep are cosmetic. Experimental smoke remains included but unresolved: Marco could not deploy it in the final demo, so it is not accepted or advertised as a working feature. Fuel/repair transfer and the wider smoke service behavior remain unqualified.
+
+## Reusable proving ground
+
+The private OLD/NEW proving ground is retained for future version comparisons. [GEP test points](PLAYTEST-DEMO10.md) are separate from [operating instructions](PLAYTEST-OPERATIONS-DEMO10.md). Demo10 and Demo09 remain frozen rollback payloads; the proving-ground QA is excluded from the public vehicle package.
+
+## Evidence
+
+See [release record](releases/1.0.3.md), `qa/release103/` and the preserved Demo10 evidence under `updates/demo10/`. Compilation/package creation does not establish gameplay acceptance. Raw diagnostic failures and manual-test limits are preserved separately from observed behavior.
+
+Feedback: https://github.com/mortal414/gepard/issues/new?template=bug_report.yml
+
+Native content remains under Bohemia Interactive's terms. The existing limited Kiichi tracked-guide MIT notice remains in the source and package. Generic development tooling: https://github.com/mortal414/reforger-agent-harness

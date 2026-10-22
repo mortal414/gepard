@@ -1,0 +1,63 @@
+// Original V11 measured-port integration; native PointInfo/flight/cloud qualification pending.
+GenericEntity : "{FF458505C9D5894C}Prefabs/Weapons/Core/Armament_Dispenser_Base.et" {
+ components {
+  MeshObject "{4B42E716914465B9}" { Object "{3432051903D69544}Assets/Empty/empty.xob" }
+  RigidBody "{4B42E71692C2FB79}" { SimState None }
+  ActionsManagerComponent "{62A957B2374C324C}" {
+   ActionContexts {
+    UserActionContext "{62A957B22D79F4B1}" { Radius 0.8 Height 0.6 }
+   }
+   additionalActions {
+    WCS_Armament_RearmDispenserAtRepairStationAction "{62A957B2FD111201}" {
+     m_iProjectilesPerAction 1
+     m_fSupplyCostPerProjectile 1
+    }
+   }
+  }
+
+  WCS_Armament_SmokeDispenserComponent "{7E0150C026101620}" {
+   m_Projectile "{F8EE668DCA4ACE4E}Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et"
+   m_FirePosition PointInfo { Offset 0.000000008 0.000000029 -0.240000001 Angles 45.827232390 17.102685854 0.000000000 }
+   m_vDispersion 0 0 0
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 2500
+   m_iShakeAmount 1
+   m_iId 0
+   m_sAmmoTypeName "Smoke"
+   m_sMuzzleParticle "{83F105429860BB7E}Particles/Weapon/WCS_Muzzle_SmokeLauncher.ptc"
+  }
+  WCS_Armament_SmokeDispenserComponent "{7E0150C026101621}" {
+   m_Projectile "{F8EE668DCA4ACE4E}Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et"
+   m_FirePosition PointInfo { Offset 0.000000001 -0.000000002 -0.079999944 Angles 45.827224465 17.102678708 0.000000000 }
+   m_vDispersion 0 0 0
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 2500
+   m_iShakeAmount 1
+   m_iId 1
+   m_sAmmoTypeName "Smoke"
+   m_sMuzzleParticle "{83F105429860BB7E}Particles/Weapon/WCS_Muzzle_SmokeLauncher.ptc"
+  }
+  WCS_Armament_SmokeDispenserComponent "{7E0150C026101622}" {
+   m_Projectile "{F8EE668DCA4ACE4E}Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et"
+   m_FirePosition PointInfo { Offset -0.000000007 -0.000000036 0.079999981 Angles 45.827241431 17.102681487 0.000000000 }
+   m_vDispersion 0 0 0
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 2500
+   m_iShakeAmount 1
+   m_iId 2
+   m_sAmmoTypeName "Smoke"
+   m_sMuzzleParticle "{83F105429860BB7E}Particles/Weapon/WCS_Muzzle_SmokeLauncher.ptc"
+  }
+  WCS_Armament_SmokeDispenserComponent "{7E0150C026101623}" {
+   m_Projectile "{F8EE668DCA4ACE4E}Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et"
+   m_FirePosition PointInfo { Offset -0.000000003 0.000000009 0.239999965 Angles 45.827247182 17.102688299 0.000000000 }
+   m_vDispersion 0 0 0
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 2500
+   m_iShakeAmount 1
+   m_iId 3
+   m_sAmmoTypeName "Smoke"
+   m_sMuzzleParticle "{83F105429860BB7E}Particles/Weapon/WCS_Muzzle_SmokeLauncher.ptc"
+  }
+ }
+}
