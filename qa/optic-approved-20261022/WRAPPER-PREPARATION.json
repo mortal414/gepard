@@ -1,0 +1,17 @@
+{
+  "status": "EXISTING_SERIAL_WRAPPERS_SOURCE_BOUND_NOT_NATIVE_QUALIFIED",
+  "upstream": "D:\\ArmaProjects\\Gepard-EveningSprint-20261021\\new-features-optic-compare-20261021\\tools",
+  "changes": [
+    "compile addon root points to new isolated source stage",
+    "complete manifest/hash guards for both addon trees",
+    "scene defaults to dry-run requiring explicit Execute",
+    "explicit screen dimensions for native aspect review"
+  ],
+  "lifecycle": "Existing process/argv/birth/exclusive-lease/normal-close guards retained",
+  "native": "NOT_TESTED",
+  "harnessJob": "NOT_YET_BOUND_AND_PLANNED",
+  "files": {
+    "Compile.ps1": "0e7766b4e6ff1730ae979d61c6ecc378407c52a338ae34a992b337f17a580d94",
+    "Scene.ps1": "5edf3dc6d6775d87260073e2b7643b2b92d6ee88c7366b1ae8b8062f22f3e3a9"
+  }
+}

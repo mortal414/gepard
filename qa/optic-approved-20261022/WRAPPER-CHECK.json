@@ -1,0 +1,23 @@
+{
+  "status": "PASS_SOURCE_WRAPPER_CHECK_ONLY",
+  "nativeRender": "NOT_TESTED",
+  "sourceClosuresVerified": {
+    "hudQA": 9,
+    "gepard": 1112
+  },
+  "nativeCompile": "NOT_TESTED",
+  "powerShellParse": {
+    "SceneErrors": 0,
+    "CompileErrors": 0
+  },
+  "sceneDryRun": {
+    "world": "Worlds/GEP_ApprovedRender705.ent",
+    "nativeStarted": false,
+    "screenWidth": 1280,
+    "project": "D:\\ArmaProjects\\Gepard-OpticApproved-20261022\\native-stage\\hudQA\\GEP_ApprovedHUD705_QA.gproj",
+    "status": "SOURCE_PINS_PASS_NATIVE_NOT_TESTED",
+    "addonId": "7E0050C026102500",
+    "screenHeight": 720,
+    "leaseMutated": false
+  }
+}

@@ -12,7 +12,7 @@ Native stage: D:/ArmaProjects/Gepard-OpticApproved-20261022/native-stage.
 Project: hudQA/GEP_ApprovedHUD705_QA.gproj, addon7E0050C026102500.
 Render world: {7E0050C026102502}Worlds/GEP_ApprovedRender705.ent — one scripted actual-seat/ADS capture, no ordinary-input or lifecycle acceptance claim.
 Manual world: {7E0050C026102501}Worlds/GEP_ApprovedHUD705.ent — one functional carrier, ordinary on-foot player, untimed after admission.
-Existing serial wrappers must be bound/reviewed with both complete source closures and static plan before execution. No runnable wrapper/job is claimed here. No native process was launched in this source pass. Art user sessionPID29236 retains the slot until explicit handback plus fresh ownership checks.
+Existing serial wrappers are source-bound under tools/, default to dry-run and verify both complete source closures. PowerShell syntax and scene source-only dry-run passed; see WRAPPER-CHECK.json. Harness case binding/static plan and native qualification remain pending before execution; no qualified job is claimed here. No native process was launched in this source pass. Art user sessionPID29236 retains the slot until explicit handback plus fresh ownership checks.
 
 New-feature manual checks after valid native render:
 1. Judge overall concept match, target visibility, lower-panel height and fonts at2x, then native zoom steps through8x.
