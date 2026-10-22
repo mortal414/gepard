@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "kind": "existing-harness-command-recipe-no-execution",
+  "runtimeBlocked": true,
+  "resumeRequired": "Explicit user resume and parent admission; do not execute during USER-RUNTIME-HOLD",
+  "workingDirectory": "C:/Users/marco/Desktop/reforger-agent-harness",
+  "python": "C:/Users/marco/AppData/Local/Programs/Python/Python311/python.exe",
+  "helper": "tools/record_loopback_audio.py",
+  "helperSha256": "354fcf95c25376ff59a68e538ae1496cbbb4fcee5bebc3514b57f99272a0d1e6",
+  "format": {"sampleRateHz": 48000, "channels": 2, "container": "WAV", "subtype": "PCM_16", "source": "selected Windows playback endpoint system mix, not isolated game or microphone"},
+  "admission": ["Verify optional soundcard/numpy/soundfile dependencies through parent's existing runtime; do not install or probe devices now", "After resume list endpoints and bind unique actual game endpoint; tone self-test is optional and is not game-route proof", "Use fresh .cache output/stop paths; no --overwrite", "Parent checks storage and existing live recorder/session ownership before starting once"],
+  "listDevicesArgvAfterResume": ["tools/record_loopback_audio.py", "--list-devices"],
+  "recordArgvAfterResume": ["tools/record_loopback_audio.py", "--speaker", "<exact-qualified-game-output-endpoint>", "--duration-seconds", "600", "--output", ".cache/test-videos/<fresh-audio-block>/GEP033-continuous.wav", "--stop-file", ".cache/test-videos/<fresh-audio-block>/GEP033-audio.stop"],
+  "windowAndNativeControl": "None; helper only captures audio. Parent retains normal native lifecycle and current user's session",
+  "synchronization": "Start once just before the audio block's already-coordinated video; retain actual UTC start/end, worldMs phase clocks and visible/audible engine-start landmark. Measure actual mux offset/uncertainty; never assume example2seconds",
+  "stop": "Parent creates only this run's chosen stop file after last audio case to finalize this recorder, or lets600s bound finish. No window-close/process-kill or game exit is part of recorder stop",
+  "timing": "Common sequence minimum79world seconds per pass; four passes minimum316seconds plus qualified reset/sync pauses.600s is capture fallback, not a test timeout or user-window timer. If needed use a fresh subsequent audio segment in the SAME consolidated world session after prior recorder finalizes",
+  "review": "Retain finalized WAV+recorder stdout/stderr and native video; inspect and hash after closure. Endpoint mix can include other apps. A nonzero waveform/peak/RMS or tone does not establish audible rolling or sound quality",
+  "postprocess": "Use existing screen:record/screen:clip workflow only under parent coordination. No new recorder/controller; review all A/B clips at one common gain, no per-clip loudness normalization",
+  "executed": false
+}

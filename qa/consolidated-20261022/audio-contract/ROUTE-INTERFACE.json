@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "kind": "source-only-interface-for-world-owner-not-world-edits",
+  "id": "GEP033_SAME_ROUTE",
+  "provingGroundRoot": "D:/ArmaProjects/Gepard-ProvingGround-20261022",
+  "requirementsSource": "D:/ArmaProjects/Gepard-ProvingGround-20261022/FUNCTIONAL-INTEGRATION-REQUIREMENTS.json",
+  "worldOwnerFills": {
+    "project": null,
+    "world": null,
+    "worldAddonGuid": null,
+    "routeResourceOrMarkerIds": null,
+    "spawnWorldPosition": null,
+    "spawnHeadingDegrees": null,
+    "routePointPositions": null,
+    "surfaceResourceIdentities": null,
+    "bumpOrTransitionMarkerId": null,
+    "observerMarkerIds": null,
+    "resetCaseInput": null,
+    "worldSourceManifest": null
+  },
+  "requestedRoute": {
+    "spawn": "One common flat grounded start pose and heading; use fresh baseline/adapted subjects sequentially at that exact pose",
+    "lane": "Reuse the proving ground's accepted ordinary-driving lane; mark start, low/cruise comparison window, coast/stop window and return/reverse direction",
+    "surface": "One stable hard surface for cadence comparison, plus one marked repeatable surface transition or modest bump for retained skid/damper comparison",
+    "length": "World owner chooses safe existing lane and stopping distance; no new layout or exact length imposed by audio",
+    "observers": "Ordinary cabin and third-person/exterior views; optional on-foot side markers near5/30/100m from the route's comparison point, storing actual listener-to-emitter distances rather than assuming fixed distance during motion",
+    "isolation": "One moving/audible subject near the listener. Park other station vehicles engines off and outside measured interfering audibility; preserve all other world's user actors",
+    "reset": "Use the world's qualified fresh-subject reset between passes. Verify old subject/loops gone and control restored before next pass; never reset a user vehicle"
+  },
+  "invariants": [
+    "One authoritative Gepard addon GUID D561AD08932E7B40",
+    "Shared approved HUD and identical accepted driving/R/braking for baseline and adapted",
+    "Same art variant and camo, source/dependency pins, route and surfaces within each audio pair",
+    "Only two existing wheel Filename fields may select qualified Gepard-local audio ACPs in eventual NEW child",
+    "No global stock ACP override, no Wheels clearing, no additional rolling layer",
+    "No world implementation or native action in this audio lane"
+  ],
+  "returnContract": "World owner supplies actual values through WORLD-TO-FUNCTIONAL-HANDOFF.json; integrator binds these into LISTENING-MANIFEST.json before admission",
+  "status": "READY_INTERFACE_PENDING_WORLD_BINDING"
+}

@@ -1,0 +1,227 @@
+{
+  "status": "PERMITTED_STOCK_TEXT_FACTS_ONLY_BINDING_SEMANTICS_NOT_NATIVE_VERIFIED",
+  "gameVersion": "1.8.0.13",
+  "observations": [
+    {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Vehicles/Wheeled/LAV25/LAV25_base.et",
+      "offset": 1473540538,
+      "storedBytes": 82767,
+      "rawBytes": 82767,
+      "method": "00000000",
+      "sourceSha256": "77337c86a0a240fe9173cd2b722f7d7e800025e318ffc631ae5756ae82246e5b",
+      "soundComponent": "SCR_VehicleSoundComponent \"{55C2E66AD4EF2CA6}\" {\n   Filenames + {\n    \"{A60881C12A7AAE18}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Animations.acp\" \"{295ECF25C4C37A02}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Engine.acp\" \"{B992B5065A62F9CA}Sounds/Vehicles/_SharedData/Crashes/APC/Vehicles_Crashes_APC.acp\" \"{8880F08042E64B12}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Horn.acp\" \"{EB2A9FCC4A07E073}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Rain.acp\"\n   }\n   SoundPoints {\n    SoundPointInfo Engine {\n     Offset 0.5 1.3 1.5\n    }\n    SoundPointInfo Horn {\n     Offset 0 1.5 2.5\n    }\n    SoundPointInfo FuelTank {\n     Offset 0.4 1.8 0.9\n    }\n    SoundPointInfo Supplies {\n     Offset 0 1.8 -2.7\n    }\n   }\n   Wheels {\n    VehicleWheelSound L_01 {\n     Filename \"{A9997E455F672798}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_l_1.acp\"\n     SoundPoint PointInfo \"{58F8DC79D5A23949}\" {\n      PivotID \"v_wheel_l01\"\n     }\n    }\n    VehicleWheelSound R_01 {\n     Filename \"{5CEAEF266CBBF0F1}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_r_1.acp\"\n     SoundPoint PointInfo \"{58F8DC79D5A23941}\" {\n      PivotID \"v_wheel_r01\"\n     }\n    }\n    VehicleWheelSound L_03 {\n     Filename \"{A764EF8E1EAC175A}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_l_2.acp\"\n     SoundPoint PointInfo \"{58F8DC79D5A23943}\" {\n      PivotID \"v_wheel_l03\"\n     }\n    }\n    VehicleWheelSound R_03 {\n     Filename \"{C5F456BF715CC161}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_r_2.acp\"\n     SoundPoint PointInfo \"{58F8DC79D5A2395C}\" {\n      PivotID \"v_wheel_r03\"\n     }\n    }\n   }\n   m_aHitZoneStateSignalData {\n    SCR_HitZoneStateSignalData \"{5E72C71D96AACB05}\" {\n     m_aHitZoneNames {\n      \"Transmission_01\" \"Transmission_02\" \"Transmission_03\" \"Transmission_04\"\n     }\n    }\n   }\n   m_aNormalizeSignalData {\n    SCR_NormalizedSignalData \"{698F2D67DAB43DC0}\" {\n     m_fMinimum -0.2\n     m_fMaximum 0.3\n     m_fExponent 0.493\n    }\n    SCR_NormalizedSignalData \"{698F2D67DACD0700}\" {\n     m_fMinimum -0.2\n     m_fMaximum 0.3\n     m_fExponent 0.493\n    }\n    SCR_NormalizedSignalData \"{698F2D67DB909E3A}\" {\n     m_sSignalName \"suspension6\"\n     m_fMinimum -0.2\n     m_fMaximum 0.3\n     m_fExponent 0.493\n    }\n    SCR_NormalizedSignalData \"{698F2D67DB4D62FE}\" {\n     m_sSignalName \"suspension7\"\n     m_fMinimum -0.2\n     m_fMaximum 0.3\n     m_fExponent 0.493\n    }\n   }\n  }",
+      "wheelPositionDeclarations": [
+        "      PivotID \"v_wheel_l01\"",
+        "      PivotID \"v_wheel_r01\"",
+        "      PivotID \"v_wheel_l03\"",
+        "      PivotID \"v_wheel_r03\"",
+        "       Output0 \"Wheel_L01\"",
+        "       Output1 \"Wheel_R01\"",
+        "       WheelPosition Wheel_L01 {",
+        "        PivotID \"v_wheel_L01\"",
+        "       WheelPosition Wheel_R01 {",
+        "        PivotID \"v_wheel_R01\"",
+        "       Output0 \"Wheel_L02\"",
+        "       Output1 \"Wheel_R02\"",
+        "       WheelPosition Wheel_L02 {",
+        "        PivotID \"v_wheel_L02\"",
+        "       WheelPosition Wheel_R02 {",
+        "        PivotID \"v_wheel_R02\"",
+        "       Output0 \"Wheel_L03\"",
+        "       Output1 \"Wheel_R03\"",
+        "       WheelPosition Wheel_L03 {",
+        "        PivotID \"v_wheel_L03\"",
+        "       WheelPosition Wheel_R03 {",
+        "        PivotID \"v_wheel_R03\"",
+        "       Output0 \"Wheel_L04\"",
+        "       Output1 \"Wheel_R04\"",
+        "       WheelPosition Wheel_L04 {",
+        "        PivotID \"v_wheel_L04\"",
+        "       WheelPosition Wheel_R04 {",
+        "        PivotID \"v_wheel_R04\"",
+        "     PivotID \"v_wheel_L01\"",
+        "     PivotID \"v_wheel_L02\"",
+        "     PivotID \"v_wheel_L03\"",
+        "     PivotID \"v_wheel_L04\"",
+        "     PivotID \"v_wheel_R01\"",
+        "     PivotID \"v_wheel_R02\"",
+        "     PivotID \"v_wheel_R03\"",
+        "     PivotID \"v_wheel_R04\"",
+        "      PivotID \"v_wheel_l01\"",
+        "      PivotID \"v_wheel_r01\"",
+        "      PivotID \"v_wheel_l02\"",
+        "      PivotID \"v_wheel_r02\"",
+        "      PivotID \"v_wheel_l03\"",
+        "      PivotID \"v_wheel_r03\"",
+        "      PivotID \"v_wheel_l04\"",
+        "      PivotID \"v_wheel_r04\"",
+        "      PivotID \"v_steering_wheel\""
+      ]
+    },
+    {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Vehicles/Core/Wheeled_APC_Base.et",
+      "offset": 1472935471,
+      "storedBytes": 1822,
+      "rawBytes": 1822,
+      "method": "00000000",
+      "sourceSha256": "4f2416dcf52d8258527a2635ab882c8c2b1312709f0304afb0dc3c9e2624e8f3",
+      "soundComponent": null,
+      "wheelPositionDeclarations": []
+    },
+    {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "Prefabs/Vehicles/Core/Wheeled_Base.et",
+      "offset": 1472937293,
+      "storedBytes": 10939,
+      "rawBytes": 10939,
+      "method": "00000000",
+      "sourceSha256": "8e574360b0997bb17b19a728a35b3b633b43a80f5f5e2958ddf96af7e2d90b90",
+      "soundComponent": "SCR_VehicleSoundComponent \"{55C2E66AD4EF2CA6}\" {\n   Filenames {\n    \"{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp\" \"{1E4E57FCBAA4E206}Sounds/Vehicles/_SharedData/Vehicles_Wind_.acp\" \"{F41C3D53A2B69D85}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction_Fires.acp\" \"{BA8A5BD290F5FB34}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction.acp\" \"{D2DF25DD8B4A4B62}Sounds/Destruction/Multiphase/Destruction_Multiphase_Vehicle.acp\" \"{F1030E91E4B33E24}Sounds/Vehicles/_SharedData/WaterInteractions/Vehicles_WaterInteractions.acp\"\n   }\n   ScriptCallbacks 1\n   DistanceManagement 0\n   IncludeInactive 1\n   m_aHitZoneStateSignalData {\n    SCR_HitZoneStateSignalData \"{5E72C71D94477DBA}\" {\n     m_sSignalName \"EngineDamageState\"\n     m_aHitZoneNames {\n      \"Engine_01\"\n     }\n    }\n    SCR_HitZoneStateSignalData \"{5E72C71D96AACB05}\" {\n     m_sSignalName \"GearboxDamageState\"\n     m_aHitZoneNames {\n      \"Gearbox_01\"\n     }\n    }\n   }\n   m_aNormalizeSignalData {\n    SCR_NormalizedSignalData \"{698F2D67DAB43DC0}\" {\n     m_sSignalName \"suspension0\"\n     m_sNormalizedSignalName \"suspensionFrontLeft\"\n    }\n    SCR_NormalizedSignalData \"{698F2D67DACD0700}\" {\n     m_sSignalName \"suspension1\"\n     m_sNormalizedSignalName \"suspensionFrontRight\"\n    }\n    SCR_NormalizedSignalData \"{698F2D67DB909E3A}\" {\n     m_sSignalName \"suspension2\"\n     m_sNormalizedSignalName \"suspensionBackLeft\"\n    }\n    SCR_NormalizedSignalData \"{698F2D67DB4D62FE}\" {\n     m_sSignalName \"suspension3\"\n     m_sNormalizedSignalName \"suspensionBackRight\"\n    }\n   }\n  }",
+      "wheelPositionDeclarations": []
+    },
+    {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/generated/Vehicle/VehicleWheelSound.c",
+      "offset": 1489869627,
+      "storedBytes": 240,
+      "rawBytes": 240,
+      "method": "00000000",
+      "sourceSha256": "47e2c50e0e4dc4841b9236dcaa8428fd9c8e976d3a55824abcb1f41f36c0e7ef",
+      "publicDeclaration": "/*\r\n===========================================\r\nDo not modify, this script is generated\r\n===========================================\r\n*/\r\n\r\n/*!\r\n\\addtogroup Vehicle\r\n\\{\r\n*/\r\n\r\nclass VehicleWheelSound: ScriptAndConfig\r\n{\r\n}\r\n\r\n/*!\r\n\\}\r\n*/\r\n"
+    },
+    {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/generated/Components/VehicleSoundComponent.c",
+      "offset": 1489605133,
+      "storedBytes": 246,
+      "rawBytes": 246,
+      "method": "00000000",
+      "sourceSha256": "4c83d3f7d74d59f3b3b6baca5e4e009af9c29b624fe4c4d101e6fa4478ab3d30",
+      "publicDeclaration": "/*\r\n===========================================\r\nDo not modify, this script is generated\r\n===========================================\r\n*/\r\n\r\n/*!\r\n\\addtogroup Components\r\n\\{\r\n*/\r\n\r\nclass VehicleSoundComponent: SoundComponent\r\n{\r\n}\r\n\r\n/*!\r\n\\}\r\n*/\r\n"
+    },
+    {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\data007.pak",
+      "packBytes": 1994525893,
+      "packModifiedUtc": "2026-09-07T19:53:00.629Z",
+      "headerHex": "030001009f915844767d664c4c555009050d05010b01085400000000",
+      "indexBytes": 1931975,
+      "indexSha256": "ebd2bb2b7e1561cd8f2d773155870e8d77c03b2112d4be8601639cc982183b3e",
+      "resource": "scripts/Game/Components/VehicleSoundComponent/SCR_VehicleSoundComponent.c",
+      "offset": 1487672325,
+      "storedBytes": 1419,
+      "rawBytes": 7411,
+      "method": "00000106",
+      "sourceSha256": "4329299869da6694fcefe9467e7d6b9dea97d0ea7f1f6818571be0296e09f7e9",
+      "normalizationFacts": [
+        "class SCR_NormalizedSignalData",
+        "\tstring m_sSignalName;",
+        "\t[Attribute(\"\", UIWidgets.Auto, \"Normalized signal name\")]",
+        "\tstring m_sNormalizedSignalName;",
+        "\tfloat GetNormalizedValue(float in)",
+        "class SCR_NormalizedSignal",
+        "\tint m_normalizedSignalIndex = -1;",
+        "\tvoid SCR_NormalizedSignal(int signalIndex, int normalizedSignalIndex)",
+        "\t\tm_normalizedSignalIndex = normalizedSignalIndex;",
+        "\t[Attribute(\"\", UIWidgets.Auto, \"Normalized signals\")]",
+        "\tref array<ref SCR_NormalizedSignalData> m_aNormalizeSignalData;",
+        "\tprotected ref array<ref SCR_NormalizedSignal> m_aNormalizedSignal;",
+        "\tprotected array<ref SCR_NormalizedSignalData> GetNormalizedSignalData()",
+        "\t\t\treturn prefabData.m_aNormalizeSignalData;",
+        "\t\t\tRegisterNormalizedSignals(owner);",
+        "\t\t\t// Dont call UpdateSoundJob() if normalized signals definition is empty",
+        "\t\t\tif (!m_aNormalizedSignal || m_aNormalizedSignal.IsEmpty())",
+        "\t\tarray<ref SCR_NormalizedSignalData> normalizedSignalData = GetNormalizedSignalData();",
+        "\t\tif (!normalizedSignalData)",
+        "\t\tforeach (int i, SCR_NormalizedSignal normalizedSignal : m_aNormalizedSignal)",
+        "\t\t\tconst float signalValue = m_SignalsManagerComponent.GetSignalValue(normalizedSignal.m_signalIndex);",
+        "\t\t\tconst float normalizedSignalValue = normalizedSignalData[i].GetNormalizedValue(signalValue);",
+        "\t\t\tm_SignalsManagerComponent.SetSignalValue(normalizedSignal.m_normalizedSignalIndex, normalizedSignalValue);",
+        "\tprotected void RegisterNormalizedSignals(IEntity owner)",
+        "\t\tarray<ref SCR_NormalizedSignalData> normalizedSignalData = GetNormalizedSignalData();",
+        "\t\tif (!normalizedSignalData)",
+        "\t\tif (normalizedSignalData.IsEmpty())",
+        "\t\tif (!m_aNormalizedSignal)",
+        "\t\t\tm_aNormalizedSignal = new array<ref SCR_NormalizedSignal>();",
+        "\t\tm_aNormalizedSignal.Resize(normalizedSignalData.Count());",
+        "\t\tforeach(int i, SCR_NormalizedSignalData data : normalizedSignalData)",
+        "\t\t\tconst int signalIndex = m_SignalsManagerComponent.AddOrFindSignal(data.m_sSignalName);",
+        "\t\t\tconst int normalizedSignalIndex = m_SignalsManagerComponent.AddOrFindSignal(data.m_sNormalizedSignalName);",
+        "\t\t\tm_aNormalizedSignal[i] = new SCR_NormalizedSignal(signalIndex, normalizedSignalIndex);"
+      ]
+    }
+  ],
+  "gepard": [
+    {
+      "path": "D:/ArmaProjects/Gepard-OpticApproved-20261022/addon/Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "sha256": "d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543",
+      "soundComponent": "SCR_VehicleSoundComponent \"{55C2E66AD4EF2CA6}\" {\r\n   Filenames + {\r\n    \"{295ECF25C4C37A02}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Engine.acp\"\r\n    \"{B992B5065A62F9CA}Sounds/Vehicles/_SharedData/Crashes/APC/Vehicles_Crashes_APC.acp\"\r\n   }\r\n   SoundPoints {\r\n    SoundPointInfo Engine { Offset 0 1.2 -2.4 }\r\n    SoundPointInfo FuelTank { Offset -1.48 1.55 -2.7 }\r\n    SoundPointInfo Supplies { Offset 1.38 1.58 -2.5 }\r\n   }\r\n   Wheels {\r\n    VehicleWheelSound L_01 { Filename \"{A9997E455F672798}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_l_1.acp\" SoundPoint SoundPointInfo L_01 { PivotID \"GEP_Track_L_04\" } }\r\n    VehicleWheelSound R_01 { Filename \"{5CEAEF266CBBF0F1}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_r_1.acp\" SoundPoint SoundPointInfo R_01 { PivotID \"GEP_Track_R_04\" } }\r\n   }\r\n  }",
+      "wheelPositions": []
+    },
+    {
+      "path": "D:/ArmaProjects/Gepard-OpticApproved-20261022/addon/Prefabs/Vehicles/GEP_WheeledMobility101.et",
+      "sha256": "e2f0458ad83877a79f988627908a2d325b348547207f84c64a21f5f93e7ad912",
+      "soundComponent": null,
+      "wheelPositions": [
+        {
+          "name": "Wheel_L01",
+          "pivot": "GEP_Track_L_07"
+        },
+        {
+          "name": "Wheel_R01",
+          "pivot": "GEP_Track_R_07"
+        },
+        {
+          "name": "Wheel_L02",
+          "pivot": "GEP_Track_L_05"
+        },
+        {
+          "name": "Wheel_R02",
+          "pivot": "GEP_Track_R_05"
+        },
+        {
+          "name": "Wheel_L03",
+          "pivot": "GEP_Track_L_03"
+        },
+        {
+          "name": "Wheel_R03",
+          "pivot": "GEP_Track_R_03"
+        },
+        {
+          "name": "Wheel_L04",
+          "pivot": "GEP_Track_L_01"
+        },
+        {
+          "name": "Wheel_R04",
+          "pivot": "GEP_Track_R_01"
+        }
+      ]
+    }
+  ]
+}
