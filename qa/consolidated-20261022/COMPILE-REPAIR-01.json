@@ -1,0 +1,11 @@
+{
+  "failureRun": "native-runs/compile-core-01",
+  "cause": "GPG_Director loop variable owned is Enforce keyword",
+  "repair": "Renamed only owned loop variable to hostileOwned in source/stage",
+  "generatedNativeCacheAdopted": [
+    "gepard/resourceDatabase.rdb changed",
+    "provingGround/resourceDatabase.rdb added"
+  ],
+  "scope": "Native registration cache only; all original core source bytes preserved. Full staged closure repinned before secondcompile.",
+  "nativeGameplay": "NOT_TESTED"
+}

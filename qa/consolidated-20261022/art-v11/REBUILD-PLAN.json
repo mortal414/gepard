@@ -1,0 +1,35 @@
+{
+  "status": "QUEUED_NOT_AUTHORIZED_UNDER_USER_HOLD",
+  "nativeInvoked": false,
+  "template": "GEP_ArtV11RebuildFunctional.c.template",
+  "templateInstalledInAddon": false,
+  "destinationAddon": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+  "exactFBXFiles": [
+    "Assets/ArtV11/Mobility/MobilityRig.fbx",
+    "Assets/ArtV11/Gepard/GepardTurretRig.fbx",
+    "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.fbx",
+    "Assets/ArtV11/Gepard/GepardGunLeft.fbx",
+    "Assets/ArtV11/Gepard/GepardGunRight.fbx"
+  ],
+  "cookedModels": [
+    "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob",
+    "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob",
+    "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+    "{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob",
+    "{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob"
+  ],
+  "requiredSteps": [
+    "Explicit user resume; fresh exact process/lease admission through existing single-owner workflow. Do not infer permission from an empty census.",
+    "Pin reviewed template after replacing destination placeholder; run exact-list ResourceManager.RebuildResourceFiles on PC through qualified existing importer workflow. No native launcher is supplied here.",
+    "Queued marker is not completion: retain raw import/build errors and actual ownership/normal-exit evidence. All five cooked hashes must differ from seed hashes; authored FBX bytes and1112core pins stay exact.",
+    "Inspect native bone hierarchy, material roles and part registration for actual functional vehicles. Record authentic raw evidence file hashes and reviewed adoption; no automatic user acceptance.",
+    "Run read-only check_rebuild.py. It refuses five seed models, missing/stale adoption, incomplete registration and active runtime hold.",
+    "Only after gate passes bind exact NEW-CAMO/NEW-CHARCOAL IDs from PENDING-BINDINGS.json. Regenerate proving-ground world lock, source/native stage manifests and bridge job/static plan after all cooked/source changes.",
+    "Qualify both skins, full yaw/elevation, recoil/fire/group/rearm, crew/hatches/periscopes, radar deployment, powered wheeled drive/reverse/steer/track phases, collision/damage and actual LOD/shadow/performance transitions.",
+    "Freeze final private same-build package trio, package-backed load and regressions; one consolidated user session for art/optic preference. No publish or acceptance under current hold."
+  ],
+  "remainingLODs": "OriginalLOD1-3 unchanged; transitions to/fromnewclose detail need native judgment",
+  "nativeRebuild": "NOT_TESTED",
+  "nativeDynamics": "NOT_TESTED",
+  "humanAcceptance": "PENDING"
+}

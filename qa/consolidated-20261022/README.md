@@ -1,23 +1,20 @@
-# Consolidated private test candidate
+# Consolidated private candidate - source checkpoint
 
-Source assembly is ready for the next qualification phase. The explicit user runtime hold remains active. Nothing here is a launch, package or gameplay pass.
+Approved German precision-instrument HUD and additiveV11source overlay are integrated. Original1112common files from40ad931 remain byte-identical;35private art files added. Five cooked models are BASELINE REGISTRATION CLONES,not rebuiltV11. NEW pads remain explicitly UNBOUND. Native import/compile/gameplay and user acceptance are NOT_TESTED.
 
-Canonical manifest: CANDIDATE-MANIFEST.json. Private world source: ../proving-ground. Staged project: ../../native-stage/provingGround/GepardProvingGround.gproj. World: {A76A420022000002}Worlds/GPG_Arland.ent. One Gepard addon/script implementation serves every comparison pad.
+Canonical CANDIDATE-MANIFEST.json and STATUS-PER-GEP.json distinguish source evidence from native/manual acceptance. Private world: ../proving-ground/addon/GepardProvingGround.gproj, {A76A420022000002}Worlds/GPG_Arland.ent. Staged project: ../../native-stage/provingGround/GepardProvingGround.gproj. One Gepard GUID/code implementation;OLDcamo/charcoal intact;drivingloop,stock service providers,targetfan,isolateddamage lane,guardedresets;hostilesOFF.
 
-Included source: approved German precision-instrument optic and bounded crew/interaction fixes on release699f245. The1112Gepardfiles are pinned; accepted driving/input prefabs remain byte-identical. The private world adds OLD camo/charcoal pads, driving loop, finite stock service providers,100/300/500/800/1000m target fan, south-facing damage lane and guarded resets. Two NEW pads remain unbound until actual functional art arrives. Hostiles are OFF/qualification-locked.
+Current source plan: proving-ground-art-v11-bridge-source,79offline checks,syntax and authoritative static plan PASS against1147Gepard+10world files. Prior1112core bridge archives retain historical pins and must not execute against this changed stage. Every archive retains its original C executable bindings; copying does not relocate them. Startup checks emitted construction/survey consistency only,not driving/service/damage/visual correctness. Real exact-stage compile/adoption and native lifecycle qualification remain required.
 
-V11 functional art is still owned by the art task. WCS smoke and speed-linked audio remain separate and excluded from core. Stabilization and ballistic correction remain disabled/deferred; no fictitious ready indications.
+art-v11/REBUILD-PLAN.json queues five native rebuilds after explicit resume/fresh admission. check_rebuild.py rejects unchanged seed models,missing/stale adoption/registration and activehold;NEW bind tool invokes it. Native changed hashes alone are not rig/material/clearance acceptance. Both skins,actual articulation,recoil,firing,crew,hatches,radar,drive/track phases,collision andLOD/shadow/performance require qualification. All cooking/binding changes require fresh source manifests and startup planning.
 
-Source evidence: PROVING-GROUND-INTEGRATION.json verifies1112common files,10world files and17sealed HUD bridge files; ../proving-ground/checks/FREEZE-GUARD-REPAIR.json records six tamper cases. HUD72checks, smoke57source guards plus16analyzer tests, and bridge51offline checks retain their own provenance and do not establish runtime success. The archived HUD bridge is still bound to its original module paths. The separate proving-ground-bridge-source archive now contains a source-only startup/survey binding:75offline checks, PowerShell syntax and authoritative static plan PASS against10world+1112Gepard files. Its22selectedfiles were hash-verified. Executable paths remain at the original C package location. It checks construction/emitted telemetry consistency, not physical service/driving/damage or visual correctness; native compile/adoption/discovery/lifecycle remain NOT_TESTED.
+Smoke stays optional/excluded. Measured proposed-firepoint/visual-cap mismatch is at least0.958m; reconcile actual turret-frame PointInfo transforms/owner collision before vehicle qualification. Track audio stays excluded until selective stock rolling adaptation is understood and audibly qualified. Stabilization/ballistic correction remain disabled/deferred;stock cannon sounds retained.
 
-After explicit resume: fresh lease/process admission; exact compile/adoption; startup/survey; qualify reset/service/damage and accepted wheeled driving; validate optic pixels/input/lifecycle and actual functional NEW articulation; optional smoke/audio only after their gates; freeze and clean package-backed repeat. AUTOMATED-REGRESSION-PLAN.json lists casesC01-C09. See STATUS-PER-GEP.json for whole-task distinctions. Preserve any unrelated user session.
+Tomorrow's ONE consolidated review after automated qualification:
+1. Labeled OLD/NEW functional exterior in both skins,then moving turret/guns/hatches.
+2. Approved optic design/readability,targetview,live ammo/selection/range andrelative turret/elevation at zoomsteps;Shift+V group,C range,N lowlight.
+3. Smoke coverage/duration andgenuine finite-supply rearm only if qualified/included.
+4. Matched baseline/new cabin/exterior rolling/coast/stop audio only if qualified/included.
+5. Explicit fresh station resets andnormal fuel/repair/rearm actions as needed;routine regressions automated beforehand.
 
-Tomorrow's single NEW-feature review:
-
-1. Compare labeled OLD/NEW exterior, both skins, then moving turret/guns/hatches after automated clearance checks.
-2. Judge approved optic clarity and target view at zoom steps, actual ammo bars/selection, range and relative turret/elevation. Controls: Shift+V group, C range, N low light. German labels throughout; no developer text.
-3. If smoke qualified and included, judge cloud placement/coverage/duration, then real finite-supply rearm. If excluded, state so at the board and omit this task.
-4. If audio qualified and included, compare matched baseline/new cabin/exterior route, coast and stop. If excluded, omit this task.
-5. Use explicit station resets for fresh trials, return parked empty subjects, stand clear; fuel/repair/rearm use normal actions. Hostiles stay locked until separately qualified.
-
-No new checkbox has been accepted. No files in the released checkout changed. No publish/push.
+User explicitly resumed runtime01:52UTC. Root owns one serial native slot. Native compile-core-02 passed; startup-core-01 reached32objects/resourceFailure0 but its adapter hit a lease-read sharing race. Its exact-owned client closed normally(exit0),and the attempt remains censored/NOT_TESTED pending repaired replay. No new checkbox accepted,publish/push or released-file change.

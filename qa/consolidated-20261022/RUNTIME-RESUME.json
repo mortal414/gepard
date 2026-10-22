@@ -1,0 +1,10 @@
+{
+  "status": "USER_HOLD_LIFTED_FRESH_EMPTY_ADMISSION",
+  "utc": "2026-10-22T01:57:41.4504951Z",
+  "nativeStarted": false,
+  "sourceThread": "01a15259-930d-7752-b93e-02d417fdf0fc",
+  "publication": false,
+  "userAuthorizationUtc": "2026-10-22T01:52:00Z",
+  "nativeProcessCount": 0,
+  "exclusiveCoordinator": "01a15f4d-277b-76d9-b72f-4dde42bec0f4"
+}

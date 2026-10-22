@@ -6,5 +6,6 @@
     "../proving-ground/README.md": "Inherited intentional Markdown two-space hard breaks at lines12/13."
   },
   "sourceCodeWhitespace": "No implementation whitespace errors outside these artifacts",
-  "nativeAcceptance": "NOT_TESTED"
+  "nativeAcceptance": "NOT_TESTED",
+  "sealedOverlayNamespace": "Assets/ArtV11 andPrefabs/ArtV11 preserved exactly against owner manifest. Five native importer metadata files contain inheritedCRCRLF; one charcoal child contains inherited blank-line whitespace. Native importer acceptance pending; do not alter sealed source merely to silence diff."
 }

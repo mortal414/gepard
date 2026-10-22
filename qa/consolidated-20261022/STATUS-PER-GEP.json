@@ -134,7 +134,7 @@
     {
       "id": "GEP-017",
       "status": "Needs user test",
-      "reason": "Active separate art owner preparing cumulative V11 functional source handoff. Prior static import/render checks passed; functional integration/articulation/clearance/performance and user judgment pending. NEW pads visibly unbound.",
+      "reason": "AdditiveV11source integrated:35files,all1112core unchanged. Cooked models are five baseline registration seeds,not rebuiltV11; NEWpads unbound. Native rebuild/hash/registration/dynamics/LOD/performance then user judgment pending.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
       "scopeDisposition": "ACTIVE_SEPARATE_ART_OWNER",

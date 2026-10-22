@@ -1,0 +1,2373 @@
+{
+  "status": "CONFIGURATION_DRIVEN_DISCRETE_OFFLINE_SCREEN_COMPLETE",
+  "source": "D:\\ArmaProjects\\Gepard-ArtRefine-20261021\\v11-casing\\Gepard-ArtRefine-v11-Casing-Camo.blend",
+  "configuration": "D:\\ArmaProjects\\Gepard-ArtCompare-V11-20261021\\dependencies\\gepard\\Prefabs\\Weapons\\GEP_StationaryTurret.et",
+  "configuration_sha256": "501444c9b1a851a00a86ecc02b8a2a61e2fafe74067c555715bd9675c31caa55",
+  "native_ranges": {
+    "yaw": [
+      -180,
+      180
+    ],
+    "elevation": [
+      -5,
+      85
+    ],
+    "suspension_up_m": 0.18,
+    "suspension_down_m": 0.14
+  },
+  "exact_retained_pivots_blender_world": {
+    "turret_yaw": [
+      0.0,
+      0.15000000596046448,
+      1.600000023841858
+    ],
+    "gun_elevation": [
+      0.0,
+      0.45000022649765015,
+      2.429999828338623
+    ]
+  },
+  "gun_vs_turret": [
+    {
+      "side": "Left",
+      "configured_elevation_deg": -5.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.17894987761974335
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": -2.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.1591927707195282
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 0.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.13952501118183136
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 2.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.11998000741004944
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 5.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.10072027891874313
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 7.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.08231697976589203
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 10.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.06568851321935654
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 12.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.052724145352840424
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 15.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04602024331688881
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 17.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 20.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 22.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 25.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 27.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 30.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 32.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 35.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 37.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 40.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 42.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.033515628427267075
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 45.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.029742836952209473
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 47.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.03208901360630989
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 50.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04347789287567139
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 52.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 55.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 57.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 60.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 62.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 65.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 67.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 70.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 72.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.033449217677116394
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 75.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.029742836952209473
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 77.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.031831175088882446
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 80.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.043986640870571136
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 82.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04520978406071663
+    },
+    {
+      "side": "Left",
+      "configured_elevation_deg": 85.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04574275016784668
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": -5.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.16434350609779358
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": -2.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.15920057892799377
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 0.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.13953210413455963
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 2.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.11998644471168518
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 5.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.10072537511587143
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 7.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.08231985569000244
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 10.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.0656883642077446
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 12.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.052718859165906906
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 15.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04600934684276581
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 17.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 20.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 22.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 25.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 27.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 30.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 32.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 35.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 37.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 40.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 42.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.03350992500782013
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 45.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.029730558395385742
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 47.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.032074589282274246
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 50.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04346180334687233
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 52.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 55.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 57.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 60.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 62.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 65.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 67.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 70.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 72.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.03344346210360527
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 75.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.029730558395385742
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 77.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.031815946102142334
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 80.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04396994039416313
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 82.5,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04520982503890991
+    },
+    {
+      "side": "Right",
+      "configured_elevation_deg": 85.0,
+      "triangle_intersections_with_current_turret": 0,
+      "minimum_sampled_vertex_gap_m": 0.04573047161102295
+    }
+  ],
+  "new_chin_vs_body": [
+    {
+      "configured_yaw_deg": -180,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.12235236167907715
+    },
+    {
+      "configured_yaw_deg": -175,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.11390893906354904
+    },
+    {
+      "configured_yaw_deg": -170,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.10587576776742935
+    },
+    {
+      "configured_yaw_deg": -165,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09919142723083496
+    },
+    {
+      "configured_yaw_deg": -160,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09390633553266525
+    },
+    {
+      "configured_yaw_deg": -155,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09006092697381973
+    },
+    {
+      "configured_yaw_deg": -150,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08768460154533386
+    },
+    {
+      "configured_yaw_deg": -145,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08679515868425369
+    },
+    {
+      "configured_yaw_deg": -140,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.0873994380235672
+    },
+    {
+      "configured_yaw_deg": -135,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.0894930362701416
+    },
+    {
+      "configured_yaw_deg": -130,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09305968880653381
+    },
+    {
+      "configured_yaw_deg": -125,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.0980725884437561
+    },
+    {
+      "configured_yaw_deg": -120,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.10449342429637909
+    },
+    {
+      "configured_yaw_deg": -115,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.11227330565452576
+    },
+    {
+      "configured_yaw_deg": -110,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.12135309725999832
+    },
+    {
+      "configured_yaw_deg": -105,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1316637098789215
+    },
+    {
+      "configured_yaw_deg": -100,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.14312653243541718
+    },
+    {
+      "configured_yaw_deg": -95,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.15565447509288788
+    },
+    {
+      "configured_yaw_deg": -90,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699995994567871
+    },
+    {
+      "configured_yaw_deg": -85,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699995994567871
+    },
+    {
+      "configured_yaw_deg": -80,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699995994567871
+    },
+    {
+      "configured_yaw_deg": -75,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16999971866607666
+    },
+    {
+      "configured_yaw_deg": -70,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16999971866607666
+    },
+    {
+      "configured_yaw_deg": -65,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.13835100829601288
+    },
+    {
+      "configured_yaw_deg": -60,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08999991416931152
+    },
+    {
+      "configured_yaw_deg": -55,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09122765064239502
+    },
+    {
+      "configured_yaw_deg": -50,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08999991416931152
+    },
+    {
+      "configured_yaw_deg": -45,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08999991416931152
+    },
+    {
+      "configured_yaw_deg": -40,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09177926182746887
+    },
+    {
+      "configured_yaw_deg": -35,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.10624239593744278
+    },
+    {
+      "configured_yaw_deg": -30,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1261359006166458
+    },
+    {
+      "configured_yaw_deg": -25,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.14123667776584625
+    },
+    {
+      "configured_yaw_deg": -20,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.15244334936141968
+    },
+    {
+      "configured_yaw_deg": -15,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.15580040216445923
+    },
+    {
+      "configured_yaw_deg": -10,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1498933732509613
+    },
+    {
+      "configured_yaw_deg": -5,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.13553355634212494
+    },
+    {
+      "configured_yaw_deg": 0,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.11730171740055084
+    },
+    {
+      "configured_yaw_deg": 5,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09924720227718353
+    },
+    {
+      "configured_yaw_deg": 10,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08999991416931152
+    },
+    {
+      "configured_yaw_deg": 15,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08999991416931152
+    },
+    {
+      "configured_yaw_deg": 20,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08999991416931152
+    },
+    {
+      "configured_yaw_deg": 25,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09019139409065247
+    },
+    {
+      "configured_yaw_deg": 30,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09545336663722992
+    },
+    {
+      "configured_yaw_deg": 35,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699998378753662
+    },
+    {
+      "configured_yaw_deg": 40,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699998378753662
+    },
+    {
+      "configured_yaw_deg": 45,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16999971866607666
+    },
+    {
+      "configured_yaw_deg": 50,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699998378753662
+    },
+    {
+      "configured_yaw_deg": 55,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16999971866607666
+    },
+    {
+      "configured_yaw_deg": 60,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16999971866607666
+    },
+    {
+      "configured_yaw_deg": 65,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16999971866607666
+    },
+    {
+      "configured_yaw_deg": 70,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16999971866607666
+    },
+    {
+      "configured_yaw_deg": 75,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16999971866607666
+    },
+    {
+      "configured_yaw_deg": 80,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699995994567871
+    },
+    {
+      "configured_yaw_deg": 85,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699995994567871
+    },
+    {
+      "configured_yaw_deg": 90,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1699995994567871
+    },
+    {
+      "configured_yaw_deg": 95,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.15565447509288788
+    },
+    {
+      "configured_yaw_deg": 100,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.14312665164470673
+    },
+    {
+      "configured_yaw_deg": 105,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.13166369497776031
+    },
+    {
+      "configured_yaw_deg": 110,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.12135321646928787
+    },
+    {
+      "configured_yaw_deg": 115,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.11227330565452576
+    },
+    {
+      "configured_yaw_deg": 120,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.10449342429637909
+    },
+    {
+      "configured_yaw_deg": 125,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.0980725884437561
+    },
+    {
+      "configured_yaw_deg": 130,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09305978566408157
+    },
+    {
+      "configured_yaw_deg": 135,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08949290215969086
+    },
+    {
+      "configured_yaw_deg": 140,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.0873994529247284
+    },
+    {
+      "configured_yaw_deg": 145,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08679503947496414
+    },
+    {
+      "configured_yaw_deg": 150,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.08768459409475327
+    },
+    {
+      "configured_yaw_deg": 155,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09006104618310928
+    },
+    {
+      "configured_yaw_deg": 160,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09390633553266525
+    },
+    {
+      "configured_yaw_deg": 165,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09919140487909317
+    },
+    {
+      "configured_yaw_deg": 170,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1058758869767189
+    },
+    {
+      "configured_yaw_deg": 175,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.11390883475542068
+    },
+    {
+      "configured_yaw_deg": 180,
+      "new_chin_body_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.12235236167907715
+    }
+  ],
+  "gun_vs_body_combined": [
+    {
+      "yaw_deg": -180,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7245590090751648
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7094140648841858
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7020004987716675
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7303338050842285
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5398334264755249
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7023122906684875
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.40084779262542725
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5983226299285889
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.29451560974121094
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5158480405807495
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22808337211608887
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3855043649673462
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2060781717300415
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2888592481613159
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.21695947647094727
+    },
+    {
+      "yaw_deg": -180,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.24651288986206055
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.758163332939148
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6122940182685852
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7012934684753418
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6358217000961304
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5398335456848145
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6386036276817322
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4008479118347168
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5088384747505188
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.29451560974121094
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4005500376224518
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22808349132537842
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.31556248664855957
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.20607829093933105
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2751016914844513
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.21695947647094727
+    },
+    {
+      "yaw_deg": -150,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.23402319848537445
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6752731800079346
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5499551892280579
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6403013467788696
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5720000267028809
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4802170395851135
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5371619462966919
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3244525194168091
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4107908010482788
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2225705087184906
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.30627763271331787
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22808361053466797
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22028042376041412
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2060784101486206
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.17884938418865204
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.18131732940673828
+    },
+    {
+      "yaw_deg": -120,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.15265223383903503
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5802604556083679
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5474472045898438
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6004435420036316
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5729498267173767
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5398335456848145
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.47579318284988403
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4008479118347168
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.35616981983184814
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.27072399854660034
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2610100507736206
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.15231382846832275
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.19903767108917236
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.17237678170204163
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.15639114379882812
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.19180449843406677
+    },
+    {
+      "yaw_deg": -90,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.11435496807098389
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6752731800079346
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6330593824386597
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7010003328323364
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6181360483169556
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5398334264755249
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.48046860098838806
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.40084779262542725
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.37178942561149597
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2945157289505005
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3045174479484558
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22808349132537842
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.25575709342956543
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2060784101486206
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.205678328871727
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.21695971488952637
+    },
+    {
+      "yaw_deg": -60,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.17071063816547394
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6752731800079346
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7262462377548218
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7010002136230469
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7177514433860779
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5398334264755249
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5843296051025391
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4008476734161377
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.47301000356674194
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2945157289505005
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3985659182071686
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22808349132537842
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.36368951201438904
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2060784101486206
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.28885912895202637
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.21695971488952637
+    },
+    {
+      "yaw_deg": -30,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.246512770652771
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7350070476531982
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7173495292663574
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7020003795623779
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7382798790931702
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5398333072662354
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6975521445274353
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4008476734161377
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5950962901115417
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.29451560974121094
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.51584792137146
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22808349132537842
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.38550424575805664
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.20607829093933105
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2888592481613159
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.21695959568023682
+    },
+    {
+      "yaw_deg": 0,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2465130090713501
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.720000684261322
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6682745814323425
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6650094389915466
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7000002861022949
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5129351615905762
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.649414598941803
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.38808733224868774
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5206211805343628
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2945154905319214
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4125484526157379
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22808325290679932
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.33644238114356995
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2060781717300415
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.28885936737060547
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.21695935726165771
+    },
+    {
+      "yaw_deg": 30,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2465130090713501
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6317367553710938
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5442817211151123
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5755680203437805
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.561132550239563
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4212331771850586
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5990191102027893
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3080208897590637
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.45109570026397705
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22154173254966736
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.32227545976638794
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16678975522518158
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.25103819370269775
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.15654416382312775
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.21886128187179565
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.17491210997104645
+    },
+    {
+      "yaw_deg": 60,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16635549068450928
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5472729206085205
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6481596231460571
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5729999542236328
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6053680777549744
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4124526083469391
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4947919249534607
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2748814821243286
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4084024727344513
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.16975808143615723
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3384215831756592
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.10431354492902756
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.30460071563720703
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.0830075815320015
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.24641215801239014
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.0941704511642456
+    },
+    {
+      "yaw_deg": 90,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.19956648349761963
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5495455265045166
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6754474639892578
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5730825662612915
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7000002861022949
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4816056489944458
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.610033392906189
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3383032977581024
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.4881703853607178
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2252502739429474
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.39301061630249023
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1501505821943283
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.331038236618042
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.10879213362932205
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.28839170932769775
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.09500396251678467
+    },
+    {
+      "yaw_deg": 120,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.24635553359985352
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6119042038917542
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.732600748538971
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6356039047241211
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7502932548522949
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5398331880569458
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.6105368137359619
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.40084755420684814
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.49268820881843567
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2945154905319214
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.41152423620224
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22285088896751404
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3804210126399994
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.18284939229488373
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.28885936737060547
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.1812908798456192
+    },
+    {
+      "yaw_deg": 150,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.24651288986206055
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": -5,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7245590090751648
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": -5,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7094140648841858
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 0,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7020004987716675
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 0,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7303338050842285
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 15,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5398334264755249
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 15,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.7023122906684875
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 30,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.40084779262542725
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 30,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5983226299285889
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 45,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.29451560974121094
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 45,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.5158480405807495
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 60,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.22808337211608887
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 60,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.3855043649673462
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 75,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2060781717300415
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 75,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.2888592481613159
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 85,
+      "side": "Left",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.21695947647094727
+    },
+    {
+      "yaw_deg": 180,
+      "elevation_deg": 85,
+      "side": "Right",
+      "casing_body_triangle_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.24651288986206055
+    }
+  ],
+  "track_connectors_fixed_path": [
+    {
+      "phase_fraction_of_one_link_pitch": 0.0,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.08333333333333333,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.16666666666666666,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.25,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.3333333333333333,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.4166666666666667,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.5,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.5833333333333334,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06549990177154541
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.6666666666666666,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.75,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.8333333333333334,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    },
+    {
+      "phase_fraction_of_one_link_pitch": 0.9166666666666666,
+      "connectors_to_hull_root_surface_intersections": 0,
+      "minimum_sampled_vertex_gap_m": 0.06550002098083496
+    }
+  ],
+  "native_visual_running_gear_limit": "Released wheeled visual code explicitly fixes wheel centres and track path; no wheelspin/suspension conformation. Physical .18/.14 travel is not claimed to be a supplied visual pose. Native actual ordering/physics/MP remains untested.",
+  "limitations": [
+    "Discrete surface triangle intersection and sampled vertex gaps only; not continuous sweeps or solid containment",
+    "Source axes and operating bounds recovered, but native ProcAnim/physics/attachment order not executed",
+    "Original collision meshes retained; visual checks do not certify ballistic/collision parity",
+    "Both skins share verified identical geometry; native functional skin acceptance remains pending",
+    "Crew interfaces/bone nodes unchanged; actual entry/exit and open-hatch obstruction need final native tests"
+  ],
+  "saved_source": false,
+  "native_launched": false
+}

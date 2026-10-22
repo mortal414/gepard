@@ -1,0 +1,21 @@
+{
+  "status": "SOURCE_ONLY_NATIVE_NOT_TESTED",
+  "upstream": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-Consolidated-QA-20261022\\tools\\Scene.ps1",
+  "upstreamSHA256": "ee51181df9cfbfefe0346209e5acb908bb0555d44a24c70e2363790f8063f32f",
+  "patchedSHA256": "d54c1204ec57675b265ef281ca4ae1d2875374da098d4a6257c91bc28ba62e53",
+  "changes": [
+    "Complete closure descriptor moved to this C package",
+    "Execute path restricts exact frozen GPG project/world/addon",
+    "Narrow native-stage parent plus installed base joined by comma, following existing compiler convention; game discovery native qualification pending",
+    "Extra hold recheck immediately before native launch and inside atomic attachment prevents attachment from overwriting status-only hold; failure preserves claim/native",
+    "Dry-run admission text corrected"
+  ],
+  "preserved": [
+    "All shared hold guards before admission/claim/loops/sole normal close/release",
+    "Exact owned PID/executable/birth/argv and atomic lease",
+    "Cancel uses existing exact owned normal close only while hold inactive",
+    "No force kill or force release; uncertainty retained"
+  ],
+  "nativeAddonSearchPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+  "nativeDiscoveryQualification": "NOT_TESTED"
+}

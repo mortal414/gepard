@@ -1,0 +1,894 @@
+{
+  "status": "MEASURED_VISUAL_ALIGNMENT_REFERENCE_NOT_APPLIED_TO_SMOKE",
+  "frame": "Exact retained GEP_TurretYaw local Enfusion X-right/Y-up/Z-forward, metres",
+  "ports": [
+    {
+      "side": "Left",
+      "body_axis_native_xyz": [
+        -0.20492565318422784,
+        0.7172418637636394,
+        0.6660101992701603
+      ],
+      "closed_cap_outer_face_center_native_xyz": [
+        -1.1373505250564293,
+        0.5282622416968742,
+        0.8412434798910315
+      ],
+      "suggested_outside_point_native_xyz": [
+        -1.1393997815882715,
+        0.5354346603345106,
+        0.8479035818837332
+      ],
+      "outside_margin_m": 0.01,
+      "basis_native_columns": [
+        [
+          0.9557792354083228,
+          -0.0,
+          0.2940851121058017
+        ],
+        [
+          0.21093015391190403,
+          0.6968243027226168,
+          -0.6855248801508517
+        ],
+        [
+          -0.20492565318422784,
+          0.7172418637636394,
+          0.6660101992701603
+        ]
+      ],
+      "geometric_heading_deg": -17.10268480443599,
+      "geometric_up_angle_deg": 45.82723058982887,
+      "world_start": [
+        -1.139399766921997,
+        0.9979037642478943,
+        2.13543438911438
+      ],
+      "world_direction": [
+        -0.20492565631866455,
+        0.6660103797912598,
+        0.7172417044639587
+      ],
+      "row_order_rear_to_front": 0,
+      "suggested_bank_root_native_xyz": [
+        -1.1393997736140116,
+        0.5354346305323205,
+        1.087903584731537
+      ],
+      "suggested_local_fire_offset_native_xyz": [
+        -7.974259919052429e-09,
+        2.9802190049110777e-08,
+        -0.24000000284780387
+      ]
+    },
+    {
+      "side": "Left",
+      "body_axis_native_xyz": [
+        -0.20492559426184648,
+        0.7172417774157153,
+        0.6660103103901431
+      ],
+      "closed_cap_outer_face_center_native_xyz": [
+        -1.137350520339324,
+        0.5282622099110007,
+        1.0012435378501168
+      ],
+      "suggested_outside_point_native_xyz": [
+        -1.1393997762819423,
+        0.5354346276851578,
+        1.0079036409540183
+      ],
+      "outside_margin_m": 0.01,
+      "basis_native_columns": [
+        [
+          0.9557792729676456,
+          -0.0,
+          0.2940849900376394
+        ],
+        [
+          0.2109300409658794,
+          0.6968243916005995,
+          -0.6855248245604143
+        ],
+        [
+          -0.20492559426184648,
+          0.7172417774157153,
+          0.6660103103901431
+        ]
+      ],
+      "geometric_heading_deg": -17.102677486856667,
+      "geometric_up_angle_deg": 45.82722348994546,
+      "world_start": [
+        -1.139399766921997,
+        1.1579039096832275,
+        2.13543438911438
+      ],
+      "world_direction": [
+        -0.20492559671401978,
+        0.6660104990005493,
+        0.7172415852546692
+      ],
+      "row_order_rear_to_front": 1,
+      "suggested_bank_root_native_xyz": [
+        -1.1393997736140116,
+        0.5354346305323205,
+        1.087903584731537
+      ],
+      "suggested_local_fire_offset_native_xyz": [
+        -2.6679307651988893e-09,
+        -2.8471627278037204e-09,
+        -0.07999994377751873
+      ]
+    },
+    {
+      "side": "Left",
+      "body_axis_native_xyz": [
+        -0.2049255691371063,
+        0.7172420116430671,
+        0.6660100658759143
+      ],
+      "closed_cap_outer_face_center_native_xyz": [
+        -1.1373505104252672,
+        0.5282621741133173,
+        1.1612434660602122
+      ],
+      "suggested_outside_point_native_xyz": [
+        -1.1393997661166384,
+        0.535434594229748,
+        1.1679035667189714
+      ],
+      "outside_margin_m": 0.01,
+      "basis_native_columns": [
+        [
+          0.9557792527545345,
+          -0.0,
+          0.29408505573045335
+        ],
+        [
+          0.21093015696627387,
+          0.6968241505101604,
+          -0.6855250339323697
+        ],
+        [
+          -0.2049255691371063,
+          0.7172420116430671,
+          0.6660100658759143
+        ]
+      ],
+      "geometric_heading_deg": -17.10268142492179,
+      "geometric_up_angle_deg": 45.827242749089066,
+      "world_start": [
+        -1.139399766921997,
+        1.317903757095337,
+        2.13543438911438
+      ],
+      "world_direction": [
+        -0.2049255669116974,
+        0.6660102605819702,
+        0.7172418236732483
+      ],
+      "row_order_rear_to_front": 2,
+      "suggested_bank_root_native_xyz": [
+        -1.1393997736140116,
+        0.5354346305323205,
+        1.087903584731537
+      ],
+      "suggested_local_fire_offset_native_xyz": [
+        7.497373166742705e-09,
+        -3.630257250364366e-08,
+        0.07999998198743441
+      ]
+    },
+    {
+      "side": "Left",
+      "body_axis_native_xyz": [
+        -0.20492563119062707,
+        0.7172420698513347,
+        0.6660099840967076
+      ],
+      "closed_cap_outer_face_center_native_xyz": [
+        -1.1373505141572882,
+        0.5282622191813523,
+        1.3212434495284586
+      ],
+      "suggested_outside_point_native_xyz": [
+        -1.1393997704691945,
+        0.5354346398798656,
+        1.3279035493694258
+      ],
+      "outside_margin_m": 0.01,
+      "basis_native_columns": [
+        [
+          0.9557792175737889,
+          -0.0,
+          0.29408517006818935
+        ],
+        [
+          0.2109302560922899,
+          0.6968240905963095,
+          -0.6855250643335135
+        ],
+        [
+          -0.20492563119062707,
+          0.7172420698513347,
+          0.6660099840967076
+        ]
+      ],
+      "geometric_heading_deg": -17.102688279087975,
+      "geometric_up_angle_deg": 45.8272475352151,
+      "world_start": [
+        -1.139399766921997,
+        1.4779037237167358,
+        2.13543438911438
+      ],
+      "world_direction": [
+        -0.20492565631866455,
+        0.6660102009773254,
+        0.7172419428825378
+      ],
+      "row_order_rear_to_front": 3,
+      "suggested_bank_root_native_xyz": [
+        -1.1393997736140116,
+        0.5354346305323205,
+        1.087903584731537
+      ],
+      "suggested_local_fire_offset_native_xyz": [
+        3.1448170734194036e-09,
+        9.3475450713143e-09,
+        0.23999996463788875
+      ]
+    },
+    {
+      "side": "Right",
+      "body_axis_native_xyz": [
+        0.20492565875878202,
+        0.7172418856542588,
+        0.6660101739804001
+      ],
+      "closed_cap_outer_face_center_native_xyz": [
+        1.1373505250190878,
+        0.5282622415875954,
+        0.8412434801058863
+      ],
+      "suggested_outside_point_native_xyz": [
+        1.1393997816066757,
+        0.535434660444138,
+        0.8479035818456904
+      ],
+      "outside_margin_m": 0.01,
+      "basis_native_columns": [
+        [
+          0.9557792300208672,
+          0.0,
+          -0.2940851296150796
+        ],
+        [
+          -0.21093017290799682,
+          0.6968242801905825,
+          -0.6855248972093424
+        ],
+        [
+          0.20492565875878202,
+          0.7172418856542588,
+          0.6660101739804001
+        ]
+      ],
+      "geometric_heading_deg": 17.102685854058844,
+      "geometric_up_angle_deg": 45.82723238976627,
+      "world_start": [
+        1.139399766921997,
+        0.9979037642478943,
+        2.13543438911438
+      ],
+      "world_direction": [
+        0.20492565631866455,
+        0.6660103797912598,
+        0.7172417044639587
+      ],
+      "row_order_rear_to_front": 0,
+      "suggested_bank_root_native_xyz": [
+        1.1393997733223316,
+        0.5354346311870094,
+        1.0879035832304964
+      ],
+      "suggested_local_fire_offset_native_xyz": [
+        8.28434409960721e-09,
+        2.9257128608684013e-08,
+        -0.24000000138480604
+      ]
+    },
+    {
+      "side": "Right",
+      "body_axis_native_xyz": [
+        0.20492560486971223,
+        0.7172417892776495,
+        0.6660102943518053
+      ],
+      "closed_cap_outer_face_center_native_xyz": [
+        1.1373505184334998,
+        0.5282622110089612,
+        1.0012435359263085
+      ],
+      "suggested_outside_point_native_xyz": [
+        1.1393997744821969,
+        0.5354346289017377,
+        1.0079036388698266
+      ],
+      "outside_margin_m": 0.01,
+      "basis_native_columns": [
+        [
+          0.9557792666981263,
+          0.0,
+          -0.29408501041364216
+        ],
+        [
+          -0.21093005906881687,
+          0.6968243793911029,
+          -0.6855248314010438
+        ],
+        [
+          0.20492560486971223,
+          0.7172417892776495,
+          0.6660102943518053
+        ]
+      ],
+      "geometric_heading_deg": 17.102678708330075,
+      "geometric_up_angle_deg": 45.82722446528269,
+      "world_start": [
+        1.139399766921997,
+        1.1579039096832275,
+        2.13543438911438
+      ],
+      "world_direction": [
+        0.20492561161518097,
+        0.6660104990005493,
+        0.7172415852546692
+      ],
+      "row_order_rear_to_front": 1,
+      "suggested_bank_root_native_xyz": [
+        1.1393997733223316,
+        0.5354346311870094,
+        1.0879035832304964
+      ],
+      "suggested_local_fire_offset_native_xyz": [
+        1.1598653149036409e-09,
+        -2.285271749613571e-09,
+        -0.07999994436066982
+      ]
+    },
+    {
+      "side": "Right",
+      "body_axis_native_xyz": [
+        0.20492557471283598,
+        0.717241995610364,
+        0.6660100814263071
+      ],
+      "closed_cap_outer_face_center_native_xyz": [
+        1.1373505108231838,
+        0.5282621751860964,
+        1.1612434629689923
+      ],
+      "suggested_outside_point_native_xyz": [
+        1.1393997665703122,
+        0.5354345951422,
+        1.1679035637832553
+      ],
+      "outside_margin_m": 0.01,
+      "basis_native_columns": [
+        [
+          0.9557792524354628,
+          0.0,
+          -0.2940850567674386
+        ],
+        [
+          -0.21093015299506485,
+          0.6968241670126419,
+          -0.6855250183797932
+        ],
+        [
+          0.20492557471283598,
+          0.717241995610364,
+          0.6660100814263071
+        ]
+      ],
+      "geometric_heading_deg": 17.102681487085604,
+      "geometric_up_angle_deg": 45.82724143081356,
+      "world_start": [
+        1.139399766921997,
+        1.317903757095337,
+        2.13543438911438
+      ],
+      "world_direction": [
+        0.20492558181285858,
+        0.6660102605819702,
+        0.7172418236732483
+      ],
+      "row_order_rear_to_front": 2,
+      "suggested_bank_root_native_xyz": [
+        1.1393997733223316,
+        0.5354346311870094,
+        1.0879035832304964
+      ],
+      "suggested_local_fire_offset_native_xyz": [
+        -6.752019388045483e-09,
+        -3.604480935948118e-08,
+        0.07999998055275892
+      ]
+    },
+    {
+      "side": "Right",
+      "body_axis_native_xyz": [
+        0.20492563271943992,
+        0.7172420655591752,
+        0.6660099882486333
+      ],
+      "closed_cap_outer_face_center_native_xyz": [
+        1.1373505143029468,
+        0.5282622196043701,
+        1.3212434485407274
+      ],
+      "suggested_outside_point_native_xyz": [
+        1.139399770630141,
+        0.5354346402599619,
+        1.3279035484232138
+      ],
+      "outside_margin_m": 0.01,
+      "basis_native_columns": [
+        [
+          0.9557792174724209,
+          0.0,
+          -0.2940851703976362
+        ],
+        [
+          -0.21093025506632263,
+          0.6968240950142349,
+          -0.6855250601584513
+        ],
+        [
+          0.20492563271943992,
+          0.7172420655591752,
+          0.6660099882486333
+        ]
+      ],
+      "geometric_heading_deg": 17.102688298837215,
+      "geometric_up_angle_deg": 45.82724718229588,
+      "world_start": [
+        1.139399766921997,
+        1.4779037237167358,
+        2.13543438911438
+      ],
+      "world_direction": [
+        0.20492565631866455,
+        0.6660102009773254,
+        0.7172419428825378
+      ],
+      "row_order_rear_to_front": 3,
+      "suggested_bank_root_native_xyz": [
+        1.1393997733223316,
+        0.5354346311870094,
+        1.0879035832304964
+      ],
+      "suggested_local_fire_offset_native_xyz": [
+        -2.6921904705545785e-09,
+        9.072952500410736e-09,
+        0.23999996519271738
+      ]
+    }
+  ],
+  "legacy_wcs_bank_roots": {
+    "Left": [
+      -1.12,
+      0.35,
+      -0.55
+    ],
+    "Right": [
+      1.12,
+      0.35,
+      -0.55
+    ]
+  },
+  "legacy_local_fire_offsets_z": [
+    0.45,
+    0.2,
+    -0.05,
+    -0.3
+  ],
+  "minimum_legacy_firepoint_to_any_current_visual_cap_m": 0.9581324313329068,
+  "first_metre_point_ray_checks": [
+    {
+      "port": 0,
+      "elevation_deg": -5,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 1,
+      "elevation_deg": -5,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 2,
+      "elevation_deg": -5,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 3,
+      "elevation_deg": -5,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 4,
+      "elevation_deg": -5,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 5,
+      "elevation_deg": -5,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 6,
+      "elevation_deg": -5,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 7,
+      "elevation_deg": -5,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 0,
+      "elevation_deg": 0,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 1,
+      "elevation_deg": 0,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 2,
+      "elevation_deg": 0,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 3,
+      "elevation_deg": 0,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 4,
+      "elevation_deg": 0,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 5,
+      "elevation_deg": 0,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 6,
+      "elevation_deg": 0,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 7,
+      "elevation_deg": 0,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 0,
+      "elevation_deg": 15,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 1,
+      "elevation_deg": 15,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 2,
+      "elevation_deg": 15,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 3,
+      "elevation_deg": 15,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 4,
+      "elevation_deg": 15,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 5,
+      "elevation_deg": 15,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 6,
+      "elevation_deg": 15,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 7,
+      "elevation_deg": 15,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 0,
+      "elevation_deg": 30,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 1,
+      "elevation_deg": 30,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 2,
+      "elevation_deg": 30,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 3,
+      "elevation_deg": 30,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 4,
+      "elevation_deg": 30,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 5,
+      "elevation_deg": 30,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 6,
+      "elevation_deg": 30,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 7,
+      "elevation_deg": 30,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 0,
+      "elevation_deg": 45,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 1,
+      "elevation_deg": 45,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 2,
+      "elevation_deg": 45,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 3,
+      "elevation_deg": 45,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 4,
+      "elevation_deg": 45,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 5,
+      "elevation_deg": 45,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 6,
+      "elevation_deg": 45,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 7,
+      "elevation_deg": 45,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 0,
+      "elevation_deg": 60,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 1,
+      "elevation_deg": 60,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 2,
+      "elevation_deg": 60,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 3,
+      "elevation_deg": 60,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 4,
+      "elevation_deg": 60,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 5,
+      "elevation_deg": 60,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 6,
+      "elevation_deg": 60,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 7,
+      "elevation_deg": 60,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 0,
+      "elevation_deg": 75,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 1,
+      "elevation_deg": 75,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 2,
+      "elevation_deg": 75,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 3,
+      "elevation_deg": 75,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 4,
+      "elevation_deg": 75,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 5,
+      "elevation_deg": 75,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 6,
+      "elevation_deg": 75,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 7,
+      "elevation_deg": 75,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 0,
+      "elevation_deg": 85,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 1,
+      "elevation_deg": 85,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 2,
+      "elevation_deg": 85,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 3,
+      "elevation_deg": 85,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 4,
+      "elevation_deg": 85,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 5,
+      "elevation_deg": 85,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 6,
+      "elevation_deg": 85,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    },
+    {
+      "port": 7,
+      "elevation_deg": 85,
+      "first_metre_point_ray_hits": 0,
+      "nearest_hit_m": null
+    }
+  ],
+  "point_ray_clear": true,
+  "limits": [
+    "Current model measurement, not factory dimensions or a new art acceptance",
+    "10mm outside offset is an inferred staging margin; native projectile radius/owner collision handling not tested",
+    "Geometric heading/elevation are descriptive; verify native PointInfo Euler signs against the provided basis before setting Angles",
+    "Eight bodies have parallel source axes per flank; recovered WCS fan directions differ and need explicit functional-owner choice",
+    "Closed cap artwork remains rigid; cap ejection/empty-tube appearance is not implemented",
+    "Point rays do not prove swept-volume, actual WCS launch, firing cloud or impact clearance"
+  ],
+  "native_launched": false,
+  "smoke_source_modified": false
+}

@@ -1,0 +1,4 @@
+// Private visual-only child; original weapon/feeds/muzzle contracts inherited.
+GenericEntity : "{116623595C424D45}Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunLeft.et" {
+ components { MeshObject "{CFBAA4B701F95D69}" { Object "{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob" } }
+}

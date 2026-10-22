@@ -1,0 +1,26 @@
+{
+  "status": "ALIGNMENT_GATE_OUTSTANDING_NO_SMOKE_ENABLED",
+  "frame": "Exact retained GEP_TurretYaw local Enfusion X-right/Y-up/Z-forward, metres",
+  "minimumMismatchMetres": 0.9581324313329068,
+  "visualPortCount": 8,
+  "candidateConfigsChanged": false,
+  "WCSDependencyEnabledInConsolidated": false,
+  "sourceReference": "SMOKE_ALIGNMENT_HANDOFF.json",
+  "beforeCarrierQualification": [
+    "Resolve actual WCS bank parent and native PointInfo local-to-turret transform. Preserve calibrated basis vectors; do not copy descriptive geometric angles as tested native Euler values.",
+    "Verify eight real point positions/directions against measured caps at neutral and full turret yaw/elevation; preserve muzzle-owner collision handling.",
+    "Use measured suggested outside points/bases as original geometry reference;10mm offset is not swept-volume/projectile-radius proof.",
+    "After transforms are understood stage an isolated source successor; first single actual launch and owner/muzzle clearance,flight,fuse/cloud,ammo before fullsalvo/empty/rearm/stack compatibility.",
+    "If composing withV11 reparent art turret to the qualified smoke wrapper and retain extra components;do not bypass smoke turret."
+  ],
+  "limits": [
+    "Current model measurement, not factory dimensions or a new art acceptance",
+    "10mm outside offset is an inferred staging margin; native projectile radius/owner collision handling not tested",
+    "Geometric heading/elevation are descriptive; verify native PointInfo Euler signs against the provided basis before setting Angles",
+    "Eight bodies have parallel source axes per flank; recovered WCS fan directions differ and need explicit functional-owner choice",
+    "Closed cap artwork remains rigid; cap ejection/empty-tube appearance is not implemented",
+    "Point rays do not prove swept-volume, actual WCS launch, firing cloud or impact clearance"
+  ],
+  "runtimeCoordinator": "01a15f4d-277b-76d9-b72f-4dde42bec0f4",
+  "runtime": "NOT_TESTED"
+}

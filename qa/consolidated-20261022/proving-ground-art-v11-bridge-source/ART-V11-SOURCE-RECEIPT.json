@@ -1,0 +1,15 @@
+{
+  "status": "ADDITIVE_SOURCE_PRESENT_NEW_PADS_UNBOUND_NATIVE_NOT_TESTED",
+  "previousManifestSHA256": "05217d8f6751c1184bab09573a27349e67bdb1dd3ef89e595526ed29e6916d90",
+  "originalCoreUnchanged": 1112,
+  "addedOverlayFiles": 35,
+  "overlayManifestSHA256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce",
+  "functionalHandoffSHA256": "ec3bf61052e3404ac657d12636c2cec5df64d5cbd13ffbec55c96e8bd61cba3e",
+  "seedModels": 5,
+  "seedState": "BASELINE_REGISTRATION_SEEDS_NOT_NATIVE_V11_GEOMETRY",
+  "newPads": "UNBOUND",
+  "nativeCompile": "NOT_TESTED",
+  "nativeImport": "NOT_TESTED",
+  "visualAcceptance": "NOT_TESTED",
+  "dWrites": false
+}

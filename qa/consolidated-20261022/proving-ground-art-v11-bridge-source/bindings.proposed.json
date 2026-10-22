@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "bindings": {
+    "gepard-proving-ground-startup": {
+      "job": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\gpg-startup-job.json",
+      "description": "Source-only bounded GPG startup and emitted survey consistency; all native qualification pending.",
+      "outputRoot": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\future-evidence"
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "status": "OFFLINE_REIMPORT_GEOMETRY_WEIGHTS_BONE_FRAMES_PASS",
+  "families": [
+    {
+      "family": "Assets/Mobility/MobilityRig.fbx",
+      "meshes": [
+        {
+          "mesh": "GEP_RearCover_LOD0",
+          "vertices": 5686,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 5,
+          "native_skinning": "NOT_TESTED"
+        },
+        {
+          "mesh": "GEP_ReturnRoller648_LOD0",
+          "vertices": 13040,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        },
+        {
+          "mesh": "GEP_WheelWebs_LOD0",
+          "vertices": 19292,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        },
+        {
+          "mesh": "MobilityRig_LOD0",
+          "vertices": 161943,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        },
+        {
+          "mesh": "GEP_EngineDeck_LOD0",
+          "vertices": 12248,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        }
+      ],
+      "bone_count": 234,
+      "all_bone_names_and_parents_equal": true,
+      "rest_bone_matrix_max_component_delta": 0
+    },
+    {
+      "family": "Assets/Gepard/GepardTurretRig.fbx",
+      "meshes": [
+        {
+          "mesh": "GEP_RearCapSeats651_LOD0",
+          "vertices": 2116,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap",
+            "SourceUV_TurretShell_Preimage"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        },
+        {
+          "mesh": "GepardTurretRig_LOD0",
+          "vertices": 44492,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap",
+            "SourceUV_TurretShell_Preimage"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        }
+      ],
+      "bone_count": 6,
+      "all_bone_names_and_parents_equal": true,
+      "rest_bone_matrix_max_component_delta": 0
+    },
+    {
+      "family": "Assets/Gepard/RemainingExterior669/RightStorage669.fbx",
+      "meshes": [
+        {
+          "mesh": "GEP_StowageSeated_LOD0",
+          "vertices": 7738,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        }
+      ],
+      "bone_count": 234,
+      "all_bone_names_and_parents_equal": true,
+      "rest_bone_matrix_max_component_delta": 0
+    },
+    {
+      "family": "Assets/Gepard/GepardGunLeft.fbx",
+      "meshes": [
+        {
+          "mesh": "GepardGunLeft_LOD0",
+          "vertices": 11022,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        }
+      ],
+      "bone_count": 0,
+      "all_bone_names_and_parents_equal": true,
+      "rest_bone_matrix_max_component_delta": 0
+    },
+    {
+      "family": "Assets/Gepard/GepardGunRight.fbx",
+      "meshes": [
+        {
+          "mesh": "GepardGunRight_LOD0",
+          "vertices": 11133,
+          "vertex_coordinate_max_delta_m": 0.0,
+          "all_vertex_bone_names_equal": true,
+          "maximum_weight_delta": 0,
+          "used_material_roles_equal": true,
+          "uv_layers_present": [
+            "UVMap"
+          ],
+          "blender_reimport_compacted_degenerate_triangles": 0,
+          "native_skinning": "NOT_TESTED"
+        }
+      ],
+      "bone_count": 0,
+      "all_bone_names_and_parents_equal": true,
+      "rest_bone_matrix_max_component_delta": 0
+    }
+  ],
+  "native_dynamic_acceptance": "PENDING_USER_RESUME_AND_COORDINATOR_TEST"
+}

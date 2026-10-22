@@ -1,0 +1,144 @@
+{
+  "status": "SOURCE_ONLY_READY_NATIVE_BLOCKED_BY_USER_HOLD_AND_PENDING_QUALIFICATION",
+  "scope": "ONE_GPG_STARTUP_AND_SURVEY_TELEMETRY_CONSISTENCY_CASE",
+  "selectedFiles": 24,
+  "files": [
+    {
+      "relative": "bootstrap.py",
+      "sha256": "60725a4b338ced7bf7f8beccb4af8b853ed2549b4df3e1695cc1ed8db4ebf66d",
+      "bytes": 5437
+    },
+    {
+      "relative": "ART-V11-SOURCE-RECEIPT.json",
+      "sha256": "24e8c2bf1d327a08cbe700e6397b9d9b96493d6c427c54268c1dc6b42497e6d7",
+      "bytes": 659
+    },
+    {
+      "relative": "README.md",
+      "sha256": "0d76addcc25b83aacfc2ef7e43686ba8bfef6aa87e200c99633c94c52c227362",
+      "bytes": 9147
+    },
+    {
+      "relative": "prepare.py",
+      "sha256": "01fe88a4241bbe82df6091aea6b2b7bca870e9b0c01f878840606b229faf6e6b",
+      "bytes": 16526
+    },
+    {
+      "relative": "adapter.py",
+      "sha256": "24821b3051b0676852f1629568848a08c53b74be9f23dfceefe4b29a164c0355",
+      "bytes": 13704
+    },
+    {
+      "relative": "evidence.py",
+      "sha256": "107bdd3eadbf15be543ffefb1cea8e787d749e389c632c5310754342898dca10",
+      "bytes": 9063
+    },
+    {
+      "relative": "selftest.py",
+      "sha256": "12a681d072ffb63ff3a455f7f93f3d62a154cfebb43b3642c3907e1828dcf9dc",
+      "bytes": 11877
+    },
+    {
+      "relative": "plan_job.py",
+      "sha256": "33729c4b9551ab5219228a8f5b06ba0cb9025cb7011dadf5c28e82a6f6aa5ae5",
+      "bytes": 1320
+    },
+    {
+      "relative": "seal.py",
+      "sha256": "842fbf7702323d637bdc6bc0df26d6ede411fd5d7d8abd5fdabb4026e636b7e1",
+      "bytes": 2296
+    },
+    {
+      "relative": "tools/Scene.ps1",
+      "sha256": "d54c1204ec57675b265ef281ca4ae1d2875374da098d4a6257c91bc28ba62e53",
+      "bytes": 12702
+    },
+    {
+      "relative": "tools/Scene-proving-ground.patch",
+      "sha256": "02226196273417c48f0d7cc53c5b69246098226aa811e62edcc719c2e31a6cfb",
+      "bytes": 4374
+    },
+    {
+      "relative": "GEPARD_SOURCE_MANIFEST.json",
+      "sha256": "f900c3fd1aa4efbc82169dada0ee68cca13aac7de3364ea9adfbf81c4ec28be4",
+      "bytes": 146969
+    },
+    {
+      "relative": "QA_SOURCE_MANIFEST.json",
+      "sha256": "87c4a4a76c5f739d4e04e5a736a464645cc458ecdf6a533ce256af38d47f3ed4",
+      "bytes": 1011
+    },
+    {
+      "relative": "SOURCE-CLOSURES.json",
+      "sha256": "3cb0a0bb0981963efb9b96d8bba85eb8f505264592c8daaac61abcac7d5fbb99",
+      "bytes": 468
+    },
+    {
+      "relative": "MARKER-CONTRACT.json",
+      "sha256": "aa77d8f05dfbc5426be772f7deece055aa863275f81f21045f158f2c2fd9760e",
+      "bytes": 10278
+    },
+    {
+      "relative": "COMPILE-ADOPTION-PENDING.json",
+      "sha256": "61183e9792428777a33dd169d73a9c876ddfde37921abb69d76338e010c17487",
+      "bytes": 430
+    },
+    {
+      "relative": "WRAPPER-ADAPTATION.json",
+      "sha256": "5f6ebe436f2b3456ad03574c1d792f6a1439a7e0bf3ebf025ca2f2b733c45d06",
+      "bytes": 1359
+    },
+    {
+      "relative": "gpg-startup-job.json",
+      "sha256": "64f70b42377bcf2590eedd4e514b9553773453fd9d2cd585d76451ca39d07486",
+      "bytes": 7646
+    },
+    {
+      "relative": "bindings.proposed.json",
+      "sha256": "99a89b76bb7a2573d420aace120aeb454fc0bd0512eef6d462e0f12e2d4957e6",
+      "bytes": 465
+    },
+    {
+      "relative": "SOURCE-RECEIPT.json",
+      "sha256": "24cba31822ceba222f761d964bac2eaa0f56800b36f29ca52d972ef09147827c",
+      "bytes": 645
+    },
+    {
+      "relative": "PLAN.json",
+      "sha256": "cf1f590ed846969bdaa44d7d9a8ed3e482fbfe7a1a8ef04f42238e9b35a82dae",
+      "bytes": 12388
+    },
+    {
+      "relative": "PLAN-RECEIPT.json",
+      "sha256": "c5f7792a8ca47e83b8fc31f13846e7a45be28d8cd9126d6a950d0a63f3d477a2",
+      "bytes": 1555
+    },
+    {
+      "relative": "SELFTEST-RESULT.json",
+      "sha256": "ff36442acaa695504b3d3456887524111d511e944889a261906f59de6e450ad6",
+      "bytes": 7194
+    },
+    {
+      "relative": "WRAPPER-SYNTAX.json",
+      "sha256": "861efafa50f44cc998b96535320332e18691c976ac9245e02cc79a6e7c43fc9a",
+      "bytes": 108
+    }
+  ],
+  "jobSHA256": "64f70b42377bcf2590eedd4e514b9553773453fd9d2cd585d76451ca39d07486",
+  "closureDescriptorSHA256": "3cb0a0bb0981963efb9b96d8bba85eb8f505264592c8daaac61abcac7d5fbb99",
+  "closureFiles": 1157,
+  "offlineTests": 79,
+  "authoritativePlan": "PASS_STATIC_ONLY",
+  "nativeStageAdopted": true,
+  "nativeCompile": "NOT_TESTED",
+  "nativeRuntime": "NOT_TESTED",
+  "stationGameplay": "NOT_TESTED",
+  "newArt": "UNBOUND",
+  "optionalSmokeAudio": "EXCLUDED",
+  "userHold": "UNCHANGED",
+  "writes": "NEW_C_PACKAGE_ONLY",
+  "nativeInvoked": false,
+  "dWrites": false,
+  "liveRegistryMutated": false,
+  "runtimeLeaseMutated": false
+}

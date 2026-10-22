@@ -1,0 +1,31 @@
+{
+  "status": "ADDITIVE_SOURCE_INSTALLED_SEEDS_NOT_NATIVE_REBUILT",
+  "utc": "2026-10-22T01:51:40.965733+00:00",
+  "ownerHandoffSHA256": "ec3bf61052e3404ac657d12636c2cec5df64d5cbd13ffbec55c96e8bd61cba3e",
+  "overlayManifestSHA256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce",
+  "destinations": [
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\addon",
+      "coreFilesPreserved": 1112,
+      "overlayAdded": 35,
+      "totalFiles": 1147,
+      "allCorePinsUnchanged": true
+    },
+    {
+      "root": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard",
+      "coreFilesPreserved": 1112,
+      "overlayAdded": 35,
+      "totalFiles": 1147,
+      "allCorePinsUnchanged": true
+    }
+  ],
+  "unboundSlots": [
+    "NEW-CAMO",
+    "NEW-CHARCOAL"
+  ],
+  "sharedRuntimeSHA256": "301fc4d440a5d1635e5e129594a5fa1c008b29b8f4d70258e55e02904d701fcb",
+  "nativeStarted": false,
+  "GUIAction": false,
+  "leaseMutated": false,
+  "published": false
+}

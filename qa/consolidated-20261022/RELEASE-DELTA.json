@@ -18,5 +18,11 @@
     "Prefabs/Weapons/GEP_VehicleTurret.et": "3d4ff9a29a4689777172baf576fe69f8b17f8332a42c98faa5949516750d14ed",
     "Configs/System/chimeraInputCommon.conf": "2a902cefabf0dce25cb80182bd1d830c1aa785ad565b2912320eba56159a6aeb"
   },
-  "interpretation": "Static byte preservation of accepted configs; runtime compatibility remains untested, particularly with optional WCS globals"
+  "interpretation": "Static byte preservation of accepted configs; runtime compatibility remains untested, particularly with optional WCS globals",
+  "fileCountScope": "1112original core files;35additive art files recorded separately",
+  "corePreservedAgainst40ad931": 1112,
+  "artOverlayAdded": 35,
+  "totalCandidateAddonFiles": 1147,
+  "artOverlayManifest": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\COMPARISON_OVERLAY_MANIFEST.json",
+  "artCookedStatus": "BASELINE_SEEDS_NOT_NATIVE_V11"
 }

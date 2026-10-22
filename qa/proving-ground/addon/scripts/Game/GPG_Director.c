@@ -233,7 +233,7 @@ class GPG_Director : GenericEntity
     IEntity entity=agent.GetControlledEntity();if(entity && HostileActors.Find(entity)<0)HostileActors.Insert(entity);
    }
   }
-  foreach(IEntity owned:HostileActors)if(owned)SCR_EntityHelper.DeleteEntityAndChildren(owned);
+  foreach(IEntity hostileOwned:HostileActors)if(hostileOwned)SCR_EntityHelper.DeleteEntityAndChildren(hostileOwned);
   HostileActors.Clear();
   if(Hostiles)SCR_EntityHelper.DeleteEntityAndChildren(Hostiles);Hostiles=null;
   if(Defend)SCR_EntityHelper.DeleteEntityAndChildren(Defend);Defend=null;

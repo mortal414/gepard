@@ -1,0 +1,4 @@
+// Private visual-only child; existing hull slot and material roles inherited.
+GenericEntity : "{43B95086D5DF4000}Prefabs/Art/GepardStowageSeated591.et" {
+ components { MeshObject "{9FDA06F22D7D4E84}" { Object "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob" } }
+}

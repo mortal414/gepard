@@ -9,6 +9,13 @@ parser.add_argument('--slot',required=True,choices=['OLD-CAMO','OLD-CHARCOAL','N
 parser.add_argument('--prefab',required=True)
 parser.add_argument('--label',required=True)
 args=parser.parse_args()
+if args.slot.startswith('NEW-'):
+ import subprocess,sys
+ gate=ROOT.parent/'consolidated-20261022/art-v11/check_rebuild.py'
+ result=subprocess.run([sys.executable,str(gate)],capture_output=True,text=True)
+ if result.returncode!=0:
+  print(result.stdout)
+  raise SystemExit('NEW binding refused: native V11 rebuild/registration gate has not passed')
 path=ROOT/'registry/variants.json'
 data=json.loads(path.read_text())
 resource_file(Path(data['sharedRuntime']['sourceRoot']),args.prefab)

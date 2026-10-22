@@ -1,0 +1,60 @@
+{
+  "status": "PASS_REFUSAL_CHECKS_ONLY",
+  "baselineSeedsRejected": {
+    "status": "NOT_READY",
+    "reasons": [
+      "Baseline registration seed not rebuilt: Assets/ArtV11/Mobility/MobilityRig.xob",
+      "Baseline registration seed not rebuilt: Assets/ArtV11/Gepard/GepardTurretRig.xob",
+      "Baseline registration seed not rebuilt: Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+      "Baseline registration seed not rebuilt: Assets/ArtV11/Gepard/GepardGunLeft.xob",
+      "Baseline registration seed not rebuilt: Assets/ArtV11/Gepard/GepardGunRight.xob",
+      "Authentic native import/adoption is pending",
+      "Native run provenance absent",
+      "Bones/material/part registration review incomplete",
+      "Adoption does not pin current cooked model: {01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob",
+      "Adoption does not pin authored FBX: Assets/ArtV11/Mobility/MobilityRig.fbx",
+      "Adoption does not pin current cooked model: {1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob",
+      "Adoption does not pin authored FBX: Assets/ArtV11/Gepard/GepardTurretRig.fbx",
+      "Adoption does not pin current cooked model: {C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+      "Adoption does not pin authored FBX: Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.fbx",
+      "Adoption does not pin current cooked model: {94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob",
+      "Adoption does not pin authored FBX: Assets/ArtV11/Gepard/GepardGunLeft.fbx",
+      "Adoption does not pin current cooked model: {96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob",
+      "Adoption does not pin authored FBX: Assets/ArtV11/Gepard/GepardGunRight.fbx",
+      "Native rebuild/registration raw evidence absent",
+      "Explicit user runtime resume/admission pending"
+    ],
+    "models": [
+      {
+        "resource": "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob",
+        "currentSHA256": "29b11eb0b809be7268c92201049dfd6795b939de8701354ba90aa04c5637e801",
+        "changedFromSeed": false
+      },
+      {
+        "resource": "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob",
+        "currentSHA256": "29c40f92026bb0eabdabed27e135b6545613855ea43605c04d3aac8b2eeed198",
+        "changedFromSeed": false
+      },
+      {
+        "resource": "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+        "currentSHA256": "4160a30b33b64dda89ad509047953c6c761af8355b5eaeff901241eb71d4831b",
+        "changedFromSeed": false
+      },
+      {
+        "resource": "{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob",
+        "currentSHA256": "dd12be49219736787710173276b39ddbd9d75d21e0fa4cd8fd83fdbdef4f824b",
+        "changedFromSeed": false
+      },
+      {
+        "resource": "{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob",
+        "currentSHA256": "420f3f76163233483a77569bf488c726405b34f60c1eb4b6515a64e7185cd2fc",
+        "changedFromSeed": false
+      }
+    ],
+    "userArtAcceptance": "PENDING_SEPARATE_JUDGMENT",
+    "nativeStarted": false
+  },
+  "NEWBindingRefused": true,
+  "registryUnchanged": true,
+  "nativeStarted": false
+}

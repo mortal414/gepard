@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "status": "NOT_TESTED",
+  "nativeRun": null,
+  "rebuiltModelSHA256": {},
+  "sourceFBXSHA256": {},
+  "registration": {
+    "bones": "NOT_TESTED",
+    "materials": "NOT_TESTED",
+    "parts": "NOT_TESTED"
+  },
+  "evidenceFiles": [],
+  "userAcceptance": "PENDING",
+  "reason": "User runtime hold active; cooked overlay models are baseline registration seeds, no native rebuild performed"
+}

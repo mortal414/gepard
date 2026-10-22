@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "status": "NOT_TESTED",
+  "reason": "Plan only; capabilities are declarations, native compile/load and behavior remain untested",
+  "job": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\gpg-startup-job.json",
+  "jobSha256": "64f70b42377bcf2590eedd4e514b9553773453fd9d2cd585d76451ca39d07486",
+  "template": "startup",
+  "templateSha256": "f9cdb4cf78db36f912c094cee6aba0a40834870e95155a221a700b6cc8959672",
+  "project": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+  "projectGuid": "A76A420022000001",
+  "world": "Worlds/GPG_Arland.ent",
+  "dependencies": {
+    "A76A420022000001": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+      "dependencies": [
+        "58D0FB3206B6F859",
+        "D561AD08932E7B40"
+      ]
+    },
+    "58D0FB3206B6F859": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\ArmaReforger.gproj",
+      "dependencies": [
+        "5614BBCCBB55ED1C"
+      ]
+    },
+    "5614BBCCBB55ED1C": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\core\\core.gproj",
+      "dependencies": []
+    },
+    "D561AD08932E7B40": {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Gepard.gproj",
+      "dependencies": [
+        "58D0FB3206B6F859"
+      ]
+    }
+  },
+  "classDefinitions": {
+    "GPG_Director": [
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Director.c"
+    ],
+    "GPG_Layout": [
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Layout.c"
+    ],
+    "GPG_Resources": [
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Resources.c"
+    ],
+    "GPG_BoardComponent": [
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Actions.c"
+    ],
+    "GPG_ManualSpawnLogic": [
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Director.c"
+    ],
+    "GEP_GunStatus": [
+      "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_GunStatus.c"
+    ]
+  },
+  "pins": [
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\GepardProvingGround.gproj",
+      "bytes": 253,
+      "sha256": "561a6370a828266d5df2039ed30a803138c51727b576e118c9cc10b654cfcbe4"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\Worlds\\GPG_Arland.ent",
+      "bytes": 91,
+      "sha256": "eb1959b7c17f18e0c1a13b8b8346cc2b798109024e20e22edd364674590c3a58"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\data\\ArmaReforger.gproj",
+      "bytes": 47588,
+      "sha256": "4afb075b47d57d1a8af8b1b2bd7a76e65d456074aeafcd8bdcd92c98fb48a85c"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons\\core\\core.gproj",
+      "bytes": 2356,
+      "sha256": "d27c2324743cb3c63839ce22f0b371347bdf0aa90e17067a0da8f40a75047dec"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\Gepard.gproj",
+      "bytes": 666,
+      "sha256": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\adapter.py",
+      "bytes": 13704,
+      "sha256": "24821b3051b0676852f1629568848a08c53b74be9f23dfceefe4b29a164c0355"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\evidence.py",
+      "bytes": 9063,
+      "sha256": "107bdd3eadbf15be543ffefb1cea8e787d749e389c632c5310754342898dca10"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\tools\\Scene.ps1",
+      "bytes": 12702,
+      "sha256": "d54c1204ec57675b265ef281ca4ae1d2875374da098d4a6257c91bc28ba62e53"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\COMPILE-ADOPTION-PENDING.json",
+      "bytes": 430,
+      "sha256": "61183e9792428777a33dd169d73a9c876ddfde37921abb69d76338e010c17487"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\SOURCE-CLOSURES.json",
+      "bytes": 468,
+      "sha256": "3cb0a0bb0981963efb9b96d8bba85eb8f505264592c8daaac61abcac7d5fbb99"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\GEPARD_SOURCE_MANIFEST.json",
+      "bytes": 146969,
+      "sha256": "f900c3fd1aa4efbc82169dada0ee68cca13aac7de3364ea9adfbf81c4ec28be4"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\QA_SOURCE_MANIFEST.json",
+      "bytes": 1011,
+      "sha256": "87c4a4a76c5f739d4e04e5a736a464645cc458ecdf6a533ce256af38d47f3ed4"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\MARKER-CONTRACT.json",
+      "bytes": 10278,
+      "sha256": "aa77d8f05dfbc5426be772f7deece055aa863275f81f21045f158f2c2fd9760e"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\ART-V11-SOURCE-RECEIPT.json",
+      "bytes": 659,
+      "sha256": "24e8c2bf1d327a08cbe700e6397b9d9b96493d6c427c54268c1dc6b42497e6d7"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-ArtFunctional-V11-20261022\\COMPARISON_OVERLAY_MANIFEST.json",
+      "bytes": 11674,
+      "sha256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-ArtFunctional-V11-20261022\\FUNCTIONAL_HANDOFF.json",
+      "bytes": 7416,
+      "sha256": "ec3bf61052e3404ac657d12636c2cec5df64d5cbd13ffbec55c96e8bd61cba3e"
+    },
+    {
+      "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\DELIVERABLE-MANIFEST.json",
+      "bytes": 4407,
+      "sha256": "05217d8f6751c1184bab09573a27349e67bdb1dd3ef89e595526ed29e6916d90"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\variant-lock.json",
+      "bytes": 154584,
+      "sha256": "deb3ab17fcd5ae1872b9ccbd8c73674017e84c978d3ea22d07df18d29f64f599"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\checks\\world-source-manifest.json",
+      "bytes": 1203,
+      "sha256": "c672cf262b4e3d952518d3e2630a0838329f3c81ac11c8878b7ee20b3003276b"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\registry\\variants.json",
+      "bytes": 1620,
+      "sha256": "043c9c0455f8923b3ca3c782f0d430e0c21dabd2cf3060da3c67488a6909f6a4"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\registry\\stations.json",
+      "bytes": 7838,
+      "sha256": "cd50d59a7b2180feebb99762cb5fc54365c6e7ea8b6efb61c2069bb790f5cd57"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground\\registry\\resources.json",
+      "bytes": 1479,
+      "sha256": "4e4355de0521a115fdb996442efb6ce62a7e25941ea5c6daa9ccc13f2cb98441"
+    },
+    {
+      "path": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+      "bytes": 301368,
+      "sha256": "362a356ce7f0940ec74f73a8fc2c990a2cc24a38a11c90bbd8eca947110ad139"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\ArmaReforgerSteamDiag.exe",
+      "bytes": 40060472,
+      "sha256": "51f941dee28bda7865e2428d7fc92fcbe7c5c7ff666caf642c0ff23c2aced457"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Actions.c",
+      "bytes": 1660,
+      "sha256": "dfbdead1e1f84d09651df25bb571cc7b6115ae2b41de381acc2cb45e8fbda0ee"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Director.c",
+      "bytes": 15083,
+      "sha256": "8c4dc0b87914dc6500c5e6064319dec0b83433b1c97d96981255a3bcdbb199c4"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Layout.c",
+      "bytes": 10260,
+      "sha256": "04e97d6adaef8fcfa9c0d1a98e7a984d9c288dcc0c71ad9af9d1dcca64f92132"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\provingGround\\scripts\\Game\\GPG_Resources.c",
+      "bytes": 2133,
+      "sha256": "b1edde5d0879c279311cabd89d1b06799755ba66bbc95742a201db30d2655102"
+    },
+    {
+      "path": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage\\gepard\\scripts\\Game\\GEP\\GEP_GunStatus.c",
+      "bytes": 36913,
+      "sha256": "db84c6c9afc57be1a8b1406e0b40dbe8e0a047b2ee00074f093da436d3ce1966"
+    }
+  ],
+  "executable": {
+    "path": "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "bytes": 103192,
+    "sha256": "5923b0694874cee74169c2dffdc14ef3cbd8c0228964fd0f6348e4df8cb3c5f4"
+  },
+  "script": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\adapter.py",
+  "args": [
+    "{script}",
+    "{request}",
+    "{result}",
+    "{cancel}"
+  ],
+  "coordinator": {
+    "path": "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\tools\\workflow.py",
+    "bytes": 30420,
+    "sha256": "7dddb20a91f98f8613819e69dd68076f6e80b50cb80fbeb1b809609831b75eac"
+  },
+  "capabilities": [
+    "isolated-reset",
+    "owned-lifecycle",
+    "native-load"
+  ],
+  "cases": [
+    {
+      "id": "gpg-startup-survey",
+      "parameters": {
+        "wrapper": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\tools\\Scene.ps1",
+        "wrapperSHA256": "d54c1204ec57675b265ef281ca4ae1d2875374da098d4a6257c91bc28ba62e53",
+        "powerShell": "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "closures": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\SOURCE-CLOSURES.json",
+        "closurePinSHA256": "3cb0a0bb0981963efb9b96d8bba85eb8f505264592c8daaac61abcac7d5fbb99",
+        "completeManifestPins": {
+          "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\QA_SOURCE_MANIFEST.json": "87c4a4a76c5f739d4e04e5a736a464645cc458ecdf6a533ce256af38d47f3ed4",
+          "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\GEPARD_SOURCE_MANIFEST.json": "f900c3fd1aa4efbc82169dada0ee68cca13aac7de3364ea9adfbf81c4ec28be4"
+        },
+        "compileAdoption": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\COMPILE-ADOPTION-PENDING.json",
+        "markerContract": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\MARKER-CONTRACT.json",
+        "markerContractSHA256": "aa77d8f05dfbc5426be772f7deece055aa863275f81f21045f158f2c2fd9760e",
+        "addonId": "A76A420022000001",
+        "addonSearchPath": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-stage,D:\\SteamLibrary\\steamapps\\common\\Arma Reforger\\addons",
+        "seconds": 60,
+        "screenWidth": 1280,
+        "screenHeight": 720,
+        "adapterDeadlineSeconds": 100,
+        "childLogLimitBytes": 4194304
+      },
+      "assertions": [
+        "fixture.ready",
+        "world.loaded",
+        "gpg.startup",
+        "gpg.telemetry-consistent",
+        "native.errors"
+      ]
+    }
+  ],
+  "timeoutSeconds": 130,
+  "closeGraceSeconds": 35,
+  "limits": "GAME or compile alone proves startup only. Validate serialized classes and attributes in a native load."
+}

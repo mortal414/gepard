@@ -1,0 +1,68 @@
+{
+  "status": "PENDING_NATIVE_REBUILD_AND_REGISTRATION_NOT_BOUND",
+  "bindings": {
+    "NEW-CAMO": "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+    "NEW-CHARCOAL": "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et"
+  },
+  "models": [
+    {
+      "source_original_model": "{D561AD08932E1202}Assets/Mobility/MobilityRig.xob",
+      "new_model": "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob",
+      "fbx": "Assets/ArtV11/Mobility/MobilityRig.fbx",
+      "fbx_sha256": "760d8e00f322351442116e55f536b2b26923d3f4bf48f34160c3f048ed847aa6",
+      "meta": "Assets/ArtV11/Mobility/MobilityRig.xob.meta",
+      "seed_xob_sha256": "29b11eb0b809be7268c92201049dfd6795b939de8701354ba90aa04c5637e801",
+      "seed_is_baseline_not_v11": true,
+      "must_rebuild_before_binding_NEW": true,
+      "original_bones_transforms_colliders_and_other_LODs_preserved": true
+    },
+    {
+      "source_original_model": "{D561AD08932E5100}Assets/Gepard/GepardTurretRig.xob",
+      "new_model": "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob",
+      "fbx": "Assets/ArtV11/Gepard/GepardTurretRig.fbx",
+      "fbx_sha256": "5dc53fdc3d0c7f9df0dfa5c5a5d8d2933cfa6d640b43173cbcf97b174dca3cd8",
+      "meta": "Assets/ArtV11/Gepard/GepardTurretRig.xob.meta",
+      "seed_xob_sha256": "29c40f92026bb0eabdabed27e135b6545613855ea43605c04d3aac8b2eeed198",
+      "seed_is_baseline_not_v11": true,
+      "must_rebuild_before_binding_NEW": true,
+      "original_bones_transforms_colliders_and_other_LODs_preserved": true
+    },
+    {
+      "source_original_model": "{0FC8C41A33864557}Assets/Gepard/RemainingExterior669/RightStorage669.xob",
+      "new_model": "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+      "fbx": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.fbx",
+      "fbx_sha256": "21994af72fa5681ca8e2794b3e736b5486e2b5f66fd642d5972e3421e5c604a9",
+      "meta": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob.meta",
+      "seed_xob_sha256": "4160a30b33b64dda89ad509047953c6c761af8355b5eaeff901241eb71d4831b",
+      "seed_is_baseline_not_v11": true,
+      "must_rebuild_before_binding_NEW": true,
+      "original_bones_transforms_colliders_and_other_LODs_preserved": true
+    },
+    {
+      "source_original_model": "{D561AD08932E3102}Assets/Gepard/GepardGunLeft.xob",
+      "new_model": "{94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob",
+      "fbx": "Assets/ArtV11/Gepard/GepardGunLeft.fbx",
+      "fbx_sha256": "d621501bf806a36b7a10a9f60720aa613c2f767ec84f06aacd767845edb8e949",
+      "meta": "Assets/ArtV11/Gepard/GepardGunLeft.xob.meta",
+      "seed_xob_sha256": "dd12be49219736787710173276b39ddbd9d75d21e0fa4cd8fd83fdbdef4f824b",
+      "seed_is_baseline_not_v11": true,
+      "must_rebuild_before_binding_NEW": true,
+      "original_bones_transforms_colliders_and_other_LODs_preserved": true
+    },
+    {
+      "source_original_model": "{D561AD08932E3103}Assets/Gepard/GepardGunRight.xob",
+      "new_model": "{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob",
+      "fbx": "Assets/ArtV11/Gepard/GepardGunRight.fbx",
+      "fbx_sha256": "4a337b9a69704b702ae8a0df375bf391bc8b51cfc4df5a9c621b172781c5ff3a",
+      "meta": "Assets/ArtV11/Gepard/GepardGunRight.xob.meta",
+      "seed_xob_sha256": "420f3f76163233483a77569bf488c726405b34f60c1eb4b6515a64e7185cd2fc",
+      "seed_is_baseline_not_v11": true,
+      "must_rebuild_before_binding_NEW": true,
+      "original_bones_transforms_colliders_and_other_LODs_preserved": true
+    }
+  ],
+  "actualRegistryUnbound": true,
+  "seedModelsAreBaselineNotV11": true,
+  "gate": "check_rebuild.py must PASS with authentic native rebuild/adoption and bones/material/part evidence; explicit user resume required first",
+  "humanArtAcceptance": "PENDING"
+}

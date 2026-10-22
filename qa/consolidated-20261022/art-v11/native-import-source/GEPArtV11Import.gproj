@@ -1,0 +1,7 @@
+GameProject {
+ ID "GepardV11NativeImport"
+ GUID "7E0170C026102200"
+ TITLE "PRIVATE Gepard V11 articulated import"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" }
+ Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} }
+}

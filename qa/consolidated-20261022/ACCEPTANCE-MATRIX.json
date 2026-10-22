@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "goal": "One integrated overnight demo,one consolidated human session afterward",
+  "createdUtc": "2026-10-22T01:56:30.583427+00:00",
+  "allowedOutcomes": [
+    "not tested",
+    "failed",
+    "automated pass",
+    "manual judgment pending",
+    "accepted"
+  ],
+  "criteria": [
+    {
+      "id": "A01-launch",
+      "criterion": "One owned source/package launch loads exact selected world/addon closure and labeled OLD/current/NEW cases;no duplicateGUID or stalebuild.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A02-world",
+      "criterion": "Drivingloop,targetfan,isolateddamage lane and explicit reset boards work;actual terrain/sightlines surveyed.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A03-services",
+      "criterion": "Ordinary repair/refuel/rearm eligible actions change actual target/provider values with finite accounting;failurecontrols andfreshreset verified.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A04-reset",
+      "criterion": "Occupied/moving/moved/near-player reset rejected;validemptyfixture replaced once with newepoch,no old actor/sound/turretloops;knowninitialstate restored.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A05-art-rebuild",
+      "criterion": "Five exactFBXs nativelyrebuilt;all cookedhashes differfrombaseline seeds;native bones/material/part registration matches;OLDcore1112pins remain unchanged.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A06-art-dynamic",
+      "criterion": "Bothskins/full yaw/elevation,recoil/firing,hatches/crew/periscopes,track/wheelphases,LODs/shadows/collision/performance observed.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A07-HUD",
+      "criterion": "ApprovedGerman design renders cleanly;reticlecenter/zoom/aspects,glyphs/liveammo/bar/group/range/relativeangles match actualstate;no devwarnings.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A08-HUD-lifecycle",
+      "criterion": "Repeated sight/seat exit/reentry andfiring preserve truthfulvisibleHUD;cleanup/recovery observed.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A09-driving",
+      "criterion": "Accepted WHEELED poweredforward/reverse/brake/turn andRenginecontrol measured;controls restoredafter tests.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A10-survivingcrew",
+      "criterion": "Nearbyexplosion withactualdamage/survivorstate followedby exit/reentry/traverse/refire;no claimrealisticprotectionfromone matrix.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    },
+    {
+      "id": "A11-smoke",
+      "criterion": "Conditionalonly:actualalignedlaunch/flight/fuse/visiblecloud/ammo/full/empty/genuinerearm/dependencycompatibility;coveragehumanjudgmentseparate.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A12-trackaudio",
+      "criterion": "Conditionalonly:understoodselectiverollinggraph;actualaudible speed/coast/stop/idle behavior,retainedskid/dampers/lifecycle;qualityjudgmentseparate.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A13-human",
+      "criterion": "One station-based finalsession;Marco judges optic/art/smoke/audio asactuallyincluded.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "pending"
+    },
+    {
+      "id": "A14-cleanbuild",
+      "criterion": "Private samebuildgproj/pak/rdb andpackage-backed load;privateworld/demo keptseparatefromreleaseexport;no publication.",
+      "outcome": "not tested",
+      "evidence": [],
+      "manualJudgment": "separate where needed"
+    }
+  ],
+  "sourceEvidenceIsNotBehaviorPass": true,
+  "excluded": [
+    "unqualifiedsmoke/audiountilruntimepass",
+    "disabledstabilization/ballisticcorrectionstretchonlyaftercore",
+    "customcannonaudio",
+    "Isfahan"
+  ],
+  "newAcceptance": 0,
+  "publication": false,
+  "runtimeResumeAuthorizedUtc": "2026-10-22T01:52:00Z",
+  "buildEvidence": {
+    "compile-core-01": "FAILED_RESERVED_KEYWORD_OWNED",
+    "compile-core-02": "SCRIPT_COMPILE_PASS_EXIT0_NORMAL_RELEASE",
+    "startup-core-01": "CENSORED_ADAPTER_LEASE_READ_RACE;GPG_READY32RESOURCEFAILURE0;OWNED_NORMAL_EXIT0",
+    "compile-stock-roll-01": "FAILED_PROBE_ATTRIBUTE_GRAPH;TRACE_NOT_RUN"
+  }
+}

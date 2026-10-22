@@ -1,0 +1,131 @@
+{
+  "status": "OFFLINE_FUNCTIONAL_V11_HANDOFF_READY_NATIVE_QUALIFICATION_PENDING",
+  "utc": "2026-10-22T01:43:47.292378+00:00",
+  "root": "D:\\ArmaProjects\\Gepard-ArtFunctional-V11-20261022",
+  "compatible_baseline": {
+    "released_art": "1.0.2 / 699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7 (art identical to retained 1.0.1 sources)",
+    "coordinator_branch": "sprint/consolidated-proving-ground-20261022",
+    "coordinator_reported_commit": "40ad931",
+    "coordinator_stage": "D:/ArmaProjects/Gepard-Consolidated-20261022/native-stage/gepard",
+    "read_only_dry_run_against_coordinator_stage": "PASS for both replacement and additive overlay, no destination writes"
+  },
+  "recommended_comparison_delivery": {
+    "folder": "D:\\ArmaProjects\\Gepard-ArtFunctional-V11-20261022\\comparison-overlay",
+    "manifest": "D:\\ArmaProjects\\Gepard-ArtFunctional-V11-20261022\\COMPARISON_OVERLAY_MANIFEST.json",
+    "added_files": 35,
+    "old_resources_and_shared_core_unchanged": 1112,
+    "new_vehicle_prefabs": [
+      "{9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et",
+      "{231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et"
+    ],
+    "important": "Cooked xobs in overlay are genuine baseline resource clones used as registration seeds. They are NOT V11 geometry until all five FBXs are rebuilt. Keep NEW pads unbound until native import and rig/material verification pass."
+  },
+  "production_replacement_delivery": {
+    "manifest": "D:\\ArmaProjects\\Gepard-ArtFunctional-V11-20261022\\FUNCTIONAL_APPLY_MANIFEST.json",
+    "folder": "D:\\ArmaProjects\\Gepard-ArtFunctional-V11-20261022\\patch",
+    "fbx_families": 5,
+    "changed_close_meshes": 10,
+    "usage": "Separate candidate only after acceptance. Do not use this replacement mode for OLD/NEW comparison; it replaces shared baseline models."
+  },
+  "contracts": {
+    "old_resource_ids_untouched_in_comparison": true,
+    "original_fbx_node_ids_and_model_bone_parent_graph_exact": true,
+    "original_model_pivots_and_bind_matrices_exact": true,
+    "original_crew_muzzle_ik_radar_hatch_nodes_exact": true,
+    "original_collision_meshes_and_unchanged_LODs_exact": true,
+    "per_vertex_weight_reimport_pass": true,
+    "camo_and_charcoal_role_mapping": "Existing source roles retained, one new body material role added explicitly to default importer and charcoal child; full original charcoal body material block retained.",
+    "no_new_game_scripts": true,
+    "child_override_scope": "Visual model references and equivalent existing gun/storage/turret template pointers only; original slots, transforms, physics, controllers, crew and approved HUD inherited."
+  },
+  "offline_checks": {
+    "families_reimported": 5,
+    "original_model_owners": 37,
+    "changed_model_owners": 10,
+    "review_objects_merged": 98,
+    "native_bone_frames_reimported_sum": 474,
+    "maximum_bone_frame_component_delta": 0,
+    "gun_elevation_poses": 74,
+    "turret_yaw_poses": 73,
+    "combined_yaw_elevation_poses": 208,
+    "track_connector_phases": 12,
+    "new_surface_intersection_states": 0,
+    "min_sampled_gaps_m": {
+      "gun_vs_turret": 0.029730558395385742,
+      "new_chin_vs_body": 0.08679503947496414,
+      "gun_vs_body_combined": 0.0830075815320015,
+      "track_connectors_fixed_path": 0.06549990177154541
+    },
+    "source_snapshot_unchanged_files": 1112,
+    "added_overlay_reference_occurrences_resolved": 155
+  },
+  "smoke_alignment": {
+    "file": "D:\\ArmaProjects\\Gepard-ArtFunctional-V11-20261022\\checks\\SMOKE_ALIGNMENT_HANDOFF.json",
+    "eight_current_ports_measured": 8,
+    "prototype_minimum_port_position_mismatch_m": 0.9581324313329068,
+    "point_ray_first_metre_clear": true,
+    "not_applied": "Current WCS prototype is optional and excluded from core; functional owner must reconcile roots/points/directions if included. No smoke source was modified."
+  },
+  "excluded": [
+    "V09 conditional roof",
+    "Optional LOD/batching studies",
+    "Filtered bake study",
+    "Nine extra Blender procedural grain shaders",
+    "Unqualified WCS/audio/functional experiments"
+  ],
+  "native_status": "BLOCKED_PENDING_EXPLICIT_USER_RESUME; no art native session or GUI action after runtime hold",
+  "art_visual_acceptance": "PENDING_USER",
+  "dynamic_collision_skin_and_performance_acceptance": "PENDING_NATIVE_COORDINATOR_AND_USER_TEST",
+  "native_handback_receipt": "D:\\ArmaProjects\\Gepard-ArtCompare-V11-20261021\\ART-TO-FUNCTIONAL-HANDBACK-20261022.json",
+  "evidence": {
+    "checks/FUNCTIONAL_FBX_PATCH_PROOF.json": {
+      "sha256": "08d28923b38ed2c0fc8eb360bdcbee904f033cb5e8868b45e8aabce929368159",
+      "bytes": 293256
+    },
+    "checks/INDEPENDENT_FBX_READBACK.json": {
+      "sha256": "9a074a7955b3af053aad4e08771b13f22228e98d9cd2b7338b012fee2b7ed73c",
+      "bytes": 5911
+    },
+    "checks/CONFIGURED_KINEMATIC_SCREEN.json": {
+      "sha256": "0c978f78ff0cba99c705279ec07e78c4e8e8be8806dadc0c34a833ab988b778f",
+      "bytes": 70094
+    },
+    "checks/SMOKE_ALIGNMENT_HANDOFF.json": {
+      "sha256": "3145e0d0ae8f789aaa499ec1e1466f02ac103f5dac12220ab5b191de498ba7de",
+      "bytes": 22027
+    },
+    "checks/OFFLINE_ADDITIVE_INTEGRATION_PROOF.json": {
+      "sha256": "52b7ddec15ef47a8afceca4c4ce7a9fec7478564d05ee550aeb07c2f70b2de67",
+      "bytes": 2124
+    },
+    "FUNCTIONAL_APPLY_MANIFEST.json": {
+      "sha256": "1232192f34bc1c14c71d6e07b085329b9f14b281c260e940d82a0e8ea9a6b33f",
+      "bytes": 5774
+    },
+    "COMPARISON_OVERLAY_MANIFEST.json": {
+      "sha256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce",
+      "bytes": 11674
+    },
+    "UNRELEASED-V11-Functional-Prepared.blend": {
+      "sha256": "b9c8f2bd53f7e468d09e2f7f330b208347cdab1663581323a0c538c38cf40f5e",
+      "bytes": 438115182
+    }
+  },
+  "sources_preserved": true,
+  "published": false,
+  "source_scripts_sha256": {
+    "apply_functional_art_v11.py": "bd14d14871f07a16f688705177faf0dd3cfbbb7b2180ea70bbda73150f268702",
+    "audit_functional_poses_v11.py": "4257272797c05d0a0d3b0bf8eb07bb952670fe97f06dd31fcebc075632f6f6d5",
+    "build_functional_art_patch_v11.py": "455ecf87bbb4ee765ed1bd79615b4beeb2d30b97bffe3e6615e42e89626aca9a",
+    "build_functional_comparison_overlay_v11.py": "ad0a3fc4875bd8fb2967b88acdb025323258bba8429b5da24310a5465d532258",
+    "diagnose_functional_fbx_v11.py": "3f5f67aa1ec4ce67eb38b48f3ea76d2195e3e5a4070d8b625ca295657077d88c",
+    "finalize_functional_art_handoff_v11.py": "c3f196347c90800243d6309fc5703e0d9f22b8b336cdf9da80ca4c791ea3769d",
+    "GEP_ArtV11RebuildFunctional.c.template": "a196673d2522a6dae1808876c0b2868d28e774067a247a64d5866d6495bc158c",
+    "inspect_functional_art_v11.py": "5ffd1248ad74dc3cff2d2212bc55e72f8d88f20387a6a883295c6ea71b11bde0",
+    "install_functional_comparison_overlay_v11.py": "26441742f4248900111c64c37d1240563db7aa7a7df929c84cf6222903aaf079",
+    "measure_smoke_integration_v11.py": "9c97af9284b9939938cde9735d2a02e8eccdf4fd3578298db110ab8ad6d5e5f3",
+    "package_functional_art_v11.py": "040b8b97be3d546b3e90b3f3da939f6b8965db51a692c7bc29c8e56f14a574f5",
+    "resume_functional_art_splice_v11.py": "56030c7cb5ece2985338aca102bf94dcd800a0c150a5ac7e412708b85f5a296a",
+    "verify_functional_art_readback_v11.py": "e35ce974271e0dbb5867526d508c6f10ca4132542281500da277de0835433369"
+  }
+}

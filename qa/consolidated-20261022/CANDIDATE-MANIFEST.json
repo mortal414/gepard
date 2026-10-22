@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_ASSEMBLED_PROVING_GROUND_BOUND_ART_AND_NATIVE_QUALIFICATION_PENDING",
+  "status": "OVERNIGHT_NATIVE_QUALIFICATION_ACTIVE",
   "createdUtc": "2026-10-22T00:55:37.066743+00:00",
   "goal": "One complete consolidated user session tomorrow, followed by update only if accepted; no piecemeal demos tonight",
   "sourceRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022",
@@ -7,11 +7,13 @@
   "seedCommit": "66bcb81ea7aec6d98478a0b2fbab26863e9bcc6f",
   "baselineRelease": "699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7",
   "nativeHold": {
-    "active": true,
+    "active": false,
     "reason": "User using machine",
     "resume": "Explicit user resume required",
     "ownedAutomatedNativeRun": null,
-    "artHandback": "2026-10-22T00:46:19.3092117Z"
+    "artHandback": "2026-10-22T00:46:19.3092117Z",
+    "resumeAuthorizedUtc": "2026-10-22T01:52:00Z",
+    "resumeReceipt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\RUNTIME-RESUME.json"
   },
   "modules": {
     "HUD": {
@@ -30,12 +32,18 @@
       "GEP": [
         "017"
       ],
-      "sourceIncluded": false,
+      "sourceIncluded": true,
       "owner": "Separate art task",
       "staticDisplayEvidence": "Eight imports/four display checks passed per owner",
-      "functionalPatch": "PENDING_OWNER_HANDOFF",
+      "functionalPatch": "ADDITIVE35FILES_INTEGRATED_CORE1112PRESERVED",
       "dynamicChecks": "NOT_TESTED",
-      "userAcceptance": "PENDING"
+      "userAcceptance": "PENDING",
+      "cookedModelStatus": "FIVE_BASELINE_REGISTRATION_SEEDS_NOT_V11_REBUILT",
+      "nativeRebuild": "NOT_TESTED",
+      "actualNEWBindings": "PENDING_NOT_APPLIED",
+      "pendingBindings": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\PENDING-BINDINGS.json",
+      "nativeGate": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\REBUILD-PLAN.json",
+      "overlayManifestSHA256": "79d98415d1963782bff0d20e67226679c1dce69725cf579da80129443521e5ce"
     },
     "smoke": {
       "GEP": [
@@ -67,8 +75,8 @@
     "addonId": "A76A420022000001",
     "sourceOwnerCommit": "d42a569e46ee63c0e676361814a67394f7695d9f",
     "localSource": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\proving-ground",
-    "sharedRuntimeSHA256": "13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d",
-    "variantLockSHA256": "60471d4ba74bbb195e6c205f8bf688b016e57f13487ec8776d76a4f8d7368fca",
+    "sharedRuntimeSHA256": "301fc4d440a5d1635e5e129594a5fa1c008b29b8f4d70258e55e02904d701fcb",
+    "variantLockSHA256": "deb3ab17fcd5ae1872b9ccbd8c73674017e84c978d3ea22d07df18d29f64f599",
     "boundSlots": [
       "OLD-CAMO",
       "OLD-CHARCOAL"
@@ -92,9 +100,11 @@
     "A76A420022000001 private proving-ground child addon"
   ],
   "privateBuild": {
-    "compile": "NOT_TESTED",
+    "compile": "PASS_COMPILE_CORE_02",
     "packageTrio": "NOT_BUILT",
-    "cleanPackageLoad": "NOT_TESTED"
+    "cleanPackageLoad": "NOT_TESTED",
+    "nativeStartup": "ATTEMPT01_CENSORED_LEASE_READ_RACE_WORLD_READY_32_OBJECTS_NORMAL_EXIT0",
+    "gameplay": "NOT_TESTED"
   },
   "releaseFilesChanged": false,
   "published": false,
@@ -107,16 +117,19 @@
     "offlineChecks": 51,
     "staticPlan": "PASS_EXISTING_HUD_MODULE_ONLY",
     "provingGroundAdapter": "PENDING",
-    "execution": "NOT_ATTEMPTED_USER_HOLD_AND_COMPILE_ADOPTION_PENDING"
+    "execution": "NOT_ATTEMPTED_USER_HOLD_AND_COMPILE_ADOPTION_PENDING",
+    "currentExecutionPins": "HISTORICAL1112_CORE_PINS_NOT_CURRENT"
   },
   "sourceStaging": {
     "status": "EXACT_SOURCE_COPIES_ONLY",
     "closureDescriptor": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\SOURCE-CLOSURES.json",
-    "files": 1122,
+    "files": 1157,
     "resourceDatabaseRebuilt": false,
     "nativeCompile": "NOT_TESTED",
     "runtime": "NOT_TESTED",
-    "packageTrio": "NOT_BUILT"
+    "packageTrio": "NOT_BUILT",
+    "sharedCoreFilesPreserved": 1112,
+    "artOverlayFilesAdded": 35
   },
   "provingGroundBridge": {
     "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\proving-ground-bridge-source",
@@ -132,6 +145,27 @@
     "nativeCompile": "NOT_TESTED",
     "nativeLoad": "NOT_TESTED",
     "nativeLifecycle": "NOT_TESTED",
-    "execution": "PENDING_USER_RESUME_AND_REAL_COMPILE_ADOPTION_NOT_ATTEMPTED"
+    "execution": "PENDING_USER_RESUME_AND_REAL_COMPILE_ADOPTION_NOT_ATTEMPTED",
+    "currentExecutionPins": "HISTORICAL1112_CORE_PINS_NOT_CURRENT"
+  },
+  "provingGroundArtV11Bridge": {
+    "archive": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\proving-ground-art-v11-bridge-source",
+    "originalExecutionSource": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022",
+    "manifestSHA256": "b1cd73f0b9b593b84de7956e9367d25875827e67e75fea10707a347f1a354b46",
+    "jobSHA256": "64f70b42377bcf2590eedd4e514b9553773453fd9d2cd585d76451ca39d07486",
+    "offlineChecks": 79,
+    "staticPlan": "PASS_SOURCE_ONLY",
+    "powerShellSyntax": "PASS",
+    "filesVerified": 1157,
+    "nativeCompile": "NOT_TESTED",
+    "nativeRuntime": "NOT_TESTED",
+    "NEWArt": "UNBOUND_SEEDS_NOT_QUALIFIED",
+    "sourceCopyRelocatesExecutableBindings": false
+  },
+  "latestNativeEvidence": {
+    "successfulCompile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\compile-core-02\\RESULT.json",
+    "startupAttempt": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\startup-core-01",
+    "startupOwnership": "Verified normal owned close exit0/released02:06:57UTC; adapter result staysNOT_TESTED",
+    "stockTrace": "Compile failed Attribute/Graph calls;raw diagnostic sharedsupplier,no trace/playback"
   }
 }

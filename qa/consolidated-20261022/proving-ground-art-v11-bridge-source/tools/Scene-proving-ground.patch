@@ -1,0 +1,48 @@
+--- a/sealed-bridge/Scene.ps1
++++ b/proving-ground/Scene.ps1
+@@ -71,7 +71,7 @@
+ }
+ 
+ function AssertCompleteSources705 {
+- $closures=Get-Content -LiteralPath 'D:\ArmaProjects\Gepard-OpticApproved-20261022\qa\optic-approved-20261022\SOURCE-CLOSURES.json' -Raw | ConvertFrom-Json
++ $closures=Get-Content -LiteralPath 'C:\Users\marco\Documents\Codex\2026-10-21\task\GEP-ProvingGround-ArtV11-QA-20261022\SOURCE-CLOSURES.json' -Raw | ConvertFrom-Json
+  foreach($closure705 in $closures){
+   $pins705=Get-Content -LiteralPath $closure705.manifest -Raw | ConvertFrom-Json -AsHashtable
+   $files705=@(Get-ChildItem -LiteralPath $closure705.root -File -Recurse)
+@@ -85,7 +85,7 @@
+ 
+ if(!$Execute){
+  AssertCompleteSources705
+- @{status='SOURCE_PINS_PASS_NATIVE_NOT_TESTED';dryRun=$true;nativeStarted=$false;leaseMutated=$false;project=$Project;world=$World;manifest=$Manifest;addonId=$AddonId;screenWidth=$ScreenWidth;screenHeight=$ScreenHeight;requiredAdmission='Art user session retains slot; explicit handback and fresh native admission required'}|ConvertTo-Json -Depth 6
++ @{status='SOURCE_PINS_PASS_NATIVE_NOT_TESTED';dryRun=$true;nativeStarted=$false;leaseMutated=$false;project=$Project;world=$World;manifest=$Manifest;addonId=$AddonId;screenWidth=$ScreenWidth;screenHeight=$ScreenHeight;requiredAdmission='Explicit user resume, fresh ownership admission and actual compile adoption required'}|ConvertTo-Json -Depth 6
+  exit 0
+ }
+ if(UserRuntimeHold705){throw 'User runtime hold active; no native admission'}
+@@ -93,7 +93,11 @@
+ AssertCompleteSources705
+ if(Test-Path -LiteralPath $RunRoot){throw 'Fresh run root required'}
+ foreach($volume in Get-Volume -DriveLetter C,D){if($volume.SizeRemaining -lt 2GB){throw 'Below2GiB preflight'}}
+-$addon=[IO.Path]::GetDirectoryName($Project);$addons=[IO.Path]::GetDirectoryName($addon)
++$addon=[IO.Path]::GetDirectoryName($Project)
++if($Project -cne 'D:\ArmaProjects\Gepard-Consolidated-20261022\native-stage\provingGround\GepardProvingGround.gproj' -or $World -cne 'Worlds/GPG_Arland.ent' -or $AddonId -cne 'A76A420022000001'){throw 'Only frozen proving-ground startup project/world/addon is bound'}
++$addonRootsGPG=@('D:\ArmaProjects\Gepard-Consolidated-20261022\native-stage','D:\SteamLibrary\steamapps\common\Arma Reforger\addons')
++foreach($rootGPG in $addonRootsGPG){if(!(Test-Path -LiteralPath $rootGPG -PathType Container)){throw 'Explicit addon discovery root missing'}}
++$addons=$addonRootsGPG -join ','
+ if(!(Test-Path -LiteralPath $Project -PathType Leaf) -or ($World -ne 'worlds/GameMaster/GM_Arland.ent' -and !(Test-Path -LiteralPath (Join-Path $addon $World) -PathType Leaf))){throw 'Exact project/world missing'}
+ $source=Get-Content -LiteralPath $Manifest -Raw|ConvertFrom-Json -AsHashtable
+ foreach($n in $source.Keys){if((Get-FileHash -LiteralPath (Join-Path $addon $n) -Algorithm SHA256).Hash.ToLowerInvariant() -ne $source[$n]){throw "Source pin differs: $n"}}
+@@ -110,12 +114,13 @@
+ try {
+  $arguments=($nativeArgs|ForEach-Object {QuoteNative $_}) -join ' '
+  $style='Hidden';if($Interactive){$style='Normal'}
++ if(UserRuntimeHold705){throw 'User runtime hold active immediately before native launch; preserve claim'}
+  $game=Start-Process -FilePath $exe -WorkingDirectory ([IO.Path]::GetDirectoryName($exe)) -ArgumentList $arguments -WindowStyle $style -PassThru
+  $row=Get-CimInstance Win32_Process -Filter ('ProcessId='+$game.Id) -OperationTimeoutSec 5 -ErrorAction Stop
+  if(!$row -or $row.ExecutablePath -ne $exe){throw 'Attachment uncertain; retain lease'}
+  $owner=@{pid=$game.Id;exe=$exe;creationUtc=$row.CreationDate.ToUniversalTime().ToString('o');managedCreationUtc=$game.StartTime.ToUniversalTime().ToString('o');project=$Project;profile=$profile;args=$nativeArgs;leaseId=$proof.leaseId}
+  Save 'owner.json' $owner
+- SlotTransaction {param($l)AssertOwner $l;$l.pid=$game.Id;$l.status='running_gepard_serial_scene';return $l};$attached=$true
++ SlotTransaction {param($l)AssertOwner $l;if(UserRuntimeHoldRecord705 $l){throw 'User runtime hold active at attachment; preserve native and lease'};$l.pid=$game.Id;$l.status='running_gepard_serial_scene';return $l};$attached=$true
+  $until=[DateTime]::UtcNow.AddSeconds($Seconds);$closed='native-or-user-exit';$cancelled705=$false
+  while(AssertIdentity){
+   if(UserRuntimeHold705){throw 'User runtime hold active in owned loop; preserve process and lease'}

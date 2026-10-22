@@ -47,10 +47,12 @@
     "MP/JIP/dedicated unless separately exercised"
   ],
   "startupBinding": {
-    "job": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\gpg-startup-job.json",
-    "jobSHA256": "e49b1860cccbd048c57a4c375d1306b367a393c0aadf158fce79e78fff09aa8a",
-    "planReceipt": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-QA-20261022\\PLAN-RECEIPT.json",
-    "status": "SOURCE_PLAN_PASS_NATIVE_NOT_TESTED",
-    "notAFullRegressionRunner": true
-  }
+    "job": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\gpg-startup-job.json",
+    "jobSHA256": "64f70b42377bcf2590eedd4e514b9553773453fd9d2cd585d76451ca39d07486",
+    "planReceipt": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP-ProvingGround-ArtV11-QA-20261022\\PLAN-RECEIPT.json",
+    "status": "PASS_SOURCE_ONLY79OFFLINECHECKS_NATIVE_NOT_TESTED",
+    "notAFullRegressionRunner": true,
+    "scope": "1147shared+10world;NEWunbound;no optional smoke/audio"
+  },
+  "artNativeGate": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\art-v11\\REBUILD-PLAN.json"
 }

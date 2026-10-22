@@ -1,0 +1,8 @@
+// Private articulated V11 art; approved shared code/crew/optic/damage/controller inheritance unchanged.
+Turret : "{F0F0BAF3855CF8D1}Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_VehicleTurret.et" {
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" { Object "{1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob" }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" { WeaponTemplate "{6F50182EB7D3F75B}Prefabs/ArtV11/Charcoal/GEP_35_GunLeftV11.et" }
+  WeaponSlotComponent "{D561AD08932E5310}" { WeaponTemplate "{A4E0F5A8BDB8BE49}Prefabs/ArtV11/Charcoal/GEP_35_GunRightV11.et" }
+ }
+}

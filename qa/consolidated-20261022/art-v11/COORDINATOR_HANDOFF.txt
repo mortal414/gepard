@@ -1,0 +1,82 @@
+GEPARD V11 FUNCTIONAL ART - SOURCE HANDOFF TO CONSOLIDATED COORDINATOR
+STATUS: OFFLINE READY. NATIVE IMPORT/ARTICULATION/SKIN ACCEPTANCE NOT TESTED. USER RUNTIME HOLD ACTIVE.
+
+Compatible released art: 1.0.2 / 699f245afaf3e912b9ce9827b0f3f5f7dd32f3e7.
+Compatible coordinator stage (read-only preflight PASS): D:/ArmaProjects/Gepard-Consolidated-20261022/native-stage/gepard
+Reported coordinator revision: 40ad931 on sprint/consolidated-proving-ground-20261022.
+No coordinator or released file was modified by this art task.
+
+USE THE ADDITIVE COMPARISON OVERLAY FOR TOMORROW:
+D:\ArmaProjects\Gepard-ArtFunctional-V11-20261022\comparison-overlay
+35 new files; one shared Gepard GUID/code implementation; five private visual model IDs and ten inherited child prefabs.
+Our own isolated-copy integration proof retains every one of the1112shared core files byte-identically.
+NEW CAMO: {9EF02C309F7E7929}Prefabs/ArtV11/Camo/GEP_MobileCarrierV11.et
+NEW CHARCOAL: {231917C79EBEFDDE}Prefabs/ArtV11/Charcoal/GEP_MobileCarrierV11.et
+OLD pads continue to use their existing base prefab/model resources.
+DO NOT use the replacement patch for A/B; it changes shared baseline models.
+
+INSTALL OFFLINE (coordinator chooses its own source/native-stage destination):
+python source/install_functional_comparison_overlay_v11.py --destination-addon <isolated-Gepard-addon>
+Review the dry run, then append --copy. Adds only Assets/ArtV11 and Prefabs/ArtV11. No native command.
+Apply to the coordinator source addon and its selected native-stage copy through the coordinator source workflow; regenerate source/bridge manifests.
+Do not expose our offline test clones as additional addons. Keep one Gepard GUID D561AD08932E7B40.
+
+MANDATORY NATIVE GATE AFTER EXPLICIT USER RESUME AND COORDINATOR ADMISSION:
+The five overlay xobs are genuine copied baseline resources to register new identities safely. THEY ARE NOT V11 COMPILED ART.
+Keep NEW pads unbound until all five source models below are rebuilt, their hashes differ from seed hashes, and native bones/materials/part registration pass.
+The source/GEP_ArtV11RebuildFunctional.c.template uses the established exact-list ResourceManager API.
+Replace __DESTINATION_ADDON__ with the selected isolated addon absolute path. Coordinator installs/runs it with its qualified single-owner workflow; art does not launch anything.
+  Assets/ArtV11/Mobility/MobilityRig.fbx -> {01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob (baseline seed SHA 29b11eb0b809be7268c92201049dfd6795b939de8701354ba90aa04c5637e801)
+  Assets/ArtV11/Gepard/GepardTurretRig.fbx -> {1933F0472484194E}Assets/ArtV11/Gepard/GepardTurretRig.xob (baseline seed SHA 29c40f92026bb0eabdabed27e135b6545613855ea43605c04d3aac8b2eeed198)
+  Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.fbx -> {C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob (baseline seed SHA 4160a30b33b64dda89ad509047953c6c761af8355b5eaeff901241eb71d4831b)
+  Assets/ArtV11/Gepard/GepardGunLeft.fbx -> {94929357A6B76FC8}Assets/ArtV11/Gepard/GepardGunLeft.xob (baseline seed SHA dd12be49219736787710173276b39ddbd9d75d21e0fa4cd8fd83fdbdef4f824b)
+  Assets/ArtV11/Gepard/GepardGunRight.fbx -> {96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob (baseline seed SHA 420f3f76163233483a77569bf488c726405b34f60c1eb4b6515a64e7185cd2fc)
+
+Then bind NEW-CAMO/NEW-CHARCOAL through the proving-ground owner registry/generator, refreshing its source lock/variant and bridge pins.
+Validate ordinary actual vehicles, not the prior static display replicas.
+Native checks: animation hierarchy andbone names; full yaw/elevation; driver/gunner/commander hatch transitions andentry/exit; gun group selection/firing/recoil/rearm; radar deploy/stow; drive/reverse/steer/trackphase; both skins and materials; all LOD transitions/shadows; damage/collision/performance.
+
+WHAT IS PRESERVED:
+Five original FBX graphs are kept. Only10close mesh Geometry and corresponding skin Indexes/Weights change.
+All original Model/bone IDs, transforms, parents, bind matrices, poses/animations, collision and unchanged LOD geometry are semantic-exact after binary writer readback.
+Independent reimport verifies vertex coordinates/weights, material roles and474rest bone frames with zero maximum matrix delta.
+Original37close mesh owners replace98separate art-review objects; no new gameplay renderer/rig owner names are introduced.
+No global rescale, crew/pivot move, hidden-study export, script or physics redesign.
+
+CHECKS ACTUALLY COMPLETED:
+74configured elevation poses (-5..85),73yaw poses (-180..180),208combined casing/body poses and12released fixed-path connector phases: zero surface-intersection states.
+Minimum sampled vertex gaps: gun/turret29.73mm, chin/body86.80mm, casing/body83.01mm, connectors/body65.50mm.
+These are discrete offline surface screens and sampled gaps, not native/continuous/solid-containment certification.
+Released visual wheel/track code keeps fixed centres/path and does not conform to suspension; physics .18/.14travel is not falsely claimed as an existing visual pose.
+
+SKINS:
+Native aliases and original emats retained. One existing dark-fastener role is reused in the body, with explicit default and charcoal mapping.
+New charcoal vehicle carries the complete original charcoal body Materials block plus the added role; gun/turret/storage children inherit their original charcoal parents.
+Existing driver/hatch/radar/steering child prefab names are retained for code name lookups.
+
+OPTIONAL SMOKE INTEGRATION ISSUE:
+checks/SMOKE_ALIGNMENT_HANDOFF.json measures8real current visual tube cap centres/directions in GEP_TurretYaw nativeXYZ.
+Recovered WCS prototype bank roots +/-1.12,.35,-.55 and per-port offsets place all old proposed shots behind these forward banks; minimum current cap/old shot mismatch is0.958m.
+Eight supplied outside points/bases and per-bank offsets are SOURCE proposals, not tested WCS transforms; native Euler signs, projectile radius/owner ignore and launch trajectory remain gates.
+Point rays for the first metre clear the visual vehicle across8elevation states; no swept volume/cloud/actual launch acceptance.
+Optional WCS is not included in the shared core. If coordinator later includes it, reparent the art turret child to the selected qualified functional smoke turret, preserving its extra components; do not silently bypass the smoke wrapper.
+Closed cap artwork is retained; ejection/empty-state animation is not implemented.
+
+HELD / EXCLUDED:
+V09 roof; optional medium/far LOD and batching studies; filtered bake; nine Blender-only extra grain shaders.
+Original LOD1-3 remain exact, not refreshed V11 representations. Native transition/zoom readability and performance must be qualified before an update.
+
+SEPARATE FUTURE REPLACEMENT MODE:
+FUNCTIONAL_APPLY_MANIFEST.json + patch/ + source/apply_functional_art_v11.py. Dry run default, --apply explicit, protected releases rejected.
+That mode is for a selected separate update candidate after acceptance; it replaces the five shared old model sources and merges only importer/charcoal material additions.
+It was exercised only on our own offline-integration/gepard copy. Original compiled models/meta are backed up before future cooking under integration-restores/.
+
+RESTORE / PROVENANCE:
+Preserved V11 masters: D:/ArmaProjects/Gepard-ArtRefine-20261021/v11-casing/ .
+Editable prepared copy: D:\ArmaProjects\Gepard-ArtFunctional-V11-20261022\UNRELEASED-V11-Functional-Prepared.blend
+Original five raw FBXs: restore/ . Original compiled/meta backup receipts: integration-restores/ .
+Discarding additive Assets/ArtV11 and Prefabs/ArtV11 from a private candidate removes the comparison overlay; never delete originals.
+FUNCTIONAL_HANDOFF.json pins evidence. Read checks/FUNCTIONAL_FBX_PATCH_PROOF.json and checks/INDEPENDENT_FBX_READBACK.json.
+Reference provenance stays in the preserved V11/V10 evidence folders; earlier static native comparison evidence remains in Gepard-ArtCompare-V11-20261021.
+
+ACCEPTANCE: Marco has not approved the art. The earlier static-native comparison is evidence only. No publication, release modification or native start occurred during this offline handoff.

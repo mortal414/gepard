@@ -2,12 +2,12 @@
 class GPG_Layout
 {
  static string RegistryHash() {return "4b9d060a6d84cf1c4b33b143debde6d7f30fd323a787f85cc67bbd25874d289e";}
- static string RuntimeHash() {return "13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d";}
+ static string RuntimeHash() {return "301fc4d440a5d1635e5e129594a5fa1c008b29b8f4d70258e55e02904d701fcb";}
  static ResourceName DamagePrefab() {return "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et";}
  static string Identities(string station)
  {
   if(station!="bay")return "";
-  return "\nOLD-CAMO: OLD exterior / camo / shared approved optic; prefab SHA256 d8513ab4636c1940\nOLD-CHARCOAL: OLD exterior / charcoal / shared approved optic; prefab SHA256 73c79e6c91b05e2a\nNEW-CAMO: NEW exterior / camo / NOT BOUND; prefab SHA256 UNBOUND\nNEW-CHARCOAL: NEW exterior / charcoal / NOT BOUND; prefab SHA256 UNBOUND\nShared script/resource closure SHA256 13143e46cfae55ce; full hashes in checks/variant-lock.json.";
+  return "\nOLD-CAMO: OLD exterior / camo / shared approved optic; prefab SHA256 d8513ab4636c1940\nOLD-CHARCOAL: OLD exterior / charcoal / shared approved optic; prefab SHA256 73c79e6c91b05e2a\nNEW-CAMO: NEW exterior / camo / NOT BOUND; prefab SHA256 UNBOUND\nNEW-CHARCOAL: NEW exterior / charcoal / NOT BOUND; prefab SHA256 UNBOUND\nShared script/resource closure SHA256 301fc4d440a5d163; full hashes in checks/variant-lock.json.";
  }
  static void Build(GPG_Director world)
  {
@@ -18,11 +18,11 @@ class GPG_Layout
   world.Station("damage","05 ISOLATED DAMAGE LANE","EXPENDABLE subjects D1/D2 only. Fire SOUTH from the weapon line, away from the comparison bay behind you. M16, M249, M2 tripod and disposable M72s use native ammunition. Record weapon/ammo, impact side and range. Subjects never autoheal. Exit all seats and clear pads before explicit reset; reset refuses moved/occupied/moving subjects. Wait for fire and secondary explosions to stop. End the session normally and restart the scenario for a complete clean session.","600 0 1800","580 0 1865");
   world.Station("hostile","06 OPTIONAL HOSTILE CELL","OFF by default. Coordinator must first qualify terrain backstop, enclosure, native AI and projectile containment; profile GPG-hostiles-qualified.flag then permits local arm action. Enter only deliberately. Two stock USSR sentries use a small defend waypoint, 35 m boundary and 180 s expiry. Leaving the cell ends the encounter. Boundary/timeout clears owned agents; never assume it catches bullets already fired. Stop action remains available.","1800 0 1400","1770 0 1370");
   world.Add("OLD-CAMO","bay","{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et","600 0 2600");
-  world.Station("pad-OLD-CAMO","OLD-CAMO","OLD exterior / camo / shared approved optic; resource {D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et; prefab SHA256 d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543; shared closure 13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d","600 0 2600","592 0 2597");
+  world.Station("pad-OLD-CAMO","OLD-CAMO","OLD exterior / camo / shared approved optic; resource {D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et; prefab SHA256 d8513ab4636c1940fb65ef3128d60e3ffc607622ed301deba21c3860affd7543; shared closure 301fc4d440a5d1635e5e129594a5fa1c008b29b8f4d70258e55e02904d701fcb","600 0 2600","592 0 2597");
   world.Add("OLD-CHARCOAL","bay","{BEF5FEB0ECCBC01D}Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et","620 0 2600");
-  world.Station("pad-OLD-CHARCOAL","OLD-CHARCOAL","OLD exterior / charcoal / shared approved optic; resource {BEF5FEB0ECCBC01D}Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et; prefab SHA256 73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528; shared closure 13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d","620 0 2600","612 0 2597");
-  world.Station("pad-NEW-CAMO","NEW-CAMO","NEW exterior / camo / NOT BOUND; resource UNBOUND; prefab SHA256 UNBOUND; shared closure 13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d","600 0 2622","592 0 2619");
-  world.Station("pad-NEW-CHARCOAL","NEW-CHARCOAL","NEW exterior / charcoal / NOT BOUND; resource UNBOUND; prefab SHA256 UNBOUND; shared closure 13143e46cfae55ceb693cf3cdc220df50cf99b495c2032874c00b9b947c9f55d","620 0 2622","612 0 2619");
+  world.Station("pad-OLD-CHARCOAL","OLD-CHARCOAL","OLD exterior / charcoal / shared approved optic; resource {BEF5FEB0ECCBC01D}Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et; prefab SHA256 73c79e6c91b05e2a846f550daeff12130fbbf87536cbf388752d764a65f79528; shared closure 301fc4d440a5d1635e5e129594a5fa1c008b29b8f4d70258e55e02904d701fcb","620 0 2600","612 0 2597");
+  world.Station("pad-NEW-CAMO","NEW-CAMO","NEW exterior / camo / NOT BOUND; resource UNBOUND; prefab SHA256 UNBOUND; shared closure 301fc4d440a5d1635e5e129594a5fa1c008b29b8f4d70258e55e02904d701fcb","600 0 2622","592 0 2619");
+  world.Station("pad-NEW-CHARCOAL","NEW-CHARCOAL","NEW exterior / charcoal / NOT BOUND; resource UNBOUND; prefab SHA256 UNBOUND; shared closure 301fc4d440a5d1635e5e129594a5fa1c008b29b8f4d70258e55e02904d701fcb","620 0 2622","612 0 2619");
   world.Gate("G01 START","600 0 2660");
   world.Station("G01 START","G01 START","start; grade/material require native survey.","600 0 2660","590 0 2660");
   world.Gate("G02 50m REVERSE LIMIT","600 0 2710");

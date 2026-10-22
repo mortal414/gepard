@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{96C26423C02395DE}Assets/ArtV11/Gepard/GepardGunRight.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardGunRight.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{D614CF3D0A6B6701}" {
+     SourceMaterial "GEP_GunPodCasingRight_Rebuilt"
+     AssignedMaterial "{D648714E58EB475E}Assets/Gepard/BalancedCasings648/CasingRight_BalancedMaintainedDry.emat"
+    }
+    MaterialAssignClass "{483D9967D68E4673}" {
+     SourceMaterial "GEP_GunRight_ConstructionV3"
+     AssignedMaterial "{22C03505ABC54B19}Assets/Gepard/GunConstruction581/GunRight.emat"
+    }
+    MaterialAssignClass "{6A9B0A906874A54B}" {
+     SourceMaterial "GEP_Finish_PodRight"
+     AssignedMaterial "{A83C4721B62F1003}Assets/Gepard/Finish/PodRight.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardGunRight {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

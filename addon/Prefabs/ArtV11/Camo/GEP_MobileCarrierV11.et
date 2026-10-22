@@ -1,0 +1,10 @@
+// Private NEW art comparison child. No physics, crew, scripts, input or driving changes.
+Vehicle : "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" { Object "{01254BB773835514}Assets/ArtV11/Mobility/MobilityRig.xob" }
+  SlotManagerComponent "{55BCE45E438E4CFF}" { Slots {
+   RegisteringComponentSlotInfo GunRig { Prefab "{CDE93C5205A7E43C}Prefabs/ArtV11/Camo/GEP_VehicleTurretV11.et" }
+   EntitySlotInfo GEP_StowageSeated591 { Prefab "{0A155E1350BC43BB}Prefabs/ArtV11/Camo/GepardStowageV11.et" }
+  } }
+ }
+}
