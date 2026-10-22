@@ -1,0 +1,127 @@
+{
+  "status": "HUMAN_AUDIBLE_FAIL_DIAGNOSIS_CHECKPOINT_NO_NEW_SOUND_FIX",
+  "utc": "2026-10-22T16:09:30.907531+00:00",
+  "GEP033": "Blocked: original candidate failed human listening; native private rolling activation/gates unresolved",
+  "demo09ProtectedPins": {
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\DEMO09-MANIFEST.json": "461c21e420e10bc51f8aea2101c633941f16b2af7383812f1df60dcd1ae5f5a0",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\Launch-Gepard-NewFeatures.cmd": "44ef2e80b836be44ad1e027426957f33031fe0c27a516fc9ec2e1988e2155c52",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\PLAYTEST-NEW-FEATURES.md": "562b0db93ec95cd8d76d234e50b5bf6047cef16f93a850be8993ca688a2fc962",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\addon.gproj": "9ea9b54d731eb485dc46120813741aeba1551578d0ffcc9228b5fe07802d7af7",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\data.pak": "f945584e7075a36849b4c6c9f439b3e51763450d34487934b75e37f99d09c62f",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\7E0150C026101500\\resourceDatabase.rdb": "72222fe77b2b4aba0816755bb1c818e6d61b6299144911181254dc5ce4f24bc5",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\addon.gproj": "ac6136b5ef4e4153ec38a078c9bc6a8e5e34b609c99fa526931c1f411599ba34",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\data.pak": "516e16efdea95990fd95cddd31392ff9744e8805fdce50683a89acfe285a2cc3",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\A76A420022000001\\resourceDatabase.rdb": "360fa2fdf4321f433547fd91176fc25599510a9f5253da56837fdab50c8e9d2c",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\addon.gproj": "854d65117137206d3e223bb1d8fede07492a0c3cdd0d750edb588e9ebf187f37",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\data.pak": "411aed2752653471015e385412d7abf4e2cd037b313401c1b5dd09ee42533519",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\private-installed-demo-09\\addons\\D561AD08932E7B40\\resourceDatabase.rdb": "de12fae3e38adffdf3ded6dba33b9ff6d46412d055ef756ae7d753121cf6c119"
+  },
+  "demo09PinsAllMatch": true,
+  "releasedFilesChanged": false,
+  "drivetrainOrCannonChanged": false,
+  "published": false,
+  "records": [
+    {
+      "label": "WCS_M2A2_REFERENCE",
+      "rawRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v3-wcs_m2a2_reference-01",
+      "nativeExitSHA256": "4649eefa5f193ad66279594e274b647a526164645610a7f22dca252548883f62",
+      "report": "WCS-READBACK.json",
+      "motionStopEngineOff": "OBSERVED_PASS_ONLY",
+      "samples": 106,
+      "readbackRows": 27,
+      "strictErrorCount": 62,
+      "strictVerdict": "FAIL",
+      "WAV": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\WCS_M2A2_REFERENCE\\system-output.wav",
+        "bytes": 10214444,
+        "sha256": "24c6a565d5bfc9c0dd0523ae479a543ecbc911269f28721b172a7b0abd230e13"
+      },
+      "audibility": "WCS_REFERENCE_NOT_LISTENED_BY_MODEL",
+      "camera": "Same native third-person mode, different vehicle-dependent actual distance; no fixed emitter-distance claim"
+    },
+    {
+      "label": "GEPARD_CURRENT",
+      "rawRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v3-gepard_current-01",
+      "nativeExitSHA256": "5e0d0eca6b275034ab930ed05441782688740ee7d5a313a50c0970395b8a2542",
+      "report": "GEPARD-CURRENT-READBACK.json",
+      "motionStopEngineOff": "OBSERVED_PASS_ONLY",
+      "samples": 106,
+      "readbackRows": 27,
+      "strictErrorCount": 60,
+      "strictVerdict": "FAIL",
+      "WAV": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\GEPARD_CURRENT\\system-output.wav",
+        "bytes": 10329644,
+        "sha256": "4cadcb46dc3e5517e08cd3a6ae9fd270686ab0cb32b5a10c8c656086dd8bc18a"
+      },
+      "audibility": "PRIOR_USER_LISTENING_FAIL_REMAINS_CONTROLLING",
+      "camera": "Same native third-person mode, different vehicle-dependent actual distance; no fixed emitter-distance claim"
+    },
+    {
+      "label": "GEPARD_CANDIDATE_FAILED01",
+      "rawRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v3-gepard_candidate_failed01-01",
+      "nativeExitSHA256": "f818441750c931863ed59dd8dad5463bea832cd1757ea5beae11bd979caa72bd",
+      "report": "GEPARD-CANDIDATE-READBACK.json",
+      "motionStopEngineOff": "OBSERVED_PASS_ONLY",
+      "samples": 106,
+      "readbackRows": 27,
+      "strictErrorCount": 60,
+      "strictVerdict": "FAIL",
+      "WAV": {
+        "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\GEPARD_CANDIDATE_FAILED01\\system-output.wav",
+        "bytes": 10214444,
+        "sha256": "d73c8d267173a8a94b62ae0ff04226ec4a55457f5e56491c807c770158a73fa1"
+      },
+      "audibility": "PRIOR_USER_LISTENING_FAIL_REMAINS_CONTROLLING",
+      "camera": "Same native third-person mode, different vehicle-dependent actual distance; no fixed emitter-distance claim"
+    }
+  ],
+  "contractEvidence": "POINT-CONTRACT.json",
+  "permissionGate": "PENDING-STOCK-SIGNAL-READ.json",
+  "nativeSlot": {
+    "profile": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-point-v4-current_contract-01\\profile",
+    "ownerKeyHash": "ed49b587ff697d3cb6ec15161f0b1d60ee40e74f9dc1d2d6f3109eae42247f4b",
+    "reservedUtc": "2026-10-22T16:06:00.209198Z",
+    "activeRuntime": null,
+    "leaseId": "9f6281d4-607e-4bc2-91dc-172bbc8f72cb",
+    "pid": null,
+    "owner": "Gepard serial scene coordinator",
+    "status": "released_gepard_serial_scene",
+    "project": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\point-contract-v4\\native-stage\\audioQA\\GEP_TrackRollingQA033.gproj",
+    "workRoot": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-point-v4-current_contract-01",
+    "userRuntimeHold": {
+      "active": false,
+      "requestedBy": "User via trusted parent delegation",
+      "requestUtc": "2026-10-22T00:47:00Z",
+      "recordedUtc": "2026-10-22T00:49:02.1028179Z",
+      "reason": "User using machine; no game/Workbench launches,GUI/focus or window-close operations",
+      "allowed": "Non-focus-stealing source/file research,staging,test planning",
+      "resumeGate": "Explicit user resume required",
+      "priorStatus": "released_art_user_absence_verified",
+      "functionalAutomatedNativeStartedSinceArtHandback": false,
+      "resumeAuthorizedUtc": "2026-10-22T01:52:00Z",
+      "resumeSourceThread": "01a15259-930d-7752-b93e-02d417fdf0fc",
+      "resumeEvidence": "User: Alright I am done; wants overnight integrated demo. Parent explicitly lifted hold and assigned sole native coordination."
+    },
+    "releasedUtc": "2026-10-22T16:06:49.8164233Z"
+  },
+  "supportedFindings": [
+    "Actual candidate effective runtime graph GUIDs match authored left/right graphs; failed override binding is refuted",
+    "Existing Gepard pivot bones are valid TNodeId hashes (negative values are valid except -1)",
+    "Contacting wheels report material1200 during the concrete-pad forward/rest comparison",
+    "Parent Speed is nonzero during movement and zero at rest; private wheel-gate signal state remains unknown",
+    "SoundPointInfo is a registered PointInfo subtype; class-name mismatch is refuted",
+    "Parent-pool eventIndex=-1 and IsPlaying are not private wheel-loop evidence, including in WCS reference"
+  ],
+  "notProven": [
+    "Actual private wheel bank/event/trigger activation",
+    "Track audibility or quality from recorded waveform",
+    "WCS reference audibility without a human listener",
+    "30/100m attenuation, exit/deletion lifecycle or cannon balance"
+  ],
+  "preservedFailures": [
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-reference-wcs_m2a2_reference-01",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v2-wcs_m2a2_reference-01"
+  ],
+  "fixtureRecovery": "Original long WCS run exceeded slope guard. Short v2 forward brake/rest passed but reverse brake incorrectly continued reversing and later hit guard. V3 removes unrelated reverse/turn/restart, preserves guards and ordinary physics/control path; shared 4s drive/6s brake/3s rest/ordinary engineoff/7s rest completed all3. Cadence repair uses core-sample guard (27rows), original per-frame telemetry retained."
+}

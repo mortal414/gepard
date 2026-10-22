@@ -1,0 +1,34 @@
+GEPARD TRACK AUDIO — THREE SEPARATE CONTINUOUS RECORDINGS
+
+1. Gepard-Audio-01-WCS-Bradley-REFERENCE-CONTINUOUS.wav
+2. Gepard-Audio-02-CURRENT-BASELINE-CONTINUOUS.wav
+3. Gepard-Audio-03-CANDIDATE-FAILED01-CONTINUOUS.wav
+
+Each file is one complete, uninterrupted native capture. There are no edits, A/B interleaves, inserted gaps or normalization. Keep playback volume fixed. The third file uses the earlier failed candidate; it is NOT a new sound fix.
+The same QA sequence drives forward, brakes to rest and switches the engine off. The WCS reference uses its installed assets normally, without copying/adapting its implementation. Native third-person is used throughout; camera distance varies with vehicle geometry and must not be treated as a fixed emitter-distance comparison.
+
+Gepard-Audio-01-WCS-Bradley-REFERENCE-CONTINUOUS.wav (53.2s)
+  27.6–31.1s: public_start_observe; measured speed 0.00–0.00m/s
+  31.6–35.3s: forward_default; measured speed 0.00–10.44m/s
+  35.6–41.5s: service_brake; measured speed 0.00–8.81m/s
+  41.7–44.4s: coast; measured speed 0.00–0.00m/s
+  44.7–51.3s: public_stop_observe; measured speed 0.00–0.00m/s
+
+Gepard-Audio-02-CURRENT-BASELINE-CONTINUOUS.wav (53.8s)
+  28.1–31.6s: public_start_observe; measured speed 0.00–3.42m/s
+  32.1–35.8s: forward_default; measured speed 0.00–4.68m/s
+  36.1–42.0s: service_brake; measured speed 0.00–3.39m/s
+  42.2–44.9s: coast; measured speed 0.00–0.00m/s
+  45.2–51.8s: public_stop_observe; measured speed 0.00–0.00m/s
+
+Gepard-Audio-03-CANDIDATE-FAILED01-CONTINUOUS.wav (53.2s)
+  28.1–31.5s: public_start_observe; measured speed 0.00–3.10m/s
+  32.1–35.8s: forward_default; measured speed 0.00–4.68m/s
+  36.1–41.9s: service_brake; measured speed 0.00–3.39m/s
+  42.2–44.9s: coast; measured speed 0.00–0.00m/s
+  45.1–51.8s: public_stop_observe; measured speed 0.00–0.00m/s
+
+Please compare whether WCS has a track texture you can identify, whether either Gepard file has it, how it changes with forward speed, whether any rolling tail persists at rest/engine-off, and whether it masks the engine.
+Reply with the filename and timestamp of any useful difference. If the two Gepard files still sound alike, that remains a failure, regardless of successful graph binding and motion checks.
+This short course does not qualify reverse, vehicle exit/deletion, 30/100m attenuation or weapon balance. Raw native error counts remain WCS62/current60/candidate60; these are not clean native passes.
+Exact original hashes, run identities, phase clock mapping, body/wheel telemetry and audio-input readbacks are retained in Gepard-CONTINUOUS-v3-exact-mapping.json. Clock mapping retains recording/frame scheduling uncertainty.

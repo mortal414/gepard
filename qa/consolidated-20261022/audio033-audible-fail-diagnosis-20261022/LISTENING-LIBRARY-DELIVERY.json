@@ -1,0 +1,89 @@
+{
+  "status": "ALL_FIVE_CONTINUOUS_DELIVERABLES_SAVED",
+  "files": [
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v3\\Gepard-Audio-01-WCS-Bradley-REFERENCE-CONTINUOUS.wav",
+      "status": "succeeded",
+      "fileName": "Gepard-Audio-01-WCS-Bradley-REFERENCE-CONTINUOUS.wav",
+      "libraryFileId": "libfile_8141d3ab2c108191bce80e8ce726c461",
+      "fileId": "file_00000000484c81fdb9167f290b22c5ba",
+      "version": 0,
+      "mimeType": "audio/vnd.wave",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "libraryPath": "/Gepard-Audio-01-WCS-Bradley-REFERENCE-CONTINUOUS.wav"
+    },
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v3\\Gepard-Audio-02-CURRENT-BASELINE-CONTINUOUS.wav",
+      "status": "succeeded",
+      "fileName": "Gepard-Audio-02-CURRENT-BASELINE-CONTINUOUS.wav",
+      "libraryFileId": "libfile_9662ce57d96081918679b0b4a224fcb3",
+      "fileId": "file_00000000910c81f49cd30d9f7ab5dd5e",
+      "version": 0,
+      "mimeType": "audio/vnd.wave",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "libraryPath": "/Gepard-Audio-02-CURRENT-BASELINE-CONTINUOUS.wav"
+    },
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v3\\Gepard-Audio-03-CANDIDATE-FAILED01-CONTINUOUS.wav",
+      "status": "succeeded",
+      "fileName": "Gepard-Audio-03-CANDIDATE-FAILED01-CONTINUOUS.wav",
+      "libraryFileId": "libfile_9fd37d2130b88191a6be987d5439943b",
+      "fileId": "file_000000006fc881f49058d84b114166f5",
+      "version": 0,
+      "mimeType": "audio/vnd.wave",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "libraryPath": "/Gepard-Audio-03-CANDIDATE-FAILED01-CONTINUOUS.wav"
+    },
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v3\\Gepard-CONTINUOUS-v3-listening-guide.txt",
+      "status": "succeeded",
+      "fileName": "Gepard-CONTINUOUS-v3-listening-guide.txt",
+      "libraryFileId": "libfile_fd943ec32eb081919f27195477dffe4a",
+      "fileId": "file_000000009e8c81f48e8e3fc2e95acf70",
+      "version": 0,
+      "mimeType": "text/plain",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "libraryPath": "/Gepard-CONTINUOUS-v3-listening-guide.txt"
+    },
+    {
+      "localPath": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task-5\\continuous-listening-delivery-v3\\Gepard-CONTINUOUS-v3-exact-mapping.json",
+      "status": "succeeded",
+      "fileName": "Gepard-CONTINUOUS-v3-exact-mapping.json",
+      "libraryFileId": "libfile_6a1a9ad445248191983ecfe9f0412c09",
+      "fileId": "file_00000000d71081f4b75dd003fd12a76c",
+      "version": 0,
+      "mimeType": "application/json",
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "libraryPath": "/Gepard-CONTINUOUS-v3-exact-mapping.json"
+    }
+  ],
+  "subjectiveAudition": "NOT_TESTED_BY_MODEL",
+  "candidateStatus": "FAILED01_PRESERVED_NO_NEW_FIX",
+  "processing": "Full raw recordings copied byte-identically, no cuts/interleaving/normalization/processing",
+  "localIdentityPersistence": "Returned IDs and complete xattrs preserved in JSON; previous Windows helper cannot apply os.setxattr, so no local xattr persistence claimed"
+}

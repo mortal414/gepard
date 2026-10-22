@@ -1,0 +1,77 @@
+{
+  "status": "NATIVE_RETURNED_AUDIO_FINALIZED",
+  "createdUtc": "2026-10-22T15:56:00.849525+00:00",
+  "command": [
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+    "-NoProfile",
+    "-File",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\binding\\tools\\Scene.ps1",
+    "-Project",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\native-stage\\audioQA\\GEP_TrackRollingQA033.gproj",
+    "-World",
+    "Worlds/GEP_TrackRollingAudition033.ent",
+    "-Manifest",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\binding\\QA-MANIFEST.json",
+    "-RunRoot",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v3-wcs_m2a2_reference-01",
+    "-Seconds",
+    "120",
+    "-AddonId",
+    "7E0330C026102210",
+    "-ScreenWidth",
+    "1280",
+    "-ScreenHeight",
+    "720",
+    "-NativeJob",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\binding\\jobs\\WCS_M2A2_REFERENCE.json",
+    "-NativeJobSHA256",
+    "3f82e4892c795558ccb79cec722ae8c64fb2940b63470925db84fe7bc1d5b762",
+    "-Interactive",
+    "-Execute"
+  ],
+  "commandFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\binding\\commands\\WCS_M2A2_REFERENCE.json",
+  "commandSHA256": "d511431f47a514714fc732243251e7e275877305955d160f7dcb580e1ffb1aa8",
+  "wrapperSHA256": "9d0524110550097557ecf7f68df7b2bfd14a4bdf6db937bc3655fe50a73e91d9",
+  "nativeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v3-wcs_m2a2_reference-01",
+  "recorderCommand": [
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\tools\\record_loopback_audio.py",
+    "--speaker",
+    "{0.0.0.00000000}.{86f3f2b1-3033-4e11-afac-c6b952f00fd8}",
+    "--output",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\WCS_M2A2_REFERENCE\\system-output.wav",
+    "--duration-seconds",
+    "300",
+    "--stop-file",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\WCS_M2A2_REFERENCE\\STOP-RECORDER"
+  ],
+  "audioGain": "No OS/game/playback gain or normalization changes; fresh ordinary profile",
+  "nativeStarted": true,
+  "recorderStartUtc": "2026-10-22T15:56:01.068+00:00",
+  "nativeCommandStartUtc": "2026-10-22T15:56:01.068451+00:00",
+  "ownedWindowCaptures": [
+    {
+      "phase": "forward_default",
+      "exitCode": 0,
+      "utc": "2026-10-22T15:56:33.261078+00:00",
+      "stdout": "{\r\n  \"height\": 759,\r\n  \"status\": \"EXACT_OWNED_WINDOW_PRINTED_WITHOUT_FOCUS_OR_INPUT_RENDER_SUPPORT_UNVERIFIED\",\r\n  \"utc\": \"2026-10-22T15:56:33.1735920Z\",\r\n  \"pid\": 17636,\r\n  \"width\": 1296,\r\n  \"output\": \"C:\\\\Users\\\\marco\\\\Documents\\\\Codex\\\\2026-10-21\\\\task\\\\GEP033-WCS-Reference-Diagnosis-20261022\\\\diagnostic-v3\\\\continuous\\\\WCS_M2A2_REFERENCE\\\\forward_default.png\"\r\n}\r\n",
+      "stderr": ""
+    },
+    {
+      "phase": "public_stop_observe",
+      "exitCode": 0,
+      "utc": "2026-10-22T15:56:46.457936+00:00",
+      "stdout": "{\r\n  \"status\": \"EXACT_OWNED_WINDOW_PRINTED_WITHOUT_FOCUS_OR_INPUT_RENDER_SUPPORT_UNVERIFIED\",\r\n  \"utc\": \"2026-10-22T15:56:46.3730491Z\",\r\n  \"pid\": 17636,\r\n  \"output\": \"C:\\\\Users\\\\marco\\\\Documents\\\\Codex\\\\2026-10-21\\\\task\\\\GEP033-WCS-Reference-Diagnosis-20261022\\\\diagnostic-v3\\\\continuous\\\\WCS_M2A2_REFERENCE\\\\public_stop_observe.png\",\r\n  \"width\": 1296,\r\n  \"height\": 759\r\n}\r\n",
+      "stderr": ""
+    }
+  ],
+  "nativeWrapperExitCode": 0,
+  "nativeCommandEndUtc": "2026-10-22T15:56:54.006327+00:00",
+  "recorderExitCode": 0,
+  "completedUtc": "2026-10-22T15:56:54.121458+00:00",
+  "wav": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\WCS_M2A2_REFERENCE\\system-output.wav",
+    "bytes": 10214444,
+    "sha256": "24c6a565d5bfc9c0dd0523ae479a543ecbc911269f28721b172a7b0abd230e13"
+  }
+}

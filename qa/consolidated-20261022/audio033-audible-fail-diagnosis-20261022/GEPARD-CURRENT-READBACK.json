@@ -1,0 +1,258 @@
+{
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v3-gepard_current-01",
+  "consoleSHA256": "2bc4d59884ff0d8593a575e0f218a8b55fd099d02168e812a22a730557f3b4ae",
+  "done": [
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "samples": "106",
+      "completed": "1",
+      "reason": "wheeled_course_samples_collected_review_required",
+      "physical": "0",
+      "thresholdAcceptance": "NOT_TESTED"
+    }
+  ],
+  "bindings": [
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "index": "0",
+      "slot": "L_01",
+      "graph": "{A9997E455F672798}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_l_1.acp",
+      "pointClass": "SoundPointInfo",
+      "pivot": "GEP_Track_L_04"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "index": "1",
+      "slot": "R_01",
+      "graph": "{5CEAEF266CBBF0F1}Sounds/Vehicles/_SharedData/Wheels/Vehicles_APC_Wheel_r_1.acp",
+      "pointClass": "SoundPointInfo",
+      "pivot": "GEP_Track_R_04"
+    }
+  ],
+  "phases": {
+    "start": {
+      "count": 8,
+      "speedMin": 0.0,
+      "speedMax": 0.0,
+      "last": {
+        "sample": 8,
+        "worldMs": 17979.7,
+        "speed": 0.0,
+        "controllerOn": "0",
+        "simOn": "0",
+        "position": "<600,39.7,2600>"
+      }
+    },
+    "native_start_observe": {
+      "count": 7,
+      "speedMin": 0.0,
+      "speedMax": 0.0,
+      "last": {
+        "sample": 15,
+        "worldMs": 19846.2,
+        "speed": 0.0,
+        "controllerOn": "0",
+        "simOn": "0",
+        "position": "<600,39.7,2600>"
+      }
+    },
+    "ordinary_public_start": {
+      "count": 1,
+      "speedMin": 0.0,
+      "speedMax": 0.0,
+      "last": {
+        "sample": 16,
+        "worldMs": 20113.0,
+        "speed": 0.0,
+        "controllerOn": "0",
+        "simOn": "0",
+        "position": "<600,39.7,2600>"
+      }
+    },
+    "public_start_observe": {
+      "count": 14,
+      "speedMin": 0.0,
+      "speedMax": 3.42252,
+      "last": {
+        "sample": 30,
+        "worldMs": 23846.2,
+        "speed": 0.031711400000004504,
+        "controllerOn": "1",
+        "simOn": "1",
+        "position": "<600,38.9822,2600>"
+      }
+    },
+    "parking_release": {
+      "count": 1,
+      "speedMin": 0.0025699400036366775,
+      "speedMax": 0.0025699400036366775,
+      "last": {
+        "sample": 31,
+        "worldMs": 24113.0,
+        "speed": 0.0025699400036366775,
+        "controllerOn": "1",
+        "simOn": "1",
+        "position": "<600,38.9867,2600>"
+      }
+    },
+    "forward_default": {
+      "count": 15,
+      "speedMin": 0.00011292810640186278,
+      "speedMax": 4.679430176777858,
+      "last": {
+        "sample": 46,
+        "worldMs": 28115.5,
+        "speed": 4.679430176777858,
+        "controllerOn": "1",
+        "simOn": "1",
+        "position": "<600,38.986,2609.93>"
+      }
+    },
+    "service_brake": {
+      "count": 23,
+      "speedMin": 0.0,
+      "speedMax": 3.3890412800777265,
+      "last": {
+        "sample": 69,
+        "worldMs": 34245.8,
+        "speed": 0.0,
+        "controllerOn": "1",
+        "simOn": "1",
+        "position": "<600,38.9858,2611.52>"
+      }
+    },
+    "coast": {
+      "count": 11,
+      "speedMin": 0.0,
+      "speedMax": 0.0,
+      "last": {
+        "sample": 80,
+        "worldMs": 37179.1,
+        "speed": 0.0,
+        "controllerOn": "1",
+        "simOn": "1",
+        "position": "<600,38.9858,2611.52>"
+      }
+    },
+    "public_stop_observe": {
+      "count": 26,
+      "speedMin": 0.0,
+      "speedMax": 0.0,
+      "last": {
+        "sample": 106,
+        "worldMs": 44112.0,
+        "speed": 0.0,
+        "controllerOn": "0",
+        "simOn": "0",
+        "position": "<600,38.9858,2611.52>"
+      }
+    }
+  },
+  "parentPool": [
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "rollEventIndex": "-1",
+      "skidEventIndex": "-1",
+      "playing": "0",
+      "limit": "parent-pool-not-wheel-handle"
+    }
+  ],
+  "surfaces": [
+    "-1",
+    "1200"
+  ],
+  "pivots": [
+    "GEP_Track_L_04:-940741821",
+    "GEP_Track_R_04:-940526199"
+  ],
+  "signals": [
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "WaterDepth",
+      "soundIndex": "3",
+      "managerIndex": "3"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "Distance",
+      "soundIndex": "4",
+      "managerIndex": "4"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "Speed",
+      "soundIndex": "5",
+      "managerIndex": "5"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "EngineFireState",
+      "soundIndex": "6",
+      "managerIndex": "6"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "EngineOn",
+      "soundIndex": "16",
+      "managerIndex": "16"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "EngineDamageState",
+      "soundIndex": "17",
+      "managerIndex": "17"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "EngineRPM",
+      "soundIndex": "18",
+      "managerIndex": "18"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "IsExhaustUnderWater",
+      "soundIndex": "19",
+      "managerIndex": "19"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "EngineThrust",
+      "soundIndex": "20",
+      "managerIndex": "20"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "EngineLoad",
+      "soundIndex": "23",
+      "managerIndex": "23"
+    },
+    {
+      "case": "v11-wheeled-course",
+      "nonce": "fe7d006600f3f85b9e1cfe9a9e53035288ca935bd5ac9089700010a0daa96068",
+      "name": "ImpactSurface",
+      "soundIndex": "25",
+      "managerIndex": "25"
+    }
+  ],
+  "rawErrorCount": 60,
+  "readbackRows": 27,
+  "limits": [
+    "Parent-pool index/playing is not private wheel-pool evidence",
+    "TNodeId hashes may be negative; only -1 means missing",
+    "Source/effective binding and movement do not prove audible wheel output"
+  ]
+}

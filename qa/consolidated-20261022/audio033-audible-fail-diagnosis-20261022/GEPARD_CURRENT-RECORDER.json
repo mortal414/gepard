@@ -1,0 +1,77 @@
+{
+  "status": "NATIVE_RETURNED_AUDIO_FINALIZED",
+  "createdUtc": "2026-10-22T15:57:14.794916+00:00",
+  "command": [
+    "C:\\Users\\marco\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+    "-NoProfile",
+    "-File",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\binding\\tools\\Scene.ps1",
+    "-Project",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\native-stage\\audioQA\\GEP_TrackRollingQA033.gproj",
+    "-World",
+    "Worlds/GEP_TrackRollingAudition033.ent",
+    "-Manifest",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\binding\\QA-MANIFEST.json",
+    "-RunRoot",
+    "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v3-gepard_current-01",
+    "-Seconds",
+    "120",
+    "-AddonId",
+    "7E0330C026102210",
+    "-ScreenWidth",
+    "1280",
+    "-ScreenHeight",
+    "720",
+    "-NativeJob",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\binding\\jobs\\GEPARD_CURRENT.json",
+    "-NativeJobSHA256",
+    "bce3a42231a4a625ee4a0f17df91983409940624a23cba1de97be1c0e30857d8",
+    "-Interactive",
+    "-Execute"
+  ],
+  "commandFile": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\binding\\commands\\GEPARD_CURRENT.json",
+  "commandSHA256": "646170c4b4ff9ec727734b382214d6cdafe93876a75799ff682ba3605e38aac1",
+  "wrapperSHA256": "9d0524110550097557ecf7f68df7b2bfd14a4bdf6db937bc3655fe50a73e91d9",
+  "nativeRun": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-diagnostic-v3-gepard_current-01",
+  "recorderCommand": [
+    "C:\\Users\\marco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\marco\\Desktop\\reforger-agent-harness\\tools\\record_loopback_audio.py",
+    "--speaker",
+    "{0.0.0.00000000}.{86f3f2b1-3033-4e11-afac-c6b952f00fd8}",
+    "--output",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\GEPARD_CURRENT\\system-output.wav",
+    "--duration-seconds",
+    "300",
+    "--stop-file",
+    "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\GEPARD_CURRENT\\STOP-RECORDER"
+  ],
+  "audioGain": "No OS/game/playback gain or normalization changes; fresh ordinary profile",
+  "nativeStarted": true,
+  "recorderStartUtc": "2026-10-22T15:57:15.015+00:00",
+  "nativeCommandStartUtc": "2026-10-22T15:57:15.015423+00:00",
+  "ownedWindowCaptures": [
+    {
+      "phase": "forward_default",
+      "exitCode": 0,
+      "utc": "2026-10-22T15:57:47.854907+00:00",
+      "stdout": "{\r\n  \"output\": \"C:\\\\Users\\\\marco\\\\Documents\\\\Codex\\\\2026-10-21\\\\task\\\\GEP033-WCS-Reference-Diagnosis-20261022\\\\diagnostic-v3\\\\continuous\\\\GEPARD_CURRENT\\\\forward_default.png\",\r\n  \"pid\": 27484,\r\n  \"utc\": \"2026-10-22T15:57:47.7646145Z\",\r\n  \"width\": 1296,\r\n  \"status\": \"EXACT_OWNED_WINDOW_PRINTED_WITHOUT_FOCUS_OR_INPUT_RENDER_SUPPORT_UNVERIFIED\",\r\n  \"height\": 759\r\n}\r\n",
+      "stderr": ""
+    },
+    {
+      "phase": "public_stop_observe",
+      "exitCode": 0,
+      "utc": "2026-10-22T15:58:00.778666+00:00",
+      "stdout": "{\r\n  \"utc\": \"2026-10-22T15:58:00.6969305Z\",\r\n  \"width\": 1296,\r\n  \"output\": \"C:\\\\Users\\\\marco\\\\Documents\\\\Codex\\\\2026-10-21\\\\task\\\\GEP033-WCS-Reference-Diagnosis-20261022\\\\diagnostic-v3\\\\continuous\\\\GEPARD_CURRENT\\\\public_stop_observe.png\",\r\n  \"status\": \"EXACT_OWNED_WINDOW_PRINTED_WITHOUT_FOCUS_OR_INPUT_RENDER_SUPPORT_UNVERIFIED\",\r\n  \"pid\": 27484,\r\n  \"height\": 759\r\n}\r\n",
+      "stderr": ""
+    }
+  ],
+  "nativeWrapperExitCode": 0,
+  "nativeCommandEndUtc": "2026-10-22T15:58:08.330743+00:00",
+  "recorderExitCode": 0,
+  "completedUtc": "2026-10-22T15:58:08.404646+00:00",
+  "wav": {
+    "path": "C:\\Users\\marco\\Documents\\Codex\\2026-10-21\\task\\GEP033-WCS-Reference-Diagnosis-20261022\\diagnostic-v3\\continuous\\GEPARD_CURRENT\\system-output.wav",
+    "bytes": 10329644,
+    "sha256": "4cadcb46dc3e5517e08cd3a6ae9fd270686ab0cb32b5a10c8c656086dd8bc18a"
+  }
+}

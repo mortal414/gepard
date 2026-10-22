@@ -263,20 +263,19 @@
     },
     {
       "id": "GEP-033",
-      "status": "Needs user test",
-      "reason": "Separate validated6-file audio candidate: native authoring and matched stock/candidate cabin/exterior motion recordings complete. Audible track identity/quality,30/100m,lifecycle and firing balance remain unqualified. Excluded from unchanged Demo09.",
+      "status": "Blocked",
+      "reason": "Human listening FAILED: no audible tracks and clips sounded the same. Effective candidate graph binding, valid pivots, contact/material and parent Speed verified against actual installed WCS reference. PointInfo type mismatch refuted. Private rolling activation unresolved; optional new five-stock-SIG read declined pending specific script permission. Candidate remains excluded from unchanged Demo09.",
       "doneAcceptedBeforeSprint": false,
       "newlyCompleted": false,
-      "genuineBlocker": false,
-      "blocker": null,
-      "blockingState": "AUTHORING_PERMISSION_RESOLVED_AUDIBLE_FEATURE_NOT_TESTED",
-      "separateCandidateEvidence": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\audio033-author02-20261022\\RESULT.json",
+      "genuineBlocker": true,
+      "blocker": "New pinned stock-signal inspection script LoadContainer permission declined; native operation known not executed. Independent runtime diagnostics complete; no sound fix yet.",
+      "blockingState": "USER_AUDIBLE_FAIL_PRIVATE_ROLLING_GATE_READ_DECLINED",
+      "separateCandidateEvidence": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\qa\\consolidated-20261022\\audio033-audible-fail-diagnosis-20261022\\RESULT.json",
       "remainingInclusionGates": [
-        "Human confirmation that track-specific motion layer is actually audible, natural and speed-linked, with no clicks/doubling/stop tails",
-        "Actual30/100m and out-of-range/return playback",
-        "Exit/reentry and delete/reset/respawn loop lifecycle",
-        "Engine and unchanged stock cannon sound balance under actual firing",
-        "Source-current V11/smoke integration and package verification only after audible mechanism qualifies"
+        "Resolve exact bounded stock-SIG read permission and inspect native gate inputs/trigger/surface/gain math",
+        "Implement only a causally supported correction and verify private rolling activation",
+        "Human confirmation of actual audible track texture and speed/stop behavior",
+        "Distance/lifecycle/weapon balance and current-source integration after mechanism qualifies"
       ]
     }
   ],

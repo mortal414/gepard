@@ -1,0 +1,59 @@
+{
+  "state": "DECLINED_KNOWN_NONEXECUTION_REQUIRES_SPECIFIC_AUTHORIZATION",
+  "action": "Read five fixed STOCK SIG containers with BaseContainerTools.LoadContainer in pinned new plugin; bounded console-only recursive property readback",
+  "script": "scripts/WorkbenchGame/GEP033/GEP033_InspectStockRollSignals.c:65",
+  "sourceSHA256": "abcf496a590ce00076e4b48ed6868b20c4ccddf8d8fb8edf33fffdd8793f7346",
+  "targets": [
+    "{A8670D1D8D7F2696}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Roll_Front_Left.sig",
+    "{6A39A5B6E0FF6039}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Trigger.sig",
+    "{CCCD8159D3EACCF4}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Surface.sig",
+    "{D7B7F91D5FD261AF}Sounds/Vehicles/_SharedData/Wheels/Vehicles_Wheel_APC_DynamicRange.sig",
+    "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+  ],
+  "prompt": {
+    "text": [
+      "Allow script 'scripts/WorkbenchGame/GEP033/GEP033_InspectStockRollSignals.c:65'\nto access potentially dangerous\nmethod 'BaseContainerTools.LoadContainer'?"
+    ],
+    "readOnlyInspection": true,
+    "dialog": "Script Authorization Required",
+    "utc": "2026-10-22T16:02:42.7431905Z",
+    "pid": 14728,
+    "status": "PENDING_NEW_SCRIPT_READ_PERMISSION_NOT_APPROVED",
+    "buttons": [
+      "Yes",
+      "Yes to All",
+      "No",
+      "No to All"
+    ]
+  },
+  "decision": {
+    "utc": "2026-10-22T16:03:25.9662085Z",
+    "bypassAttempted": false,
+    "protectedOperationRetried": false,
+    "selected": "No to All",
+    "status": "DECLINING_OPTIONAL_NEW_SCRIPT_FIXED_FIVE_STOCK_SIGNAL_READS",
+    "approvalGranted": false,
+    "dialogText": "Allow script 'scripts/WorkbenchGame/GEP033/GEP033_InspectStockRollSignals.c:65'\nto access potentially dangerous\nmethod 'BaseContainerTools.LoadContainer'?"
+  },
+  "nativeExit": {
+    "stockMetadataComplete": false,
+    "leaseReleased": true,
+    "closeMethod": "owned-normal-window-close-after-stock-metadata-terminal",
+    "exitCode": 0,
+    "verifiedExited": true,
+    "audibleAcceptance": "NOT_TESTED",
+    "utc": "2026-10-22T16:03:27.2114772Z"
+  },
+  "run": "D:\\ArmaProjects\\Gepard-Consolidated-20261022\\native-runs\\audio-stock-signals-01",
+  "durationScope": "Workbench prompt does not state permission duration; Yes to All would be requested for this pinned read-only script only",
+  "noAlternateRouteOrRetry": true,
+  "excludedCapabilities": [
+    "FileIO",
+    "SaveContainer",
+    "Set",
+    "WCS graph/audio payload reads",
+    "playback",
+    "volume changes"
+  ],
+  "literalParentApprovalQuestion": "May I choose Yes to All for GEP033_InspectStockRollSignals.c:65 to read only the five listed stock signal resources with BaseContainerTools.LoadContainer and print their bounded properties? It saves or changes no resources, and Workbench does not specify permission duration."
+}
