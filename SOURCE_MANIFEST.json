@@ -1,9 +1,9 @@
 {
-  "build": "release-1.0.3",
-  "proposedVersion": "1.0.3",
+  "build": "release-1.0.4",
+  "proposedVersion": "1.0.4",
   "workshopItem": "D561AD08932E7B40",
   "published": true,
-  "sourceCodeCommit": "7d302c250c874fb94c5fea979f06b6885b04d4d3",
+  "sourceCodeCommit": "0a5e763fc13dae279946fb1cecc1e23655affe60",
   "files": {
     "addon/Assets/ArtApproved20261022/Gepard/GepardGunLeft.fbx": "646d25a76e5e404a08368fe7856b9c6e96beb1b104ea143a384917136c476d70",
     "addon/Assets/ArtApproved20261022/Gepard/GepardGunLeft.txo": "b7379ede9a1ce56f7aeca5f21f9e6c7afaeed928cf3822f804a0278617bac620",
@@ -985,7 +985,7 @@
     "addon/Configs/EntityCatalog/GEP_CharcoalVehicle018.conf.meta": "71d863043f2c815dfdfe7a5be3efba063f67d3e3f36ab8d9920c0b416d04cdea",
     "addon/Configs/EntityCatalog/GEP_Vehicle.conf": "35dd1afdb59e3f72ea034631d2cccbef817ac41ade94e95a48d3e4902bb17523",
     "addon/Configs/EntityCatalog/GEP_Vehicle.conf.meta": "aeafcb2e8b83887e4e25b4bd1a0ca94f1d779a788620dfe1c6c146591111356d",
-    "addon/Configs/System/chimeraInputCommon.conf": "2a902cefabf0dce25cb80182bd1d830c1aa785ad565b2912320eba56159a6aeb",
+    "addon/Configs/System/chimeraInputCommon.conf": "047c10f6f97dfa776cc9735702891a07983b0495d79c78fe0ad8ffe8bb650f05",
     "addon/Configs/System/chimeraInputCommon.conf.meta": "81e6f7f06e329b02e2d2548e3a6a886f6be8f3e71de784dae5a47ea5a25dae53",
     "addon/Configs/System/keyBindingMenu.conf": "c9845e004369c8d412332aa4bc7119f70337427047b996d89381ff99006be016",
     "addon/Configs/System/keyBindingMenu.conf.meta": "0b173a4287f2aeb87796d4740a08a640d62e521f3c8b52c44c6577ca9aa1ab0a",
@@ -1165,7 +1165,7 @@
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingBase.et.meta": "3ac0fb6e4c183953b865620ebe4e38a55c93ba39ee2153578b2c57c42ba1a9de",
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingHead.et": "5aba8b7b7c75e56797401815d501e73c7126e3bf16fd3e41119d6f7203fb4f68",
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Art/GepardTrackingHead.et.meta": "99d2d8372079fa75e50ffe796ca06dc6e267f0a8ead99985487a5dc113a8719b",
-    "addon/Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et": "1cf55d4a323d4fcaca3d1c56cb7128e495b7dcc3ff1babf5d1b902b7d0a88d1d",
+    "addon/Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et": "87b3ab925c46707b99388066b1ca37afadb84a044fbe20167784df1a4608aeb5",
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et.meta": "b94dd1e6e602a6248e11c4095d3d600a8c4615f21fe7fc3c69d9b1c8ae2410e6",
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunLeft.et": "a13e4b38c55ec79ddcbf8338a21ef480fd7efae2d869b80251b2d591e1fa7d7e",
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunLeft.et.meta": "93e5e78dea6d4f163a6c6e5dc77fd6b9a5f36573049adba81e249cc76de2b94c",
@@ -1173,7 +1173,7 @@
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_35_GunRight.et.meta": "75894e422ca6f8b6a24774af4bc6f48f4b07cd77f8f3e2facc346d9c4df187c2",
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_VehicleTurret.et": "27ac70522860f78ed391dd34fbb2bfd01a9f543a5c48d00076b012a64626b03e",
     "addon/Prefabs/Variants/Charcoal018/Prefabs/Weapons/GEP_VehicleTurret.et.meta": "f6e130b03ccfe88284a47085b696bec23e345ae2237be28b564dfaf7c5343415",
-    "addon/Prefabs/Vehicles/GEP_MobileCarrier.et": "852f5bd5f6f5b63ef62d0d331fc23e1e988d82a27a44abbe6c7c3df50def7e51",
+    "addon/Prefabs/Vehicles/GEP_MobileCarrier.et": "019a67801b9b93466d3deeef05de123d76294c2eb80486b96309d761797e7093",
     "addon/Prefabs/Vehicles/GEP_MobileCarrier.et.meta": "4721f130bcf7f064a0b910345e730002594c875f524c19167d3ed437a1459962",
     "addon/Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et": "785712c8f932788af0198286d0a6f8d2611cf12d054174b2aa2ce2d867573220",
     "addon/Prefabs/Vehicles/GEP_MobileCarrier_SpaceCoreTracks033.et.meta": "0647cc101efc22fdb8c30eea8f63eb93f4b847ec905ed99e634833616769b42a",
@@ -1199,7 +1199,7 @@
     "addon/Prefabs/Weapons/GEP_WCSSmokeBankLeft215.et.meta": "9cfd5ae8fa57b25031368fa76f81443c2761f1cc916b70da41cb0e2d18469673",
     "addon/Prefabs/Weapons/GEP_WCSSmokeBankRight215.et": "6315a5e787018a8537e152ac0f4ca57152fc66ec10781db4c675f49a8b6de8ac",
     "addon/Prefabs/Weapons/GEP_WCSSmokeBankRight215.et.meta": "6c45b22f9ecbed604553fa586baeb719b81f5d654ea50579142406daf82e38c3",
-    "addon/resourceDatabase.rdb": "4645098ffae0ffb065406eafd6bdace150066b995e1ba18cfa7c3ccc975776ea",
+    "addon/resourceDatabase.rdb": "f0013feb1f66298d8b7bf97d8d6d860c8cbd7e2e6b8064e469094d8d2566acac",
     "addon/scripts/Game/GEP/GEP_AmmoCatalogue.c": "0ba6876a14e421ac4435dca8761edf152cbe53097fd3f56280ccfb779cd9400d",
     "addon/scripts/Game/GEP/GEP_CharcoalCatalogue018.c": "9df051ef091008e60c372a78c05e6345579a4d3b6c930e2771bee0eaf18b898e",
     "addon/scripts/Game/GEP/GEP_ComponentDamageSetup.c": "602287146cbc28cd6a6c19febf7da0d56fa96705099a9d0506bc337b45cea099",
@@ -1216,6 +1216,8 @@
     "addon/scripts/Game/GEP/GEP_Instruments494.c": "3c1d2198aa4230aeb6f35926f5da5b5be05781d786ad66aca17cdc7de0692f6a",
     "addon/scripts/Game/GEP/GEP_LampDamage584.c": "97b4ea30f582d8453b81ec9965252644cba9a5ba8b8a5c2141bec9b8d5901a97",
     "addon/scripts/Game/GEP/GEP_MagazineWell.c": "69480e5e679768587b994edcfeace3298830938694227837bf110cdfd9fcea0a",
+    "addon/scripts/Game/GEP/GEP_NextDestroyedGearbox2301.c": "de977e0fdaa87cd22205ae2b082e719af894433dbbe48e70cbdd9a5015c62820",
+    "addon/scripts/Game/GEP/GEP_NextDestroyedGearbox2301.c.meta": "e5d53c694c809dd9b60e44fb2aebfe9547d8f99a513c3832acfc6c466ec4234d",
     "addon/scripts/Game/GEP/GEP_Optical444.c": "d959eb33c94e1688d4664930cba9f7135fa95e9836787e3edc429612d48ee1d2",
     "addon/scripts/Game/GEP/GEP_OpticEvidence679.c": "1c98bec615aaa7aa932c49a85478db120fb052e39bfc5c7a078620ae6abc418c",
     "addon/scripts/Game/GEP/GEP_PlainSight680.c": "4fac0ae37b8a4ccbc8992d4162c0f571f46642162b9c89d6caadbc6f0c144097",
@@ -1242,17 +1244,17 @@
   },
   "package": {
     "data.pak": {
-      "sha256": "7e3e4e3024a4268c463039960b7d28d297613137f43ddc3ede76e86a5fa8d700",
-      "bytes": 281024837
+      "sha256": "0a55ebd9b873b8bd93584cd2175e199576c37957af7a0bf52bc041c3ee18fca4",
+      "bytes": 281025635
     },
     "Gepard.gproj": {
       "sha256": "21a795090e6d609d995de809c8a5c3fb0ec6af22129f3421adaa2802e6f1a5bb",
       "bytes": 680
     },
     "resourceDatabase.rdb": {
-      "sha256": "0382cb251691839704babc0a0026cb6496a9e4eb0c1ef57f5f98f0904d3e7902",
-      "bytes": 52624
+      "sha256": "f95683b2d4dee75951f875274a8a1b6eea16c139e96350dd9390b1c361e2edaf",
+      "bytes": 52698
     }
   },
-  "publicVerification": "qa/release103/RELEASE-RESULT.json"
+  "publicVerification": "qa/release104/RELEASE-RESULT.json"
 }

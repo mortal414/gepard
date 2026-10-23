@@ -1,14 +1,20 @@
 {
-  "schema": 4,
-  "status": "DEMO10_PROMOTED_TO_PUBLISHED_1.0.3",
+  "schema": 5,
+  "status": "TESTED_MORNING_CANDIDATE_PUBLISHED_1.0.4",
   "published": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "workshopItem": "D561AD08932E7B40",
   "sourceRoot": "addon",
   "sourceManifest": "SOURCE_MANIFEST.json",
-  "releaseReceipt": "qa/release103/RELEASE-RESULT.json",
-  "privateComparisonWorld": "Retained separately in updates/demo10 and the frozen Demo10 checkout; not shipped in the public vehicle PAK",
+  "releaseReceipt": "qa/release104/RELEASE-RESULT.json",
   "privateProvingGroundReusable": true,
-  "newWholeGEPCheckboxes": 0,
-  "smoke": "UNRESOLVED_NOT_ACCEPTED_NOT_ADVERTISED"
+  "privateWorldShipped": false,
+  "acceptedScopeByGEP": {
+    "GEP-015": "Owner accepted deployment and rearm; spread may improve",
+    "GEP-011": "Owner accepted functional component damage; no real-world armor/number validation",
+    "GEP-013/020": "Owner accepted living-crew access after component disablement"
+  },
+  "aiming007009": "EXCLUDED_FAILED_CANCELLATION_GATE",
+  "newArt": "EXCLUDED_UNAPPROVED",
+  "previousRelease": "1.0.3 preserved at9e49a909"
 }

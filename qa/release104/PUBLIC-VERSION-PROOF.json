@@ -1,0 +1,24 @@
+{
+  "item": "D561AD08932E7B40",
+  "currentVersion": "1.0.4",
+  "approved": true,
+  "published": true,
+  "exactPublicNotes": [
+    "Enabled smoke deployment and rearming.",
+    "Improved component damage while preserving living-crew access."
+  ],
+  "unchangedFields": [
+    "name",
+    "description",
+    "summary",
+    "license",
+    "unlisted",
+    "private"
+  ],
+  "dependencies": {
+    "5E389BB9F58B79A6": "8.4.0",
+    "629B2BA37EFFD577": "8.4.0"
+  },
+  "officialPageSHA256": "936ff54fd8d4e89125bc1e55f0e53893ead712464a72f4e1991add2df19a282d",
+  "url": "https://reforger.armaplatform.com/workshop/D561AD08932E7B40-Gepard35mmSPAA"
+}

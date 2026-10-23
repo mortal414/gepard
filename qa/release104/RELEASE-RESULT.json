@@ -1,0 +1,79 @@
+{
+  "status": "PUBLISHED_PROCESSED_PUBLIC_VERSION_AND_EXACT_UPLOADED_TRIO_VERIFIED",
+  "item": "D561AD08932E7B40",
+  "version": "1.0.4",
+  "submissionCount": 1,
+  "notes": [
+    "Enabled smoke deployment and rearming.",
+    "Improved component damage while preserving living-crew access."
+  ],
+  "trio": {
+    "data.pak": {
+      "sha256": "0a55ebd9b873b8bd93584cd2175e199576c37957af7a0bf52bc041c3ee18fca4",
+      "bytes": 281025635
+    },
+    "Gepard.gproj": {
+      "sha256": "21a795090e6d609d995de809c8a5c3fb0ec6af22129f3421adaa2802e6f1a5bb",
+      "bytes": 680
+    },
+    "resourceDatabase.rdb": {
+      "sha256": "f95683b2d4dee75951f875274a8a1b6eea16c139e96350dd9390b1c361e2edaf",
+      "bytes": 52698
+    }
+  },
+  "sameTestedPAKAndGproj": true,
+  "nativePublisherRegeneratedRDB": true,
+  "exitCode": 0,
+  "nativeAbsent": true,
+  "leaseReleased": true,
+  "metadataAndMediaPreserved": true,
+  "consoleSHA256": "1efbacd85e577557f9e81383c486ae77286edb4e67b69199f5018a37e9b580d7",
+  "sourceCommit": "0a5e763fc13dae279946fb1cecc1e23655affe60",
+  "terminalRows": [
+    "15:24:26.547  DEFAULT      : Project uploaded successfully",
+    "15:24:42.452  DEFAULT      : Addon processing successful"
+  ],
+  "website": "INDEPENDENT_OFFICIAL_PUBLIC_VERSION_1.0.4_APPROVED_PUBLISHED",
+  "uploadedTrioGM": {
+    "status": "PASS_NATIVE_BROWSER_FILTER_CARD_PLACEMENT",
+    "browserCards": 2,
+    "nativePlacements": 3,
+    "serverAcknowledgements": 3,
+    "ownerAcknowledgements": 3,
+    "exit": {
+      "verifiedExited": true,
+      "closeMethod": "owned-normal-window-close",
+      "leaseReleased": true,
+      "exitCode": 0,
+      "utc": "2026-10-23T20:27:13.0289100Z"
+    },
+    "consoleSHA256": "32408209f340425c8457541321d9277d932e0ce1298d8640691fe11679e35c19",
+    "nativeImageSHA256": "7b852d04d63326753adaa65f98c685719539029e8c8472d804eef779e6f4f97f",
+    "directNativePixelReview": "Both skins visible, no obvious missing/purple/fallback geometry at this camera",
+    "physicalMouseKeyboard": "Not newly tested by automated probe; owner manual acceptance is separate",
+    "strictNativeVerdict": "FAIL_RETAINED",
+    "rawDiagnosticCount": 73
+  },
+  "originalWatcherResult": "FAILED_OR_UNCONFIRMED",
+  "terminalReconciliation": "Native exited0 between watcher reads; immutable original watcher reports unconfirmed. Final closed console has exactly one successful upload followed by processing success and Game destroyed; official page independently confirms1.0.4. No resubmission.",
+  "originalWatcherFailurePreserved": true,
+  "publicMetadataUnrelatedFieldsUnchanged": true,
+  "dependencies": {
+    "5E389BB9F58B79A6": "8.4.0",
+    "629B2BA37EFFD577": "8.4.0"
+  },
+  "ownerAcceptedScope": [
+    "Smoke deployment and rearm",
+    "Functional component damage with living-crew access"
+  ],
+  "limitations": [
+    "Future damage-number tuning; no real-world armor validation",
+    "Smoke spread/screening improvements remain possible",
+    "Stabilization/ballistic consumer excluded, independent mounted-turret destruction remains stubbed",
+    "Broader protection, service and MP/JIP/dedicated/console behavior not blanket-qualified",
+    "User primary Workshop installation unchanged; this is uploaded-trio local verification plus official public page proof"
+  ],
+  "publicProofSHA256": "936ff54fd8d4e89125bc1e55f0e53893ead712464a72f4e1991add2df19a282d",
+  "newTermsAccepted": false,
+  "unapprovedArtIncluded": false
+}

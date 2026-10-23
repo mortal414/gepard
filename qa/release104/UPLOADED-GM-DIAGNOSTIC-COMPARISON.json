@@ -1,0 +1,9 @@
+{
+  "strictVerdict": "FAIL_RETAINED",
+  "first": 72,
+  "uploaded": 73,
+  "added": {
+    "RESOURCES (E): Wrong GUID/name for resource @\"{2F07D6CD2F5EC5FF}Language/GEP_GM102_localization.st\" in property \"StringTableSource\"": 1
+  },
+  "removed": {}
+}

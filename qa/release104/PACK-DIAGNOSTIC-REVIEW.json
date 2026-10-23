@@ -1,0 +1,16 @@
+{
+  "status": "PACK_CREATED_WITH_RETAINED_NEW_PLATFORM_DIAGNOSTIC_CONTENT_REVIEW_PENDING",
+  "originalSerialVerdict": "FAIL_UNCHANGED",
+  "scriptValidation": "PASS_WITH_EXACT_BASELINE_TEARDOWN",
+  "packagingSuccessObserved": true,
+  "packNativeExitCode": 0,
+  "leaseReleased": true,
+  "rawPackEF": 28,
+  "rawValidateEF": 27,
+  "newDiagnostic": [
+    "PLATFORM  (E): Steamworks: RequestCurrentStats failed"
+  ],
+  "interpretation": "Steam statistics request failure is a platform-service diagnostic, not a reported packaging/resource/script failure. This is NOT claimed as an exact baseline match or clean engine pass. Proceed only after independent source/trio/content proof and actual packaged GM loading.",
+  "logsSHA256": "291cd500323033aa659167a39f6c9358128447e2861185f5acfccd6fc845ef13",
+  "noNativeRetry": true
+}

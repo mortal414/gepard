@@ -1,0 +1,9 @@
+{
+  "status": "STRICT_FAIL_RETAINED_DIFFERENCES_REVIEW",
+  "oldCount": 74,
+  "newCount": 72,
+  "added": {},
+  "removed": {
+    "SCRIPT    (E): 'SCR_BaseResupplySupportStationComponent' needs a entity catalog manager!": 2
+  }
+}
