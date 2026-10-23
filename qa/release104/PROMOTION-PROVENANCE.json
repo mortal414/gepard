@@ -1,0 +1,39 @@
+{
+  "status": "SOURCE_PACKAGE_VERIFIED_PUBLICATION_PENDING",
+  "version": "1.0.4",
+  "item": "D561AD08932E7B40",
+  "baselineCommit": "9e49a90908c40dd1a2b9c98616bc48f9b9760676",
+  "testedMorningCheckpoint": "5430462e96caf9d126863c0dc7f0410e3176f67e",
+  "manualAcceptance": "Owner accepted smoke deployment/rearm and component damage with living-crew access. Damage numbers remain open to future tuning; no real-world armor validation.",
+  "sourceFiles": 1236,
+  "runtimeResources": 621,
+  "publicPromotion": [
+    {
+      "skin": "Camo",
+      "publicResource": "Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "testedWrapperSHA256": "72a6d8eaa1be7c105cb1ecff4927fa44977466669c16cadcf5be529ac54c9759",
+      "testedOverrideBodySHA256": "35b801d684307759a3a693448bfa3a03ef048ec114863073235ab8f7664cbf56",
+      "previousPublicSHA256": "9b698686b5e0a47888c31ee75db4bf319d7053f1cca29dbfda76d52dced64a36",
+      "promotedSHA256": "019a67801b9b93466d3deeef05de123d76294c2eb80486b96309d761797e7093",
+      "onlyEffectiveChange": "Exact tested Gearbox_01 class and DRIVE_TRAIN repair group; original parent retained"
+    },
+    {
+      "skin": "Charcoal",
+      "publicResource": "Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "testedWrapperSHA256": "e31fc3322812cd5f677238465a4ca04b4bd9d31ca5a257f4331b5cee996f02d7",
+      "testedOverrideBodySHA256": "35b801d684307759a3a693448bfa3a03ef048ec114863073235ab8f7664cbf56",
+      "previousPublicSHA256": "96554e6ae0c773077b6ead0a9d26ea0909735d74fb68f6ff171764521be7ca2c",
+      "promotedSHA256": "87b3ab925c46707b99388066b1ca37afadb84a044fbe20167784df1a4608aeb5",
+      "onlyEffectiveChange": "Exact tested Gearbox_01 class and DRIVE_TRAIN repair group; original parent retained"
+    }
+  ],
+  "privateQAExcluded": true,
+  "externalPayloadCopied": false,
+  "aimingExcluded": true,
+  "unapprovedArtExcluded": true,
+  "dependencies": {
+    "5E389BB9F58B79A6": "8.4.0",
+    "629B2BA37EFFD577": "8.4.0"
+  },
+  "strictNative": "Original serial pack classifier FAIL retained: one new Steam statistics diagnostic beyond27 validation errors. Native pack exit0/success and independent621-resource trio/content proof verified; no clean-engine claim."
+}

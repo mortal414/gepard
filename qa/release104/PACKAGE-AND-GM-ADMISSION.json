@@ -1,0 +1,46 @@
+{
+  "status": "PACKAGED_GM_PASS",
+  "version": "1.0.4",
+  "item": "D561AD08932E7B40",
+  "package": {
+    "Gepard.gproj": {
+      "bytes": 680,
+      "sha256": "21a795090e6d609d995de809c8a5c3fb0ec6af22129f3421adaa2802e6f1a5bb"
+    },
+    "resourceDatabase.rdb": {
+      "bytes": 54764,
+      "sha256": "f0013feb1f66298d8b7bf97d8d6d860c8cbd7e2e6b8064e469094d8d2566acac"
+    },
+    "data.pak": {
+      "bytes": 281025635,
+      "sha256": "0a55ebd9b873b8bd93584cd2175e199576c37957af7a0bf52bc041c3ee18fca4"
+    }
+  },
+  "packageOnlyGM": {
+    "browserCards": 2,
+    "moddedCards": 2,
+    "vehicleArmorUSCards": 2,
+    "nativePlacements": 3,
+    "serverAcknowledgements": 3,
+    "ownerAcknowledgements": 3,
+    "exit": {
+      "closeMethod": "owned-normal-window-close",
+      "exitCode": 0,
+      "utc": "2026-10-23T20:20:34.9468010Z",
+      "leaseReleased": true,
+      "verifiedExited": true
+    },
+    "consoleSHA256": "9eb02521d0d0a5fd2e17004132df9b76994fab01472d33326f27a5912484e268",
+    "nativeImageSHA256": "543c90c8116400f1466e0c7878d898a80cb0a2acdadf6e8a41cc327638010de2",
+    "directNativePixelReview": "Both Camo and Charcoal vehicles visible beside stock M998; no obvious missing/purple/fallback geometry at this camera",
+    "physicalMouseKeyboard": "Not newly exercised in automated GM test; owner accepted physical morning playtest separately",
+    "rawDiagnosticCount": 72,
+    "strictNativeVerdict": "FAIL_RETAINED"
+  },
+  "diagnosticReview": "Strict failures retained separately; no clean-engine/gameplay acceptance inferred from compile or pack.",
+  "publication": "PENDING",
+  "notes": [
+    "Enabled smoke deployment and rearming.",
+    "Improved component damage while preserving living-crew access."
+  ]
+}

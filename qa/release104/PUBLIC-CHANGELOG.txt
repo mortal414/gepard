@@ -1,0 +1,2 @@
+Enabled smoke deployment and rearming.
+Improved component damage while preserving living-crew access.
