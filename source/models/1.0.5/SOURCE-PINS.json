@@ -1,0 +1,78 @@
+{
+  "version": "1.0.5",
+  "files": [
+    {
+      "target_relative_path": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.fbx",
+      "source_relative_path": "source/models/1.0.5/Assets/ArtApproved20261022/Gepard/GepardTurretRig.fbx",
+      "sha256": "7b748132d2498f0fc3200c7e77e007941a0e6fef407df42448a40cbd6303ece7",
+      "bytes": 14164364,
+      "runtime_model": "{4D7043CCA2E8BD79}Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+      "note": "Existing native graph/skin/rig/material identities preserved; copy to target-relative addon path only in a disposable authoring checkout before native recook"
+    },
+    {
+      "target_relative_path": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.fbx",
+      "source_relative_path": "source/models/1.0.5/Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.fbx",
+      "sha256": "725324c87e4d98cb4678affc8fd22346ea905594869ee964e1180b79ba4a0c63",
+      "bytes": 161036,
+      "runtime_model": "{C23AF0E6361BFB2C}Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+      "note": "Existing native graph/skin/rig/material identities preserved; copy to target-relative addon path only in a disposable authoring checkout before native recook"
+    },
+    {
+      "target_relative_path": "Assets/ArtApproved20261022/Mobility/MobilityRig.fbx",
+      "source_relative_path": "source/models/1.0.5/Assets/ArtApproved20261022/Mobility/MobilityRig.fbx",
+      "sha256": "299cde1defdb81f98bf6c735a42a6a800a9aa3b10da0709436e4691bf0c45211",
+      "bytes": 47662524,
+      "runtime_model": "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+      "note": "Existing native graph/skin/rig/material identities preserved; copy to target-relative addon path only in a disposable authoring checkout before native recook"
+    },
+    {
+      "target_relative_path": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.fbx",
+      "source_relative_path": "source/models/1.0.5/Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.fbx",
+      "sha256": "7f7596e92af14e7065cf301b9fe5f8b17c7eeb0713ad8e8ac43f4a5e60486e40",
+      "bytes": 3971372,
+      "runtime_model": "{C6D9B89642E424E3}Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+      "note": "Existing native graph/skin/rig/material identities preserved; copy to target-relative addon path only in a disposable authoring checkout before native recook"
+    },
+    {
+      "target_relative_path": "Assets/Gepard/GepardFullWidthApron606.fbx",
+      "source_relative_path": "source/models/1.0.5/Assets/Gepard/GepardFullWidthApron606.fbx",
+      "sha256": "a48283f9025d3f170f34d5623c4c0a624f87f89aaaf778e89b8050ba9c1fbb02",
+      "bytes": 1184156,
+      "runtime_model": "{7C3171139EFF43D4}Assets/Gepard/GepardFullWidthApron606.xob",
+      "note": "Existing native graph/skin/rig/material identities preserved; copy to target-relative addon path only in a disposable authoring checkout before native recook"
+    },
+    {
+      "target_relative_path": "Assets/Gepard/GepardTrackingHead.fbx",
+      "source_relative_path": "source/models/1.0.5/Assets/Gepard/GepardTrackingHead.fbx",
+      "sha256": "ae72e236864f3e0bb0ef4cf9908f2d93095ac4edb7ae071df7e365b877ce3300",
+      "bytes": 410956,
+      "runtime_model": "{D561AD08932E3107}Assets/Gepard/GepardTrackingHead.xob",
+      "note": "Existing native graph/skin/rig/material identities preserved; copy to target-relative addon path only in a disposable authoring checkout before native recook"
+    },
+    {
+      "target_relative_path": "Assets/Gepard/ReferenceFittings668/FenderDetails668.fbx",
+      "source_relative_path": "source/models/1.0.5/Assets/Gepard/ReferenceFittings668/FenderDetails668.fbx",
+      "sha256": "c2d3323560425675bebe64ccb67a46ac413db6a03ef8733e06b64bb081edd168",
+      "bytes": 94892,
+      "runtime_model": "{F9EED50D522040E2}Assets/Gepard/ReferenceFittings668/FenderDetails668.xob",
+      "note": "Existing native graph/skin/rig/material identities preserved; copy to target-relative addon path only in a disposable authoring checkout before native recook"
+    }
+  ],
+  "geometry_scopes": [
+    "V43 side",
+    "V30 front guards",
+    "V19 tracking-head casing ribs",
+    "V23R1 rear shell/cover",
+    "V26R1 closed containers",
+    "V27R1 sight cases",
+    "V34R1 fixed search-bay hood"
+  ],
+  "excluded": [
+    "V20 movement redesign",
+    "V21 provisional finish",
+    "V24 unfinished guards/LODs",
+    "V29/V31/V32 rig studies",
+    "V44D shared hatch",
+    "V39 material experiments"
+  ]
+}

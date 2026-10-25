@@ -1,0 +1,7 @@
+GameProject {
+ ID "GepardCombined726Private"
+ GUID "A76A420025072600"
+ TITLE "Private Gepard native ballistic experiment 1000m 1500m"
+ Dependencies { "58D0FB3206B6F859" "D561AD08932E7B40" "629B2BA37EFFD577" }
+ Configurations { GameProjectConfig PC {} GameProjectConfig HEADLESS : PC {} }
+}

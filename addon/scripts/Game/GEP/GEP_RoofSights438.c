@@ -1,8 +1,20 @@
 // Original simplified optical head: gun orientation, fixed turret-roof origin.
 // Native ADS, zoom, user controls and weapon transforms remain authoritative.
-class GEP_RoofSights438Class : SCR_2DSightsComponentClass {}
-class GEP_RoofSights438 : SCR_2DSightsComponent
+class GEP_RoofSights438Class : WCS_Armament_VehicleSightsComponentClass {}
+class GEP_RoofSights438 : WCS_Armament_VehicleSightsComponent
 {
+ // GEP676 is the sole accepted local range-action consumer.
+ // Remove only the inherited dependency callback using its exposed extension seam.
+ // Input-context/key priority still requires a real physical-key regression.
+ override protected void StartInstruments()
+ {
+  super.StartInstruments();
+  if(m_Input && GetOwner().FindComponent(GEP_NextFireControlConsumer726))
+  {
+   m_Input.RemoveActionListener(RANGE_ACTION,EActionTrigger.DOWN,MeasureRange);
+  }
+ }
+ override void MeasureRange() {}
  void UpdateRoofPoint()
  {
   IEntity owner=GetOwner();

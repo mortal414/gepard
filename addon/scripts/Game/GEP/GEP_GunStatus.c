@@ -79,6 +79,7 @@ class GEP_GunStatus : ScriptComponent
  float HeaderCorners676;
  int LastBuildAttempt680;
  bool InstrumentsVisible702;
+ bool EntityLockCue715;
  IEntity PresentedUser702;
  BaseCompartmentSlot PresentedSeat702;
  SCR_2DSightsComponent PresentedSight702;
@@ -88,7 +89,7 @@ class GEP_GunStatus : ScriptComponent
  }
  void ClearPresentation702()
  {
-  InstrumentsVisible702=false;PresentedUser702=null;PresentedSeat702=null;PresentedSight702=null;SightHelpAge703=0;
+  EntityLockCue715=false;InstrumentsVisible702=false;PresentedUser702=null;PresentedSeat702=null;PresentedSight702=null;SightHelpAge703=0;
  }
  bool ActiveCrew(IEntity owner){return GEP_GunnerSnapshot583.IsLocalGunner(owner);}
  bool Present680(IEntity owner)
@@ -254,13 +255,13 @@ class GEP_GunStatus : ScriptComponent
   if(HudStyle702==4){TextSight703();return;}
   Put(Header,"GEPARD / ZIELVISIER");
   string mode="--";if(Snapshot.OpticsValid){mode="TAG";if(Snapshot.Night)mode="RESTLICHT";}Put(OpticalMode,mode);
-  string zoom="--×";if(Snapshot.ZoomValid)zoom=NumberDE704(Snapshot.Magnification)+"×";Put(Zoom,zoom);
+  string zoom="--Ã—";if(Snapshot.ZoomValid)zoom=NumberDE704(Snapshot.Magnification)+"Ã—";Put(Zoom,zoom);
   Put(LeftTitle,"LINKS");Put(RightTitle,"RECHTS");Put(LeftCount,FeedCountDE704(Snapshot.Left));Put(RightCount,FeedCountDE704(Snapshot.Right));
   Put(LeftType,FeedTypeDE704(Snapshot.Left));Put(RightType,FeedTypeDE704(Snapshot.Right));
   string range="ENTFERNUNG --";
   if(Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeMetres676>0 && Snapshot.RangeAge676>=0)range="ENTFERNUNG "+Math.Round(Snapshot.RangeMetres676).ToString()+" m";
   else if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN)range="KEIN MESSWERT";
-  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)range="MESSUNG NICHT VERFÜGBAR";
+  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE)range="MESSUNG NICHT VERFÃœGBAR";
   Put(Range676,range);string group="WAHL --";if(Snapshot.Group==0)group="BEIDE";if(Snapshot.Group==1)group="LINKS";if(Snapshot.Group==2)group="RECHTS";Put(Group,group);
   Put(Feedback,OperationalFeedbackDE704());Put(Drive,"");Put(SightAngles,"");Put(TurretAngles,"");Put(Reference,"");
  }
@@ -631,13 +632,20 @@ class GEP_GunStatus : ScriptComponent
  void GraphicsSight703()
  {
   Draw.Clear();float ox=(W-1920*S)*0.5;float oy=(H-1080*S)*0.5;float x=W*0.5;float y=H*0.5;
-  // The accepted seven-segment open-centre reticle remains the exact aiming datum.
+  // Central aiming geometry is unchanged; confirmed entity tracking adds only
+  // mint end caps to the existing outer horizontal arms.
   for(int layer=0;layer<2;layer++)
   {
    int color=0xff09100e;float stroke=6.8*S;if(layer==1){color=0xffeee9cd;stroke=3*S;}
    Line(x-144*S*1.4,y+18*S*1.4,x-96*S*1.4,y,color,stroke);
-   Line(x-96*S*1.4,y,x-72*S*1.4,y,color,stroke);
-   Line(x+72*S*1.4,y,x+96*S*1.4,y,color,stroke);
+   int armInk715=color;if(layer==1 && EntityLockCue715)armInk715=ACTIVE583;
+   Line(x-96*S*1.4,y,x-72*S*1.4,y,armInk715,stroke);
+   Line(x+72*S*1.4,y,x+96*S*1.4,y,armInk715,stroke);
+   if(EntityLockCue715)
+   {
+    Line(x-72*S*1.4,y-5*S,x-72*S*1.4,y+5*S,armInk715,stroke);
+    Line(x+72*S*1.4,y-5*S,x+72*S*1.4,y+5*S,armInk715,stroke);
+   }
    Line(x+96*S*1.4,y,x+144*S*1.4,y+18*S*1.4,color,stroke);
    Line(x-22*S*1.4,y+13*S*1.4,x-7*S*1.4,y,color,stroke);
    Line(x+7*S*1.4,y,x+22*S*1.4,y+13*S*1.4,color,stroke);
@@ -696,6 +704,11 @@ class GEP_GunStatus : ScriptComponent
    ClearPresentation702();if(Root)Root.SetVisible(false);if(Plain680)Plain680.Hide();
    Snapshot.Reset();Timer=0;HintTimer=2;
   }
+  bool lockCue715=false;
+  GEP_TrackingStabilization707 tracking715=GEP_TrackingStabilization707.Cast(owner.FindComponent(GEP_TrackingStabilization707));
+  if(tracking715)lockCue715=tracking715.HasConfirmedEntityLockCue715();
+  // Redraw on the first frame of a state change, without waiting for the HUD timer.
+  if(lockCue715!=EntityLockCue715){EntityLockCue715=lockCue715;Timer=0.05;}
   SightHelpAge703+=Math.Max(0,timeSlice);
   Timer+=timeSlice;HintTimer+=timeSlice;
   if(Timer<0.05)return;Timer=0;

@@ -1,0 +1,24 @@
+{
+  "item": "D561AD08932E7B40",
+  "version": "1.0.5",
+  "workshop_url": "https://reforger.armaplatform.com/workshop/D561AD08932E7B40-Gepard35mmSPAA",
+  "approved": true,
+  "published": true,
+  "published_at": "2026-10-25T05:46:56.000Z",
+  "source_files": 741,
+  "source_manifest_sha256": "fcf4a18a178428002a033a80addc6829a664a26fa8a8d53f011b85f8d7fba666",
+  "pak_sha256": "177b2e2b9bb4de5ce293cc858331592f66611cc04986ba19c453a7c86b01695b",
+  "pak_bytes": 90668369,
+  "packed_resource_count": 389,
+  "single_upload": true,
+  "changelog_remote_verified": true,
+  "description_remote_updated": false,
+  "description_status": "Native CLI reused prior metadata; new text is prepared but description-only supported update remains pending. No duplicate binary upload.",
+  "dependencies": [
+    "5E389BB9F58B79A6",
+    "629B2BA37EFFD577"
+  ],
+  "source_artifact_index": "source/models/1.0.5/SOURCE-PINS.json",
+  "QA": "qa/release105",
+  "rollback": "Previous published1.0.4 retained; earlier Git main/release1.0.4/v1.0.4 should remain untouched"
+}

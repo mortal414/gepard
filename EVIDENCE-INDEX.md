@@ -1,3 +1,11 @@
+# Current release1.0.5
+
+- Published release: [1.0.5](releases/1.0.5.md)
+- Clean source/content pins: `manifests/` and `SOURCE_MANIFEST.json`
+- Development-only QA and limits: `qa/release105/`
+- Changed model authoring inputs: `source/models/1.0.5/`
+- Workshop description refresh remains pending; changelog/binary publication verified.
+
 # Current release1.0.4 evidence
 
 - [Release receipt](qa/release104/RELEASE-RESULT.json): one upload/processing, official public version and exact uploaded-trio GM verification.

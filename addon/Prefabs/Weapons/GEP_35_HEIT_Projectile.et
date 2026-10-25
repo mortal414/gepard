@@ -8,7 +8,7 @@ TracerProjectile : "{A47C098284929418}Prefabs/Weapons/Ammo/Ammo_25x137/Ammo_25x1
    Mass 0.55
    TimeToLive 7
    AirDrag 0.00011
-   BallisticTableConfig ""
+   BallisticTableConfig "{A76A420023090001}Configs/Ballistics/GEP_35_HEIT_BallisticTable.conf"
   }
  }
  CartridgeModel ""

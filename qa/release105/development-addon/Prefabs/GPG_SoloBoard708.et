@@ -1,0 +1,17 @@
+GenericEntity : "{CCCC784526173F16}Prefabs/Structures/Signs/Military/Sign_FiringRange_US_01.et" {
+ ID "A76A420024150202"
+ components {
+  GPG_SoloBoard708 "{A76A420024150203}" {}
+  ActionsManagerComponent "{A76A420024150204}" {
+   ActionContexts { UserActionContext "{A76A420024150205}" { ContextName "solo708" Position PointInfo { Offset 0 1.2 0 } Radius 2 Height 3 } }
+   additionalActions {
+    GPG_SoloAction708 "{A76A420024150223}" { ParentContextList { "solo708" } VisibilityRange 8 UIInfo SCR_ActionUIInfo { Name "Start gunner test / scenario seating" } Operation "gunner" }
+    GPG_SoloAction708 "{A76A420024150224}" { ParentContextList { "solo708" } VisibilityRange 8 UIInfo SCR_ActionUIInfo { Name "Inspect exterior entry / read only" } Operation "inspect" }
+    GPG_SoloAction708 "{A76A420024150206}" { ParentContextList { "solo708" } VisibilityRange 8 UIInfo SCR_ActionUIInfo { Name "Read solo station" } Operation "read" }
+    GPG_SoloAction708 "{A76A420024150207}" { ParentContextList { "solo708" } VisibilityRange 8 UIInfo SCR_ActionUIInfo { Name "Start route after gunner ready" } Operation "start" }
+    GPG_SoloAction708 "{A76A420024150208}" { ParentContextList { "solo708" } VisibilityRange 8 UIInfo SCR_ActionUIInfo { Name "STOP owned AI route" } Operation "stop" }
+    GPG_SoloAction708 "{A76A420024150209}" { ParentContextList { "solo708" } VisibilityRange 8 UIInfo SCR_ActionUIInfo { Name "Reset empty parked station" } Operation "reset" }
+   }
+  }
+ }
+}

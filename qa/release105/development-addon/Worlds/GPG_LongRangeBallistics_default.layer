@@ -1,0 +1,31 @@
+SCR_FactionManager GPGFactions : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {}
+SCR_BaseGameMode GPGGameMode : "{B00D51315A1C7150}Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Automatic.et" {
+ components {
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic GPG_ManualSpawnLogic "{A76A420022000010}" { m_sForcedFaction "US" }
+  }
+ }
+}
+SCR_LoadoutManager GPGLoadouts : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {}
+RadioManagerEntity GPGRadio : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {}
+GPG_LongRangeDirector725 GPGDirector { coords 600 50 2600 }
+
+SCR_AIWorld GPGSoloAIWorld708 : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{A76A42002307A201}" { NavmeshFile "{D8EF7131FB31AF97}worlds/GameMaster/Navmeshes/GM_Arland.nmn" }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" { NavmeshFile "{A0AEEB1E7EF474FA}worlds/GameMaster/Navmeshes/GM_Arland_vehicles.nmn" }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" { NavmeshFile "{804386FFEB7B7EFD}worlds/MP/Navmeshes/LowResArland.nmn" }
+   }
+  }
+ }
+}

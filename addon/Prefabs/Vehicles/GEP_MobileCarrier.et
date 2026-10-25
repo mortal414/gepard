@@ -1,6 +1,13 @@
 // Stable public vehicle identity; composed from the user-tested Demo10 stack.
 Vehicle : "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et" {
  components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunRig {
+     Prefab "{A76A420025072611}Prefabs/FinishStabilization/Camo/GEP_CombinedTurret726.et"
+    }
+   }
+  }
   SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
    "Additional hit zones" {
     GEP_NextDestroyedGearbox2301 Gearbox_01 { m_eHitZoneGroup DRIVE_TRAIN }

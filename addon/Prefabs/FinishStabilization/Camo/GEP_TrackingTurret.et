@@ -1,0 +1,12 @@
+// Additive private child: inherited public1.0.4 sight/art/weapons/damage unchanged.
+Turret : "{66A1C21DD2B5C275}Prefabs/ArtApproved20261022/Camo/GEP_VehicleTurret.et" {
+ components {
+  GEP_TrackingStabilization707 "{A76A420024150111}" {
+   m_bStabilizationEnabled 0
+   m_iCapabilities 7
+   m_iCycleableModes 7
+  }
+  GEP_OvernightStabilizerGuard625 "{A76A420024150112}" {}
+  GEP_TrackingHints707 "{A76A420024150113}" {}
+ }
+}

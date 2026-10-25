@@ -1,0 +1,74 @@
+{
+  "version": "1.0.5",
+  "content_pak_sha256": "177b2e2b9bb4de5ce293cc858331592f66611cc04986ba19c453a7c86b01695b",
+  "packed_resources": 389,
+  "seven_models": [
+    {
+      "resource": "Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob",
+      "bytes": 2456024,
+      "sha256": "c7220a57237a3d11020a30f91e3b25409a882a69f1d32a9c1cf985fe90b21479",
+      "match_accepted_cooked_readback": true
+    },
+    {
+      "resource": "Assets/ArtApproved20261022/Gepard/RearCover671/RightShieldCover671.xob",
+      "bytes": 92417,
+      "sha256": "ee14e6abd17db43dea76c2e229c70e8149810c8eb6b6143e2fa614e80263d1aa",
+      "match_accepted_cooked_readback": true
+    },
+    {
+      "resource": "Assets/ArtApproved20261022/Mobility/MobilityRig.xob",
+      "bytes": 23150434,
+      "sha256": "b69f34f8efeecc380891f1f38b9f266c0f3735fc371c40c09c4f573c324fafa7",
+      "match_accepted_cooked_readback": true
+    },
+    {
+      "resource": "Assets/ArtV11/Gepard/RemainingExterior669/RightStorage669.xob",
+      "bytes": 611529,
+      "sha256": "f573de86b9f51d8adce16d08798ee31b1ba21c2a7bb4c8ecb0561f368f6a52dc",
+      "match_accepted_cooked_readback": true
+    },
+    {
+      "resource": "Assets/Gepard/GepardFullWidthApron606.xob",
+      "bytes": 63873,
+      "sha256": "a26b72432fcc328f8bc847f822bef369edcead4bd214f5fb448d4319ad68db15",
+      "match_accepted_cooked_readback": true
+    },
+    {
+      "resource": "Assets/Gepard/GepardTrackingHead.xob",
+      "bytes": 290094,
+      "sha256": "ed6b9e0facfee0f1f5adbbf9cf0f1b8e3ee82051f91b157d50003a6ddaf76cca",
+      "match_accepted_cooked_readback": true
+    },
+    {
+      "resource": "Assets/Gepard/ReferenceFittings668/FenderDetails668.xob",
+      "bytes": 139514,
+      "sha256": "d4fd375c8e2012fbe32391fa6f22fddb39f9803bfeecbaf5c8a9b27380ee51a1",
+      "match_accepted_cooked_readback": true
+    }
+  ],
+  "public_variant_promotions": [
+    {
+      "public_prefab": "Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "expected_combined_turret": "{A76A420025072611}Prefabs/FinishStabilization/Camo/GEP_CombinedTurret726.et",
+      "packed_match": true
+    },
+    {
+      "public_prefab": "Prefabs/Variants/Charcoal018/Prefabs/Vehicles/GEP_MobileCarrier.et",
+      "expected_combined_turret": "{A76A420025072621}Prefabs/FinishStabilization/Charcoal/GEP_CombinedTurret726.et",
+      "packed_match": true
+    }
+  ],
+  "private_QA_excluded_from_package": true,
+  "all_packed_resources_pinned": true,
+  "authored_text_matches_release_source": true,
+  "manual_local_acceptance": "Owner accepted combined features and exterior details on2026-10-25",
+  "scope_limits": [
+    "No newly qualified MP/dedicated/JIP/console behavior",
+    "No validated historical fire-control/armor claim",
+    "Crew protection remains unfinished",
+    "Radar sensing unavailable; cosmetic deployment/sweep separate from optical tracking"
+  ],
+  "strict_native_verdict": "FAIL_PRESERVED",
+  "operational_pack_evidence": "Packaging success marker and natural native exit; exact ordered28 diagnostics equal prior published1.0.4",
+  "no_clean_native_health_claim": true
+}

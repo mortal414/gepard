@@ -1,0 +1,10 @@
+// Compatible range adapter added to the exact tested707 tracking child.
+Turret : "{A76A420024150105}Prefabs/FinishStabilization/Camo/GEP_TrackingTurret.et" {
+ components {
+  TurretComponent "{D561AD08932E5302}" { components {
+   GEP_RoofSights438 "{D561AD08932E5303}" { m_rSightProfile "{A76A420025072601}Configs/FinishStabilization/GEP_CombinedSight726.conf" }
+  } }
+  GEP_NextFireControlConsumer726 "{A76A420025072630}" { m_eRangeCompensation 0 }
+  GEP_RangeGuard726 "{A76A420025072631}" {}
+ }
+}
