@@ -2,6 +2,10 @@
 
 Playable WIP Gepard for Arma Reforger with twin35mm guns, camouflage and charcoal variants. Current published Workshop item: **D561AD08932E7B40**.
 
+## Current status and visual plans (2026-10-28)
+
+We hope to revisit the exterior and interior models over the next few months, depending on the success of our current vehicle project and the blend-review workflow. Gepard is more complex, but we think this approach could help us improve it. There is no firm timeline or promised release for these visual updates.
+
 ## Changes in1.0.5
 
 - Optical stabilization with entity/position tracking and a confirmed entity-lock reticle cue.
