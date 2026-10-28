@@ -4,7 +4,7 @@ Playable WIP Gepard for Arma Reforger with twin35mm guns, camouflage and charcoa
 
 ## Current status and visual plans (2026-10-28)
 
-We hope to revisit the exterior and interior models over the next few months, depending on the success of our current vehicle project and the blend-review workflow. Gepard is more complex, but we think this approach could help us improve it. There is no firm timeline or promised release for these visual updates.
+I hope to revisit the exterior and interior models over the next few months, depending on the success other LLM -> Blender pipelines. There is no firm timeline or promised release for these visual updates. Collaboration welcome.
 
 ## Changes in1.0.5
 
