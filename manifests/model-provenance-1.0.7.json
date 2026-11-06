@@ -1,0 +1,71 @@
+{
+  "version": "1.0.7",
+  "primaryAuthoringFilename": "Gepard-Detail10-Interior1107-StitchedLiner.blend",
+  "primaryAuthoringBytes": 494724802,
+  "primaryAuthoringSHA256": "0069761adfb2cd3c02fe5e8105f7c6eeb0d35dd3e1456e8c7d75825352b2471e",
+  "cloudReviewBaselineIdentity": "Exact SHA256 and byte-size match; read-only identity comparison, no cloud candidate integrated.",
+  "finalStitchedExports": [
+    {
+      "path": "addon/Assets/ArtApproved20261022/Mobility/MobilityRig.fbx",
+      "bytes": 63640348,
+      "sha256": "21618ddb5ec85980688a303addff188a34306c94441445d98b950e107febc63e",
+      "matchesRecordedExport": true
+    },
+    {
+      "path": "addon/Assets/ArtApproved20261022/Mobility/MobilityRig.xob.meta",
+      "bytes": 42411,
+      "sha256": "86501e352e7b3ffb17213d8d826d04abde006e17014064816760ac0b5a40f3e9",
+      "matchesRecordedExport": true
+    },
+    {
+      "path": "addon/Assets/Gepard/GepardCabin.fbx",
+      "bytes": 7576028,
+      "sha256": "dec70e54bde9f5acd95fbe07ebd397d0bc4ab94b59832aa810d33d1817689b6c",
+      "matchesRecordedExport": true
+    },
+    {
+      "path": "addon/Assets/Gepard/GepardCabin.xob.meta",
+      "bytes": 1147,
+      "sha256": "51a8f1bb9b25825eb635e7fe9dd153d22f52b6e82e2a25e7b783867b666125a2",
+      "matchesRecordedExport": false
+    },
+    {
+      "path": "addon/Assets/Gepard/GepardDriverGrate1107.fbx",
+      "bytes": 1234300,
+      "sha256": "667f0bacb2313a032bb44cd36f5cc57ea4a83ad91253184cc2796cde38342116",
+      "matchesRecordedExport": true
+    },
+    {
+      "path": "addon/Assets/Gepard/GepardDriverGrate1107.xob.meta",
+      "bytes": 829,
+      "sha256": "c0efc82d20f8c61d331e95d95502f2f7d2da1bb6e2da8d2b9489e84cbc2346c6",
+      "matchesRecordedExport": false
+    },
+    {
+      "path": "addon/Prefabs/Art/GepardDriverGrate1107.et",
+      "bytes": 161,
+      "sha256": "c5bcb9a878b82d6f6e1ac89772f9880e4f19a3b0be440cac1a2b1f8a45fc95c2",
+      "matchesRecordedExport": true
+    },
+    {
+      "path": "addon/Prefabs/Art/GepardDriverGrate1107.et.meta",
+      "bytes": 81,
+      "sha256": "f63e7f1a389ffceb5891a5f832ef8b9b97b41fb3ada461c12d229be2c42f1be9",
+      "matchesRecordedExport": true
+    },
+    {
+      "path": "addon/Prefabs/Variants/Charcoal018/Prefabs/Art/GepardDriverGrate1107.et",
+      "bytes": 327,
+      "sha256": "92b1ff08d05af47d3586c5a90a2a210d9e6da2c14227dfcd973bcd592c78d0e1",
+      "matchesRecordedExport": true
+    },
+    {
+      "path": "addon/Prefabs/Variants/Charcoal018/Prefabs/Art/GepardDriverGrate1107.et.meta",
+      "bytes": 110,
+      "sha256": "f45387d3176bdd00a406c75b42202e41b0ff62a77c075c7254c43ff7c0f41576",
+      "matchesRecordedExport": true
+    }
+  ],
+  "qualification": "Cabin metadata is whitespace-only; driver-grate metadata adds Blender exporter application identity fields plus formatting. All recorded final FBX geometry exports and prefab hashes match. Not all ten metadata-inclusive rows are byte-identical.",
+  "scope": "Editable Blender master is retained in local authoring backup. Git addon contains native final FBX/XOB exports and required texture/import sources. Engine-only hatch/prefab changes and Small texture tier are separately applied."
+}
