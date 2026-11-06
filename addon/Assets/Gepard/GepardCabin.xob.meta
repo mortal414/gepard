@@ -7,6 +7,14 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
+    MaterialAssignClass "{A107A107A1071108}" {
+     SourceMaterial "D10_INTERIOR_LINER1107"
+     AssignedMaterial "{D561AD08932E7004}Assets/Gepard/Interior/CabinMetal.emat"
+    }
+    MaterialAssignClass "{A107A107A1071109}" {
+     SourceMaterial "D10_RING_SEAL1107"
+     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
+    }
     MaterialAssignClass "{BCEC80937E1E83D7}" {
      SourceMaterial "D10_NATIVE_51D9AA0F"
      AssignedMaterial "{7C941EBCCED91E32}Assets/Detail10/Materials/Camo/GepardCabin_LOD0.emat"

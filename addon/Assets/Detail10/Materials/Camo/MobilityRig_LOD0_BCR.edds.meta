@@ -3,6 +3,7 @@ MetaFileClass {
  Configurations {
   TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
    SourceFile "MobilityRig_LOD0_BCR.tif"
+   RemoveMips 1
   }
   TIFFResourceClass HEADLESS : PC {
   }

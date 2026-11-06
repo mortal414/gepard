@@ -26,7 +26,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
   GEP_Optical444 "{D561AD08932E8440}" {}
   GEP_Range676 "{D561AD08932EF679}" {}
   GEP_FireControl "{D561AD08932EF683}" {}
-  MeshObject "{51ACD09C4E0B7D16}" { Object "{D561AD08932E5100}Assets/Gepard/GepardTurretRig.xob" }
+  MeshObject "{51ACD09C4E0B7D16}" { Object "{4D7043CCA2E8BD79}Assets/ArtApproved20261022/Gepard/GepardTurretRig.xob" }
   MultiFireWeaponManagerComponent "{51ACD09C55D6C1AD}" { DefaultWeaponIndex 0 }
   SCR_UniversalInventoryStorageComponent "{58F8DC79D093C82D}" {}
   InventoryStorageManagerComponent "{D561AD08932E5361}" {}
@@ -147,11 +147,11 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     UserActionContext "{D561AD08932E9693}" { UIInfo SCR_ActionContextUIInfo { Name "Commander hatch" } ContextName "commander_entry" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.48 1.49 -0.29 } Radius 0.34 Height 0.3 }
     UserActionContext "{D561AD08932E9694}" { UIInfo SCR_ActionContextUIInfo { Name "Commander controls" } ContextName "commander_controls" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.43 0.72 0.42 } Radius 0.4 Height 0.4 }
     UserActionContext "{D561AD08932E9820}" { ContextName "gunner_hatch_inside" Position PointInfo { PivotID "GEP_TurretYaw" Offset 0.48 1.39 -0.29 } Radius 0.20 Height 0.15 }
-    UserActionContext "{D561AD08932E9821}" { UIInfo SCR_ActionContextUIInfo { Name "Gunner seat" } ContextName "gunner_seat" Position PointInfo { PivotID "GEP_GunnerSeat" Offset 0 0.84 0.30 } Radius 0.13 Height 0.20 }
+    UserActionContext "{D561AD08932E9821}" { UIInfo SCR_ActionContextUIInfo { Name "Gunner seat" } ContextName "gunner_seat" Position PointInfo { PivotID "GEP_GunnerSeat" Offset 0 0.84 -0.03 } Radius 0.13 Height 0.20 }
     UserActionContext "{D561AD08932E9822}" { ContextName "gunner_radar_switch" Position PointInfo { PivotID "GEP_TurretYaw" Offset 0.42 0.72 0.42 } Radius 0.055 Height 0.10 }
     UserActionContext "{D561AD08932E9823}" { ContextName "gunner_cabin_switch" Position PointInfo { PivotID "GEP_TurretYaw" Offset 0.54 0.72 0.42 } Radius 0.055 Height 0.10 }
     UserActionContext "{D561AD08932E9824}" { ContextName "commander_hatch_inside" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.48 1.39 -0.29 } Radius 0.20 Height 0.15 }
-    UserActionContext "{D561AD08932E9825}" { UIInfo SCR_ActionContextUIInfo { Name "Commander seat" } ContextName "commander_seat" Position PointInfo { PivotID "GEP_CommanderSeat" Offset 0 0.84 0.30 } Radius 0.13 Height 0.20 }
+    UserActionContext "{D561AD08932E9825}" { UIInfo SCR_ActionContextUIInfo { Name "Commander seat" } ContextName "commander_seat" Position PointInfo { PivotID "GEP_CommanderSeat" Offset 0 0.84 -0.03 } Radius 0.13 Height 0.20 }
     UserActionContext "{D561AD08932E9826}" { ContextName "commander_radar_switch" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.54 0.72 0.42 } Radius 0.055 Height 0.10 }
     UserActionContext "{D561AD08932E9827}" { ContextName "commander_cabin_switch" Position PointInfo { PivotID "GEP_TurretYaw" Offset -0.42 0.72 0.42 } Radius 0.055 Height 0.10 }
     UserActionContext "{D561AD08932E5370}" { UIInfo SCR_ActionContextUIInfo { Name "35 mm ammunition service" } ContextName "gun_service" Position PointInfo { Offset -0.75 -0.4 -3.8 } Radius 0.55 Height 0.8 }

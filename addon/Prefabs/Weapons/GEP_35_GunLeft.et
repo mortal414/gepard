@@ -1,7 +1,7 @@
 GenericEntity : "{AC64C942CA3201E6}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_base.et" {
  components {
   RigidBody "{62BADD215007119F}" { ModelGeometry 0 }
-  MeshObject "{CFBAA4B701F95D69}" { Object "{D561AD08932E3102}Assets/Gepard/GepardGunLeft.xob" }
+  MeshObject "{CFBAA4B701F95D69}" { Object "{2A7F69D8A7902DE2}Assets/ArtApproved20261022/Gepard/GepardGunLeft.xob" }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" { Name "Gepard 35 mm left gun" Description "Left 35 mm gun with its own 320-round feed." }
    components {

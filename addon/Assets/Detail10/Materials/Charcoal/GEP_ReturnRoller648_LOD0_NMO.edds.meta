@@ -3,6 +3,7 @@ MetaFileClass {
  Configurations {
   TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
    SourceFile "GEP_ReturnRoller648_LOD0_NMO.tif"
+   RemoveMips 2
   }
   TIFFResourceClass HEADLESS : PC {
   }

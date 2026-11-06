@@ -2,6 +2,6 @@ MatPBRBasic {
  RoughnessScale 1
  MetalnessScale 1
  AOScale 1
- BCRMap "{FAF0198F5850DBD1}Assets/Detail10/Materials/Charcoal/GepardCabin_LOD0_BCR.edds"
- NMOMap "{953A0A3F58F7873C}Assets/Detail10/Materials/Charcoal/GepardCabin_LOD0_NMO.edds"
+ BCRMap "{37111A94C596FE08}Assets/Detail10/Materials/Camo/GepardCabin_LOD0_BCR.edds"
+ NMOMap "{AFF240C0EFCFE237}Assets/Detail10/Materials/Camo/GepardCabin_LOD0_NMO.edds"
 }

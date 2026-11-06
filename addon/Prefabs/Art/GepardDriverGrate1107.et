@@ -1,0 +1,6 @@
+GenericEntity {
+ components {
+  Hierarchy {}
+  MeshObject "{A107A107A1071110}" { Object "{41EE1CCCFD9888B3}Assets/Gepard/GepardDriverGrate1107.xob" }
+ }
+}

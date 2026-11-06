@@ -10,9 +10,17 @@ class GEP_DriverStation : ScriptComponent
  protected IEntity m_HatchVisual;
  protected vector m_HatchRest[4];
  protected float m_HatchProgress;
+ // Visuals follow the native replicated door bit; they never issue door requests.
+ protected IEntity m_GrateVisual1107;
+ protected vector m_GrateRest1107[4];
+ protected bool m_GrateReady1107;
+ const float HATCH_TRAVEL_SECONDS1107=1.65;
+ const float HATCH_GRATE_END1107=0.32;
  override void OnPostInit(IEntity owner) { SetEventMask(owner,EntityEvent.FRAME|EntityEvent.POSTFRAME); }
  IEntity GetHatchVisual() {return m_HatchVisual;}
  float GetHatchProgress() {return m_HatchProgress;}
+ IEntity GetGrateVisual1107() {return m_GrateVisual1107;}
+ float GetGrateProgress1107() {return HatchEase(m_HatchProgress/HATCH_GRATE_END1107);}
  float HatchEase(float value) {value=Math.Max(0,Math.Min(1,value));return value*value*(3-2*value);}
  bool IsDriver(IEntity user)
  {
@@ -54,32 +62,60 @@ class GEP_DriverStation : ScriptComponent
    if(player && IsDriver(player.GetControlledEntity()))SelectView(player.GetControlledEntity(),0);
   }
  }
+ // One reversible trajectory prevents discontinuities when a native request
+ // changes direction mid-opening. First fold the protective grate forward,
+ // then lift the lid and swivel it around an offset virtual support.
+ void PoseDriverHatch1107()
+ {
+  if(m_GrateReady1107 && m_GrateVisual1107)
+  {
+   float grateAngle=65*Math.DEG2RAD*GetGrateProgress1107();
+   float grateCos=Math.Cos(grateAngle);float grateSin=Math.Sin(grateAngle);
+   vector hinge[4],grate[4];
+   // Explicit x-axis rotation: the grate's aft edge rises. The child origin
+   // is the measured pin axis at hull-local (0.5,1.58731,2.225).
+   hinge[0]=Vector(1,0,0);hinge[1]=Vector(0,grateCos,grateSin);hinge[2]=Vector(0,-grateSin,grateCos);
+   Math3D.MatrixMultiply3(hinge,m_GrateRest1107,grate);grate[3]=m_GrateRest1107[3];
+   m_GrateVisual1107.SetLocalTransform(grate);m_GrateVisual1107.Update();
+  }
+  float lid=HatchEase((m_HatchProgress-HATCH_GRATE_END1107)/(1-HATCH_GRATE_END1107));
+  float lift=0.04*HatchEase(lid/0.20)-0.008*HatchEase((lid-0.85)/0.15);
+  float swing=HatchEase((lid-0.20)/0.65);
+  float angle=90*Math.DEG2RAD*swing;float c=Math.Cos(angle);float s=Math.Sin(angle);
+  vector turn[4],pose[4];Math3D.AnglesToMatrix(Vector(90*swing,0,0),turn);
+  // Quarter-circle path: closed->open displacement (-0.76,+0.032,0),
+  // with a 0.1574m aft excursion. This is an authored approximation,
+  // not a claim that the source depicts a historically accurate linkage.
+  Math3D.MatrixMultiply3(turn,m_HatchRest,pose);
+  pose[3]=m_HatchRest[3]+Vector(-0.38+0.38*(c-s),lift,0.38-0.38*(s+c));
+  m_HatchVisual.SetLocalTransform(pose);m_HatchVisual.Update();
+ }
  override void EOnPostFrame(IEntity owner,float timeSlice)
  {
   if(!GetGame().InPlayMode()) return;
-  if(!m_HatchVisual)
+  if(!m_HatchVisual || !m_GrateVisual1107)
   {
    for(IEntity child=owner.GetChildren();child;child=child.GetSibling())
    {
-    if(child.GetPrefabData() && child.GetPrefabData().GetPrefabName().Contains("GepardDriverHatch.et")){m_HatchVisual=child;break;}
+    if(!child.GetPrefabData())continue;
+    string prefab=child.GetPrefabData().GetPrefabName();
+    if(!m_HatchVisual && prefab.Contains("GepardDriverHatch.et"))m_HatchVisual=child;
+    if(!m_GrateVisual1107 && prefab.Contains("GepardDriverGrate1107.et"))m_GrateVisual1107=child;
    }
   }
   if(!m_HatchVisual) return;
   if(!m_HatchReady){m_HatchVisual.GetLocalTransform(m_HatchRest);m_HatchReady=true;}
-
+  if(m_GrateVisual1107 && !m_GrateReady1107)
+  {m_GrateVisual1107.GetLocalTransform(m_GrateRest1107);m_GrateReady1107=true;}
   BaseCompartmentManagerComponent manager=BaseCompartmentManagerComponent.Cast(owner.FindComponent(BaseCompartmentManagerComponent));
   if(!manager) return;
-  // Original game approximation: lift the lid clear of the coaming, translate it
-  // vehicle-left, then settle it. Photos establish the endpoints,
-  // not this linkage. Native door state remains the sole animation input.
-  float target;if(manager.IsDoorOpen(0)) target=1;
-  m_HatchProgress=Math.Lerp(m_HatchProgress,target,Math.Min(timeSlice*4,1));
-  float lift=HatchEase(m_HatchProgress/0.2)-0.75*HatchEase((m_HatchProgress-0.8)/0.2);
-  float travel=HatchEase((m_HatchProgress-0.2)/0.6);
-  vector turn[4],pose[4];Math3D.AnglesToMatrix(Vector(90*travel,0,0),turn);
-  Math3D.MatrixMultiply3(turn,m_HatchRest,pose);pose[3]=m_HatchRest[3]+Vector(-0.76*travel,0.03*lift,0);
-  m_HatchVisual.SetLocalTransform(pose);m_HatchVisual.Update();
+  float target;if(manager.IsDoorOpen(0))target=1;
+  float step=Math.Max(0,timeSlice)/HATCH_TRAVEL_SECONDS1107;
+  if(target>m_HatchProgress)m_HatchProgress=Math.Min(target,m_HatchProgress+step);
+  else m_HatchProgress=Math.Max(target,m_HatchProgress-step);
+  PoseDriverHatch1107();
  }
+
 }
 
 class GEP_DriverViewAction : ScriptedUserAction

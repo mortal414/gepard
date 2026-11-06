@@ -759,7 +759,14 @@ class GEP_GunStatus : ScriptComponent
   else if(FeedSelected740(side)){return LOWER_ACTIVE740;}
   else{return LOWER_MUTED740;}
  }
- float ElevationTop740(){return Math.Floor(Snapshot.GunElevation/10)*10+40;}
+ // Fixed physical ruler matches the inherited TurretComponent/controller LimitsVert.
+ // Read-only degrees relative to the hull; no sight correction or aiming writes.
+ const float ELEVATION_MIN740=-5;
+ const float ELEVATION_MAX740=85;
+ float ElevationY740(float degrees)
+ {
+  return 206+(ELEVATION_MAX740-degrees)*480/(ELEVATION_MAX740-ELEVATION_MIN740);
+ }
  string FeedCapacityText740(GEP_GunnerFeed583 feed)
  {
   if(feed && feed.State==2 && feed.Capacity>0){return "/"+feed.Capacity.ToString();}
@@ -794,28 +801,28 @@ class GEP_GunStatus : ScriptComponent
   S=Math.Min(W/1920,H/1080);float ox=(W-1920*S)*0.5;float oy=(H-1080*S)*0.5;
   Place(Header,ox+1746*S,oy+145*S,174*S,38*S,23,STUDY_INK740);
   Place(TurretAngles,ox+1746*S,oy+699*S,174*S,45*S,29,STUDY_INK740);
-  PlaceLowerStudy740(LeftTitle,52,955,130,35,25,LOWER_INK740);
-  PlaceLowerStudy740(RightTitle,1634,955,130,35,25,LOWER_INK740);
+  PlaceLowerStudy740(LeftTitle,52,968,130,26,22,LOWER_INK740);
+  PlaceLowerStudy740(RightTitle,1634,968,130,26,22,LOWER_INK740);
   int leftTypeFont740=16;int rightTypeFont740=16;if(Snapshot.Left && Snapshot.Left.Ammunition=="HEI-T")leftTypeFont740=20;if(Snapshot.Right && Snapshot.Right.Ammunition=="HEI-T")rightTypeFont740=20;
-  PlaceLowerStudy740(LeftType,186,962,100,29,leftTypeFont740,LOWER_MUTED740);LeftType.SetFlags(WidgetFlags.RALIGN);
-  PlaceLowerStudy740(RightType,1768,962,100,29,rightTypeFont740,LOWER_MUTED740);RightType.SetFlags(WidgetFlags.RALIGN);
-  PlaceLowerStudy740(LeftCount,169,985,72,68,58,LOWER_INK740);
-  PlaceLowerStudy740(RightCount,1751,985,72,68,58,LOWER_INK740);
+  PlaceLowerStudy740(LeftType,186,970,100,25,leftTypeFont740,LOWER_MUTED740);LeftType.SetFlags(WidgetFlags.RALIGN);
+  PlaceLowerStudy740(RightType,1768,970,100,25,rightTypeFont740,LOWER_MUTED740);RightType.SetFlags(WidgetFlags.RALIGN);
+  PlaceLowerStudy740(LeftCount,169,998,72,59,54,LOWER_INK740);
+  PlaceLowerStudy740(RightCount,1751,998,72,59,54,LOWER_INK740);
   PlaceLowerStudy740(LeftCapacity740,246,1015,40,32,23,LOWER_MUTED740);LeftCapacity740.SetFlags(WidgetFlags.RALIGN);
   PlaceLowerStudy740(RightCapacity740,1828,1015,40,32,23,LOWER_MUTED740);RightCapacity740.SetFlags(WidgetFlags.RALIGN);
   LeftTitle.SetMinFontSize(Math.Max(12,Math.Round(12*S)));RightTitle.SetMinFontSize(Math.Max(12,Math.Round(12*S)));
   LeftCount.SetMinFontSize(Math.Max(12,Math.Round(30*S)));RightCount.SetMinFontSize(Math.Max(12,Math.Round(30*S)));
   LeftCapacity740.SetMinFontSize(Math.Max(12,Math.Round(14*S)));RightCapacity740.SetMinFontSize(Math.Max(12,Math.Round(14*S)));
   LeftType.SetMinFontSize(Math.Max(12,Math.Round(12*S)));RightType.SetMinFontSize(Math.Max(12,Math.Round(12*S)));
-  PlaceLowerStudy740(OpticalMode,438,976,250,31,20,LOWER_MUTED740);
-  PlaceLowerStudy740(Group,438,1000,280,41,31,LOWER_ACTIVE740);
-  PlaceLowerStudy740(Reference,729,961,342,32,22,LOWER_INK740);Reference.SetFlags(WidgetFlags.CENTER);
-  int rangeFont740=26;if(ValidRange740() || Snapshot.RangeState676==EGEP_Range676State.NONE)rangeFont740=48;
-  PlaceLowerStudy740(Range676,711,982,378,59,rangeFont740,LOWER_INK740);Range676.SetFlags(WidgetFlags.CENTER);
-  PlaceLowerStudy740(RangeDetail740,666,1036,468,32,20,LOWER_MUTED740);RangeDetail740.SetFlags(WidgetFlags.CENTER);
+  PlaceLowerStudy740(OpticalMode,438,992,250,24,18,LOWER_MUTED740);
+  PlaceLowerStudy740(Group,438,1018,280,34,27,LOWER_ACTIVE740);
+  PlaceLowerStudy740(Reference,729,969,342,24,20,LOWER_INK740);Reference.SetFlags(WidgetFlags.CENTER);
+  int rangeFont740=26;if(ValidRange740() || Snapshot.RangeState676==EGEP_Range676State.NONE)rangeFont740=46;
+  PlaceLowerStudy740(Range676,711,995,378,47,rangeFont740,LOWER_INK740);Range676.SetFlags(WidgetFlags.CENTER);
+  PlaceLowerStudy740(RangeDetail740,666,1045,468,27,18,LOWER_MUTED740);RangeDetail740.SetFlags(WidgetFlags.CENTER);
   PlaceLowerStudy740(OrientationHeader740,1180,977,234,31,20,LOWER_MUTED740);
   PlaceLowerStudy740(SightAngles,1180,997,198,48,39,LOWER_INK740);
-  PlaceLowerStudy740(Feedback,438,956,306,31,20,LOWER_ACTIVE740);
+  PlaceLowerStudy740(Feedback,438,966,306,24,17,LOWER_ACTIVE740);
   if(OperationalFeedbackDE704()!=""){Place(Feedback,ox+650*S,oy+173*S,620*S,42*S,25,STUDY_WARN740);Feedback.SetFlags(WidgetFlags.CENTER);Feedback.SetShadow(2,0xff08100e,1,0,1);}
   RangeDetail740.SetVisible(true);OrientationHeader740.SetVisible(true);LeftCapacity740.SetVisible(true);RightCapacity740.SetVisible(true);
   Zoom.SetVisible(false);Drive.SetVisible(false);
@@ -832,7 +839,7 @@ class GEP_GunStatus : ScriptComponent
   for(int e=0;e<7;e++)
   {
    TextWidget label740=ElevationLabels740[e];label740.SetVisible(false);if(!Snapshot.AimValid)continue;
-   float degree740=ElevationTop740()-e*10;float y740=206+e*80;
+   float degree740=ELEVATION_MAX740-e*15;float y740=ElevationY740(degree740);
    Place(label740,ox+1778*S,oy+(y740-24)*S,142*S,39*S,25,STUDY_INK740);
    string text740=Math.Round(degree740).ToString()+"°";if(degree740>0)text740="+"+text740;Put(label740,text740);label740.SetVisible(true);
   }
@@ -948,8 +955,9 @@ class GEP_GunStatus : ScriptComponent
  {
   if(!Snapshot.AimValid)return;
   DLine704(1746,206,1746,686,STUDY_INK740,1.5);
-  for(int i740=0;i740<=60;i740++){float y740=206+i740*8;float width740=7;if(i740%5==0)width740=13;if(i740%10==0)width740=22;DLine704(1746,y740,1746+width740,y740,STUDY_INK740,1.1);}
-  float marker740=206+(ElevationTop740()-Snapshot.GunElevation)*8;
+  for(int i740=0;i740<=90;i740++){float y740=ElevationY740(ELEVATION_MAX740-i740);float width740=7;if(i740%5==0)width740=13;if(i740%15==0)width740=22;DLine704(1746,y740,1746+width740,y740,STUDY_INK740,1.1);}
+  // Clamp only drawing to the supported ruler; numeric telemetry remains exact.
+  float marker740=ElevationY740(Math.Clamp(Snapshot.GunElevation,ELEVATION_MIN740,ELEVATION_MAX740));
   array<float> markerPoints740={1748,marker740,1770,marker740-10,1770,marker740+10};array<int> markerTriangles740={0,1,2};Panel704(markerPoints740,markerTriangles740,STUDY_ACTIVE740);
  }
  void GraphicsStudy740()

@@ -3,5 +3,5 @@ MatPBRBasic {
  MetalnessScale 1
  AOScale 1
  BCRMap "{1889B6A678CD0359}Assets/Detail10/Materials/Charcoal/SearchYawSupport_LOD0_PROPOSED_BCR.edds"
- NMOMap "{4996B7C0F28CE95E}Assets/Detail10/Materials/Charcoal/SearchYawSupport_LOD0_PROPOSED_NMO.edds"
+ NMOMap "{22EFDDC6C6ACD40C}Assets/Detail10/Materials/Camo/SearchYawSupport_LOD0_PROPOSED_NMO.edds"
 }

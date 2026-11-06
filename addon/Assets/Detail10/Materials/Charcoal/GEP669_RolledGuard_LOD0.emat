@@ -3,5 +3,5 @@ MatPBRBasic {
  MetalnessScale 1
  AOScale 1
  BCRMap "{BF1AB6E304CA0036}Assets/Detail10/Materials/Charcoal/GEP669_RolledGuard_LOD0_BCR.edds"
- NMOMap "{37FA520CF8E50FFD}Assets/Detail10/Materials/Charcoal/GEP669_RolledGuard_LOD0_NMO.edds"
+ NMOMap "{576238A6BA754A88}Assets/Detail10/Materials/Camo/GEP669_RolledGuard_LOD0_NMO.edds"
 }

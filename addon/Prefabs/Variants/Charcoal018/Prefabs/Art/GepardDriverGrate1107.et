@@ -1,0 +1,5 @@
+GenericEntity : "{7F7D78FA119B3D39}Prefabs/Art/GepardDriverGrate1107.et" {
+ components {
+  MeshObject "{A107A107A1071110}" { Materials { MaterialAssignClass "{A107A107A1071111}" { SourceMaterial "D10_DRIVERGRATE1107" AssignedMaterial "{034DAB909EB40FC2}Assets/Detail10/Materials/Charcoal/MobilityRig_LOD0.emat" } } }
+ }
+}

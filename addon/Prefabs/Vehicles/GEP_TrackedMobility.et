@@ -1,6 +1,6 @@
 Vehicle : "{0608D8FA71FD3433}Prefabs/Vehicles/Core/TrackedVehicle_Base.et" {
  components {
-  MeshObject "{51DAA09FEFBFC0E7}" { Object "{D561AD08932E1202}Assets/Mobility/MobilityRig.xob" }
+  MeshObject "{51DAA09FEFBFC0E7}" { Object "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob" }
   RigidBody "{51DAA09FECF52BBF}" { Mass 47500 CenterOfMass 0 1.08 0 }
   VehicleTrackedSimulation "{6160DE6434513C4D}" {
    Simulation Tracked "{6160DE65F2933990}" {

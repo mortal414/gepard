@@ -1,10 +1,10 @@
-# Gepard 35 mm SPAA - 1.0.6
+# Gepard 35 mm SPAA - 1.0.7
 
 Playable WIP Gepard for Arma Reforger with twin 35 mm guns, camouflage and charcoal variants. [Workshop release](https://reforger.armaplatform.com/workshop/D561AD08932E7B40): **D561AD08932E7B40**.
 
-This repository now matches the published **1.0.6 Build07** source. It does not include the later Small size candidate or subsequent overnight corrections. See the [release record](releases/1.0.6.md) and [exact source manifest](manifests/addon-1.0.6-build07-sha256.json).
+The repository matches published **1.0.7**. Its actual runtime download is **191.30 MB**, about 60% smaller than 1.0.6. It uses the selected Small texture tier and includes the accepted interior/clearance, driver hatch/entry and gunner HUD updates, plus restored commander smoke permission. See the [release record](releases/1.0.7.md) and [exact source/package manifest](manifests/addon-1.0.7-sha256.json).
 
-The release updates the model and gunner HUD, preserves both finishes and grey metal mechanisms, and replaces Workshop screenshots. Reported model flaws remain for a follow-up. The separate [Blender showcase](https://github.com/mortal414/gepard-blender-showcase) contains authoring work and rendered images; those are not gameplay evidence.
+The prepared 151.98 MB container was rebuilt by the native publisher; it is not the live download size. All 545 published runtime resources match the tested candidate. The release record explains the size discrepancy and test limits.
 
 ## Controls
 
@@ -20,9 +20,11 @@ Ballistic correction is approximate and game-balanced, not validated real-world 
 
 Existing smoke deployment/rearming, optic HUD, track audio and component-damage behavior are retained from earlier releases.
 
+Commander smoke permission is restored through the existing WCS system. Its original Left Shift+G binding and radio-conflict behavior still require a real-key check; action-driven deployment/rearm tests do not establish keyboard acceptance.
+
 ## Source and provenance
 
-`addon/` contains the complete immutable editable addon source frozen for the published Build07, including import metadata and authoring FBX/TIF/TXO files. Use Git LFS when cloning (`git lfs pull`). Workbench regenerates `resourceDatabase.rdb`. The exact published PAK hash and source hashes are recorded in the release manifest. Dependencies remain in their own Workshop packages. Private native test fixtures and machine-specific logs are excluded from this sync; historical QA/source remains in Git history.
+`addon/` contains the exact immutable editable source for the published release, including model/texture import and authoring inputs. Use Git LFS when cloning (`git lfs pull`). Workbench regenerates `resourceDatabase.rdb`; the published trio hashes and per-file source hashes are recorded in the manifest. Dependencies remain in their own Workshop packages. Private QA, profiles and machine logs are excluded. Prior 1.0.6 remains at `v1.0.6`.
 
 Feedback: https://github.com/mortal414/gepard/issues/new?template=bug_report.yml
 

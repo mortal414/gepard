@@ -69,7 +69,14 @@ class GEP_NextAimingHints625 : ScriptComponent
   }
   WorkspaceWidget workspace625=GetGame().GetWorkspace();
   float height625=workspace625.DPIUnscale(workspace625.GetHeight());
-  FrameSlot.SetPos(m_Root625,12,height625-58);
+  float top625=height625-58;
+  GEP_GunStatus hud625=GEP_GunStatus.Cast(owner.FindComponent(GEP_GunStatus));
+  // Workspace dimensions, HUD S and FrameSlot positions use DPI-unscaled units.
+  // Keep the existing 54-unit actionable hint stack 12 units above the 120*S rail,
+  // only after the exact style5 occupant/seat/sight has a complete visible HUD.
+  if(hud625 && hud625.HudStyle702==5 && GEP_Presentation680.MaskWeaponInfo(owner))
+   top625=height625-120*hud625.S-54-12;
+  FrameSlot.SetPos(m_Root625,12,top625);
   FrameSlot.SetSize(m_Root625,430,54);
   FrameSlot.SetPos(m_RangeRoot625,0,0);
   FrameSlot.SetSize(m_RangeRoot625,430,26);

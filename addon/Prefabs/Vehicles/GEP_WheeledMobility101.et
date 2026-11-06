@@ -1,7 +1,7 @@
 // Accepted original Gepard wheel-drive configuration; native simulation and input.
 Vehicle : "{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et" {
  components {
-  MeshObject "{51DAA09FEFBFC0E7}" { Object "{D561AD08932E1202}Assets/Mobility/MobilityRig.xob" }
+  MeshObject "{51DAA09FEFBFC0E7}" { Object "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob" }
   RigidBody "{51DAA09FECF52BBF}" { Mass 47500 LinearDamping 0.019 CenterOfMass 0 1.08 0 }
   VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {

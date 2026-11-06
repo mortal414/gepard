@@ -1,0 +1,34 @@
+MetaFileClass {
+ Name "{41EE1CCCFD9888B3}Assets/Gepard/GepardDriverGrate1107.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "GepardDriverGrate1107.fbx"
+   ExportSkinning 0
+   ExportMorphs 0
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{A107A107A1071107}" {
+     SourceMaterial "D10_DRIVERGRATE1107"
+     AssignedMaterial "{37E41C34D6A81813}Assets/Detail10/Materials/Camo/MobilityRig_LOD0.emat"
+    }
+   }
+   MeshParams {
+    MeshParam GepardDriverGrate1107 {
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.13 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

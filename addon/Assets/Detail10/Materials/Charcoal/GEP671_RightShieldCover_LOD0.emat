@@ -3,5 +3,5 @@ MatPBRBasic {
  MetalnessScale 1
  AOScale 1
  BCRMap "{B6B4FDEB5DCF7211}Assets/Detail10/Materials/Charcoal/GEP671_RightShieldCover_LOD0_BCR.edds"
- NMOMap "{CAA80BE70BCD75EB}Assets/Detail10/Materials/Charcoal/GEP671_RightShieldCover_LOD0_NMO.edds"
+ NMOMap "{F0B8C7C0E52F6D6F}Assets/Detail10/Materials/Camo/GEP671_RightShieldCover_LOD0_NMO.edds"
 }
