@@ -1,6 +1,8 @@
 # Gepard 35 mm SPAA - 1.0.5
 
-Playable WIP Gepard for Arma Reforger with twin 35 mm guns, camouflage and charcoal variants. Current published Workshop item: **D561AD08932E7B40**.
+Playable WIP Gepard for Arma Reforger with twin 35 mm guns, camouflage and charcoal variants. [Workshop release](https://reforger.armaplatform.com/workshop/D561AD08932E7B40-Gepard35mmSPAA): **D561AD08932E7B40**.
+
+The separate [Blender model showcase](https://github.com/mortal414/gepard-blender-showcase) has studio renders and authoring files. Those renders are not in-game screenshots.
 
 ## Current status and visual plans (2026-10-28)
 
