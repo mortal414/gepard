@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{B09634BA80E57280}Assets/Detail10/Materials/Camo/GepardBearingBosses_LOD0_BCR.edds"
+ NMOMap "{A58410D4BB397488}Assets/Detail10/Materials/Camo/GepardBearingBosses_LOD0_NMO.edds"
+}

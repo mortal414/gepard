@@ -7,7 +7,9 @@ GenericEntity : "{D561AD08932E5201}Prefabs/Art/GepardCabin.et" {
      SourceMaterial "GEP_CabinExteriorPaint"
      AssignedMaterial "{6D749DB0BF11AADC}Assets/Gepard/GEP018/NeutralBaseV2/b525631b5c24.emat"
     }
-   }
+   
+ MaterialAssignClass "{9AAF3A9928915DE2}" { SourceMaterial "D10_NATIVE_51D9AA0F" AssignedMaterial "{FA74A51BC18B2F8E}Assets/Detail10/Materials/Charcoal/GepardCabin_LOD0.emat" }
+ }
   }
  }
 }

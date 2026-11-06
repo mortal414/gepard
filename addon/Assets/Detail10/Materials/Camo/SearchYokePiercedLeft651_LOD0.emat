@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{5BD83E7E92C08B6A}Assets/Detail10/Materials/Camo/SearchYokePiercedLeft651_LOD0_BCR.edds"
+ NMOMap "{BEAADD070A3F49E6}Assets/Detail10/Materials/Camo/SearchYokePiercedLeft651_LOD0_NMO.edds"
+}

@@ -1,5 +1,7 @@
 // Additive art child: current smoke/crew/functional inheritance preserved. Native art qualification pending.
 Vehicle : "{A76A420022100004}Prefabs/Demo10/Charcoal/GEP_MobileCarrierDemo10.et" { components {
+ GEP_RunningGear_Wheeled101 "{D561AD08932E7900}" { m_iVisualLinkCount 93 }
+
 MeshObject "{51DAA09FEFBFC0E7}" { Object "{578CF9C31193CC94}Assets/ArtApproved20261022/Mobility/MobilityRig.xob" Materials {
 MaterialAssignClass "{3EC60E85CDD36C6F}" { SourceMaterial "CabinAmberOff" AssignedMaterial "{D561AD08932E7005}Assets/Gepard/Interior/CabinAmberOff.emat" }
 MaterialAssignClass "{94A357586A3BB6D7}" { SourceMaterial "CabinEquipment" AssignedMaterial "{D561AD08932E7001}Assets/Gepard/Interior/CabinEquipment.emat" }

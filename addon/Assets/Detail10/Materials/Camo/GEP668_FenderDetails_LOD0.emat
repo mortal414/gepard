@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{7D2DDBFAF7E61193}Assets/Detail10/Materials/Camo/GEP668_FenderDetails_LOD0_BCR.edds"
+ NMOMap "{043486DADA86B8E9}Assets/Detail10/Materials/Camo/GEP668_FenderDetails_LOD0_NMO.edds"
+}

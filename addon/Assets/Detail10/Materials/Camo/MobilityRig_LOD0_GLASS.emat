@@ -1,0 +1,11 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ Sort translucent
+ BlendMode AlphaBlend
+ AlphaMul 0.18
+ SurfaceProperties "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+ BCRMap "{D1E9E86AE92E8261}Assets/Detail10/Materials/Camo/MobilityRig_LOD0_BCR.edds"
+ NMOMap "{ECBD90BB47D7B07A}Assets/Detail10/Materials/Camo/MobilityRig_LOD0_NMO.edds"
+}

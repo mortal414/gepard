@@ -2,3 +2,8 @@
 *.xob filter=lfs diff=lfs merge=lfs -text
 *.edds filter=lfs diff=lfs merge=lfs -text
 *.rdb filter=lfs diff=lfs merge=lfs -text
+
+# Editable authoring inputs retained with the released addon source.
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.txo filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text

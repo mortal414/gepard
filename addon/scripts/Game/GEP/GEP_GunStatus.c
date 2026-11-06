@@ -35,8 +35,10 @@ modded class SCR_WeaponInfoVehicle
 class GEP_GunStatusClass : ScriptComponentClass {}
 class GEP_GunStatus : ScriptComponent
 {
- [Attribute("0",UIWidgets.EditBox,"0 current; 1-3 rejected archives; 4 integrated sight703. Visuals only.")]
+ [Attribute("0",UIWidgets.EditBox,"0 current; 1-3 rejected archives; 4 integrated sight703; 5 isolated open instrument study740. Visuals only.")]
  int HudStyle702;
+ [Attribute("2",UIWidgets.EditBox,"0 fallback teal; 1 amber; 2 ice blue; 3 mineral. Presentation only.")]
+ int HudPalette740;
  float SightHelpAge703;
  ref GEP_PlainSight680 Plain680=new GEP_PlainSight680();
  const int INK583=0xffeff6ee;
@@ -61,6 +63,17 @@ class GEP_GunStatus : ScriptComponent
  TextWidget SightAngles;
  TextWidget TurretAngles;
  TextWidget Reference;
+ TextWidget TopSubtitle740;
+ TextWidget TopBrand740;
+ TextWidget TopMode740;
+ TextWidget TopZoom740;
+ TextWidget TopBearing740;
+ TextWidget TopBearingTitle740;
+ TextWidget RangeDetail740;
+ TextWidget OrientationHeader740;
+ TextWidget LeftCapacity740;
+ TextWidget RightCapacity740;
+ ref array<TextWidget> ElevationLabels740={};
  ref GEP_GunnerSnapshot583 Snapshot=new GEP_GunnerSnapshot583();
  ref array<ref CanvasWidgetCommand> Draw={};
  ref array<Widget> HintRoots={};
@@ -102,6 +115,12 @@ class GEP_GunStatus : ScriptComponent
   if(!Root || !Canvas || !Header || !OpticalMode || !Zoom || !Range676)return false;
   if(!LeftTitle || !LeftCount || !LeftType || !RightTitle || !RightCount || !RightType)return false;
   if(!Group || !Feedback || !Drive || !SightAngles || !TurretAngles || !Reference)return false;
+  if(HudStyle702==5)
+  {
+   if(!TopSubtitle740 || !TopBrand740 || !TopMode740 || !TopZoom740 || !TopBearing740 || !TopBearingTitle740 || !RangeDetail740 || !OrientationHeader740 || !LeftCapacity740 || !RightCapacity740)return false;
+   if(ElevationLabels740.Count()!=7)return false;
+   foreach(TextWidget elevation740:ElevationLabels740){if(!elevation740)return false;}
+  }
   return true;
  }
  string BindingAction584(int index)
@@ -144,6 +163,15 @@ class GEP_GunStatus : ScriptComponent
   RightTitle=Label("GepardRightTitle583");RightCount=Label("GepardRightCount583");RightType=Label("GepardRightAmmo583");
   Group=Label("GepardSelectedGroup583");Feedback=Label("GepardOpticalFeedback583");Drive=Label("GepardDrive583");
   SightAngles=Label("GepardSightAngles583");TurretAngles=Label("GepardTurretAngles583");Reference=Label("GepardAngleReference583");
+  if(HudStyle702==5)
+  {
+   TopSubtitle740=Label("GepardTopSubtitle740");
+   TopBrand740=Label("GepardTopBrand740");TopMode740=Label("GepardTopMode740");TopZoom740=Label("GepardTopZoom740");TopBearing740=Label("GepardTopBearing740");TopBearingTitle740=Label("GepardTopBearingTitle740");
+   array<TextWidget> topFields740={TopBrand740,TopSubtitle740,TopMode740,TopZoom740,TopBearing740,TopBearingTitle740};foreach(TextWidget topField740:topFields740){if(topField740){topField740.SetVisible(false);topField740.SetShadow(0,0xff08100e,0,0,0);}}
+   RangeDetail740=Label("GepardRangeDetail740");OrientationHeader740=Label("GepardOrientationHeader740");LeftCapacity740=Label("GepardLeftCapacity740");RightCapacity740=Label("GepardRightCapacity740");
+   if(RangeDetail740)RangeDetail740.SetVisible(false);if(OrientationHeader740)OrientationHeader740.SetVisible(false);if(LeftCapacity740)LeftCapacity740.SetVisible(false);if(RightCapacity740)RightCapacity740.SetVisible(false);
+   for(int elevationIndex740=0;elevationIndex740<7;elevationIndex740++){TextWidget elevation740=Label("GepardElevation740_"+elevationIndex740.ToString());ElevationLabels740.Insert(elevation740);if(elevation740)elevation740.SetVisible(false);}
+  }
   if(LeftCount)LeftCount.SetBold(true);if(RightCount)RightCount.SetBold(true);if(Header)Header.SetBold(true);if(Group)Group.SetBold(true);
   foreach(string action:HintActions)
   {
@@ -169,7 +197,7 @@ class GEP_GunStatus : ScriptComponent
   if(Ready680())return;
   int tick=System.GetTickCount();if(tick-LastBuildAttempt680<1000)return;LastBuildAttempt680=tick;
   ClearPresentation702();
-  Header=null;OpticalMode=null;Zoom=null;Range676=null;
+  Header=null;OpticalMode=null;Zoom=null;Range676=null;TopSubtitle740=null;TopBrand740=null;TopMode740=null;TopZoom740=null;TopBearing740=null;TopBearingTitle740=null;RangeDetail740=null;OrientationHeader740=null;LeftCapacity740=null;RightCapacity740=null;ElevationLabels740.Clear();
   LeftTitle=null;LeftCount=null;LeftType=null;RightTitle=null;RightCount=null;RightType=null;
   Group=null;Feedback=null;Drive=null;SightAngles=null;TurretAngles=null;Reference=null;
   if(Root)Root.RemoveFromHierarchy();Root=null;Canvas=null;HintRoots.Clear();Hints.Clear();Draw.Clear();Build();
@@ -186,6 +214,12 @@ class GEP_GunStatus : ScriptComponent
  }
  void Layout()
  {
+  if(TopSubtitle740)TopSubtitle740.SetVisible(false);if(TopBrand740)TopBrand740.SetVisible(false);if(TopMode740)TopMode740.SetVisible(false);if(TopZoom740)TopZoom740.SetVisible(false);if(TopBearing740)TopBearing740.SetVisible(false);if(TopBearingTitle740)TopBearingTitle740.SetVisible(false);
+  array<TextWidget> resetShadow740={LeftTitle,RightTitle,LeftType,RightType,LeftCount,RightCount,OpticalMode,Group,Reference,Range676,SightAngles,Feedback};foreach(TextWidget shadow740:resetShadow740){if(shadow740)shadow740.SetShadow(2,0xff08100e,1,0,1);}
+  if(Feedback)Feedback.ClearFlags(WidgetFlags.CENTER);if(Reference)Reference.ClearFlags(WidgetFlags.CENTER);if(Range676)Range676.ClearFlags(WidgetFlags.CENTER);
+  if(LeftType)LeftType.ClearFlags(WidgetFlags.RALIGN);if(RightType)RightType.ClearFlags(WidgetFlags.RALIGN);
+  if(RangeDetail740)RangeDetail740.SetVisible(false);if(OrientationHeader740)OrientationHeader740.SetVisible(false);if(LeftCapacity740)LeftCapacity740.SetVisible(false);if(RightCapacity740)RightCapacity740.SetVisible(false);
+  foreach(TextWidget elevation740:ElevationLabels740){if(elevation740)elevation740.SetVisible(false);}
   WorkspaceWidget workspace=GetGame().GetWorkspace();W=workspace.DPIUnscale(workspace.GetWidth());H=workspace.DPIUnscale(workspace.GetHeight());
   S=Math.Clamp(Math.Min(W/1920,H/1080),0.66,1.5);Pad=24*S;
   HeaderHeight676=44*S;HeaderCorners676=Pad+60*S;
@@ -249,10 +283,12 @@ class GEP_GunStatus : ScriptComponent
   }
   if(HudStyle702>=1 && HudStyle702<=3)LayoutCandidate702();
   if(HudStyle702==4)LayoutSight703();
+  if(HudStyle702==5)LayoutStudy740();
  }
  void Text()
  {
   if(HudStyle702==4){TextSight703();return;}
+  if(HudStyle702==5){TextStudy740();return;}
   Put(Header,"GEPARD / ZIELVISIER");
   string mode="--";if(Snapshot.OpticsValid){mode="TAG";if(Snapshot.Night)mode="RESTLICHT";}Put(OpticalMode,mode);
   string zoom="--Ã—";if(Snapshot.ZoomValid)zoom=NumberDE704(Snapshot.Magnification)+"Ã—";Put(Zoom,zoom);
@@ -268,6 +304,7 @@ class GEP_GunStatus : ScriptComponent
  void Graphics()
  {
   if(HudStyle702==4){GraphicsSight703();return;}
+  if(HudStyle702==5){GraphicsStudy740();return;}
   if(HudStyle702>=1 && HudStyle702<=3){GraphicsCandidate702();return;}
   Draw.Clear();Bar(Pad,FooterY,FooterW,96*S,0xc0111d1d);
   Line(Pad,FooterY,Pad+FooterW,FooterY,0xff6c9287,1*S);
@@ -679,6 +716,271 @@ class GEP_GunStatus : ScriptComponent
   HullGlyph704(1620,937);Canvas.SetDrawCommands(Draw);
  }
  // END INTEGRATED SIGHT703
+ // BEGIN ISOLATED HUD STUDY740
+ // Open optical instrument study. Read-only, opt-in and not native-qualified.
+ const int STUDY_INK740=0xffe8e1c8;
+ const int STUDY_MUTED740=0xffa6ad9c;
+ const int STUDY_ACTIVE740=0xffb9e6a7;
+ int LOWER_INK740=0xffe0e8e2;
+ int LOWER_MUTED740=0xff9aaea4;
+ int LOWER_ACTIVE740=0xff89b6a6;
+ int RAIL740=0xff18211f;
+ int RAIL_LINE740=0xff445650;
+ int BRAND740=0xff799188;
+ int MODE_INK740=0xffb7c7be;
+ int LOWER_WARN740=0xffffc36b;
+ const int STUDY_WARN740=0xffffc36b;
+ void ConfigurePaletteStudy740()
+ {
+  LOWER_INK740=0xffe0e8e2;  LOWER_MUTED740=0xff9aaea4;  LOWER_ACTIVE740=0xff89b6a6;  RAIL740=0xff18211f;  RAIL_LINE740=0xff445650;  BRAND740=0xff799188;  MODE_INK740=0xffb7c7be;  LOWER_WARN740=0xffffc36b;
+  if(HudPalette740==1)
+  {
+   LOWER_INK740=0xfff1bd74;   LOWER_MUTED740=0xffbda47c;   LOWER_ACTIVE740=0xffd99b49;   RAIL740=0xff15130f;   RAIL_LINE740=0xff55452d;   BRAND740=0xff9e865f;   MODE_INK740=0xffe0bd8b;   LOWER_WARN740=0xffff7e70;
+  }
+  if(HudPalette740==2)
+  {
+   LOWER_INK740=0xffe2f0ff;   LOWER_MUTED740=0xff9bb4cf;   LOWER_ACTIVE740=0xff6cbce8;   RAIL740=0xff101a2a;   RAIL_LINE740=0xff334a63;   BRAND740=0xff7d99b8;   MODE_INK740=0xffbfd9ed;   LOWER_WARN740=0xffffc36b;
+  }
+  if(HudPalette740==3)
+  {
+   LOWER_INK740=0xff20262b;   LOWER_MUTED740=0xff3e4a53;   LOWER_ACTIVE740=0xff235273;   RAIL740=0xffc8c5bd;   RAIL_LINE740=0xff959d9f;   BRAND740=0xff475866;   MODE_INK740=0xff334855;   LOWER_WARN740=0xff8a2f1e;
+  }
+ }
+ bool ValidRange740(){return Snapshot.RangeState676==EGEP_Range676State.VALID && Snapshot.RangeMetres676>0 && Snapshot.RangeAge676>=0;}
+ bool FeedSelected740(int side){return Snapshot.Crew && (Snapshot.Group==0 || Snapshot.Group==side);}
+ int FeedInk740(GEP_GunnerFeed583 feed,int side)
+ {
+  if(feed && feed.State==2 && feed.Count==0){return LOWER_WARN740;}
+  else{return LOWER_INK740;}
+ }
+ int FeedBarInk740(GEP_GunnerFeed583 feed,int side)
+ {
+  if(feed && feed.State==2 && feed.Count==0){return LOWER_WARN740;}
+  else if(FeedSelected740(side)){return LOWER_ACTIVE740;}
+  else{return LOWER_MUTED740;}
+ }
+ float ElevationTop740(){return Math.Floor(Snapshot.GunElevation/10)*10+40;}
+ string FeedCapacityText740(GEP_GunnerFeed583 feed)
+ {
+  if(feed && feed.State==2 && feed.Capacity>0){return "/"+feed.Capacity.ToString();}
+  else{return "/--";}
+ }
+ string FeedTypeStudy740(GEP_GunnerFeed583 feed)
+ {
+  if(!feed || feed.State==0){return "KEINE DATEN";}
+  else if(feed.State==1){return "KEIN MAG.";}
+  else{return FeedTypeDE704(feed);}
+ }
+ void PlaceLowerStudy740(TextWidget field,float x,float y,float width,float height,int font,int ink)
+ {
+  float ox=(W-1920*S)*0.5;Place(field,ox+x*S,H-(1080-y)*S,width*S,height*S,Math.Round(font*0.9),ink);field.SetShadow(0,0xff08100e,0,0,0);
+ }
+ void LowerLineStudy740(float x1,float y1,float x2,float y2,int ink,float width)
+ {
+  float ox=(W-1920*S)*0.5;Line(ox+x1*S,H-(1080-y1)*S,ox+x2*S,H-(1080-y2)*S,ink,width*S);
+ }
+ void LowerPanelStudy740(array<float> points,array<int> triangles,int ink)
+ {
+  float dpi=GetGame().GetWorkspace().DPIScale(1);float ox=(W-1920*S)*0.5;TriMeshDrawCommand command=new TriMeshDrawCommand();command.m_iColor=ink;command.m_Vertices={};command.m_Indices=triangles;
+  for(int i=0;i<points.Count();i+=2){command.m_Vertices.Insert((ox+points[i]*S)*dpi);command.m_Vertices.Insert((H-(1080-points[i+1])*S)*dpi);}Draw.Insert(command);
+ }
+ void LowerContourStudy740(array<float> points,int ink,float width)
+ {
+  for(int i=0;i<points.Count();i+=2){int next=(i+2)%points.Count();LowerLineStudy740(points[i],points[i+1],points[next],points[next+1],ink,width);}
+ }
+ void LayoutStudy740()
+ {
+  ConfigurePaletteStudy740();
+  S=Math.Min(W/1920,H/1080);float ox=(W-1920*S)*0.5;float oy=(H-1080*S)*0.5;
+  Place(Header,ox+1746*S,oy+145*S,174*S,38*S,23,STUDY_INK740);
+  Place(TurretAngles,ox+1746*S,oy+699*S,174*S,45*S,29,STUDY_INK740);
+  PlaceLowerStudy740(LeftTitle,52,955,130,35,25,LOWER_INK740);
+  PlaceLowerStudy740(RightTitle,1634,955,130,35,25,LOWER_INK740);
+  int leftTypeFont740=16;int rightTypeFont740=16;if(Snapshot.Left && Snapshot.Left.Ammunition=="HEI-T")leftTypeFont740=20;if(Snapshot.Right && Snapshot.Right.Ammunition=="HEI-T")rightTypeFont740=20;
+  PlaceLowerStudy740(LeftType,186,962,100,29,leftTypeFont740,LOWER_MUTED740);LeftType.SetFlags(WidgetFlags.RALIGN);
+  PlaceLowerStudy740(RightType,1768,962,100,29,rightTypeFont740,LOWER_MUTED740);RightType.SetFlags(WidgetFlags.RALIGN);
+  PlaceLowerStudy740(LeftCount,169,985,72,68,58,LOWER_INK740);
+  PlaceLowerStudy740(RightCount,1751,985,72,68,58,LOWER_INK740);
+  PlaceLowerStudy740(LeftCapacity740,246,1015,40,32,23,LOWER_MUTED740);LeftCapacity740.SetFlags(WidgetFlags.RALIGN);
+  PlaceLowerStudy740(RightCapacity740,1828,1015,40,32,23,LOWER_MUTED740);RightCapacity740.SetFlags(WidgetFlags.RALIGN);
+  LeftTitle.SetMinFontSize(Math.Max(12,Math.Round(12*S)));RightTitle.SetMinFontSize(Math.Max(12,Math.Round(12*S)));
+  LeftCount.SetMinFontSize(Math.Max(12,Math.Round(30*S)));RightCount.SetMinFontSize(Math.Max(12,Math.Round(30*S)));
+  LeftCapacity740.SetMinFontSize(Math.Max(12,Math.Round(14*S)));RightCapacity740.SetMinFontSize(Math.Max(12,Math.Round(14*S)));
+  LeftType.SetMinFontSize(Math.Max(12,Math.Round(12*S)));RightType.SetMinFontSize(Math.Max(12,Math.Round(12*S)));
+  PlaceLowerStudy740(OpticalMode,438,976,250,31,20,LOWER_MUTED740);
+  PlaceLowerStudy740(Group,438,1000,280,41,31,LOWER_ACTIVE740);
+  PlaceLowerStudy740(Reference,729,961,342,32,22,LOWER_INK740);Reference.SetFlags(WidgetFlags.CENTER);
+  int rangeFont740=26;if(ValidRange740() || Snapshot.RangeState676==EGEP_Range676State.NONE)rangeFont740=48;
+  PlaceLowerStudy740(Range676,711,982,378,59,rangeFont740,LOWER_INK740);Range676.SetFlags(WidgetFlags.CENTER);
+  PlaceLowerStudy740(RangeDetail740,666,1036,468,32,20,LOWER_MUTED740);RangeDetail740.SetFlags(WidgetFlags.CENTER);
+  PlaceLowerStudy740(OrientationHeader740,1180,977,234,31,20,LOWER_MUTED740);
+  PlaceLowerStudy740(SightAngles,1180,997,198,48,39,LOWER_INK740);
+  PlaceLowerStudy740(Feedback,438,956,306,31,20,LOWER_ACTIVE740);
+  if(OperationalFeedbackDE704()!=""){Place(Feedback,ox+650*S,oy+173*S,620*S,42*S,25,STUDY_WARN740);Feedback.SetFlags(WidgetFlags.CENTER);Feedback.SetShadow(2,0xff08100e,1,0,1);}
+  RangeDetail740.SetVisible(true);OrientationHeader740.SetVisible(true);LeftCapacity740.SetVisible(true);RightCapacity740.SetVisible(true);
+  Zoom.SetVisible(false);Drive.SetVisible(false);
+  Place(TopBrand740,34*S,3*S,100*S,30*S,21,LOWER_MUTED740);
+  Place(TopSubtitle740,160*S,4*S,700*S,28*S,17,BRAND740);TopSubtitle740.SetVisible(true);
+  float modeX740=W-640*S;float modeW740=52*S;if(Snapshot.OpticsValid && Snapshot.Night){modeX740=W-710*S;modeW740=122*S;}
+  Place(TopMode740,modeX740,4*S,modeW740,28*S,17,MODE_INK740);
+  Place(TopZoom740,W-566*S,3*S,68*S,29*S,18,LOWER_INK740);
+  Place(TopBearing740,W-150*S,2*S,116*S,31*S,20,LOWER_INK740);TopBearing740.SetFlags(WidgetFlags.RALIGN);
+  Place(TopBearingTitle740,W-470*S,4*S,230*S,28*S,16,LOWER_MUTED740);
+  TopBrand740.SetVisible(true);TopMode740.SetVisible(true);TopZoom740.SetVisible(true);TopBearing740.SetVisible(true);TopBearingTitle740.SetVisible(true);
+  Header.SetBold(true);LeftTitle.SetBold(true);RightTitle.SetBold(true);OpticalMode.SetBold(true);Group.SetBold(true);Reference.SetBold(true);Feedback.SetBold(true);
+  LeftCount.SetBold(false);RightCount.SetBold(false);Range676.SetBold(false);SightAngles.SetBold(false);TurretAngles.SetBold(false);
+  for(int e=0;e<7;e++)
+  {
+   TextWidget label740=ElevationLabels740[e];label740.SetVisible(false);if(!Snapshot.AimValid)continue;
+   float degree740=ElevationTop740()-e*10;float y740=206+e*80;
+   Place(label740,ox+1778*S,oy+(y740-24)*S,142*S,39*S,25,STUDY_INK740);
+   string text740=Math.Round(degree740).ToString()+"°";if(degree740>0)text740="+"+text740;Put(label740,text740);label740.SetVisible(true);
+  }
+  foreach(Widget hint:HintRoots){if(hint)hint.SetVisible(false);}
+ }
+ void TextStudy740()
+ {
+  Put(Header,"ROHRHOEHE");Put(LeftTitle,"LINKS / 35 mm");Put(RightTitle,"RECHTS / 35 mm");
+  Put(TopBrand740,"GEPARD");Put(TopSubtitle740,"RICHTSCHUETZENVISIER");string mode740="--";if(Snapshot.OpticsValid){mode740="TAG";if(Snapshot.Night)mode740="RESTLICHT";}Put(TopMode740,mode740);
+  string zoom740="--×";if(Snapshot.ZoomValid)zoom740=NumberDE704(Snapshot.Magnification)+"×";Put(TopZoom740,zoom740);
+  string bearing740="--";if(Snapshot.ViewValid)bearing740=NumberDE704(Snapshot.Bearing)+"";Put(TopBearing740,bearing740);Put(TopBearingTitle740,"BLICKRICHTUNG");
+  Put(LeftType,FeedTypeStudy740(Snapshot.Left));Put(RightType,FeedTypeStudy740(Snapshot.Right));
+  Put(LeftCount,FeedCountDE704(Snapshot.Left));Put(RightCount,FeedCountDE704(Snapshot.Right));
+  Put(LeftCapacity740,FeedCapacityText740(Snapshot.Left));Put(RightCapacity740,FeedCapacityText740(Snapshot.Right));
+  LeftCount.SetColor(Color.FromInt(FeedInk740(Snapshot.Left,1)));RightCount.SetColor(Color.FromInt(FeedInk740(Snapshot.Right,2)));
+  Put(OpticalMode,"WAFFENWAHL");string group="--";if(Snapshot.Group==0)group="BEIDE";if(Snapshot.Group==1)group="LINKS";if(Snapshot.Group==2)group="RECHTS";Put(Group,group);
+  int groupInk740=LOWER_MUTED740;if(Snapshot.Crew && Snapshot.Group>=0 && Snapshot.Group<=2)groupInk740=LOWER_ACTIVE740;Group.SetColor(Color.FromInt(groupInk740));
+  string distance="-- m";string detail="NOCH KEINE MESSUNG";int rangeInk740=LOWER_INK740;int noteInk740=LOWER_MUTED740;
+  if(ValidRange740())
+  {
+   distance=Math.Round(Snapshot.RangeMetres676).ToString()+" m";detail="MESSUNG "+NumberDE704(Snapshot.RangeAge676)+" s";
+   if(Snapshot.RangeAge676>10){detail+=" / VERALTET";rangeInk740=LOWER_WARN740;noteInk740=LOWER_WARN740;}
+  }
+  else if(Snapshot.RangeState676==EGEP_Range676State.NO_RETURN){distance="KEIN MESSWERT";detail="KEINE GUELTIGE MESSUNG";rangeInk740=LOWER_WARN740;noteInk740=LOWER_WARN740;}
+  else if(Snapshot.RangeState676==EGEP_Range676State.UNAVAILABLE || Snapshot.RangeState676==EGEP_Range676State.VALID){distance="NICHT VERFUEGBAR";detail="KEINE GUELTIGE MESSUNG";rangeInk740=LOWER_WARN740;noteInk740=LOWER_WARN740;}
+  Put(Reference,"ENTFERNUNG");Put(Range676,distance);Put(RangeDetail740,detail);Range676.SetColor(Color.FromInt(rangeInk740));RangeDetail740.SetColor(Color.FromInt(noteInk740));
+  Put(OrientationHeader740,"TURM / WANNE");string azimuth="--";string elevation="--";
+  if(Snapshot.AimValid){azimuth=NumberDE704(Snapshot.HullAzimuth)+"";elevation=NumberDE704(Snapshot.GunElevation)+"";if(Snapshot.GunElevation>0)elevation="+"+elevation;}
+  Put(SightAngles,azimuth);Put(TurretAngles,elevation);
+  string feedback=OperationalFeedbackDE704();int feedbackInk740=STUDY_WARN740;
+  if(feedback=="" && EntityLockCue715 && Snapshot.Crew){feedback="ZIEL ERFASST";feedbackInk740=LOWER_ACTIVE740;}
+  Put(Feedback,feedback);Feedback.SetVisible(feedback!="");Feedback.SetColor(Color.FromInt(feedbackInk740));
+ }
+ // Purposeful contrast shading, not a calibrated field-of-view or sensor boundary.
+ // Separate from native WCS display reuse, which this study does not alter.
+ void ShadeStudy740()
+ {
+  array<float> radii740={676,735,776,816,856,896,935,4000};array<int> alpha740={7,20,45,84,150,222,255};
+  for(int band740=0;band740<7;band740++)
+  {
+   array<float> points740={};array<int> triangles740={};
+   for(int i740=0;i740<64;i740++)
+   {
+    float a740=i740*Math.PI2/64;float sn740=Math.Sin(a740);float cs740=Math.Cos(a740);
+    points740.Insert(960+sn740*radii740[band740]);points740.Insert(540+cs740*radii740[band740]);
+    points740.Insert(960+sn740*radii740[band740+1]);points740.Insert(540+cs740*radii740[band740+1]);
+    int ia740=i740*2;int ib740=((i740+1)%64)*2;
+    triangles740.Insert(ia740);triangles740.Insert(ib740+1);triangles740.Insert(ia740+1);triangles740.Insert(ia740);triangles740.Insert(ib740);triangles740.Insert(ib740+1);
+   }
+   int ink740=(alpha740[band740]<<24)|0x00060806;Panel704(points740,triangles740,ink740);
+  }
+ }
+ void FeedBarsStudy740(GEP_GunnerFeed583 feed,float x,int ink)
+ {
+  bool valid=feed && feed.State==2 && feed.Count>=0 && feed.Capacity>0;float ratio=0;if(valid){ratio=feed.Count;ratio=Math.Clamp(ratio/feed.Capacity,0,1);}
+  for(int i=0;i<32;i++){float bx=x+i*7.3125;LowerLineStudy740(bx+2.61,1062,bx+2.61,1072.8,((LOWER_ACTIVE740 & 0x00ffffff)|0x26000000),5.22);if(valid){float fill=Math.Clamp(ratio*32-i,0,1);if(fill>0)LowerLineStudy740(bx+2.61*fill,1062,bx+2.61*fill,1072.8,ink,5.22*fill);}}
+ }
+ void ShellStudy740(float x)
+ {
+  array<float> shell740={x,1010,x+40.5,1010,x+49.5,1011.8,x+63.9,1011.8,x+86.4,1017.2,x+63.9,1022.6,x+49.5,1022.6,x+40.5,1024.4,x,1024.4};LowerContourStudy740(shell740,LOWER_INK740,1.35);
+  LowerLineStudy740(x+39.6,1010.9,x+39.6,1023.5,LOWER_INK740,0.99);LowerLineStudy740(x+49.5,1012.7,x+49.5,1021.7,LOWER_INK740,0.99);LowerLineStudy740(x+63,1012.7,x+63,1021.7,LOWER_INK740,0.99);
+ }
+ void VehicleLineStudy740(float ax,float ay,float bx,float by,bool rotating,float width=1.1)
+ {
+  float ca=1;
+  float sa=0;
+  float angle740=0;
+  if(rotating)
+  {
+   if(!Snapshot.AimValid){return;}
+   angle740=Snapshot.HullAzimuth*Math.DEG2RAD;
+   ca=Math.Cos(angle740);
+   sa=Math.Sin(angle740);
+  }
+  LowerLineStudy740(1406+0.66*(ax*ca-ay*sa),1020+0.66*(ax*sa+ay*ca),1406+0.66*(bx*ca-by*sa),1020+0.66*(bx*sa+by*ca),LOWER_INK740,width*0.66);
+ }
+ void VehiclePathStudy740(array<float> points,bool rotating,bool closed,float width=1.1)
+ {
+  for(int i=0;i<points.Count()-2;i+=2)VehicleLineStudy740(points[i],points[i+1],points[i+2],points[i+3],rotating,width);
+  if(closed)VehicleLineStudy740(points[points.Count()-2],points[points.Count()-1],points[0],points[1],rotating,width);
+ }
+ void HullStudy740()
+ {
+  array<float> path0Study740={-63,-28,33,-28,56,-17,56,17,33,28,-63,28,-71,20,-71,-20};VehiclePathStudy740(path0Study740,false,true,1.1);
+  array<float> path1Study740={-69,-33,33,-33,47,-27,47,-19,-69,-19};VehiclePathStudy740(path1Study740,false,true,1.1);
+  array<float> path2Study740={-69,19,47,19,47,27,33,33,-69,33};VehiclePathStudy740(path2Study740,false,true,1.1);
+  array<float> path3Study740={-54,-20,29,-20,45,-10,45,10,29,20,-54,20};VehiclePathStudy740(path3Study740,false,true,1.1);
+  array<float> path4Study740={-49,-13,-25,-13,-25,13,-49,13};VehiclePathStudy740(path4Study740,false,true,1.1);
+  array<float> path5Study740={-44,-9,-30,-9};VehiclePathStudy740(path5Study740,false,false,1.1);
+  array<float> path6Study740={-44,-5,-30,-5};VehiclePathStudy740(path6Study740,false,false,1.1);
+  array<float> path7Study740={-44,-1,-30,-1};VehiclePathStudy740(path7Study740,false,false,1.1);
+  array<float> path8Study740={-44,3,-30,3};VehiclePathStudy740(path8Study740,false,false,1.1);
+  array<float> path9Study740={-44,7,-30,7};VehiclePathStudy740(path9Study740,false,false,1.1);
+  array<float> path10Study740={29,-13,37,-9,37,9,29,13};VehiclePathStudy740(path10Study740,false,false,1.1);
+  array<float> path11Study740={-62,-17,-62,17};VehiclePathStudy740(path11Study740,false,false,1.1);
+  array<float> path12Study740={-18,-17,-7,-25,18,-25,33,-15,33,15,18,25,-7,25,-18,17};VehiclePathStudy740(path12Study740,true,true,1.1);
+  array<float> path13Study740={-12,-10,-2,-16,14,-16,23,-10,23,10,14,16,-2,16,-12,10};VehiclePathStudy740(path13Study740,true,true,1.1);
+  array<float> path14Study740={25,-17,84,-17,84,-14,25,-14};VehiclePathStudy740(path14Study740,true,false,1.1);
+  array<float> path15Study740={25,14,84,14,84,17,25,17};VehiclePathStudy740(path15Study740,true,false,1.1);
+  array<float> path16Study740={33,-15.5,81,-15.5};VehiclePathStudy740(path16Study740,true,false,1.1);
+  array<float> path17Study740={33,15.5,81,15.5};VehiclePathStudy740(path17Study740,true,false,1.1);
+  array<float> path18Study740={-20,-10,-28,-10,-28,10,-20,10};VehiclePathStudy740(path18Study740,true,false,1.1);
+  array<float> path19Study740={-27,-4,-36,-4,-36,4,-27,4};VehiclePathStudy740(path19Study740,true,false,1.1);
+  for(int track740=-64;track740<43;track740+=9){VehicleLineStudy740(track740,-32,track740,-21,false,0.85);VehicleLineStudy740(track740,21,track740,32,false,0.85);}
+  if(!Snapshot.AimValid)return;
+  float angle740=Snapshot.HullAzimuth*Math.DEG2RAD;float ca740=Math.Cos(angle740);float sa740=Math.Sin(angle740);
+  for(int circle740=0;circle740<16;circle740++){float aa740=circle740*Math.PI2/16;float ab740=(circle740+1)*Math.PI2/16;LowerLineStudy740(1406+0.66*(7*ca740+6*Math.Cos(aa740)),1020+0.66*(7*sa740+6*Math.Sin(aa740)),1406+0.66*(7*ca740+6*Math.Cos(ab740)),1020+0.66*(7*sa740+6*Math.Sin(ab740)),LOWER_INK740,0.66);}
+  array<float> arrowLocal740={75,0,50,-6,55,0,50,6};array<float> arrow740={};
+  for(int a740=0;a740<arrowLocal740.Count();a740+=2){float ax740=arrowLocal740[a740];float ay740=arrowLocal740[a740+1];arrow740.Insert(1406+0.66*(ax740*ca740-ay740*sa740));arrow740.Insert(1020+0.66*(ax740*sa740+ay740*ca740));}
+  array<int> arrowTriangles740={0,2,1,0,3,2};LowerPanelStudy740(arrow740,arrowTriangles740,LOWER_ACTIVE740);
+ }
+ void ElevationStudy740()
+ {
+  if(!Snapshot.AimValid)return;
+  DLine704(1746,206,1746,686,STUDY_INK740,1.5);
+  for(int i740=0;i740<=60;i740++){float y740=206+i740*8;float width740=7;if(i740%5==0)width740=13;if(i740%10==0)width740=22;DLine704(1746,y740,1746+width740,y740,STUDY_INK740,1.1);}
+  float marker740=206+(ElevationTop740()-Snapshot.GunElevation)*8;
+  array<float> markerPoints740={1748,marker740,1770,marker740-10,1770,marker740+10};array<int> markerTriangles740={0,1,2};Panel704(markerPoints740,markerTriangles740,STUDY_ACTIVE740);
+ }
+ void GraphicsStudy740()
+ {
+  Draw.Clear();bool lockStudy740=EntityLockCue715 && Snapshot.Crew;
+  // Uncalibrated broken-ring alignment aid, not a range/lead/acquisition scale.
+  for(int layer=0;layer<2;layer++)
+  {
+   int ink=0xff080e09;float stroke=2.6;if(layer==1){ink=STUDY_INK740;stroke=1.25;}
+   DLine704(960,28,960,427,ink,stroke);DLine704(960,653,960,893,ink,stroke);
+   DLine704(474,540,859,540,ink,stroke);DLine704(1061,540,1446,540,ink,stroke);
+   // Ten-pixel open center keeps the exact boresight unobscured. No ballistic calibration.
+   DLine704(946,540,955,540,ink,stroke);DLine704(965,540,974,540,ink,stroke);DLine704(960,526,960,535,ink,stroke);DLine704(960,545,960,554,ink,stroke);
+   for(int sector740=0;sector740<4;sector740++)for(int segment740=0;segment740<18;segment740++)
+   {
+    float arcA740=(sector740*90+12+segment740*66.0/18)*Math.DEG2RAD;float arcB740=(sector740*90+12+(segment740+1)*66.0/18)*Math.DEG2RAD;
+    DLine704(960+Math.Sin(arcA740)*162,540-Math.Cos(arcA740)*162,960+Math.Sin(arcB740)*162,540-Math.Cos(arcB740)*162,ink,stroke);
+   }
+   if(lockStudy740){int cueInk740=ink;if(layer==1)cueInk740=STUDY_ACTIVE740;DLine704(835,540,859,540,cueInk740,stroke);DLine704(1061,540,1085,540,cueInk740,stroke);DLine704(859,535,859,545,cueInk740,stroke);DLine704(1061,535,1061,545,cueInk740,stroke);}
+  }
+  ElevationStudy740();
+  Bar(0,H-120*S,W,120*S,RAIL740);Line(0,H-119.5*S,W,H-119.5*S,RAIL_LINE740,S);
+  Bar(0,0,W,36*S,RAIL740);Line(0,35.5*S,W,35.5*S,RAIL_LINE740,S);
+  Line(137*S,10*S,137*S,26*S,RAIL_LINE740,S);Line(W-588*S,10*S,W-588*S,26*S,RAIL_LINE740,S);Line(W-495*S,10*S,W-495*S,26*S,RAIL_LINE740,S);
+  ShellStudy740(52);ShellStudy740(1634);
+  FeedBarsStudy740(Snapshot.Left,52,FeedBarInk740(Snapshot.Left,1));FeedBarsStudy740(Snapshot.Right,1634,FeedBarInk740(Snapshot.Right,2));HullStudy740();
+  // Native WCS held-point marker reuse belongs to a separate verified integration.
+  Canvas.SetDrawCommands(Draw);
+ }
+ // END ISOLATED HUD STUDY740
+
  void RefreshHints()
  {
   for(int i=0;i<Hints.Count();i++)

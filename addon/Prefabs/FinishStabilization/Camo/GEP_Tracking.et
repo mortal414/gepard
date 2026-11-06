@@ -1,0 +1,12 @@
+// Only GunRig points at the private stabilization child; no drive/crew/smoke override.
+Vehicle : "{D561AD08932E5480}Prefabs/Vehicles/GEP_MobileCarrier.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunRig {
+     Prefab "{A76A420024150105}Prefabs/FinishStabilization/Camo/GEP_TrackingTurret.et"
+    }
+   }
+  }
+ }
+}

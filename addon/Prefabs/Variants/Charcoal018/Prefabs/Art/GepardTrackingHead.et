@@ -19,7 +19,9 @@ GenericEntity : "{D561AD08932E3007}Prefabs/Art/GepardTrackingHead.et" {
      SourceMaterial "GEP_Service641_TrackerCover"
      AssignedMaterial "{96010DE926EDA794}Assets/Gepard/GEP018/NeutralBaseV2/53379c03154d.emat"
     }
-   }
+   
+ MaterialAssignClass "{5B8733C817A05C4A}" { SourceMaterial "D10_NATIVE_70F066D8" AssignedMaterial "{5B4E4F158CD41DC1}Assets/Detail10/Materials/Charcoal/GepardTrackingHead_LOD0.emat" }
+ }
   }
  }
 }

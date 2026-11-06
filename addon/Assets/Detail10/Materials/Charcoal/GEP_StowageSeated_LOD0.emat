@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{E18159AFA744DE53}Assets/Detail10/Materials/Charcoal/GEP_StowageSeated_LOD0_BCR.edds"
+ NMOMap "{47546839FDFB1DE2}Assets/Detail10/Materials/Charcoal/GEP_StowageSeated_LOD0_NMO.edds"
+}

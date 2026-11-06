@@ -7,9 +7,9 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{3D3F3C85447A49E4}" {
-     SourceMaterial "GEP668_CoverLeft"
-     AssignedMaterial "{20747A57682042A9}Assets/Gepard/ReferenceFittings668/GEP668_CoverLeft.emat"
+    MaterialAssignClass "{950E93C93F37A3AB}" {
+     SourceMaterial "D10_NATIVE_8F18882A"
+     AssignedMaterial "{FF2425E9B33058E8}Assets/Detail10/Materials/Camo/GEP668_CoverLeft_LOD0.emat"
     }
    }
    MeshParams {

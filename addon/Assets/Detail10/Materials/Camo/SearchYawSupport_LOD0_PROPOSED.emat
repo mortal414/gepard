@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{8DD0D374D9E70A32}Assets/Detail10/Materials/Camo/SearchYawSupport_LOD0_PROPOSED_BCR.edds"
+ NMOMap "{22EFDDC6C6ACD40C}Assets/Detail10/Materials/Camo/SearchYawSupport_LOD0_PROPOSED_NMO.edds"
+}

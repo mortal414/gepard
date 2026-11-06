@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{C4D8A6C819DDE1A0}Assets/Gepard/RoadRubber648/RoadRubber648_Rolling_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+   SourceFile "RoadRubber648_Rolling_NMO.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

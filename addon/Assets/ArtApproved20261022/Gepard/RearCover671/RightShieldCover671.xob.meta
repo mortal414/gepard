@@ -7,13 +7,9 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{F1948F0C18D64A23}" {
-     SourceMaterial "GEP671_ShieldPaint"
-     AssignedMaterial "{17B923963BF74535}Assets/Gepard/RearCover671/GEP671_ShieldPaint.emat"
-    }
-    MaterialAssignClass "{701F4BAE892D461B}" {
-     SourceMaterial "GEP671_Seam"
-     AssignedMaterial "{917472038E824376}Assets/Gepard/RearCover671/GEP671_Seam.emat"
+    MaterialAssignClass "{E004B780730773FD}" {
+     SourceMaterial "D10_NATIVE_F496DAD5"
+     AssignedMaterial "{4A3D7B44FD18E351}Assets/Detail10/Materials/Camo/GEP671_RightShieldCover_LOD0.emat"
     }
    }
    MeshParams {

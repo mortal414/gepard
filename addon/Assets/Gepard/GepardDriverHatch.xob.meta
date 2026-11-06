@@ -7,13 +7,9 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{D561AD08932E7600}" {
-     SourceMaterial "CabinPale"
-     AssignedMaterial "{D561AD08932E7000}Assets/Gepard/Interior/CabinPale.emat"
-    }
-    MaterialAssignClass "{6A9A7E226DCEA53E}" {
-     SourceMaterial "GEP_Skin_GepardHull"
-     AssignedMaterial "{D561AD08932E6200}Assets/Gepard/Surface/Skin_GepardHull.emat"
+    MaterialAssignClass "{DBF8FF1ED94E4E4A}" {
+     SourceMaterial "D10_NATIVE_FEA9812A"
+     AssignedMaterial "{65A27DAE1C9E9B94}Assets/Detail10/Materials/Camo/GepardDriverHatch_LOD0.emat"
     }
    }
    MeshParams {

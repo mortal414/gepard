@@ -6,5 +6,14 @@ Turret : "{A76A420024150107}Prefabs/FinishStabilization/Charcoal/GEP_TrackingTur
   } }
   GEP_NextFireControlConsumer726 "{A76A420025072630}" { m_eRangeCompensation 0 }
   GEP_RangeGuard726 "{A76A420025072631}" {}
+ 
+ MeshObject "{51ACD09C4E0B7D16}" {
+
+ Materials {
+ MaterialAssignClass "{7A4E8B8DB449F85D}" { SourceMaterial "D10_NATIVE_7D916C2F" AssignedMaterial "{41262C04D41FF900}Assets/Detail10/Materials/Charcoal/GEP_RearCapSeats651_LOD0.emat" }
+ MaterialAssignClass "{80A1C54CD55760E9}" { SourceMaterial "D10_NATIVE_7E5D2F11" AssignedMaterial "{614A380655BE10DD}Assets/Detail10/Materials/Charcoal/GepardTurretRig_LOD0.emat" }
  }
+
+ }
+}
 }

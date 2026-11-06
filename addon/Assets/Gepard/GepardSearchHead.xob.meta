@@ -7,25 +7,9 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{6A9A37F16E93CE66}" {
-     SourceMaterial "GEP_nato_green"
-     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
-    }
-    MaterialAssignClass "{6A9A37F16E93CE7B}" {
-     SourceMaterial "GEP_grille_paint"
-     AssignedMaterial "{D561AD08932E6004}Assets/Gepard/Surface/grille_paint.emat"
-    }
-    MaterialAssignClass "{6A9A37F16E93CE7D}" {
-     SourceMaterial "GEP_track_steel"
-     AssignedMaterial "{D561AD08932E6009}Assets/Gepard/Surface/track_steel.emat"
-    }
-    MaterialAssignClass "{6A9A37F16E93CE07}" {
-     SourceMaterial "GEP_Skin_GepardSearchHead"
-     AssignedMaterial "{C38177A76DD44655}Assets/Gepard/ExteriorClosure658/SearchCharcoalCover.emat"
-    }
-       MaterialAssignClass "{19A5FB74063A437E}" {
-     SourceMaterial "GEP_SearchCoverLip_Charcoal20261018"
-     AssignedMaterial "{E0EC885DC27D4362}Assets/Gepard/ExteriorClosure658/SearchCharcoalLip.emat"
+    MaterialAssignClass "{EABA6BFB5442C689}" {
+     SourceMaterial "D10_NATIVE_1C758101"
+     AssignedMaterial "{B305A164719E271A}Assets/Detail10/Materials/Camo/GepardSearchHead_LOD0.emat"
     }
    }
    MeshParams {

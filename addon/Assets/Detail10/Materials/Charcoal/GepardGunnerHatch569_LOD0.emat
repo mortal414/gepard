@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{374BFF387A6A701A}Assets/Detail10/Materials/Charcoal/GepardGunnerHatch569_LOD0_BCR.edds"
+ NMOMap "{B62A582F8F0E08A6}Assets/Detail10/Materials/Charcoal/GepardGunnerHatch569_LOD0_NMO.edds"
+}

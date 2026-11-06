@@ -19,7 +19,9 @@ GenericEntity : "{D561AD08932E3004}Prefabs/Art/GepardSearchBase.et" {
      SourceMaterial "GEP_Service641_SearchBase"
      AssignedMaterial "{4CEB31734A7D001E}Assets/Gepard/GEP018/NeutralBaseV2/49e9ab156d14.emat"
     }
-   }
+   
+ MaterialAssignClass "{375AA484B2C94E2F}" { SourceMaterial "D10_NATIVE_2F569DAF" AssignedMaterial "{4AD4ABD0EA2C6608}Assets/Detail10/Materials/Charcoal/GepardSearchBase_LOD0.emat" }
+ }
   }
   SlotManagerComponent "{D561AD08932E3404}" {
    Slots {

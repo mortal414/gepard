@@ -49,7 +49,7 @@ class GEP_RunningGear_Wheeled101 : GEP_RunningGear
     GEP_GearBone returnWheel=Bone("GEP_VisualReturn_"+letter+"_0"+roller.ToString(),side,9);
     if(returnWheel) Wheels.Insert(returnWheel);
    }
-   for(int link=0;link<100;link++)
+   for(int link=0;link<VisualLinkCount();link++)
    {
     string digits=link.ToString();if(link<10) {digits="00"+digits;} else {digits="0"+digits;}
     GEP_GearBone shoe=Bone("GEP_Link_"+letter+"_"+digits,side,0);
@@ -57,7 +57,7 @@ class GEP_RunningGear_Wheeled101 : GEP_RunningGear
     if(side==0) {Left.Insert(shoe);} else {Right.Insert(shoe);}
    }
   }
-  if(Left.Count()==100 && Right.Count()==100)
+  if(Left.Count()==VisualLinkCount() && Right.Count()==VisualLinkCount())
   {
    LeftLength=Prepare(Left);RightLength=Prepare(Right);
    if(Left[1].Rest[3][2]>Left[0].Rest[3][2]) PhaseSign=-1;

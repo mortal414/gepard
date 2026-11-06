@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{D2EB33DE97F048E9}Assets/Detail10/Materials/Camo/GEP669_RoofEyes_LOD0_BCR.edds"
+ NMOMap "{9DD77DF0FBE6B2C8}Assets/Detail10/Materials/Camo/GEP669_RoofEyes_LOD0_NMO.edds"
+}

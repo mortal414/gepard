@@ -7,7 +7,9 @@ GenericEntity : "{D561AD08932E7701}Prefabs/Art/GepardDriverHatch.et" {
      SourceMaterial "GEP_Skin_GepardHull"
      AssignedMaterial "{BFE3B10AAAE45177}Assets/Gepard/GEP018/NeutralBaseV2/46a9e44522cf.emat"
     }
-   }
+   
+ MaterialAssignClass "{766CF8240D21D49E}" { SourceMaterial "D10_NATIVE_FEA9812A" AssignedMaterial "{44D9A6F99FD67D85}Assets/Detail10/Materials/Charcoal/GepardDriverHatch_LOD0.emat" }
+ }
   }
   SlotManagerComponent "{527F9C34B76F46E3}" {
    Slots {

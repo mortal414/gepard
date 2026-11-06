@@ -1,6 +1,8 @@
 // Stable public vehicle identity; composed from the user-tested Demo10 stack.
 Vehicle : "{2150FC6F1E081188}Prefabs/ArtApproved20261022/Camo/GEP_MobileCarrier.et" {
  components {
+ GEP_RunningGear_Wheeled101 "{D561AD08932E7900}" { m_iVisualLinkCount 93 }
+
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo GunRig {

@@ -7,25 +7,9 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{6A9A37F16E9768B8}" {
-     SourceMaterial "GEP_nato_green"
-     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
-    }
-    MaterialAssignClass "{6A9A37F16E97684F}" {
-     SourceMaterial "GEP_rubber"
-     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
-    }
-    MaterialAssignClass "{6A9A37F16E97685D}" {
-     SourceMaterial "GEP_Skin_GepardSearchBase"
-     AssignedMaterial "{D561AD08932E6204}Assets/Gepard/Surface/Skin_GepardSearchBase.emat"
-    }
-    MaterialAssignClass "{D62415C02A39D8E6}" {
-     SourceMaterial "GEP_SearchBase_CastService_20261017"
-     AssignedMaterial "{D6240E6E78204C32}Assets/Gepard/SearchBase624/SearchBase_CastService.emat"
-    }
-    MaterialAssignClass "{D6411571A43ABE07}" {
-     SourceMaterial "GEP_Service641_SearchBase"
-     AssignedMaterial "{D64173F92321CB07}Assets/Gepard/ServiceCoat641/SearchBase_Heavier.emat"
+    MaterialAssignClass "{879E09142A23ABC1}" {
+     SourceMaterial "D10_NATIVE_2F569DAF"
+     AssignedMaterial "{C068F7DDA722C4F5}Assets/Detail10/Materials/Camo/GepardSearchBase_LOD0.emat"
     }
    }
    MeshParams {

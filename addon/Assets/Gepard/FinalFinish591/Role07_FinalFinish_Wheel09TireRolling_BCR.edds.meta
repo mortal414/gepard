@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{2BB0C5D14C734E69}Assets/Gepard/FinalFinish591/Role07_FinalFinish_Wheel09TireRolling_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   SourceFile "Role07_FinalFinish_Wheel09TireRolling_BCR.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

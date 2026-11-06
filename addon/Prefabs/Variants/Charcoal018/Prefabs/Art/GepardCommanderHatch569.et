@@ -11,7 +11,9 @@ GenericEntity : "{D561AD08932E9698}Prefabs/Art/GepardCommanderHatch569.et" {
      SourceMaterial "GEP_grille_paint"
      AssignedMaterial "{2538429B396DB655}Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat"
     }
-   }
+   
+ MaterialAssignClass "{04E5026520FB2EF6}" { SourceMaterial "D10_NATIVE_8190B6CD" AssignedMaterial "{2EFDFEE248F253F2}Assets/Detail10/Materials/Charcoal/GepardCommanderHatch569_LOD0.emat" }
+ }
   }
  }
 }

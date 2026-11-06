@@ -11,7 +11,9 @@ GenericEntity : "{E8A527B7931A4FA1}Prefabs/Art/GepardFenderDetails668.et" {
      SourceMaterial "GEP668_FenderRight"
      AssignedMaterial "{3212D673194E267E}Assets/Gepard/GEP018/NeutralBaseV2/681fc81007ae.emat"
     }
-   }
+   
+ MaterialAssignClass "{0767EE4A94189934}" { SourceMaterial "D10_NATIVE_58C5A5D4" AssignedMaterial "{7DB7A8EFEB62092B}Assets/Detail10/Materials/Charcoal/GEP668_FenderDetails_LOD0.emat" }
+ }
   }
  }
 }

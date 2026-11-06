@@ -8,6 +8,8 @@ GenericEntity : "{3ED25CAAAF6A43DE}Prefabs/Art/GepardDriverLidHardware660.et" {
      AssignedMaterial "{8BD5697BCC764112}Assets/Gepard/GEP018/NeutralBaseV2/102ca5cec226.emat"
     }
    }
-  }
+  
+ Object "{3432051903D69544}Assets/Empty/empty.xob"
+}
  }
 }

@@ -41,6 +41,9 @@ class GEP_GearBone
 class GEP_RunningGearClass : ScriptComponentClass {}
 class GEP_RunningGear : ScriptComponent
 {
+ [Attribute("100", UIWidgets.EditBox, "Rigid visual shoes per side")]
+ int m_iVisualLinkCount;
+ int VisualLinkCount(){return m_iVisualLinkCount;}
  ref array<ref GEP_GearBone> Wheels={};
  ref array<ref GEP_GearBone> Left={};
  ref array<ref GEP_GearBone> Right={};
@@ -75,7 +78,7 @@ class GEP_RunningGear : ScriptComponent
    links[i].Angle=Math.Atan2(tangent[1],tangent[2])*Math.RAD2DEG;
    length+=vector.Distance(links[i].Rest[3],links[next].Rest[3]);
   }
-  for(int shoe=0;shoe<links.Count();shoe++)links[shoe].Distance=length*shoe/links.Count();
+  for(int shoe=0;shoe<links.Count();shoe++){if(VisualLinkCount()==93)links[shoe].Distance=links[shoe].PathDistance;else links[shoe].Distance=length*shoe/links.Count();}
   return length;
  }
  void Init(IEntity owner)
@@ -95,7 +98,7 @@ class GEP_RunningGear : ScriptComponent
     GEP_GearBone returnWheel=Bone("GEP_VisualReturn_"+letter+"_0"+roller.ToString(),side,9);
     if(returnWheel) Wheels.Insert(returnWheel);
    }
-   for(int link=0;link<100;link++)
+   for(int link=0;link<VisualLinkCount();link++)
    {
     string digits=link.ToString();if(link<10) {digits="00"+digits;} else {digits="0"+digits;}
     GEP_GearBone shoe=Bone("GEP_Link_"+letter+"_"+digits,side,0);
@@ -103,7 +106,7 @@ class GEP_RunningGear : ScriptComponent
     if(side==0) {Left.Insert(shoe);} else {Right.Insert(shoe);}
    }
   }
-  if(Left.Count()==100 && Right.Count()==100)
+  if(Left.Count()==VisualLinkCount() && Right.Count()==VisualLinkCount())
   {
    LeftLength=Prepare(Left);RightLength=Prepare(Right);
    if(Left[1].Rest[3][2]>Left[0].Rest[3][2]) PhaseSign=-1;
@@ -126,7 +129,7 @@ class GEP_RunningGear : ScriptComponent
  void Belt(IEntity owner,array<ref GEP_GearBone> links,float length,float phase)
  {
   Animation Anim=owner.GetAnimation();
-  if(links.Count()!=100 || length<1) return;
+  if(links.Count()!=VisualLinkCount() || length<1) return;
   foreach(GEP_GearBone link:links)
   {
    float distance=link.Distance+phase;while(distance<0) {distance+=length;}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{4B1B34AB7E0D74E2}Assets/Detail10/Materials/Camo/GEP_RearMudflaps_LOD0_BCR.edds"
+ NMOMap "{8D6F6AAC3887BE42}Assets/Detail10/Materials/Camo/GEP_RearMudflaps_LOD0_NMO.edds"
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{B23E99A82C3D7586}Assets/Detail10/Materials/Charcoal/GepardDriverHatch_LOD0_BCR.edds"
+ NMOMap "{4AC47ECFCE3F663F}Assets/Detail10/Materials/Charcoal/GepardDriverHatch_LOD0_NMO.edds"
+}

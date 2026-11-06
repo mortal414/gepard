@@ -11,7 +11,9 @@ GenericEntity : "{741245D8A98C4B59}Prefabs/Art/GepardLeftServiceShield603.et" {
      SourceMaterial "GEP669_GuardRecess"
      AssignedMaterial "{0AD2907C88A320AA}Assets/Gepard/GEP018/NeutralBaseV2/944a5de838d6.emat"
     }
-   }
+   
+ MaterialAssignClass "{6CF8EF761EB99D97}" { SourceMaterial "D10_NATIVE_5C95C7C8" AssignedMaterial "{82094D7D18F982FC}Assets/Detail10/Materials/Charcoal/GEP669_RolledGuard_LOD0.emat" }
+ }
   }
  }
 }

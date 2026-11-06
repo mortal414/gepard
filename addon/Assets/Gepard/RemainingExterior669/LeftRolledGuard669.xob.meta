@@ -7,10 +7,15 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{B1CEE82CB5144AA7}" { SourceMaterial "GEP669_GuardPaint" AssignedMaterial "{3AF45E76FBEC429B}Assets/Gepard/RemainingExterior669/GEP669_GuardPaint.emat" }
-    MaterialAssignClass "{68D7DBC065414195}" { SourceMaterial "GEP669_GuardRecess" AssignedMaterial "{FA912928576A4755}Assets/Gepard/RemainingExterior669/GEP669_GuardRecess.emat" }
+    MaterialAssignClass "{7248612AF183229D}" {
+     SourceMaterial "D10_NATIVE_5C95C7C8"
+     AssignedMaterial "{F16E53B44E394956}Assets/Detail10/Materials/Camo/GEP669_RolledGuard_LOD0.emat"
+    }
    }
-   MeshParams { MeshParam GEP669_RolledGuard {} }
+   MeshParams {
+    MeshParam GEP669_RolledGuard {
+    }
+   }
    ApplicationVendor "Blender Foundation"
    ApplicationName "Blender (stable FBX IO)"
    ApplicationVersion "4.5.13 LTS"

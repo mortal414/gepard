@@ -7,7 +7,9 @@ GenericEntity : "{FD77A7A158897F4B}Prefabs/Art/GepardBearingBosses.et" {
      SourceMaterial "GEP_Finish_Turret"
      AssignedMaterial "{E38A963C10FEE263}Assets/Gepard/GEP018/NeutralBaseV2/05e7fc30e945.emat"
     }
-   }
+   
+ MaterialAssignClass "{CED75027D6D6E6AB}" { SourceMaterial "D10_NATIVE_221E1983" AssignedMaterial "{D0DD904560D25ABF}Assets/Detail10/Materials/Charcoal/GepardBearingBosses_LOD0.emat" }
+ }
   }
  }
 }

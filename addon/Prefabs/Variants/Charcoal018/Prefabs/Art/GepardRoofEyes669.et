@@ -7,7 +7,9 @@ GenericEntity : "{BB836DC8A4604CD7}Prefabs/Art/GepardRoofEyes669.et" {
      SourceMaterial "GEP669_RoofPaint"
      AssignedMaterial "{0D75974F00570370}Assets/Gepard/GEP018/NeutralBaseV2/2ccdc0ca60aa.emat"
     }
-   }
+   
+ MaterialAssignClass "{168AC15ACD98DD91}" { SourceMaterial "D10_NATIVE_95526014" AssignedMaterial "{AD79905A10E8F90B}Assets/Detail10/Materials/Charcoal/GEP669_RoofEyes_LOD0.emat" }
+ }
   }
  }
 }

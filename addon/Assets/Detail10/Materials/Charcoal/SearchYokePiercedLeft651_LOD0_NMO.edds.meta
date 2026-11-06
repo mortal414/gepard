@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{95A5C15D9AE2C673}Assets/Detail10/Materials/Charcoal/SearchYokePiercedLeft651_LOD0_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+   SourceFile "SearchYokePiercedLeft651_LOD0_NMO.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

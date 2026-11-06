@@ -7,13 +7,17 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{BEC19886DB254EF1}" {
-     SourceMaterial "GEP_nato_green"
-     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
+    MaterialAssignClass "{C64F88E4104E064C}" {
+     SourceMaterial "D10_NATIVE_7DAD16E2"
+     AssignedMaterial "{798576F2D8C5384C}Assets/Detail10/Materials/Camo/SearchYokePiercedRight651_LOD0.emat"
     }
-    MaterialAssignClass "{0D8D2B7775D74CDC}" {
-     SourceMaterial "GEP_track_steel"
-     AssignedMaterial "{D561AD08932E6009}Assets/Gepard/Surface/track_steel.emat"
+    MaterialAssignClass "{218C6723AE891C50}" {
+     SourceMaterial "D10_NATIVE_A17938FC"
+     AssignedMaterial "{4635FD372C75FC3B}Assets/Detail10/Materials/Camo/SearchYokePiercedLeft651_LOD0.emat"
+    }
+    MaterialAssignClass "{20E2D97E17EC05B5}" {
+     SourceMaterial "D10_NATIVE_97B97250"
+     AssignedMaterial "{B68776114526C22B}Assets/Detail10/Materials/Camo/SearchYawSupport_LOD0_PROPOSED.emat"
     }
    }
    MeshParams {
@@ -22,6 +26,12 @@ MetaFileClass {
     MeshParam SearchYokePiercedLeft651 {
     }
     MeshParam SearchYokePiercedRight651 {
+    }
+    MeshParam SearchYawSupport_LOD1_PROPOSED {
+    }
+    MeshParam SearchYawSupport_LOD2_PROPOSED {
+    }
+    MeshParam SearchYawSupport_LOD3_PROPOSED {
     }
    }
    ApplicationVendor "Blender Foundation"

@@ -1,6 +1,8 @@
 // Stable public vehicle identity; composed from the user-tested Demo10 stack.
 Vehicle : "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarrier.et" {
  components {
+ GEP_RunningGear_Wheeled101 "{D561AD08932E7900}" { m_iVisualLinkCount 93 }
+
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo GunRig {
@@ -13,5 +15,21 @@ Vehicle : "{8095474EC9806D0D}Prefabs/ArtApproved20261022/Charcoal/GEP_MobileCarr
     GEP_NextDestroyedGearbox2301 Gearbox_01 { m_eHitZoneGroup DRIVE_TRAIN }
    }
   }
+ 
+ MeshObject "{51DAA09FEFBFC0E7}" {
+
+ Materials {
+ MaterialAssignClass "{D1AD18D4CBE19C99}" { SourceMaterial "D10_NATIVE_C5710341" AssignedMaterial "{754BB75EEB233200}Assets/Detail10/Materials/Charcoal/GEP_EngineDeck_LOD0.emat" }
+ MaterialAssignClass "{5FDE1B7413CBD987}" { SourceMaterial "D10_NATIVE_A10AE210" AssignedMaterial "{3DFA21AFEA03A83F}Assets/Detail10/Materials/Charcoal/GEP_FrontDeckDetail_LOD0.emat" }
+ MaterialAssignClass "{D9B93F00C3706AA2}" { SourceMaterial "D10_NATIVE_61407730" AssignedMaterial "{04D40732B640631A}Assets/Detail10/Materials/Charcoal/GEP_RearCover_LOD0.emat" }
+ MaterialAssignClass "{6D05A062CE77C80E}" { SourceMaterial "D10_NATIVE_B702166E" AssignedMaterial "{5198E080999D990D}Assets/Detail10/Materials/Charcoal/GEP_RearMudflaps_LOD0.emat" }
+ MaterialAssignClass "{32E1BD5B4589B9E0}" { SourceMaterial "D10_NATIVE_68D2A797" AssignedMaterial "{82CB37D155C957F7}Assets/Detail10/Materials/Charcoal/GEP_ReturnRoller648_LOD0.emat" }
+ MaterialAssignClass "{D93E6C8ECB0DE704}" { SourceMaterial "D10_NATIVE_391AEB38" AssignedMaterial "{EAEE2A2E86D371E1}Assets/Detail10/Materials/Charcoal/GEP_SpareRack_LOD0.emat" }
+ MaterialAssignClass "{E06FE54F3705A7E8}" { SourceMaterial "D10_NATIVE_3CAE8F9F" AssignedMaterial "{20F6B723E104494E}Assets/Detail10/Materials/Charcoal/GEP_WheelWebs_LOD0.emat" }
+ MaterialAssignClass "{CA442073E846E3DE}" { SourceMaterial "D10_NATIVE_961BED44" AssignedMaterial "{034DAB909EB40FC2}Assets/Detail10/Materials/Charcoal/MobilityRig_LOD0.emat" }
+ MaterialAssignClass "{B0F656552DDCD239}" { SourceMaterial "D10_NATIVE_0AB908AC" AssignedMaterial "{33542E19CD0CAE1C}Assets/Detail10/Materials/Charcoal/MobilityRig_LOD0_GLASS.emat" }
  }
+
+ }
+}
 }

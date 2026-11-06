@@ -1,19 +1,10 @@
-# Gepard 35 mm SPAA - 1.0.5
+# Gepard 35 mm SPAA - 1.0.6
 
-Playable WIP Gepard for Arma Reforger with twin 35 mm guns, camouflage and charcoal variants. [Workshop release](https://reforger.armaplatform.com/workshop/D561AD08932E7B40-Gepard35mmSPAA): **D561AD08932E7B40**.
+Playable WIP Gepard for Arma Reforger with twin 35 mm guns, camouflage and charcoal variants. [Workshop release](https://reforger.armaplatform.com/workshop/D561AD08932E7B40): **D561AD08932E7B40**.
 
-The separate [Blender model showcase](https://github.com/mortal414/gepard-blender-showcase) has studio renders and authoring files. Those renders are not in-game screenshots.
+This repository now matches the published **1.0.6 Build07** source. It does not include the later Small size candidate or subsequent overnight corrections. See the [release record](releases/1.0.6.md) and [exact source manifest](manifests/addon-1.0.6-build07-sha256.json).
 
-## Current status and visual plans (2026-10-28)
-
-I hope to revisit the exterior and interior models over the next few months, depending on how the LLM-to-Blender experiments go. There is no firm timeline or promised release for these visual updates. Collaboration welcome.
-
-## Changes in 1.0.5
-
-- Optical stabilization with entity/position tracking and a confirmed entity-lock reticle cue.
-- Independent C rangefinding and approximate ballistic elevation adjustment for left/right/both current HEI-T feeds, with stabilization OFF or ON.
-- Accepted reference-led exterior detail batch across the side storage/fascia, front guards, rear lamp shell/service cover, tracking-head casing and roof equipment.
-- Cleaned runtime resource closure; useful development tests and model exports remain separate.
+The release updates the model and gunner HUD, preserves both finishes and grey metal mechanisms, and replaces Workshop screenshots. Reported model flaws remain for a follow-up. The separate [Blender showcase](https://github.com/mortal414/gepard-blender-showcase) contains authoring work and rendered images; those are not gameplay evidence.
 
 ## Controls
 
@@ -29,11 +20,9 @@ Ballistic correction is approximate and game-balanced, not validated real-world 
 
 Existing smoke deployment/rearming, optic HUD, track audio and component-damage behavior are retained from earlier releases.
 
-## Source, tests and evidence
+## Source and provenance
 
-`addon/` is the exact clean runtime source closure. [Release record](releases/1.0.5.md), `manifests/`, and `qa/release105/` separate source/content evidence, development-only worlds and manual acceptance from strict native diagnostics. Changed native model FBXs are under `source/models/1.0.5/`; unchanged historical authoring inputs remain preserved in the 1.0.4 branch/tag history. Earlier QA/proving-ground sources remain available and are not part of the public runtime package.
-
-Workshop 1.0.5 and its changelog are verified published. The intended Workshop description refresh remains pending because the native CLI reused prior metadata; this repository does not claim that text was updated.
+`addon/` contains the complete immutable editable addon source frozen for the published Build07, including import metadata and authoring FBX/TIF/TXO files. Use Git LFS when cloning (`git lfs pull`). Workbench regenerates `resourceDatabase.rdb`. The exact published PAK hash and source hashes are recorded in the release manifest. Dependencies remain in their own Workshop packages. Private native test fixtures and machine-specific logs are excluded from this sync; historical QA/source remains in Git history.
 
 Feedback: https://github.com/mortal414/gepard/issues/new?template=bug_report.yml
 

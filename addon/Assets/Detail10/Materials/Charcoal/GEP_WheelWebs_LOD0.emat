@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{78A816DACD460562}Assets/Detail10/Materials/Charcoal/GEP_WheelWebs_LOD0_BCR.edds"
+ NMOMap "{91102E711FF33F33}Assets/Detail10/Materials/Charcoal/GEP_WheelWebs_LOD0_NMO.edds"
+}

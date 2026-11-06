@@ -15,7 +15,9 @@ GenericEntity : "{D561AD08932E3006}Prefabs/Art/GepardTrackingBase.et" {
      SourceMaterial "GEP_Skin_GepardTrackingBase"
      AssignedMaterial "{05895C5A78FC2F96}Assets/Gepard/GEP018/NeutralBaseV2/66282ffb5bb1.emat"
     }
-   }
+   
+ MaterialAssignClass "{D6118F018CCCD5FD}" { SourceMaterial "D10_NATIVE_43D37A76" AssignedMaterial "{3EA6B76B37C4AB9C}Assets/Detail10/Materials/Charcoal/GepardTrackingBase_LOD0.emat" }
+ }
   }
   SlotManagerComponent "{D561AD08932E3406}" {
    Slots {

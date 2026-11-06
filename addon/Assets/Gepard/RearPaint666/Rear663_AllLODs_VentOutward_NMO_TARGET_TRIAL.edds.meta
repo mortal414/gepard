@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{892A2774188446E1}Assets/Gepard/RearPaint666/Rear663_AllLODs_VentOutward_NMO_TARGET_TRIAL.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+   SourceFile "Rear663_AllLODs_VentOutward_NMO_TARGET_TRIAL.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

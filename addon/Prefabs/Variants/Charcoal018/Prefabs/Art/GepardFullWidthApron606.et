@@ -19,7 +19,9 @@ GenericEntity : "{045EBD2C8477424E}Prefabs/Art/GepardFullWidthApron606.et" {
      SourceMaterial "GEP_Service641_FrontApronRight"
      AssignedMaterial "{06AAF119F5E4CA1F}Assets/Gepard/GEP018/NeutralBaseV2/c4c003557554.emat"
     }
-   }
+   
+ MaterialAssignClass "{8F8AE987687406CB}" { SourceMaterial "D10_NATIVE_CDC894A4" AssignedMaterial "{0522E40BC8D76F6B}Assets/Detail10/Materials/Charcoal/GEP_FullWidthApron_LOD0.emat" }
+ }
   }
  }
 }

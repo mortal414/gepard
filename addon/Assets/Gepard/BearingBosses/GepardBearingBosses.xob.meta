@@ -7,9 +7,9 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{6AA7644F602635B5}" {
-     SourceMaterial "GEP_Finish_Turret"
-     AssignedMaterial "{A83C4721B62F1004}Assets/Gepard/Finish/Turret.emat"
+    MaterialAssignClass "{2F525315411A1EFA}" {
+     SourceMaterial "D10_NATIVE_221E1983"
+     AssignedMaterial "{AA79D803497151E6}Assets/Detail10/Materials/Camo/GepardBearingBosses_LOD0.emat"
     }
    }
    MeshParams {

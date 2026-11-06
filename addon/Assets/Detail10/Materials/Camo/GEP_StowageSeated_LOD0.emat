@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{6C2E0C180F149C82}Assets/Detail10/Materials/Camo/GEP_StowageSeated_LOD0_BCR.edds"
+ NMOMap "{D024729F36FBFF35}Assets/Detail10/Materials/Camo/GEP_StowageSeated_LOD0_NMO.edds"
+}

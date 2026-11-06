@@ -7,21 +7,9 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{6A9A37F16E87B3BA}" {
-     SourceMaterial "GEP_nato_green"
-     AssignedMaterial "{D561AD08932E6006}Assets/Gepard/Surface/nato_green.emat"
-    }
-    MaterialAssignClass "{6A9A37F16E87B34F}" {
-     SourceMaterial "GEP_grille_paint"
-     AssignedMaterial "{D561AD08932E6004}Assets/Gepard/Surface/grille_paint.emat"
-    }
-    MaterialAssignClass "{6A9A37F16E87B351}" {
-     SourceMaterial "GEP_radar_dielectric"
-     AssignedMaterial "{D561AD08932E6007}Assets/Gepard/Surface/radar_dielectric.emat"
-    }
-    MaterialAssignClass "{D6412728904FFA61}" {
-     SourceMaterial "GEP_Service641_TrackerCover"
-     AssignedMaterial "{D641D04D525CD8DE}Assets/Gepard/ServiceCoat641/TrackerCover_Heavier.emat"
+    MaterialAssignClass "{494040CE400EED9C}" {
+     SourceMaterial "D10_NATIVE_70F066D8"
+     AssignedMaterial "{E838ABDD1812E95D}Assets/Detail10/Materials/Camo/GepardTrackingHead_LOD0.emat"
     }
    }
    MeshParams {

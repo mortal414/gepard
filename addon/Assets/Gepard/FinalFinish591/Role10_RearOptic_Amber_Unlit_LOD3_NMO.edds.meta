@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{89A35EAE3E21418A}Assets/Gepard/FinalFinish591/Role10_RearOptic_Amber_Unlit_LOD3_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+   SourceFile "Role10_RearOptic_Amber_Unlit_LOD3_NMO.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

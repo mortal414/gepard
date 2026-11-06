@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{54785DFDB2EEE661}Assets/Detail10/Materials/Charcoal/MobilityRig_LOD0_BCR.edds"
+ NMOMap "{1916494CC608D1FB}Assets/Detail10/Materials/Charcoal/MobilityRig_LOD0_NMO.edds"
+}

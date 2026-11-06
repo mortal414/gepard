@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{D3C3C2C7D072E928}Assets/Detail10/Materials/Camo/GEP_WheelWebs_LOD0_BCR.edds"
+ NMOMap "{2ABA169CD7710DD2}Assets/Detail10/Materials/Camo/GEP_WheelWebs_LOD0_NMO.edds"
+}

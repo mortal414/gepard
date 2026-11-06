@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{1889B6A678CD0359}Assets/Detail10/Materials/Charcoal/SearchYawSupport_LOD0_PROPOSED_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   SourceFile "SearchYawSupport_LOD0_PROPOSED_BCR.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

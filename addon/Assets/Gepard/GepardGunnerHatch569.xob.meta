@@ -7,17 +7,9 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 0
    MaterialAssigns {
-    MaterialAssignClass "{D621FA0E7AF6AAF2}" {
-     SourceMaterial "GEP_CrewRoof_Lids_ServiceB_20261017"
-     AssignedMaterial "{39CF4668FA6D4D71}Assets/Gepard/ServiceWear656/MAT_8bb6e0cb99_Service.emat"
-    }
-    MaterialAssignClass "{D6215B30B12A6CC8}" {
-     SourceMaterial "GEP_grille_paint"
-     AssignedMaterial "{D561AD08932E6004}Assets/Gepard/Surface/grille_paint.emat"
-    }
-    MaterialAssignClass "{D621B757F38B800C}" {
-     SourceMaterial "GEP_rubber"
-     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
+    MaterialAssignClass "{299CB80520E87CB4}" {
+     SourceMaterial "D10_NATIVE_DBE27AB5"
+     AssignedMaterial "{F3C08CABD249B885}Assets/Detail10/Materials/Camo/GepardGunnerHatch569_LOD0.emat"
     }
    }
    MeshParams {

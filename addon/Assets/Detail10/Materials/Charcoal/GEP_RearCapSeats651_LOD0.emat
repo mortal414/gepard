@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{44BBA2EA23CF4CCE}Assets/Detail10/Materials/Charcoal/GEP_RearCapSeats651_LOD0_BCR.edds"
+ NMOMap "{820CF27FCCE4EFDC}Assets/Detail10/Materials/Charcoal/GEP_RearCapSeats651_LOD0_NMO.edds"
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{A8479EC0C3C724F6}Assets/Detail10/Materials/Camo/GEP_ReturnRoller648_LOD0_BCR.edds"
+ NMOMap "{E0587D636B38F613}Assets/Detail10/Materials/Camo/GEP_ReturnRoller648_LOD0_NMO.edds"
+}

@@ -7,45 +7,13 @@ MetaFileClass {
    ExportMorphs 0
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{D61499CF70B1F352}" {
-     SourceMaterial "GEP_TurretLowerChin_ServiceB_20261017"
-     AssignedMaterial "{4B8A0C3041B14B4E}Assets/Gepard/ServiceWear656/MAT_08e170c59a_Service.emat"
+    MaterialAssignClass "{4E859ECEDB3209DB}" {
+     SourceMaterial "D10_NATIVE_7E5D2F11"
+     AssignedMaterial "{E4E08456C3D5A629}Assets/Detail10/Materials/Camo/GepardTurretRig_LOD0.emat"
     }
-    MaterialAssignClass "{31DB291338014162}" {
-     SourceMaterial "GEP_TurretShell_ServiceBRefined_20261017"
-     AssignedMaterial "{B4ACF76C11464034}Assets/Gepard/ExteriorClosure658/TurretNationalCrosses.emat"
-    }
-    MaterialAssignClass "{C1F5094EA2DA4568}" {
-     SourceMaterial "GEP_OpticPane_D"
-     AssignedMaterial "{D561AD08932E6001}Assets/Gepard/Surface/OpticalGlass.emat"
-    }
-    MaterialAssignClass "{33FB8552200F4E34}" {
-     SourceMaterial "GEP_TurretRearBand_20261017"
-     AssignedMaterial "{72CC8957129142F9}Assets/Gepard/ServiceWear656/MAT_deef85e30c_Service.emat"
-    }
-    MaterialAssignClass "{6A9B0A90687F09FE}" {
-     SourceMaterial "GEP_Finish_Turret"
-     AssignedMaterial "{A83C4721B62F1004}Assets/Gepard/Finish/Turret.emat"
-    }
-    MaterialAssignClass "{D621B0F01E4C1B90}" {
-     SourceMaterial "GEP_CrewRoof_Coaming_ServiceB_20261017"
-     AssignedMaterial "{613A025E27C844BE}Assets/Gepard/ServiceWear656/MAT_1e39c20792_Service.emat"
-    }
-    MaterialAssignClass "{D621A886EAADFEDC}" {
-     SourceMaterial "GEP_rubber"
-     AssignedMaterial "{D561AD08932E6008}Assets/Gepard/Surface/rubber.emat"
-    }
-    MaterialAssignClass "{D626B47FE594A65F}" {
-     SourceMaterial "GEP_StorageRearService_RearOriginalBoxes"
-     AssignedMaterial "{D62634DFA54F5738}Assets/Gepard/StorageRearService/RearOriginalBoxes.emat"
-    }
-    MaterialAssignClass "{D63511D37CAE7F2E}" {
-     SourceMaterial "GEP_Underpod225_ServicePaint"
-     AssignedMaterial "{D635241724D4A014}Assets/Gepard/Underpod225635/GEP_Underpod225_ServicePaint.emat"
-    }
-    MaterialAssignClass "{D63590E86342245E}" {
-     SourceMaterial "GEP_Underpod225_DarkFastener"
-     AssignedMaterial "{D6355DE63754441D}Assets/Gepard/Underpod225635/GEP_Underpod225_DarkFastener.emat"
+    MaterialAssignClass "{4240F5EB63D0DEF6}" {
+     SourceMaterial "D10_NATIVE_7D916C2F"
+     AssignedMaterial "{84595DB929726ECA}Assets/Detail10/Materials/Camo/GEP_RearCapSeats651_LOD0.emat"
     }
    }
    MeshParams {

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 1
+ MetalnessScale 1
+ AOScale 1
+ BCRMap "{AAA76FB7DBD75712}Assets/Detail10/Materials/Charcoal/GepardTrackingHead_LOD0_BCR.edds"
+ NMOMap "{608E74EA5ADA6C98}Assets/Detail10/Materials/Charcoal/GepardTrackingHead_LOD0_NMO.edds"
+}

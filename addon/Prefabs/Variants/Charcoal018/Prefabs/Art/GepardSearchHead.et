@@ -11,7 +11,9 @@ GenericEntity : "{D561AD08932E3005}Prefabs/Art/GepardSearchHead.et" {
      SourceMaterial "GEP_grille_paint"
      AssignedMaterial "{2538429B396DB655}Assets/Gepard/GEP018/NeutralBaseV2/47ed5aec4141.emat"
     }
-   }
+   
+ MaterialAssignClass "{978F1A851836819E}" { SourceMaterial "D10_NATIVE_1C758101" AssignedMaterial "{EFBB4C051C3ACBB9}Assets/Detail10/Materials/Charcoal/GepardSearchHead_LOD0.emat" }
+ }
   }
  }
 }
