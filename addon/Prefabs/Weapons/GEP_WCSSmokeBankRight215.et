@@ -17,7 +17,7 @@ GenericEntity : "{FF458505C9D5894C}Prefabs/Weapons/Core/Armament_Dispenser_Base.
 
   WCS_Armament_SmokeDispenserComponent "{7E0150C026101620}" {
    m_Projectile "{F8EE668DCA4ACE4E}Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et"
-   m_FirePosition PointInfo { Offset 0.000000008 0.000000029 -0.240000001 Angles 45.827232390 17.102685854 0.000000000 }
+   m_FirePosition PointInfo { Offset 0.000000008 0.000000029 -0.240000001 Angles 45.827232390 28 0.000000000 }
    m_vDispersion 0 0 0
    m_iNumProjectiles 1
    m_iFireIntervalMS 2500
@@ -28,7 +28,7 @@ GenericEntity : "{FF458505C9D5894C}Prefabs/Weapons/Core/Armament_Dispenser_Base.
   }
   WCS_Armament_SmokeDispenserComponent "{7E0150C026101621}" {
    m_Projectile "{F8EE668DCA4ACE4E}Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et"
-   m_FirePosition PointInfo { Offset 0.000000001 -0.000000002 -0.079999944 Angles 45.827224465 17.102678708 0.000000000 }
+   m_FirePosition PointInfo { Offset 0.000000001 -0.000000002 -0.079999944 Angles 45.827224465 20 0.000000000 }
    m_vDispersion 0 0 0
    m_iNumProjectiles 1
    m_iFireIntervalMS 2500
@@ -39,7 +39,7 @@ GenericEntity : "{FF458505C9D5894C}Prefabs/Weapons/Core/Armament_Dispenser_Base.
   }
   WCS_Armament_SmokeDispenserComponent "{7E0150C026101622}" {
    m_Projectile "{F8EE668DCA4ACE4E}Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et"
-   m_FirePosition PointInfo { Offset -0.000000007 -0.000000036 0.079999981 Angles 45.827241431 17.102681487 0.000000000 }
+   m_FirePosition PointInfo { Offset -0.000000007 -0.000000036 0.079999981 Angles 45.827241431 12 0.000000000 }
    m_vDispersion 0 0 0
    m_iNumProjectiles 1
    m_iFireIntervalMS 2500
@@ -50,7 +50,7 @@ GenericEntity : "{FF458505C9D5894C}Prefabs/Weapons/Core/Armament_Dispenser_Base.
   }
   WCS_Armament_SmokeDispenserComponent "{7E0150C026101623}" {
    m_Projectile "{F8EE668DCA4ACE4E}Prefabs/Weapons/Ammo/WCS/Ammo_Smoke_CROWS.et"
-   m_FirePosition PointInfo { Offset -0.000000003 0.000000009 0.239999965 Angles 45.827247182 17.102688299 0.000000000 }
+   m_FirePosition PointInfo { Offset -0.000000003 0.000000009 0.239999965 Angles 45.827247182 3 0.000000000 }
    m_vDispersion 0 0 0
    m_iNumProjectiles 1
    m_iFireIntervalMS 2500

@@ -19,11 +19,13 @@ class GEP_GetInHatch569 : SCR_GetInUserAction
  protected int m_HatchPolls594;
  protected bool m_HatchSeenOpen594;
  protected bool m_HatchCloseRequested594;
+ protected float m_HatchSeatReadyAt594=-1;
  protected vector m_HatchApproachLocal594;
  const int HATCH_MAX_POLLS594=60; // 100ms polls; every attempt is finite
  const float HATCH_OPEN_READY594=0.95;
  const float HATCH_CLOSED_READY594=0.05;
  const float HATCH_APPROACH_DRIFT594=1.5;
+ const float HATCH_SEAT_SETTLE_MS594=1000;
 
  int ResolveHatchDoor594(IEntity user)
  {
@@ -68,7 +70,7 @@ class GEP_GetInHatch569 : SCR_GetInUserAction
   m_HatchToken594++;
   if(GetGame())GetGame().GetCallqueue().Remove(PollHatchEntry594);
   m_HatchPhase594=0;m_HatchOwner594=null;m_HatchUser594=null;m_HatchSeat594=null;
-  m_HatchDoor594=-1;m_HatchPolls594=0;m_HatchSeenOpen594=false;m_HatchCloseRequested594=false;
+  m_HatchDoor594=-1;m_HatchPolls594=0;m_HatchSeenOpen594=false;m_HatchCloseRequested594=false;m_HatchSeatReadyAt594=-1;
  }
  void ScheduleHatchPoll594()
  {
@@ -101,7 +103,7 @@ class GEP_GetInHatch569 : SCR_GetInUserAction
   m_HatchOwner594=pOwnerEntity;m_HatchUser594=pUserEntity;m_HatchSeat594=seat;m_HatchDoor594=door;
   m_HatchApproachLocal594=pOwnerEntity.CoordToLocal(pUserEntity.GetOrigin());
   m_HatchToken594++;m_HatchPolls594=0;m_HatchPhase594=1;
-  m_HatchSeenOpen594=manager.IsDoorOpen(door);m_HatchCloseRequested594=false;
+  m_HatchSeenOpen594=manager.IsDoorOpen(door);m_HatchCloseRequested594=false;m_HatchSeatReadyAt594=-1;
   if(!HatchActorAndVehicleAlive594()){EndHatchEntry594("initial_actor_or_vehicle_invalid");return;}
   if(!m_HatchSeenOpen594)
   {
@@ -151,6 +153,7 @@ class GEP_GetInHatch569 : SCR_GetInUserAction
    if(actual&&actual!=m_HatchSeat594){EndHatchEntry594("different_seat");return;}
    if(access.IsGettingIn()||!actual){ScheduleHatchPoll594();return;}
    if(actual.GetOccupant()!=m_HatchUser594){EndHatchEntry594("occupant_mismatch");return;}
+   m_HatchSeatReadyAt594=GetGame().GetWorld().GetWorldTime()+HATCH_SEAT_SETTLE_MS594;
    m_HatchPhase594=3;
   }
   if(m_HatchPhase594==3)
@@ -158,7 +161,19 @@ class GEP_GetInHatch569 : SCR_GetInUserAction
    if(access.IsGettingIn()||access.GetCompartment()!=m_HatchSeat594||m_HatchSeat594.GetOccupant()!=m_HatchUser594)
    {EndHatchEntry594("occupancy_lost");return;}
    // Never compete with the still-finishing native boarding/door queue.
-   if(doorUser){ScheduleHatchPoll594();return;}
+   float now=GetGame().GetWorld().GetWorldTime();
+   ChimeraCharacter character=ChimeraCharacter.Cast(m_HatchUser594);
+   CharacterCommandHandlerComponent handler;
+   if(character && character.GetAnimationComponent())handler=character.GetAnimationComponent().GetCommandHandler();
+   // Occupancy can appear before the native boarding queue accepts another
+   // request. Match the existing one-second seat-readiness policy before
+   // issuing the single close request; retain the original finite poll bound.
+   if(doorUser || !handler || !handler.GetCommandVehicle())
+   {
+    m_HatchSeatReadyAt594=now+HATCH_SEAT_SETTLE_MS594;
+    ScheduleHatchPoll594();return;
+   }
+   if(now<m_HatchSeatReadyAt594){ScheduleHatchPoll594();return;}
    if(manager.IsDoorOpen(m_HatchDoor594))
    {
     if(!m_HatchCloseRequested594)

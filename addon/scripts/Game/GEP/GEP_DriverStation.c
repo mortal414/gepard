@@ -109,25 +109,38 @@ class GEP_DriverViewAction : ScriptedUserAction
 // and input lifecycle, modifying only the optical transform for our component.
 modded class CharacterCamera1stPersonVehicle
 {
+ // Native cameras can retain the turret owner across a same-class seat switch.
+ // Resolve our optional presentation component from the actual occupied pilot
+ // compartment; leave the engine's cached owner and input lifecycle untouched.
+ IEntity GEP_CurrentDriverVehicle594()
+ {
+  if(!m_OwnerCharacter)return null;
+  CompartmentAccessComponent access=m_OwnerCharacter.GetCompartmentAccessComponent();
+  if(!access)return null;
+  PilotCompartmentSlot seat=PilotCompartmentSlot.Cast(access.GetCompartment());
+  if(!seat || seat.GetOccupant()!=m_OwnerCharacter)return null;
+  return seat.GetVehicle();
+ }
+
  override void OnAfterCameraUpdate(float pDt,bool pIsKeyframe,inout vector transformMS[4])
  {
   super.OnAfterCameraUpdate(pDt,pIsKeyframe,transformMS);
-  if(!m_OwnerVehicle || !m_OwnerCharacter) return;
-  GEP_DriverStation station=GEP_DriverStation.Cast(m_OwnerVehicle.FindComponent(GEP_DriverStation));
+  IEntity driverVehicle=GEP_CurrentDriverVehicle594();if(!driverVehicle)return;
+  GEP_DriverStation station=GEP_DriverStation.Cast(driverVehicle.FindComponent(GEP_DriverStation));
   if(!station || !station.IsDriver(m_OwnerCharacter) || station.GetViewMode(m_OwnerCharacter)!=0) return;
   // Reclining the native seat tilts its yaw axis. Keep the actual animated
   // eye translation, but let the pilot look around relative to the vehicle.
   vector look=m_Input.GetLookAtAngles();vector view[4],vehiclePose[4],worldPose[4],actorPose[4],localPose[4];
   Math3D.AnglesToMatrix(Vector(look[0]*Math.RAD2DEG,look[1]*Math.RAD2DEG-20,0),view);
-  m_OwnerVehicle.GetTransform(vehiclePose);m_OwnerCharacter.GetTransform(actorPose);
+  driverVehicle.GetTransform(vehiclePose);m_OwnerCharacter.GetTransform(actorPose);
   Math3D.MatrixMultiply3(vehiclePose,view,worldPose);Math3D.MatrixInvMultiply4(actorPose,worldPose,localPose);
   for(int axis=0;axis<3;axis++) transformMS[axis]=localPose[axis];
  }
  override void OnUpdate(float pDt,out ScriptedCameraItemResult pOutResult)
  {
   super.OnUpdate(pDt,pOutResult);
-  if(!m_OwnerVehicle || !m_OwnerCharacter) return;
-  GEP_DriverStation station=GEP_DriverStation.Cast(m_OwnerVehicle.FindComponent(GEP_DriverStation));
+  IEntity driverVehicle=GEP_CurrentDriverVehicle594();if(!driverVehicle)return;
+  GEP_DriverStation station=GEP_DriverStation.Cast(driverVehicle.FindComponent(GEP_DriverStation));
   vector worldPose[4];if(!station || !station.GetOpticalTransform(m_OwnerCharacter,worldPose)) return;
   vector actorPose[4];m_OwnerCharacter.GetTransform(actorPose);
   Math3D.MatrixInvMultiply4(actorPose,worldPose,pOutResult.m_CameraTM);
