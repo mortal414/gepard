@@ -1,12 +1,12 @@
 # Gepard 35 mm SPAA - 1.0.5
 
-Playable WIP Gepard for Arma Reforger with twin35mm guns, camouflage and charcoal variants. Current published Workshop item: **D561AD08932E7B40**.
+Playable WIP Gepard for Arma Reforger with twin 35 mm guns, camouflage and charcoal variants. Current published Workshop item: **D561AD08932E7B40**.
 
 ## Current status and visual plans (2026-10-28)
 
-I hope to revisit the exterior and interior models over the next few months, depending on the success other LLM -> Blender pipelines. There is no firm timeline or promised release for these visual updates. Collaboration welcome.
+I hope to revisit the exterior and interior models over the next few months, depending on how the LLM-to-Blender experiments go. There is no firm timeline or promised release for these visual updates. Collaboration welcome.
 
-## Changes in1.0.5
+## Changes in 1.0.5
 
 - Optical stabilization with entity/position tracking and a confirmed entity-lock reticle cue.
 - Independent C rangefinding and approximate ballistic elevation adjustment for left/right/both current HEI-T feeds, with stabilization OFF or ON.
@@ -29,9 +29,9 @@ Existing smoke deployment/rearming, optic HUD, track audio and component-damage 
 
 ## Source, tests and evidence
 
-`addon/` is the exact clean runtime source closure. [Release record](releases/1.0.5.md), `manifests/`, and `qa/release105/` separate source/content evidence, development-only worlds and manual acceptance from strict native diagnostics. Changed native model FBXs are under `source/models/1.0.5/`; unchanged historical authoring inputs remain preserved in the1.0.4 branch/tag history. Earlier QA/proving-ground sources remain available and are not part of the public runtime package.
+`addon/` is the exact clean runtime source closure. [Release record](releases/1.0.5.md), `manifests/`, and `qa/release105/` separate source/content evidence, development-only worlds and manual acceptance from strict native diagnostics. Changed native model FBXs are under `source/models/1.0.5/`; unchanged historical authoring inputs remain preserved in the 1.0.4 branch/tag history. Earlier QA/proving-ground sources remain available and are not part of the public runtime package.
 
-Workshop1.0.5 and its changelog are verified published. The intended Workshop description refresh remains pending because the native CLI reused prior metadata; this repository does not claim that text was updated.
+Workshop 1.0.5 and its changelog are verified published. The intended Workshop description refresh remains pending because the native CLI reused prior metadata; this repository does not claim that text was updated.
 
 Feedback: https://github.com/mortal414/gepard/issues/new?template=bug_report.yml
 
