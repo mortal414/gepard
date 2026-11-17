@@ -6,6 +6,20 @@ The repository matches published **1.0.7**. Its actual runtime download is **191
 
 The prepared 151.98 MB container was rebuilt by the native publisher; it is not the live download size. All 545 published runtime resources match the tested candidate. The release record explains the size discrepancy and test limits.
 
+## Blender development gallery
+
+Explore the [Gepard Blender showcase](https://github.com/mortal414/gepard-blender-showcase) for model-development renders, both finishes and authoring progress. **The Blender work and the playable mod are separate milestones.** New gallery media do not change this repository's published 1.0.7 release or the Workshop build.
+
+## Project navigation
+
+- **Play:** [Workshop page](https://reforger.armaplatform.com/workshop/D561AD08932E7B40).
+- **Browse the model:** [Blender showcase](https://github.com/mortal414/gepard-blender-showcase).
+- **Understand this release:** [1.0.7 release record](releases/1.0.7.md) and [source/package manifest](manifests/addon-1.0.7-sha256.json).
+- **Inspect source:** [`addon/`](addon/), using Git LFS as described below.
+- **Report a problem:** [bug report form](https://github.com/mortal414/gepard/issues/new?template=bug_report.yml).
+
+Marco Betti leads creative direction, feedback and playtesting, with AI-assisted tools supporting implementation and iteration.
+
 ## Controls
 
 RMB enters the optic. Shift+V cycles Both/Left/Right. C ranges the aimed point and adjusts elevation without changing the selected stabilization mode. Hold Space toggles stabilization; tap Space while enabled to designate/clear a target. Entity-lock endcaps require a confirmed usable entity lock; terrain/position tracking does not show them. Re-range after changing the gun group/ammunition or leaving the optic.
