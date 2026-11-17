@@ -8,7 +8,7 @@ The prepared 151.98 MB container was rebuilt by the native publisher; it is not 
 
 ## Blender development gallery
 
-Explore the [Gepard Blender showcase](https://github.com/mortal414/gepard-blender-showcase) for model-development renders, both finishes and authoring progress. **The Blender work and the playable mod are separate milestones.** New gallery media do not change this repository's published 1.0.7 release or the Workshop build.
+Explore the [Gepard Blender showcase](https://github.com/mortal414/gepard-blender-showcase) for model-development renders, both finishes and authoring progress. We're working to bring this updated look into Arma Reforger. The renders show work in progress in Blender, not the current in-game release. **The Blender work and the playable mod are separate milestones.** New gallery media do not change this repository's published 1.0.7 release or the Workshop build.
 
 ## Project navigation
 
